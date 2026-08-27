@@ -1,0 +1,31 @@
+{
+  "dataset": "clapnq",
+  "rag": "vector",
+  "rag_info": {
+    "name": "vector",
+    "implementation": "dense retrieval (cosine) over official MTRAG corpus",
+    "embedding_model": "text-embedding-3-small",
+    "generation_model": "gpt-4o-mini",
+    "corpus": "clapnq.jsonl",
+    "corpus_passages": 183408,
+    "embedding_index": "clapnq.embindex.npy",
+    "embedding_dim": 1536,
+    "chunking": "official MTRAG passage-level corpus (1 passage = 1 chunk)",
+    "index_scope": "domain corpus only (no answers/qrels/future questions)"
+  },
+  "num_conversations": 29,
+  "num_turns_this_run": 207,
+  "retrieval_k": 5,
+  "seed": 0,
+  "selection": {
+    "conversation_ids": null,
+    "num_conversations": null,
+    "max_turns": null
+  },
+  "retrieval_query_policy": "raw current human question (MTRAG last-turn protocol; no rewrite)",
+  "history_policy": "tested RAG's own previous answers (no reference leakage)",
+  "corpus": "D:\\1 DynaicQA\\jaist\\mtrag_validation\\corpora\\passage_level\\clapnq.jsonl",
+  "mtrag_tasks": "D:\\1 DynaicQA\\mt-rag-benchmark\\mtrag-human\\generation_tasks\\reference.jsonl",
+  "timestamp_utc": "2026-08-26T17:03:00.606885+00:00",
+  "duration_s": 510.2
+}
