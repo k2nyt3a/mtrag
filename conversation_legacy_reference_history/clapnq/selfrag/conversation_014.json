@@ -1,0 +1,1828 @@
+{
+  "conversation_id": "6a738cc02c5aa0b74319acd0e8a809dd",
+  "dataset": "clapnq",
+  "collection": "mt-rag-clapnq-elser-512-100-20240503",
+  "rag": "selfrag",
+  "num_turns": 9,
+  "turns": [
+    {
+      "turn_id": "1",
+      "task_id": "6a738cc02c5aa0b74319acd0e8a809dd<::>1",
+      "question": "types and causes of male and female infertility",
+      "rag_history_before_turn": [],
+      "retrieval": {
+        "query": "types and causes of male and female infertility",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "836413300_14735-15544-0-809",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Infertility The main cause of male infertility is low semen quality . In men who have the necessary reproductive organs to procreate , infertility can be caused by low sperm count due to endocrine problems , drugs , radiation , or infection . There may be testicular malformations , hormone imbalance , or blockage of the man 's duct system . Although many of these can be treated through surgery or hormonal substitutions , some may be indefinite . Infertility associated with viable , but immotile sperm may be caused by primary ciliary dyskinesia . The sperm must provide the zygote with DNA , centrioles , and activation factor for the embryo to develop . A defect in any of these sperm structures may result in infertility that will not be detected by semen analysis . Antisperm antibodies cause immune infertility .",
+            "title": "Infertility"
+          },
+          {
+            "rank": 2,
+            "doc_id": "836413300_12619-12940-0-321",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Infertility The following causes of infertility may only be found in females . For a woman to conceive , certain things have to happen : vaginal intercourse must take place around the time when an egg is released from her ovary ; the system that produces eggs has to be working at optimum levels ; and her hormones must be balanced .",
+            "title": "Infertility"
+          },
+          {
+            "rank": 3,
+            "doc_id": "836413300_446-1385-0-939",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Infertility In humans , infertility is the inability to become pregnant or carry a pregnancy to full term . There are many causes of infertility , including some that medical intervention can treat . Estimates from 1997 suggest that worldwide about five percent of all heterosexual couples have an unresolved problem with infertility . Many more couples , however , experience involuntary childlessness for at least one year : estimates range from 12 % to 28 % . '' 20 - 30 % of infertility cases are due to male infertility , 20 - 35 % are due to female infertility , and 25 - 40 % are due to combined problems in both parts . In 10 - 20 % of cases , no cause is found . The most common cause of female infertility is ovulatory problems which generally manifest themselves by sparse or absent menstrual periods . Male infertility is most commonly due to deficiencies in the semen , and semen quality is used as a surrogate measure of male fecundity .",
+            "title": "Infertility"
+          },
+          {
+            "rank": 4,
+            "doc_id": "836413300_15575-15915-0-340",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Infertility In some cases , both the man and woman may be infertile or sub-fertile , and the couple 's infertility arises from the combination of these conditions . In other cases , the cause is suspected to be immunological or genetic ; it may be that each partner is independently fertile but the couple can not conceive together without assistance .",
+            "title": "Infertility"
+          },
+          {
+            "rank": 5,
+            "doc_id": "836413300_12271-12560-0-289",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Infertility German scientists have reported that a virus called Adeno - associated virus might have a role in male infertility , though it is otherwise not harmful . Other diseases such as chlamydia , and gonorrhea can also cause infertility , due to internal scarring ( fallopian tube obstruction ) .",
+            "title": "Infertility"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "836413300_14735-15544-0-809",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Infertility The main cause of male infertility is low semen quality . In men who have the necessary reproductive organs to procreate , infertility can be caused by low sperm count due to endocrine problems , drugs , radiation , or infection . There may be testicular malformations , hormone imbalance , or blockage of the man 's duct system . Although many of these can be treated through surgery or hormonal substitutions , some may be indefinite . Infertility associated with viable , but immotile sperm may be caused by primary ciliary dyskinesia . The sperm must provide the zygote with DNA , centrioles , and activation factor for the embryo to develop . A defect in any of these sperm structures may result in infertility that will not be detected by semen analysis . Antisperm antibodies cause immune infertility .",
+            "title": "Infertility"
+          },
+          {
+            "rank": 2,
+            "doc_id": "836413300_12619-12940-0-321",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Infertility The following causes of infertility may only be found in females . For a woman to conceive , certain things have to happen : vaginal intercourse must take place around the time when an egg is released from her ovary ; the system that produces eggs has to be working at optimum levels ; and her hormones must be balanced .",
+            "title": "Infertility"
+          },
+          {
+            "rank": 3,
+            "doc_id": "836413300_446-1385-0-939",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Infertility In humans , infertility is the inability to become pregnant or carry a pregnancy to full term . There are many causes of infertility , including some that medical intervention can treat . Estimates from 1997 suggest that worldwide about five percent of all heterosexual couples have an unresolved problem with infertility . Many more couples , however , experience involuntary childlessness for at least one year : estimates range from 12 % to 28 % . '' 20 - 30 % of infertility cases are due to male infertility , 20 - 35 % are due to female infertility , and 25 - 40 % are due to combined problems in both parts . In 10 - 20 % of cases , no cause is found . The most common cause of female infertility is ovulatory problems which generally manifest themselves by sparse or absent menstrual periods . Male infertility is most commonly due to deficiencies in the semen , and semen quality is used as a surrogate measure of male fecundity .",
+            "title": "Infertility"
+          },
+          {
+            "rank": 4,
+            "doc_id": "836413300_15575-15915-0-340",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Infertility In some cases , both the man and woman may be infertile or sub-fertile , and the couple 's infertility arises from the combination of these conditions . In other cases , the cause is suspected to be immunological or genetic ; it may be that each partner is independently fertile but the couple can not conceive together without assistance .",
+            "title": "Infertility"
+          },
+          {
+            "rank": 5,
+            "doc_id": "836413300_12271-12560-0-289",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Infertility German scientists have reported that a virus called Adeno - associated virus might have a role in male infertility , though it is otherwise not harmful . Other diseases such as chlamydia , and gonorrhea can also cause infertility , due to internal scarring ( fallopian tube obstruction ) .",
+            "title": "Infertility"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "endocrine problems",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "836413300_14735-15544-0-809",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Infertility The main cause of male infertility is low semen quality . In men who have the necessary reproductive organs to procreate , infertility can be caused by low sperm count due to endocrine problems , drugs , radiation , or infection . There may be testicular malformations , hormone imbalance , or blockage of the man 's duct system . Although many of these can be treated through surgery or hormonal substitutions , some may be indefinite . Infertility associated with viable , but immotile sperm may be caused by primary ciliary dyskinesia . The sperm must provide the zygote with DNA , centrioles , and activation factor for the embryo to develop . A defect in any of these sperm structures may result in infertility that will not be detected by semen analysis . Antisperm antibodies cause immune infertility .",
+          "title": "Infertility"
+        },
+        {
+          "rank": 2,
+          "doc_id": "836413300_12619-12940-0-321",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Infertility The following causes of infertility may only be found in females . For a woman to conceive , certain things have to happen : vaginal intercourse must take place around the time when an egg is released from her ovary ; the system that produces eggs has to be working at optimum levels ; and her hormones must be balanced .",
+          "title": "Infertility"
+        },
+        {
+          "rank": 3,
+          "doc_id": "836413300_446-1385-0-939",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Infertility In humans , infertility is the inability to become pregnant or carry a pregnancy to full term . There are many causes of infertility , including some that medical intervention can treat . Estimates from 1997 suggest that worldwide about five percent of all heterosexual couples have an unresolved problem with infertility . Many more couples , however , experience involuntary childlessness for at least one year : estimates range from 12 % to 28 % . '' 20 - 30 % of infertility cases are due to male infertility , 20 - 35 % are due to female infertility , and 25 - 40 % are due to combined problems in both parts . In 10 - 20 % of cases , no cause is found . The most common cause of female infertility is ovulatory problems which generally manifest themselves by sparse or absent menstrual periods . Male infertility is most commonly due to deficiencies in the semen , and semen quality is used as a surrogate measure of male fecundity .",
+          "title": "Infertility"
+        },
+        {
+          "rank": 4,
+          "doc_id": "836413300_15575-15915-0-340",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Infertility In some cases , both the man and woman may be infertile or sub-fertile , and the couple 's infertility arises from the combination of these conditions . In other cases , the cause is suspected to be immunological or genetic ; it may be that each partner is independently fertile but the couple can not conceive together without assistance .",
+          "title": "Infertility"
+        },
+        {
+          "rank": 5,
+          "doc_id": "836413300_12271-12560-0-289",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Infertility German scientists have reported that a virus called Adeno - associated virus might have a role in male infertility , though it is otherwise not harmful . Other diseases such as chlamydia , and gonorrhea can also cause infertility , due to internal scarring ( fallopian tube obstruction ) .",
+          "title": "Infertility"
+        }
+      ],
+      "reference": {
+        "answer": "Here are the types and causes of male and female infertility: Male infertility can be caused by: 1. Low semen quality 2. Endocrine problems 3. Drugs 4. Radiation 5. Infection 6. Testicular malformations 7. Hormone imbalance 8. Blockage of the duct system 9. Primary ciliary dyskinesia 10. Antisperm antibodies Female infertility can be caused by: 1. Inability to ovulate 2. Malformation of the eggs 3. Polycystic ovarian syndrome 4. Failure of ovaries to mature and release eggs 5. Ovulatory problems These causes can be diagnosed and, in some cases, treated through medical intervention. However, in about 10-20% of cases, no cause is found.",
+        "evidence_ids": [
+          "836413300_14735-15544-0-809",
+          "836413300_13498-14009-0-511",
+          "836413300_446-1385-0-939"
+        ],
+        "evidence": [
+          {
+            "doc_id": "836413300_14735-15544-0-809",
+            "text": "Infertility\nInfertility\nThe main cause of male infertility is low semen quality . In men who have the necessary reproductive organs to procreate , infertility can be caused by low sperm count due to endocrine problems , drugs , radiation , or infection . There may be testicular malformations , hormone imbalance , or blockage of the man 's duct system . Although many of these can be treated through surgery or hormonal substitutions , some may be indefinite . Infertility associated with viable , but immotile sperm may be caused by primary ciliary dyskinesia . The sperm must provide the zygote with DNA , centrioles , and activation factor for the embryo to develop . A defect in any of these sperm structures may result in infertility that will not be detected by semen analysis . Antisperm antibodies cause immune infertility ."
+          },
+          {
+            "doc_id": "836413300_13498-14009-0-511",
+            "text": "Infertility\nInfertility\nAnother major cause of infertility in women may be the inability to ovulate . Malformation of the eggs themselves may complicate conception . For example , polycystic ovarian syndrome is when the eggs only partially developed within the ovary and there is an excess of male hormones . Some women are infertile because their ovaries do not mature and release eggs . In this case synthetic FSH by injection or Clomid ( Clomiphene citrate ) via a pill can be given to stimulate follicles to mature in the ovaries ."
+          },
+          {
+            "doc_id": "836413300_446-1385-0-939",
+            "text": "Infertility\nInfertility\nIn humans , infertility is the inability to become pregnant or carry a pregnancy to full term . There are many causes of infertility , including some that medical intervention can treat . Estimates from 1997 suggest that worldwide about five percent of all heterosexual couples have an unresolved problem with infertility . Many more couples , however , experience involuntary childlessness for at least one year : estimates range from 12 % to 28 % . '' 20 - 30 % of infertility cases are due to male infertility , 20 - 35 % are due to female infertility , and 25 - 40 % are due to combined problems in both parts . In 10 - 20 % of cases , no cause is found . The most common cause of female infertility is ovulatory problems which generally manifest themselves by sparse or absent menstrual periods . Male infertility is most commonly due to deficiencies in the semen , and semen quality is used as a surrogate measure of male fecundity ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Summarization"
+        ],
+        "multi_turn": [
+          "N/A"
+        ]
+      }
+    },
+    {
+      "turn_id": "2",
+      "task_id": "6a738cc02c5aa0b74319acd0e8a809dd<::>2",
+      "question": "How many years, think about adoption?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "types and causes of male and female infertility"
+        },
+        {
+          "role": "assistant",
+          "content": "Here are the types and causes of male and female infertility: Male infertility can be caused by: 1. Low semen quality 2. Endocrine problems 3. Drugs 4. Radiation 5. Infection 6. Testicular malformations 7. Hormone imbalance 8. Blockage of the duct system 9. Primary ciliary dyskinesia 10. Antisperm antibodies Female infertility can be caused by: 1. Inability to ovulate 2. Malformation of the eggs 3. Polycystic ovarian syndrome 4. Failure of ovaries to mature and release eggs 5. Ovulatory problems These causes can be diagnosed and, in some cases, treated through medical intervention. However, in about 10-20% of cases, no cause is found."
+        }
+      ],
+      "retrieval": {
+        "query": "How many years, think about adoption?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "866342496_23667-24382-0-715",
+            "score": null,
+            "score_type": "contriever",
+            "text": "One-child policy In an interview with National Public Radio on October 30 , 2015 , Adam Pertman , president and CEO of the National Center on Adoption and Permanency , indicated that many young girls were adopted by citizens of other countries , particularly the United States , a trend which has been declining for some years . `` The infant girls of yesteryear have not been available , if you will , for five , seven years . China has been ... trying to keep the girls within the country ... And the consequence is that , today , rather than those young girls who used to be available -- primarily girls -- today , it 's older children , children with special needs , children in sibling groups . It 's very , very different . ''",
+            "title": "One-child policy"
+          },
+          {
+            "rank": 2,
+            "doc_id": "838495553_47409-47637-0-228",
+            "score": null,
+            "score_type": "contriever",
+            "text": "International Financial Reporting Standards To prepare properly for IFRS adoption , domestic companies should propose an IFRS adoption plan and establish a specific taskforce . They should also disclose the related information from 2 years prior to adoption , as follows :",
+            "title": "International Financial Reporting Standards"
+          },
+          {
+            "rank": 3,
+            "doc_id": "849505680_11316-11611-0-295",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Stepfamily A stepparent adoption can still occur if the other birth parent refuses to give consent or can not be located . Most states ' laws allow parental rights to be terminated when a parent has willfully failed to pay child support or communicate with the child for a period of time , usually a year .",
+            "title": "Stepfamily"
+          },
+          {
+            "rank": 4,
+            "doc_id": "866342496_23158-23666-0-508",
+            "score": null,
+            "score_type": "contriever",
+            "text": "One-child policy In the 1980s , adoptions accounted for half of the so - called `` missing girls '' . Through the 1980s , as the one - child policy came into force , parents who desired a son but had a daughter often failed to report or delayed reporting female births to the authorities . Some parents may have offered up their daughters for formal or informal adoption . A majority of children who went through formal adoption in China in the later 1980s were girls , and the proportion who were girls increased over time .",
+            "title": "One-child policy"
+          },
+          {
+            "rank": 5,
+            "doc_id": "853841453_34066-34705-0-639",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Society of the United States State law provides for child support where children are involved , and sometimes for alimony . `` Married adults now divorce two - and - a-half times as often as adults did 20 years ago and four times as often as they did 50 years ago ... between 40 % and 60 % of new marriages will eventually end in divorce . The probability within ... the first five years is 20 % , and the probability of its ending within the first 10 years is 33 % ... Perhaps 25 % of children ages sixteen and under live with a step - parent . '' The median length for a marriage in the US today is eleven years with 90 % of all divorces being settled out of court .",
+            "title": "Society of the United States"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "866342496_23667-24382-0-715",
+            "score": null,
+            "score_type": "contriever",
+            "text": "One-child policy In an interview with National Public Radio on October 30 , 2015 , Adam Pertman , president and CEO of the National Center on Adoption and Permanency , indicated that many young girls were adopted by citizens of other countries , particularly the United States , a trend which has been declining for some years . `` The infant girls of yesteryear have not been available , if you will , for five , seven years . China has been ... trying to keep the girls within the country ... And the consequence is that , today , rather than those young girls who used to be available -- primarily girls -- today , it 's older children , children with special needs , children in sibling groups . It 's very , very different . ''",
+            "title": "One-child policy"
+          },
+          {
+            "rank": 2,
+            "doc_id": "838495553_47409-47637-0-228",
+            "score": null,
+            "score_type": "contriever",
+            "text": "International Financial Reporting Standards To prepare properly for IFRS adoption , domestic companies should propose an IFRS adoption plan and establish a specific taskforce . They should also disclose the related information from 2 years prior to adoption , as follows :",
+            "title": "International Financial Reporting Standards"
+          },
+          {
+            "rank": 3,
+            "doc_id": "849505680_11316-11611-0-295",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Stepfamily A stepparent adoption can still occur if the other birth parent refuses to give consent or can not be located . Most states ' laws allow parental rights to be terminated when a parent has willfully failed to pay child support or communicate with the child for a period of time , usually a year .",
+            "title": "Stepfamily"
+          },
+          {
+            "rank": 4,
+            "doc_id": "866342496_23158-23666-0-508",
+            "score": null,
+            "score_type": "contriever",
+            "text": "One-child policy In the 1980s , adoptions accounted for half of the so - called `` missing girls '' . Through the 1980s , as the one - child policy came into force , parents who desired a son but had a daughter often failed to report or delayed reporting female births to the authorities . Some parents may have offered up their daughters for formal or informal adoption . A majority of children who went through formal adoption in China in the later 1980s were girls , and the proportion who were girls increased over time .",
+            "title": "One-child policy"
+          },
+          {
+            "rank": 5,
+            "doc_id": "853841453_34066-34705-0-639",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Society of the United States State law provides for child support where children are involved , and sometimes for alimony . `` Married adults now divorce two - and - a-half times as often as adults did 20 years ago and four times as often as they did 50 years ago ... between 40 % and 60 % of new marriages will eventually end in divorce . The probability within ... the first five years is 20 % , and the probability of its ending within the first 10 years is 33 % ... Perhaps 25 % of children ages sixteen and under live with a step - parent . '' The median length for a marriage in the US today is eleven years with 90 % of all divorces being settled out of court .",
+            "title": "Society of the United States"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Adoption is a great option for those who are unable to have children on their own.It is a permanent and loving way to provide a child with a family.Adoption can be a long and complex process, but it is worth it.It is important to make sure that you are ready for the commitment and responsibility of adopting a child before you begin the process.It is also important to make sure that the child is placed in a safe and loving environment.If you are considering adoption, it is important to do your research and to work with a reputable adoption agency.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "866342496_23667-24382-0-715",
+          "score": null,
+          "score_type": "contriever",
+          "text": "One-child policy In an interview with National Public Radio on October 30 , 2015 , Adam Pertman , president and CEO of the National Center on Adoption and Permanency , indicated that many young girls were adopted by citizens of other countries , particularly the United States , a trend which has been declining for some years . `` The infant girls of yesteryear have not been available , if you will , for five , seven years . China has been ... trying to keep the girls within the country ... And the consequence is that , today , rather than those young girls who used to be available -- primarily girls -- today , it 's older children , children with special needs , children in sibling groups . It 's very , very different . ''",
+          "title": "One-child policy"
+        },
+        {
+          "rank": 2,
+          "doc_id": "838495553_47409-47637-0-228",
+          "score": null,
+          "score_type": "contriever",
+          "text": "International Financial Reporting Standards To prepare properly for IFRS adoption , domestic companies should propose an IFRS adoption plan and establish a specific taskforce . They should also disclose the related information from 2 years prior to adoption , as follows :",
+          "title": "International Financial Reporting Standards"
+        },
+        {
+          "rank": 3,
+          "doc_id": "849505680_11316-11611-0-295",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Stepfamily A stepparent adoption can still occur if the other birth parent refuses to give consent or can not be located . Most states ' laws allow parental rights to be terminated when a parent has willfully failed to pay child support or communicate with the child for a period of time , usually a year .",
+          "title": "Stepfamily"
+        },
+        {
+          "rank": 4,
+          "doc_id": "866342496_23158-23666-0-508",
+          "score": null,
+          "score_type": "contriever",
+          "text": "One-child policy In the 1980s , adoptions accounted for half of the so - called `` missing girls '' . Through the 1980s , as the one - child policy came into force , parents who desired a son but had a daughter often failed to report or delayed reporting female births to the authorities . Some parents may have offered up their daughters for formal or informal adoption . A majority of children who went through formal adoption in China in the later 1980s were girls , and the proportion who were girls increased over time .",
+          "title": "One-child policy"
+        },
+        {
+          "rank": 5,
+          "doc_id": "853841453_34066-34705-0-639",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Society of the United States State law provides for child support where children are involved , and sometimes for alimony . `` Married adults now divorce two - and - a-half times as often as adults did 20 years ago and four times as often as they did 50 years ago ... between 40 % and 60 % of new marriages will eventually end in divorce . The probability within ... the first five years is 20 % , and the probability of its ending within the first 10 years is 33 % ... Perhaps 25 % of children ages sixteen and under live with a step - parent . '' The median length for a marriage in the US today is eleven years with 90 % of all divorces being settled out of court .",
+          "title": "Society of the United States"
+        }
+      ],
+      "reference": {
+        "answer": "The documents do not include information on how long to consider adoption after experiencing infertility. ",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "UNANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "3",
+      "task_id": "6a738cc02c5aa0b74319acd0e8a809dd<::>3",
+      "question": "Regional differences",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "types and causes of male and female infertility"
+        },
+        {
+          "role": "assistant",
+          "content": "Here are the types and causes of male and female infertility: Male infertility can be caused by: 1. Low semen quality 2. Endocrine problems 3. Drugs 4. Radiation 5. Infection 6. Testicular malformations 7. Hormone imbalance 8. Blockage of the duct system 9. Primary ciliary dyskinesia 10. Antisperm antibodies Female infertility can be caused by: 1. Inability to ovulate 2. Malformation of the eggs 3. Polycystic ovarian syndrome 4. Failure of ovaries to mature and release eggs 5. Ovulatory problems These causes can be diagnosed and, in some cases, treated through medical intervention. However, in about 10-20% of cases, no cause is found."
+        },
+        {
+          "role": "user",
+          "content": "How many years, think about adoption?"
+        },
+        {
+          "role": "assistant",
+          "content": "The documents do not include information on how long to consider adoption after experiencing infertility. "
+        }
+      ],
+      "retrieval": {
+        "query": "Regional differences",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "853841453_41535-42076-0-541",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Society of the United States Cultural differences in the various regions of the United States are explored in New England , Mid-Atlantic States , Southern United States , Midwestern United States , Southwest United States , Western United States and Pacific Northwestern United States pages . The western coast of the continental United States consisting of California , Oregon , and the state of Washington is also sometimes referred to as the Left Coast , indicating it 's left - leaning political orientation and tendency towards liberal norms , folkways and values .",
+            "title": "Society of the United States"
+          },
+          {
+            "rank": 2,
+            "doc_id": "817790267_68338-68544-0-206",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Midwestern United States The accents of the region are generally distinct from those of the South and of the urban areas of the American Northeast . To a lesser degree , they are also distinct from the accent of the American West .",
+            "title": "Midwestern United States"
+          },
+          {
+            "rank": 3,
+            "doc_id": "817790267_65780-66579-0-799",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Midwestern United States Differences in the definition of the Midwest mainly split between the Great Plains region on one side , and the Great Lakes region on the other . While some point to the small towns and agricultural communities in Kansas , Iowa , the Dakotas , and Nebraska of the Great Plains as representative of traditional Midwestern lifestyles and values , others assert that the industrial cities of the Great Lakes -- with their histories of 19th - and early - 20th - century immigration , manufacturing base , and strong Catholic influence -- are more representative of the Midwestern experience . In South Dakota , for instance , West River ( the region west of the Missouri River ) shares cultural elements with the western United States , while East River has more in common with the rest of the Midwest .",
+            "title": "Midwestern United States"
+          },
+          {
+            "rank": 4,
+            "doc_id": "853841453_25589-25991-0-402",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Society of the United States There are four major regional dialects in the United States : northeastern , south , inland north , and midwestern . The Midwestern accent ( considered the `` standard accent '' in the United States , and analogous in some respects to the received pronunciation elsewhere in the English - speaking world ) extends from what were once the `` Middle Colonies '' across the Midwest to the Pacific states .",
+            "title": "Society of the United States"
+          },
+          {
+            "rank": 5,
+            "doc_id": "825927083_8847-9665-0-818",
+            "score": null,
+            "score_type": "contriever",
+            "text": "North America The largest countries of the continent , Canada and the United States , also contain well - defined and recognized regions . In the case of Canada these are the British Columbia Coast , Canadian Prairies , Central Canada , Atlantic Canada , and Northern Canada . These regions also contain many subregions . In the case of the United States -- and in accordance with the US Census Bureau definitions -- these regions are : New England , Mid-Atlantic , East North Central States , West North Central States , South Atlantic States , East South Central States , West South Central States , Mountain States , and Pacific States . Regions shared between both nations included the Great Lakes Region . Megalopolises have also formed between both nations in the case of the Pacific Northwest and the Great Lakes Megaregion .",
+            "title": "North America"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "853841453_41535-42076-0-541",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Society of the United States Cultural differences in the various regions of the United States are explored in New England , Mid-Atlantic States , Southern United States , Midwestern United States , Southwest United States , Western United States and Pacific Northwestern United States pages . The western coast of the continental United States consisting of California , Oregon , and the state of Washington is also sometimes referred to as the Left Coast , indicating it 's left - leaning political orientation and tendency towards liberal norms , folkways and values .",
+            "title": "Society of the United States"
+          },
+          {
+            "rank": 2,
+            "doc_id": "817790267_68338-68544-0-206",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Midwestern United States The accents of the region are generally distinct from those of the South and of the urban areas of the American Northeast . To a lesser degree , they are also distinct from the accent of the American West .",
+            "title": "Midwestern United States"
+          },
+          {
+            "rank": 3,
+            "doc_id": "817790267_65780-66579-0-799",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Midwestern United States Differences in the definition of the Midwest mainly split between the Great Plains region on one side , and the Great Lakes region on the other . While some point to the small towns and agricultural communities in Kansas , Iowa , the Dakotas , and Nebraska of the Great Plains as representative of traditional Midwestern lifestyles and values , others assert that the industrial cities of the Great Lakes -- with their histories of 19th - and early - 20th - century immigration , manufacturing base , and strong Catholic influence -- are more representative of the Midwestern experience . In South Dakota , for instance , West River ( the region west of the Missouri River ) shares cultural elements with the western United States , while East River has more in common with the rest of the Midwest .",
+            "title": "Midwestern United States"
+          },
+          {
+            "rank": 4,
+            "doc_id": "853841453_25589-25991-0-402",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Society of the United States There are four major regional dialects in the United States : northeastern , south , inland north , and midwestern . The Midwestern accent ( considered the `` standard accent '' in the United States , and analogous in some respects to the received pronunciation elsewhere in the English - speaking world ) extends from what were once the `` Middle Colonies '' across the Midwest to the Pacific states .",
+            "title": "Society of the United States"
+          },
+          {
+            "rank": 5,
+            "doc_id": "825927083_8847-9665-0-818",
+            "score": null,
+            "score_type": "contriever",
+            "text": "North America The largest countries of the continent , Canada and the United States , also contain well - defined and recognized regions . In the case of Canada these are the British Columbia Coast , Canadian Prairies , Central Canada , Atlantic Canada , and Northern Canada . These regions also contain many subregions . In the case of the United States -- and in accordance with the US Census Bureau definitions -- these regions are : New England , Mid-Atlantic , East North Central States , West North Central States , South Atlantic States , East South Central States , West South Central States , Mountain States , and Pacific States . Regions shared between both nations included the Great Lakes Region . Megalopolises have also formed between both nations in the case of the Pacific Northwest and the Great Lakes Megaregion .",
+            "title": "North America"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Assistant: Regional differences in infertility treatment vary widely.It is important to consult with a healthcare provider to determine the best course of treatment for your specific situation.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "853841453_41535-42076-0-541",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Society of the United States Cultural differences in the various regions of the United States are explored in New England , Mid-Atlantic States , Southern United States , Midwestern United States , Southwest United States , Western United States and Pacific Northwestern United States pages . The western coast of the continental United States consisting of California , Oregon , and the state of Washington is also sometimes referred to as the Left Coast , indicating it 's left - leaning political orientation and tendency towards liberal norms , folkways and values .",
+          "title": "Society of the United States"
+        },
+        {
+          "rank": 2,
+          "doc_id": "817790267_68338-68544-0-206",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Midwestern United States The accents of the region are generally distinct from those of the South and of the urban areas of the American Northeast . To a lesser degree , they are also distinct from the accent of the American West .",
+          "title": "Midwestern United States"
+        },
+        {
+          "rank": 3,
+          "doc_id": "817790267_65780-66579-0-799",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Midwestern United States Differences in the definition of the Midwest mainly split between the Great Plains region on one side , and the Great Lakes region on the other . While some point to the small towns and agricultural communities in Kansas , Iowa , the Dakotas , and Nebraska of the Great Plains as representative of traditional Midwestern lifestyles and values , others assert that the industrial cities of the Great Lakes -- with their histories of 19th - and early - 20th - century immigration , manufacturing base , and strong Catholic influence -- are more representative of the Midwestern experience . In South Dakota , for instance , West River ( the region west of the Missouri River ) shares cultural elements with the western United States , while East River has more in common with the rest of the Midwest .",
+          "title": "Midwestern United States"
+        },
+        {
+          "rank": 4,
+          "doc_id": "853841453_25589-25991-0-402",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Society of the United States There are four major regional dialects in the United States : northeastern , south , inland north , and midwestern . The Midwestern accent ( considered the `` standard accent '' in the United States , and analogous in some respects to the received pronunciation elsewhere in the English - speaking world ) extends from what were once the `` Middle Colonies '' across the Midwest to the Pacific states .",
+          "title": "Society of the United States"
+        },
+        {
+          "rank": 5,
+          "doc_id": "825927083_8847-9665-0-818",
+          "score": null,
+          "score_type": "contriever",
+          "text": "North America The largest countries of the continent , Canada and the United States , also contain well - defined and recognized regions . In the case of Canada these are the British Columbia Coast , Canadian Prairies , Central Canada , Atlantic Canada , and Northern Canada . These regions also contain many subregions . In the case of the United States -- and in accordance with the US Census Bureau definitions -- these regions are : New England , Mid-Atlantic , East North Central States , West North Central States , South Atlantic States , East South Central States , West South Central States , Mountain States , and Pacific States . Regions shared between both nations included the Great Lakes Region . Megalopolises have also formed between both nations in the case of the Pacific Northwest and the Great Lakes Megaregion .",
+          "title": "North America"
+        }
+      ],
+      "reference": {
+        "answer": "The documents do not include information about regional differences in infertility types and causes. It is important to note that  existing definitions of infertility lack uniformity , rendering comparisons in prevalence between countries or over time problematic . ",
+        "evidence_ids": [
+          "836413300_2341-3664-0-1323"
+        ],
+        "evidence": [
+          {
+            "doc_id": "836413300_2341-3664-0-1323",
+            "text": "Infertility\nInfertility\n`` Demographers tend to define infertility as childlessness in a population of women of reproductive age , '' whereas `` the epidemiological definition refers to `` trying for '' or `` time to '' a pregnancy , generally in a population of women exposed to '' a probability of conception . Currently , female fertility normally peaks at age 24 and diminishes after 30 , with pregnancy occurring rarely after age 50 . A female is most fertile within 24 hours of ovulation . Male fertility peaks usually at age 25 and declines after age 40 . The time needed to pass ( during which the couple tries to conceive ) for that couple to be diagnosed with infertility differs between different jurisdictions . Existing definitions of infertility lack uniformity , rendering comparisons in prevalence between countries or over time problematic . Therefore , data estimating the prevalence of infertility cited by various sources differs significantly . A couple that tries unsuccessfully to have a child after a certain period of time ( often a short period , but definitions vary ) is sometimes said to be subfertile , meaning less fertile than a typical couple . Both infertility and subfertility are defined as the inability to conceive after a certain period of time ( the length of which vary ) , so often the two terms overlap ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "PARTIAL",
+        "question_type": [
+          "Keyword"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "4",
+      "task_id": "6a738cc02c5aa0b74319acd0e8a809dd<::>4",
+      "question": "chemo and fertility,  before puberty, still?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "types and causes of male and female infertility"
+        },
+        {
+          "role": "assistant",
+          "content": "Here are the types and causes of male and female infertility: Male infertility can be caused by: 1. Low semen quality 2. Endocrine problems 3. Drugs 4. Radiation 5. Infection 6. Testicular malformations 7. Hormone imbalance 8. Blockage of the duct system 9. Primary ciliary dyskinesia 10. Antisperm antibodies Female infertility can be caused by: 1. Inability to ovulate 2. Malformation of the eggs 3. Polycystic ovarian syndrome 4. Failure of ovaries to mature and release eggs 5. Ovulatory problems These causes can be diagnosed and, in some cases, treated through medical intervention. However, in about 10-20% of cases, no cause is found."
+        },
+        {
+          "role": "user",
+          "content": "How many years, think about adoption?"
+        },
+        {
+          "role": "assistant",
+          "content": "The documents do not include information on how long to consider adoption after experiencing infertility. "
+        },
+        {
+          "role": "user",
+          "content": "Regional differences"
+        },
+        {
+          "role": "assistant",
+          "content": "The documents do not include information about regional differences in infertility types and causes. It is important to note that  existing definitions of infertility lack uniformity , rendering comparisons in prevalence between countries or over time problematic . "
+        }
+      ],
+      "retrieval": {
+        "query": "chemo and fertility,  before puberty, still?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "844848234_11315-11484-0-169",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Luteinizing hormone In children with precocious puberty of pituitary or central origin , LH and FSH levels may be in the reproductive range instead of the low levels typical for their age .",
+            "title": "Luteinizing hormone"
+          },
+          {
+            "rank": 2,
+            "doc_id": "849846855_7090-7388-0-298",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Testosterone Before puberty effects of rising androgen levels occur in both boys and girls . These include adult - type body odor , increased oiliness of skin and hair , acne , pubarche ( appearance of pubic hair ) , axillary hair ( armpit hair ) , growth spurt , accelerated bone maturation , and facial hair .",
+            "title": "Testosterone"
+          },
+          {
+            "rank": 3,
+            "doc_id": "804280525_12542-12846-0-304",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Estrogen Estrogens are responsible for the development of female secondary sexual characteristics during puberty , including breast development , widening of the hips , and female fat distribution . Conversely , androgens are responsible for pubic and body hair growth , as well as acne and axillary odor . Breast",
+            "title": "Estrogen"
+          },
+          {
+            "rank": 4,
+            "doc_id": "836800285_16003-16522-0-519",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Adolescence In females , changes in the primary sex characteristics involve growth of the uterus , vagina , and other aspects of the reproductive system . Menarche , the beginning of menstruation , is a relatively late development which follows a long series of hormonal changes . Generally , a girl is not fully fertile until several years after menarche , as regular ovulation follows menarche by about two years . Unlike males , therefore , females usually appear physically mature before they are capable of becoming pregnant .",
+            "title": "Adolescence"
+          },
+          {
+            "rank": 5,
+            "doc_id": "836800285_11419-11862-0-443",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Adolescence Girls have usually reached full physical development around ages 15 -- 17 , while boys usually complete puberty around ages 16 -- 17 . Any increase in height beyond the post-pubertal age is uncommon . Girls attain reproductive maturity about four years after the first physical changes of puberty appear . In contrast , boys accelerate more slowly but continue to grow for about six years after the first visible pubertal changes . Approximate",
+            "title": "Adolescence"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "844848234_11315-11484-0-169",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Luteinizing hormone In children with precocious puberty of pituitary or central origin , LH and FSH levels may be in the reproductive range instead of the low levels typical for their age .",
+            "title": "Luteinizing hormone"
+          },
+          {
+            "rank": 2,
+            "doc_id": "849846855_7090-7388-0-298",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Testosterone Before puberty effects of rising androgen levels occur in both boys and girls . These include adult - type body odor , increased oiliness of skin and hair , acne , pubarche ( appearance of pubic hair ) , axillary hair ( armpit hair ) , growth spurt , accelerated bone maturation , and facial hair .",
+            "title": "Testosterone"
+          },
+          {
+            "rank": 3,
+            "doc_id": "804280525_12542-12846-0-304",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Estrogen Estrogens are responsible for the development of female secondary sexual characteristics during puberty , including breast development , widening of the hips , and female fat distribution . Conversely , androgens are responsible for pubic and body hair growth , as well as acne and axillary odor . Breast",
+            "title": "Estrogen"
+          },
+          {
+            "rank": 4,
+            "doc_id": "836800285_16003-16522-0-519",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Adolescence In females , changes in the primary sex characteristics involve growth of the uterus , vagina , and other aspects of the reproductive system . Menarche , the beginning of menstruation , is a relatively late development which follows a long series of hormonal changes . Generally , a girl is not fully fertile until several years after menarche , as regular ovulation follows menarche by about two years . Unlike males , therefore , females usually appear physically mature before they are capable of becoming pregnant .",
+            "title": "Adolescence"
+          },
+          {
+            "rank": 5,
+            "doc_id": "836800285_11419-11862-0-443",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Adolescence Girls have usually reached full physical development around ages 15 -- 17 , while boys usually complete puberty around ages 16 -- 17 . Any increase in height beyond the post-pubertal age is uncommon . Girls attain reproductive maturity about four years after the first physical changes of puberty appear . In contrast , boys accelerate more slowly but continue to grow for about six years after the first visible pubertal changes . Approximate",
+            "title": "Adolescence"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Assistant: The documents do not include information on chemo and fertility before puberty, still.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "844848234_11315-11484-0-169",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Luteinizing hormone In children with precocious puberty of pituitary or central origin , LH and FSH levels may be in the reproductive range instead of the low levels typical for their age .",
+          "title": "Luteinizing hormone"
+        },
+        {
+          "rank": 2,
+          "doc_id": "849846855_7090-7388-0-298",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Testosterone Before puberty effects of rising androgen levels occur in both boys and girls . These include adult - type body odor , increased oiliness of skin and hair , acne , pubarche ( appearance of pubic hair ) , axillary hair ( armpit hair ) , growth spurt , accelerated bone maturation , and facial hair .",
+          "title": "Testosterone"
+        },
+        {
+          "rank": 3,
+          "doc_id": "804280525_12542-12846-0-304",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Estrogen Estrogens are responsible for the development of female secondary sexual characteristics during puberty , including breast development , widening of the hips , and female fat distribution . Conversely , androgens are responsible for pubic and body hair growth , as well as acne and axillary odor . Breast",
+          "title": "Estrogen"
+        },
+        {
+          "rank": 4,
+          "doc_id": "836800285_16003-16522-0-519",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Adolescence In females , changes in the primary sex characteristics involve growth of the uterus , vagina , and other aspects of the reproductive system . Menarche , the beginning of menstruation , is a relatively late development which follows a long series of hormonal changes . Generally , a girl is not fully fertile until several years after menarche , as regular ovulation follows menarche by about two years . Unlike males , therefore , females usually appear physically mature before they are capable of becoming pregnant .",
+          "title": "Adolescence"
+        },
+        {
+          "rank": 5,
+          "doc_id": "836800285_11419-11862-0-443",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Adolescence Girls have usually reached full physical development around ages 15 -- 17 , while boys usually complete puberty around ages 16 -- 17 . Any increase in height beyond the post-pubertal age is uncommon . Girls attain reproductive maturity about four years after the first physical changes of puberty appear . In contrast , boys accelerate more slowly but continue to grow for about six years after the first visible pubertal changes . Approximate",
+          "title": "Adolescence"
+        }
+      ],
+      "reference": {
+        "answer": "The documents do not provide specific information about the impact of chemotherapy on fertility before puberty.   But, yes, chemotherapy can affect fertility.  It can cause DNA damaging of the cells in the testicles or ovaries that produce sperm and eggs, potentially leading to reduced fertility or even sterility.",
+        "evidence_ids": [
+          "836413300_10980-12270-0-1290",
+          "801197945_14330-14831-0-501"
+        ],
+        "evidence": [
+          {
+            "doc_id": "836413300_10980-12270-0-1290",
+            "text": "Infertility\nInfertility\nDNA damage DNA damage reduces fertility in female ovocytes , as caused by smoking , other xenobiotic DNA damaging agents ( such as radiation or chemotherapy ) or accumulation of the oxidative DNA damage 8 - hydroxy - deoxyguanosine DNA damage reduces fertility in male sperm , as caused by oxidative DNA damage , smoking , other xenobiotic DNA damaging agents ( such as drugs or chemotherapy ) or other DNA damaging agents including reactive oxygen species , fever or high testicular temperature . The damaged DNA related to infertility manifests itself by the increased susceptibility to denaturation inducible by heat or acid and / or by the presence of double - strand breaks that can be detected by the TUNEL assay . General factors Diabetes mellitus , thyroid disorders , undiagnosed and untreated coeliac disease , adrenal disease Hypothalamic - pituitary factors Hyperprolactinemia Hypopituitarism The presence of anti-thyroid antibodies is associated with an increased risk of unexplained subfertility with an odds ratio of 1.5 and 95 % confidence interval of 1.1 -- 2.0 . Environmental factors Toxins such as glues , volatile organic solvents or silicones , physical agents , chemical dusts , and pesticides . Tobacco smokers are 60 % more likely to be infertile than non-smokers ."
+          },
+          {
+            "doc_id": "801197945_14330-14831-0-501",
+            "text": "Egg donation\nEgg donation\nWomen may resort to egg donation because their ovaries may not be able to produce a substantial number of viable eggs . Women may experience premature ovarian failure and stop producing viable eggs during their reproductive years . Some women may be born without ovaries . Ovaries damaged by chemotherapy or radiotherapy may also no longer produce healthy eggs . Older women with diminished ovarian reserves or older women who are going through menopause could also become pregnant with egg donation ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "PARTIAL",
+        "question_type": [
+          "Explanation",
+          "Keyword"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "5",
+      "task_id": "6a738cc02c5aa0b74319acd0e8a809dd<::>5",
+      "question": "any good idea to this?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "types and causes of male and female infertility"
+        },
+        {
+          "role": "assistant",
+          "content": "Here are the types and causes of male and female infertility: Male infertility can be caused by: 1. Low semen quality 2. Endocrine problems 3. Drugs 4. Radiation 5. Infection 6. Testicular malformations 7. Hormone imbalance 8. Blockage of the duct system 9. Primary ciliary dyskinesia 10. Antisperm antibodies Female infertility can be caused by: 1. Inability to ovulate 2. Malformation of the eggs 3. Polycystic ovarian syndrome 4. Failure of ovaries to mature and release eggs 5. Ovulatory problems These causes can be diagnosed and, in some cases, treated through medical intervention. However, in about 10-20% of cases, no cause is found."
+        },
+        {
+          "role": "user",
+          "content": "How many years, think about adoption?"
+        },
+        {
+          "role": "assistant",
+          "content": "The documents do not include information on how long to consider adoption after experiencing infertility. "
+        },
+        {
+          "role": "user",
+          "content": "Regional differences"
+        },
+        {
+          "role": "assistant",
+          "content": "The documents do not include information about regional differences in infertility types and causes. It is important to note that  existing definitions of infertility lack uniformity , rendering comparisons in prevalence between countries or over time problematic . "
+        },
+        {
+          "role": "user",
+          "content": "chemo and fertility,  before puberty, still?"
+        },
+        {
+          "role": "assistant",
+          "content": "The documents do not provide specific information about the impact of chemotherapy on fertility before puberty.   But, yes, chemotherapy can affect fertility.  It can cause DNA damaging of the cells in the testicles or ovaries that produce sperm and eggs, potentially leading to reduced fertility or even sterility."
+        }
+      ],
+      "retrieval": {
+        "query": "any good idea to this?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "810572008_12322-12584-0-262",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Columbian Exchange The idea of enslaving the Tainos had instantly struck Columbus as plausible , even desirable . `` They ought to be good servants , '' he continued , `` and of good skill , for I see they repeat very quickly whatever was said to them . '' As part of his journey ,",
+            "title": "Columbian Exchange"
+          },
+          {
+            "rank": 2,
+            "doc_id": "821174549_47726-48063-0-337",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Basketball The crucial aspect of any good pass is it being difficult to intercept . Good passers can pass the ball with great accuracy and they know exactly where each of their other teammates prefers to receive the ball . A special way of doing this is passing the ball without looking at the receiving teammate . This is called a no - look pass .",
+            "title": "Basketball"
+          },
+          {
+            "rank": 3,
+            "doc_id": "864272290_6987-7346-0-359",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Florida Georgia Line A deluxe edition of Here 's to the Good Times titled Here 's to the Good Times ... This Is How We Roll was released on November 25 , 2013 . `` This Is How We Roll '' , a collaboration with Luke Bryan , was released from the deluxe edition as the album 's fifth single on February 10 , 2014 and reached number one on the Hot Country Songs chart in March 2014 .",
+            "title": "Florida Georgia Line"
+          },
+          {
+            "rank": 4,
+            "doc_id": "815546445_1737-2410-0-673",
+            "score": null,
+            "score_type": "contriever",
+            "text": "A Child's Garden of Verses To Alison Cunningham Bed in Summer A Thought At the Sea - side Young Night Thought Whole Duty of Children Rain Pirate Story ( poem ) Foreign Lands Windy Nights Travelling Singing Looking Forward A Good Play Where Go the Boats ? Auntie 's Skirts The Land of Counterpane The Land of Nod My Shadow System A Good Boy Escape at Bedtime Marching Song The Cow Happy Thought The Wind Keepsake Mill Good and Bad Children Foreign Children The Sun 's Travels The Lamplighter My Bed is a Boat The Moon The Swing Time to Rise Looking - glass River Fairy Bread From a Railway Carriage Winter - time The Hayloft Farewell to the Farm Northwest Passage : Good Night , Shadow March , In Port",
+            "title": "A Child's Garden of Verses"
+          },
+          {
+            "rank": 5,
+            "doc_id": "856970098_12511-12600-0-89",
+            "score": null,
+            "score_type": "contriever",
+            "text": "A Good Year Fox chairman Rupert Murdoch dismissed A Good Year as a ' flop ' at a shareholders meeting",
+            "title": "A Good Year"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "810572008_12322-12584-0-262",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Columbian Exchange The idea of enslaving the Tainos had instantly struck Columbus as plausible , even desirable . `` They ought to be good servants , '' he continued , `` and of good skill , for I see they repeat very quickly whatever was said to them . '' As part of his journey ,",
+            "title": "Columbian Exchange"
+          },
+          {
+            "rank": 2,
+            "doc_id": "821174549_47726-48063-0-337",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Basketball The crucial aspect of any good pass is it being difficult to intercept . Good passers can pass the ball with great accuracy and they know exactly where each of their other teammates prefers to receive the ball . A special way of doing this is passing the ball without looking at the receiving teammate . This is called a no - look pass .",
+            "title": "Basketball"
+          },
+          {
+            "rank": 3,
+            "doc_id": "864272290_6987-7346-0-359",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Florida Georgia Line A deluxe edition of Here 's to the Good Times titled Here 's to the Good Times ... This Is How We Roll was released on November 25 , 2013 . `` This Is How We Roll '' , a collaboration with Luke Bryan , was released from the deluxe edition as the album 's fifth single on February 10 , 2014 and reached number one on the Hot Country Songs chart in March 2014 .",
+            "title": "Florida Georgia Line"
+          },
+          {
+            "rank": 4,
+            "doc_id": "815546445_1737-2410-0-673",
+            "score": null,
+            "score_type": "contriever",
+            "text": "A Child's Garden of Verses To Alison Cunningham Bed in Summer A Thought At the Sea - side Young Night Thought Whole Duty of Children Rain Pirate Story ( poem ) Foreign Lands Windy Nights Travelling Singing Looking Forward A Good Play Where Go the Boats ? Auntie 's Skirts The Land of Counterpane The Land of Nod My Shadow System A Good Boy Escape at Bedtime Marching Song The Cow Happy Thought The Wind Keepsake Mill Good and Bad Children Foreign Children The Sun 's Travels The Lamplighter My Bed is a Boat The Moon The Swing Time to Rise Looking - glass River Fairy Bread From a Railway Carriage Winter - time The Hayloft Farewell to the Farm Northwest Passage : Good Night , Shadow March , In Port",
+            "title": "A Child's Garden of Verses"
+          },
+          {
+            "rank": 5,
+            "doc_id": "856970098_12511-12600-0-89",
+            "score": null,
+            "score_type": "contriever",
+            "text": "A Good Year Fox chairman Rupert Murdoch dismissed A Good Year as a ' flop ' at a shareholders meeting",
+            "title": "A Good Year"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "The documents do not provide information on the impact of chemotherapy on fertility after puberty.However, chemotherapy can affect fertility in several ways.It can cause DNA damage to the cells in the testicles or ovaries that produce sperm and eggs, potentially leading to reduced fertility or even sterility.Additionally, chemotherapy can affect the production of hormones, which can impact the reproductive system.It is important to discuss the potential impact of chemotherapy on fertility with a healthcare provider before starting treatment.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "810572008_12322-12584-0-262",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Columbian Exchange The idea of enslaving the Tainos had instantly struck Columbus as plausible , even desirable . `` They ought to be good servants , '' he continued , `` and of good skill , for I see they repeat very quickly whatever was said to them . '' As part of his journey ,",
+          "title": "Columbian Exchange"
+        },
+        {
+          "rank": 2,
+          "doc_id": "821174549_47726-48063-0-337",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Basketball The crucial aspect of any good pass is it being difficult to intercept . Good passers can pass the ball with great accuracy and they know exactly where each of their other teammates prefers to receive the ball . A special way of doing this is passing the ball without looking at the receiving teammate . This is called a no - look pass .",
+          "title": "Basketball"
+        },
+        {
+          "rank": 3,
+          "doc_id": "864272290_6987-7346-0-359",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Florida Georgia Line A deluxe edition of Here 's to the Good Times titled Here 's to the Good Times ... This Is How We Roll was released on November 25 , 2013 . `` This Is How We Roll '' , a collaboration with Luke Bryan , was released from the deluxe edition as the album 's fifth single on February 10 , 2014 and reached number one on the Hot Country Songs chart in March 2014 .",
+          "title": "Florida Georgia Line"
+        },
+        {
+          "rank": 4,
+          "doc_id": "815546445_1737-2410-0-673",
+          "score": null,
+          "score_type": "contriever",
+          "text": "A Child's Garden of Verses To Alison Cunningham Bed in Summer A Thought At the Sea - side Young Night Thought Whole Duty of Children Rain Pirate Story ( poem ) Foreign Lands Windy Nights Travelling Singing Looking Forward A Good Play Where Go the Boats ? Auntie 's Skirts The Land of Counterpane The Land of Nod My Shadow System A Good Boy Escape at Bedtime Marching Song The Cow Happy Thought The Wind Keepsake Mill Good and Bad Children Foreign Children The Sun 's Travels The Lamplighter My Bed is a Boat The Moon The Swing Time to Rise Looking - glass River Fairy Bread From a Railway Carriage Winter - time The Hayloft Farewell to the Farm Northwest Passage : Good Night , Shadow March , In Port",
+          "title": "A Child's Garden of Verses"
+        },
+        {
+          "rank": 5,
+          "doc_id": "856970098_12511-12600-0-89",
+          "score": null,
+          "score_type": "contriever",
+          "text": "A Good Year Fox chairman Rupert Murdoch dismissed A Good Year as a ' flop ' at a shareholders meeting",
+          "title": "A Good Year"
+        }
+      ],
+      "reference": {
+        "answer": "While chemotherapy can impact fertility, there are options available to preserve fertility before starting treatment, such as sperm or egg freezing; eggs may be frozen and stored for later use.  For semen, cryopreservation can be used for far longer storage durations like 21 yrs.  However, these options may not be suitable for everyone, especially those who have not yet reached puberty.  It's important to discuss the potential risks and available options with a healthcare provider before starting chemotherapy.",
+        "evidence_ids": [
+          "801197945_115-609-0-494",
+          "850112639_9476-9634-0-158"
+        ],
+        "evidence": [
+          {
+            "doc_id": "801197945_115-609-0-494",
+            "text": "Egg donation\nEgg donation\nEgg donation is the process by which a woman donates eggs to enable another woman to conceive as part of an assisted reproduction treatment or for biomedical research . For assisted reproduction purposes , egg donation typically involves in vitro fertilization technology , with the eggs being fertilized in the laboratory ; more rarely , unfertilized eggs may be frozen and stored for later use . Egg donation is a third party reproduction as part of assisted reproductive technology ( ART ) ."
+          },
+          {
+            "doc_id": "850112639_9476-9634-0-158",
+            "text": "Semen\nSemen\nSemen cryopreservation can be used for far longer storage durations . For human sperm , the longest reported successful storage with this method is 21 years ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "PARTIAL",
+        "question_type": [
+          "Opinion"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "6",
+      "task_id": "6a738cc02c5aa0b74319acd0e8a809dd<::>6",
+      "question": "Enough for a chemo and infertility, is this a hereditary?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "types and causes of male and female infertility"
+        },
+        {
+          "role": "assistant",
+          "content": "Here are the types and causes of male and female infertility: Male infertility can be caused by: 1. Low semen quality 2. Endocrine problems 3. Drugs 4. Radiation 5. Infection 6. Testicular malformations 7. Hormone imbalance 8. Blockage of the duct system 9. Primary ciliary dyskinesia 10. Antisperm antibodies Female infertility can be caused by: 1. Inability to ovulate 2. Malformation of the eggs 3. Polycystic ovarian syndrome 4. Failure of ovaries to mature and release eggs 5. Ovulatory problems These causes can be diagnosed and, in some cases, treated through medical intervention. However, in about 10-20% of cases, no cause is found."
+        },
+        {
+          "role": "user",
+          "content": "How many years, think about adoption?"
+        },
+        {
+          "role": "assistant",
+          "content": "The documents do not include information on how long to consider adoption after experiencing infertility. "
+        },
+        {
+          "role": "user",
+          "content": "Regional differences"
+        },
+        {
+          "role": "assistant",
+          "content": "The documents do not include information about regional differences in infertility types and causes. It is important to note that  existing definitions of infertility lack uniformity , rendering comparisons in prevalence between countries or over time problematic . "
+        },
+        {
+          "role": "user",
+          "content": "chemo and fertility,  before puberty, still?"
+        },
+        {
+          "role": "assistant",
+          "content": "The documents do not provide specific information about the impact of chemotherapy on fertility before puberty.   But, yes, chemotherapy can affect fertility.  It can cause DNA damaging of the cells in the testicles or ovaries that produce sperm and eggs, potentially leading to reduced fertility or even sterility."
+        },
+        {
+          "role": "user",
+          "content": "any good idea to this?"
+        },
+        {
+          "role": "assistant",
+          "content": "While chemotherapy can impact fertility, there are options available to preserve fertility before starting treatment, such as sperm or egg freezing; eggs may be frozen and stored for later use.  For semen, cryopreservation can be used for far longer storage durations like 21 yrs.  However, these options may not be suitable for everyone, especially those who have not yet reached puberty.  It's important to discuss the potential risks and available options with a healthcare provider before starting chemotherapy."
+        }
+      ],
+      "retrieval": {
+        "query": "Enough for a chemo and infertility, is this a hereditary?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "836413300_23649-24934-0-1285",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Infertility High - cost treatments are out of financial reach for some couples . Debate over whether health insurance companies ( e.g. in the US ) should be required to cover infertility treatment . Allocation of medical resources that could be used elsewhere The legal status of embryos fertilized in vitro and not transferred in vivo . ( See also Beginning of pregnancy controversy ) . Pro-life opposition to the destruction of embryos not transferred in vivo . IVF and other fertility treatments have resulted in an increase in multiple births , provoking ethical analysis because of the link between multiple pregnancies , premature birth , and a host of health problems . Religious leaders ' opinions on fertility treatments ; for example , the Roman Catholic Church views infertility as a calling to adopt or to use natural treatments ( medication , surgery , and / or cycle charting ) and members must reject assisted reproductive technologies . Infertility caused by DNA defects on the Y chromosome is passed on from father to son . If natural selection is the primary error correction mechanism that prevents random mutations on the Y chromosome , then fertility treatments for men with abnormal sperm ( in particular ICSI ) only defer the underlying problem to the next male generation .",
+            "title": "Infertility"
+          },
+          {
+            "rank": 2,
+            "doc_id": "801235515_20455-21403-0-948",
+            "score": null,
+            "score_type": "contriever",
+            "text": "BRCA1 Women having inherited a defective BRCA1 or BRCA2 gene have risks for breast and ovarian cancer that are so high and seem so selective that many mutation carriers choose to have prophylactic surgery . There has been much conjecture to explain such apparently striking tissue specificity . Major determinants of where BRCA1 / 2 hereditary cancers occur are related to tissue specificity of the cancer pathogen , the agent that causes chronic inflammation or the carcinogen . The target tissue may have receptors for the pathogen , may become selectively exposed to an inflammatory process or to a carcinogen . An innate genomic deficit in a tumor suppressor gene impairs normal responses and exacerbates the susceptibility to disease in organ targets . This theory also fits data for several tumor suppressors beyond BRCA1 or BRCA2 . A major advantage of this model is that it suggests there may be some options in addition to prophylactic surgery .",
+            "title": "BRCA1"
+          },
+          {
+            "rank": 3,
+            "doc_id": "836413300_15988-16869-0-881",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Infertility In the US , up to 20 % of infertile couples have unexplained infertility . In these cases abnormalities are likely to be present but not detected by current methods . Possible problems could be that the egg is not released at the optimum time for fertilization , that it may not enter the fallopian tube , sperm may not be able to reach the egg , fertilization may fail to occur , transport of the zygote may be disturbed , or implantation fails . It is increasingly recognized that egg quality is of critical importance and women of advanced maternal age have eggs of reduced capacity for normal and successful fertilization . Also , polymorphisms in folate pathway genes could be one reason for fertility complications in some women with unexplained infertility . However , a growing body of evidence suggests that epigenetic modifications in sperm may be partially responsible .",
+            "title": "Infertility"
+          },
+          {
+            "rank": 4,
+            "doc_id": "801235515_17942-18459-0-517",
+            "score": null,
+            "score_type": "contriever",
+            "text": "BRCA1 Certain variations of the BRCA1 gene lead to an increased risk for breast cancer as part of a hereditary breast - ovarian cancer syndrome . Researchers have identified hundreds of mutations in the BRCA1 gene , many of which are associated with an increased risk of cancer . Women with an abnormal BRCA1 or BRCA2 gene have up to an 80 % risk of developing breast cancer by age 90 ; increased risk of developing ovarian cancer is about 55 % for women with BRCA1 mutations and about 25 % for women with BRCA2 mutations .",
+            "title": "BRCA1"
+          },
+          {
+            "rank": 5,
+            "doc_id": "836413300_10980-12270-0-1290",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Infertility DNA damage DNA damage reduces fertility in female ovocytes , as caused by smoking , other xenobiotic DNA damaging agents ( such as radiation or chemotherapy ) or accumulation of the oxidative DNA damage 8 - hydroxy - deoxyguanosine DNA damage reduces fertility in male sperm , as caused by oxidative DNA damage , smoking , other xenobiotic DNA damaging agents ( such as drugs or chemotherapy ) or other DNA damaging agents including reactive oxygen species , fever or high testicular temperature . The damaged DNA related to infertility manifests itself by the increased susceptibility to denaturation inducible by heat or acid and / or by the presence of double - strand breaks that can be detected by the TUNEL assay . General factors Diabetes mellitus , thyroid disorders , undiagnosed and untreated coeliac disease , adrenal disease Hypothalamic - pituitary factors Hyperprolactinemia Hypopituitarism The presence of anti-thyroid antibodies is associated with an increased risk of unexplained subfertility with an odds ratio of 1.5 and 95 % confidence interval of 1.1 -- 2.0 . Environmental factors Toxins such as glues , volatile organic solvents or silicones , physical agents , chemical dusts , and pesticides . Tobacco smokers are 60 % more likely to be infertile than non-smokers .",
+            "title": "Infertility"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "836413300_23649-24934-0-1285",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Infertility High - cost treatments are out of financial reach for some couples . Debate over whether health insurance companies ( e.g. in the US ) should be required to cover infertility treatment . Allocation of medical resources that could be used elsewhere The legal status of embryos fertilized in vitro and not transferred in vivo . ( See also Beginning of pregnancy controversy ) . Pro-life opposition to the destruction of embryos not transferred in vivo . IVF and other fertility treatments have resulted in an increase in multiple births , provoking ethical analysis because of the link between multiple pregnancies , premature birth , and a host of health problems . Religious leaders ' opinions on fertility treatments ; for example , the Roman Catholic Church views infertility as a calling to adopt or to use natural treatments ( medication , surgery , and / or cycle charting ) and members must reject assisted reproductive technologies . Infertility caused by DNA defects on the Y chromosome is passed on from father to son . If natural selection is the primary error correction mechanism that prevents random mutations on the Y chromosome , then fertility treatments for men with abnormal sperm ( in particular ICSI ) only defer the underlying problem to the next male generation .",
+            "title": "Infertility"
+          },
+          {
+            "rank": 2,
+            "doc_id": "801235515_20455-21403-0-948",
+            "score": null,
+            "score_type": "contriever",
+            "text": "BRCA1 Women having inherited a defective BRCA1 or BRCA2 gene have risks for breast and ovarian cancer that are so high and seem so selective that many mutation carriers choose to have prophylactic surgery . There has been much conjecture to explain such apparently striking tissue specificity . Major determinants of where BRCA1 / 2 hereditary cancers occur are related to tissue specificity of the cancer pathogen , the agent that causes chronic inflammation or the carcinogen . The target tissue may have receptors for the pathogen , may become selectively exposed to an inflammatory process or to a carcinogen . An innate genomic deficit in a tumor suppressor gene impairs normal responses and exacerbates the susceptibility to disease in organ targets . This theory also fits data for several tumor suppressors beyond BRCA1 or BRCA2 . A major advantage of this model is that it suggests there may be some options in addition to prophylactic surgery .",
+            "title": "BRCA1"
+          },
+          {
+            "rank": 3,
+            "doc_id": "836413300_15988-16869-0-881",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Infertility In the US , up to 20 % of infertile couples have unexplained infertility . In these cases abnormalities are likely to be present but not detected by current methods . Possible problems could be that the egg is not released at the optimum time for fertilization , that it may not enter the fallopian tube , sperm may not be able to reach the egg , fertilization may fail to occur , transport of the zygote may be disturbed , or implantation fails . It is increasingly recognized that egg quality is of critical importance and women of advanced maternal age have eggs of reduced capacity for normal and successful fertilization . Also , polymorphisms in folate pathway genes could be one reason for fertility complications in some women with unexplained infertility . However , a growing body of evidence suggests that epigenetic modifications in sperm may be partially responsible .",
+            "title": "Infertility"
+          },
+          {
+            "rank": 4,
+            "doc_id": "801235515_17942-18459-0-517",
+            "score": null,
+            "score_type": "contriever",
+            "text": "BRCA1 Certain variations of the BRCA1 gene lead to an increased risk for breast cancer as part of a hereditary breast - ovarian cancer syndrome . Researchers have identified hundreds of mutations in the BRCA1 gene , many of which are associated with an increased risk of cancer . Women with an abnormal BRCA1 or BRCA2 gene have up to an 80 % risk of developing breast cancer by age 90 ; increased risk of developing ovarian cancer is about 55 % for women with BRCA1 mutations and about 25 % for women with BRCA2 mutations .",
+            "title": "BRCA1"
+          },
+          {
+            "rank": 5,
+            "doc_id": "836413300_10980-12270-0-1290",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Infertility DNA damage DNA damage reduces fertility in female ovocytes , as caused by smoking , other xenobiotic DNA damaging agents ( such as radiation or chemotherapy ) or accumulation of the oxidative DNA damage 8 - hydroxy - deoxyguanosine DNA damage reduces fertility in male sperm , as caused by oxidative DNA damage , smoking , other xenobiotic DNA damaging agents ( such as drugs or chemotherapy ) or other DNA damaging agents including reactive oxygen species , fever or high testicular temperature . The damaged DNA related to infertility manifests itself by the increased susceptibility to denaturation inducible by heat or acid and / or by the presence of double - strand breaks that can be detected by the TUNEL assay . General factors Diabetes mellitus , thyroid disorders , undiagnosed and untreated coeliac disease , adrenal disease Hypothalamic - pituitary factors Hyperprolactinemia Hypopituitarism The presence of anti-thyroid antibodies is associated with an increased risk of unexplained subfertility with an odds ratio of 1.5 and 95 % confidence interval of 1.1 -- 2.0 . Environmental factors Toxins such as glues , volatile organic solvents or silicones , physical agents , chemical dusts , and pesticides . Tobacco smokers are 60 % more likely to be infertile than non-smokers .",
+            "title": "Infertility"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "The documents do not provide information on whether chemo and infertility is a hereditary condition.It's important to note that infertility can have various causes, and the impact of chemotherapy on fertility is not always permanent.However, it's always a good idea to discuss the potential risks and available options with a healthcare provider before starting chemotherapy.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "836413300_23649-24934-0-1285",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Infertility High - cost treatments are out of financial reach for some couples . Debate over whether health insurance companies ( e.g. in the US ) should be required to cover infertility treatment . Allocation of medical resources that could be used elsewhere The legal status of embryos fertilized in vitro and not transferred in vivo . ( See also Beginning of pregnancy controversy ) . Pro-life opposition to the destruction of embryos not transferred in vivo . IVF and other fertility treatments have resulted in an increase in multiple births , provoking ethical analysis because of the link between multiple pregnancies , premature birth , and a host of health problems . Religious leaders ' opinions on fertility treatments ; for example , the Roman Catholic Church views infertility as a calling to adopt or to use natural treatments ( medication , surgery , and / or cycle charting ) and members must reject assisted reproductive technologies . Infertility caused by DNA defects on the Y chromosome is passed on from father to son . If natural selection is the primary error correction mechanism that prevents random mutations on the Y chromosome , then fertility treatments for men with abnormal sperm ( in particular ICSI ) only defer the underlying problem to the next male generation .",
+          "title": "Infertility"
+        },
+        {
+          "rank": 2,
+          "doc_id": "801235515_20455-21403-0-948",
+          "score": null,
+          "score_type": "contriever",
+          "text": "BRCA1 Women having inherited a defective BRCA1 or BRCA2 gene have risks for breast and ovarian cancer that are so high and seem so selective that many mutation carriers choose to have prophylactic surgery . There has been much conjecture to explain such apparently striking tissue specificity . Major determinants of where BRCA1 / 2 hereditary cancers occur are related to tissue specificity of the cancer pathogen , the agent that causes chronic inflammation or the carcinogen . The target tissue may have receptors for the pathogen , may become selectively exposed to an inflammatory process or to a carcinogen . An innate genomic deficit in a tumor suppressor gene impairs normal responses and exacerbates the susceptibility to disease in organ targets . This theory also fits data for several tumor suppressors beyond BRCA1 or BRCA2 . A major advantage of this model is that it suggests there may be some options in addition to prophylactic surgery .",
+          "title": "BRCA1"
+        },
+        {
+          "rank": 3,
+          "doc_id": "836413300_15988-16869-0-881",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Infertility In the US , up to 20 % of infertile couples have unexplained infertility . In these cases abnormalities are likely to be present but not detected by current methods . Possible problems could be that the egg is not released at the optimum time for fertilization , that it may not enter the fallopian tube , sperm may not be able to reach the egg , fertilization may fail to occur , transport of the zygote may be disturbed , or implantation fails . It is increasingly recognized that egg quality is of critical importance and women of advanced maternal age have eggs of reduced capacity for normal and successful fertilization . Also , polymorphisms in folate pathway genes could be one reason for fertility complications in some women with unexplained infertility . However , a growing body of evidence suggests that epigenetic modifications in sperm may be partially responsible .",
+          "title": "Infertility"
+        },
+        {
+          "rank": 4,
+          "doc_id": "801235515_17942-18459-0-517",
+          "score": null,
+          "score_type": "contriever",
+          "text": "BRCA1 Certain variations of the BRCA1 gene lead to an increased risk for breast cancer as part of a hereditary breast - ovarian cancer syndrome . Researchers have identified hundreds of mutations in the BRCA1 gene , many of which are associated with an increased risk of cancer . Women with an abnormal BRCA1 or BRCA2 gene have up to an 80 % risk of developing breast cancer by age 90 ; increased risk of developing ovarian cancer is about 55 % for women with BRCA1 mutations and about 25 % for women with BRCA2 mutations .",
+          "title": "BRCA1"
+        },
+        {
+          "rank": 5,
+          "doc_id": "836413300_10980-12270-0-1290",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Infertility DNA damage DNA damage reduces fertility in female ovocytes , as caused by smoking , other xenobiotic DNA damaging agents ( such as radiation or chemotherapy ) or accumulation of the oxidative DNA damage 8 - hydroxy - deoxyguanosine DNA damage reduces fertility in male sperm , as caused by oxidative DNA damage , smoking , other xenobiotic DNA damaging agents ( such as drugs or chemotherapy ) or other DNA damaging agents including reactive oxygen species , fever or high testicular temperature . The damaged DNA related to infertility manifests itself by the increased susceptibility to denaturation inducible by heat or acid and / or by the presence of double - strand breaks that can be detected by the TUNEL assay . General factors Diabetes mellitus , thyroid disorders , undiagnosed and untreated coeliac disease , adrenal disease Hypothalamic - pituitary factors Hyperprolactinemia Hypopituitarism The presence of anti-thyroid antibodies is associated with an increased risk of unexplained subfertility with an odds ratio of 1.5 and 95 % confidence interval of 1.1 -- 2.0 . Environmental factors Toxins such as glues , volatile organic solvents or silicones , physical agents , chemical dusts , and pesticides . Tobacco smokers are 60 % more likely to be infertile than non-smokers .",
+          "title": "Infertility"
+        }
+      ],
+      "reference": {
+        "answer": "The cause of infertility is suspected to be immunological or genetic ; it may be that each partner is independently fertile but the couple can not conceive together. ",
+        "evidence_ids": [
+          "836413300_15575-15915-0-340"
+        ],
+        "evidence": [
+          {
+            "doc_id": "836413300_15575-15915-0-340",
+            "text": "Infertility\nInfertility\nIn some cases , both the man and woman may be infertile or sub-fertile , and the couple 's infertility arises from the combination of these conditions . In other cases , the cause is suspected to be immunological or genetic ; it may be that each partner is independently fertile but the couple can not conceive together without assistance ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "7",
+      "task_id": "6a738cc02c5aa0b74319acd0e8a809dd<::>7",
+      "question": "By the way, when was the vitro conception developed?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "types and causes of male and female infertility"
+        },
+        {
+          "role": "assistant",
+          "content": "Here are the types and causes of male and female infertility: Male infertility can be caused by: 1. Low semen quality 2. Endocrine problems 3. Drugs 4. Radiation 5. Infection 6. Testicular malformations 7. Hormone imbalance 8. Blockage of the duct system 9. Primary ciliary dyskinesia 10. Antisperm antibodies Female infertility can be caused by: 1. Inability to ovulate 2. Malformation of the eggs 3. Polycystic ovarian syndrome 4. Failure of ovaries to mature and release eggs 5. Ovulatory problems These causes can be diagnosed and, in some cases, treated through medical intervention. However, in about 10-20% of cases, no cause is found."
+        },
+        {
+          "role": "user",
+          "content": "How many years, think about adoption?"
+        },
+        {
+          "role": "assistant",
+          "content": "The documents do not include information on how long to consider adoption after experiencing infertility. "
+        },
+        {
+          "role": "user",
+          "content": "Regional differences"
+        },
+        {
+          "role": "assistant",
+          "content": "The documents do not include information about regional differences in infertility types and causes. It is important to note that  existing definitions of infertility lack uniformity , rendering comparisons in prevalence between countries or over time problematic . "
+        },
+        {
+          "role": "user",
+          "content": "chemo and fertility,  before puberty, still?"
+        },
+        {
+          "role": "assistant",
+          "content": "The documents do not provide specific information about the impact of chemotherapy on fertility before puberty.   But, yes, chemotherapy can affect fertility.  It can cause DNA damaging of the cells in the testicles or ovaries that produce sperm and eggs, potentially leading to reduced fertility or even sterility."
+        },
+        {
+          "role": "user",
+          "content": "any good idea to this?"
+        },
+        {
+          "role": "assistant",
+          "content": "While chemotherapy can impact fertility, there are options available to preserve fertility before starting treatment, such as sperm or egg freezing; eggs may be frozen and stored for later use.  For semen, cryopreservation can be used for far longer storage durations like 21 yrs.  However, these options may not be suitable for everyone, especially those who have not yet reached puberty.  It's important to discuss the potential risks and available options with a healthcare provider before starting chemotherapy."
+        },
+        {
+          "role": "user",
+          "content": "Enough for a chemo and infertility, is this a hereditary?"
+        },
+        {
+          "role": "assistant",
+          "content": "The cause of infertility is suspected to be immunological or genetic ; it may be that each partner is independently fertile but the couple can not conceive together. "
+        }
+      ],
+      "retrieval": {
+        "query": "By the way, when was the vitro conception developed?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "801197945_1529-2276-0-747",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Egg donation The first child born from egg donation was reported in Australia in 1983 . In July 1983 , a clinic in Southern California reported a pregnancy using egg donation , which led to the birth of the first American child born from egg donation on February 3 , 1984 . This procedure was performed at the Harbor UCLA Medical Center and the University of California at Los Angeles School of Medicine . In the procedure , which is no longer used today , a fertilized egg that was just beginning to develop was transferred from one woman in whom it had been conceived by artificial insemination to another woman who gave birth to the infant 38 weeks later . The sperm used in the artificial insemination came from the husband of the woman who bore the baby .",
+            "title": "Egg donation"
+          },
+          {
+            "rank": 2,
+            "doc_id": "801717519_18953-19341-0-388",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Hormonal contraception The first progestogen - only contraceptive was introduced in 1969 : Depo - Provera , a high - dose progestin injection . Over the next decade and a half , other types of progestogen - only contraceptive were developed : a low - dose progestogen only pill ( 1973 ) ; Progestasert , the first hormonal intrauterine device ( 1976 ) ; and Norplant , the first contraceptive implant ( 1983 ) .",
+            "title": "Hormonal contraception"
+          },
+          {
+            "rank": 3,
+            "doc_id": "804513106_10951-11598-0-647",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Martie Maguire Erwin has been frank about using invitro fertilization to conceive their daughters . In an interview in Conceive , she said , `` All my paperwork said ' unspecified origin . ' We spent three years of active trying before we went to IVF . First I went on Clomid . Then I had some dye tests and found I had a collapsed tube , so I had laparoscopic surgery ; the tube was n't blocked , just spasming . '' After three attempts at intrauterine insemination , she said , she and her husband did n't think it was worth continuing in that manner , and switched to IVF . In August 2007 , Maguire began IVF again , resulting in their third daughter Harper .",
+            "title": "Martie Maguire"
+          },
+          {
+            "rank": 4,
+            "doc_id": "818981440_2524-2747-0-223",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Superfecundation Koen and Teun Stuart , Dutch boys who were the result of in vitro fertilization ( IVF ) . In a mixup at the laboratory , equipment had been used twice , causing another man 's sperm to be mixed with the intended father 's .",
+            "title": "Superfecundation"
+          },
+          {
+            "rank": 5,
+            "doc_id": "805028919_31648-31932-0-284",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Timeline of Hurricane Katrina Meanwhile , under the orders of Gov. Kathleen Blanco , Illinois police officers on loan to Louisiana were sent out with flat bottomed boats to rescue hundreds of frozen embryos from New Orleans Lakewood Hospital 's Fertility Institute , the first of which was born on Jan. 16 , 2007 .",
+            "title": "Timeline of Hurricane Katrina"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "801197945_1529-2276-0-747",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Egg donation The first child born from egg donation was reported in Australia in 1983 . In July 1983 , a clinic in Southern California reported a pregnancy using egg donation , which led to the birth of the first American child born from egg donation on February 3 , 1984 . This procedure was performed at the Harbor UCLA Medical Center and the University of California at Los Angeles School of Medicine . In the procedure , which is no longer used today , a fertilized egg that was just beginning to develop was transferred from one woman in whom it had been conceived by artificial insemination to another woman who gave birth to the infant 38 weeks later . The sperm used in the artificial insemination came from the husband of the woman who bore the baby .",
+            "title": "Egg donation"
+          },
+          {
+            "rank": 2,
+            "doc_id": "801717519_18953-19341-0-388",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Hormonal contraception The first progestogen - only contraceptive was introduced in 1969 : Depo - Provera , a high - dose progestin injection . Over the next decade and a half , other types of progestogen - only contraceptive were developed : a low - dose progestogen only pill ( 1973 ) ; Progestasert , the first hormonal intrauterine device ( 1976 ) ; and Norplant , the first contraceptive implant ( 1983 ) .",
+            "title": "Hormonal contraception"
+          },
+          {
+            "rank": 3,
+            "doc_id": "804513106_10951-11598-0-647",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Martie Maguire Erwin has been frank about using invitro fertilization to conceive their daughters . In an interview in Conceive , she said , `` All my paperwork said ' unspecified origin . ' We spent three years of active trying before we went to IVF . First I went on Clomid . Then I had some dye tests and found I had a collapsed tube , so I had laparoscopic surgery ; the tube was n't blocked , just spasming . '' After three attempts at intrauterine insemination , she said , she and her husband did n't think it was worth continuing in that manner , and switched to IVF . In August 2007 , Maguire began IVF again , resulting in their third daughter Harper .",
+            "title": "Martie Maguire"
+          },
+          {
+            "rank": 4,
+            "doc_id": "818981440_2524-2747-0-223",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Superfecundation Koen and Teun Stuart , Dutch boys who were the result of in vitro fertilization ( IVF ) . In a mixup at the laboratory , equipment had been used twice , causing another man 's sperm to be mixed with the intended father 's .",
+            "title": "Superfecundation"
+          },
+          {
+            "rank": 5,
+            "doc_id": "805028919_31648-31932-0-284",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Timeline of Hurricane Katrina Meanwhile , under the orders of Gov. Kathleen Blanco , Illinois police officers on loan to Louisiana were sent out with flat bottomed boats to rescue hundreds of frozen embryos from New Orleans Lakewood Hospital 's Fertility Institute , the first of which was born on Jan. 16 , 2007 .",
+            "title": "Timeline of Hurricane Katrina"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "The first successful birth using in vitro fertilization (IVF) occurred in 1973.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "801197945_1529-2276-0-747",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Egg donation The first child born from egg donation was reported in Australia in 1983 . In July 1983 , a clinic in Southern California reported a pregnancy using egg donation , which led to the birth of the first American child born from egg donation on February 3 , 1984 . This procedure was performed at the Harbor UCLA Medical Center and the University of California at Los Angeles School of Medicine . In the procedure , which is no longer used today , a fertilized egg that was just beginning to develop was transferred from one woman in whom it had been conceived by artificial insemination to another woman who gave birth to the infant 38 weeks later . The sperm used in the artificial insemination came from the husband of the woman who bore the baby .",
+          "title": "Egg donation"
+        },
+        {
+          "rank": 2,
+          "doc_id": "801717519_18953-19341-0-388",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Hormonal contraception The first progestogen - only contraceptive was introduced in 1969 : Depo - Provera , a high - dose progestin injection . Over the next decade and a half , other types of progestogen - only contraceptive were developed : a low - dose progestogen only pill ( 1973 ) ; Progestasert , the first hormonal intrauterine device ( 1976 ) ; and Norplant , the first contraceptive implant ( 1983 ) .",
+          "title": "Hormonal contraception"
+        },
+        {
+          "rank": 3,
+          "doc_id": "804513106_10951-11598-0-647",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Martie Maguire Erwin has been frank about using invitro fertilization to conceive their daughters . In an interview in Conceive , she said , `` All my paperwork said ' unspecified origin . ' We spent three years of active trying before we went to IVF . First I went on Clomid . Then I had some dye tests and found I had a collapsed tube , so I had laparoscopic surgery ; the tube was n't blocked , just spasming . '' After three attempts at intrauterine insemination , she said , she and her husband did n't think it was worth continuing in that manner , and switched to IVF . In August 2007 , Maguire began IVF again , resulting in their third daughter Harper .",
+          "title": "Martie Maguire"
+        },
+        {
+          "rank": 4,
+          "doc_id": "818981440_2524-2747-0-223",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Superfecundation Koen and Teun Stuart , Dutch boys who were the result of in vitro fertilization ( IVF ) . In a mixup at the laboratory , equipment had been used twice , causing another man 's sperm to be mixed with the intended father 's .",
+          "title": "Superfecundation"
+        },
+        {
+          "rank": 5,
+          "doc_id": "805028919_31648-31932-0-284",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Timeline of Hurricane Katrina Meanwhile , under the orders of Gov. Kathleen Blanco , Illinois police officers on loan to Louisiana were sent out with flat bottomed boats to rescue hundreds of frozen embryos from New Orleans Lakewood Hospital 's Fertility Institute , the first of which was born on Jan. 16 , 2007 .",
+          "title": "Timeline of Hurricane Katrina"
+        }
+      ],
+      "reference": {
+        "answer": "Sorry, but I have no information regarding when the vitro conception developed.  However, the first child born from egg donation was reported in Australia in 1983 .",
+        "evidence_ids": [
+          "801197945_1529-2276-0-747"
+        ],
+        "evidence": [
+          {
+            "doc_id": "801197945_1529-2276-0-747",
+            "text": "Egg donation\nEgg donation\nThe first child born from egg donation was reported in Australia in 1983 . In July 1983 , a clinic in Southern California reported a pregnancy using egg donation , which led to the birth of the first American child born from egg donation on February 3 , 1984 . This procedure was performed at the Harbor UCLA Medical Center and the University of California at Los Angeles School of Medicine . In the procedure , which is no longer used today , a fertilized egg that was just beginning to develop was transferred from one woman in whom it had been conceived by artificial insemination to another woman who gave birth to the infant 38 weeks later . The sperm used in the artificial insemination came from the husband of the woman who bore the baby ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "PARTIAL",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "8",
+      "task_id": "6a738cc02c5aa0b74319acd0e8a809dd<::>8",
+      "question": "egg donor a good business?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "types and causes of male and female infertility"
+        },
+        {
+          "role": "assistant",
+          "content": "Here are the types and causes of male and female infertility: Male infertility can be caused by: 1. Low semen quality 2. Endocrine problems 3. Drugs 4. Radiation 5. Infection 6. Testicular malformations 7. Hormone imbalance 8. Blockage of the duct system 9. Primary ciliary dyskinesia 10. Antisperm antibodies Female infertility can be caused by: 1. Inability to ovulate 2. Malformation of the eggs 3. Polycystic ovarian syndrome 4. Failure of ovaries to mature and release eggs 5. Ovulatory problems These causes can be diagnosed and, in some cases, treated through medical intervention. However, in about 10-20% of cases, no cause is found."
+        },
+        {
+          "role": "user",
+          "content": "How many years, think about adoption?"
+        },
+        {
+          "role": "assistant",
+          "content": "The documents do not include information on how long to consider adoption after experiencing infertility. "
+        },
+        {
+          "role": "user",
+          "content": "Regional differences"
+        },
+        {
+          "role": "assistant",
+          "content": "The documents do not include information about regional differences in infertility types and causes. It is important to note that  existing definitions of infertility lack uniformity , rendering comparisons in prevalence between countries or over time problematic . "
+        },
+        {
+          "role": "user",
+          "content": "chemo and fertility,  before puberty, still?"
+        },
+        {
+          "role": "assistant",
+          "content": "The documents do not provide specific information about the impact of chemotherapy on fertility before puberty.   But, yes, chemotherapy can affect fertility.  It can cause DNA damaging of the cells in the testicles or ovaries that produce sperm and eggs, potentially leading to reduced fertility or even sterility."
+        },
+        {
+          "role": "user",
+          "content": "any good idea to this?"
+        },
+        {
+          "role": "assistant",
+          "content": "While chemotherapy can impact fertility, there are options available to preserve fertility before starting treatment, such as sperm or egg freezing; eggs may be frozen and stored for later use.  For semen, cryopreservation can be used for far longer storage durations like 21 yrs.  However, these options may not be suitable for everyone, especially those who have not yet reached puberty.  It's important to discuss the potential risks and available options with a healthcare provider before starting chemotherapy."
+        },
+        {
+          "role": "user",
+          "content": "Enough for a chemo and infertility, is this a hereditary?"
+        },
+        {
+          "role": "assistant",
+          "content": "The cause of infertility is suspected to be immunological or genetic ; it may be that each partner is independently fertile but the couple can not conceive together. "
+        },
+        {
+          "role": "user",
+          "content": "By the way, when was the vitro conception developed?"
+        },
+        {
+          "role": "assistant",
+          "content": "Sorry, but I have no information regarding when the vitro conception developed.  However, the first child born from egg donation was reported in Australia in 1983 ."
+        }
+      ],
+      "retrieval": {
+        "query": "egg donor a good business?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "801197945_32696-33417-0-721",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Egg donation For a donor to be accepted by an agency and repeatedly used she must be marketable and appealing to the recipients . Although egg donation is a significant , life - giving act , the companies participating in this industry still have to operate with an economical mind - set . Matches between egg recipients and egg donors are what make the profit for the company and achievable to continue these processes for others . The most sought - after donors tend to be those who are ( 1 ) proven ( i.e. , have donated before and produced a pregnancy from it , proving themselves both fertile and reliable ) ; ( 2 ) conventionally attractive ; ( 3 ) healthy , with good family health histories ; and ( 4 ) smart , well educated .",
+            "title": "Egg donation"
+          },
+          {
+            "rank": 2,
+            "doc_id": "801197945_8054-9488-0-1434",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Egg donation Donors unrelated to the recipients who do it for altruistic and / or monetary reasons . In the US they are anonymous donors or semi-anonymous donors recruited by egg donor agencies or IVF clinics . Such donors may also be non-anonymous donors , i.e. , they may exchange identifying and contact information with the recipients . In most countries other than the US and UK , the law requires such donors to remain anonymous . Designated donors , e.g. a friend or relative brought by the patients to serve as a donor specifically to help them . In Sweden and France , couples who can bring such a donor still get another person as a donor , but instead get advanced on the waiting list for the procedure , and that donor rather becomes a `` cross donor '' . In other words , the couple brings a designated donor , she donates anonymously to another couple , and the couple that brought her receives eggs from another anonymous donor much more quickly than they would have if they had not been able to provide a designated donor . Patients taking part in shared oocyte programmes . Women who go through in vitro fertilization may be willing to donate unused eggs to such a program , where the egg recipients together help paying the cost of the In Vitro Fertilisation ( IVF ) procedure . It is very cost - effective compared to other alternatives . The pregnancy rate with use of shared oocytes is similar to that with altruistic donors .",
+            "title": "Egg donation"
+          },
+          {
+            "rank": 3,
+            "doc_id": "801197945_33418-34806-0-1388",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Egg donation Donor profiles presented on agency websites are their primary marketing tool to find recipients and learn what these future consumers want . On the donor profiles listed on the agency website for recipients , or `` clients '' , to peruse for their desired egg match , `` physical characteristics , family health history , educational attainment ( in some cases , standardized test scores , GPA , and IQ scores are requested ) , as well as open - ended questions about hobbies , likes and dislikes , and motivations for donating '' are included . Donors are encouraged to submit attractive photos and are advised of what the recipient finds as desirable . Profiles that are at some point deemed unacceptable are deleted , whether it be because their personalities did not stand out or their portrayals were viewed as negative in some way . Overweight volunteers for donation are also most often not accepted , not just because of conventional views on physical attractiveness but also because women with a higher body - mass index tend to respond differently ( less well ) to ovarian stimulation drugs and IVF clinics thus generally recommend that patients not use donors with higher BMIs . Egg donors also have a higher standard of physical appearance than sperm donors ; many sperm donors are not required to provide adult photographs of themselves , or in some cases , any photographs .",
+            "title": "Egg donation"
+          },
+          {
+            "rank": 4,
+            "doc_id": "801197945_15360-16493-0-1133",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Egg donation Although the donors may be motivated by both monetary and altruistic reasons , egg agencies desire and prefer to choose donors that are strictly providing eggs for altruistic reasons . The European Union limits any financial compensation for donors to at most $1500 . In some countries , most notably Spain and Cyprus , this has limited donors to the poorest segments of society . In the United States , donors are paid regardless of how many eggs she produces . A donor 's compensation may increase for each additional time she provides eggs , especially if the donor 's eggs have a history of reliably resulting in the recipient becoming pregnant . In the United States , egg - broker agencies are known for advertising to college students who are more likely to be in financial situations that motivate them to participate for the financial compensation . It is not unusual for one student to donate many times . Often , this is done without consideration of potential long - term health consequences . Such a student is arguably not making the decision to donate her eggs autonomously due to her unfavorable financial situation .",
+            "title": "Egg donation"
+          },
+          {
+            "rank": 5,
+            "doc_id": "801197945_6803-7644-0-841",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Egg donation In the US and UK , if desired ( and if the egg donor agrees ) , the couple can meet and get acquainted with the egg donor , her children and family members . More often , egg donations are anonymous or semi-anonymous ( i.e. the egg donor may provide personal and medical information , photographs of herself and / or family members , and an email or third party willing to convey communications between the donor and recipients ) . In some countries , the law requires non-anonymity ( e.g. , the UK ) . In other countries , the law requires anonymity ( e.g. , France , Spain , the Czech Republic , South Africa ) . In the US the choice between anonymity , semi-anonymity and non-anonymity is made by the donor and recipient , although some IVF clinics that maintain their own databases of egg donors strongly encourage or require anonymity .",
+            "title": "Egg donation"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "801197945_32696-33417-0-721",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Egg donation For a donor to be accepted by an agency and repeatedly used she must be marketable and appealing to the recipients . Although egg donation is a significant , life - giving act , the companies participating in this industry still have to operate with an economical mind - set . Matches between egg recipients and egg donors are what make the profit for the company and achievable to continue these processes for others . The most sought - after donors tend to be those who are ( 1 ) proven ( i.e. , have donated before and produced a pregnancy from it , proving themselves both fertile and reliable ) ; ( 2 ) conventionally attractive ; ( 3 ) healthy , with good family health histories ; and ( 4 ) smart , well educated .",
+            "title": "Egg donation"
+          },
+          {
+            "rank": 2,
+            "doc_id": "801197945_8054-9488-0-1434",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Egg donation Donors unrelated to the recipients who do it for altruistic and / or monetary reasons . In the US they are anonymous donors or semi-anonymous donors recruited by egg donor agencies or IVF clinics . Such donors may also be non-anonymous donors , i.e. , they may exchange identifying and contact information with the recipients . In most countries other than the US and UK , the law requires such donors to remain anonymous . Designated donors , e.g. a friend or relative brought by the patients to serve as a donor specifically to help them . In Sweden and France , couples who can bring such a donor still get another person as a donor , but instead get advanced on the waiting list for the procedure , and that donor rather becomes a `` cross donor '' . In other words , the couple brings a designated donor , she donates anonymously to another couple , and the couple that brought her receives eggs from another anonymous donor much more quickly than they would have if they had not been able to provide a designated donor . Patients taking part in shared oocyte programmes . Women who go through in vitro fertilization may be willing to donate unused eggs to such a program , where the egg recipients together help paying the cost of the In Vitro Fertilisation ( IVF ) procedure . It is very cost - effective compared to other alternatives . The pregnancy rate with use of shared oocytes is similar to that with altruistic donors .",
+            "title": "Egg donation"
+          },
+          {
+            "rank": 3,
+            "doc_id": "801197945_33418-34806-0-1388",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Egg donation Donor profiles presented on agency websites are their primary marketing tool to find recipients and learn what these future consumers want . On the donor profiles listed on the agency website for recipients , or `` clients '' , to peruse for their desired egg match , `` physical characteristics , family health history , educational attainment ( in some cases , standardized test scores , GPA , and IQ scores are requested ) , as well as open - ended questions about hobbies , likes and dislikes , and motivations for donating '' are included . Donors are encouraged to submit attractive photos and are advised of what the recipient finds as desirable . Profiles that are at some point deemed unacceptable are deleted , whether it be because their personalities did not stand out or their portrayals were viewed as negative in some way . Overweight volunteers for donation are also most often not accepted , not just because of conventional views on physical attractiveness but also because women with a higher body - mass index tend to respond differently ( less well ) to ovarian stimulation drugs and IVF clinics thus generally recommend that patients not use donors with higher BMIs . Egg donors also have a higher standard of physical appearance than sperm donors ; many sperm donors are not required to provide adult photographs of themselves , or in some cases , any photographs .",
+            "title": "Egg donation"
+          },
+          {
+            "rank": 4,
+            "doc_id": "801197945_15360-16493-0-1133",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Egg donation Although the donors may be motivated by both monetary and altruistic reasons , egg agencies desire and prefer to choose donors that are strictly providing eggs for altruistic reasons . The European Union limits any financial compensation for donors to at most $1500 . In some countries , most notably Spain and Cyprus , this has limited donors to the poorest segments of society . In the United States , donors are paid regardless of how many eggs she produces . A donor 's compensation may increase for each additional time she provides eggs , especially if the donor 's eggs have a history of reliably resulting in the recipient becoming pregnant . In the United States , egg - broker agencies are known for advertising to college students who are more likely to be in financial situations that motivate them to participate for the financial compensation . It is not unusual for one student to donate many times . Often , this is done without consideration of potential long - term health consequences . Such a student is arguably not making the decision to donate her eggs autonomously due to her unfavorable financial situation .",
+            "title": "Egg donation"
+          },
+          {
+            "rank": 5,
+            "doc_id": "801197945_6803-7644-0-841",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Egg donation In the US and UK , if desired ( and if the egg donor agrees ) , the couple can meet and get acquainted with the egg donor , her children and family members . More often , egg donations are anonymous or semi-anonymous ( i.e. the egg donor may provide personal and medical information , photographs of herself and / or family members , and an email or third party willing to convey communications between the donor and recipients ) . In some countries , the law requires non-anonymity ( e.g. , the UK ) . In other countries , the law requires anonymity ( e.g. , France , Spain , the Czech Republic , South Africa ) . In the US the choice between anonymity , semi-anonymity and non-anonymity is made by the donor and recipient , although some IVF clinics that maintain their own databases of egg donors strongly encourage or require anonymity .",
+            "title": "Egg donation"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "The documents do not provide information on whether or not egg donation is a good business.It is important to note that egg donation is a complex and emotional process for all parties involved, and it is important to carefully consider the ethical and legal implications of this decision before proceeding.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "801197945_32696-33417-0-721",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Egg donation For a donor to be accepted by an agency and repeatedly used she must be marketable and appealing to the recipients . Although egg donation is a significant , life - giving act , the companies participating in this industry still have to operate with an economical mind - set . Matches between egg recipients and egg donors are what make the profit for the company and achievable to continue these processes for others . The most sought - after donors tend to be those who are ( 1 ) proven ( i.e. , have donated before and produced a pregnancy from it , proving themselves both fertile and reliable ) ; ( 2 ) conventionally attractive ; ( 3 ) healthy , with good family health histories ; and ( 4 ) smart , well educated .",
+          "title": "Egg donation"
+        },
+        {
+          "rank": 2,
+          "doc_id": "801197945_8054-9488-0-1434",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Egg donation Donors unrelated to the recipients who do it for altruistic and / or monetary reasons . In the US they are anonymous donors or semi-anonymous donors recruited by egg donor agencies or IVF clinics . Such donors may also be non-anonymous donors , i.e. , they may exchange identifying and contact information with the recipients . In most countries other than the US and UK , the law requires such donors to remain anonymous . Designated donors , e.g. a friend or relative brought by the patients to serve as a donor specifically to help them . In Sweden and France , couples who can bring such a donor still get another person as a donor , but instead get advanced on the waiting list for the procedure , and that donor rather becomes a `` cross donor '' . In other words , the couple brings a designated donor , she donates anonymously to another couple , and the couple that brought her receives eggs from another anonymous donor much more quickly than they would have if they had not been able to provide a designated donor . Patients taking part in shared oocyte programmes . Women who go through in vitro fertilization may be willing to donate unused eggs to such a program , where the egg recipients together help paying the cost of the In Vitro Fertilisation ( IVF ) procedure . It is very cost - effective compared to other alternatives . The pregnancy rate with use of shared oocytes is similar to that with altruistic donors .",
+          "title": "Egg donation"
+        },
+        {
+          "rank": 3,
+          "doc_id": "801197945_33418-34806-0-1388",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Egg donation Donor profiles presented on agency websites are their primary marketing tool to find recipients and learn what these future consumers want . On the donor profiles listed on the agency website for recipients , or `` clients '' , to peruse for their desired egg match , `` physical characteristics , family health history , educational attainment ( in some cases , standardized test scores , GPA , and IQ scores are requested ) , as well as open - ended questions about hobbies , likes and dislikes , and motivations for donating '' are included . Donors are encouraged to submit attractive photos and are advised of what the recipient finds as desirable . Profiles that are at some point deemed unacceptable are deleted , whether it be because their personalities did not stand out or their portrayals were viewed as negative in some way . Overweight volunteers for donation are also most often not accepted , not just because of conventional views on physical attractiveness but also because women with a higher body - mass index tend to respond differently ( less well ) to ovarian stimulation drugs and IVF clinics thus generally recommend that patients not use donors with higher BMIs . Egg donors also have a higher standard of physical appearance than sperm donors ; many sperm donors are not required to provide adult photographs of themselves , or in some cases , any photographs .",
+          "title": "Egg donation"
+        },
+        {
+          "rank": 4,
+          "doc_id": "801197945_15360-16493-0-1133",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Egg donation Although the donors may be motivated by both monetary and altruistic reasons , egg agencies desire and prefer to choose donors that are strictly providing eggs for altruistic reasons . The European Union limits any financial compensation for donors to at most $1500 . In some countries , most notably Spain and Cyprus , this has limited donors to the poorest segments of society . In the United States , donors are paid regardless of how many eggs she produces . A donor 's compensation may increase for each additional time she provides eggs , especially if the donor 's eggs have a history of reliably resulting in the recipient becoming pregnant . In the United States , egg - broker agencies are known for advertising to college students who are more likely to be in financial situations that motivate them to participate for the financial compensation . It is not unusual for one student to donate many times . Often , this is done without consideration of potential long - term health consequences . Such a student is arguably not making the decision to donate her eggs autonomously due to her unfavorable financial situation .",
+          "title": "Egg donation"
+        },
+        {
+          "rank": 5,
+          "doc_id": "801197945_6803-7644-0-841",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Egg donation In the US and UK , if desired ( and if the egg donor agrees ) , the couple can meet and get acquainted with the egg donor , her children and family members . More often , egg donations are anonymous or semi-anonymous ( i.e. the egg donor may provide personal and medical information , photographs of herself and / or family members , and an email or third party willing to convey communications between the donor and recipients ) . In some countries , the law requires non-anonymity ( e.g. , the UK ) . In other countries , the law requires anonymity ( e.g. , France , Spain , the Czech Republic , South Africa ) . In the US the choice between anonymity , semi-anonymity and non-anonymity is made by the donor and recipient , although some IVF clinics that maintain their own databases of egg donors strongly encourage or require anonymity .",
+          "title": "Egg donation"
+        }
+      ],
+      "reference": {
+        "answer": "In most countries where it is legal and compensated , the law places a cap on the compensation and that cap tends to be in the vicinity of $1000 -- $2000 .  The European Union limits any financial compensation for donors to at most $1500.  In the US , they are paid thousands of dollars.  The American Society for Reproductive Medicine ( ASRM ) requires member clinics to abide by ASRM standards that sums of $5,000 or more require justification and sums above $10,000 are not appropriate.   It's also important to note that such programs aim to help individuals and couples struggling with infertility and should prioritize their well-being above any commercial interests.",
+        "evidence_ids": [
+          "801197945_23361-24140-0-779",
+          "801197945_15360-16493-0-1133",
+          "801197945_19696-20137-0-441"
+        ],
+        "evidence": [
+          {
+            "doc_id": "801197945_23361-24140-0-779",
+            "text": "Egg donation\nEgg donation\nIn countries that prohibit compensation there is an extreme dearth of young women willing to go through this procedure . Additionally , in most countries where it is legal and compensated , the law places a cap on the compensation and that cap tends to be in the vicinity of $1000 -- $2000 . In the US , no law caps the compensation , but the American Society for Reproductive Medicine ( ASRM ) requires member clinics to abide by ASRM standards , which provide that `` sums of $5,000 or more require justification and sums above $10,000 are not appropriate . '' The `` justification '' for payments over $5000 may include previous successful donations , unusually good family health history , or membership in minority ethnicities for which it is more difficult to find donors ."
+          },
+          {
+            "doc_id": "801197945_15360-16493-0-1133",
+            "text": "Egg donation\nEgg donation\nAlthough the donors may be motivated by both monetary and altruistic reasons , egg agencies desire and prefer to choose donors that are strictly providing eggs for altruistic reasons . The European Union limits any financial compensation for donors to at most $1500 . In some countries , most notably Spain and Cyprus , this has limited donors to the poorest segments of society . In the United States , donors are paid regardless of how many eggs she produces . A donor 's compensation may increase for each additional time she provides eggs , especially if the donor 's eggs have a history of reliably resulting in the recipient becoming pregnant . In the United States , egg - broker agencies are known for advertising to college students who are more likely to be in financial situations that motivate them to participate for the financial compensation . It is not unusual for one student to donate many times . Often , this is done without consideration of potential long - term health consequences . Such a student is arguably not making the decision to donate her eggs autonomously due to her unfavorable financial situation ."
+          },
+          {
+            "doc_id": "801197945_19696-20137-0-441",
+            "text": "Egg donation\nEgg donation\nThe recipient also trusts that the medical history of the donor and her family is accurate . This factor of trust should not be underestimated in importance . Donors in the US are paid thousands of dollars ; such compensation may attract unscrupulous individuals inclined to conceal their true motivations . However , a full psychological evaluation is required by most IVF clinics , giving an indication if the donor is trustworthy or not ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "9",
+      "task_id": "6a738cc02c5aa0b74319acd0e8a809dd<::>9",
+      "question": "I mean are they organized, not individually contracted with the recipients?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "types and causes of male and female infertility"
+        },
+        {
+          "role": "assistant",
+          "content": "Here are the types and causes of male and female infertility: Male infertility can be caused by: 1. Low semen quality 2. Endocrine problems 3. Drugs 4. Radiation 5. Infection 6. Testicular malformations 7. Hormone imbalance 8. Blockage of the duct system 9. Primary ciliary dyskinesia 10. Antisperm antibodies Female infertility can be caused by: 1. Inability to ovulate 2. Malformation of the eggs 3. Polycystic ovarian syndrome 4. Failure of ovaries to mature and release eggs 5. Ovulatory problems These causes can be diagnosed and, in some cases, treated through medical intervention. However, in about 10-20% of cases, no cause is found."
+        },
+        {
+          "role": "user",
+          "content": "How many years, think about adoption?"
+        },
+        {
+          "role": "assistant",
+          "content": "The documents do not include information on how long to consider adoption after experiencing infertility. "
+        },
+        {
+          "role": "user",
+          "content": "Regional differences"
+        },
+        {
+          "role": "assistant",
+          "content": "The documents do not include information about regional differences in infertility types and causes. It is important to note that  existing definitions of infertility lack uniformity , rendering comparisons in prevalence between countries or over time problematic . "
+        },
+        {
+          "role": "user",
+          "content": "chemo and fertility,  before puberty, still?"
+        },
+        {
+          "role": "assistant",
+          "content": "The documents do not provide specific information about the impact of chemotherapy on fertility before puberty.   But, yes, chemotherapy can affect fertility.  It can cause DNA damaging of the cells in the testicles or ovaries that produce sperm and eggs, potentially leading to reduced fertility or even sterility."
+        },
+        {
+          "role": "user",
+          "content": "any good idea to this?"
+        },
+        {
+          "role": "assistant",
+          "content": "While chemotherapy can impact fertility, there are options available to preserve fertility before starting treatment, such as sperm or egg freezing; eggs may be frozen and stored for later use.  For semen, cryopreservation can be used for far longer storage durations like 21 yrs.  However, these options may not be suitable for everyone, especially those who have not yet reached puberty.  It's important to discuss the potential risks and available options with a healthcare provider before starting chemotherapy."
+        },
+        {
+          "role": "user",
+          "content": "Enough for a chemo and infertility, is this a hereditary?"
+        },
+        {
+          "role": "assistant",
+          "content": "The cause of infertility is suspected to be immunological or genetic ; it may be that each partner is independently fertile but the couple can not conceive together. "
+        },
+        {
+          "role": "user",
+          "content": "By the way, when was the vitro conception developed?"
+        },
+        {
+          "role": "assistant",
+          "content": "Sorry, but I have no information regarding when the vitro conception developed.  However, the first child born from egg donation was reported in Australia in 1983 ."
+        },
+        {
+          "role": "user",
+          "content": "egg donor a good business?"
+        },
+        {
+          "role": "assistant",
+          "content": "In most countries where it is legal and compensated , the law places a cap on the compensation and that cap tends to be in the vicinity of $1000 -- $2000 .  The European Union limits any financial compensation for donors to at most $1500.  In the US , they are paid thousands of dollars.  The American Society for Reproductive Medicine ( ASRM ) requires member clinics to abide by ASRM standards that sums of $5,000 or more require justification and sums above $10,000 are not appropriate.   It's also important to note that such programs aim to help individuals and couples struggling with infertility and should prioritize their well-being above any commercial interests."
+        }
+      ],
+      "retrieval": {
+        "query": "I mean are they organized, not individually contracted with the recipients?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "856878710_48637-50009-0-1372",
+            "score": null,
+            "score_type": "contriever",
+            "text": "The Church of Jesus Christ of Latter-day Saints The LDS Church stresses the importance of worldwide humanitarian service . The church 's welfare and humanitarian efforts are coordinated by LDS Philanthropies ( LDSP ) , a church department under the direction of the Presiding Bishopric . Welfare efforts , originally initiated during the Great Depression , provide aid for the poor , financed by donations from church members . LDSP is also responsible for philanthropic donations to the LDS Church and other affiliated charities , such as the Church History Library , the Church Educational System -- which includes Brigham Young University , the Perpetual Education Fund , and the Polynesian Cultural Center -- the Mormon Tabernacle Choir , and efforts dedicated to providing funds for LDS missionaries and temple construction . Donations are also used to operate bishop 's storehouses , which package and store food for the poor at low cost . Distribution of funds and food is administered by local bishops . These local storehouses distribute commodities to the needy as requested by local bishops on a specified form . Bishop 's storehouses also provide service opportunities for those receiving assistance and for those desiring to serve missions or to volunteer in the church 's welfare program . The day - to - day operations of the storehouses are typically run by senior - aged missionaries as store managers .",
+            "title": "The Church of Jesus Christ of Latter-day Saints"
+          },
+          {
+            "rank": 2,
+            "doc_id": "856456696_84334-84778-0-444",
+            "score": null,
+            "score_type": "contriever",
+            "text": "United States Postal Service Regional Distribution Centers ( RDCs ) , which will process all classes of parcels and bundles and serve as Surface Transfer Centers ; Local Processing Centers ( LPCs ) , which will process single - piece letters and flats and cancel mail ; Destination Processing Centers ( DPC ) , sort the mail for individual mail carriers ; Airport Transfer Centers ( ATCs ) , which will serve as transfer points only ; and Remote Encoding Centers ( RECs ) .",
+            "title": "United States Postal Service"
+          },
+          {
+            "rank": 3,
+            "doc_id": "820003296_66499-67241-0-742",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Famine There is a growing realization among aid groups that giving cash or cash vouchers instead of food is a cheaper , faster , and more efficient way to deliver help to the hungry , particularly in areas where food is available but unaffordable . The United Nations ' World Food Program ( WFP ) , the biggest non-governmental distributor of food , announced that it will begin distributing cash and vouchers instead of food in some areas , which Josette Sheeran , the WFP 's executive director , described as a `` revolution '' in food aid . The aid agency Concern Worldwide is piloting a method through a mobile phone operator , Safaricom , which runs a money transfer program that allows cash to be sent from one part of the country to another .",
+            "title": "Famine"
+          },
+          {
+            "rank": 4,
+            "doc_id": "866493021_28805-30210-0-1405",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Letter of credit It might also be feasible to typify letters of credit as a collateral contract for a third - party beneficiary , because three different entities participate in the transaction : the seller , the buyer , and the banker . Jean Domat suggests that because letters of credit are prompted by the buyer 's necessity , the cause of a LC is to release the buyer of his obligation to pay directly to the seller . Therefore , a LC theoretically fits as a collateral contract accepted by conduct or in other words , an implied - in - fact contract where the buyer participates as the third party beneficiary with the bank acting as the stipulator and the seller as the promisor . The term `` beneficiary '' is not used properly in the scheme of an LC because a beneficiary ( also , in trust law , cestui que use ) in the broadest sense is a natural person or other legal entity who receives money or other benefits from a benefactor . Note that under the scheme of letters of credit , banks are neither benefactors of sellers nor benefactors of buyers and the seller receives no money in gratuity mode . Thus is possible that a `` letter of credit '' was one of those contracts that needed to be masked to disguise the `` consideration or privity requirement '' . As a result , this kind of arrangement would make letter of credit to be enforceable under the action assumpsit because of its promissory connotation .",
+            "title": "Letter of credit"
+          },
+          {
+            "rank": 5,
+            "doc_id": "856456696_35840-36613-0-772",
+            "score": null,
+            "score_type": "contriever",
+            "text": "United States Postal Service The USPS is often mistaken for a government - owned corporation ( e.g. , Amtrak ) because it operates much like a business . It is , however , an `` establishment of the executive branch of the Government of the United States '' , ( 39 U.S.C. § 201 ) as it is controlled by Presidential appointees and the Postmaster General . As a government agency , it has many special privileges , including sovereign immunity , eminent domain powers , powers to negotiate postal treaties with foreign nations , and an exclusive legal right to deliver first - class and third - class mail . Indeed , in 2004 , the U.S. Supreme Court ruled in a unanimous decision that the USPS was not a government - owned corporation , and therefore could not be sued under the Sherman Antitrust Act .",
+            "title": "United States Postal Service"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "856878710_48637-50009-0-1372",
+            "score": null,
+            "score_type": "contriever",
+            "text": "The Church of Jesus Christ of Latter-day Saints The LDS Church stresses the importance of worldwide humanitarian service . The church 's welfare and humanitarian efforts are coordinated by LDS Philanthropies ( LDSP ) , a church department under the direction of the Presiding Bishopric . Welfare efforts , originally initiated during the Great Depression , provide aid for the poor , financed by donations from church members . LDSP is also responsible for philanthropic donations to the LDS Church and other affiliated charities , such as the Church History Library , the Church Educational System -- which includes Brigham Young University , the Perpetual Education Fund , and the Polynesian Cultural Center -- the Mormon Tabernacle Choir , and efforts dedicated to providing funds for LDS missionaries and temple construction . Donations are also used to operate bishop 's storehouses , which package and store food for the poor at low cost . Distribution of funds and food is administered by local bishops . These local storehouses distribute commodities to the needy as requested by local bishops on a specified form . Bishop 's storehouses also provide service opportunities for those receiving assistance and for those desiring to serve missions or to volunteer in the church 's welfare program . The day - to - day operations of the storehouses are typically run by senior - aged missionaries as store managers .",
+            "title": "The Church of Jesus Christ of Latter-day Saints"
+          },
+          {
+            "rank": 2,
+            "doc_id": "856456696_84334-84778-0-444",
+            "score": null,
+            "score_type": "contriever",
+            "text": "United States Postal Service Regional Distribution Centers ( RDCs ) , which will process all classes of parcels and bundles and serve as Surface Transfer Centers ; Local Processing Centers ( LPCs ) , which will process single - piece letters and flats and cancel mail ; Destination Processing Centers ( DPC ) , sort the mail for individual mail carriers ; Airport Transfer Centers ( ATCs ) , which will serve as transfer points only ; and Remote Encoding Centers ( RECs ) .",
+            "title": "United States Postal Service"
+          },
+          {
+            "rank": 3,
+            "doc_id": "820003296_66499-67241-0-742",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Famine There is a growing realization among aid groups that giving cash or cash vouchers instead of food is a cheaper , faster , and more efficient way to deliver help to the hungry , particularly in areas where food is available but unaffordable . The United Nations ' World Food Program ( WFP ) , the biggest non-governmental distributor of food , announced that it will begin distributing cash and vouchers instead of food in some areas , which Josette Sheeran , the WFP 's executive director , described as a `` revolution '' in food aid . The aid agency Concern Worldwide is piloting a method through a mobile phone operator , Safaricom , which runs a money transfer program that allows cash to be sent from one part of the country to another .",
+            "title": "Famine"
+          },
+          {
+            "rank": 4,
+            "doc_id": "866493021_28805-30210-0-1405",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Letter of credit It might also be feasible to typify letters of credit as a collateral contract for a third - party beneficiary , because three different entities participate in the transaction : the seller , the buyer , and the banker . Jean Domat suggests that because letters of credit are prompted by the buyer 's necessity , the cause of a LC is to release the buyer of his obligation to pay directly to the seller . Therefore , a LC theoretically fits as a collateral contract accepted by conduct or in other words , an implied - in - fact contract where the buyer participates as the third party beneficiary with the bank acting as the stipulator and the seller as the promisor . The term `` beneficiary '' is not used properly in the scheme of an LC because a beneficiary ( also , in trust law , cestui que use ) in the broadest sense is a natural person or other legal entity who receives money or other benefits from a benefactor . Note that under the scheme of letters of credit , banks are neither benefactors of sellers nor benefactors of buyers and the seller receives no money in gratuity mode . Thus is possible that a `` letter of credit '' was one of those contracts that needed to be masked to disguise the `` consideration or privity requirement '' . As a result , this kind of arrangement would make letter of credit to be enforceable under the action assumpsit because of its promissory connotation .",
+            "title": "Letter of credit"
+          },
+          {
+            "rank": 5,
+            "doc_id": "856456696_35840-36613-0-772",
+            "score": null,
+            "score_type": "contriever",
+            "text": "United States Postal Service The USPS is often mistaken for a government - owned corporation ( e.g. , Amtrak ) because it operates much like a business . It is , however , an `` establishment of the executive branch of the Government of the United States '' , ( 39 U.S.C. § 201 ) as it is controlled by Presidential appointees and the Postmaster General . As a government agency , it has many special privileges , including sovereign immunity , eminent domain powers , powers to negotiate postal treaties with foreign nations , and an exclusive legal right to deliver first - class and third - class mail . Indeed , in 2004 , the U.S. Supreme Court ruled in a unanimous decision that the USPS was not a government - owned corporation , and therefore could not be sued under the Sherman Antitrust Act .",
+            "title": "United States Postal Service"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Yes, they are organized and not individually contracted with the recipients.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "856878710_48637-50009-0-1372",
+          "score": null,
+          "score_type": "contriever",
+          "text": "The Church of Jesus Christ of Latter-day Saints The LDS Church stresses the importance of worldwide humanitarian service . The church 's welfare and humanitarian efforts are coordinated by LDS Philanthropies ( LDSP ) , a church department under the direction of the Presiding Bishopric . Welfare efforts , originally initiated during the Great Depression , provide aid for the poor , financed by donations from church members . LDSP is also responsible for philanthropic donations to the LDS Church and other affiliated charities , such as the Church History Library , the Church Educational System -- which includes Brigham Young University , the Perpetual Education Fund , and the Polynesian Cultural Center -- the Mormon Tabernacle Choir , and efforts dedicated to providing funds for LDS missionaries and temple construction . Donations are also used to operate bishop 's storehouses , which package and store food for the poor at low cost . Distribution of funds and food is administered by local bishops . These local storehouses distribute commodities to the needy as requested by local bishops on a specified form . Bishop 's storehouses also provide service opportunities for those receiving assistance and for those desiring to serve missions or to volunteer in the church 's welfare program . The day - to - day operations of the storehouses are typically run by senior - aged missionaries as store managers .",
+          "title": "The Church of Jesus Christ of Latter-day Saints"
+        },
+        {
+          "rank": 2,
+          "doc_id": "856456696_84334-84778-0-444",
+          "score": null,
+          "score_type": "contriever",
+          "text": "United States Postal Service Regional Distribution Centers ( RDCs ) , which will process all classes of parcels and bundles and serve as Surface Transfer Centers ; Local Processing Centers ( LPCs ) , which will process single - piece letters and flats and cancel mail ; Destination Processing Centers ( DPC ) , sort the mail for individual mail carriers ; Airport Transfer Centers ( ATCs ) , which will serve as transfer points only ; and Remote Encoding Centers ( RECs ) .",
+          "title": "United States Postal Service"
+        },
+        {
+          "rank": 3,
+          "doc_id": "820003296_66499-67241-0-742",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Famine There is a growing realization among aid groups that giving cash or cash vouchers instead of food is a cheaper , faster , and more efficient way to deliver help to the hungry , particularly in areas where food is available but unaffordable . The United Nations ' World Food Program ( WFP ) , the biggest non-governmental distributor of food , announced that it will begin distributing cash and vouchers instead of food in some areas , which Josette Sheeran , the WFP 's executive director , described as a `` revolution '' in food aid . The aid agency Concern Worldwide is piloting a method through a mobile phone operator , Safaricom , which runs a money transfer program that allows cash to be sent from one part of the country to another .",
+          "title": "Famine"
+        },
+        {
+          "rank": 4,
+          "doc_id": "866493021_28805-30210-0-1405",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Letter of credit It might also be feasible to typify letters of credit as a collateral contract for a third - party beneficiary , because three different entities participate in the transaction : the seller , the buyer , and the banker . Jean Domat suggests that because letters of credit are prompted by the buyer 's necessity , the cause of a LC is to release the buyer of his obligation to pay directly to the seller . Therefore , a LC theoretically fits as a collateral contract accepted by conduct or in other words , an implied - in - fact contract where the buyer participates as the third party beneficiary with the bank acting as the stipulator and the seller as the promisor . The term `` beneficiary '' is not used properly in the scheme of an LC because a beneficiary ( also , in trust law , cestui que use ) in the broadest sense is a natural person or other legal entity who receives money or other benefits from a benefactor . Note that under the scheme of letters of credit , banks are neither benefactors of sellers nor benefactors of buyers and the seller receives no money in gratuity mode . Thus is possible that a `` letter of credit '' was one of those contracts that needed to be masked to disguise the `` consideration or privity requirement '' . As a result , this kind of arrangement would make letter of credit to be enforceable under the action assumpsit because of its promissory connotation .",
+          "title": "Letter of credit"
+        },
+        {
+          "rank": 5,
+          "doc_id": "856456696_35840-36613-0-772",
+          "score": null,
+          "score_type": "contriever",
+          "text": "United States Postal Service The USPS is often mistaken for a government - owned corporation ( e.g. , Amtrak ) because it operates much like a business . It is , however , an `` establishment of the executive branch of the Government of the United States '' , ( 39 U.S.C. § 201 ) as it is controlled by Presidential appointees and the Postmaster General . As a government agency , it has many special privileges , including sovereign immunity , eminent domain powers , powers to negotiate postal treaties with foreign nations , and an exclusive legal right to deliver first - class and third - class mail . Indeed , in 2004 , the U.S. Supreme Court ruled in a unanimous decision that the USPS was not a government - owned corporation , and therefore could not be sued under the Sherman Antitrust Act .",
+          "title": "United States Postal Service"
+        }
+      ],
+      "reference": {
+        "answer": "Yes, egg donation is typically organized through agencies or fertility clinics, rather than being arranged through individual contracts with recipients.  Though the donors may motivated by altruistic reasons, they still have to operate with an economical mind - set.   These organizations facilitate the process, ensuring that all legal and ethical guidelines are followed, and that both the donor and recipient rights are protected. They also provide support and counseling throughout the process.",
+        "evidence_ids": [
+          "801197945_15360-16493-0-1133",
+          "801197945_32696-33417-0-721"
+        ],
+        "evidence": [
+          {
+            "doc_id": "801197945_15360-16493-0-1133",
+            "text": "Egg donation\nEgg donation\nAlthough the donors may be motivated by both monetary and altruistic reasons , egg agencies desire and prefer to choose donors that are strictly providing eggs for altruistic reasons . The European Union limits any financial compensation for donors to at most $1500 . In some countries , most notably Spain and Cyprus , this has limited donors to the poorest segments of society . In the United States , donors are paid regardless of how many eggs she produces . A donor 's compensation may increase for each additional time she provides eggs , especially if the donor 's eggs have a history of reliably resulting in the recipient becoming pregnant . In the United States , egg - broker agencies are known for advertising to college students who are more likely to be in financial situations that motivate them to participate for the financial compensation . It is not unusual for one student to donate many times . Often , this is done without consideration of potential long - term health consequences . Such a student is arguably not making the decision to donate her eggs autonomously due to her unfavorable financial situation ."
+          },
+          {
+            "doc_id": "801197945_32696-33417-0-721",
+            "text": "Egg donation\nEgg donation\nFor a donor to be accepted by an agency and repeatedly used she must be marketable and appealing to the recipients . Although egg donation is a significant , life - giving act , the companies participating in this industry still have to operate with an economical mind - set . Matches between egg recipients and egg donors are what make the profit for the company and achievable to continue these processes for others . The most sought - after donors tend to be those who are ( 1 ) proven ( i.e. , have donated before and produced a pregnancy from it , proving themselves both fertile and reliable ) ; ( 2 ) conventionally attractive ; ( 3 ) healthy , with good family health histories ; and ( 4 ) smart , well educated ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Clarification"
+        ]
+      }
+    }
+  ]
+}

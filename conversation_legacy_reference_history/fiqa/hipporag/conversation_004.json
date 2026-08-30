@@ -1,0 +1,776 @@
+{
+  "conversation_id": "2f94b6fb4c6f941decd0609eb126610b",
+  "dataset": "fiqa",
+  "collection": "mt-rag-fiqa-beir-elser-512-100-20240501",
+  "rag": "hipporag",
+  "num_turns": 4,
+  "turns": [
+    {
+      "turn_id": "1",
+      "task_id": "2f94b6fb4c6f941decd0609eb126610b<::>1",
+      "question": "how to balance 401k?",
+      "rag_history_before_turn": [],
+      "retrieval": {
+        "query": "how to balance 401k?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": "how to balance 401k?",
+        "k": 10,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "483268-0-1157",
+            "score": 3.8e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nThe time horizon for your 401K/IRA is essentially the same, and it doesn't stop at the day you retire. On the day you do the rollover you will be transferring your funds into similar investments. S&P500 index to S&P 500 index; 20xx retirement date to 20xx retirement date; small cap to small cap... If your vested portion is worth X $'s when the funds are sold, that is the amount that will be transferred to the IRA  custodian or the custodian for the new employer. Use the transfer to make any rebalancing adjustments that you want to make. But with as much as a year before you leave the company if you need to rebalance now, then do that irrespective of your leaving. Cash is what is transferred, not the individual stock or mutual fund shares. Only move your funds into a money market account with your current 401K if that makes the most sense for your retirement plan. Also keep in mind unless the amount in the 401K is very small you don't have to do this on your last day of work. Even if you are putting the funds in a IRA wait until you have started with the new company and so can define all your buckets based on the options in the new company."
+          },
+          {
+            "rank": 2,
+            "doc_id": "184077-0-2114",
+            "score": 3.7e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n\"Your employer sends the money that you choose to contribute, plus employer match if any, to the administrator of the 401k plan who invests the money as you have directed, choosing between the alternatives offered by the administrator. Typically, the alternatives are several different mutual funds with different investment styles, e.g. a S&P 500 index fund, a bond fund, a money-market fund, etc. Now, a statement such as \"\"I see my 401k is up 10%\"\" is meaningless unless you tell us how you are making the comparison. For example, if you have just started employment and $200 goes into your 401k each month and is invested in a money-market fund (these are paying close to 0% interest these days), then your 11th contribution increases your 401k from $2000 to $2200 and your 401k is \"\"up 10%\"\". More generally, suppose for simplicity that all the 401k investment is in just one (stock) mutual fund and that you own 100 shares of the fund as of right now. Suppose also that your next contribution will not occur for three weeks when you get your next paycheck, at which time additional shares of the mutual fund will be purchased Now, the value of the mutual fund shares (often referred to as net asset value or NAV) fluctuates as stock prices rise and fall, and so the 401k balance = number of shares times NAV changes in accordance with these fluctuations. So, if the NAV increases by 10% in the next two weeks, your 401k balance will have increased by 10%. But you still own only 100 shares of the mutual fund. You cannot use the 10% increase in value to buy more shares in the mutual fund because there is no money to pay for the additional shares you wish to purchase. Notice that there is no point selling some of the shares (at the 10% higher NAV) to get cash because you will be purchasing shares at the higher NAV too. You could, of course, sell shares of the stock mutual fund at the higher NAV and buy shares of some other fund available to you in the 401k plan. One advantage of doing this inside the 401k plan is that you don't have to pay taxes (now) on the 10% gain that you have made on the sale."
+          },
+          {
+            "rank": 3,
+            "doc_id": "184077-1676-3704",
+            "score": 3.4e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nNotice that there is no point selling some of the shares (at the 10% higher NAV) to get cash because you will be purchasing shares at the higher NAV too. You could, of course, sell shares of the stock mutual fund at the higher NAV and buy shares of some other fund available to you in the 401k plan. One advantage of doing this inside the 401k plan is that you don't have to pay taxes (now) on the 10% gain that you have made on the sale. Outside tax-deferred plans such as 401k and IRA plans, such gains would be taxable in the year of the sale. But note that selling the shares of the stock fund and buying something else indicates that you believe that the NAV of your stock mutual fund is unlikely to increase any further in the near future. A third possibility for your 401k being up by 10% is that the mutual fund paid a dividend or made a capital gains distribution in the two week period that we are discussing. The NAV falls when such events occur, but if you have chosen to reinvest the dividends and capital gains, then the number of shares that you own goes up. With the same example as before, the NAV goes up 10% in two weeks at which time a capital gains distribution occurs, and so the NAV falls back to where it was before. So, before the capital gains distribution, you owned 100 shares at $10 NAV which went up to $11 NAV (10% increase in NAV) for a net increase in 401k balance from $1000 to $1100. The mutual fund distributes capital gains in the amount of $1 per share sending the NAV back to $10, but you take the $100 distribution and plow it back into the mutual fund, purchasing 10 shares at the new $10 NAV. So now you own 110 shares at $10 NAV (no net change in price in two weeks) but your 401k balance is $1100, same as it was before the capital gains distribution and you are up 10%. Or, you could have chosen to invest the distributions into, say, a bond fund available in your 401k plan and still be up 10%, with no change in your stock fund holding, but a new investment of $100 in a bond fund."
+          },
+          {
+            "rank": 4,
+            "doc_id": "336686-0-2139",
+            "score": 3.4e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n\"The interesting thing about an FSA is that you have access to your total annual election immediately.  After electing to put $200 per month toward your FSA, you can go have a $1,500 surgery on January 3rd and pay with your FSA funds.  Then you can leave the company on February 1st, and not owe the company anything. I understand that you don't like that this is the answer, but it is.  The employer is on the hook for the full elected liability of an FSA plan as of the first day of the plan year.  The employer is also paying admin costs that aren't passed to the employees.  You contest that this arrangement could leave current employees picking up the bag for departed employees, but there is no employee liability.  FSA plans run at a net cost the the employer (I'm sure there are outlier exceptions however). I disagree with your premise that  \"\"Employees generally dislike that FSA plans are Use-it-or-Lose-it, and also that there appears to be an obvious alternative that would be preferable [...] The employees that dislike the rules of FSA accounts don't fully understand the nuances and surely assume that FSA is a synonym for HSA.  Tons of employers offer their employees FSA plans and they are very well received.  You can fill full prescriptions off of a debit card on the third day of the year before you've even contributed anything. HSAs are great (I have one), but they require enrollment in a HDHP and you can only spend the funds currently available in your account.  These are two huge limitations addressed by FSA plans.  You can have a $0 deductible platinum plan with a $2,000 out of pocket max and an FSA debit card for virtually tax free healthcare.  The caveat being if you don't use your full FSA election you give it up. In fact, my biggest gripe with the FSA/HSA discussion is that anyone feels the need to claim that \"\"HSA funds don't expire at the end of a plan year\"\" as though it's something other than a personal savings account.  An FSA is a spending account (or arrangement) which is an entirely different animal.  It would be like claiming that IRA funds don't expire, as though they might somehow.\""
+          },
+          {
+            "rank": 5,
+            "doc_id": "175252-0-597",
+            "score": 3.1e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nMy advice would be to invest in the 401k with the same type of funds you'd purchase when you rollover to your IRA. They are both retirement accounts. If the stock market tanks, your 401k balance will be low but you'll also be purchasing stocks at a much cheaper price when you establish your roth. You should create an asset allocation based on your age, not on the type of retirement account you have. One question to consider: When you do become a student, you'll likely be a in lower tax bracket. Can you contribute pre-tax dollars and then rollover to a ROTH in the year that you're a student?"
+          },
+          {
+            "rank": 6,
+            "doc_id": "570117-0-935",
+            "score": 2.7e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nThe benefit of the 401K and IRAs are that reallocating and re balancing are easy. They don't want you to move the funds every day, but you are not locked in to your current allocations. The fact that you mentioned in a comment that you also have a Roth IRA means that you should look at all retirements as a whole.  Look at what options you have in the 401K and also what options you have with the IRA. Then determine the overall allocation between bonds, stocks, international, REIT, etc. Then use the mix of funds  in the IRA and 401K to meet that goal. Asking if the 401K should be small and mid cap only can't be answered without knowing not just your risk tolerances but the total money in the 401K and IRA.  Pick an allocation, map the available funds to that allocation. Rebalance every year. But review the allocation in a few years or after a life event such as: change of job, getting married, having kids, or buying a house."
+          },
+          {
+            "rank": 7,
+            "doc_id": "399543-0-1955",
+            "score": 2.6e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nDoes your employer provide a matching contribution to your 401k?  If so, contribute enough to the 401k that you can fully take advantage of the 401k match (e.g. if you employer matches 3% of your income, contribute 3% of your income).  It's free money, take advantage of it. Next up, max out your Roth IRA.  The limit is $5000 currently a year. After maxing your Roth, revisit your 401k.  You can contribute up to 16,500 per year. You savings account is a good place to keep a rainy day fund (do you have one?), but it lacks the tax advantages of a Roth IRA or 401k, so it is not really suitable for retirement savings (unless you have maxed out both your 401k and Roth IRA). Once you have take care of getting money into your 401k and Roth IRA accounts, the next step is investing it.  The specific investment options available to you will vary depending on who provides your retirement account(s), so these are general guidelines. Generally, you want to invest in higher-risk, higher-return investments when you are young.  This includes things like stocks and developing countries. As you get older (>30), you should look at moving some of your investments into things that less volatile.  Bond funds are the usual choice.  They tend to be safer than stocks (assuming you don't invest in Junk bonds), but your investment grows at a slower rate. Now this doesn't mean you immediately dump all of your stock and buy bonds.  Rather, it is a gradual transition over time.  As you get older and older, you gradually shift your investments to bond funds. A general rule of thumb I have seen: 100 - (YOUR AGE) = Percentage of your portfolio that should be in stocks Someone that is 30 would have 70% of their portfolio in stock, someone that is 40 would have 60% in stock, etc. As you get closer to retirement (50s-60s), you will want to start looking at investments that are more conservatie than bonds.  Start to look at fixed-income and money market funds."
+          },
+          {
+            "rank": 8,
+            "doc_id": "240975-0-2055",
+            "score": 2.6e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nFirst, you should diversify your portfolio.  If your entire portfolio is in the Roth IRA, then you should eventually diversify that.  However, if you have an IRA and a 401k, then it's perfectly fine for the IRA to be in a single fund.  For example, I used my IRA to buy a riskier REIT that my 401k doesn't support.   Second, if you only have a small amount currently invested, e.g. $5500, it may make sense to put everything in a single fund until you have enough to get past the low balance fees.  It's not uncommon for funds to charge lower fees to someone who has $8000, $10,000, or $12,000 invested.  Note that if you deposit $10,000 and the fund loses money, they'll usually charge you the rate for less than $10,000.  So try to exceed the minimum with a decent cushion.   A balanced fund may make sense as a first fund.  That way they handle the diversification for you.  A targeted fund is a special kind of balanced fund that changes the balance over time.  Some have reported that targeted funds charge higher fees.  Commissions on those higher fees may explain why your bank wants you to buy.   I personally don't like the asset mixes that I've seen from targeted funds.  They often change the stock/bond ratio, which is not really correct.  The stock/bond ratio should stay the same.  It's the securities (stocks and bonds) to monetary equivalents that should change, and that only starting five to ten years before retirement.  Prior to that the only reason to put money into monetary equivalents is to provide time to pick the right securities fund.  Retirees should maintain about a five year cushion in monetary equivalents so as not to be forced to sell into a bad market.   Long term, I'd prefer low-load index funds.  A bond fund and two or three stock funds.  You might want to build your balance first though.  It doesn't really make sense to have a separate fund until you have enough money to get the best fees.  70-75% stocks and 25-30% bonds (should add to 100%, e.g. 73% and 27%).  Balance annually when you make your new deposit."
+          },
+          {
+            "rank": 9,
+            "doc_id": "554739-0-2111",
+            "score": 2.6e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n\"There are certain allowable reasons to withdraw money from a 401K.  The desire to free your money from a \"\"bad\"\" plan is not one of them.   A rollover is a special type of withdrawal that is only available after one leaves their current employer.  So as long as you stay with your current company, you cannot rollover.  [Exception: if you are over age  59.5] One option is to talk to HR, see if they can get a expansion of offerings.  You might have some suggestions for mutual funds that you would like to see.  The smaller the company the more likely you will have success here.  That being said, there is some research to support having few choices.  Too many choices intimidates people. It's quite popular to have \"\"target funds\"\"  That is funds that target a certain retirement year.  Being that I will be 50 in 2016, I should invest in either a 2030 or 2035 fund.  These are a collection of funds that rebalances the investment as they age.  The closer one gets to retirement the more goes into bonds and less into stocks.   However, I think such rebalancing is not as smart as the experts say.  IMHO is almost always better off heavily invested in equity funds.  So this becomes a second option.  Invest in a Target fund that is meant for younger people.  In my case I would put into a 2060 or even 2065 target. As JoeTaxpayer pointed out, even in a plan that has high fees and poor choices one is often better off contributing up to the match.  Then one would go outside and contribute to an individual ROTH or IRA (income restrictions may apply), then back into the 401K until the desired amount is invested.   You could always move on to a different employer and ask some really good questions about their 401K.  Which leads me back to talking with HR.  With the current technology shortage, making a few tweaks to the 401K, is a very cheap way to make their employees happy. If you can score a 1099 contracting gig, you can do a SEP which allows up to a whopping 53K per year.  No match but with typically higher pay, sometimes overtime, and a high contribution limit you can easily make up for it.\""
+          },
+          {
+            "rank": 10,
+            "doc_id": "444044-0-806",
+            "score": 2.6e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nIt is not necessarily proportional. 401k are all unique per the plan and how they are set up. It is impossible to find any two exactly alike. You should have separate buckets of the money types. Pre tax, after tax, roth, employer contribution,etc... If the plan is good you may have a Source Specific Withdraw option which allows you to take only roth or pretax at your choosing. They should track the growth of each bucket separately. It does indeed appear complicated but just think of it as different buckets of cash store in the same vault. Most people end up rolling over the 401k into an ira when they retire for flexibility to get out from under the plan rules. When you do this you will create a roth ira and a traditional ira. Then you can pick and choose when you want to take what type of money."
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "483268-0-1157",
+            "score": 3.8e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nThe time horizon for your 401K/IRA is essentially the same, and it doesn't stop at the day you retire. On the day you do the rollover you will be transferring your funds into similar investments. S&P500 index to S&P 500 index; 20xx retirement date to 20xx retirement date; small cap to small cap... If your vested portion is worth X $'s when the funds are sold, that is the amount that will be transferred to the IRA  custodian or the custodian for the new employer. Use the transfer to make any rebalancing adjustments that you want to make. But with as much as a year before you leave the company if you need to rebalance now, then do that irrespective of your leaving. Cash is what is transferred, not the individual stock or mutual fund shares. Only move your funds into a money market account with your current 401K if that makes the most sense for your retirement plan. Also keep in mind unless the amount in the 401K is very small you don't have to do this on your last day of work. Even if you are putting the funds in a IRA wait until you have started with the new company and so can define all your buckets based on the options in the new company."
+          },
+          {
+            "rank": 2,
+            "doc_id": "184077-0-2114",
+            "score": 3.7e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n\"Your employer sends the money that you choose to contribute, plus employer match if any, to the administrator of the 401k plan who invests the money as you have directed, choosing between the alternatives offered by the administrator. Typically, the alternatives are several different mutual funds with different investment styles, e.g. a S&P 500 index fund, a bond fund, a money-market fund, etc. Now, a statement such as \"\"I see my 401k is up 10%\"\" is meaningless unless you tell us how you are making the comparison. For example, if you have just started employment and $200 goes into your 401k each month and is invested in a money-market fund (these are paying close to 0% interest these days), then your 11th contribution increases your 401k from $2000 to $2200 and your 401k is \"\"up 10%\"\". More generally, suppose for simplicity that all the 401k investment is in just one (stock) mutual fund and that you own 100 shares of the fund as of right now. Suppose also that your next contribution will not occur for three weeks when you get your next paycheck, at which time additional shares of the mutual fund will be purchased Now, the value of the mutual fund shares (often referred to as net asset value or NAV) fluctuates as stock prices rise and fall, and so the 401k balance = number of shares times NAV changes in accordance with these fluctuations. So, if the NAV increases by 10% in the next two weeks, your 401k balance will have increased by 10%. But you still own only 100 shares of the mutual fund. You cannot use the 10% increase in value to buy more shares in the mutual fund because there is no money to pay for the additional shares you wish to purchase. Notice that there is no point selling some of the shares (at the 10% higher NAV) to get cash because you will be purchasing shares at the higher NAV too. You could, of course, sell shares of the stock mutual fund at the higher NAV and buy shares of some other fund available to you in the 401k plan. One advantage of doing this inside the 401k plan is that you don't have to pay taxes (now) on the 10% gain that you have made on the sale."
+          },
+          {
+            "rank": 3,
+            "doc_id": "184077-1676-3704",
+            "score": 3.4e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nNotice that there is no point selling some of the shares (at the 10% higher NAV) to get cash because you will be purchasing shares at the higher NAV too. You could, of course, sell shares of the stock mutual fund at the higher NAV and buy shares of some other fund available to you in the 401k plan. One advantage of doing this inside the 401k plan is that you don't have to pay taxes (now) on the 10% gain that you have made on the sale. Outside tax-deferred plans such as 401k and IRA plans, such gains would be taxable in the year of the sale. But note that selling the shares of the stock fund and buying something else indicates that you believe that the NAV of your stock mutual fund is unlikely to increase any further in the near future. A third possibility for your 401k being up by 10% is that the mutual fund paid a dividend or made a capital gains distribution in the two week period that we are discussing. The NAV falls when such events occur, but if you have chosen to reinvest the dividends and capital gains, then the number of shares that you own goes up. With the same example as before, the NAV goes up 10% in two weeks at which time a capital gains distribution occurs, and so the NAV falls back to where it was before. So, before the capital gains distribution, you owned 100 shares at $10 NAV which went up to $11 NAV (10% increase in NAV) for a net increase in 401k balance from $1000 to $1100. The mutual fund distributes capital gains in the amount of $1 per share sending the NAV back to $10, but you take the $100 distribution and plow it back into the mutual fund, purchasing 10 shares at the new $10 NAV. So now you own 110 shares at $10 NAV (no net change in price in two weeks) but your 401k balance is $1100, same as it was before the capital gains distribution and you are up 10%. Or, you could have chosen to invest the distributions into, say, a bond fund available in your 401k plan and still be up 10%, with no change in your stock fund holding, but a new investment of $100 in a bond fund."
+          },
+          {
+            "rank": 4,
+            "doc_id": "336686-0-2139",
+            "score": 3.4e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n\"The interesting thing about an FSA is that you have access to your total annual election immediately.  After electing to put $200 per month toward your FSA, you can go have a $1,500 surgery on January 3rd and pay with your FSA funds.  Then you can leave the company on February 1st, and not owe the company anything. I understand that you don't like that this is the answer, but it is.  The employer is on the hook for the full elected liability of an FSA plan as of the first day of the plan year.  The employer is also paying admin costs that aren't passed to the employees.  You contest that this arrangement could leave current employees picking up the bag for departed employees, but there is no employee liability.  FSA plans run at a net cost the the employer (I'm sure there are outlier exceptions however). I disagree with your premise that  \"\"Employees generally dislike that FSA plans are Use-it-or-Lose-it, and also that there appears to be an obvious alternative that would be preferable [...] The employees that dislike the rules of FSA accounts don't fully understand the nuances and surely assume that FSA is a synonym for HSA.  Tons of employers offer their employees FSA plans and they are very well received.  You can fill full prescriptions off of a debit card on the third day of the year before you've even contributed anything. HSAs are great (I have one), but they require enrollment in a HDHP and you can only spend the funds currently available in your account.  These are two huge limitations addressed by FSA plans.  You can have a $0 deductible platinum plan with a $2,000 out of pocket max and an FSA debit card for virtually tax free healthcare.  The caveat being if you don't use your full FSA election you give it up. In fact, my biggest gripe with the FSA/HSA discussion is that anyone feels the need to claim that \"\"HSA funds don't expire at the end of a plan year\"\" as though it's something other than a personal savings account.  An FSA is a spending account (or arrangement) which is an entirely different animal.  It would be like claiming that IRA funds don't expire, as though they might somehow.\""
+          },
+          {
+            "rank": 5,
+            "doc_id": "175252-0-597",
+            "score": 3.1e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nMy advice would be to invest in the 401k with the same type of funds you'd purchase when you rollover to your IRA. They are both retirement accounts. If the stock market tanks, your 401k balance will be low but you'll also be purchasing stocks at a much cheaper price when you establish your roth. You should create an asset allocation based on your age, not on the type of retirement account you have. One question to consider: When you do become a student, you'll likely be a in lower tax bracket. Can you contribute pre-tax dollars and then rollover to a ROTH in the year that you're a student?"
+          }
+        ]
+      },
+      "generation": {
+        "model": "gpt-4o-mini",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "To balance your 401k, you should consider the following steps:\n\n1. **Assess Your Current Allocation**: Review your current investments within your 401k to understand how they are distributed across different asset classes (e.g., stocks, bonds, cash).\n\n2. **Determine Your Risk Tolerance**: Consider your age, financial goals, and risk tolerance. Generally, younger investors can afford to take more risks, while those closer to retirement may want a more conservative approach.\n\n3. **Rebalance Periodically**: Regularly check your asset allocation and rebalance as needed. This may involve selling some investments that have performed well and buying more of those that have underperformed to maintain your desired allocation.\n\n4. **Use the Rollover Opportunity**: If you are planning to roll over your 401k to an IRA or a new employer's 401k, use this opportunity to make any necessary rebalancing adjustments based on the investment options available in the new plan.\n\n5. **Consider Market Conditions**: If you notice significant market changes or if your investment goals change, it may be a good time to rebalance your portfolio.\n\n6. **Consult with a Financial Advisor**: If you're unsure about how to balance your 401k, consider seeking advice from a financial advisor who can provide personalized guidance based on your situation.\n\nRemember, balancing your 401k is an ongoing process and should align with your overall retirement strategy.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "483268-0-1157",
+          "score": 3.8e-05,
+          "score_type": "hipporag_graph",
+          "text": "\nThe time horizon for your 401K/IRA is essentially the same, and it doesn't stop at the day you retire. On the day you do the rollover you will be transferring your funds into similar investments. S&P500 index to S&P 500 index; 20xx retirement date to 20xx retirement date; small cap to small cap... If your vested portion is worth X $'s when the funds are sold, that is the amount that will be transferred to the IRA  custodian or the custodian for the new employer. Use the transfer to make any rebalancing adjustments that you want to make. But with as much as a year before you leave the company if you need to rebalance now, then do that irrespective of your leaving. Cash is what is transferred, not the individual stock or mutual fund shares. Only move your funds into a money market account with your current 401K if that makes the most sense for your retirement plan. Also keep in mind unless the amount in the 401K is very small you don't have to do this on your last day of work. Even if you are putting the funds in a IRA wait until you have started with the new company and so can define all your buckets based on the options in the new company."
+        },
+        {
+          "rank": 2,
+          "doc_id": "184077-0-2114",
+          "score": 3.7e-05,
+          "score_type": "hipporag_graph",
+          "text": "\n\"Your employer sends the money that you choose to contribute, plus employer match if any, to the administrator of the 401k plan who invests the money as you have directed, choosing between the alternatives offered by the administrator. Typically, the alternatives are several different mutual funds with different investment styles, e.g. a S&P 500 index fund, a bond fund, a money-market fund, etc. Now, a statement such as \"\"I see my 401k is up 10%\"\" is meaningless unless you tell us how you are making the comparison. For example, if you have just started employment and $200 goes into your 401k each month and is invested in a money-market fund (these are paying close to 0% interest these days), then your 11th contribution increases your 401k from $2000 to $2200 and your 401k is \"\"up 10%\"\". More generally, suppose for simplicity that all the 401k investment is in just one (stock) mutual fund and that you own 100 shares of the fund as of right now. Suppose also that your next contribution will not occur for three weeks when you get your next paycheck, at which time additional shares of the mutual fund will be purchased Now, the value of the mutual fund shares (often referred to as net asset value or NAV) fluctuates as stock prices rise and fall, and so the 401k balance = number of shares times NAV changes in accordance with these fluctuations. So, if the NAV increases by 10% in the next two weeks, your 401k balance will have increased by 10%. But you still own only 100 shares of the mutual fund. You cannot use the 10% increase in value to buy more shares in the mutual fund because there is no money to pay for the additional shares you wish to purchase. Notice that there is no point selling some of the shares (at the 10% higher NAV) to get cash because you will be purchasing shares at the higher NAV too. You could, of course, sell shares of the stock mutual fund at the higher NAV and buy shares of some other fund available to you in the 401k plan. One advantage of doing this inside the 401k plan is that you don't have to pay taxes (now) on the 10% gain that you have made on the sale."
+        },
+        {
+          "rank": 3,
+          "doc_id": "184077-1676-3704",
+          "score": 3.4e-05,
+          "score_type": "hipporag_graph",
+          "text": "\nNotice that there is no point selling some of the shares (at the 10% higher NAV) to get cash because you will be purchasing shares at the higher NAV too. You could, of course, sell shares of the stock mutual fund at the higher NAV and buy shares of some other fund available to you in the 401k plan. One advantage of doing this inside the 401k plan is that you don't have to pay taxes (now) on the 10% gain that you have made on the sale. Outside tax-deferred plans such as 401k and IRA plans, such gains would be taxable in the year of the sale. But note that selling the shares of the stock fund and buying something else indicates that you believe that the NAV of your stock mutual fund is unlikely to increase any further in the near future. A third possibility for your 401k being up by 10% is that the mutual fund paid a dividend or made a capital gains distribution in the two week period that we are discussing. The NAV falls when such events occur, but if you have chosen to reinvest the dividends and capital gains, then the number of shares that you own goes up. With the same example as before, the NAV goes up 10% in two weeks at which time a capital gains distribution occurs, and so the NAV falls back to where it was before. So, before the capital gains distribution, you owned 100 shares at $10 NAV which went up to $11 NAV (10% increase in NAV) for a net increase in 401k balance from $1000 to $1100. The mutual fund distributes capital gains in the amount of $1 per share sending the NAV back to $10, but you take the $100 distribution and plow it back into the mutual fund, purchasing 10 shares at the new $10 NAV. So now you own 110 shares at $10 NAV (no net change in price in two weeks) but your 401k balance is $1100, same as it was before the capital gains distribution and you are up 10%. Or, you could have chosen to invest the distributions into, say, a bond fund available in your 401k plan and still be up 10%, with no change in your stock fund holding, but a new investment of $100 in a bond fund."
+        },
+        {
+          "rank": 4,
+          "doc_id": "336686-0-2139",
+          "score": 3.4e-05,
+          "score_type": "hipporag_graph",
+          "text": "\n\"The interesting thing about an FSA is that you have access to your total annual election immediately.  After electing to put $200 per month toward your FSA, you can go have a $1,500 surgery on January 3rd and pay with your FSA funds.  Then you can leave the company on February 1st, and not owe the company anything. I understand that you don't like that this is the answer, but it is.  The employer is on the hook for the full elected liability of an FSA plan as of the first day of the plan year.  The employer is also paying admin costs that aren't passed to the employees.  You contest that this arrangement could leave current employees picking up the bag for departed employees, but there is no employee liability.  FSA plans run at a net cost the the employer (I'm sure there are outlier exceptions however). I disagree with your premise that  \"\"Employees generally dislike that FSA plans are Use-it-or-Lose-it, and also that there appears to be an obvious alternative that would be preferable [...] The employees that dislike the rules of FSA accounts don't fully understand the nuances and surely assume that FSA is a synonym for HSA.  Tons of employers offer their employees FSA plans and they are very well received.  You can fill full prescriptions off of a debit card on the third day of the year before you've even contributed anything. HSAs are great (I have one), but they require enrollment in a HDHP and you can only spend the funds currently available in your account.  These are two huge limitations addressed by FSA plans.  You can have a $0 deductible platinum plan with a $2,000 out of pocket max and an FSA debit card for virtually tax free healthcare.  The caveat being if you don't use your full FSA election you give it up. In fact, my biggest gripe with the FSA/HSA discussion is that anyone feels the need to claim that \"\"HSA funds don't expire at the end of a plan year\"\" as though it's something other than a personal savings account.  An FSA is a spending account (or arrangement) which is an entirely different animal.  It would be like claiming that IRA funds don't expire, as though they might somehow.\""
+        },
+        {
+          "rank": 5,
+          "doc_id": "175252-0-597",
+          "score": 3.1e-05,
+          "score_type": "hipporag_graph",
+          "text": "\nMy advice would be to invest in the 401k with the same type of funds you'd purchase when you rollover to your IRA. They are both retirement accounts. If the stock market tanks, your 401k balance will be low but you'll also be purchasing stocks at a much cheaper price when you establish your roth. You should create an asset allocation based on your age, not on the type of retirement account you have. One question to consider: When you do become a student, you'll likely be a in lower tax bracket. Can you contribute pre-tax dollars and then rollover to a ROTH in the year that you're a student?"
+        }
+      ],
+      "reference": {
+        "answer": "Balancing a 401k involves reallocating and rebalancing the investments within the account. You should determine the overall allocation between bonds, stocks, international, REIT, etc. This will depend on your risk tolerances and the total money in your 401k and IRA.  Once you figure out the allocation, map the available funds in your 401k according to this allocation. It is important to rebalance your 401k every year to maintain your desired asset allocation. Additionally you should review your allocation in a few years or after a life event such as a change of job, getting married, having kids, or buying a house. You can move from investment X to investment Y within your 401k without tax consequences. ",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Summarization"
+        ],
+        "multi_turn": [
+          "N/A"
+        ]
+      }
+    },
+    {
+      "turn_id": "2",
+      "task_id": "2f94b6fb4c6f941decd0609eb126610b<::>2",
+      "question": "How is 401k account taxed?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "how to balance 401k?"
+        },
+        {
+          "role": "assistant",
+          "content": "Balancing a 401k involves reallocating and rebalancing the investments within the account. You should determine the overall allocation between bonds, stocks, international, REIT, etc. This will depend on your risk tolerances and the total money in your 401k and IRA.  Once you figure out the allocation, map the available funds in your 401k according to this allocation. It is important to rebalance your 401k every year to maintain your desired asset allocation. Additionally you should review your allocation in a few years or after a life event such as a change of job, getting married, having kids, or buying a house. You can move from investment X to investment Y within your 401k without tax consequences. "
+        }
+      ],
+      "retrieval": {
+        "query": "How is 401k account taxed?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": "How is 401k account taxed?",
+        "k": 10,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "383472-0-727",
+            "score": 3.7e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nWith a 401k you will be taxed when you withdraw the money upon retirement (just like an IRA), but conventional wisdom had it that you're likely to be in a lower tax bracket at that time. That may not necessarily be the case though, in which case a Roth IRA would be a better option because you're paying for it with after tax dollars and distributions are untaxed. If you wanted to hedge your bets you could have both an IRA/401k and a Roth IRA.  An IRA has income limits above which the contributions are no longer tax deductible, I don't believe a 401k has the same limitations (for completion's sake: a Roth IRA has income limits above which you can't contribute to one). And like you said, the employer match is free money."
+          },
+          {
+            "rank": 2,
+            "doc_id": "587727-1594-2555",
+            "score": 3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nIncreases in the value of gold and silver will never touch compounded gains. So tax savings are a huge reason to stash your money in an IRA. You trade liquidity (having to wait until age 59.5) for a heck of a lot more money. Though isn't it nice to be assured that you will have money when you retire? If you aren't going to earn it then, you'll have to earn it now. If you are going to earn it now, you may as well put it in a place that earns you even more. A traditional IRA has penalties for withdrawing before retirement age. With a Roth you can withdraw the principal at anytime without penalty as long as the account has been open 5 years. A traditional IRA requires you take out a certain amount once you reach retirement. A Roth doesn't, which means you can leave money in the account to grow even more. A Roth can be passed on to a spouse after death, and after the spouse's death onto another beneficiary. more on IRA Required Minimum Distributions.\""
+          },
+          {
+            "rank": 3,
+            "doc_id": "30912-0-1347",
+            "score": 3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nWithdrawals from a traditional 401(k) plan are always treated as cash income and the taxable portion is taxed at ordinary income tax rates, even if the money was held in stocks within the 401(k) plan and the amount withdrawn is equal to whatever capital gains you made by selling the stock within the 401(k) plan. If your plan permits you to take the distribution as stock shares (transferred to your taxable brokerage account), then, for tax purposes, it is treated as if you took a distribution of cash equal to the market price of the shares as of the day of the distribution and promptly bought the same number of shares in your brokerage account.  And yes, if the 401(k) plan assets in your ex-employer's plan consists solely of pretax contributions and the earnings thereon, then the entire distribution is ordinary taxable income regardless of whether you sold the stock within the 401(k) plan or took a distribution of stock from the plan and promptly (or after a few days) sold it. The capital gains or losses (if any) from such a sale are, of course, outside the 401(k) plan and taxable accordingly. Finally, the 10% penalty for premature withdrawal from a traditional 401(k) will also apply if you are not 59.5 years of age or older (or maybe 55 since you are separated from service), and it will be computed on the entire distribution."
+          },
+          {
+            "rank": 4,
+            "doc_id": "239341-0-1267",
+            "score": 3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n\"Close... Warning, I may be off a bit here; I'm sure someone will correct me if so. Traditional 401k or IRA: money goes in pre-tax (so, yes, you avoid paying tax on it now), grows untaxed, taxes are due when you retire and start taking money back out of the account -- but your income, including these withdrawals, is likely to be lower than your peak earning years so your tax rate will be lower. You don't avoid all the tax, but you delay it and hopefully reduce it, and by doing so there's more money in your account earning returns. Roth 401k or IRA: money goes in after taxes (you do pay income tax now). However, all returns on the money are untaxed (I believe), and you pay no tax when you're eligible to withdraw the funds.  Either or both kinds of 401k may be eligible for some percentage of matching funds from your employer (there are some incentives for them to offer this benefit). I believe that even if you're doing a Roth 401k, the matching funds legally have to go in as traditional plan. And yes, as that implies, it is possible to split your contribution between the two styles. Note: the matching funds are \"\"free money.\"\" If your plan offers a match, it is highly recommended that you contribute enough to your 401k to capture the maximum match.\""
+          },
+          {
+            "rank": 5,
+            "doc_id": "126756-0-1797",
+            "score": 3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nThe main reasons are that investment are deducted from your gross income and earnings are not taxed until withdrawal. This applies to both traditional IRAs and 401Ks. Roth accounts have different rules but valuable benefits. My effective income tax rate is around 35%. This means that for every $1000 I earn in wage I only get to keep $650. Since my 401K contributions are deferred reductions from my income I can invest 35% more money into my 401K than I would be able to invest in a non-tax-advantaged account. Where I can invest $1000 into my 401K I would only be able to invest $650 into a non-advantaged account with the same wages. If I put $650 into an account yielding 10% then my one-year return on my income is $65 The 10% return on my $1000 is $100. Compared to what I would have been able to take home in the first place this makes my ROI $100/$650 = 15.3% Interest earned in non-advantaged accounts incurs taxes every year. Interest earned in advantaged accounts does not incur taxes until withdrawn. Compounding 10% annually for 20 years is significantly more than 6.5% compounded annually for 20 years. Imagine 10% on a 1000 investment with no additional cash flows over 20 year. The result is $6727, or 672%. Imagine your income tax rate does not reduce below 35%, your after-tax return is 4372, or %437 return. Now imagine you pay taxes every year on 10% take, so your take annually is only 6.5%... Now over 20 years you have $3523 (but you've already paid all taxes on this) and your return is %352 You have earned 24% more money because taxes were deferred until withdrawal! EDIT: Some tabular info for the commenters Your take home from the investment is $3752 because you have diligently paid your taxes every year on the earnings. Now, with the tax deferred until withdrawal!"
+          },
+          {
+            "rank": 6,
+            "doc_id": "221050-0-799",
+            "score": 3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nAs you already mentioned, a traditional 401K is tax-deferred, so you don't pay any taxes on the money in the account until you retire.  A Roth 401K has already been taxed, so you don't pay taxes on withdrawal (assuming you withdrawal after 59 1/2 years of age) The Roth 401K is advantageous if you believe you'll be in a higher tax bracket than you are currently. This applies more so if you're out of school and your income is relatively small, but you think in 10-15 years you'll be making enough money to fall into the next tax bracket.  In essence, you can use a Roth 401K as a way of diversifying your retirement money across different tax structures. References: http://www.investopedia.com/terms/r/roth401k.asp http://www.marketwatch.com/story/is-a-roth-ira-better-than-a-roth-401k-2014-03-21"
+          },
+          {
+            "rank": 7,
+            "doc_id": "556079-0-954",
+            "score": 3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nThere are 3 options (option 2 may not be available to you) When you invest 18,000 in a Traditional 401k, you don't pay taxes on the 18k the year you invest, but you pay taxes as you withdraw.  There's a Required Minimum Distribution required after age 70.  If your income is low enough, you won't pay taxes on your withdrawals.  Otherwise, you pay as if it is income.  However, you don't pay payroll tax (Social Security / Medicare) on the withdrawals.  You pay no tax until you withdraw. When you invest 18,000 in a Roth 401k, you pay income tax on the 18,000 in the year it's invested, but you pay nothing after that. When you invest 18,000 in a taxable investment account, you pay income tax on that 18,000 in the year it's invested, you pay tax on dividends (even if they're re-invested), and then you pay capital gains tax when you withdraw. But remember, tax rules and tax rates are only good so long as Congress doesn't change the applicable laws."
+          },
+          {
+            "rank": 8,
+            "doc_id": "458952-0-148",
+            "score": 2.9e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nIt would be bad tax-wise, because gains in the investment outside the 401k are taxed; whereas gains in the investment inside the 401k are not taxed."
+          },
+          {
+            "rank": 9,
+            "doc_id": "459677-0-1415",
+            "score": 2.9e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n\"This is an excellent topic as it impacts so many in so many different ways. Here are some thoughts on how the accounts are used which is almost as important as the as calculating the income or tax. The Roth is the best bang for the buck, once you have taken full advantage of employer matched 401K.  Yes, you pay taxes upfront.  All income earned isn't taxed (under current tax rules).  This money can be passed on to family and can continue forever.  Contributions can be funded past age 70.5.  Once account is active for over 5 years, contributions can be withdrawn and used (ie: house down payment, college, medical bills), without any penalties.  All income earned must be left in the account to avoid penalties.  For younger workers, without an employer match this is idea given the income tax savings over the longer term and they are most likely in the lowest tax bracket. The 401k is great for retirement, which is made better if employer matches contributions.  This is like getting paid for retirement saving.  These funds are \"\"locked\"\" up until age 59.5, with exceptions.  All contributed funds and all earnings are \"\"untaxed\"\" until withdrawn. The idea here is that at the time contributions are added, you are at a higher tax rate then when you expect to withdrawn funds. Trade Accounts, investments, as stated before are the used of taxed dollars.  The biggest advantage of these are the liquidity.\""
+          },
+          {
+            "rank": 10,
+            "doc_id": "277125-0-1069",
+            "score": 2.9e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nThe math works out so that the 401k is still a better deal in the long term over a taxable account because of the tax-deferred growth. Let's assume you invest in an S&P 500 index fund in either a taxable investment account or a 401k and the difference in fees is .5%. I used an online calculator and a hypothetical 1k/year investment over 30 years with 4.5% tax-deferred growth vs 5% taxable and a 25% tax bracket. After 30 years the tax-deferred 401k account will have $67k and the taxable account will have $58k. The math isn't perfect -- I'm sure I'm missing some intricacies with dividends/capital gains distributions and that you'll then pay income tax on the 401k upon retirement as you drawn down, but it still seems pretty clear that the 401k will win in the long run, especially if you invest more than the 1k/year used in my example. But yeah, .84% expenses on an index fund is robbery. Can you bring that to the attention of the HR department? Maybe they'll want to look for a lower-fee provider and it's in their best interest too, if they also participate."
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "383472-0-727",
+            "score": 3.7e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nWith a 401k you will be taxed when you withdraw the money upon retirement (just like an IRA), but conventional wisdom had it that you're likely to be in a lower tax bracket at that time. That may not necessarily be the case though, in which case a Roth IRA would be a better option because you're paying for it with after tax dollars and distributions are untaxed. If you wanted to hedge your bets you could have both an IRA/401k and a Roth IRA.  An IRA has income limits above which the contributions are no longer tax deductible, I don't believe a 401k has the same limitations (for completion's sake: a Roth IRA has income limits above which you can't contribute to one). And like you said, the employer match is free money."
+          },
+          {
+            "rank": 2,
+            "doc_id": "587727-1594-2555",
+            "score": 3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nIncreases in the value of gold and silver will never touch compounded gains. So tax savings are a huge reason to stash your money in an IRA. You trade liquidity (having to wait until age 59.5) for a heck of a lot more money. Though isn't it nice to be assured that you will have money when you retire? If you aren't going to earn it then, you'll have to earn it now. If you are going to earn it now, you may as well put it in a place that earns you even more. A traditional IRA has penalties for withdrawing before retirement age. With a Roth you can withdraw the principal at anytime without penalty as long as the account has been open 5 years. A traditional IRA requires you take out a certain amount once you reach retirement. A Roth doesn't, which means you can leave money in the account to grow even more. A Roth can be passed on to a spouse after death, and after the spouse's death onto another beneficiary. more on IRA Required Minimum Distributions.\""
+          },
+          {
+            "rank": 3,
+            "doc_id": "30912-0-1347",
+            "score": 3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nWithdrawals from a traditional 401(k) plan are always treated as cash income and the taxable portion is taxed at ordinary income tax rates, even if the money was held in stocks within the 401(k) plan and the amount withdrawn is equal to whatever capital gains you made by selling the stock within the 401(k) plan. If your plan permits you to take the distribution as stock shares (transferred to your taxable brokerage account), then, for tax purposes, it is treated as if you took a distribution of cash equal to the market price of the shares as of the day of the distribution and promptly bought the same number of shares in your brokerage account.  And yes, if the 401(k) plan assets in your ex-employer's plan consists solely of pretax contributions and the earnings thereon, then the entire distribution is ordinary taxable income regardless of whether you sold the stock within the 401(k) plan or took a distribution of stock from the plan and promptly (or after a few days) sold it. The capital gains or losses (if any) from such a sale are, of course, outside the 401(k) plan and taxable accordingly. Finally, the 10% penalty for premature withdrawal from a traditional 401(k) will also apply if you are not 59.5 years of age or older (or maybe 55 since you are separated from service), and it will be computed on the entire distribution."
+          },
+          {
+            "rank": 4,
+            "doc_id": "239341-0-1267",
+            "score": 3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n\"Close... Warning, I may be off a bit here; I'm sure someone will correct me if so. Traditional 401k or IRA: money goes in pre-tax (so, yes, you avoid paying tax on it now), grows untaxed, taxes are due when you retire and start taking money back out of the account -- but your income, including these withdrawals, is likely to be lower than your peak earning years so your tax rate will be lower. You don't avoid all the tax, but you delay it and hopefully reduce it, and by doing so there's more money in your account earning returns. Roth 401k or IRA: money goes in after taxes (you do pay income tax now). However, all returns on the money are untaxed (I believe), and you pay no tax when you're eligible to withdraw the funds.  Either or both kinds of 401k may be eligible for some percentage of matching funds from your employer (there are some incentives for them to offer this benefit). I believe that even if you're doing a Roth 401k, the matching funds legally have to go in as traditional plan. And yes, as that implies, it is possible to split your contribution between the two styles. Note: the matching funds are \"\"free money.\"\" If your plan offers a match, it is highly recommended that you contribute enough to your 401k to capture the maximum match.\""
+          },
+          {
+            "rank": 5,
+            "doc_id": "126756-0-1797",
+            "score": 3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nThe main reasons are that investment are deducted from your gross income and earnings are not taxed until withdrawal. This applies to both traditional IRAs and 401Ks. Roth accounts have different rules but valuable benefits. My effective income tax rate is around 35%. This means that for every $1000 I earn in wage I only get to keep $650. Since my 401K contributions are deferred reductions from my income I can invest 35% more money into my 401K than I would be able to invest in a non-tax-advantaged account. Where I can invest $1000 into my 401K I would only be able to invest $650 into a non-advantaged account with the same wages. If I put $650 into an account yielding 10% then my one-year return on my income is $65 The 10% return on my $1000 is $100. Compared to what I would have been able to take home in the first place this makes my ROI $100/$650 = 15.3% Interest earned in non-advantaged accounts incurs taxes every year. Interest earned in advantaged accounts does not incur taxes until withdrawn. Compounding 10% annually for 20 years is significantly more than 6.5% compounded annually for 20 years. Imagine 10% on a 1000 investment with no additional cash flows over 20 year. The result is $6727, or 672%. Imagine your income tax rate does not reduce below 35%, your after-tax return is 4372, or %437 return. Now imagine you pay taxes every year on 10% take, so your take annually is only 6.5%... Now over 20 years you have $3523 (but you've already paid all taxes on this) and your return is %352 You have earned 24% more money because taxes were deferred until withdrawal! EDIT: Some tabular info for the commenters Your take home from the investment is $3752 because you have diligently paid your taxes every year on the earnings. Now, with the tax deferred until withdrawal!"
+          }
+        ]
+      },
+      "generation": {
+        "model": "gpt-4o-mini",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Withdrawals from a traditional 401(k) account are treated as cash income and are taxed at ordinary income tax rates when you take the money out, regardless of whether the funds were held in stocks or other investments within the account. If you take a distribution in stock shares, it is treated as if you took a distribution of cash equal to the market price of the shares on the day of distribution.\n\nAdditionally, if you withdraw funds from a traditional 401(k) before the age of 59.5, you may incur a 10% penalty on the entire distribution, unless you qualify for certain exceptions. \n\nIn contrast, contributions to a Roth 401(k) are made with after-tax dollars, meaning you pay taxes on the money before it goes into the account. However, qualified withdrawals from a Roth 401(k) are tax-free, provided certain conditions are met.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "383472-0-727",
+          "score": 3.7e-05,
+          "score_type": "hipporag_graph",
+          "text": "\nWith a 401k you will be taxed when you withdraw the money upon retirement (just like an IRA), but conventional wisdom had it that you're likely to be in a lower tax bracket at that time. That may not necessarily be the case though, in which case a Roth IRA would be a better option because you're paying for it with after tax dollars and distributions are untaxed. If you wanted to hedge your bets you could have both an IRA/401k and a Roth IRA.  An IRA has income limits above which the contributions are no longer tax deductible, I don't believe a 401k has the same limitations (for completion's sake: a Roth IRA has income limits above which you can't contribute to one). And like you said, the employer match is free money."
+        },
+        {
+          "rank": 2,
+          "doc_id": "587727-1594-2555",
+          "score": 3e-05,
+          "score_type": "hipporag_graph",
+          "text": "\nIncreases in the value of gold and silver will never touch compounded gains. So tax savings are a huge reason to stash your money in an IRA. You trade liquidity (having to wait until age 59.5) for a heck of a lot more money. Though isn't it nice to be assured that you will have money when you retire? If you aren't going to earn it then, you'll have to earn it now. If you are going to earn it now, you may as well put it in a place that earns you even more. A traditional IRA has penalties for withdrawing before retirement age. With a Roth you can withdraw the principal at anytime without penalty as long as the account has been open 5 years. A traditional IRA requires you take out a certain amount once you reach retirement. A Roth doesn't, which means you can leave money in the account to grow even more. A Roth can be passed on to a spouse after death, and after the spouse's death onto another beneficiary. more on IRA Required Minimum Distributions.\""
+        },
+        {
+          "rank": 3,
+          "doc_id": "30912-0-1347",
+          "score": 3e-05,
+          "score_type": "hipporag_graph",
+          "text": "\nWithdrawals from a traditional 401(k) plan are always treated as cash income and the taxable portion is taxed at ordinary income tax rates, even if the money was held in stocks within the 401(k) plan and the amount withdrawn is equal to whatever capital gains you made by selling the stock within the 401(k) plan. If your plan permits you to take the distribution as stock shares (transferred to your taxable brokerage account), then, for tax purposes, it is treated as if you took a distribution of cash equal to the market price of the shares as of the day of the distribution and promptly bought the same number of shares in your brokerage account.  And yes, if the 401(k) plan assets in your ex-employer's plan consists solely of pretax contributions and the earnings thereon, then the entire distribution is ordinary taxable income regardless of whether you sold the stock within the 401(k) plan or took a distribution of stock from the plan and promptly (or after a few days) sold it. The capital gains or losses (if any) from such a sale are, of course, outside the 401(k) plan and taxable accordingly. Finally, the 10% penalty for premature withdrawal from a traditional 401(k) will also apply if you are not 59.5 years of age or older (or maybe 55 since you are separated from service), and it will be computed on the entire distribution."
+        },
+        {
+          "rank": 4,
+          "doc_id": "239341-0-1267",
+          "score": 3e-05,
+          "score_type": "hipporag_graph",
+          "text": "\n\"Close... Warning, I may be off a bit here; I'm sure someone will correct me if so. Traditional 401k or IRA: money goes in pre-tax (so, yes, you avoid paying tax on it now), grows untaxed, taxes are due when you retire and start taking money back out of the account -- but your income, including these withdrawals, is likely to be lower than your peak earning years so your tax rate will be lower. You don't avoid all the tax, but you delay it and hopefully reduce it, and by doing so there's more money in your account earning returns. Roth 401k or IRA: money goes in after taxes (you do pay income tax now). However, all returns on the money are untaxed (I believe), and you pay no tax when you're eligible to withdraw the funds.  Either or both kinds of 401k may be eligible for some percentage of matching funds from your employer (there are some incentives for them to offer this benefit). I believe that even if you're doing a Roth 401k, the matching funds legally have to go in as traditional plan. And yes, as that implies, it is possible to split your contribution between the two styles. Note: the matching funds are \"\"free money.\"\" If your plan offers a match, it is highly recommended that you contribute enough to your 401k to capture the maximum match.\""
+        },
+        {
+          "rank": 5,
+          "doc_id": "126756-0-1797",
+          "score": 3e-05,
+          "score_type": "hipporag_graph",
+          "text": "\nThe main reasons are that investment are deducted from your gross income and earnings are not taxed until withdrawal. This applies to both traditional IRAs and 401Ks. Roth accounts have different rules but valuable benefits. My effective income tax rate is around 35%. This means that for every $1000 I earn in wage I only get to keep $650. Since my 401K contributions are deferred reductions from my income I can invest 35% more money into my 401K than I would be able to invest in a non-tax-advantaged account. Where I can invest $1000 into my 401K I would only be able to invest $650 into a non-advantaged account with the same wages. If I put $650 into an account yielding 10% then my one-year return on my income is $65 The 10% return on my $1000 is $100. Compared to what I would have been able to take home in the first place this makes my ROI $100/$650 = 15.3% Interest earned in non-advantaged accounts incurs taxes every year. Interest earned in advantaged accounts does not incur taxes until withdrawn. Compounding 10% annually for 20 years is significantly more than 6.5% compounded annually for 20 years. Imagine 10% on a 1000 investment with no additional cash flows over 20 year. The result is $6727, or 672%. Imagine your income tax rate does not reduce below 35%, your after-tax return is 4372, or %437 return. Now imagine you pay taxes every year on 10% take, so your take annually is only 6.5%... Now over 20 years you have $3523 (but you've already paid all taxes on this) and your return is %352 You have earned 24% more money because taxes were deferred until withdrawal! EDIT: Some tabular info for the commenters Your take home from the investment is $3752 because you have diligently paid your taxes every year on the earnings. Now, with the tax deferred until withdrawal!"
+        }
+      ],
+      "reference": {
+        "answer": "401(k) contributions are pre-tax dollars. A 401k account is taxed when you withdraw the money upon retirement. This is similar to how an IRA is taxed. The idea behind this is that you will likely be in a lower tax bracket at the time of retirement. It's important to note that 401k contributions reduce your taxable income for each paycheck, but they do not impact the level of your social security and medicare taxes. Also, the employer match is considered free money.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "3",
+      "task_id": "2f94b6fb4c6f941decd0609eb126610b<::>3",
+      "question": "What do you mean by IRA?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "how to balance 401k?"
+        },
+        {
+          "role": "assistant",
+          "content": "Balancing a 401k involves reallocating and rebalancing the investments within the account. You should determine the overall allocation between bonds, stocks, international, REIT, etc. This will depend on your risk tolerances and the total money in your 401k and IRA.  Once you figure out the allocation, map the available funds in your 401k according to this allocation. It is important to rebalance your 401k every year to maintain your desired asset allocation. Additionally you should review your allocation in a few years or after a life event such as a change of job, getting married, having kids, or buying a house. You can move from investment X to investment Y within your 401k without tax consequences. "
+        },
+        {
+          "role": "user",
+          "content": "How is 401k account taxed?"
+        },
+        {
+          "role": "assistant",
+          "content": "401(k) contributions are pre-tax dollars. A 401k account is taxed when you withdraw the money upon retirement. This is similar to how an IRA is taxed. The idea behind this is that you will likely be in a lower tax bracket at the time of retirement. It's important to note that 401k contributions reduce your taxable income for each paycheck, but they do not impact the level of your social security and medicare taxes. Also, the employer match is considered free money."
+        }
+      ],
+      "retrieval": {
+        "query": "What do you mean by IRA?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": "What do you mean by IRA?",
+        "k": 10,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "537049-0-1720",
+            "score": 7e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nI'm a series 24 securities principle and have explained and trained people on questions like these more times than I can count. Although, my first recommendation is to speak to a qualified tax professional for the appropriate answer for each individual scenario.  Disclosure aside, the source of truth for these questions is always the IRS publications. In this case it's IRS pub 590b: When Must You Withdraw Assets? (Required Minimum Distributions).  IRA stands for Individual Retirement Arrangement. Basically it's an arrangement between you a the government to encourage retirement savings. Tax payers(up to a define taxable income amount) agree to receive a deduction during your working years lowering your taxable income in the present. Your taxable income should drop in retirement because you're not working anymore and any withdraws would most likely be taxed at a lower rate. To be clear the require minimum distribution is based on a life expectancy factor and the ending balance of your pre-tax retirement accounts from the prior year(for ex. 2016 ending balance for a 2017 rmd). The rmd works out to be somewhere around 3-4% of your total balance.  Most retirement account providers(if not all) have established several conveniences to automate the withdraw process. I've believe that moving funds directly to bank deposits or moving the funds to another taxable investment account are most common.  Retirement account providers are required by law to give you notifications about RMDs. Some big firms allow you to setup an auto-distribution a year before you turn 70.5 to start when they need to. Because of the 50% penalty you're given so many notifications about an RMD that it's hard to forget about it."
+          },
+          {
+            "rank": 2,
+            "doc_id": "161758-0-647",
+            "score": 3.1e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n\"myRA is a name for a proposal Obama made to make IRA more accessible to people who are employed but don't have access to the traditional employer-sponsored retirement plans. However, other than making IRA more accessible - there's nothing in that plan that doesn't exist already. You can open IRA yourself and deposit money there yourself. The only thing \"\"myRA\"\" proposal adds is an ability to deduct money automatically from your paycheck and deposit it into your IRA without you doing it manually. Bottom line - it is just a proposal, not an existing program, that makes things you're already doing easier for people who are not doing it yet.\""
+          },
+          {
+            "rank": 3,
+            "doc_id": "89811-0-372",
+            "score": 3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nSince the I in IRA is individual. The retirement money from your accounts will end up in one or more IRAs. The retirement money from your spouses retirement accounts will end up in one or more IRAs owned by your spouse. How many IRA each will need depends on if the retirement fund contains pre-tax, post-tax, Roth and company match; and if you want to do any conversions."
+          },
+          {
+            "rank": 4,
+            "doc_id": "587727-0-1960",
+            "score": 3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n\"IRAs have huge tax-advantages. You'll pay taxes when you liquidate gold and silver. While volatile, \"\"the stock market has never produced a loss during any rolling 15-year period (1926-2009)\"\" [PDF]. This is perhaps the most convincing article for retirement accounts over at I Will Teach You To Be Rich. An IRA is just a container for your money and you may invest the money however you like (cash, stocks, funds, etc). A typical investment is the purchase of stocks, bonds, and/or funds containing either or both. Stocks may pay dividends and bonds pay yields. Transactions of these things trigger capital gains (or losses). This happens if you sell or if the fund manager sells pieces of the fund to buy something in its place (i.e. transactions happen without your decision and high turnover can result in huge capital gains). In a taxable account you will pay taxes on dividends and capital gains. In an IRA you don't ever pay taxes on dividends and capital gains. Over the life of the IRA (30+ years) this can be a huge ton of savings. A traditional IRA is funded with pre-tax money and you only pay tax on the withdrawal. Therefore you get more money upfront to invest and more money compounds into greater amounts faster. A Roth IRA you fund with after-tax dollars, but your withdrawals are tax free. Traditional versus Roth comparison calculator. Here are a bunch more IRA and 401k calculators. Take a look at the IRA tax savings for various amounts compared to the same money in a taxable account. Compounding over time will make you rich and there's your reason for starting young. Increases in the value of gold and silver will never touch compounded gains. So tax savings are a huge reason to stash your money in an IRA. You trade liquidity (having to wait until age 59.5) for a heck of a lot more money. Though isn't it nice to be assured that you will have money when you retire? If you aren't going to earn it then, you'll have to earn it now."
+          },
+          {
+            "rank": 5,
+            "doc_id": "111350-0-1937",
+            "score": 3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nIf you want to 'offset' current (2016) income, only deductible contribution to a traditional IRA does that. You can make nondeductible contributions to a trad IRA, and there are cases where that makes sense for the future and cases where it doesn't, but it doesn't give you a deduction now. Similarly a Roth IRA has possible advantages and disadvantages, but it does not have a deduction now. Currently he maximum is $5500 per person ($6500 if over age 50, but you aren't) which with two accounts (barely) covers your $10k. To be eligible to make this deductible traditional contribution, you must have earned income (employment or self-employment, but NOT the distribution from another IRA) at least the amount you want to contribute NOT have combined income (specifically MAGI, Modified Adjusted Gross Income) exceeding the phaseout limit (starts at $96,000 for married-joint) IF you were covered during the year (either you or your spouse) by an employer retirement plan (look at box 13 on your W-2's). With whom. Pretty much any bank, brokerage, or mutual fund family can handle IRAs. (To be technical, the bank's holding company will have an investment arm -- to you it will usually look like one operation with one name and logo, one office, one customer service department, one website etc, but the investment part must be legally separate from the insured banking part so you may notice a different name on your legal and tax forms.) If you are satisified with the custodian of the inherited IRA you already have, you might just stay with them -- they may not need as much paperwork, you don't need to meet and get comfortable with new people, you don't need to learn a new website. But if they sold you an annuity at your age -- as opposed to you inheriting an already annuitized IRA -- I'd want a lot of details before trusting they are acting in your best interests; most annuities sold to IRA holders are poor deals. In what."
+          },
+          {
+            "rank": 6,
+            "doc_id": "214174-0-1874",
+            "score": 3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n\"A Roth IRA is simply a tax-sheltered account that you deposit funds into, and then invest however you choose (within the limits of the firm you deposit the funds with). For example, you could open a Roth IRA account with Vanguard.  You could then invest the $3000 by purchasing shares of VOO, which tracks the S&P 500 index and has a very low expense ratio (0.04 as of last time I checked).  Fidelity has a similar option, or Schwab, or whatever brokerage firm you prefer. IRAs are basically just normal investment accounts, except they don't owe taxes until you withdraw them (and Roth don't even owe them then, though you paid taxes on the funds you deposit).  They have some limitations regarding options trading and such, but if you're a novice investor just looking to do basic investments, you'll not notice.   Then, your IRA would go up or down in value as the market went up or down in value. You do have some restrictions on when you can withdraw the funds; Roth IRA has fewer than a normal IRA, as you can withdraw the capital (the amount you deposited) without penalty, but the profits cannot be withdrawn until you're retirement age (I won't put an actual year, as I suspect that actual year will change by the time you're that old; but think 60s). The reason not to invest in an IRA is if you plan on using the money in the near future - even as an \"\"emergency fund\"\".  You should have some money that is not invested aggressively, that is in something very safe and very accessible, for your emergency fund; and if you plan to buy a house or whatever with the funds, don't start an IRA.  But if this is truly money you want to save for retirement, that's the best place to start. **Note, this is not investment advice, and you should do your own homework prior to making any investment.  You can lose some or all of the value of your account while investing.\""
+          },
+          {
+            "rank": 7,
+            "doc_id": "105468-0-1473",
+            "score": 3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n\"One reason is that you can trade in the IRA without incurring incremental taxes along the way.  This may be especially important if you intend to shift your portfolio allocation as you approach retirement.  For instance, gradually selling stocks and buying bonds can incur taxes if you do it in a taxable account (if you do it while you have other income and thus may face capital gains taxes).  Also, if you have mutual funds in a taxable account, they may distribute capital gains to you that you'll owe taxes on, but holding the funds in an IRA will shield you from that. There are also some other side benefits to IRAs because they are considered to \"\"not count\"\" for certain purposes when determining what you're worth.  For instance, if you go bankrupt, you could be forced to sell assets in taxable accounts to pay your creditors, whereas IRAs are protected in many cases.  Likewise, if you try to get financial aid to pay for college for your kids, money in an IRA won't be counted among your assets in determining your aid eligibility, potentially giving your kids access to more aid money. Finally, an especially prominent benefit is, paradoxically, the early withdrawal penalty.  For many people, part of the purpose of an IRA is to \"\"lock away\"\" their money and prevent themselves from accessing it until retirement.  Early withdrawal penalties provide a concrete consequence that psychologically deters them from raiding their retirement savings willy-nilly.\""
+          },
+          {
+            "rank": 8,
+            "doc_id": "336394-0-352",
+            "score": 2.9e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nThe main restrictions you see with IRA's involve contributions, and not the actual investments themselves. I would be indifferent to having a single investment across multiple accounts. It might be a bit trickier to manage, especially if your strategy involves some specific asset allocation. Other than account management though, there's no big issue."
+          },
+          {
+            "rank": 9,
+            "doc_id": "109305-0-904",
+            "score": 2.9e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n\"IRA is a tax-deferred account. I.e.: you're not paying any taxes on the income within the account (as long as you don't withdraw it) and you can deduct the investment (with certain limitation on how much, depending on your total AGI). It is taxed when you withdraw it - at ordinary rates for the \"\"traditional\"\" IRA and with 0% rate for ROTH, as long as the withdrawal is qualified (if not qualified - you pay ordinary rate tax for ROTH and additional 10% tax for both on the taxable amounts). The details are a bit complicated (there's deductible IRA, non-deductible IRA, roll-overs, etc etc), but that's the basic. Regular investment accounts are taxed currently on any income, but you get the \"\"better\"\" capital gains rates on many things. So which one is better depends how long your investment is going to be, what is your tax situation now, and what you anticipate it to be later when you retire.\""
+          },
+          {
+            "rank": 10,
+            "doc_id": "465787-0-669",
+            "score": 2.9e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nRead the Forbes article titled IRA Adventures. While it's not the detailed regulations you certainly need, the article gives some great detail and caution. You may be able to do what you wish, but it must be structured to adhere to specific rules to avoid self dealing. Those rules would be known by the custodians who would help you set up the right structure, it's well buried within IRS regs, I'm sure. Last, in general, using IRA funds to invest in the non-traditional assets adds that other layer of risk, that the investment will be deemed non-allowed and/or self-dealing. So, even if you have the best business idea going, be sure you get proper council on this."
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "537049-0-1720",
+            "score": 7e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nI'm a series 24 securities principle and have explained and trained people on questions like these more times than I can count. Although, my first recommendation is to speak to a qualified tax professional for the appropriate answer for each individual scenario.  Disclosure aside, the source of truth for these questions is always the IRS publications. In this case it's IRS pub 590b: When Must You Withdraw Assets? (Required Minimum Distributions).  IRA stands for Individual Retirement Arrangement. Basically it's an arrangement between you a the government to encourage retirement savings. Tax payers(up to a define taxable income amount) agree to receive a deduction during your working years lowering your taxable income in the present. Your taxable income should drop in retirement because you're not working anymore and any withdraws would most likely be taxed at a lower rate. To be clear the require minimum distribution is based on a life expectancy factor and the ending balance of your pre-tax retirement accounts from the prior year(for ex. 2016 ending balance for a 2017 rmd). The rmd works out to be somewhere around 3-4% of your total balance.  Most retirement account providers(if not all) have established several conveniences to automate the withdraw process. I've believe that moving funds directly to bank deposits or moving the funds to another taxable investment account are most common.  Retirement account providers are required by law to give you notifications about RMDs. Some big firms allow you to setup an auto-distribution a year before you turn 70.5 to start when they need to. Because of the 50% penalty you're given so many notifications about an RMD that it's hard to forget about it."
+          },
+          {
+            "rank": 2,
+            "doc_id": "161758-0-647",
+            "score": 3.1e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n\"myRA is a name for a proposal Obama made to make IRA more accessible to people who are employed but don't have access to the traditional employer-sponsored retirement plans. However, other than making IRA more accessible - there's nothing in that plan that doesn't exist already. You can open IRA yourself and deposit money there yourself. The only thing \"\"myRA\"\" proposal adds is an ability to deduct money automatically from your paycheck and deposit it into your IRA without you doing it manually. Bottom line - it is just a proposal, not an existing program, that makes things you're already doing easier for people who are not doing it yet.\""
+          },
+          {
+            "rank": 3,
+            "doc_id": "89811-0-372",
+            "score": 3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nSince the I in IRA is individual. The retirement money from your accounts will end up in one or more IRAs. The retirement money from your spouses retirement accounts will end up in one or more IRAs owned by your spouse. How many IRA each will need depends on if the retirement fund contains pre-tax, post-tax, Roth and company match; and if you want to do any conversions."
+          },
+          {
+            "rank": 4,
+            "doc_id": "587727-0-1960",
+            "score": 3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n\"IRAs have huge tax-advantages. You'll pay taxes when you liquidate gold and silver. While volatile, \"\"the stock market has never produced a loss during any rolling 15-year period (1926-2009)\"\" [PDF]. This is perhaps the most convincing article for retirement accounts over at I Will Teach You To Be Rich. An IRA is just a container for your money and you may invest the money however you like (cash, stocks, funds, etc). A typical investment is the purchase of stocks, bonds, and/or funds containing either or both. Stocks may pay dividends and bonds pay yields. Transactions of these things trigger capital gains (or losses). This happens if you sell or if the fund manager sells pieces of the fund to buy something in its place (i.e. transactions happen without your decision and high turnover can result in huge capital gains). In a taxable account you will pay taxes on dividends and capital gains. In an IRA you don't ever pay taxes on dividends and capital gains. Over the life of the IRA (30+ years) this can be a huge ton of savings. A traditional IRA is funded with pre-tax money and you only pay tax on the withdrawal. Therefore you get more money upfront to invest and more money compounds into greater amounts faster. A Roth IRA you fund with after-tax dollars, but your withdrawals are tax free. Traditional versus Roth comparison calculator. Here are a bunch more IRA and 401k calculators. Take a look at the IRA tax savings for various amounts compared to the same money in a taxable account. Compounding over time will make you rich and there's your reason for starting young. Increases in the value of gold and silver will never touch compounded gains. So tax savings are a huge reason to stash your money in an IRA. You trade liquidity (having to wait until age 59.5) for a heck of a lot more money. Though isn't it nice to be assured that you will have money when you retire? If you aren't going to earn it then, you'll have to earn it now."
+          },
+          {
+            "rank": 5,
+            "doc_id": "111350-0-1937",
+            "score": 3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nIf you want to 'offset' current (2016) income, only deductible contribution to a traditional IRA does that. You can make nondeductible contributions to a trad IRA, and there are cases where that makes sense for the future and cases where it doesn't, but it doesn't give you a deduction now. Similarly a Roth IRA has possible advantages and disadvantages, but it does not have a deduction now. Currently he maximum is $5500 per person ($6500 if over age 50, but you aren't) which with two accounts (barely) covers your $10k. To be eligible to make this deductible traditional contribution, you must have earned income (employment or self-employment, but NOT the distribution from another IRA) at least the amount you want to contribute NOT have combined income (specifically MAGI, Modified Adjusted Gross Income) exceeding the phaseout limit (starts at $96,000 for married-joint) IF you were covered during the year (either you or your spouse) by an employer retirement plan (look at box 13 on your W-2's). With whom. Pretty much any bank, brokerage, or mutual fund family can handle IRAs. (To be technical, the bank's holding company will have an investment arm -- to you it will usually look like one operation with one name and logo, one office, one customer service department, one website etc, but the investment part must be legally separate from the insured banking part so you may notice a different name on your legal and tax forms.) If you are satisified with the custodian of the inherited IRA you already have, you might just stay with them -- they may not need as much paperwork, you don't need to meet and get comfortable with new people, you don't need to learn a new website. But if they sold you an annuity at your age -- as opposed to you inheriting an already annuitized IRA -- I'd want a lot of details before trusting they are acting in your best interests; most annuities sold to IRA holders are poor deals. In what."
+          }
+        ]
+      },
+      "generation": {
+        "model": "gpt-4o-mini",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "IRA stands for Individual Retirement Arrangement. It is a type of account that allows individuals to save for retirement with tax advantages. There are different types of IRAs, including traditional IRAs and Roth IRAs. \n\nIn a traditional IRA, contributions are typically made with pre-tax dollars, which can lower your taxable income in the year you contribute. You pay taxes on withdrawals during retirement. \n\nIn a Roth IRA, contributions are made with after-tax dollars, meaning you pay taxes on the money before you deposit it into the account, but qualified withdrawals during retirement are tax-free.\n\nOverall, IRAs are designed to encourage retirement savings by providing tax benefits.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "537049-0-1720",
+          "score": 7e-05,
+          "score_type": "hipporag_graph",
+          "text": "\nI'm a series 24 securities principle and have explained and trained people on questions like these more times than I can count. Although, my first recommendation is to speak to a qualified tax professional for the appropriate answer for each individual scenario.  Disclosure aside, the source of truth for these questions is always the IRS publications. In this case it's IRS pub 590b: When Must You Withdraw Assets? (Required Minimum Distributions).  IRA stands for Individual Retirement Arrangement. Basically it's an arrangement between you a the government to encourage retirement savings. Tax payers(up to a define taxable income amount) agree to receive a deduction during your working years lowering your taxable income in the present. Your taxable income should drop in retirement because you're not working anymore and any withdraws would most likely be taxed at a lower rate. To be clear the require minimum distribution is based on a life expectancy factor and the ending balance of your pre-tax retirement accounts from the prior year(for ex. 2016 ending balance for a 2017 rmd). The rmd works out to be somewhere around 3-4% of your total balance.  Most retirement account providers(if not all) have established several conveniences to automate the withdraw process. I've believe that moving funds directly to bank deposits or moving the funds to another taxable investment account are most common.  Retirement account providers are required by law to give you notifications about RMDs. Some big firms allow you to setup an auto-distribution a year before you turn 70.5 to start when they need to. Because of the 50% penalty you're given so many notifications about an RMD that it's hard to forget about it."
+        },
+        {
+          "rank": 2,
+          "doc_id": "161758-0-647",
+          "score": 3.1e-05,
+          "score_type": "hipporag_graph",
+          "text": "\n\"myRA is a name for a proposal Obama made to make IRA more accessible to people who are employed but don't have access to the traditional employer-sponsored retirement plans. However, other than making IRA more accessible - there's nothing in that plan that doesn't exist already. You can open IRA yourself and deposit money there yourself. The only thing \"\"myRA\"\" proposal adds is an ability to deduct money automatically from your paycheck and deposit it into your IRA without you doing it manually. Bottom line - it is just a proposal, not an existing program, that makes things you're already doing easier for people who are not doing it yet.\""
+        },
+        {
+          "rank": 3,
+          "doc_id": "89811-0-372",
+          "score": 3e-05,
+          "score_type": "hipporag_graph",
+          "text": "\nSince the I in IRA is individual. The retirement money from your accounts will end up in one or more IRAs. The retirement money from your spouses retirement accounts will end up in one or more IRAs owned by your spouse. How many IRA each will need depends on if the retirement fund contains pre-tax, post-tax, Roth and company match; and if you want to do any conversions."
+        },
+        {
+          "rank": 4,
+          "doc_id": "587727-0-1960",
+          "score": 3e-05,
+          "score_type": "hipporag_graph",
+          "text": "\n\"IRAs have huge tax-advantages. You'll pay taxes when you liquidate gold and silver. While volatile, \"\"the stock market has never produced a loss during any rolling 15-year period (1926-2009)\"\" [PDF]. This is perhaps the most convincing article for retirement accounts over at I Will Teach You To Be Rich. An IRA is just a container for your money and you may invest the money however you like (cash, stocks, funds, etc). A typical investment is the purchase of stocks, bonds, and/or funds containing either or both. Stocks may pay dividends and bonds pay yields. Transactions of these things trigger capital gains (or losses). This happens if you sell or if the fund manager sells pieces of the fund to buy something in its place (i.e. transactions happen without your decision and high turnover can result in huge capital gains). In a taxable account you will pay taxes on dividends and capital gains. In an IRA you don't ever pay taxes on dividends and capital gains. Over the life of the IRA (30+ years) this can be a huge ton of savings. A traditional IRA is funded with pre-tax money and you only pay tax on the withdrawal. Therefore you get more money upfront to invest and more money compounds into greater amounts faster. A Roth IRA you fund with after-tax dollars, but your withdrawals are tax free. Traditional versus Roth comparison calculator. Here are a bunch more IRA and 401k calculators. Take a look at the IRA tax savings for various amounts compared to the same money in a taxable account. Compounding over time will make you rich and there's your reason for starting young. Increases in the value of gold and silver will never touch compounded gains. So tax savings are a huge reason to stash your money in an IRA. You trade liquidity (having to wait until age 59.5) for a heck of a lot more money. Though isn't it nice to be assured that you will have money when you retire? If you aren't going to earn it then, you'll have to earn it now."
+        },
+        {
+          "rank": 5,
+          "doc_id": "111350-0-1937",
+          "score": 3e-05,
+          "score_type": "hipporag_graph",
+          "text": "\nIf you want to 'offset' current (2016) income, only deductible contribution to a traditional IRA does that. You can make nondeductible contributions to a trad IRA, and there are cases where that makes sense for the future and cases where it doesn't, but it doesn't give you a deduction now. Similarly a Roth IRA has possible advantages and disadvantages, but it does not have a deduction now. Currently he maximum is $5500 per person ($6500 if over age 50, but you aren't) which with two accounts (barely) covers your $10k. To be eligible to make this deductible traditional contribution, you must have earned income (employment or self-employment, but NOT the distribution from another IRA) at least the amount you want to contribute NOT have combined income (specifically MAGI, Modified Adjusted Gross Income) exceeding the phaseout limit (starts at $96,000 for married-joint) IF you were covered during the year (either you or your spouse) by an employer retirement plan (look at box 13 on your W-2's). With whom. Pretty much any bank, brokerage, or mutual fund family can handle IRAs. (To be technical, the bank's holding company will have an investment arm -- to you it will usually look like one operation with one name and logo, one office, one customer service department, one website etc, but the investment part must be legally separate from the insured banking part so you may notice a different name on your legal and tax forms.) If you are satisified with the custodian of the inherited IRA you already have, you might just stay with them -- they may not need as much paperwork, you don't need to meet and get comfortable with new people, you don't need to learn a new website. But if they sold you an annuity at your age -- as opposed to you inheriting an already annuitized IRA -- I'd want a lot of details before trusting they are acting in your best interests; most annuities sold to IRA holders are poor deals. In what."
+        }
+      ],
+      "reference": {
+        "answer": "IRA stands for Individual Retirement Account. It's a type of retirement account where you can delay paying taxes now on your deposits or avoid paying taxes on your earnings later. You can set up a personal IRA for yourself, but not for employees. The investments within an IRA can vary - you can invest in certificates of deposit, stocks, bonds, mutual funds, or any mix of these. The taxation of an IRA is similar to a 401k, where contributions are made with pre-tax dollars and withdrawals are taxed upon retirement.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Clarification"
+        ]
+      }
+    },
+    {
+      "turn_id": "4",
+      "task_id": "2f94b6fb4c6f941decd0609eb126610b<::>4",
+      "question": "Got it. Can I change my 401k contribution mid-year, in case my financial state changed for some reason?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "how to balance 401k?"
+        },
+        {
+          "role": "assistant",
+          "content": "Balancing a 401k involves reallocating and rebalancing the investments within the account. You should determine the overall allocation between bonds, stocks, international, REIT, etc. This will depend on your risk tolerances and the total money in your 401k and IRA.  Once you figure out the allocation, map the available funds in your 401k according to this allocation. It is important to rebalance your 401k every year to maintain your desired asset allocation. Additionally you should review your allocation in a few years or after a life event such as a change of job, getting married, having kids, or buying a house. You can move from investment X to investment Y within your 401k without tax consequences. "
+        },
+        {
+          "role": "user",
+          "content": "How is 401k account taxed?"
+        },
+        {
+          "role": "assistant",
+          "content": "401(k) contributions are pre-tax dollars. A 401k account is taxed when you withdraw the money upon retirement. This is similar to how an IRA is taxed. The idea behind this is that you will likely be in a lower tax bracket at the time of retirement. It's important to note that 401k contributions reduce your taxable income for each paycheck, but they do not impact the level of your social security and medicare taxes. Also, the employer match is considered free money."
+        },
+        {
+          "role": "user",
+          "content": "What do you mean by IRA?"
+        },
+        {
+          "role": "assistant",
+          "content": "IRA stands for Individual Retirement Account. It's a type of retirement account where you can delay paying taxes now on your deposits or avoid paying taxes on your earnings later. You can set up a personal IRA for yourself, but not for employees. The investments within an IRA can vary - you can invest in certificates of deposit, stocks, bonds, mutual funds, or any mix of these. The taxation of an IRA is similar to a 401k, where contributions are made with pre-tax dollars and withdrawals are taxed upon retirement."
+        }
+      ],
+      "retrieval": {
+        "query": "Got it. Can I change my 401k contribution mid-year, in case my financial state changed for some reason?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": "Got it. Can I change my 401k contribution mid-year, in case my financial state changed for some reason?",
+        "k": 10,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "530703-0-1045",
+            "score": 3.8e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nOne of the strengths of 401K accounts is that you can move from investment X in the program to investment Y in the program without tax consequences. As you move through your lifetime you will tend to want to lower risk by investing in funds that are less aggressive. The only way this works is if there is an ability to move funds. If there were only one or two funds to pick from or that you were locked in to your initial choices that would be a very poor 401K to be enrolled in. On your benefits/401K website you should be able to adjust three sets of numbers: Some have you enter the current money as a percentage others allow you to enter it in dollars. They might limit the number of changes you can do in a month to the current money balances to avoid the temptation to try and time the market. These changes usually happen within 1 business day.  Regarding new and match money they could limit the lowest non zero percent to 5% or 10%, but they might allow numbers as low as 1%. These changes take place generally with the next paycheck."
+          },
+          {
+            "rank": 2,
+            "doc_id": "400859-0-184",
+            "score": 3.1e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nCurrent Money users may want to take a look at this: http://sites.google.com/site/pocketsense/home/msmoneyfixp1 Pretty easy (and secure) way to continue getting online data into Money."
+          },
+          {
+            "rank": 3,
+            "doc_id": "482544-0-768",
+            "score": 2.5e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nYou are not locked in to this percentage of new money forever, you may change it every paycheck. Pick a split that makes you feel comfortable. Then revisit how you allocate new money every year. If congress makes changes to the brackets; or your compensation changes; or the rules regarding retirement funds changes: adjust accordingly. Note that the Roth IRA came long after the IRA; and that the Roth 401K came long after the 401K. You have no idea what types of investments you will be able to contribute to with your next employer, or how your martial situation and income will change the scope of available retirement options. Heck you can even convert non-Roth to Roth in the future if that makes sense. Pick a percentage for now, but don't forget to revisit it."
+          },
+          {
+            "rank": 4,
+            "doc_id": "497561-0-559",
+            "score": 2.5e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nI routinely max out my 401k contributions.  The company's stupid website actually forces me to make two contributions -- one for the regular contribution, and another for the Catchup Contribution. I routinely adjust my 401k contribution throughout the year -- at the first of the year, I calculate how much to withhold such that I can adjust withholding to 6% of salary more than before, once I hit the SS tax limit.  At the first of the year, I ignore bonuses.  I re-adjust (if needed) once I know bonuses. I've worked for my company for almost 30 years now."
+          },
+          {
+            "rank": 5,
+            "doc_id": "83026-0-351",
+            "score": 2.4e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nBecause you have maxed your 2011 contribution, you can't add any more for 2011. If you have 2012 income you can make a contribution anytime between now and April 2013. Only you can determine if this makes sense for you, but there doesn't appear to be any reasons to suspect you can't do this. (this was based on your comments to the original question)"
+          },
+          {
+            "rank": 6,
+            "doc_id": "554739-0-2111",
+            "score": 2.4e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n\"There are certain allowable reasons to withdraw money from a 401K.  The desire to free your money from a \"\"bad\"\" plan is not one of them.   A rollover is a special type of withdrawal that is only available after one leaves their current employer.  So as long as you stay with your current company, you cannot rollover.  [Exception: if you are over age  59.5] One option is to talk to HR, see if they can get a expansion of offerings.  You might have some suggestions for mutual funds that you would like to see.  The smaller the company the more likely you will have success here.  That being said, there is some research to support having few choices.  Too many choices intimidates people. It's quite popular to have \"\"target funds\"\"  That is funds that target a certain retirement year.  Being that I will be 50 in 2016, I should invest in either a 2030 or 2035 fund.  These are a collection of funds that rebalances the investment as they age.  The closer one gets to retirement the more goes into bonds and less into stocks.   However, I think such rebalancing is not as smart as the experts say.  IMHO is almost always better off heavily invested in equity funds.  So this becomes a second option.  Invest in a Target fund that is meant for younger people.  In my case I would put into a 2060 or even 2065 target. As JoeTaxpayer pointed out, even in a plan that has high fees and poor choices one is often better off contributing up to the match.  Then one would go outside and contribute to an individual ROTH or IRA (income restrictions may apply), then back into the 401K until the desired amount is invested.   You could always move on to a different employer and ask some really good questions about their 401K.  Which leads me back to talking with HR.  With the current technology shortage, making a few tweaks to the 401K, is a very cheap way to make their employees happy. If you can score a 1099 contracting gig, you can do a SEP which allows up to a whopping 53K per year.  No match but with typically higher pay, sometimes overtime, and a high contribution limit you can easily make up for it.\""
+          },
+          {
+            "rank": 7,
+            "doc_id": "266247-0-627",
+            "score": 2.4e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nContributions are post-tax, so there's no direct tax benefit to choosing a year. I just made a 2010 contribution today, and the institution's form explicitly asks me if I want it on 2010 or 2011.  The primary advantage of backdating like this is being able to contribute 5k more over your lifetime than otherwise possible, under the timing constraints. While there may be a year in the future which you don't contribute the max, contributing now lets you build up earnings tax free. For '10 vs '11, you're probably holding cash so it's not a big deal, but over five years is a long time to hold cash or invest with tax penalty."
+          },
+          {
+            "rank": 8,
+            "doc_id": "122061-0-1049",
+            "score": 2.4e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nThe strength of your plan is that you have considered that if you contribute early the the 401K you might not get the match, so you do stretch it out for the entire year..  One benefit to putting money into the HSA early is that it will be available if you need it early in the year if you have a major medical emergency in the first quarter. If you need to pay a $4,000 deductible in January because of Appendicitis you would hate to have to use post tax money to pay the bill. Of course If you have had the HSA for several years then this might not be a problem. If you haven't maxed the Roth IRA for 2013, you could make contributions to the IRA up until April 15 2014 to count for the previous year.  A risk with the HSA is if you leave your employer mid-year. You can keep the money, and use it for medical expenses, but if the new company doesn't have a an HSA/High Deductible plan you might have contributed too much.  The 401K, HSA, and IRA are annual limits. So if you will switch companies you are responsible for not going over the limit."
+          },
+          {
+            "rank": 9,
+            "doc_id": "427997-0-1765",
+            "score": 2.4e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n\"typically, your employer will automatically stop making contributions once you hit the 18k$ limit. it is worth noting that employer contributions (e.g. \"\"matching\"\") do not count towards the 18k$ employee pre-tax contribution limit. however, if you have 2 employers during the year their combined payroll deductions might exceed the limit if you do not inform your later employer of the contributions you made at your former employer (or they ignore the info). in which case, you must request a refund of \"\"excess contributions\"\" from one of the plans (your choice). you must report the refund as taxable income on your taxes. if you do not make this request by the time you file your taxes, the tax man will reject your filing and \"\"adjust\"\" your return with more taxes and penalties. sometimes requesting a refund of excess contributions might cause your employer to remove \"\"matching\"\" funds, but i am not clear on the rules behind that. there are some 401k plans that allow \"\"supplemental after-tax contributions\"\" up to the combined employee/employer limit (53k$ in 2015 and 2016). it is a rare feature, and if your company offers it, you probably already know.  however, generally it is governed by a separate contribution election that only take effect once you hit the employee pre-tax contribution limit (18k$ in 2015 and 2016). you could ask your hr department to be sure. 401k plans can be changed if there is enough employee demand for a rule change.  especially in a small company, simply asking for them to allow dollar based contributions instead of percent based contributions can cause them to change the plan to allow it. similarly, you could request they allow \"\"supplemental after-tax contributions\"\", but that might be a harder change to get.\""
+          },
+          {
+            "rank": 10,
+            "doc_id": "38532-0-1998",
+            "score": 2.4e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n\"Your contribution limit to a 401(k) is $18,000. Your employer is allowed to contribute to your 401(k), usually a \"\"matching contribution\"\". That matching contribution comes from your employer, so is not subject to your personal contribution limit. A contribution to a regular 401(k) is typically made with pre-tax money (i.e. you don't pay payroll taxes on the money you contribute) so you pay less taxes for the current tax year. However when you retire and you take money out, you pay taxes on the money you take out. On one hand, your tax rate may be lower when you have retired, but on the other hand, if your investments have appreciated over time, the total amount of tax you pay would be higher. If your company offers a Roth 401(k) plan, you can contribute $18,000 of after tax money. This way you pay the tax on the $18,000 today, as you would if you did not put the money in the 401(k), but when you take the money out at retirement, you would not have to pay tax. In my opinion, that serves as a way to pay effectively more money into your 401(k). Some firms put vesting provisions on the amount that they match in your 401(k), e.g. 4 years at 25% per year. So you have to work 1 full year to be entitled to 25% of their matching contribution, 2 years for 50%, and 4 years to receive all of it. Check your company's Summary Plan Description of the 401(k) to be sure. You are not allowed to invest pre-tax money into a Traditional IRA if you are already contributing to a 401(k) plan and have reached the income limits ($62,000 AGI for single head of household). You are allowed to contribute post-tax money to a Traditional IRA plan if you have already contributed to a 401(k), which you can then Roll-over into a Roth IRA (look up 'backdoor IRA'). The IRA contribution limit applies to all IRA accounts over that calendar year. You could put some money in a traditional IRA, a Roth IRA, another traditional IRA, etc. so long as the total amount is not more than the contribution limit."
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "530703-0-1045",
+            "score": 3.8e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nOne of the strengths of 401K accounts is that you can move from investment X in the program to investment Y in the program without tax consequences. As you move through your lifetime you will tend to want to lower risk by investing in funds that are less aggressive. The only way this works is if there is an ability to move funds. If there were only one or two funds to pick from or that you were locked in to your initial choices that would be a very poor 401K to be enrolled in. On your benefits/401K website you should be able to adjust three sets of numbers: Some have you enter the current money as a percentage others allow you to enter it in dollars. They might limit the number of changes you can do in a month to the current money balances to avoid the temptation to try and time the market. These changes usually happen within 1 business day.  Regarding new and match money they could limit the lowest non zero percent to 5% or 10%, but they might allow numbers as low as 1%. These changes take place generally with the next paycheck."
+          },
+          {
+            "rank": 2,
+            "doc_id": "400859-0-184",
+            "score": 3.1e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nCurrent Money users may want to take a look at this: http://sites.google.com/site/pocketsense/home/msmoneyfixp1 Pretty easy (and secure) way to continue getting online data into Money."
+          },
+          {
+            "rank": 3,
+            "doc_id": "482544-0-768",
+            "score": 2.5e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nYou are not locked in to this percentage of new money forever, you may change it every paycheck. Pick a split that makes you feel comfortable. Then revisit how you allocate new money every year. If congress makes changes to the brackets; or your compensation changes; or the rules regarding retirement funds changes: adjust accordingly. Note that the Roth IRA came long after the IRA; and that the Roth 401K came long after the 401K. You have no idea what types of investments you will be able to contribute to with your next employer, or how your martial situation and income will change the scope of available retirement options. Heck you can even convert non-Roth to Roth in the future if that makes sense. Pick a percentage for now, but don't forget to revisit it."
+          },
+          {
+            "rank": 4,
+            "doc_id": "497561-0-559",
+            "score": 2.5e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nI routinely max out my 401k contributions.  The company's stupid website actually forces me to make two contributions -- one for the regular contribution, and another for the Catchup Contribution. I routinely adjust my 401k contribution throughout the year -- at the first of the year, I calculate how much to withhold such that I can adjust withholding to 6% of salary more than before, once I hit the SS tax limit.  At the first of the year, I ignore bonuses.  I re-adjust (if needed) once I know bonuses. I've worked for my company for almost 30 years now."
+          },
+          {
+            "rank": 5,
+            "doc_id": "83026-0-351",
+            "score": 2.4e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nBecause you have maxed your 2011 contribution, you can't add any more for 2011. If you have 2012 income you can make a contribution anytime between now and April 2013. Only you can determine if this makes sense for you, but there doesn't appear to be any reasons to suspect you can't do this. (this was based on your comments to the original question)"
+          }
+        ]
+      },
+      "generation": {
+        "model": "gpt-4o-mini",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Yes, you can change your 401k contribution mid-year. You are not locked into your contribution percentage forever; you can adjust it every paycheck. If your financial situation changes, you can pick a new percentage that makes you feel comfortable. It's advisable to revisit how you allocate new money regularly, especially if there are changes in your compensation or the rules regarding retirement funds.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "530703-0-1045",
+          "score": 3.8e-05,
+          "score_type": "hipporag_graph",
+          "text": "\nOne of the strengths of 401K accounts is that you can move from investment X in the program to investment Y in the program without tax consequences. As you move through your lifetime you will tend to want to lower risk by investing in funds that are less aggressive. The only way this works is if there is an ability to move funds. If there were only one or two funds to pick from or that you were locked in to your initial choices that would be a very poor 401K to be enrolled in. On your benefits/401K website you should be able to adjust three sets of numbers: Some have you enter the current money as a percentage others allow you to enter it in dollars. They might limit the number of changes you can do in a month to the current money balances to avoid the temptation to try and time the market. These changes usually happen within 1 business day.  Regarding new and match money they could limit the lowest non zero percent to 5% or 10%, but they might allow numbers as low as 1%. These changes take place generally with the next paycheck."
+        },
+        {
+          "rank": 2,
+          "doc_id": "400859-0-184",
+          "score": 3.1e-05,
+          "score_type": "hipporag_graph",
+          "text": "\nCurrent Money users may want to take a look at this: http://sites.google.com/site/pocketsense/home/msmoneyfixp1 Pretty easy (and secure) way to continue getting online data into Money."
+        },
+        {
+          "rank": 3,
+          "doc_id": "482544-0-768",
+          "score": 2.5e-05,
+          "score_type": "hipporag_graph",
+          "text": "\nYou are not locked in to this percentage of new money forever, you may change it every paycheck. Pick a split that makes you feel comfortable. Then revisit how you allocate new money every year. If congress makes changes to the brackets; or your compensation changes; or the rules regarding retirement funds changes: adjust accordingly. Note that the Roth IRA came long after the IRA; and that the Roth 401K came long after the 401K. You have no idea what types of investments you will be able to contribute to with your next employer, or how your martial situation and income will change the scope of available retirement options. Heck you can even convert non-Roth to Roth in the future if that makes sense. Pick a percentage for now, but don't forget to revisit it."
+        },
+        {
+          "rank": 4,
+          "doc_id": "497561-0-559",
+          "score": 2.5e-05,
+          "score_type": "hipporag_graph",
+          "text": "\nI routinely max out my 401k contributions.  The company's stupid website actually forces me to make two contributions -- one for the regular contribution, and another for the Catchup Contribution. I routinely adjust my 401k contribution throughout the year -- at the first of the year, I calculate how much to withhold such that I can adjust withholding to 6% of salary more than before, once I hit the SS tax limit.  At the first of the year, I ignore bonuses.  I re-adjust (if needed) once I know bonuses. I've worked for my company for almost 30 years now."
+        },
+        {
+          "rank": 5,
+          "doc_id": "83026-0-351",
+          "score": 2.4e-05,
+          "score_type": "hipporag_graph",
+          "text": "\nBecause you have maxed your 2011 contribution, you can't add any more for 2011. If you have 2012 income you can make a contribution anytime between now and April 2013. Only you can determine if this makes sense for you, but there doesn't appear to be any reasons to suspect you can't do this. (this was based on your comments to the original question)"
+        }
+      ],
+      "reference": {
+        "answer": "I'm sorry, but I don't have information on whether you can change the contribution mid-year. ",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "UNANSWERABLE",
+        "question_type": [
+          "How-To"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    }
+  ]
+}

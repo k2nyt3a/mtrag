@@ -1,0 +1,1386 @@
+{
+  "conversation_id": "41a4006bfa6841516188c1695ebaf16c",
+  "dataset": "clapnq",
+  "collection": "mt-rag-clapnq-elser-512-100-20240503",
+  "rag": "selfrag",
+  "num_turns": 7,
+  "turns": [
+    {
+      "turn_id": "1",
+      "task_id": "41a4006bfa6841516188c1695ebaf16c<::>1",
+      "question": "when did the wall in berlin come down",
+      "rag_history_before_turn": [],
+      "retrieval": {
+        "query": "when did the wall in berlin come down",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "843537822_52818-53846-0-1028",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall On 19 July 1988 , 16 months before the Wall came down , Bruce Springsteen and the E-Street Band , played Rocking the Wall , a live concert in East Berlin , which was attended by 300,000 in person and broadcast delayed on television . Springsteen spoke to the crowd in German , saying : `` I 'm not here for or against any government . I 've come to play rock ' n ' roll for you in the hope that one day all the barriers will be torn down '' . East Germany and its FDJ youth organization were worried they were losing an entire generation . They hoped that by letting Springsteen in , they could improve their sentiment among East Germans . However , this strategy of `` one step backwards , two steps forwards '' backfired and the concert only made East Germans hungrier for more of the freedoms that Springsteen epitomized . While John F. Kennedy and Ronald Reagan delivered their famous speeches from the safety of West Berlin , Springsteen 's speaking out against the Wall in the middle of East Berlin added to the euphoria .",
+            "title": "Berlin Wall"
+          },
+          {
+            "rank": 2,
+            "doc_id": "843537822_63713-64044-0-331",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall The fall of the Berlin Wall ( German : Mauerfall ) began the evening of 9 November 1989 and continued over the following days and weeks , with people nicknamed Mauerspechte ( wall woodpeckers ) using various tools to chip off souvenirs , demolishing lengthy parts in the process , and creating several unofficial border crossings .",
+            "title": "Berlin Wall"
+          },
+          {
+            "rank": 3,
+            "doc_id": "843537822_62979-63260-0-281",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall Walking through Checkpoint Charlie , 10 November 1989 Germans stand on top of the Wall in the days before it was torn down At the Brandenburg Gate , 10 November 1989 Juggling on the Wall on 16 November 1989 `` Mauerspecht '' ( November 1989 ) The Fall of the Wall ( November 1989 )",
+            "title": "Berlin Wall"
+          },
+          {
+            "rank": 4,
+            "doc_id": "843537822_70554-71038-0-484",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall On 9 November 2009 , Berlin celebrated the 20th Anniversary of the Fall of the Berlin Wall with a `` Festival of Freedom '' with dignitaries from around the world in attendance for an evening celebration around the Brandenburg Gate . A high point was when over 1,000 colourfully designed foam domino tiles , each over 8 feet ( 2.4 m ) tall , that were stacked along the former route of the Wall in the city center were toppled in stages , converging in front of the Brandenburg Gate .",
+            "title": "Berlin Wall"
+          },
+          {
+            "rank": 5,
+            "doc_id": "843537822_67170-67632-0-462",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall An East German guard talks to a Westerner through a broken seam in the wall in late November 1989 . A crane removes a section of the Wall near Brandenburg Gate on 21 December 1989 . Almost all of the remaining sections were rapidly chipped away . December 1990 . West Germans peer at East German border guards through a hole in the wall on 5 January 1990 . Short section of the Berlin Wall at Potsdamer Platz , March 2009 Souvenir chunk of concrete from the Wall",
+            "title": "Berlin Wall"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "843537822_52818-53846-0-1028",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall On 19 July 1988 , 16 months before the Wall came down , Bruce Springsteen and the E-Street Band , played Rocking the Wall , a live concert in East Berlin , which was attended by 300,000 in person and broadcast delayed on television . Springsteen spoke to the crowd in German , saying : `` I 'm not here for or against any government . I 've come to play rock ' n ' roll for you in the hope that one day all the barriers will be torn down '' . East Germany and its FDJ youth organization were worried they were losing an entire generation . They hoped that by letting Springsteen in , they could improve their sentiment among East Germans . However , this strategy of `` one step backwards , two steps forwards '' backfired and the concert only made East Germans hungrier for more of the freedoms that Springsteen epitomized . While John F. Kennedy and Ronald Reagan delivered their famous speeches from the safety of West Berlin , Springsteen 's speaking out against the Wall in the middle of East Berlin added to the euphoria .",
+            "title": "Berlin Wall"
+          },
+          {
+            "rank": 2,
+            "doc_id": "843537822_63713-64044-0-331",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall The fall of the Berlin Wall ( German : Mauerfall ) began the evening of 9 November 1989 and continued over the following days and weeks , with people nicknamed Mauerspechte ( wall woodpeckers ) using various tools to chip off souvenirs , demolishing lengthy parts in the process , and creating several unofficial border crossings .",
+            "title": "Berlin Wall"
+          },
+          {
+            "rank": 3,
+            "doc_id": "843537822_62979-63260-0-281",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall Walking through Checkpoint Charlie , 10 November 1989 Germans stand on top of the Wall in the days before it was torn down At the Brandenburg Gate , 10 November 1989 Juggling on the Wall on 16 November 1989 `` Mauerspecht '' ( November 1989 ) The Fall of the Wall ( November 1989 )",
+            "title": "Berlin Wall"
+          },
+          {
+            "rank": 4,
+            "doc_id": "843537822_70554-71038-0-484",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall On 9 November 2009 , Berlin celebrated the 20th Anniversary of the Fall of the Berlin Wall with a `` Festival of Freedom '' with dignitaries from around the world in attendance for an evening celebration around the Brandenburg Gate . A high point was when over 1,000 colourfully designed foam domino tiles , each over 8 feet ( 2.4 m ) tall , that were stacked along the former route of the Wall in the city center were toppled in stages , converging in front of the Brandenburg Gate .",
+            "title": "Berlin Wall"
+          },
+          {
+            "rank": 5,
+            "doc_id": "843537822_67170-67632-0-462",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall An East German guard talks to a Westerner through a broken seam in the wall in late November 1989 . A crane removes a section of the Wall near Brandenburg Gate on 21 December 1989 . Almost all of the remaining sections were rapidly chipped away . December 1990 . West Germans peer at East German border guards through a hole in the wall on 5 January 1990 . Short section of the Berlin Wall at Potsdamer Platz , March 2009 Souvenir chunk of concrete from the Wall",
+            "title": "Berlin Wall"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "9 November 1989",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "843537822_52818-53846-0-1028",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Berlin Wall On 19 July 1988 , 16 months before the Wall came down , Bruce Springsteen and the E-Street Band , played Rocking the Wall , a live concert in East Berlin , which was attended by 300,000 in person and broadcast delayed on television . Springsteen spoke to the crowd in German , saying : `` I 'm not here for or against any government . I 've come to play rock ' n ' roll for you in the hope that one day all the barriers will be torn down '' . East Germany and its FDJ youth organization were worried they were losing an entire generation . They hoped that by letting Springsteen in , they could improve their sentiment among East Germans . However , this strategy of `` one step backwards , two steps forwards '' backfired and the concert only made East Germans hungrier for more of the freedoms that Springsteen epitomized . While John F. Kennedy and Ronald Reagan delivered their famous speeches from the safety of West Berlin , Springsteen 's speaking out against the Wall in the middle of East Berlin added to the euphoria .",
+          "title": "Berlin Wall"
+        },
+        {
+          "rank": 2,
+          "doc_id": "843537822_63713-64044-0-331",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Berlin Wall The fall of the Berlin Wall ( German : Mauerfall ) began the evening of 9 November 1989 and continued over the following days and weeks , with people nicknamed Mauerspechte ( wall woodpeckers ) using various tools to chip off souvenirs , demolishing lengthy parts in the process , and creating several unofficial border crossings .",
+          "title": "Berlin Wall"
+        },
+        {
+          "rank": 3,
+          "doc_id": "843537822_62979-63260-0-281",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Berlin Wall Walking through Checkpoint Charlie , 10 November 1989 Germans stand on top of the Wall in the days before it was torn down At the Brandenburg Gate , 10 November 1989 Juggling on the Wall on 16 November 1989 `` Mauerspecht '' ( November 1989 ) The Fall of the Wall ( November 1989 )",
+          "title": "Berlin Wall"
+        },
+        {
+          "rank": 4,
+          "doc_id": "843537822_70554-71038-0-484",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Berlin Wall On 9 November 2009 , Berlin celebrated the 20th Anniversary of the Fall of the Berlin Wall with a `` Festival of Freedom '' with dignitaries from around the world in attendance for an evening celebration around the Brandenburg Gate . A high point was when over 1,000 colourfully designed foam domino tiles , each over 8 feet ( 2.4 m ) tall , that were stacked along the former route of the Wall in the city center were toppled in stages , converging in front of the Brandenburg Gate .",
+          "title": "Berlin Wall"
+        },
+        {
+          "rank": 5,
+          "doc_id": "843537822_67170-67632-0-462",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Berlin Wall An East German guard talks to a Westerner through a broken seam in the wall in late November 1989 . A crane removes a section of the Wall near Brandenburg Gate on 21 December 1989 . Almost all of the remaining sections were rapidly chipped away . December 1990 . West Germans peer at East German border guards through a hole in the wall on 5 January 1990 . Short section of the Berlin Wall at Potsdamer Platz , March 2009 Souvenir chunk of concrete from the Wall",
+          "title": "Berlin Wall"
+        }
+      ],
+      "reference": {
+        "answer": "The Berlin Wall began to come down on the evening of 9 November 1989.",
+        "evidence_ids": [
+          "843537822_63713-64044-0-331",
+          "843537822_6316-7100-0-784"
+        ],
+        "evidence": [
+          {
+            "doc_id": "843537822_63713-64044-0-331",
+            "text": "Berlin Wall\nBerlin Wall\nThe fall of the Berlin Wall ( German : Mauerfall ) began the evening of 9 November 1989 and continued over the following days and weeks , with people nicknamed Mauerspechte ( wall woodpeckers ) using various tools to chip off souvenirs , demolishing lengthy parts in the process , and creating several unofficial border crossings ."
+          },
+          {
+            "doc_id": "843537822_6316-7100-0-784",
+            "text": "Berlin Wall\nBerlin Wall\nIn 1989 a series of revolutions in nearby Eastern Bloc countries -- Poland and Hungary in particular -- caused a chain reaction in East Germany that ultimately resulted in the demise of the Wall . After several weeks of civil unrest , the East German government announced on 9 November 1989 that all GDR citizens could visit West Germany and West Berlin . Crowds of East Germans crossed and climbed onto the Wall , joined by West Germans on the other side in a celebratory atmosphere . Over the next few weeks , euphoric people and souvenir hunters chipped away parts of the Wall ; the governments later used industrial equipment to remove most of what was left . The `` fall of the Berlin Wall '' paved the way for German reunification , which formally took place on 3 October 1990 ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "N/A"
+        ]
+      }
+    },
+    {
+      "turn_id": "2",
+      "task_id": "41a4006bfa6841516188c1695ebaf16c<::>2",
+      "question": "When did the official reunification of Germany take place?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "when did the wall in berlin come down"
+        },
+        {
+          "role": "assistant",
+          "content": "The Berlin Wall began to come down on the evening of 9 November 1989."
+        }
+      ],
+      "retrieval": {
+        "query": "When did the official reunification of Germany take place?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "843537822_66876-67169-0-293",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall The fall of the Wall marked the first critical step towards German reunification , which formally concluded a mere 339 days later on 3 October 1990 with the dissolution of East Germany and the official reunification of the German state along the democratic lines of the West German Basic Law .",
+            "title": "Berlin Wall"
+          },
+          {
+            "rank": 2,
+            "doc_id": "843316151_89209-89998-0-788",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of Germany (1945–90) In early February 1990 , the Modrow government 's proposal for a unified , neutral German state was rejected by Chancellor Kohl , who affirmed that a unified Germany must be a member of NATO . Finally , on 18 March , the first free elections were held in East Germany , and a government led by Lothar de Maizière ( CDU ) was formed under a policy of expeditious unification with West Germany . The freely elected representatives of the Volkskammer held their first session on 5 April , and East Germany peacefully evolved from a communist to a democratically elected government . Free and secret communal ( local ) elections were held in the GDR on 6 May , and the CDU again won most of the available seats . On 1 July , the two German states entered into an economic and monetary union .",
+            "title": "History of Germany (1945–90)"
+          },
+          {
+            "rank": 3,
+            "doc_id": "843316151_85691-86517-0-826",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of Germany (1945–90) International plans for the unification of Germany were made during the early years following the establishment of the two states , but to no avail . In March 1952 , the Soviet government proposed the Stalin Note to hold elections for a united German assembly while making the proposed united Germany a neutral state , i.e. a neutral state approved by the people , similar to the Austrians ' approval of a neutral Austria . The Western Allied governments refused this initiative , while continuing West Germany 's integration into the Western alliance system . The issue was raised again during the Foreign Ministers ' Conference in Berlin in January -- February 1954 , but the western powers refused to make Germany neutral . Following Bonn 's adherence to NATO on 9 May 1955 , such initiatives were abandoned by both sides .",
+            "title": "History of Germany (1945–90)"
+          },
+          {
+            "rank": 4,
+            "doc_id": "843316151_73298-74427-0-1126",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of Germany (1945–90) A series of people 's congresses were called in 1948 and early 1949 by the SED . Under Soviet direction , a constitution was drafted on 30 May 1949 , and adopted on 7 October , the day when East Germany was formally proclaimed . The People 's Chamber ( Volkskammer ) -- the lower house of the East German parliament -- and an upper house -- the States Chamber ( Länderkammer ) -- were created . ( The Länderkammer was abolished again in 1958 . ) On 11 October 1949 , the two houses elected Wilhelm Pieck as President , and an SED government was set up . The Soviet Union and its East European allies immediately recognized East Germany , although it remained largely unrecognized by noncommunist countries until 1972 -- 73 . East Germany established the structures of a single - party , centralized , communist state . On 23 July 1952 , the traditional Länder were abolished and , in their place , 14 Bezirke ( districts ) were established . Even though other parties formally existed , effectively , all government control was in the hands of the SED , and almost all important government positions were held by SED members .",
+            "title": "History of Germany (1945–90)"
+          },
+          {
+            "rank": 5,
+            "doc_id": "843316151_92287-93964-0-1677",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of Germany (1945–90) The conclusion of the final settlement cleared the way for the unification of East and West Germany . Formal political union occurred on 3 October 1990 , preceded by the GDR declaring its accession to the Federal Republic through Article 23 of West Germany 's Basic Law ( meaning that constitutionally , East Germany was subsumed into West Germany ) ; but affected in strict legality through the subsequent Unification Treaty of 30 August 1990 , which was voted into their constitutions by both the West German Bundestag and the East German Volkskammer on 20 September 1990 . These votes simultaneously extinguished the GDR and affected fundamental amendments to the West German Basic Law ( including the repeal of the very Article 23 under which the GDR had recently declared its post-dated accession ) . On 2 December 1990 , all - German elections were held for the first time since 1933 . The `` new '' country stayed the same as the West German legal system and institutions were extended to the east . The unified nation kept the name Bundesrepublik Deutschland ( though the simple ' Deutschland ' would become increasingly common ) and retained the West German `` Deutsche Mark '' for currency as well . Berlin would formally become the capital of the united Germany , but the political institutions remained at Bonn for the time being . Only after a heated 1991 debate did the Bundestag conclude on moving itself and most of the government to Berlin as well , a process that took until 1999 to complete , when the Bundestag held its first session at the reconstructed Reichstag building . Many government departments still maintain sizable presences in Bonn as of 2008 .",
+            "title": "History of Germany (1945–90)"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "843537822_66876-67169-0-293",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall The fall of the Wall marked the first critical step towards German reunification , which formally concluded a mere 339 days later on 3 October 1990 with the dissolution of East Germany and the official reunification of the German state along the democratic lines of the West German Basic Law .",
+            "title": "Berlin Wall"
+          },
+          {
+            "rank": 2,
+            "doc_id": "843316151_89209-89998-0-788",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of Germany (1945–90) In early February 1990 , the Modrow government 's proposal for a unified , neutral German state was rejected by Chancellor Kohl , who affirmed that a unified Germany must be a member of NATO . Finally , on 18 March , the first free elections were held in East Germany , and a government led by Lothar de Maizière ( CDU ) was formed under a policy of expeditious unification with West Germany . The freely elected representatives of the Volkskammer held their first session on 5 April , and East Germany peacefully evolved from a communist to a democratically elected government . Free and secret communal ( local ) elections were held in the GDR on 6 May , and the CDU again won most of the available seats . On 1 July , the two German states entered into an economic and monetary union .",
+            "title": "History of Germany (1945–90)"
+          },
+          {
+            "rank": 3,
+            "doc_id": "843316151_85691-86517-0-826",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of Germany (1945–90) International plans for the unification of Germany were made during the early years following the establishment of the two states , but to no avail . In March 1952 , the Soviet government proposed the Stalin Note to hold elections for a united German assembly while making the proposed united Germany a neutral state , i.e. a neutral state approved by the people , similar to the Austrians ' approval of a neutral Austria . The Western Allied governments refused this initiative , while continuing West Germany 's integration into the Western alliance system . The issue was raised again during the Foreign Ministers ' Conference in Berlin in January -- February 1954 , but the western powers refused to make Germany neutral . Following Bonn 's adherence to NATO on 9 May 1955 , such initiatives were abandoned by both sides .",
+            "title": "History of Germany (1945–90)"
+          },
+          {
+            "rank": 4,
+            "doc_id": "843316151_73298-74427-0-1126",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of Germany (1945–90) A series of people 's congresses were called in 1948 and early 1949 by the SED . Under Soviet direction , a constitution was drafted on 30 May 1949 , and adopted on 7 October , the day when East Germany was formally proclaimed . The People 's Chamber ( Volkskammer ) -- the lower house of the East German parliament -- and an upper house -- the States Chamber ( Länderkammer ) -- were created . ( The Länderkammer was abolished again in 1958 . ) On 11 October 1949 , the two houses elected Wilhelm Pieck as President , and an SED government was set up . The Soviet Union and its East European allies immediately recognized East Germany , although it remained largely unrecognized by noncommunist countries until 1972 -- 73 . East Germany established the structures of a single - party , centralized , communist state . On 23 July 1952 , the traditional Länder were abolished and , in their place , 14 Bezirke ( districts ) were established . Even though other parties formally existed , effectively , all government control was in the hands of the SED , and almost all important government positions were held by SED members .",
+            "title": "History of Germany (1945–90)"
+          },
+          {
+            "rank": 5,
+            "doc_id": "843316151_92287-93964-0-1677",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of Germany (1945–90) The conclusion of the final settlement cleared the way for the unification of East and West Germany . Formal political union occurred on 3 October 1990 , preceded by the GDR declaring its accession to the Federal Republic through Article 23 of West Germany 's Basic Law ( meaning that constitutionally , East Germany was subsumed into West Germany ) ; but affected in strict legality through the subsequent Unification Treaty of 30 August 1990 , which was voted into their constitutions by both the West German Bundestag and the East German Volkskammer on 20 September 1990 . These votes simultaneously extinguished the GDR and affected fundamental amendments to the West German Basic Law ( including the repeal of the very Article 23 under which the GDR had recently declared its post-dated accession ) . On 2 December 1990 , all - German elections were held for the first time since 1933 . The `` new '' country stayed the same as the West German legal system and institutions were extended to the east . The unified nation kept the name Bundesrepublik Deutschland ( though the simple ' Deutschland ' would become increasingly common ) and retained the West German `` Deutsche Mark '' for currency as well . Berlin would formally become the capital of the united Germany , but the political institutions remained at Bonn for the time being . Only after a heated 1991 debate did the Bundestag conclude on moving itself and most of the government to Berlin as well , a process that took until 1999 to complete , when the Bundestag held its first session at the reconstructed Reichstag building . Many government departments still maintain sizable presences in Bonn as of 2008 .",
+            "title": "History of Germany (1945–90)"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "The official reunification of Germany took place on 3 October 1990.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "843537822_66876-67169-0-293",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Berlin Wall The fall of the Wall marked the first critical step towards German reunification , which formally concluded a mere 339 days later on 3 October 1990 with the dissolution of East Germany and the official reunification of the German state along the democratic lines of the West German Basic Law .",
+          "title": "Berlin Wall"
+        },
+        {
+          "rank": 2,
+          "doc_id": "843316151_89209-89998-0-788",
+          "score": null,
+          "score_type": "contriever",
+          "text": "History of Germany (1945–90) In early February 1990 , the Modrow government 's proposal for a unified , neutral German state was rejected by Chancellor Kohl , who affirmed that a unified Germany must be a member of NATO . Finally , on 18 March , the first free elections were held in East Germany , and a government led by Lothar de Maizière ( CDU ) was formed under a policy of expeditious unification with West Germany . The freely elected representatives of the Volkskammer held their first session on 5 April , and East Germany peacefully evolved from a communist to a democratically elected government . Free and secret communal ( local ) elections were held in the GDR on 6 May , and the CDU again won most of the available seats . On 1 July , the two German states entered into an economic and monetary union .",
+          "title": "History of Germany (1945–90)"
+        },
+        {
+          "rank": 3,
+          "doc_id": "843316151_85691-86517-0-826",
+          "score": null,
+          "score_type": "contriever",
+          "text": "History of Germany (1945–90) International plans for the unification of Germany were made during the early years following the establishment of the two states , but to no avail . In March 1952 , the Soviet government proposed the Stalin Note to hold elections for a united German assembly while making the proposed united Germany a neutral state , i.e. a neutral state approved by the people , similar to the Austrians ' approval of a neutral Austria . The Western Allied governments refused this initiative , while continuing West Germany 's integration into the Western alliance system . The issue was raised again during the Foreign Ministers ' Conference in Berlin in January -- February 1954 , but the western powers refused to make Germany neutral . Following Bonn 's adherence to NATO on 9 May 1955 , such initiatives were abandoned by both sides .",
+          "title": "History of Germany (1945–90)"
+        },
+        {
+          "rank": 4,
+          "doc_id": "843316151_73298-74427-0-1126",
+          "score": null,
+          "score_type": "contriever",
+          "text": "History of Germany (1945–90) A series of people 's congresses were called in 1948 and early 1949 by the SED . Under Soviet direction , a constitution was drafted on 30 May 1949 , and adopted on 7 October , the day when East Germany was formally proclaimed . The People 's Chamber ( Volkskammer ) -- the lower house of the East German parliament -- and an upper house -- the States Chamber ( Länderkammer ) -- were created . ( The Länderkammer was abolished again in 1958 . ) On 11 October 1949 , the two houses elected Wilhelm Pieck as President , and an SED government was set up . The Soviet Union and its East European allies immediately recognized East Germany , although it remained largely unrecognized by noncommunist countries until 1972 -- 73 . East Germany established the structures of a single - party , centralized , communist state . On 23 July 1952 , the traditional Länder were abolished and , in their place , 14 Bezirke ( districts ) were established . Even though other parties formally existed , effectively , all government control was in the hands of the SED , and almost all important government positions were held by SED members .",
+          "title": "History of Germany (1945–90)"
+        },
+        {
+          "rank": 5,
+          "doc_id": "843316151_92287-93964-0-1677",
+          "score": null,
+          "score_type": "contriever",
+          "text": "History of Germany (1945–90) The conclusion of the final settlement cleared the way for the unification of East and West Germany . Formal political union occurred on 3 October 1990 , preceded by the GDR declaring its accession to the Federal Republic through Article 23 of West Germany 's Basic Law ( meaning that constitutionally , East Germany was subsumed into West Germany ) ; but affected in strict legality through the subsequent Unification Treaty of 30 August 1990 , which was voted into their constitutions by both the West German Bundestag and the East German Volkskammer on 20 September 1990 . These votes simultaneously extinguished the GDR and affected fundamental amendments to the West German Basic Law ( including the repeal of the very Article 23 under which the GDR had recently declared its post-dated accession ) . On 2 December 1990 , all - German elections were held for the first time since 1933 . The `` new '' country stayed the same as the West German legal system and institutions were extended to the east . The unified nation kept the name Bundesrepublik Deutschland ( though the simple ' Deutschland ' would become increasingly common ) and retained the West German `` Deutsche Mark '' for currency as well . Berlin would formally become the capital of the united Germany , but the political institutions remained at Bonn for the time being . Only after a heated 1991 debate did the Bundestag conclude on moving itself and most of the government to Berlin as well , a process that took until 1999 to complete , when the Bundestag held its first session at the reconstructed Reichstag building . Many government departments still maintain sizable presences in Bonn as of 2008 .",
+          "title": "History of Germany (1945–90)"
+        }
+      ],
+      "reference": {
+        "answer": "The official reunification of Germany took place on 3 October 1990.",
+        "evidence_ids": [
+          "843537822_66876-67169-0-293",
+          "843537822_6316-7100-0-784",
+          "843316151_92287-93964-0-1677"
+        ],
+        "evidence": [
+          {
+            "doc_id": "843537822_66876-67169-0-293",
+            "text": "Berlin Wall\nBerlin Wall\nThe fall of the Wall marked the first critical step towards German reunification , which formally concluded a mere 339 days later on 3 October 1990 with the dissolution of East Germany and the official reunification of the German state along the democratic lines of the West German Basic Law ."
+          },
+          {
+            "doc_id": "843537822_6316-7100-0-784",
+            "text": "Berlin Wall\nBerlin Wall\nIn 1989 a series of revolutions in nearby Eastern Bloc countries -- Poland and Hungary in particular -- caused a chain reaction in East Germany that ultimately resulted in the demise of the Wall . After several weeks of civil unrest , the East German government announced on 9 November 1989 that all GDR citizens could visit West Germany and West Berlin . Crowds of East Germans crossed and climbed onto the Wall , joined by West Germans on the other side in a celebratory atmosphere . Over the next few weeks , euphoric people and souvenir hunters chipped away parts of the Wall ; the governments later used industrial equipment to remove most of what was left . The `` fall of the Berlin Wall '' paved the way for German reunification , which formally took place on 3 October 1990 ."
+          },
+          {
+            "doc_id": "843316151_92287-93964-0-1677",
+            "text": "History of Germany (1945–90)\nHistory of Germany (1945–90)\nThe conclusion of the final settlement cleared the way for the unification of East and West Germany . Formal political union occurred on 3 October 1990 , preceded by the GDR declaring its accession to the Federal Republic through Article 23 of West Germany 's Basic Law ( meaning that constitutionally , East Germany was subsumed into West Germany ) ; but affected in strict legality through the subsequent Unification Treaty of 30 August 1990 , which was voted into their constitutions by both the West German Bundestag and the East German Volkskammer on 20 September 1990 . These votes simultaneously extinguished the GDR and affected fundamental amendments to the West German Basic Law ( including the repeal of the very Article 23 under which the GDR had recently declared its post-dated accession ) . On 2 December 1990 , all - German elections were held for the first time since 1933 . The `` new '' country stayed the same as the West German legal system and institutions were extended to the east . The unified nation kept the name Bundesrepublik Deutschland ( though the simple ' Deutschland ' would become increasingly common ) and retained the West German `` Deutsche Mark '' for currency as well . Berlin would formally become the capital of the united Germany , but the political institutions remained at Bonn for the time being . Only after a heated 1991 debate did the Bundestag conclude on moving itself and most of the government to Berlin as well , a process that took until 1999 to complete , when the Bundestag held its first session at the reconstructed Reichstag building . Many government departments still maintain sizable presences in Bonn as of 2008 ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "3",
+      "task_id": "41a4006bfa6841516188c1695ebaf16c<::>3",
+      "question": "How many people died trying to cross the Berlin Wall?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "when did the wall in berlin come down"
+        },
+        {
+          "role": "assistant",
+          "content": "The Berlin Wall began to come down on the evening of 9 November 1989."
+        },
+        {
+          "role": "user",
+          "content": "When did the official reunification of Germany take place?"
+        },
+        {
+          "role": "assistant",
+          "content": "The official reunification of Germany took place on 3 October 1990."
+        }
+      ],
+      "retrieval": {
+        "query": "How many people died trying to cross the Berlin Wall?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "843537822_46715-47282-0-567",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall During the years of the Wall , around 5,000 people successfully defected to West Berlin . The number of people who died trying to cross the Wall , or as a result of the Wall 's existence , has been disputed . The most vocal claims by Alexandra Hildebrandt , Director of the Checkpoint Charlie Museum and widow of the Museum 's founder , estimated the death toll to be well above 200 . A historic research group at the Center for Contemporary Historical Research ( ZZF ) in Potsdam has confirmed at least 140 deaths . Prior official figures listed 98 as being killed .",
+            "title": "Berlin Wall"
+          },
+          {
+            "rank": 2,
+            "doc_id": "843537822_48297-48781-0-483",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall On 22 August 1961 , Ida Siekmann was the first casualty at the Berlin Wall : she died after she jumped out of her third floor apartment at 48 Bernauer Strasse . The first person to be shot and killed while trying to cross to West Berlin was Günter Litfin , a twenty - four - year - old tailor . He attempted to swim across the Spree Canal to West Germany on 24 August 1961 , the same day that East German police had received shoot - to - kill orders to prevent anyone from escaping .",
+            "title": "Berlin Wall"
+          },
+          {
+            "rank": 3,
+            "doc_id": "843537822_50713-51695-0-982",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall If an escapee was wounded in a crossing attempt and lay on the death strip , no matter how close they were to the Western wall , Westerners could not intervene for fear of triggering engaging fire from the ' Grepos ' , the East Berlin border guards . The guards often let fugitives bleed to death in the middle of this ground , as in the most notorious failed attempt , that of Peter Fechter ( aged 18 ) . He was shot and bled to death , in full view of the Western media , on 17 August 1962 . Fechter 's death created negative publicity worldwide that led the leaders of East Berlin to place more restrictions on shooting in public places , and provide medical care for possible `` would - be escapers '' . The last person to be shot and killed while trying to cross the border was Chris Gueffroy on 6 February 1989 , while the final person to die in an escape attempt was Winfried Freudenberg who was killed when his homemade natural gas - filled balloon crashed on 8 March 1989 .",
+            "title": "Berlin Wall"
+          },
+          {
+            "rank": 4,
+            "doc_id": "843537822_5747-6315-0-568",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall Before the Wall 's erection , 3.5 million East Germans circumvented Eastern Bloc emigration restrictions and defected from the GDR , many by crossing over the border from East Berlin into West Berlin ; from there they could then travel to West Germany and to other Western European countries . Between 1961 and 1989 the Wall prevented almost all such emigration . During this period over 100,000 people attempted to escape and over 5,000 people succeeded in escaping over the Wall , with an estimated death toll ranging from 136 to more than 200 in and around Berlin .",
+            "title": "Berlin Wall"
+          },
+          {
+            "rank": 5,
+            "doc_id": "843537822_62222-62978-0-754",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall It soon became clear that no one among the East German authorities would take personal responsibility for issuing orders to use lethal force , so the vastly outnumbered soldiers had no way to hold back the huge crowd of East German citizens . Finally , at 10 : 45 p.m. , Harald Jäger , the commander of the Bornholmer Straße border crossing yielded , allowing for the guards to open the checkpoints and allowing people through with little or no identity checking . As the Ossis swarmed through , they were greeted by Wessis waiting with flowers and champagne amid wild rejoicing . Soon afterward , a crowd of West Berliners jumped on top of the Wall , and were soon joined by East German youngsters . They danced together to celebrate their new freedom .",
+            "title": "Berlin Wall"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "843537822_46715-47282-0-567",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall During the years of the Wall , around 5,000 people successfully defected to West Berlin . The number of people who died trying to cross the Wall , or as a result of the Wall 's existence , has been disputed . The most vocal claims by Alexandra Hildebrandt , Director of the Checkpoint Charlie Museum and widow of the Museum 's founder , estimated the death toll to be well above 200 . A historic research group at the Center for Contemporary Historical Research ( ZZF ) in Potsdam has confirmed at least 140 deaths . Prior official figures listed 98 as being killed .",
+            "title": "Berlin Wall"
+          },
+          {
+            "rank": 2,
+            "doc_id": "843537822_48297-48781-0-483",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall On 22 August 1961 , Ida Siekmann was the first casualty at the Berlin Wall : she died after she jumped out of her third floor apartment at 48 Bernauer Strasse . The first person to be shot and killed while trying to cross to West Berlin was Günter Litfin , a twenty - four - year - old tailor . He attempted to swim across the Spree Canal to West Germany on 24 August 1961 , the same day that East German police had received shoot - to - kill orders to prevent anyone from escaping .",
+            "title": "Berlin Wall"
+          },
+          {
+            "rank": 3,
+            "doc_id": "843537822_50713-51695-0-982",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall If an escapee was wounded in a crossing attempt and lay on the death strip , no matter how close they were to the Western wall , Westerners could not intervene for fear of triggering engaging fire from the ' Grepos ' , the East Berlin border guards . The guards often let fugitives bleed to death in the middle of this ground , as in the most notorious failed attempt , that of Peter Fechter ( aged 18 ) . He was shot and bled to death , in full view of the Western media , on 17 August 1962 . Fechter 's death created negative publicity worldwide that led the leaders of East Berlin to place more restrictions on shooting in public places , and provide medical care for possible `` would - be escapers '' . The last person to be shot and killed while trying to cross the border was Chris Gueffroy on 6 February 1989 , while the final person to die in an escape attempt was Winfried Freudenberg who was killed when his homemade natural gas - filled balloon crashed on 8 March 1989 .",
+            "title": "Berlin Wall"
+          },
+          {
+            "rank": 4,
+            "doc_id": "843537822_5747-6315-0-568",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall Before the Wall 's erection , 3.5 million East Germans circumvented Eastern Bloc emigration restrictions and defected from the GDR , many by crossing over the border from East Berlin into West Berlin ; from there they could then travel to West Germany and to other Western European countries . Between 1961 and 1989 the Wall prevented almost all such emigration . During this period over 100,000 people attempted to escape and over 5,000 people succeeded in escaping over the Wall , with an estimated death toll ranging from 136 to more than 200 in and around Berlin .",
+            "title": "Berlin Wall"
+          },
+          {
+            "rank": 5,
+            "doc_id": "843537822_62222-62978-0-754",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall It soon became clear that no one among the East German authorities would take personal responsibility for issuing orders to use lethal force , so the vastly outnumbered soldiers had no way to hold back the huge crowd of East German citizens . Finally , at 10 : 45 p.m. , Harald Jäger , the commander of the Bornholmer Straße border crossing yielded , allowing for the guards to open the checkpoints and allowing people through with little or no identity checking . As the Ossis swarmed through , they were greeted by Wessis waiting with flowers and champagne amid wild rejoicing . Soon afterward , a crowd of West Berliners jumped on top of the Wall , and were soon joined by East German youngsters . They danced together to celebrate their new freedom .",
+            "title": "Berlin Wall"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "The number of people who died trying to cross the Berlin Wall, or as a result of the Wall's existence, has been disputed.The most vocal claims by Alexandra Hildebrandt, Director of the Checkpoint Charlie Museum and widow of the Museum's founder, estimated the death toll to be well above 200.A historic research group at the Center for Contemporary Historical Research (ZZF) in Potsdam has confirmed at least 140 deaths.Prior official figures listed 98 as being killed.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "843537822_46715-47282-0-567",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Berlin Wall During the years of the Wall , around 5,000 people successfully defected to West Berlin . The number of people who died trying to cross the Wall , or as a result of the Wall 's existence , has been disputed . The most vocal claims by Alexandra Hildebrandt , Director of the Checkpoint Charlie Museum and widow of the Museum 's founder , estimated the death toll to be well above 200 . A historic research group at the Center for Contemporary Historical Research ( ZZF ) in Potsdam has confirmed at least 140 deaths . Prior official figures listed 98 as being killed .",
+          "title": "Berlin Wall"
+        },
+        {
+          "rank": 2,
+          "doc_id": "843537822_48297-48781-0-483",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Berlin Wall On 22 August 1961 , Ida Siekmann was the first casualty at the Berlin Wall : she died after she jumped out of her third floor apartment at 48 Bernauer Strasse . The first person to be shot and killed while trying to cross to West Berlin was Günter Litfin , a twenty - four - year - old tailor . He attempted to swim across the Spree Canal to West Germany on 24 August 1961 , the same day that East German police had received shoot - to - kill orders to prevent anyone from escaping .",
+          "title": "Berlin Wall"
+        },
+        {
+          "rank": 3,
+          "doc_id": "843537822_50713-51695-0-982",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Berlin Wall If an escapee was wounded in a crossing attempt and lay on the death strip , no matter how close they were to the Western wall , Westerners could not intervene for fear of triggering engaging fire from the ' Grepos ' , the East Berlin border guards . The guards often let fugitives bleed to death in the middle of this ground , as in the most notorious failed attempt , that of Peter Fechter ( aged 18 ) . He was shot and bled to death , in full view of the Western media , on 17 August 1962 . Fechter 's death created negative publicity worldwide that led the leaders of East Berlin to place more restrictions on shooting in public places , and provide medical care for possible `` would - be escapers '' . The last person to be shot and killed while trying to cross the border was Chris Gueffroy on 6 February 1989 , while the final person to die in an escape attempt was Winfried Freudenberg who was killed when his homemade natural gas - filled balloon crashed on 8 March 1989 .",
+          "title": "Berlin Wall"
+        },
+        {
+          "rank": 4,
+          "doc_id": "843537822_5747-6315-0-568",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Berlin Wall Before the Wall 's erection , 3.5 million East Germans circumvented Eastern Bloc emigration restrictions and defected from the GDR , many by crossing over the border from East Berlin into West Berlin ; from there they could then travel to West Germany and to other Western European countries . Between 1961 and 1989 the Wall prevented almost all such emigration . During this period over 100,000 people attempted to escape and over 5,000 people succeeded in escaping over the Wall , with an estimated death toll ranging from 136 to more than 200 in and around Berlin .",
+          "title": "Berlin Wall"
+        },
+        {
+          "rank": 5,
+          "doc_id": "843537822_62222-62978-0-754",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Berlin Wall It soon became clear that no one among the East German authorities would take personal responsibility for issuing orders to use lethal force , so the vastly outnumbered soldiers had no way to hold back the huge crowd of East German citizens . Finally , at 10 : 45 p.m. , Harald Jäger , the commander of the Bornholmer Straße border crossing yielded , allowing for the guards to open the checkpoints and allowing people through with little or no identity checking . As the Ossis swarmed through , they were greeted by Wessis waiting with flowers and champagne amid wild rejoicing . Soon afterward , a crowd of West Berliners jumped on top of the Wall , and were soon joined by East German youngsters . They danced together to celebrate their new freedom .",
+          "title": "Berlin Wall"
+        }
+      ],
+      "reference": {
+        "answer": "The number of people who died trying to cross the Wall, or as a result of the Wall's existence, has been disputed. Historical Research ( ZZF ) in Potsdam has confirmed at least 140 deaths. An estimated death toll ranges from 136 to more than 200 in and around Berlin.",
+        "evidence_ids": [
+          "843537822_46715-47282-0-567",
+          "843537822_5747-6315-0-568"
+        ],
+        "evidence": [
+          {
+            "doc_id": "843537822_46715-47282-0-567",
+            "text": "Berlin Wall\nBerlin Wall\nDuring the years of the Wall , around 5,000 people successfully defected to West Berlin . The number of people who died trying to cross the Wall , or as a result of the Wall 's existence , has been disputed . The most vocal claims by Alexandra Hildebrandt , Director of the Checkpoint Charlie Museum and widow of the Museum 's founder , estimated the death toll to be well above 200 . A historic research group at the Center for Contemporary Historical Research ( ZZF ) in Potsdam has confirmed at least 140 deaths . Prior official figures listed 98 as being killed ."
+          },
+          {
+            "doc_id": "843537822_5747-6315-0-568",
+            "text": "Berlin Wall\nBerlin Wall\nBefore the Wall 's erection , 3.5 million East Germans circumvented Eastern Bloc emigration restrictions and defected from the GDR , many by crossing over the border from East Berlin into West Berlin ; from there they could then travel to West Germany and to other Western European countries . Between 1961 and 1989 the Wall prevented almost all such emigration . During this period over 100,000 people attempted to escape and over 5,000 people succeeded in escaping over the Wall , with an estimated death toll ranging from 136 to more than 200 in and around Berlin ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "4",
+      "task_id": "41a4006bfa6841516188c1695ebaf16c<::>4",
+      "question": "How did people try to escape?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "when did the wall in berlin come down"
+        },
+        {
+          "role": "assistant",
+          "content": "The Berlin Wall began to come down on the evening of 9 November 1989."
+        },
+        {
+          "role": "user",
+          "content": "When did the official reunification of Germany take place?"
+        },
+        {
+          "role": "assistant",
+          "content": "The official reunification of Germany took place on 3 October 1990."
+        },
+        {
+          "role": "user",
+          "content": "How many people died trying to cross the Berlin Wall?"
+        },
+        {
+          "role": "assistant",
+          "content": "The number of people who died trying to cross the Wall, or as a result of the Wall's existence, has been disputed. Historical Research ( ZZF ) in Potsdam has confirmed at least 140 deaths. An estimated death toll ranges from 136 to more than 200 in and around Berlin."
+        }
+      ],
+      "retrieval": {
+        "query": "How did people try to escape?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "846419681_28994-29126-0-132",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Iran hostage crisis Four hostages tried to escape , and all were punished with stretches of solitary confinement when their attempts were discovered . A",
+            "title": "Iran hostage crisis"
+          },
+          {
+            "rank": 2,
+            "doc_id": "843537822_50713-51695-0-982",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall If an escapee was wounded in a crossing attempt and lay on the death strip , no matter how close they were to the Western wall , Westerners could not intervene for fear of triggering engaging fire from the ' Grepos ' , the East Berlin border guards . The guards often let fugitives bleed to death in the middle of this ground , as in the most notorious failed attempt , that of Peter Fechter ( aged 18 ) . He was shot and bled to death , in full view of the Western media , on 17 August 1962 . Fechter 's death created negative publicity worldwide that led the leaders of East Berlin to place more restrictions on shooting in public places , and provide medical care for possible `` would - be escapers '' . The last person to be shot and killed while trying to cross the border was Chris Gueffroy on 6 February 1989 , while the final person to die in an escape attempt was Winfried Freudenberg who was killed when his homemade natural gas - filled balloon crashed on 8 March 1989 .",
+            "title": "Berlin Wall"
+          },
+          {
+            "rank": 3,
+            "doc_id": "803015596_1624-2257-0-633",
+            "score": null,
+            "score_type": "contriever",
+            "text": "The Devil's Arithmetic At her `` uncle 's '' wedding , the Nazis come to transport the entire population of the village to a concentration camp near Donavin , and only Hannah knows all the terrors they will face : starvation , mistreatment , forced labor , and finally execution . She struggles to survive at the camp , with the help of a girl named Rivka . Uncle Shmuel and some other men try to escape ; the men are caught . Fayge , who was going to be married to Shmuel , is killed because she runs to Shmuel when he is about to be shot with the men that were caught . Yitzchak escaped and lived in the forest with the partisans , fighting the Germans .",
+            "title": "The Devil's Arithmetic"
+          },
+          {
+            "rank": 4,
+            "doc_id": "800657897_70629-71531-0-902",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Soviet Union in World War II Most survival strategies during the siege , though , involved staying within the city and facing the problems through resourcefulness or luck . One way to do this was by securing factory employment because many factories became autonomous and possessed more of the tools of survival during the winter , such as food and heat . Workers got larger rations than regular civilians and factories were likely to have electricity if they produced crucial goods . Factories also served as mutual - support centers and had clinics and other services like cleaning crews and teams of women who would sew and repair clothes . Factory employees were still driven to desperation on occasion and people resorted to eating glue or horses in factories where food was scarce , but factory employment was the most consistently successful method of survival , and at some food production plants not a single person died .",
+            "title": "Soviet Union in World War II"
+          },
+          {
+            "rank": 5,
+            "doc_id": "843537822_47834-48296-0-462",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall Early successful escapes involved people jumping the initial barbed wire or leaping out of apartment windows along the line , but these ended as the Wall was fortified . East German authorities no longer permitted apartments near the Wall to be occupied , and any building near the Wall had its windows boarded and later bricked up . On 15 August 1961 , Conrad Schumann was the first East German border guard to escape by jumping the barbed wire to West Berlin .",
+            "title": "Berlin Wall"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "846419681_28994-29126-0-132",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Iran hostage crisis Four hostages tried to escape , and all were punished with stretches of solitary confinement when their attempts were discovered . A",
+            "title": "Iran hostage crisis"
+          },
+          {
+            "rank": 2,
+            "doc_id": "843537822_50713-51695-0-982",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall If an escapee was wounded in a crossing attempt and lay on the death strip , no matter how close they were to the Western wall , Westerners could not intervene for fear of triggering engaging fire from the ' Grepos ' , the East Berlin border guards . The guards often let fugitives bleed to death in the middle of this ground , as in the most notorious failed attempt , that of Peter Fechter ( aged 18 ) . He was shot and bled to death , in full view of the Western media , on 17 August 1962 . Fechter 's death created negative publicity worldwide that led the leaders of East Berlin to place more restrictions on shooting in public places , and provide medical care for possible `` would - be escapers '' . The last person to be shot and killed while trying to cross the border was Chris Gueffroy on 6 February 1989 , while the final person to die in an escape attempt was Winfried Freudenberg who was killed when his homemade natural gas - filled balloon crashed on 8 March 1989 .",
+            "title": "Berlin Wall"
+          },
+          {
+            "rank": 3,
+            "doc_id": "803015596_1624-2257-0-633",
+            "score": null,
+            "score_type": "contriever",
+            "text": "The Devil's Arithmetic At her `` uncle 's '' wedding , the Nazis come to transport the entire population of the village to a concentration camp near Donavin , and only Hannah knows all the terrors they will face : starvation , mistreatment , forced labor , and finally execution . She struggles to survive at the camp , with the help of a girl named Rivka . Uncle Shmuel and some other men try to escape ; the men are caught . Fayge , who was going to be married to Shmuel , is killed because she runs to Shmuel when he is about to be shot with the men that were caught . Yitzchak escaped and lived in the forest with the partisans , fighting the Germans .",
+            "title": "The Devil's Arithmetic"
+          },
+          {
+            "rank": 4,
+            "doc_id": "800657897_70629-71531-0-902",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Soviet Union in World War II Most survival strategies during the siege , though , involved staying within the city and facing the problems through resourcefulness or luck . One way to do this was by securing factory employment because many factories became autonomous and possessed more of the tools of survival during the winter , such as food and heat . Workers got larger rations than regular civilians and factories were likely to have electricity if they produced crucial goods . Factories also served as mutual - support centers and had clinics and other services like cleaning crews and teams of women who would sew and repair clothes . Factory employees were still driven to desperation on occasion and people resorted to eating glue or horses in factories where food was scarce , but factory employment was the most consistently successful method of survival , and at some food production plants not a single person died .",
+            "title": "Soviet Union in World War II"
+          },
+          {
+            "rank": 5,
+            "doc_id": "843537822_47834-48296-0-462",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall Early successful escapes involved people jumping the initial barbed wire or leaping out of apartment windows along the line , but these ended as the Wall was fortified . East German authorities no longer permitted apartments near the Wall to be occupied , and any building near the Wall had its windows boarded and later bricked up . On 15 August 1961 , Conrad Schumann was the first East German border guard to escape by jumping the barbed wire to West Berlin .",
+            "title": "Berlin Wall"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Assistant: People tried to escape by climbing over the wall, digging tunnels, or by using homemade airships.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "846419681_28994-29126-0-132",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Iran hostage crisis Four hostages tried to escape , and all were punished with stretches of solitary confinement when their attempts were discovered . A",
+          "title": "Iran hostage crisis"
+        },
+        {
+          "rank": 2,
+          "doc_id": "843537822_50713-51695-0-982",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Berlin Wall If an escapee was wounded in a crossing attempt and lay on the death strip , no matter how close they were to the Western wall , Westerners could not intervene for fear of triggering engaging fire from the ' Grepos ' , the East Berlin border guards . The guards often let fugitives bleed to death in the middle of this ground , as in the most notorious failed attempt , that of Peter Fechter ( aged 18 ) . He was shot and bled to death , in full view of the Western media , on 17 August 1962 . Fechter 's death created negative publicity worldwide that led the leaders of East Berlin to place more restrictions on shooting in public places , and provide medical care for possible `` would - be escapers '' . The last person to be shot and killed while trying to cross the border was Chris Gueffroy on 6 February 1989 , while the final person to die in an escape attempt was Winfried Freudenberg who was killed when his homemade natural gas - filled balloon crashed on 8 March 1989 .",
+          "title": "Berlin Wall"
+        },
+        {
+          "rank": 3,
+          "doc_id": "803015596_1624-2257-0-633",
+          "score": null,
+          "score_type": "contriever",
+          "text": "The Devil's Arithmetic At her `` uncle 's '' wedding , the Nazis come to transport the entire population of the village to a concentration camp near Donavin , and only Hannah knows all the terrors they will face : starvation , mistreatment , forced labor , and finally execution . She struggles to survive at the camp , with the help of a girl named Rivka . Uncle Shmuel and some other men try to escape ; the men are caught . Fayge , who was going to be married to Shmuel , is killed because she runs to Shmuel when he is about to be shot with the men that were caught . Yitzchak escaped and lived in the forest with the partisans , fighting the Germans .",
+          "title": "The Devil's Arithmetic"
+        },
+        {
+          "rank": 4,
+          "doc_id": "800657897_70629-71531-0-902",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Soviet Union in World War II Most survival strategies during the siege , though , involved staying within the city and facing the problems through resourcefulness or luck . One way to do this was by securing factory employment because many factories became autonomous and possessed more of the tools of survival during the winter , such as food and heat . Workers got larger rations than regular civilians and factories were likely to have electricity if they produced crucial goods . Factories also served as mutual - support centers and had clinics and other services like cleaning crews and teams of women who would sew and repair clothes . Factory employees were still driven to desperation on occasion and people resorted to eating glue or horses in factories where food was scarce , but factory employment was the most consistently successful method of survival , and at some food production plants not a single person died .",
+          "title": "Soviet Union in World War II"
+        },
+        {
+          "rank": 5,
+          "doc_id": "843537822_47834-48296-0-462",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Berlin Wall Early successful escapes involved people jumping the initial barbed wire or leaping out of apartment windows along the line , but these ended as the Wall was fortified . East German authorities no longer permitted apartments near the Wall to be occupied , and any building near the Wall had its windows boarded and later bricked up . On 15 August 1961 , Conrad Schumann was the first East German border guard to escape by jumping the barbed wire to West Berlin .",
+          "title": "Berlin Wall"
+        }
+      ],
+      "reference": {
+        "answer": "Berlin Wall Early successful escapes involved people jumping the initial barbed wire or leaping out of apartment windows along the line, but these ended as the Wall was fortified.  East German authorities no longer permitted apartments near the Wall to be occupied, and any building near the Wall had its windows boarded and later bricked up.",
+        "evidence_ids": [
+          "843537822_47834-48296-0-462"
+        ],
+        "evidence": [
+          {
+            "doc_id": "843537822_47834-48296-0-462",
+            "text": "Berlin Wall\nBerlin Wall\nEarly successful escapes involved people jumping the initial barbed wire or leaping out of apartment windows along the line , but these ended as the Wall was fortified . East German authorities no longer permitted apartments near the Wall to be occupied , and any building near the Wall had its windows boarded and later bricked up . On 15 August 1961 , Conrad Schumann was the first East German border guard to escape by jumping the barbed wire to West Berlin ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Summarization"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "5",
+      "task_id": "41a4006bfa6841516188c1695ebaf16c<::>5",
+      "question": "Did all government agencies move to Berlin",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "when did the wall in berlin come down"
+        },
+        {
+          "role": "assistant",
+          "content": "The Berlin Wall began to come down on the evening of 9 November 1989."
+        },
+        {
+          "role": "user",
+          "content": "When did the official reunification of Germany take place?"
+        },
+        {
+          "role": "assistant",
+          "content": "The official reunification of Germany took place on 3 October 1990."
+        },
+        {
+          "role": "user",
+          "content": "How many people died trying to cross the Berlin Wall?"
+        },
+        {
+          "role": "assistant",
+          "content": "The number of people who died trying to cross the Wall, or as a result of the Wall's existence, has been disputed. Historical Research ( ZZF ) in Potsdam has confirmed at least 140 deaths. An estimated death toll ranges from 136 to more than 200 in and around Berlin."
+        },
+        {
+          "role": "user",
+          "content": "How did people try to escape?"
+        },
+        {
+          "role": "assistant",
+          "content": "Berlin Wall Early successful escapes involved people jumping the initial barbed wire or leaping out of apartment windows along the line, but these ended as the Wall was fortified.  East German authorities no longer permitted apartments near the Wall to be occupied, and any building near the Wall had its windows boarded and later bricked up."
+        }
+      ],
+      "retrieval": {
+        "query": "Did all government agencies move to Berlin",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "843316151_82503-82689-0-185",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of Germany (1945–90) Government offices have been moving progressively to Berlin , and it became the formal seat of the federal government in 1999 . Berlin also is one of the Federal Republic 's 16 Länder .",
+            "title": "History of Germany (1945–90)"
+          },
+          {
+            "rank": 2,
+            "doc_id": "843316151_81842-82502-0-660",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of Germany (1945–90) The Final Settlement Treaty ended Berlin 's special status as a separate area under Four Power control . Under the terms of the treaty between West and East Germany , Berlin became the capital of a unified Germany . The Bundestag voted in June 1991 to make Berlin the seat of government . The Government of Germany asked the Allies to maintain a military presence in Berlin until the complete withdrawal of the Western Group of Forces ( ex-Soviet ) from the territory of the former East Germany . The Russian withdrawal was completed 31 August 1994 . Ceremonies were held on 8 September 1994 , to mark the final departure of Western Allied troops from Berlin .",
+            "title": "History of Germany (1945–90)"
+          },
+          {
+            "rank": 3,
+            "doc_id": "843316151_34115-35635-0-1520",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of Germany (1945–90) In 1949 the new provisional capital of the Federal Republic of Germany was established in Bonn , after Chancellor Konrad Adenauer intervened emphatically for Bonn ( which was only fifteen kilometers away from his hometown ) . Most of the members of the German constitutional assembly ( as well as the U.S. Supreme Command ) had favored Frankfurt am Main where the Hessian administration had already started the construction of a plenary assembly hall . The Parlamentarischer Rat ( interim parliament ) proposed a new location for the capital , as Berlin was then a special administrative region controlled directly by the allies and surrounded by the Soviet zone of occupation . The former Reichstag building in Berlin was occasionally used as a venue for sittings of the Bundestag and its committees and the Bundesversammlung , the body which elects the German Federal President . However , the Soviets disrupted the use of the Reichstag building by institutions of the Federal Republic of Germany by flying supersonic jets near the building . A number of cities were proposed to host the federal government , and Kassel ( among others ) was eliminated in the first round . Other politicians opposed the choice of Frankfurt out of concern that , as one of the largest German cities and a former centre of the Holy Roman Empire , it would be accepted as a `` permanent '' capital of Germany , thereby weakening the West German population 's support for reunification and the eventual return of the Government to Berlin .",
+            "title": "History of Germany (1945–90)"
+          },
+          {
+            "rank": 4,
+            "doc_id": "843316151_79620-80713-0-1093",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of Germany (1945–90) Shortly after World War II , Berlin became the seat of the Allied Control Council , which was to have governed Germany as a whole until the conclusion of a peace settlement . In 1948 , however , the Soviet Union refused to participate any longer in the quadripartite administration of Germany . They also refused to continue the joint administration of Berlin and drove the government elected by the people of Berlin out of its seat in the Soviet sector and installed a communist regime in East Berlin . From then until unification , the Western Allies continued to exercise supreme authority -- effective only in their sectors -- through the Allied Kommandatura . To the degree compatible with the city 's special status , however , they turned over control and management of city affairs to the West Berlin Senate and the House of Representatives , governing bodies established by constitutional process and chosen by free elections . The Allies and German authorities in West Germany and West Berlin never recognized the communist city regime in East Berlin or East German authority there .",
+            "title": "History of Germany (1945–90)"
+          },
+          {
+            "rank": 5,
+            "doc_id": "843537822_58992-59851-0-859",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall The wave of refugees leaving East Germany for the West kept increasing . By early November refugees were finding their way to Hungary via Czechoslovakia , or via the West German Embassy in Prague . This was tolerated by the new Krenz government , because of long - standing agreements with the communist Czechoslovak government , allowing free travel across their common border . However this movement of people grew so large it caused difficulties for both countries . To ease the difficulties , the politburo led by Krenz decided on 9 November to allow refugees to exit directly through crossing points between East Germany and West Germany , including between East and West Berlin . Later the same day , the ministerial administration modified the proposal to include private , round - trip , travel . The new regulations were to take effect the next day .",
+            "title": "Berlin Wall"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "843316151_82503-82689-0-185",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of Germany (1945–90) Government offices have been moving progressively to Berlin , and it became the formal seat of the federal government in 1999 . Berlin also is one of the Federal Republic 's 16 Länder .",
+            "title": "History of Germany (1945–90)"
+          },
+          {
+            "rank": 2,
+            "doc_id": "843316151_81842-82502-0-660",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of Germany (1945–90) The Final Settlement Treaty ended Berlin 's special status as a separate area under Four Power control . Under the terms of the treaty between West and East Germany , Berlin became the capital of a unified Germany . The Bundestag voted in June 1991 to make Berlin the seat of government . The Government of Germany asked the Allies to maintain a military presence in Berlin until the complete withdrawal of the Western Group of Forces ( ex-Soviet ) from the territory of the former East Germany . The Russian withdrawal was completed 31 August 1994 . Ceremonies were held on 8 September 1994 , to mark the final departure of Western Allied troops from Berlin .",
+            "title": "History of Germany (1945–90)"
+          },
+          {
+            "rank": 3,
+            "doc_id": "843316151_34115-35635-0-1520",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of Germany (1945–90) In 1949 the new provisional capital of the Federal Republic of Germany was established in Bonn , after Chancellor Konrad Adenauer intervened emphatically for Bonn ( which was only fifteen kilometers away from his hometown ) . Most of the members of the German constitutional assembly ( as well as the U.S. Supreme Command ) had favored Frankfurt am Main where the Hessian administration had already started the construction of a plenary assembly hall . The Parlamentarischer Rat ( interim parliament ) proposed a new location for the capital , as Berlin was then a special administrative region controlled directly by the allies and surrounded by the Soviet zone of occupation . The former Reichstag building in Berlin was occasionally used as a venue for sittings of the Bundestag and its committees and the Bundesversammlung , the body which elects the German Federal President . However , the Soviets disrupted the use of the Reichstag building by institutions of the Federal Republic of Germany by flying supersonic jets near the building . A number of cities were proposed to host the federal government , and Kassel ( among others ) was eliminated in the first round . Other politicians opposed the choice of Frankfurt out of concern that , as one of the largest German cities and a former centre of the Holy Roman Empire , it would be accepted as a `` permanent '' capital of Germany , thereby weakening the West German population 's support for reunification and the eventual return of the Government to Berlin .",
+            "title": "History of Germany (1945–90)"
+          },
+          {
+            "rank": 4,
+            "doc_id": "843316151_79620-80713-0-1093",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of Germany (1945–90) Shortly after World War II , Berlin became the seat of the Allied Control Council , which was to have governed Germany as a whole until the conclusion of a peace settlement . In 1948 , however , the Soviet Union refused to participate any longer in the quadripartite administration of Germany . They also refused to continue the joint administration of Berlin and drove the government elected by the people of Berlin out of its seat in the Soviet sector and installed a communist regime in East Berlin . From then until unification , the Western Allies continued to exercise supreme authority -- effective only in their sectors -- through the Allied Kommandatura . To the degree compatible with the city 's special status , however , they turned over control and management of city affairs to the West Berlin Senate and the House of Representatives , governing bodies established by constitutional process and chosen by free elections . The Allies and German authorities in West Germany and West Berlin never recognized the communist city regime in East Berlin or East German authority there .",
+            "title": "History of Germany (1945–90)"
+          },
+          {
+            "rank": 5,
+            "doc_id": "843537822_58992-59851-0-859",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall The wave of refugees leaving East Germany for the West kept increasing . By early November refugees were finding their way to Hungary via Czechoslovakia , or via the West German Embassy in Prague . This was tolerated by the new Krenz government , because of long - standing agreements with the communist Czechoslovak government , allowing free travel across their common border . However this movement of people grew so large it caused difficulties for both countries . To ease the difficulties , the politburo led by Krenz decided on 9 November to allow refugees to exit directly through crossing points between East Germany and West Germany , including between East and West Berlin . Later the same day , the ministerial administration modified the proposal to include private , round - trip , travel . The new regulations were to take effect the next day .",
+            "title": "Berlin Wall"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Assistant: The Federal Government of Germany and the government of the German Democratic Republic (GDR) moved to Berlin in 1999.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "843316151_82503-82689-0-185",
+          "score": null,
+          "score_type": "contriever",
+          "text": "History of Germany (1945–90) Government offices have been moving progressively to Berlin , and it became the formal seat of the federal government in 1999 . Berlin also is one of the Federal Republic 's 16 Länder .",
+          "title": "History of Germany (1945–90)"
+        },
+        {
+          "rank": 2,
+          "doc_id": "843316151_81842-82502-0-660",
+          "score": null,
+          "score_type": "contriever",
+          "text": "History of Germany (1945–90) The Final Settlement Treaty ended Berlin 's special status as a separate area under Four Power control . Under the terms of the treaty between West and East Germany , Berlin became the capital of a unified Germany . The Bundestag voted in June 1991 to make Berlin the seat of government . The Government of Germany asked the Allies to maintain a military presence in Berlin until the complete withdrawal of the Western Group of Forces ( ex-Soviet ) from the territory of the former East Germany . The Russian withdrawal was completed 31 August 1994 . Ceremonies were held on 8 September 1994 , to mark the final departure of Western Allied troops from Berlin .",
+          "title": "History of Germany (1945–90)"
+        },
+        {
+          "rank": 3,
+          "doc_id": "843316151_34115-35635-0-1520",
+          "score": null,
+          "score_type": "contriever",
+          "text": "History of Germany (1945–90) In 1949 the new provisional capital of the Federal Republic of Germany was established in Bonn , after Chancellor Konrad Adenauer intervened emphatically for Bonn ( which was only fifteen kilometers away from his hometown ) . Most of the members of the German constitutional assembly ( as well as the U.S. Supreme Command ) had favored Frankfurt am Main where the Hessian administration had already started the construction of a plenary assembly hall . The Parlamentarischer Rat ( interim parliament ) proposed a new location for the capital , as Berlin was then a special administrative region controlled directly by the allies and surrounded by the Soviet zone of occupation . The former Reichstag building in Berlin was occasionally used as a venue for sittings of the Bundestag and its committees and the Bundesversammlung , the body which elects the German Federal President . However , the Soviets disrupted the use of the Reichstag building by institutions of the Federal Republic of Germany by flying supersonic jets near the building . A number of cities were proposed to host the federal government , and Kassel ( among others ) was eliminated in the first round . Other politicians opposed the choice of Frankfurt out of concern that , as one of the largest German cities and a former centre of the Holy Roman Empire , it would be accepted as a `` permanent '' capital of Germany , thereby weakening the West German population 's support for reunification and the eventual return of the Government to Berlin .",
+          "title": "History of Germany (1945–90)"
+        },
+        {
+          "rank": 4,
+          "doc_id": "843316151_79620-80713-0-1093",
+          "score": null,
+          "score_type": "contriever",
+          "text": "History of Germany (1945–90) Shortly after World War II , Berlin became the seat of the Allied Control Council , which was to have governed Germany as a whole until the conclusion of a peace settlement . In 1948 , however , the Soviet Union refused to participate any longer in the quadripartite administration of Germany . They also refused to continue the joint administration of Berlin and drove the government elected by the people of Berlin out of its seat in the Soviet sector and installed a communist regime in East Berlin . From then until unification , the Western Allies continued to exercise supreme authority -- effective only in their sectors -- through the Allied Kommandatura . To the degree compatible with the city 's special status , however , they turned over control and management of city affairs to the West Berlin Senate and the House of Representatives , governing bodies established by constitutional process and chosen by free elections . The Allies and German authorities in West Germany and West Berlin never recognized the communist city regime in East Berlin or East German authority there .",
+          "title": "History of Germany (1945–90)"
+        },
+        {
+          "rank": 5,
+          "doc_id": "843537822_58992-59851-0-859",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Berlin Wall The wave of refugees leaving East Germany for the West kept increasing . By early November refugees were finding their way to Hungary via Czechoslovakia , or via the West German Embassy in Prague . This was tolerated by the new Krenz government , because of long - standing agreements with the communist Czechoslovak government , allowing free travel across their common border . However this movement of people grew so large it caused difficulties for both countries . To ease the difficulties , the politburo led by Krenz decided on 9 November to allow refugees to exit directly through crossing points between East Germany and West Germany , including between East and West Berlin . Later the same day , the ministerial administration modified the proposal to include private , round - trip , travel . The new regulations were to take effect the next day .",
+          "title": "Berlin Wall"
+        }
+      ],
+      "reference": {
+        "answer": "Government offices have been moving progressively to Berlin. Under the terms of the treaty between West and East Germany, Berlin became the capital of a unified Germany.  The Bundestag voted in June 1991 to make Berlin the seat of government, but the political institutions remained at Bonn for the time being. Only after a heated 1991 debate did the Bundestag conclude on moving itself and most of the government to Berlin as well, a process that took until 1999 to complete. Many government departments still maintain sizable presences in Bonn.",
+        "evidence_ids": [
+          "843316151_82503-82689-0-185",
+          "843316151_81842-82502-0-660",
+          "843316151_92287-93964-0-1677"
+        ],
+        "evidence": [
+          {
+            "doc_id": "843316151_82503-82689-0-185",
+            "text": "History of Germany (1945–90)\nHistory of Germany (1945–90)\nGovernment offices have been moving progressively to Berlin , and it became the formal seat of the federal government in 1999 . Berlin also is one of the Federal Republic 's 16 Länder ."
+          },
+          {
+            "doc_id": "843316151_81842-82502-0-660",
+            "text": "History of Germany (1945–90)\nHistory of Germany (1945–90)\nThe Final Settlement Treaty ended Berlin 's special status as a separate area under Four Power control . Under the terms of the treaty between West and East Germany , Berlin became the capital of a unified Germany . The Bundestag voted in June 1991 to make Berlin the seat of government . The Government of Germany asked the Allies to maintain a military presence in Berlin until the complete withdrawal of the Western Group of Forces ( ex-Soviet ) from the territory of the former East Germany . The Russian withdrawal was completed 31 August 1994 . Ceremonies were held on 8 September 1994 , to mark the final departure of Western Allied troops from Berlin ."
+          },
+          {
+            "doc_id": "843316151_92287-93964-0-1677",
+            "text": "History of Germany (1945–90)\nHistory of Germany (1945–90)\nThe conclusion of the final settlement cleared the way for the unification of East and West Germany . Formal political union occurred on 3 October 1990 , preceded by the GDR declaring its accession to the Federal Republic through Article 23 of West Germany 's Basic Law ( meaning that constitutionally , East Germany was subsumed into West Germany ) ; but affected in strict legality through the subsequent Unification Treaty of 30 August 1990 , which was voted into their constitutions by both the West German Bundestag and the East German Volkskammer on 20 September 1990 . These votes simultaneously extinguished the GDR and affected fundamental amendments to the West German Basic Law ( including the repeal of the very Article 23 under which the GDR had recently declared its post-dated accession ) . On 2 December 1990 , all - German elections were held for the first time since 1933 . The `` new '' country stayed the same as the West German legal system and institutions were extended to the east . The unified nation kept the name Bundesrepublik Deutschland ( though the simple ' Deutschland ' would become increasingly common ) and retained the West German `` Deutsche Mark '' for currency as well . Berlin would formally become the capital of the united Germany , but the political institutions remained at Bonn for the time being . Only after a heated 1991 debate did the Bundestag conclude on moving itself and most of the government to Berlin as well , a process that took until 1999 to complete , when the Bundestag held its first session at the reconstructed Reichstag building . Many government departments still maintain sizable presences in Bonn as of 2008 ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Explanation"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "6",
+      "task_id": "41a4006bfa6841516188c1695ebaf16c<::>6",
+      "question": "Who was running East Germany when the wall came down",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "when did the wall in berlin come down"
+        },
+        {
+          "role": "assistant",
+          "content": "The Berlin Wall began to come down on the evening of 9 November 1989."
+        },
+        {
+          "role": "user",
+          "content": "When did the official reunification of Germany take place?"
+        },
+        {
+          "role": "assistant",
+          "content": "The official reunification of Germany took place on 3 October 1990."
+        },
+        {
+          "role": "user",
+          "content": "How many people died trying to cross the Berlin Wall?"
+        },
+        {
+          "role": "assistant",
+          "content": "The number of people who died trying to cross the Wall, or as a result of the Wall's existence, has been disputed. Historical Research ( ZZF ) in Potsdam has confirmed at least 140 deaths. An estimated death toll ranges from 136 to more than 200 in and around Berlin."
+        },
+        {
+          "role": "user",
+          "content": "How did people try to escape?"
+        },
+        {
+          "role": "assistant",
+          "content": "Berlin Wall Early successful escapes involved people jumping the initial barbed wire or leaping out of apartment windows along the line, but these ended as the Wall was fortified.  East German authorities no longer permitted apartments near the Wall to be occupied, and any building near the Wall had its windows boarded and later bricked up."
+        },
+        {
+          "role": "user",
+          "content": "Did all government agencies move to Berlin"
+        },
+        {
+          "role": "assistant",
+          "content": "Government offices have been moving progressively to Berlin. Under the terms of the treaty between West and East Germany, Berlin became the capital of a unified Germany.  The Bundestag voted in June 1991 to make Berlin the seat of government, but the political institutions remained at Bonn for the time being. Only after a heated 1991 debate did the Bundestag conclude on moving itself and most of the government to Berlin as well, a process that took until 1999 to complete. Many government departments still maintain sizable presences in Bonn."
+        }
+      ],
+      "retrieval": {
+        "query": "Who was running East Germany when the wall came down",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "843537822_52818-53846-0-1028",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall On 19 July 1988 , 16 months before the Wall came down , Bruce Springsteen and the E-Street Band , played Rocking the Wall , a live concert in East Berlin , which was attended by 300,000 in person and broadcast delayed on television . Springsteen spoke to the crowd in German , saying : `` I 'm not here for or against any government . I 've come to play rock ' n ' roll for you in the hope that one day all the barriers will be torn down '' . East Germany and its FDJ youth organization were worried they were losing an entire generation . They hoped that by letting Springsteen in , they could improve their sentiment among East Germans . However , this strategy of `` one step backwards , two steps forwards '' backfired and the concert only made East Germans hungrier for more of the freedoms that Springsteen epitomized . While John F. Kennedy and Ronald Reagan delivered their famous speeches from the safety of West Berlin , Springsteen 's speaking out against the Wall in the middle of East Berlin added to the euphoria .",
+            "title": "Berlin Wall"
+          },
+          {
+            "rank": 2,
+            "doc_id": "843537822_58701-58991-0-290",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall The longtime leader of East Germany , Erich Honecker , resigned on 18 October 1989 and was replaced by Egon Krenz that day . Honecker had predicted in January of that year that the Wall would stand for 50 or 100 more years if the conditions that had caused its construction did not change .",
+            "title": "Berlin Wall"
+          },
+          {
+            "rank": 3,
+            "doc_id": "843537822_56271-56580-0-309",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall In a speech at the Brandenburg Gate commemorating the 750th anniversary of Berlin on 12 June 1987 , U.S. President Ronald Reagan challenged Mikhail Gorbachev , then the General Secretary of the Communist Party of the Soviet Union , to tear down the Wall as a symbol of increasing freedom in the Eastern Bloc :",
+            "title": "Berlin Wall"
+          },
+          {
+            "rank": 4,
+            "doc_id": "843537822_52165-52792-0-627",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall On 6 June 1987 , David Bowie , who earlier for several years lived and recorded in West Berlin , played a concert close to the Wall . This was attended by thousands of Eastern concertgoers across the Wall , followed by violent rioting in East Berlin . According to Tobias Ruther , these protests in East Berlin were the first in the sequence of riots that led to those of November 1989 . Although other factors were probably more influential in the fall of the Wall , on his death , the German Foreign Office tweeted `` Good - bye , David Bowie . You are now among # Heroes . Thank you for helping to bring down the # wall . ''",
+            "title": "Berlin Wall"
+          },
+          {
+            "rank": 5,
+            "doc_id": "843537822_22381-22866-0-485",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall The transcript of a telephone call between Nikita Khrushchev and Ulbricht on 1 August in the same year , suggests that the initiative for the construction of the Wall came from Khrushchev . However , other sources suggest that Khrushchev had initially been wary about building a wall , fearing negative Western reaction . What is beyond dispute , though , is that Ulbricht had pushed for a border closure for quite some time , arguing that East Germany 's very existence was at stake .",
+            "title": "Berlin Wall"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "843537822_52818-53846-0-1028",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall On 19 July 1988 , 16 months before the Wall came down , Bruce Springsteen and the E-Street Band , played Rocking the Wall , a live concert in East Berlin , which was attended by 300,000 in person and broadcast delayed on television . Springsteen spoke to the crowd in German , saying : `` I 'm not here for or against any government . I 've come to play rock ' n ' roll for you in the hope that one day all the barriers will be torn down '' . East Germany and its FDJ youth organization were worried they were losing an entire generation . They hoped that by letting Springsteen in , they could improve their sentiment among East Germans . However , this strategy of `` one step backwards , two steps forwards '' backfired and the concert only made East Germans hungrier for more of the freedoms that Springsteen epitomized . While John F. Kennedy and Ronald Reagan delivered their famous speeches from the safety of West Berlin , Springsteen 's speaking out against the Wall in the middle of East Berlin added to the euphoria .",
+            "title": "Berlin Wall"
+          },
+          {
+            "rank": 2,
+            "doc_id": "843537822_58701-58991-0-290",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall The longtime leader of East Germany , Erich Honecker , resigned on 18 October 1989 and was replaced by Egon Krenz that day . Honecker had predicted in January of that year that the Wall would stand for 50 or 100 more years if the conditions that had caused its construction did not change .",
+            "title": "Berlin Wall"
+          },
+          {
+            "rank": 3,
+            "doc_id": "843537822_56271-56580-0-309",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall In a speech at the Brandenburg Gate commemorating the 750th anniversary of Berlin on 12 June 1987 , U.S. President Ronald Reagan challenged Mikhail Gorbachev , then the General Secretary of the Communist Party of the Soviet Union , to tear down the Wall as a symbol of increasing freedom in the Eastern Bloc :",
+            "title": "Berlin Wall"
+          },
+          {
+            "rank": 4,
+            "doc_id": "843537822_52165-52792-0-627",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall On 6 June 1987 , David Bowie , who earlier for several years lived and recorded in West Berlin , played a concert close to the Wall . This was attended by thousands of Eastern concertgoers across the Wall , followed by violent rioting in East Berlin . According to Tobias Ruther , these protests in East Berlin were the first in the sequence of riots that led to those of November 1989 . Although other factors were probably more influential in the fall of the Wall , on his death , the German Foreign Office tweeted `` Good - bye , David Bowie . You are now among # Heroes . Thank you for helping to bring down the # wall . ''",
+            "title": "Berlin Wall"
+          },
+          {
+            "rank": 5,
+            "doc_id": "843537822_22381-22866-0-485",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall The transcript of a telephone call between Nikita Khrushchev and Ulbricht on 1 August in the same year , suggests that the initiative for the construction of the Wall came from Khrushchev . However , other sources suggest that Khrushchev had initially been wary about building a wall , fearing negative Western reaction . What is beyond dispute , though , is that Ulbricht had pushed for a border closure for quite some time , arguing that East Germany 's very existence was at stake .",
+            "title": "Berlin Wall"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Erich Honecker",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "843537822_52818-53846-0-1028",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Berlin Wall On 19 July 1988 , 16 months before the Wall came down , Bruce Springsteen and the E-Street Band , played Rocking the Wall , a live concert in East Berlin , which was attended by 300,000 in person and broadcast delayed on television . Springsteen spoke to the crowd in German , saying : `` I 'm not here for or against any government . I 've come to play rock ' n ' roll for you in the hope that one day all the barriers will be torn down '' . East Germany and its FDJ youth organization were worried they were losing an entire generation . They hoped that by letting Springsteen in , they could improve their sentiment among East Germans . However , this strategy of `` one step backwards , two steps forwards '' backfired and the concert only made East Germans hungrier for more of the freedoms that Springsteen epitomized . While John F. Kennedy and Ronald Reagan delivered their famous speeches from the safety of West Berlin , Springsteen 's speaking out against the Wall in the middle of East Berlin added to the euphoria .",
+          "title": "Berlin Wall"
+        },
+        {
+          "rank": 2,
+          "doc_id": "843537822_58701-58991-0-290",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Berlin Wall The longtime leader of East Germany , Erich Honecker , resigned on 18 October 1989 and was replaced by Egon Krenz that day . Honecker had predicted in January of that year that the Wall would stand for 50 or 100 more years if the conditions that had caused its construction did not change .",
+          "title": "Berlin Wall"
+        },
+        {
+          "rank": 3,
+          "doc_id": "843537822_56271-56580-0-309",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Berlin Wall In a speech at the Brandenburg Gate commemorating the 750th anniversary of Berlin on 12 June 1987 , U.S. President Ronald Reagan challenged Mikhail Gorbachev , then the General Secretary of the Communist Party of the Soviet Union , to tear down the Wall as a symbol of increasing freedom in the Eastern Bloc :",
+          "title": "Berlin Wall"
+        },
+        {
+          "rank": 4,
+          "doc_id": "843537822_52165-52792-0-627",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Berlin Wall On 6 June 1987 , David Bowie , who earlier for several years lived and recorded in West Berlin , played a concert close to the Wall . This was attended by thousands of Eastern concertgoers across the Wall , followed by violent rioting in East Berlin . According to Tobias Ruther , these protests in East Berlin were the first in the sequence of riots that led to those of November 1989 . Although other factors were probably more influential in the fall of the Wall , on his death , the German Foreign Office tweeted `` Good - bye , David Bowie . You are now among # Heroes . Thank you for helping to bring down the # wall . ''",
+          "title": "Berlin Wall"
+        },
+        {
+          "rank": 5,
+          "doc_id": "843537822_22381-22866-0-485",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Berlin Wall The transcript of a telephone call between Nikita Khrushchev and Ulbricht on 1 August in the same year , suggests that the initiative for the construction of the Wall came from Khrushchev . However , other sources suggest that Khrushchev had initially been wary about building a wall , fearing negative Western reaction . What is beyond dispute , though , is that Ulbricht had pushed for a border closure for quite some time , arguing that East Germany 's very existence was at stake .",
+          "title": "Berlin Wall"
+        }
+      ],
+      "reference": {
+        "answer": "When the Berlin Wall came down, Erich Honecker, the General Secretary of the Socialist Unity Party of Germany, was the head of state of East Germany. The longtime leader of East Germany was forced to resign on 18 October 1989 and replaced by Egon Krenz.",
+        "evidence_ids": [
+          "843537822_58701-58991-0-290",
+          "843316151_87626-88155-0-529"
+        ],
+        "evidence": [
+          {
+            "doc_id": "843537822_58701-58991-0-290",
+            "text": "Berlin Wall\nBerlin Wall\nThe longtime leader of East Germany , Erich Honecker , resigned on 18 October 1989 and was replaced by Egon Krenz that day . Honecker had predicted in January of that year that the Wall would stand for 50 or 100 more years if the conditions that had caused its construction did not change ."
+          },
+          {
+            "doc_id": "843316151_87626-88155-0-529",
+            "text": "History of Germany (1945–90)\nHistory of Germany (1945–90)\nOn 18 October , Erich Honecker was forced to resign as head of the SED and as head of state and was replaced by Egon Krenz . But the exodus continued unabated , and pressure for political reform mounted . On 4 November , a demonstration in East Berlin drew as many as 1 million East Germans . Finally , on 9 November 1989 , the Berlin Wall was opened , and East Germans were allowed to travel freely . Thousands poured through the wall into the western sectors of Berlin , and on 12 November , East Germany began dismantling it ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Clarification"
+        ]
+      }
+    },
+    {
+      "turn_id": "7",
+      "task_id": "41a4006bfa6841516188c1695ebaf16c<::>7",
+      "question": "Who was Willy Brandt and what did he do.",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "when did the wall in berlin come down"
+        },
+        {
+          "role": "assistant",
+          "content": "The Berlin Wall began to come down on the evening of 9 November 1989."
+        },
+        {
+          "role": "user",
+          "content": "When did the official reunification of Germany take place?"
+        },
+        {
+          "role": "assistant",
+          "content": "The official reunification of Germany took place on 3 October 1990."
+        },
+        {
+          "role": "user",
+          "content": "How many people died trying to cross the Berlin Wall?"
+        },
+        {
+          "role": "assistant",
+          "content": "The number of people who died trying to cross the Wall, or as a result of the Wall's existence, has been disputed. Historical Research ( ZZF ) in Potsdam has confirmed at least 140 deaths. An estimated death toll ranges from 136 to more than 200 in and around Berlin."
+        },
+        {
+          "role": "user",
+          "content": "How did people try to escape?"
+        },
+        {
+          "role": "assistant",
+          "content": "Berlin Wall Early successful escapes involved people jumping the initial barbed wire or leaping out of apartment windows along the line, but these ended as the Wall was fortified.  East German authorities no longer permitted apartments near the Wall to be occupied, and any building near the Wall had its windows boarded and later bricked up."
+        },
+        {
+          "role": "user",
+          "content": "Did all government agencies move to Berlin"
+        },
+        {
+          "role": "assistant",
+          "content": "Government offices have been moving progressively to Berlin. Under the terms of the treaty between West and East Germany, Berlin became the capital of a unified Germany.  The Bundestag voted in June 1991 to make Berlin the seat of government, but the political institutions remained at Bonn for the time being. Only after a heated 1991 debate did the Bundestag conclude on moving itself and most of the government to Berlin as well, a process that took until 1999 to complete. Many government departments still maintain sizable presences in Bonn."
+        },
+        {
+          "role": "user",
+          "content": "Who was running East Germany when the wall came down"
+        },
+        {
+          "role": "assistant",
+          "content": "When the Berlin Wall came down, Erich Honecker, the General Secretary of the Socialist Unity Party of Germany, was the head of state of East Germany. The longtime leader of East Germany was forced to resign on 18 October 1989 and replaced by Egon Krenz."
+        }
+      ],
+      "retrieval": {
+        "query": "Who was Willy Brandt and what did he do.",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "843316151_64018-65787-0-1768",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of Germany (1945–90) In the 1969 election , the SPD -- headed by Willy Brandt -- gained enough votes to form a coalition government with the FDP . Although Chancellor for only just over four years , Brandt was one of the most popular politicians in the whole period . Brandt was a gifted speaker and the growth of the Social Democrats from there on was in no small part due to his personality . Brandt began a policy of rapprochement with West Germany 's eastern neighbors known as Ostpolitik , a policy opposed by the CDU . The issue of improving relations with Poland , Czechoslovakia , and East Germany made for an increasingly aggressive tone in public debates but it was a huge step forward when Willy Brandt and the Foreign Minister , Walther Scheel ( FDP ) negotiated agreements with all three countries ( Moscow Agreement , August 1970 , Warsaw Agreement , December 1970 , Four - Power Agreement over the status of West Berlin in 1971 and an agreement on relations between West and East Germany , signed in December 1972 ) . These agreements were the basis for a rapid improvement in the relations between east and west and led , in the long term , to the dismantlement of the Warsaw Treaty and the Soviet Union 's control over East - Central Europe . During a visit to Warsaw on 7 December 1970 , Brandt made the Warschauer Kniefall by kneeling before a monument to those killed in the Warsaw Ghetto Uprising , a gesture of humility and penance that no German Chancellor had made until that time . Chancellor Brandt was forced to resign in May 1974 , after Günter Guillaume , a senior member of his staff , was uncovered as a spy for the East German intelligence service , the Stasi . Brandt 's contributions to world peace led to his winning the Nobel Peace Prize for 1971 . U.S.",
+            "title": "History of Germany (1945–90)"
+          },
+          {
+            "rank": 2,
+            "doc_id": "843316151_84202-84627-0-425",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of Germany (1945–90) In 1969 , Chancellor Willy Brandt announced that West Germany would remain firmly rooted in the Atlantic alliance but would intensify efforts to improve relations with the Eastern Bloc , especially East Germany . West Germany commenced this Ostpolitik , initially under fierce opposition from the conservatives , by negotiating nonaggression treaties with the Soviet Union , Poland , Czechoslovakia , Bulgaria , and Hungary .",
+            "title": "History of Germany (1945–90)"
+          },
+          {
+            "rank": 3,
+            "doc_id": "824750228_75022-75318-0-296",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Cold War Meanwhile , these developments coincided with the `` Ostpolitik '' of West German Chancellor Willy Brandt . Other agreements were concluded to stabilize the situation in Europe , culminating in the Helsinki Accords signed at the Conference on Security and Co-operation in Europe in 1975 . Iranian",
+            "title": "Cold War"
+          },
+          {
+            "rank": 4,
+            "doc_id": "843316151_65923-67556-0-1633",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of Germany (1945–90) Finance Minister Helmut Schmidt ( SPD ) formed a coalition and he served as Chancellor from 1974 to 1982 . Hans - Dietrich Genscher , a leading FDP official , became Vice Chancellor and Foreign Minister . Schmidt , a strong supporter of the European Community ( EC ) and the Atlantic alliance , emphasized his commitment to `` the political unification of Europe in partnership with the USA '' . Throughout the 1970s , the Red Army Faction had continued its terrorist campaign , assassinating or kidnapping politicians , judges , businessmen , and policemen . The highpoint of the RAF violence came with the German Autumn in autumn 1977 . The industrialist Hanns - Martin Schleyer was kidnapped on 5 September 1977 in order to force the government to free the imprisoned leaders of the Baader - Meinhof Gang . A group from the Popular Front for the Liberation of Palestine hijacked Lufthansa Flight 181 to seize further hostages to free the RAF leaders . On 18 October 1977 , the Lufthansa jet was stormed in Mogadishu by the GSG 9 commando unit , who were able to free the hostages . The same day , the leaders of the Baader - Meinhof gang , who had been waging a hunger strike , starved themselves to death , which led to Schleyer being executed by his captors . The Red Army Faction was to continue its terrorist campaign into the 1990s , but the German Autumn of 1977 was the highpoint of its campaign . That the Federal Republic had faced a crisis caused by a terrorist campaign from the radical left without succumbing to dictatorship as many feared that it would , was seen as vindication of the strength of German democracy .",
+            "title": "History of Germany (1945–90)"
+          },
+          {
+            "rank": 5,
+            "doc_id": "846612211_45977-47138-0-1161",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Axis powers The opposition to the Nazi regime 's aggressive foreign policy in the military became so strong from 1936 to 1938 , that considerations of overthrowing the Nazi regime were discussed within the upper echelons of the military and remaining non-Nazi members of the German government . Minister of Economics , Hjalmar Schacht met with Beck in 1936 in which Schacht declared to Beck that he was considering an overthrow of the Nazi regime and was inquiring what the stance was by the German military on support of an overthrow of the Nazi regime . Beck was lukewarm to the idea , and responded that if a coup against the Nazi regime began with support at the civilian level , the military would not oppose it . Schacht considered this promise by Beck to be inadequate because he knew that without the support of the army , any coup attempt would be crushed by the Gestapo and the SS . However , by 1938 , Beck became a firm opponent of the Nazi regime out of his opposition to Hitler 's military plans of 1937 -- 38 that told the military to prepare for the possibility of a world war as a result of German annexation plans for Austria and Czechoslovakia . Colonies",
+            "title": "Axis powers"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "843316151_64018-65787-0-1768",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of Germany (1945–90) In the 1969 election , the SPD -- headed by Willy Brandt -- gained enough votes to form a coalition government with the FDP . Although Chancellor for only just over four years , Brandt was one of the most popular politicians in the whole period . Brandt was a gifted speaker and the growth of the Social Democrats from there on was in no small part due to his personality . Brandt began a policy of rapprochement with West Germany 's eastern neighbors known as Ostpolitik , a policy opposed by the CDU . The issue of improving relations with Poland , Czechoslovakia , and East Germany made for an increasingly aggressive tone in public debates but it was a huge step forward when Willy Brandt and the Foreign Minister , Walther Scheel ( FDP ) negotiated agreements with all three countries ( Moscow Agreement , August 1970 , Warsaw Agreement , December 1970 , Four - Power Agreement over the status of West Berlin in 1971 and an agreement on relations between West and East Germany , signed in December 1972 ) . These agreements were the basis for a rapid improvement in the relations between east and west and led , in the long term , to the dismantlement of the Warsaw Treaty and the Soviet Union 's control over East - Central Europe . During a visit to Warsaw on 7 December 1970 , Brandt made the Warschauer Kniefall by kneeling before a monument to those killed in the Warsaw Ghetto Uprising , a gesture of humility and penance that no German Chancellor had made until that time . Chancellor Brandt was forced to resign in May 1974 , after Günter Guillaume , a senior member of his staff , was uncovered as a spy for the East German intelligence service , the Stasi . Brandt 's contributions to world peace led to his winning the Nobel Peace Prize for 1971 . U.S.",
+            "title": "History of Germany (1945–90)"
+          },
+          {
+            "rank": 2,
+            "doc_id": "843316151_84202-84627-0-425",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of Germany (1945–90) In 1969 , Chancellor Willy Brandt announced that West Germany would remain firmly rooted in the Atlantic alliance but would intensify efforts to improve relations with the Eastern Bloc , especially East Germany . West Germany commenced this Ostpolitik , initially under fierce opposition from the conservatives , by negotiating nonaggression treaties with the Soviet Union , Poland , Czechoslovakia , Bulgaria , and Hungary .",
+            "title": "History of Germany (1945–90)"
+          },
+          {
+            "rank": 3,
+            "doc_id": "824750228_75022-75318-0-296",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Cold War Meanwhile , these developments coincided with the `` Ostpolitik '' of West German Chancellor Willy Brandt . Other agreements were concluded to stabilize the situation in Europe , culminating in the Helsinki Accords signed at the Conference on Security and Co-operation in Europe in 1975 . Iranian",
+            "title": "Cold War"
+          },
+          {
+            "rank": 4,
+            "doc_id": "843316151_65923-67556-0-1633",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of Germany (1945–90) Finance Minister Helmut Schmidt ( SPD ) formed a coalition and he served as Chancellor from 1974 to 1982 . Hans - Dietrich Genscher , a leading FDP official , became Vice Chancellor and Foreign Minister . Schmidt , a strong supporter of the European Community ( EC ) and the Atlantic alliance , emphasized his commitment to `` the political unification of Europe in partnership with the USA '' . Throughout the 1970s , the Red Army Faction had continued its terrorist campaign , assassinating or kidnapping politicians , judges , businessmen , and policemen . The highpoint of the RAF violence came with the German Autumn in autumn 1977 . The industrialist Hanns - Martin Schleyer was kidnapped on 5 September 1977 in order to force the government to free the imprisoned leaders of the Baader - Meinhof Gang . A group from the Popular Front for the Liberation of Palestine hijacked Lufthansa Flight 181 to seize further hostages to free the RAF leaders . On 18 October 1977 , the Lufthansa jet was stormed in Mogadishu by the GSG 9 commando unit , who were able to free the hostages . The same day , the leaders of the Baader - Meinhof gang , who had been waging a hunger strike , starved themselves to death , which led to Schleyer being executed by his captors . The Red Army Faction was to continue its terrorist campaign into the 1990s , but the German Autumn of 1977 was the highpoint of its campaign . That the Federal Republic had faced a crisis caused by a terrorist campaign from the radical left without succumbing to dictatorship as many feared that it would , was seen as vindication of the strength of German democracy .",
+            "title": "History of Germany (1945–90)"
+          },
+          {
+            "rank": 5,
+            "doc_id": "846612211_45977-47138-0-1161",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Axis powers The opposition to the Nazi regime 's aggressive foreign policy in the military became so strong from 1936 to 1938 , that considerations of overthrowing the Nazi regime were discussed within the upper echelons of the military and remaining non-Nazi members of the German government . Minister of Economics , Hjalmar Schacht met with Beck in 1936 in which Schacht declared to Beck that he was considering an overthrow of the Nazi regime and was inquiring what the stance was by the German military on support of an overthrow of the Nazi regime . Beck was lukewarm to the idea , and responded that if a coup against the Nazi regime began with support at the civilian level , the military would not oppose it . Schacht considered this promise by Beck to be inadequate because he knew that without the support of the army , any coup attempt would be crushed by the Gestapo and the SS . However , by 1938 , Beck became a firm opponent of the Nazi regime out of his opposition to Hitler 's military plans of 1937 -- 38 that told the military to prepare for the possibility of a world war as a result of German annexation plans for Austria and Czechoslovakia . Colonies",
+            "title": "Axis powers"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Willy Brandt was a German politician who served as the Chancellor of West Germany from 1969 to 1974.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "843316151_64018-65787-0-1768",
+          "score": null,
+          "score_type": "contriever",
+          "text": "History of Germany (1945–90) In the 1969 election , the SPD -- headed by Willy Brandt -- gained enough votes to form a coalition government with the FDP . Although Chancellor for only just over four years , Brandt was one of the most popular politicians in the whole period . Brandt was a gifted speaker and the growth of the Social Democrats from there on was in no small part due to his personality . Brandt began a policy of rapprochement with West Germany 's eastern neighbors known as Ostpolitik , a policy opposed by the CDU . The issue of improving relations with Poland , Czechoslovakia , and East Germany made for an increasingly aggressive tone in public debates but it was a huge step forward when Willy Brandt and the Foreign Minister , Walther Scheel ( FDP ) negotiated agreements with all three countries ( Moscow Agreement , August 1970 , Warsaw Agreement , December 1970 , Four - Power Agreement over the status of West Berlin in 1971 and an agreement on relations between West and East Germany , signed in December 1972 ) . These agreements were the basis for a rapid improvement in the relations between east and west and led , in the long term , to the dismantlement of the Warsaw Treaty and the Soviet Union 's control over East - Central Europe . During a visit to Warsaw on 7 December 1970 , Brandt made the Warschauer Kniefall by kneeling before a monument to those killed in the Warsaw Ghetto Uprising , a gesture of humility and penance that no German Chancellor had made until that time . Chancellor Brandt was forced to resign in May 1974 , after Günter Guillaume , a senior member of his staff , was uncovered as a spy for the East German intelligence service , the Stasi . Brandt 's contributions to world peace led to his winning the Nobel Peace Prize for 1971 . U.S.",
+          "title": "History of Germany (1945–90)"
+        },
+        {
+          "rank": 2,
+          "doc_id": "843316151_84202-84627-0-425",
+          "score": null,
+          "score_type": "contriever",
+          "text": "History of Germany (1945–90) In 1969 , Chancellor Willy Brandt announced that West Germany would remain firmly rooted in the Atlantic alliance but would intensify efforts to improve relations with the Eastern Bloc , especially East Germany . West Germany commenced this Ostpolitik , initially under fierce opposition from the conservatives , by negotiating nonaggression treaties with the Soviet Union , Poland , Czechoslovakia , Bulgaria , and Hungary .",
+          "title": "History of Germany (1945–90)"
+        },
+        {
+          "rank": 3,
+          "doc_id": "824750228_75022-75318-0-296",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Cold War Meanwhile , these developments coincided with the `` Ostpolitik '' of West German Chancellor Willy Brandt . Other agreements were concluded to stabilize the situation in Europe , culminating in the Helsinki Accords signed at the Conference on Security and Co-operation in Europe in 1975 . Iranian",
+          "title": "Cold War"
+        },
+        {
+          "rank": 4,
+          "doc_id": "843316151_65923-67556-0-1633",
+          "score": null,
+          "score_type": "contriever",
+          "text": "History of Germany (1945–90) Finance Minister Helmut Schmidt ( SPD ) formed a coalition and he served as Chancellor from 1974 to 1982 . Hans - Dietrich Genscher , a leading FDP official , became Vice Chancellor and Foreign Minister . Schmidt , a strong supporter of the European Community ( EC ) and the Atlantic alliance , emphasized his commitment to `` the political unification of Europe in partnership with the USA '' . Throughout the 1970s , the Red Army Faction had continued its terrorist campaign , assassinating or kidnapping politicians , judges , businessmen , and policemen . The highpoint of the RAF violence came with the German Autumn in autumn 1977 . The industrialist Hanns - Martin Schleyer was kidnapped on 5 September 1977 in order to force the government to free the imprisoned leaders of the Baader - Meinhof Gang . A group from the Popular Front for the Liberation of Palestine hijacked Lufthansa Flight 181 to seize further hostages to free the RAF leaders . On 18 October 1977 , the Lufthansa jet was stormed in Mogadishu by the GSG 9 commando unit , who were able to free the hostages . The same day , the leaders of the Baader - Meinhof gang , who had been waging a hunger strike , starved themselves to death , which led to Schleyer being executed by his captors . The Red Army Faction was to continue its terrorist campaign into the 1990s , but the German Autumn of 1977 was the highpoint of its campaign . That the Federal Republic had faced a crisis caused by a terrorist campaign from the radical left without succumbing to dictatorship as many feared that it would , was seen as vindication of the strength of German democracy .",
+          "title": "History of Germany (1945–90)"
+        },
+        {
+          "rank": 5,
+          "doc_id": "846612211_45977-47138-0-1161",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Axis powers The opposition to the Nazi regime 's aggressive foreign policy in the military became so strong from 1936 to 1938 , that considerations of overthrowing the Nazi regime were discussed within the upper echelons of the military and remaining non-Nazi members of the German government . Minister of Economics , Hjalmar Schacht met with Beck in 1936 in which Schacht declared to Beck that he was considering an overthrow of the Nazi regime and was inquiring what the stance was by the German military on support of an overthrow of the Nazi regime . Beck was lukewarm to the idea , and responded that if a coup against the Nazi regime began with support at the civilian level , the military would not oppose it . Schacht considered this promise by Beck to be inadequate because he knew that without the support of the army , any coup attempt would be crushed by the Gestapo and the SS . However , by 1938 , Beck became a firm opponent of the Nazi regime out of his opposition to Hitler 's military plans of 1937 -- 38 that told the military to prepare for the possibility of a world war as a result of German annexation plans for Austria and Czechoslovakia . Colonies",
+          "title": "Axis powers"
+        }
+      ],
+      "reference": {
+        "answer": "Willy Brandt was one of the most popular politicians who served as Mayor ( Oberbürgermeister ) of West-Berlin and as the Chancellor of West Germany. Brandt received the Nobel Peace Prize in 1971 for his efforts in strengthening cooperation between East and West.",
+        "evidence_ids": [
+          "843316151_64018-65787-0-1768",
+          "843537822_25189-26266-0-1076"
+        ],
+        "evidence": [
+          {
+            "doc_id": "843316151_64018-65787-0-1768",
+            "text": "History of Germany (1945–90)\nHistory of Germany (1945–90)\nIn the 1969 election , the SPD -- headed by Willy Brandt -- gained enough votes to form a coalition government with the FDP . Although Chancellor for only just over four years , Brandt was one of the most popular politicians in the whole period . Brandt was a gifted speaker and the growth of the Social Democrats from there on was in no small part due to his personality . Brandt began a policy of rapprochement with West Germany 's eastern neighbors known as Ostpolitik , a policy opposed by the CDU . The issue of improving relations with Poland , Czechoslovakia , and East Germany made for an increasingly aggressive tone in public debates but it was a huge step forward when Willy Brandt and the Foreign Minister , Walther Scheel ( FDP ) negotiated agreements with all three countries ( Moscow Agreement , August 1970 , Warsaw Agreement , December 1970 , Four - Power Agreement over the status of West Berlin in 1971 and an agreement on relations between West and East Germany , signed in December 1972 ) . These agreements were the basis for a rapid improvement in the relations between east and west and led , in the long term , to the dismantlement of the Warsaw Treaty and the Soviet Union 's control over East - Central Europe . During a visit to Warsaw on 7 December 1970 , Brandt made the Warschauer Kniefall by kneeling before a monument to those killed in the Warsaw Ghetto Uprising , a gesture of humility and penance that no German Chancellor had made until that time . Chancellor Brandt was forced to resign in May 1974 , after Günter Guillaume , a senior member of his staff , was uncovered as a spy for the East German intelligence service , the Stasi . Brandt 's contributions to world peace led to his winning the Nobel Peace Prize for 1971 . U.S."
+          },
+          {
+            "doc_id": "843537822_25189-26266-0-1076",
+            "text": "Berlin Wall\nBerlin Wall\nWith the closing of the East - West sector boundary in Berlin , the vast majority of East Germans could no longer travel or emigrate to West Germany . Berlin soon went from being the easiest place to make an unauthorized crossing between East and West Germany to being the most difficult . Many families were split , while East Berliners employed in the West were cut off from their jobs . West Berlin became an isolated exclave in a hostile land . West Berliners demonstrated against the Wall , led by their Mayor ( Oberbürgermeister ) Willy Brandt , who strongly criticized the United States for failing to respond . Allied intelligence agencies had hypothesized about a wall to stop the flood of refugees , but the main candidate for its location was around the perimeter of the city . In 1961 , Secretary of State Dean Rusk proclaimed , `` The Wall certainly ought not to be a permanent feature of the European landscape . I see no reason why the Soviet Union should think it is -- it is to their advantage in any way to leave there that monument to communist failure . ''"
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Composite",
+          "Summarization"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    }
+  ]
+}

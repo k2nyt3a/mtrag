@@ -1,0 +1,1088 @@
+{
+  "conversation_id": "927077bd895f0c292618f4a34789bef3",
+  "dataset": "cloud",
+  "collection": "mt-rag-ibmcloud-elser-512-100-20240502",
+  "rag": "selfrag",
+  "num_turns": 6,
+  "turns": [
+    {
+      "turn_id": "1",
+      "task_id": "927077bd895f0c292618f4a34789bef3<::>1",
+      "question": "How does version 6.15.0 differ from 6.14.0?",
+      "rag_history_before_turn": [],
+      "retrieval": {
+        "query": "How does version 6.15.0 differ from 6.14.0?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_10062-24150-25459",
+            "score": null,
+            "score_type": "contriever",
+            "text": " * Image tags: 1.11.0-7, 1.16.2-8, 1.17.0-9, 1.18.1-8, and 1.19.0-3. * Supported cluster versions: 4.3 - 4.6 * Images are now signed. * Resources that are deployed by the cluster autoscaler add-on are now linked with the corresponding source code and build URLs. * Updates the Go version to 1.15.5.         Change log for patch update 1.0.1_146, released 03 December 2020   Review the changes in version 1.0.1_146 of the cluster autoscaler add-on.    * Image tags: 1.15.4-4, 1.16.2-7, 1.17.0-8, 1.18.1-7, and 1.19.0-2. * Supported cluster versions: 4.3 - 4.6 * Updates the cluster autoscaler to run as non-root. * Adds a feature to validate secrets before the autoscaler pods are initialized.         Change log for patch update 1.0.1_128, released 27 October 2020   Review the changes in version 1.0.1_128 of the cluster autoscaler add-on.    * Image tags: 1.15.4-4, 1.16.2-6, 1.17.0-7, 1.18.1-6, and 1.19.0-1. * Supported cluster versions: 4.3 - 4.5 * Updates the Go version to 1.15.2.         Change log for patch update 1.0.1_124, released 16 October 2020   Review the changes in version 1.0.1_124 of the cluster autoscaler add-on.    * Image tags: 1.15.4-4, 1.16.2-6, 1.17.0-7, 1.18.1-6, and 1.19.0-1. * Supported cluster versions: 4.3 - 4.5 * Exposes the --new-pod-scale-up-delay option in the ConfigMap.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_05588-5222-6389",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Version 1.0.9      Change log for patch update 1.0.9_44, released 22 June 2023     * Adds support for cluster version 1.27. * Adds the scaleDownUnreadyEnabled, maxNodesPerScaleup, maxNodegroupBinpackingDuration, kubeClientBurst, and kubeClientQPS parameters. * Updates the storage-secret-sidecar image to v1.2.24. * Updates Golang to 1.19.10 for iks-cluster-autoscaler1.22-1.26 and Golang version 1.20.5 for iks-cluster-autoscaler 1.27. * Image tags: 1.22.0 109-0, 1.23.0 109-0, 1.24.0 109-0, 1.25.0 109-0, 1.26.1 109-0, 1.27.2 109-0.           Version 1.0.8      Change log for patch update 1.0.8_56, released 6 July 2023     * Image tags: 1.20.0 108-3, 1.21.0 108-3, 1.22.0 108-3, 1.23.0 108-3, 1.24.0 108-3, 1.25.0 108-3, 1.26.0 108-3. * Updates the storage-secret-sidecar image to v1.2.21. * Updates the golang version to 1.19.8.         Change log for patch update 1.0.8_1078, released 15 May 2023     * Image tags: 1.20.0 108-2, 1.21.0 108-2, 1.22.0 108-2, 1.23.0 108-2, 1.24.0 108-2, 1.25.0 108-2, 1.26.0 108-2. * Updates storage-secret-sidecar image to v1.2.21. * Golang updated to 1.19.8.         Change log for patch update 1.0.8_1016, released 5 April 2023",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_10062-5218-6385",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Version 1.0.9      Change log for patch update 1.0.9_44, released 22 June 2023     * Adds support for cluster version 1.27. * Adds the scaleDownUnreadyEnabled, maxNodesPerScaleup, maxNodegroupBinpackingDuration, kubeClientBurst, and kubeClientQPS parameters. * Updates the storage-secret-sidecar image to v1.2.24. * Updates Golang to 1.19.10 for iks-cluster-autoscaler1.22-1.26 and Golang version 1.20.5 for iks-cluster-autoscaler 1.27. * Image tags: 1.22.0 109-0, 1.23.0 109-0, 1.24.0 109-0, 1.25.0 109-0, 1.26.1 109-0, 1.27.2 109-0.           Version 1.0.8      Change log for patch update 1.0.8_56, released 6 July 2023     * Image tags: 1.20.0 108-3, 1.21.0 108-3, 1.22.0 108-3, 1.23.0 108-3, 1.24.0 108-3, 1.25.0 108-3, 1.26.0 108-3. * Updates the storage-secret-sidecar image to v1.2.21. * Updates the golang version to 1.19.8.         Change log for patch update 1.0.8_1078, released 15 May 2023     * Image tags: 1.20.0 108-2, 1.21.0 108-2, 1.22.0 108-2, 1.23.0 108-2, 1.24.0 108-2, 1.25.0 108-2, 1.26.0 108-2. * Updates storage-secret-sidecar image to v1.2.21. * Golang updated to 1.19.8.         Change log for patch update 1.0.8_1016, released 5 April 2023",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_00861-230015-230974",
+            "score": null,
+            "score_type": "contriever",
+            "text": " v14.16.1   npm --version 6.14.12   jq --version jq-1.6   yq --version yq version 2.4.1   yq3 --version yq version 3.4.1   yq4 --version yq version 4.6.2   kubectl version --client Client Version: version.Info{Major:\"1\", Minor:\"20\", GitVersion:\"v1.20.5\", GitCommit:\"6b1d87acf3c8253c123756b9e61dac642678305f\", GitTreeState:\"clean\", BuildDate:\"2021-03-18T01:10:43Z\", GoVersion:\"go1.15.8\", Compiler:\"gc\", Platform:\"linux/amd64\"}   buildctl --version buildctl github.com/moby/buildkit v0.8.2 9065b18ba4633c75862befca8188de4338d9f94a   helm version --client Client: &version.Version{SemVer:\"v2.17.0\", GitCommit:\"a690bad98af45b015bd3da1a41f6218b1a451dbe\", GitTreeState:\"clean\"}   helm3 version --client version.BuildInfo{Version:\"v3.5.3\", GitCommit:\"041ce5a2c17a58be0fcd5f5e16fb3e7e95fea622\", GitTreeState:\"dirty\", GoVersion:\"go1.15.8\"}   ibmcloud -version ibmcloud version 1.4.0+4705d79-2021-02-24T21:18:06+00:00   ibmcloud plugin list Listing installed plug-ins...",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_05588-11378-12072",
+            "score": null,
+            "score_type": "contriever",
+            "text": " * Image tags: 1.19.1 106-8, 1.20.0 106-8, 1.21.0 106-8, 1.22.0 106-8, 1.23.0 106-8, 1.24.0 106-8. * Updates the storage-secret-sidecar image to v1.2.21 * Golang updated to 1.19.8. * Fixes issue where cluster-autoscaler stops retrying requests return HTTP401 code.         Change log for patch update 1.0.6_1010, released 5 April 2023     * Image tags: 1.19.1 106-7, 1.20.0 106-7, 1.21.0 106-7, 1.22.0 106-7, 1.23.0 106-7, and 1.24.0 106-7. * Updates the golang version to 1.19.7.         Change log for patch update 1.0.6_955, released 7 March 2023     * Image tags: 1.19.1 106-6, 1.20.0 106-6, 1.21.0 106-6, 1.22.0 106-6, 1.23.0 106-6, and 1.24.0 106-6. * Updates the golang version to 1.19.6.",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_10062-24150-25459",
+            "score": null,
+            "score_type": "contriever",
+            "text": " * Image tags: 1.11.0-7, 1.16.2-8, 1.17.0-9, 1.18.1-8, and 1.19.0-3. * Supported cluster versions: 4.3 - 4.6 * Images are now signed. * Resources that are deployed by the cluster autoscaler add-on are now linked with the corresponding source code and build URLs. * Updates the Go version to 1.15.5.         Change log for patch update 1.0.1_146, released 03 December 2020   Review the changes in version 1.0.1_146 of the cluster autoscaler add-on.    * Image tags: 1.15.4-4, 1.16.2-7, 1.17.0-8, 1.18.1-7, and 1.19.0-2. * Supported cluster versions: 4.3 - 4.6 * Updates the cluster autoscaler to run as non-root. * Adds a feature to validate secrets before the autoscaler pods are initialized.         Change log for patch update 1.0.1_128, released 27 October 2020   Review the changes in version 1.0.1_128 of the cluster autoscaler add-on.    * Image tags: 1.15.4-4, 1.16.2-6, 1.17.0-7, 1.18.1-6, and 1.19.0-1. * Supported cluster versions: 4.3 - 4.5 * Updates the Go version to 1.15.2.         Change log for patch update 1.0.1_124, released 16 October 2020   Review the changes in version 1.0.1_124 of the cluster autoscaler add-on.    * Image tags: 1.15.4-4, 1.16.2-6, 1.17.0-7, 1.18.1-6, and 1.19.0-1. * Supported cluster versions: 4.3 - 4.5 * Exposes the --new-pod-scale-up-delay option in the ConfigMap.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_05588-5222-6389",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Version 1.0.9      Change log for patch update 1.0.9_44, released 22 June 2023     * Adds support for cluster version 1.27. * Adds the scaleDownUnreadyEnabled, maxNodesPerScaleup, maxNodegroupBinpackingDuration, kubeClientBurst, and kubeClientQPS parameters. * Updates the storage-secret-sidecar image to v1.2.24. * Updates Golang to 1.19.10 for iks-cluster-autoscaler1.22-1.26 and Golang version 1.20.5 for iks-cluster-autoscaler 1.27. * Image tags: 1.22.0 109-0, 1.23.0 109-0, 1.24.0 109-0, 1.25.0 109-0, 1.26.1 109-0, 1.27.2 109-0.           Version 1.0.8      Change log for patch update 1.0.8_56, released 6 July 2023     * Image tags: 1.20.0 108-3, 1.21.0 108-3, 1.22.0 108-3, 1.23.0 108-3, 1.24.0 108-3, 1.25.0 108-3, 1.26.0 108-3. * Updates the storage-secret-sidecar image to v1.2.21. * Updates the golang version to 1.19.8.         Change log for patch update 1.0.8_1078, released 15 May 2023     * Image tags: 1.20.0 108-2, 1.21.0 108-2, 1.22.0 108-2, 1.23.0 108-2, 1.24.0 108-2, 1.25.0 108-2, 1.26.0 108-2. * Updates storage-secret-sidecar image to v1.2.21. * Golang updated to 1.19.8.         Change log for patch update 1.0.8_1016, released 5 April 2023",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_10062-5218-6385",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Version 1.0.9      Change log for patch update 1.0.9_44, released 22 June 2023     * Adds support for cluster version 1.27. * Adds the scaleDownUnreadyEnabled, maxNodesPerScaleup, maxNodegroupBinpackingDuration, kubeClientBurst, and kubeClientQPS parameters. * Updates the storage-secret-sidecar image to v1.2.24. * Updates Golang to 1.19.10 for iks-cluster-autoscaler1.22-1.26 and Golang version 1.20.5 for iks-cluster-autoscaler 1.27. * Image tags: 1.22.0 109-0, 1.23.0 109-0, 1.24.0 109-0, 1.25.0 109-0, 1.26.1 109-0, 1.27.2 109-0.           Version 1.0.8      Change log for patch update 1.0.8_56, released 6 July 2023     * Image tags: 1.20.0 108-3, 1.21.0 108-3, 1.22.0 108-3, 1.23.0 108-3, 1.24.0 108-3, 1.25.0 108-3, 1.26.0 108-3. * Updates the storage-secret-sidecar image to v1.2.21. * Updates the golang version to 1.19.8.         Change log for patch update 1.0.8_1078, released 15 May 2023     * Image tags: 1.20.0 108-2, 1.21.0 108-2, 1.22.0 108-2, 1.23.0 108-2, 1.24.0 108-2, 1.25.0 108-2, 1.26.0 108-2. * Updates storage-secret-sidecar image to v1.2.21. * Golang updated to 1.19.8.         Change log for patch update 1.0.8_1016, released 5 April 2023",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_00861-230015-230974",
+            "score": null,
+            "score_type": "contriever",
+            "text": " v14.16.1   npm --version 6.14.12   jq --version jq-1.6   yq --version yq version 2.4.1   yq3 --version yq version 3.4.1   yq4 --version yq version 4.6.2   kubectl version --client Client Version: version.Info{Major:\"1\", Minor:\"20\", GitVersion:\"v1.20.5\", GitCommit:\"6b1d87acf3c8253c123756b9e61dac642678305f\", GitTreeState:\"clean\", BuildDate:\"2021-03-18T01:10:43Z\", GoVersion:\"go1.15.8\", Compiler:\"gc\", Platform:\"linux/amd64\"}   buildctl --version buildctl github.com/moby/buildkit v0.8.2 9065b18ba4633c75862befca8188de4338d9f94a   helm version --client Client: &version.Version{SemVer:\"v2.17.0\", GitCommit:\"a690bad98af45b015bd3da1a41f6218b1a451dbe\", GitTreeState:\"clean\"}   helm3 version --client version.BuildInfo{Version:\"v3.5.3\", GitCommit:\"041ce5a2c17a58be0fcd5f5e16fb3e7e95fea622\", GitTreeState:\"dirty\", GoVersion:\"go1.15.8\"}   ibmcloud -version ibmcloud version 1.4.0+4705d79-2021-02-24T21:18:06+00:00   ibmcloud plugin list Listing installed plug-ins...",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_05588-11378-12072",
+            "score": null,
+            "score_type": "contriever",
+            "text": " * Image tags: 1.19.1 106-8, 1.20.0 106-8, 1.21.0 106-8, 1.22.0 106-8, 1.23.0 106-8, 1.24.0 106-8. * Updates the storage-secret-sidecar image to v1.2.21 * Golang updated to 1.19.8. * Fixes issue where cluster-autoscaler stops retrying requests return HTTP401 code.         Change log for patch update 1.0.6_1010, released 5 April 2023     * Image tags: 1.19.1 106-7, 1.20.0 106-7, 1.21.0 106-7, 1.22.0 106-7, 1.23.0 106-7, and 1.24.0 106-7. * Updates the golang version to 1.19.7.         Change log for patch update 1.0.6_955, released 7 March 2023     * Image tags: 1.19.1 106-6, 1.20.0 106-6, 1.21.0 106-6, 1.22.0 106-6, 1.23.0 106-6, and 1.24.0 106-6. * Updates the golang version to 1.19.6.",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "* Updates the cluster autoscaler to run as non-root.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "ibmcld_10062-24150-25459",
+          "score": null,
+          "score_type": "contriever",
+          "text": " * Image tags: 1.11.0-7, 1.16.2-8, 1.17.0-9, 1.18.1-8, and 1.19.0-3. * Supported cluster versions: 4.3 - 4.6 * Images are now signed. * Resources that are deployed by the cluster autoscaler add-on are now linked with the corresponding source code and build URLs. * Updates the Go version to 1.15.5.         Change log for patch update 1.0.1_146, released 03 December 2020   Review the changes in version 1.0.1_146 of the cluster autoscaler add-on.    * Image tags: 1.15.4-4, 1.16.2-7, 1.17.0-8, 1.18.1-7, and 1.19.0-2. * Supported cluster versions: 4.3 - 4.6 * Updates the cluster autoscaler to run as non-root. * Adds a feature to validate secrets before the autoscaler pods are initialized.         Change log for patch update 1.0.1_128, released 27 October 2020   Review the changes in version 1.0.1_128 of the cluster autoscaler add-on.    * Image tags: 1.15.4-4, 1.16.2-6, 1.17.0-7, 1.18.1-6, and 1.19.0-1. * Supported cluster versions: 4.3 - 4.5 * Updates the Go version to 1.15.2.         Change log for patch update 1.0.1_124, released 16 October 2020   Review the changes in version 1.0.1_124 of the cluster autoscaler add-on.    * Image tags: 1.15.4-4, 1.16.2-6, 1.17.0-7, 1.18.1-6, and 1.19.0-1. * Supported cluster versions: 4.3 - 4.5 * Exposes the --new-pod-scale-up-delay option in the ConfigMap.",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "ibmcld_05588-5222-6389",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Version 1.0.9      Change log for patch update 1.0.9_44, released 22 June 2023     * Adds support for cluster version 1.27. * Adds the scaleDownUnreadyEnabled, maxNodesPerScaleup, maxNodegroupBinpackingDuration, kubeClientBurst, and kubeClientQPS parameters. * Updates the storage-secret-sidecar image to v1.2.24. * Updates Golang to 1.19.10 for iks-cluster-autoscaler1.22-1.26 and Golang version 1.20.5 for iks-cluster-autoscaler 1.27. * Image tags: 1.22.0 109-0, 1.23.0 109-0, 1.24.0 109-0, 1.25.0 109-0, 1.26.1 109-0, 1.27.2 109-0.           Version 1.0.8      Change log for patch update 1.0.8_56, released 6 July 2023     * Image tags: 1.20.0 108-3, 1.21.0 108-3, 1.22.0 108-3, 1.23.0 108-3, 1.24.0 108-3, 1.25.0 108-3, 1.26.0 108-3. * Updates the storage-secret-sidecar image to v1.2.21. * Updates the golang version to 1.19.8.         Change log for patch update 1.0.8_1078, released 15 May 2023     * Image tags: 1.20.0 108-2, 1.21.0 108-2, 1.22.0 108-2, 1.23.0 108-2, 1.24.0 108-2, 1.25.0 108-2, 1.26.0 108-2. * Updates storage-secret-sidecar image to v1.2.21. * Golang updated to 1.19.8.         Change log for patch update 1.0.8_1016, released 5 April 2023",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "ibmcld_10062-5218-6385",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Version 1.0.9      Change log for patch update 1.0.9_44, released 22 June 2023     * Adds support for cluster version 1.27. * Adds the scaleDownUnreadyEnabled, maxNodesPerScaleup, maxNodegroupBinpackingDuration, kubeClientBurst, and kubeClientQPS parameters. * Updates the storage-secret-sidecar image to v1.2.24. * Updates Golang to 1.19.10 for iks-cluster-autoscaler1.22-1.26 and Golang version 1.20.5 for iks-cluster-autoscaler 1.27. * Image tags: 1.22.0 109-0, 1.23.0 109-0, 1.24.0 109-0, 1.25.0 109-0, 1.26.1 109-0, 1.27.2 109-0.           Version 1.0.8      Change log for patch update 1.0.8_56, released 6 July 2023     * Image tags: 1.20.0 108-3, 1.21.0 108-3, 1.22.0 108-3, 1.23.0 108-3, 1.24.0 108-3, 1.25.0 108-3, 1.26.0 108-3. * Updates the storage-secret-sidecar image to v1.2.21. * Updates the golang version to 1.19.8.         Change log for patch update 1.0.8_1078, released 15 May 2023     * Image tags: 1.20.0 108-2, 1.21.0 108-2, 1.22.0 108-2, 1.23.0 108-2, 1.24.0 108-2, 1.25.0 108-2, 1.26.0 108-2. * Updates storage-secret-sidecar image to v1.2.21. * Golang updated to 1.19.8.         Change log for patch update 1.0.8_1016, released 5 April 2023",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "ibmcld_00861-230015-230974",
+          "score": null,
+          "score_type": "contriever",
+          "text": " v14.16.1   npm --version 6.14.12   jq --version jq-1.6   yq --version yq version 2.4.1   yq3 --version yq version 3.4.1   yq4 --version yq version 4.6.2   kubectl version --client Client Version: version.Info{Major:\"1\", Minor:\"20\", GitVersion:\"v1.20.5\", GitCommit:\"6b1d87acf3c8253c123756b9e61dac642678305f\", GitTreeState:\"clean\", BuildDate:\"2021-03-18T01:10:43Z\", GoVersion:\"go1.15.8\", Compiler:\"gc\", Platform:\"linux/amd64\"}   buildctl --version buildctl github.com/moby/buildkit v0.8.2 9065b18ba4633c75862befca8188de4338d9f94a   helm version --client Client: &version.Version{SemVer:\"v2.17.0\", GitCommit:\"a690bad98af45b015bd3da1a41f6218b1a451dbe\", GitTreeState:\"clean\"}   helm3 version --client version.BuildInfo{Version:\"v3.5.3\", GitCommit:\"041ce5a2c17a58be0fcd5f5e16fb3e7e95fea622\", GitTreeState:\"dirty\", GoVersion:\"go1.15.8\"}   ibmcloud -version ibmcloud version 1.4.0+4705d79-2021-02-24T21:18:06+00:00   ibmcloud plugin list Listing installed plug-ins...",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "ibmcld_05588-11378-12072",
+          "score": null,
+          "score_type": "contriever",
+          "text": " * Image tags: 1.19.1 106-8, 1.20.0 106-8, 1.21.0 106-8, 1.22.0 106-8, 1.23.0 106-8, 1.24.0 106-8. * Updates the storage-secret-sidecar image to v1.2.21 * Golang updated to 1.19.8. * Fixes issue where cluster-autoscaler stops retrying requests return HTTP401 code.         Change log for patch update 1.0.6_1010, released 5 April 2023     * Image tags: 1.19.1 106-7, 1.20.0 106-7, 1.21.0 106-7, 1.22.0 106-7, 1.23.0 106-7, and 1.24.0 106-7. * Updates the golang version to 1.19.7.         Change log for patch update 1.0.6_955, released 7 March 2023     * Image tags: 1.19.1 106-6, 1.20.0 106-6, 1.21.0 106-6, 1.22.0 106-6, 1.23.0 106-6, and 1.24.0 106-6. * Updates the golang version to 1.19.6.",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "Assuming the question is about the IBM Cloud® Virtual Private Cloud (VPC) command line interface (CLI),  version 6.15.0 includes the following changes over version 6.14.0. It introduces new commands image-obsolete and image-deprecate for image lifecycle management. It also adds support for image lifecycle management in image-create, image-update, and images commands and it fixes an issue with using the SSH key generated from UI in CLI.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Comparative"
+        ],
+        "multi_turn": [
+          "N/A"
+        ]
+      }
+    },
+    {
+      "turn_id": "2",
+      "task_id": "927077bd895f0c292618f4a34789bef3<::>2",
+      "question": "Tell me more about the new commands",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "How does version 6.15.0 differ from 6.14.0?"
+        },
+        {
+          "role": "assistant",
+          "content": "Assuming the question is about the IBM Cloud® Virtual Private Cloud (VPC) command line interface (CLI),  version 6.15.0 includes the following changes over version 6.14.0. It introduces new commands image-obsolete and image-deprecate for image lifecycle management. It also adds support for image lifecycle management in image-create, image-update, and images commands and it fixes an issue with using the SSH key generated from UI in CLI."
+        }
+      ],
+      "retrieval": {
+        "query": "Tell me more about the new commands",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_16034-17328-19156",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Instance commands can now use an ID or name for the command option values.         Removed commands     * N/A           v1.7.0   Version 1.7.0 was released on 2021-10-07.     New commands     * N/A         Updated commands     * Update load-balancer, vpc-routing-table-route-create, snapshots, vpn-gateway and vpn-server commands with \"by name\" support. These commands can now use an ID or name for the command option values.         Removed commands     * N/A           v1.6.0   Version 1.6.0 was released on 2021-09-15.     New commands     * N/A         Updated commands     * Update load-balancer-create/load-balancer-listener-create/load-balancer-update/load-balancer-listener-update commands to support the load-balancer vnf support. * Update subnet, public gateway, image, floating IP, key, placement-group, flow-log, security group, virtual private endpoint gateway, dedicated host and volume commands with \"by name\" support. These commands can now use an ID or name for the command option values.         Removed commands     * N/A           v1.5.0   Version 1.5.0 was released on 2021-08-27.     New commands     * N/A         Updated commands     * Update instance-create/instance-update/instance-template-create commands to support the instance attached block storage bandwidth setting.         Removed commands     * N/A           v1.4.0   Version 1.4.0 was released on 2021-08-26.     New commands     * Add client-to-site VPN server commands (Beta).         Updated commands     * Update vpc/address-prefix/routing-table/route commands with \"by name\" support. These commands can now use an ID or name for the command option values. * Update network ACL and network ACL rule commands with \"by name\" support. These commands can now use an ID or name for the command option values.         Removed commands     * N/A",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_16034-12689-13797",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Version 3.4.0 was released on 2022-02-24.     New commands     * N/A         Updated commands     * Update instance-create, instance-update, instance-template-create, instance-template-create-override-source-template and instance-create-from-template commands to support metadata service. * Update instance-create and instance-create-from-template commands to support trusted profile.         Removed commands     * N/A           v3.3.0   Version 3.3.0 was released on 2022-02-17.     New commands     * N/A         Updated commands     * Update instance-create, instance-update, instance-template-create, instance-template-create-override-source-template and instance-create-from-template, commands to add support for vm-host-failure-policy.         Removed commands     * N/A           v3.2.0   Version 3.2.0 was released on 2022-02-11.     New commands     * N/A.         Updated commands     * Update instance-create, instance-update and volume-update commands to support resize boot volume.         Removed commands     * N/A           v3.1.0   Version 3.1.0 was released on 2022-01-28.     New commands",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_16034-7-1778",
+            "score": null,
+            "score_type": "contriever",
+            "text": " VPC CLI release notes   The following release notes are for the IBM Cloud® Virtual Private Cloud (VPC) command line interface (CLI).     v6.15.0   Version 6.15.0 was released on 2023-07-11.     New commands     * New commands image-obsolete and image-deprecate are introduced to support image lifecycle management.         Updated commands     * Added support for image lifecycle management in image-create, image-update, and images commands.         Removed commands     * N/A         Notes     * N/A           v6.14.1   Version 6.14.1 was released on 2023-06-30.     New commands     * N/A         Updated commands     * N/A         Removed commands     * N/A         Notes     * Fixed issue with using the SSH key generated from UI in CLI.           v6.14.0   Version 6.14.0 was released on 2023-06-23.     New commands     * N/A         Updated commands     * Added support for more algorithms in the SSH key key-create command.         Removed commands     * N/A           v6.13.0   Version 6.13.0 was released on 2023-06-22.     New commands     * N/A         Updated commands     * Added support for snapshot and backup cross region copy in snaphot-create, snapshots, backup-policy-plan-create and backup-policy-plan-update commands.         Removed commands     * N/A           v6.12.0   Version 6.12.0 was released on 2023-06-01.     New commands     * N/A         Updated commands     * Added support for fileshare mount targets in share commands (Beta).         Removed commands     * N/A         Notes     * Fixed bare-metal-server-network-interfaces, bare-metal-server-profiles and bare-metal-servers commands to print correct response values.           v6.11.1   Version 6.11.1 was released on 2023-05-03.     New commands     * N/A         Updated commands",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_16034-21578-23494",
+            "score": null,
+            "score_type": "contriever",
+            "text": " * Update --boot-volume, --volume-attach options of the instance-create command to support JSON format with source_snapshot property setting that supports restoring volume from source snapshot.           v0.8.4   Version 0.8.4 was released on 2021-05-18.     New commands     * Add commands instance-group-manager-actions, instance-group-manager-action, instance-group-manager-action-create, instance-group-manager-action-delete, instance-group-manager-action-update for scheduled scaling feature.         Updated commands     * Add --owner-type option for images list command to filter images by owner_type property. * Update instance-group-manager-create command for scheduled scaling feature.           v0.8.1   Version 0.8.1 was released on 2021-03-18.     New commands     * Add command instance-console to open an interactive serial console to a virtual server instance.         Updated commands     * Update load-balancer-listener-policy-rule-create and load-balancer-listener-policy-rule-update commands to add new body and query rule types.         Removed commands     * N/A           v0.8.0   Version 0.8.0 was released on 2021-03-11.     New commands     * Add instance-group-membership-update command.         Updated commands     * Add dedicated_host_only property to the operating system object in operating-systems, operating-system and image command output. * Update --max-members, --min-members options value's range to 1-1000 in the instance-group-manager-create and instance-group-manager-update commands. * Add API private endpoint support, only us-south and us-east regions are supported.         Removed commands     * N/A           v0.7.9   Version 0.7.9 was released on 2021-03-04.     New commands     * N/A         Updated commands     * Add new cipher suite DH19 and SHA512 option for VPN IPSec and IKE policy creation/updating commands.         Removed commands     * N/A           v0.7.8",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_16034-5546-7299",
+            "score": null,
+            "score_type": "contriever",
+            "text": " v6.2.0   Version 6.2.0 was released on 2022-12-14.     New commands     * N/A         Updated commands     * Updated volume-create command to support creation of volume from snapshot.         Removed commands     * N/A           v6.1.0   Version 6.1.0 was released on 2022-11-21.     New commands     * N/A         Updated commands     * Updated vpc-default-routing-table, vpc-routing-table , vpc-routing-table-create, vpc-routing-table-update commands to support Public Ingress Routing.         Removed commands     * N/A           v6.0.0   Version 6.0.0 was released on 2022-11-03.     New commands     * N/A         Updated commands     * Updated VPC API version to 2022-09-13.         Removed commands     * N/A         Note     * Fixed backup-policy-job and backup-policy-jobs commands to support Backup As A Service Amendment.           v5.4.0   Version 5.4.0 was released on 2022-10-06.     New commands     * N/A         Updated commands     * Updated instance-create and instance-update commands to support VNF Scalability.         Removed commands     * N/A           v5.3.0   Version 5.3.0 was released on 2022-09-23.     New commands     * Added ibmcloud is catalog-image-offerings and ibmcloud is catalog-image-offering commands to support Enterprise Image Sharing.         Updated commands     * Updated instance-create , instance-create-from-template , instance-template-create and instance-template-create-override-source-template commands to support Enterprise Image Sharing. * Updated ike-policy-create , ike-policy-update , ipsec-policy-create and ipsec-policy-update commands to support Additional Cipher Suites for VPN.         Removed commands     * N/A           v5.2.0   Version 5.2.0 was released on 2022-09-16.     New commands",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_16034-17328-19156",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Instance commands can now use an ID or name for the command option values.         Removed commands     * N/A           v1.7.0   Version 1.7.0 was released on 2021-10-07.     New commands     * N/A         Updated commands     * Update load-balancer, vpc-routing-table-route-create, snapshots, vpn-gateway and vpn-server commands with \"by name\" support. These commands can now use an ID or name for the command option values.         Removed commands     * N/A           v1.6.0   Version 1.6.0 was released on 2021-09-15.     New commands     * N/A         Updated commands     * Update load-balancer-create/load-balancer-listener-create/load-balancer-update/load-balancer-listener-update commands to support the load-balancer vnf support. * Update subnet, public gateway, image, floating IP, key, placement-group, flow-log, security group, virtual private endpoint gateway, dedicated host and volume commands with \"by name\" support. These commands can now use an ID or name for the command option values.         Removed commands     * N/A           v1.5.0   Version 1.5.0 was released on 2021-08-27.     New commands     * N/A         Updated commands     * Update instance-create/instance-update/instance-template-create commands to support the instance attached block storage bandwidth setting.         Removed commands     * N/A           v1.4.0   Version 1.4.0 was released on 2021-08-26.     New commands     * Add client-to-site VPN server commands (Beta).         Updated commands     * Update vpc/address-prefix/routing-table/route commands with \"by name\" support. These commands can now use an ID or name for the command option values. * Update network ACL and network ACL rule commands with \"by name\" support. These commands can now use an ID or name for the command option values.         Removed commands     * N/A",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_16034-12689-13797",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Version 3.4.0 was released on 2022-02-24.     New commands     * N/A         Updated commands     * Update instance-create, instance-update, instance-template-create, instance-template-create-override-source-template and instance-create-from-template commands to support metadata service. * Update instance-create and instance-create-from-template commands to support trusted profile.         Removed commands     * N/A           v3.3.0   Version 3.3.0 was released on 2022-02-17.     New commands     * N/A         Updated commands     * Update instance-create, instance-update, instance-template-create, instance-template-create-override-source-template and instance-create-from-template, commands to add support for vm-host-failure-policy.         Removed commands     * N/A           v3.2.0   Version 3.2.0 was released on 2022-02-11.     New commands     * N/A.         Updated commands     * Update instance-create, instance-update and volume-update commands to support resize boot volume.         Removed commands     * N/A           v3.1.0   Version 3.1.0 was released on 2022-01-28.     New commands",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_16034-7-1778",
+            "score": null,
+            "score_type": "contriever",
+            "text": " VPC CLI release notes   The following release notes are for the IBM Cloud® Virtual Private Cloud (VPC) command line interface (CLI).     v6.15.0   Version 6.15.0 was released on 2023-07-11.     New commands     * New commands image-obsolete and image-deprecate are introduced to support image lifecycle management.         Updated commands     * Added support for image lifecycle management in image-create, image-update, and images commands.         Removed commands     * N/A         Notes     * N/A           v6.14.1   Version 6.14.1 was released on 2023-06-30.     New commands     * N/A         Updated commands     * N/A         Removed commands     * N/A         Notes     * Fixed issue with using the SSH key generated from UI in CLI.           v6.14.0   Version 6.14.0 was released on 2023-06-23.     New commands     * N/A         Updated commands     * Added support for more algorithms in the SSH key key-create command.         Removed commands     * N/A           v6.13.0   Version 6.13.0 was released on 2023-06-22.     New commands     * N/A         Updated commands     * Added support for snapshot and backup cross region copy in snaphot-create, snapshots, backup-policy-plan-create and backup-policy-plan-update commands.         Removed commands     * N/A           v6.12.0   Version 6.12.0 was released on 2023-06-01.     New commands     * N/A         Updated commands     * Added support for fileshare mount targets in share commands (Beta).         Removed commands     * N/A         Notes     * Fixed bare-metal-server-network-interfaces, bare-metal-server-profiles and bare-metal-servers commands to print correct response values.           v6.11.1   Version 6.11.1 was released on 2023-05-03.     New commands     * N/A         Updated commands",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_16034-21578-23494",
+            "score": null,
+            "score_type": "contriever",
+            "text": " * Update --boot-volume, --volume-attach options of the instance-create command to support JSON format with source_snapshot property setting that supports restoring volume from source snapshot.           v0.8.4   Version 0.8.4 was released on 2021-05-18.     New commands     * Add commands instance-group-manager-actions, instance-group-manager-action, instance-group-manager-action-create, instance-group-manager-action-delete, instance-group-manager-action-update for scheduled scaling feature.         Updated commands     * Add --owner-type option for images list command to filter images by owner_type property. * Update instance-group-manager-create command for scheduled scaling feature.           v0.8.1   Version 0.8.1 was released on 2021-03-18.     New commands     * Add command instance-console to open an interactive serial console to a virtual server instance.         Updated commands     * Update load-balancer-listener-policy-rule-create and load-balancer-listener-policy-rule-update commands to add new body and query rule types.         Removed commands     * N/A           v0.8.0   Version 0.8.0 was released on 2021-03-11.     New commands     * Add instance-group-membership-update command.         Updated commands     * Add dedicated_host_only property to the operating system object in operating-systems, operating-system and image command output. * Update --max-members, --min-members options value's range to 1-1000 in the instance-group-manager-create and instance-group-manager-update commands. * Add API private endpoint support, only us-south and us-east regions are supported.         Removed commands     * N/A           v0.7.9   Version 0.7.9 was released on 2021-03-04.     New commands     * N/A         Updated commands     * Add new cipher suite DH19 and SHA512 option for VPN IPSec and IKE policy creation/updating commands.         Removed commands     * N/A           v0.7.8",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_16034-5546-7299",
+            "score": null,
+            "score_type": "contriever",
+            "text": " v6.2.0   Version 6.2.0 was released on 2022-12-14.     New commands     * N/A         Updated commands     * Updated volume-create command to support creation of volume from snapshot.         Removed commands     * N/A           v6.1.0   Version 6.1.0 was released on 2022-11-21.     New commands     * N/A         Updated commands     * Updated vpc-default-routing-table, vpc-routing-table , vpc-routing-table-create, vpc-routing-table-update commands to support Public Ingress Routing.         Removed commands     * N/A           v6.0.0   Version 6.0.0 was released on 2022-11-03.     New commands     * N/A         Updated commands     * Updated VPC API version to 2022-09-13.         Removed commands     * N/A         Note     * Fixed backup-policy-job and backup-policy-jobs commands to support Backup As A Service Amendment.           v5.4.0   Version 5.4.0 was released on 2022-10-06.     New commands     * N/A         Updated commands     * Updated instance-create and instance-update commands to support VNF Scalability.         Removed commands     * N/A           v5.3.0   Version 5.3.0 was released on 2022-09-23.     New commands     * Added ibmcloud is catalog-image-offerings and ibmcloud is catalog-image-offering commands to support Enterprise Image Sharing.         Updated commands     * Updated instance-create , instance-create-from-template , instance-template-create and instance-template-create-override-source-template commands to support Enterprise Image Sharing. * Updated ike-policy-create , ike-policy-update , ipsec-policy-create and ipsec-policy-update commands to support Additional Cipher Suites for VPN.         Removed commands     * N/A           v5.2.0   Version 5.2.0 was released on 2022-09-16.     New commands",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "What are the new commands?",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "ibmcld_16034-17328-19156",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Instance commands can now use an ID or name for the command option values.         Removed commands     * N/A           v1.7.0   Version 1.7.0 was released on 2021-10-07.     New commands     * N/A         Updated commands     * Update load-balancer, vpc-routing-table-route-create, snapshots, vpn-gateway and vpn-server commands with \"by name\" support. These commands can now use an ID or name for the command option values.         Removed commands     * N/A           v1.6.0   Version 1.6.0 was released on 2021-09-15.     New commands     * N/A         Updated commands     * Update load-balancer-create/load-balancer-listener-create/load-balancer-update/load-balancer-listener-update commands to support the load-balancer vnf support. * Update subnet, public gateway, image, floating IP, key, placement-group, flow-log, security group, virtual private endpoint gateway, dedicated host and volume commands with \"by name\" support. These commands can now use an ID or name for the command option values.         Removed commands     * N/A           v1.5.0   Version 1.5.0 was released on 2021-08-27.     New commands     * N/A         Updated commands     * Update instance-create/instance-update/instance-template-create commands to support the instance attached block storage bandwidth setting.         Removed commands     * N/A           v1.4.0   Version 1.4.0 was released on 2021-08-26.     New commands     * Add client-to-site VPN server commands (Beta).         Updated commands     * Update vpc/address-prefix/routing-table/route commands with \"by name\" support. These commands can now use an ID or name for the command option values. * Update network ACL and network ACL rule commands with \"by name\" support. These commands can now use an ID or name for the command option values.         Removed commands     * N/A",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "ibmcld_16034-12689-13797",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Version 3.4.0 was released on 2022-02-24.     New commands     * N/A         Updated commands     * Update instance-create, instance-update, instance-template-create, instance-template-create-override-source-template and instance-create-from-template commands to support metadata service. * Update instance-create and instance-create-from-template commands to support trusted profile.         Removed commands     * N/A           v3.3.0   Version 3.3.0 was released on 2022-02-17.     New commands     * N/A         Updated commands     * Update instance-create, instance-update, instance-template-create, instance-template-create-override-source-template and instance-create-from-template, commands to add support for vm-host-failure-policy.         Removed commands     * N/A           v3.2.0   Version 3.2.0 was released on 2022-02-11.     New commands     * N/A.         Updated commands     * Update instance-create, instance-update and volume-update commands to support resize boot volume.         Removed commands     * N/A           v3.1.0   Version 3.1.0 was released on 2022-01-28.     New commands",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "ibmcld_16034-7-1778",
+          "score": null,
+          "score_type": "contriever",
+          "text": " VPC CLI release notes   The following release notes are for the IBM Cloud® Virtual Private Cloud (VPC) command line interface (CLI).     v6.15.0   Version 6.15.0 was released on 2023-07-11.     New commands     * New commands image-obsolete and image-deprecate are introduced to support image lifecycle management.         Updated commands     * Added support for image lifecycle management in image-create, image-update, and images commands.         Removed commands     * N/A         Notes     * N/A           v6.14.1   Version 6.14.1 was released on 2023-06-30.     New commands     * N/A         Updated commands     * N/A         Removed commands     * N/A         Notes     * Fixed issue with using the SSH key generated from UI in CLI.           v6.14.0   Version 6.14.0 was released on 2023-06-23.     New commands     * N/A         Updated commands     * Added support for more algorithms in the SSH key key-create command.         Removed commands     * N/A           v6.13.0   Version 6.13.0 was released on 2023-06-22.     New commands     * N/A         Updated commands     * Added support for snapshot and backup cross region copy in snaphot-create, snapshots, backup-policy-plan-create and backup-policy-plan-update commands.         Removed commands     * N/A           v6.12.0   Version 6.12.0 was released on 2023-06-01.     New commands     * N/A         Updated commands     * Added support for fileshare mount targets in share commands (Beta).         Removed commands     * N/A         Notes     * Fixed bare-metal-server-network-interfaces, bare-metal-server-profiles and bare-metal-servers commands to print correct response values.           v6.11.1   Version 6.11.1 was released on 2023-05-03.     New commands     * N/A         Updated commands",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "ibmcld_16034-21578-23494",
+          "score": null,
+          "score_type": "contriever",
+          "text": " * Update --boot-volume, --volume-attach options of the instance-create command to support JSON format with source_snapshot property setting that supports restoring volume from source snapshot.           v0.8.4   Version 0.8.4 was released on 2021-05-18.     New commands     * Add commands instance-group-manager-actions, instance-group-manager-action, instance-group-manager-action-create, instance-group-manager-action-delete, instance-group-manager-action-update for scheduled scaling feature.         Updated commands     * Add --owner-type option for images list command to filter images by owner_type property. * Update instance-group-manager-create command for scheduled scaling feature.           v0.8.1   Version 0.8.1 was released on 2021-03-18.     New commands     * Add command instance-console to open an interactive serial console to a virtual server instance.         Updated commands     * Update load-balancer-listener-policy-rule-create and load-balancer-listener-policy-rule-update commands to add new body and query rule types.         Removed commands     * N/A           v0.8.0   Version 0.8.0 was released on 2021-03-11.     New commands     * Add instance-group-membership-update command.         Updated commands     * Add dedicated_host_only property to the operating system object in operating-systems, operating-system and image command output. * Update --max-members, --min-members options value's range to 1-1000 in the instance-group-manager-create and instance-group-manager-update commands. * Add API private endpoint support, only us-south and us-east regions are supported.         Removed commands     * N/A           v0.7.9   Version 0.7.9 was released on 2021-03-04.     New commands     * N/A         Updated commands     * Add new cipher suite DH19 and SHA512 option for VPN IPSec and IKE policy creation/updating commands.         Removed commands     * N/A           v0.7.8",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "ibmcld_16034-5546-7299",
+          "score": null,
+          "score_type": "contriever",
+          "text": " v6.2.0   Version 6.2.0 was released on 2022-12-14.     New commands     * N/A         Updated commands     * Updated volume-create command to support creation of volume from snapshot.         Removed commands     * N/A           v6.1.0   Version 6.1.0 was released on 2022-11-21.     New commands     * N/A         Updated commands     * Updated vpc-default-routing-table, vpc-routing-table , vpc-routing-table-create, vpc-routing-table-update commands to support Public Ingress Routing.         Removed commands     * N/A           v6.0.0   Version 6.0.0 was released on 2022-11-03.     New commands     * N/A         Updated commands     * Updated VPC API version to 2022-09-13.         Removed commands     * N/A         Note     * Fixed backup-policy-job and backup-policy-jobs commands to support Backup As A Service Amendment.           v5.4.0   Version 5.4.0 was released on 2022-10-06.     New commands     * N/A         Updated commands     * Updated instance-create and instance-update commands to support VNF Scalability.         Removed commands     * N/A           v5.3.0   Version 5.3.0 was released on 2022-09-23.     New commands     * Added ibmcloud is catalog-image-offerings and ibmcloud is catalog-image-offering commands to support Enterprise Image Sharing.         Updated commands     * Updated instance-create , instance-create-from-template , instance-template-create and instance-template-create-override-source-template commands to support Enterprise Image Sharing. * Updated ike-policy-create , ike-policy-update , ipsec-policy-create and ipsec-policy-update commands to support Additional Cipher Suites for VPN.         Removed commands     * N/A           v5.2.0   Version 5.2.0 was released on 2022-09-16.     New commands",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "The new commands introduced in version 6.15.0 of the IBM Cloud® Virtual Private Cloud (VPC) command line interface (CLI) are image-obsolete and image-deprecate. These commands support image lifecycle management, allowing users to manage the lifecycle of their custom images more effectively. The image-obsolete command can be used to mark an image as obsolete, indicating that it is no longer available to be used to provision an instance. The image-deprecate command can be used to mark an image as deprecated, discouraging its use before it becomes obsolete.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Summarization"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "3",
+      "task_id": "927077bd895f0c292618f4a34789bef3<::>3",
+      "question": "How do I use them?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "How does version 6.15.0 differ from 6.14.0?"
+        },
+        {
+          "role": "assistant",
+          "content": "Assuming the question is about the IBM Cloud® Virtual Private Cloud (VPC) command line interface (CLI),  version 6.15.0 includes the following changes over version 6.14.0. It introduces new commands image-obsolete and image-deprecate for image lifecycle management. It also adds support for image lifecycle management in image-create, image-update, and images commands and it fixes an issue with using the SSH key generated from UI in CLI."
+        },
+        {
+          "role": "user",
+          "content": "Tell me more about the new commands"
+        },
+        {
+          "role": "assistant",
+          "content": "The new commands introduced in version 6.15.0 of the IBM Cloud® Virtual Private Cloud (VPC) command line interface (CLI) are image-obsolete and image-deprecate. These commands support image lifecycle management, allowing users to manage the lifecycle of their custom images more effectively. The image-obsolete command can be used to mark an image as obsolete, indicating that it is no longer available to be used to provision an instance. The image-deprecate command can be used to mark an image as deprecated, discouraging its use before it becomes obsolete."
+        }
+      ],
+      "retrieval": {
+        "query": "How do I use them?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_12803-7-1683",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Exploring usage and offers   On the Usage and offers page of Partner Center, you can review your usage details, explore relevant offers and rewards from IBM Cloud®, and access tools and services.  To view and edit details about usage and offers, make sure you're assigned at least the editor role on the Partner Center account management service. For more information, see [Assigning access to account management services](https://cloud.ibm.com/docs/account?topic=account-account-servicesaccount-management-actions-roles).     Reviewing usage   In the Usage and offers tab of Partner Center, you can see your month-to-month usage and predicted usage in a high-level graph.    1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell) in the IBM Cloud console, and click Build > Usage and offers. 2. Move your cursor over each point of the graph to see the charges for that month. 3. To explore in-depth details, click Details.    Zoom  ![Example usage graph.](https://cloud.ibm.com/docs-content/v1/content/ff5860bfede49db3197c4bbba7f7123769bdc068/sell/images/Usage-graph.png)  Figure 1. An example of a usage graph from the Usage and offers page       Viewing rewards   Each month, IBM Cloud provides different rewards to help you grow your product. Rewards are given to accounts that complete tasks that are described in the Your rewards section of the Usage and offers page. To see your progress toward the month's rewards, go to the [Partner Center](https://cloud.ibm.com/partner-center/sell) in the IBM Cloud console, click Build > Usage and offers, and scroll until you see the Your rewards section. You can expand the section to see more details.  Zoom  !",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_12559-11559-13643",
+            "score": null,
+            "score_type": "contriever",
+            "text": " 11. Click Add to add your policy configuration to your policy summary. 12. Click Assign.         Step 8: View usage from all accounts     1. Log in to the Example Corp enterprise account. 2. In the IBM Cloud console, go to Manage > Billing and usage, and select Usage.  The Usage page displays the costs for all usage in your enterprise, which is broken down by account and account group. Usage information for classic infrastructure services is not included for the current billing period. For more information, see [Viewing usage for your classic infrastructure resources](https://cloud.ibm.com/docs/billing-usage?topic=billing-usage-infra-usage). 3. Click Marketing in the table to view usage within the account group. Similar to the enterprise level, usage is broken down by the account and account group. 4. To view usage by resource, go to the account level by clicking through account groups in the table or selecting the account from the Enterprise menu. Costs are shown for each type of resource that was used during the time frame.    Repeat the steps to view usage for the Development, Sales, Design, and Engineering account groups.  From the enterprise account, you can't view usage data for the resource plan or instance because it requires access within the account. Click Switch to the account to view data for the account. You need billing access to the resources and services in the account. See [Viewing your usage](https://cloud.ibm.com/docs/billing-usage?topic=billing-usage-viewingusage) for more information.  Data is shown in the enterprise account only for usage that is incurred by accounts in the enterprise. To view usage from before an account was added to the enterprise, log in to that account and select the relevant time frame.       Next steps   Now that you learned the basics of how to set up an enterprise, you can continue to add accounts, account groups, and users as your teams and cloud workloads grow. For more information, see [Managing your enterprise](https://cloud.ibm.com/docs/secure-enterprise?topic=secure-enterprise-create-enterprise).",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_12857-3454-5438",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Step 4: Create your service ID   After your programmatic name is review, you can create your service ID. A service ID is used to identify your service when you communicate with other IBM Cloud services, for example, when you submit metering usage data for your service. For more information, see [Creating and working with service IDs](https://cloud.ibm.com/docs/account?topic=account-serviceids&interface=ui).  You're also required to create an API key for your service ID. To create your API key, see [Creating an API key for a service ID](https://cloud.ibm.com/docs/account?topic=account-serviceidapikeys&interface=uicreate_service_key).       Step 5: Provide details for your product   When your service is published in the catalog, it's represented by a catalog entry and a product page. The contents of your catalog entry include your company or product logo, and a short description. The contents of your product page include a list of features, a detailed description, a link to your product's warranted documentation, and a description of your customer support experience.    1. Click Product details, and enter the URL to your company or product logo, for example http://svgur.com/i/TTP.svg. 2. Add a company logo. 3. Provide a short description about your service. 4. From the Category list, select the option that best fits how users might use your product, for example, Databases. Categories are used to organize similar products in the catalog based on common solutions, function, or use. 5. Enter keywords that users might use when they search the catalog for your service. 6. Provide the URL to the end user license agreement (EULA) that users must agree with to use your product. Do not include billing, payment, or tax terms in this agreement. 7. Provide a list of features that highlights your service's attributes and benefits for users.  Use a descriptive title and 1 - 2 sentences for each feature. You want the information to be visually scannable for users. 8.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_03776-7-2223",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Video - How can I manage billing and usage in IBM Cloud?   Learn about the IBM Cloud® billing options and tools that you can use to track your usage and manage invoicing and payments.    * Video transcript  IBM Cloud offers multiple billing options so you can tailor how you pay based on your resource usage and your organization's procurement practices. You get the most flexibility with a Pay-As-You-Go account. You pay only for the billable services that you use each month, with no long-term contracts or commitments. If you know you have a significant amount of usage, you can purchase a subscription to get a discount. With a subscription, you commit to a certain amount of usage over a period of time. The larger the subscription, the better the discount. You can choose to pay upfront or be billed monthly, quarterly, or annually.  As an account owner, you have full access to monitoring resource usage, viewing invoices, and managing payments in the console. However, if you want to delegate billing tasks to another user, you can assign a user an Identity and Access Management (IAM) policy with the Administrator role on the Billing account management service.  When you're ready to start tracking your resource usage and managing your billing and payment preferences, go to the Billing and usage section of the IBM Cloud console. Monitoring resource usage can help you understand what's coming in your next bill. On the Usage page, you can view current and past usage, and drill down by resource type to view the plans and instances in your account.  You can also export usage reports and choose from a high-level summary overview or a service instance view. If you use tags to organize your resources such as by team or cost center, you can sort your instance report by the tags to identify the associated usage.  Setting spending limits is another helpful way to keep an eye on usage in your account. You can set notifications for total account, runtime, container, and service spending. When you reach a percentage of the spending limit that you set, you are notified immediately by email.  To view your current balance, manage your payment method, or make a one-time payment, go to the Payments page.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_12857-5043-7164",
+            "score": null,
+            "score_type": "contriever",
+            "text": " 6. Provide the URL to the end user license agreement (EULA) that users must agree with to use your product. Do not include billing, payment, or tax terms in this agreement. 7. Provide a list of features that highlights your service's attributes and benefits for users.  Use a descriptive title and 1 - 2 sentences for each feature. You want the information to be visually scannable for users. 8. Provide a detailed description of your product that explains its value and what users gain by using it. The detailed description is displayed at the beginning of your product page in the catalog. You can expand on the short description that you provide for your catalog entry, but don't repeat it. 9. Provide links to high-quality images or videos to help illustrate what your product is, its value, and user benefits. The supported media types are images, videos in MP4 or WebM file format, and videos hosted on YouTube or Vimeo.  Some examples of effective media include an introductory walkthrough of your product, an explanation of what your product is and why users might want to use it, or a comparison of certain features. 10. Provide a link to documentation that helps users understand and learn more about how to use your service.         Step 6: Define your support experience   Provide details that help users understand how to get support if they encounter issues when they use the Operator bundle. For more information about providing support information, see [Defining your support experience](https://cloud.ibm.com/docs/sell?topic=sell-sw-support-details).  To define your product's support experience, use the following steps:    1. Click Support. 2. Select your product's support provider and complete the support statement field. For the support statement, describe the provided support for your product and add any additional support information that isn't provided in the other fields.    1. If you select Community for your support provider, provide the URL for the support community. 2. If you select Third-party for your support provider, use the following steps to complete the necessary fields.    3.",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_12803-7-1683",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Exploring usage and offers   On the Usage and offers page of Partner Center, you can review your usage details, explore relevant offers and rewards from IBM Cloud®, and access tools and services.  To view and edit details about usage and offers, make sure you're assigned at least the editor role on the Partner Center account management service. For more information, see [Assigning access to account management services](https://cloud.ibm.com/docs/account?topic=account-account-servicesaccount-management-actions-roles).     Reviewing usage   In the Usage and offers tab of Partner Center, you can see your month-to-month usage and predicted usage in a high-level graph.    1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell) in the IBM Cloud console, and click Build > Usage and offers. 2. Move your cursor over each point of the graph to see the charges for that month. 3. To explore in-depth details, click Details.    Zoom  ![Example usage graph.](https://cloud.ibm.com/docs-content/v1/content/ff5860bfede49db3197c4bbba7f7123769bdc068/sell/images/Usage-graph.png)  Figure 1. An example of a usage graph from the Usage and offers page       Viewing rewards   Each month, IBM Cloud provides different rewards to help you grow your product. Rewards are given to accounts that complete tasks that are described in the Your rewards section of the Usage and offers page. To see your progress toward the month's rewards, go to the [Partner Center](https://cloud.ibm.com/partner-center/sell) in the IBM Cloud console, click Build > Usage and offers, and scroll until you see the Your rewards section. You can expand the section to see more details.  Zoom  !",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_12559-11559-13643",
+            "score": null,
+            "score_type": "contriever",
+            "text": " 11. Click Add to add your policy configuration to your policy summary. 12. Click Assign.         Step 8: View usage from all accounts     1. Log in to the Example Corp enterprise account. 2. In the IBM Cloud console, go to Manage > Billing and usage, and select Usage.  The Usage page displays the costs for all usage in your enterprise, which is broken down by account and account group. Usage information for classic infrastructure services is not included for the current billing period. For more information, see [Viewing usage for your classic infrastructure resources](https://cloud.ibm.com/docs/billing-usage?topic=billing-usage-infra-usage). 3. Click Marketing in the table to view usage within the account group. Similar to the enterprise level, usage is broken down by the account and account group. 4. To view usage by resource, go to the account level by clicking through account groups in the table or selecting the account from the Enterprise menu. Costs are shown for each type of resource that was used during the time frame.    Repeat the steps to view usage for the Development, Sales, Design, and Engineering account groups.  From the enterprise account, you can't view usage data for the resource plan or instance because it requires access within the account. Click Switch to the account to view data for the account. You need billing access to the resources and services in the account. See [Viewing your usage](https://cloud.ibm.com/docs/billing-usage?topic=billing-usage-viewingusage) for more information.  Data is shown in the enterprise account only for usage that is incurred by accounts in the enterprise. To view usage from before an account was added to the enterprise, log in to that account and select the relevant time frame.       Next steps   Now that you learned the basics of how to set up an enterprise, you can continue to add accounts, account groups, and users as your teams and cloud workloads grow. For more information, see [Managing your enterprise](https://cloud.ibm.com/docs/secure-enterprise?topic=secure-enterprise-create-enterprise).",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_12857-3454-5438",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Step 4: Create your service ID   After your programmatic name is review, you can create your service ID. A service ID is used to identify your service when you communicate with other IBM Cloud services, for example, when you submit metering usage data for your service. For more information, see [Creating and working with service IDs](https://cloud.ibm.com/docs/account?topic=account-serviceids&interface=ui).  You're also required to create an API key for your service ID. To create your API key, see [Creating an API key for a service ID](https://cloud.ibm.com/docs/account?topic=account-serviceidapikeys&interface=uicreate_service_key).       Step 5: Provide details for your product   When your service is published in the catalog, it's represented by a catalog entry and a product page. The contents of your catalog entry include your company or product logo, and a short description. The contents of your product page include a list of features, a detailed description, a link to your product's warranted documentation, and a description of your customer support experience.    1. Click Product details, and enter the URL to your company or product logo, for example http://svgur.com/i/TTP.svg. 2. Add a company logo. 3. Provide a short description about your service. 4. From the Category list, select the option that best fits how users might use your product, for example, Databases. Categories are used to organize similar products in the catalog based on common solutions, function, or use. 5. Enter keywords that users might use when they search the catalog for your service. 6. Provide the URL to the end user license agreement (EULA) that users must agree with to use your product. Do not include billing, payment, or tax terms in this agreement. 7. Provide a list of features that highlights your service's attributes and benefits for users.  Use a descriptive title and 1 - 2 sentences for each feature. You want the information to be visually scannable for users. 8.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_03776-7-2223",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Video - How can I manage billing and usage in IBM Cloud?   Learn about the IBM Cloud® billing options and tools that you can use to track your usage and manage invoicing and payments.    * Video transcript  IBM Cloud offers multiple billing options so you can tailor how you pay based on your resource usage and your organization's procurement practices. You get the most flexibility with a Pay-As-You-Go account. You pay only for the billable services that you use each month, with no long-term contracts or commitments. If you know you have a significant amount of usage, you can purchase a subscription to get a discount. With a subscription, you commit to a certain amount of usage over a period of time. The larger the subscription, the better the discount. You can choose to pay upfront or be billed monthly, quarterly, or annually.  As an account owner, you have full access to monitoring resource usage, viewing invoices, and managing payments in the console. However, if you want to delegate billing tasks to another user, you can assign a user an Identity and Access Management (IAM) policy with the Administrator role on the Billing account management service.  When you're ready to start tracking your resource usage and managing your billing and payment preferences, go to the Billing and usage section of the IBM Cloud console. Monitoring resource usage can help you understand what's coming in your next bill. On the Usage page, you can view current and past usage, and drill down by resource type to view the plans and instances in your account.  You can also export usage reports and choose from a high-level summary overview or a service instance view. If you use tags to organize your resources such as by team or cost center, you can sort your instance report by the tags to identify the associated usage.  Setting spending limits is another helpful way to keep an eye on usage in your account. You can set notifications for total account, runtime, container, and service spending. When you reach a percentage of the spending limit that you set, you are notified immediately by email.  To view your current balance, manage your payment method, or make a one-time payment, go to the Payments page.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_12857-5043-7164",
+            "score": null,
+            "score_type": "contriever",
+            "text": " 6. Provide the URL to the end user license agreement (EULA) that users must agree with to use your product. Do not include billing, payment, or tax terms in this agreement. 7. Provide a list of features that highlights your service's attributes and benefits for users.  Use a descriptive title and 1 - 2 sentences for each feature. You want the information to be visually scannable for users. 8. Provide a detailed description of your product that explains its value and what users gain by using it. The detailed description is displayed at the beginning of your product page in the catalog. You can expand on the short description that you provide for your catalog entry, but don't repeat it. 9. Provide links to high-quality images or videos to help illustrate what your product is, its value, and user benefits. The supported media types are images, videos in MP4 or WebM file format, and videos hosted on YouTube or Vimeo.  Some examples of effective media include an introductory walkthrough of your product, an explanation of what your product is and why users might want to use it, or a comparison of certain features. 10. Provide a link to documentation that helps users understand and learn more about how to use your service.         Step 6: Define your support experience   Provide details that help users understand how to get support if they encounter issues when they use the Operator bundle. For more information about providing support information, see [Defining your support experience](https://cloud.ibm.com/docs/sell?topic=sell-sw-support-details).  To define your product's support experience, use the following steps:    1. Click Support. 2. Select your product's support provider and complete the support statement field. For the support statement, describe the provided support for your product and add any additional support information that isn't provided in the other fields.    1. If you select Community for your support provider, provide the URL for the support community. 2. If you select Third-party for your support provider, use the following steps to complete the necessary fields.    3.",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "To use these commands, you can use the following syntax:\n```\nibmcloud vpc image-obsolete IMAGE_NAME\nibmcloud vpc image-deprecate IMAGE_NAME\n```\nFor example, to mark an image named \"my-image\" as obsolete, you can use the following command:\n```\nibmcloud vpc image-obsolete my-image\n```\nSimilarly, to mark the same image as deprecated, you can use the following command:\n```\nibmcloud vpc image-deprecate my-image\n```\nNote that these commands require the `vpc` plugin to be installed in your terminal.If you haven't already done so, you can install it by running the following command:\n```\nibmcloud plugin install vpc\n```\nAfter installing the plugin, you should be able to use the `image-obsolete` and `image-deprecate` commands without any issues.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "ibmcld_12803-7-1683",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Exploring usage and offers   On the Usage and offers page of Partner Center, you can review your usage details, explore relevant offers and rewards from IBM Cloud®, and access tools and services.  To view and edit details about usage and offers, make sure you're assigned at least the editor role on the Partner Center account management service. For more information, see [Assigning access to account management services](https://cloud.ibm.com/docs/account?topic=account-account-servicesaccount-management-actions-roles).     Reviewing usage   In the Usage and offers tab of Partner Center, you can see your month-to-month usage and predicted usage in a high-level graph.    1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell) in the IBM Cloud console, and click Build > Usage and offers. 2. Move your cursor over each point of the graph to see the charges for that month. 3. To explore in-depth details, click Details.    Zoom  ![Example usage graph.](https://cloud.ibm.com/docs-content/v1/content/ff5860bfede49db3197c4bbba7f7123769bdc068/sell/images/Usage-graph.png)  Figure 1. An example of a usage graph from the Usage and offers page       Viewing rewards   Each month, IBM Cloud provides different rewards to help you grow your product. Rewards are given to accounts that complete tasks that are described in the Your rewards section of the Usage and offers page. To see your progress toward the month's rewards, go to the [Partner Center](https://cloud.ibm.com/partner-center/sell) in the IBM Cloud console, click Build > Usage and offers, and scroll until you see the Your rewards section. You can expand the section to see more details.  Zoom  !",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "ibmcld_12559-11559-13643",
+          "score": null,
+          "score_type": "contriever",
+          "text": " 11. Click Add to add your policy configuration to your policy summary. 12. Click Assign.         Step 8: View usage from all accounts     1. Log in to the Example Corp enterprise account. 2. In the IBM Cloud console, go to Manage > Billing and usage, and select Usage.  The Usage page displays the costs for all usage in your enterprise, which is broken down by account and account group. Usage information for classic infrastructure services is not included for the current billing period. For more information, see [Viewing usage for your classic infrastructure resources](https://cloud.ibm.com/docs/billing-usage?topic=billing-usage-infra-usage). 3. Click Marketing in the table to view usage within the account group. Similar to the enterprise level, usage is broken down by the account and account group. 4. To view usage by resource, go to the account level by clicking through account groups in the table or selecting the account from the Enterprise menu. Costs are shown for each type of resource that was used during the time frame.    Repeat the steps to view usage for the Development, Sales, Design, and Engineering account groups.  From the enterprise account, you can't view usage data for the resource plan or instance because it requires access within the account. Click Switch to the account to view data for the account. You need billing access to the resources and services in the account. See [Viewing your usage](https://cloud.ibm.com/docs/billing-usage?topic=billing-usage-viewingusage) for more information.  Data is shown in the enterprise account only for usage that is incurred by accounts in the enterprise. To view usage from before an account was added to the enterprise, log in to that account and select the relevant time frame.       Next steps   Now that you learned the basics of how to set up an enterprise, you can continue to add accounts, account groups, and users as your teams and cloud workloads grow. For more information, see [Managing your enterprise](https://cloud.ibm.com/docs/secure-enterprise?topic=secure-enterprise-create-enterprise).",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "ibmcld_12857-3454-5438",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Step 4: Create your service ID   After your programmatic name is review, you can create your service ID. A service ID is used to identify your service when you communicate with other IBM Cloud services, for example, when you submit metering usage data for your service. For more information, see [Creating and working with service IDs](https://cloud.ibm.com/docs/account?topic=account-serviceids&interface=ui).  You're also required to create an API key for your service ID. To create your API key, see [Creating an API key for a service ID](https://cloud.ibm.com/docs/account?topic=account-serviceidapikeys&interface=uicreate_service_key).       Step 5: Provide details for your product   When your service is published in the catalog, it's represented by a catalog entry and a product page. The contents of your catalog entry include your company or product logo, and a short description. The contents of your product page include a list of features, a detailed description, a link to your product's warranted documentation, and a description of your customer support experience.    1. Click Product details, and enter the URL to your company or product logo, for example http://svgur.com/i/TTP.svg. 2. Add a company logo. 3. Provide a short description about your service. 4. From the Category list, select the option that best fits how users might use your product, for example, Databases. Categories are used to organize similar products in the catalog based on common solutions, function, or use. 5. Enter keywords that users might use when they search the catalog for your service. 6. Provide the URL to the end user license agreement (EULA) that users must agree with to use your product. Do not include billing, payment, or tax terms in this agreement. 7. Provide a list of features that highlights your service's attributes and benefits for users.  Use a descriptive title and 1 - 2 sentences for each feature. You want the information to be visually scannable for users. 8.",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "ibmcld_03776-7-2223",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Video - How can I manage billing and usage in IBM Cloud?   Learn about the IBM Cloud® billing options and tools that you can use to track your usage and manage invoicing and payments.    * Video transcript  IBM Cloud offers multiple billing options so you can tailor how you pay based on your resource usage and your organization's procurement practices. You get the most flexibility with a Pay-As-You-Go account. You pay only for the billable services that you use each month, with no long-term contracts or commitments. If you know you have a significant amount of usage, you can purchase a subscription to get a discount. With a subscription, you commit to a certain amount of usage over a period of time. The larger the subscription, the better the discount. You can choose to pay upfront or be billed monthly, quarterly, or annually.  As an account owner, you have full access to monitoring resource usage, viewing invoices, and managing payments in the console. However, if you want to delegate billing tasks to another user, you can assign a user an Identity and Access Management (IAM) policy with the Administrator role on the Billing account management service.  When you're ready to start tracking your resource usage and managing your billing and payment preferences, go to the Billing and usage section of the IBM Cloud console. Monitoring resource usage can help you understand what's coming in your next bill. On the Usage page, you can view current and past usage, and drill down by resource type to view the plans and instances in your account.  You can also export usage reports and choose from a high-level summary overview or a service instance view. If you use tags to organize your resources such as by team or cost center, you can sort your instance report by the tags to identify the associated usage.  Setting spending limits is another helpful way to keep an eye on usage in your account. You can set notifications for total account, runtime, container, and service spending. When you reach a percentage of the spending limit that you set, you are notified immediately by email.  To view your current balance, manage your payment method, or make a one-time payment, go to the Payments page.",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "ibmcld_12857-5043-7164",
+          "score": null,
+          "score_type": "contriever",
+          "text": " 6. Provide the URL to the end user license agreement (EULA) that users must agree with to use your product. Do not include billing, payment, or tax terms in this agreement. 7. Provide a list of features that highlights your service's attributes and benefits for users.  Use a descriptive title and 1 - 2 sentences for each feature. You want the information to be visually scannable for users. 8. Provide a detailed description of your product that explains its value and what users gain by using it. The detailed description is displayed at the beginning of your product page in the catalog. You can expand on the short description that you provide for your catalog entry, but don't repeat it. 9. Provide links to high-quality images or videos to help illustrate what your product is, its value, and user benefits. The supported media types are images, videos in MP4 or WebM file format, and videos hosted on YouTube or Vimeo.  Some examples of effective media include an introductory walkthrough of your product, an explanation of what your product is and why users might want to use it, or a comparison of certain features. 10. Provide a link to documentation that helps users understand and learn more about how to use your service.         Step 6: Define your support experience   Provide details that help users understand how to get support if they encounter issues when they use the Operator bundle. For more information about providing support information, see [Defining your support experience](https://cloud.ibm.com/docs/sell?topic=sell-sw-support-details).  To define your product's support experience, use the following steps:    1. Click Support. 2. Select your product's support provider and complete the support statement field. For the support statement, describe the provided support for your product and add any additional support information that isn't provided in the other fields.    1. If you select Community for your support provider, provide the URL for the support community. 2. If you select Third-party for your support provider, use the following steps to complete the necessary fields.    3.",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "To use the new `image-obsolete` and `image-deprecate` commands, you need to specify the name or ID of the custom image with the `IMAGE` variable.  To mark an image as deprecated, use the following command:  ```  ibmcloud is image-deprecate IMAGE  ``` - To mark an image as obsolete, use the following command:  ```  ibmcloud is image-obsolete IMAGE  ``` These commands allow you to make an immediate status change. Alternatively, you can schedule these status changes for a future date and time by using the `ibmcloud is image-update` command with the `--deprecate-at` or `--obsolete-at` options. Finally, please note that you can only make an immediate status change if a future status change is not scheduled. If you have a scheduled status change, you need to remove it first.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "How-To"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "4",
+      "task_id": "927077bd895f0c292618f4a34789bef3<::>4",
+      "question": "Can I use the scheduling functionality to schedule a status change to obsolete in a month and to deprecated in two months?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "How does version 6.15.0 differ from 6.14.0?"
+        },
+        {
+          "role": "assistant",
+          "content": "Assuming the question is about the IBM Cloud® Virtual Private Cloud (VPC) command line interface (CLI),  version 6.15.0 includes the following changes over version 6.14.0. It introduces new commands image-obsolete and image-deprecate for image lifecycle management. It also adds support for image lifecycle management in image-create, image-update, and images commands and it fixes an issue with using the SSH key generated from UI in CLI."
+        },
+        {
+          "role": "user",
+          "content": "Tell me more about the new commands"
+        },
+        {
+          "role": "assistant",
+          "content": "The new commands introduced in version 6.15.0 of the IBM Cloud® Virtual Private Cloud (VPC) command line interface (CLI) are image-obsolete and image-deprecate. These commands support image lifecycle management, allowing users to manage the lifecycle of their custom images more effectively. The image-obsolete command can be used to mark an image as obsolete, indicating that it is no longer available to be used to provision an instance. The image-deprecate command can be used to mark an image as deprecated, discouraging its use before it becomes obsolete."
+        },
+        {
+          "role": "user",
+          "content": "How do I use them?"
+        },
+        {
+          "role": "assistant",
+          "content": "To use the new `image-obsolete` and `image-deprecate` commands, you need to specify the name or ID of the custom image with the `IMAGE` variable.  To mark an image as deprecated, use the following command:  ```  ibmcloud is image-deprecate IMAGE  ``` - To mark an image as obsolete, use the following command:  ```  ibmcloud is image-obsolete IMAGE  ``` These commands allow you to make an immediate status change. Alternatively, you can schedule these status changes for a future date and time by using the `ibmcloud is image-update` command with the `--deprecate-at` or `--obsolete-at` options. Finally, please note that you can only make an immediate status change if a future status change is not scheduled. If you have a scheduled status change, you need to remove it first."
+        }
+      ],
+      "retrieval": {
+        "query": "Can I use the scheduling functionality to schedule a status change to obsolete in a month and to deprecated in two months?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_15647-26643-28392",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Thus, the date of 30 September 2023 at 8:00 p.m. in the North American Central Standard Time Zone (CST) would be 2023-09-30T20:00:00-06:00  When scheduling the date and time, you can't use your current date and time. For example, if it is 8 a.m. on June 12, then the scheduled date and time must be after 8 a.m. on June 12. If you define both the deprecate-at and obsolete-at dates, the obsolete-at date must be after the deprecate-at date.  ibmcloud is image-update IMAGE [--deprecate-at YYYY-MM-DDThh:mm:ss+hh:mm] [--obsolete-at YYYY-MM-DDThh:mm:ss+hh:mm]  If you want to change the deprecate-at and obsolete-at date and time entries, you can run these commands again. The previous dates and times are then replaced with the new dates and times.       Remove a previously scheduled custom image lifecycle status change by using the CLI   You can remove a scheduled status change by using the --reset-deprecate-at or --reset-obsolete-at options. If you use either of these options with the ibmcloud is image-update command, the date and time are removed from the image. The image is no longer scheduled for that status change.  ibmcloud is image-update IMAGE [--reset-deprecate-at] [--reset-obsolete-at]  If you use both the --reset-deprecate-at and --reset-obsolete-at options, the image status returns to available.       Change the custom image lifecycle status by using the API   You can change the lifecycle status of an IBM Cloud VPC custom image by using the application programming interface (API). You can make an immediate status change or schedule a status change to happen later.  To make an immediate status change, use one of the following examples. For the$image_id variable, specify the ID of the custom image for the status change.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_15646-26617-28366",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Thus, the date of 30 September 2023 at 8:00 p.m. in the North American Central Standard Time Zone (CST) would be 2023-09-30T20:00:00-06:00  When scheduling the date and time, you can't use your current date and time. For example, if it is 8 a.m. on June 12, then the scheduled date and time must be after 8 a.m. on June 12. If you define both the deprecate-at and obsolete-at dates, the obsolete-at date must be after the deprecate-at date.  ibmcloud is image-update IMAGE [--deprecate-at YYYY-MM-DDThh:mm:ss+hh:mm] [--obsolete-at YYYY-MM-DDThh:mm:ss+hh:mm]  If you want to change the deprecate-at and obsolete-at date and time entries, you can run these commands again. The previous dates and times are then replaced with the new dates and times.       Remove a previously scheduled custom image lifecycle status change by using the CLI   You can remove a scheduled status change by using the --reset-deprecate-at or --reset-obsolete-at options. If you use either of these options with the ibmcloud is image-update command, the date and time are removed from the image. The image is no longer scheduled for that status change.  ibmcloud is image-update IMAGE [--reset-deprecate-at] [--reset-obsolete-at]  If you use both the --reset-deprecate-at and --reset-obsolete-at options, the image status returns to available.       Change the custom image lifecycle status by using the API   You can change the lifecycle status of an IBM Cloud VPC custom image by using the application programming interface (API). You can make an immediate status change or schedule a status change to happen later.  To make an immediate status change, use one of the following examples. For the$image_id variable, specify the ID of the custom image for the status change.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_15647-2393-4239",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Schedule lifecycle Opens the Schedule image lifecycle panel. You can make an immediate status change or schedule a statue change for a future date and time. You can schedule a single status change or schedule the complete lifecycle of the images. The image statuses are:<br><br><br><br> * available: The image can be used to create an instance.<br> * deprecated: The image is still available to use to provision and instance. Using the deprecated status can discourage use of the image before the status changes to obsolete.<br> * obsolete: The image is not available to use to provision an instancce.<br> * Schedule complete lifecycle: You can schedule both the deprecated and obsolete status changes at the same time.<br><br><br><br>You can move back and forth between the three statuses. Only the statuses you can change to are displayed. You can schedule status changes by by using calendar date and time or number of days. The obsolescence dates must always be after the deprecation date.   Delete Delete the custom image.<br><br>If you want to delete a custom image in a private catalog, see [Deleting a custom image in a private catalog](https://cloud.ibm.com/docs/vpc?topic=vpc-planning-custom-imagesdeleting-private-catalog-custom-image-vpc).          Listing custom images by using the CLI   You can list all of the IBM Cloud VPC custom images in your region by using the command-line interface (CLI).  To list all custom images by using the CLI, use the ibmcloud is images command. Custom images are private to the account where they are created, so the --visibility option is private.  ibmcloud is images --visibility private  For more information, see [ibmcloud is images](https://cloud.ibm.com/docs/vpc?topic=vpc-infrastructure-cli-plugin-vpc-referenceimages) in the VPC CLI reference page.       Listing all images by using the API",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_15646-2393-4239",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Schedule lifecycle Opens the Schedule image lifecycle panel. You can make an immediate status change or schedule a statue change for a future date and time. You can schedule a single status change or schedule the complete lifecycle of the images. The image statuses are:<br><br><br><br> * available: The image can be used to create an instance.<br> * deprecated: The image is still available to use to provision and instance. Using the deprecated status can discourage use of the image before the status changes to obsolete.<br> * obsolete: The image is not available to use to provision an instancce.<br> * Schedule complete lifecycle: You can schedule both the deprecated and obsolete status changes at the same time.<br><br><br><br>You can move back and forth between the three statuses. Only the statuses you can change to are displayed. You can schedule status changes by by using calendar date and time or number of days. The obsolescence dates must always be after the deprecation date.   Delete Delete the custom image.<br><br>If you want to delete a custom image in a private catalog, see [Deleting a custom image in a private catalog](https://cloud.ibm.com/docs/vpc?topic=vpc-planning-custom-imagesdeleting-private-catalog-custom-image-vpc).          Listing custom images by using the CLI   You can list all of the IBM Cloud VPC custom images in your region by using the command-line interface (CLI).  To list all custom images by using the CLI, use the ibmcloud is images command. Custom images are private to the account where they are created, so the --visibility option is private.  ibmcloud is images --visibility private  For more information, see [ibmcloud is images](https://cloud.ibm.com/docs/vpc?topic=vpc-infrastructure-cli-plugin-vpc-referenceimages) in the VPC CLI reference page.       Listing all images by using the API",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_15647-25269-26966",
+            "score": null,
+            "score_type": "contriever",
+            "text": " You can make an immediate status change by using the ibmcloud is image-deprecate or ibmcloud is image-obsolete commands. You can also schedule these status changes for a future date and time by using the ibmcloud is image-update command. Specify the name or ID of the custom image with the IMAGE variable.  To make an immediate status change, use one of the following examples.  You can make an immediate status change only if a future status change is not scheduled. To remove a scheduled status change, see [Remove a scheduled custom image lifecycle status change by using the CLI](https://cloud.ibm.com/docs/vpc?topic=vpc-managing-custom-images&interface=uischedule-reset-ilm-status-change-cli). After you remove the scheduled status change, you can make an immediate status change.    * Change the image lifecycle status to deprecate.  ibmcloud is image-deprecate IMAGE * Change the image lifecycle status to obsolete.  ibmcloud is image-obsolete IMAGE    To schedule a status change, use the following example.  For the deprecate-at or obsolete-at option, specify a date in the ISO 8601 (YYYY-MM-DDThh:mm:ss+hh:mm) date and time format.    * YYYY is the four digit year * MM is the two digit month * DD is the two digit day * T separates the date and time information * hh is the two digit hours * mm is the two digit minutes * +hh:mm or -hh:mm is the UTC time zone    Thus, the date of 30 September 2023 at 8:00 p.m. in the North American Central Standard Time Zone (CST) would be 2023-09-30T20:00:00-06:00  When scheduling the date and time, you can't use your current date and time. For example, if it is 8 a.m. on June 12, then the scheduled date and time must be after 8 a.m. on June 12.",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_15647-26643-28392",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Thus, the date of 30 September 2023 at 8:00 p.m. in the North American Central Standard Time Zone (CST) would be 2023-09-30T20:00:00-06:00  When scheduling the date and time, you can't use your current date and time. For example, if it is 8 a.m. on June 12, then the scheduled date and time must be after 8 a.m. on June 12. If you define both the deprecate-at and obsolete-at dates, the obsolete-at date must be after the deprecate-at date.  ibmcloud is image-update IMAGE [--deprecate-at YYYY-MM-DDThh:mm:ss+hh:mm] [--obsolete-at YYYY-MM-DDThh:mm:ss+hh:mm]  If you want to change the deprecate-at and obsolete-at date and time entries, you can run these commands again. The previous dates and times are then replaced with the new dates and times.       Remove a previously scheduled custom image lifecycle status change by using the CLI   You can remove a scheduled status change by using the --reset-deprecate-at or --reset-obsolete-at options. If you use either of these options with the ibmcloud is image-update command, the date and time are removed from the image. The image is no longer scheduled for that status change.  ibmcloud is image-update IMAGE [--reset-deprecate-at] [--reset-obsolete-at]  If you use both the --reset-deprecate-at and --reset-obsolete-at options, the image status returns to available.       Change the custom image lifecycle status by using the API   You can change the lifecycle status of an IBM Cloud VPC custom image by using the application programming interface (API). You can make an immediate status change or schedule a status change to happen later.  To make an immediate status change, use one of the following examples. For the$image_id variable, specify the ID of the custom image for the status change.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_15646-26617-28366",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Thus, the date of 30 September 2023 at 8:00 p.m. in the North American Central Standard Time Zone (CST) would be 2023-09-30T20:00:00-06:00  When scheduling the date and time, you can't use your current date and time. For example, if it is 8 a.m. on June 12, then the scheduled date and time must be after 8 a.m. on June 12. If you define both the deprecate-at and obsolete-at dates, the obsolete-at date must be after the deprecate-at date.  ibmcloud is image-update IMAGE [--deprecate-at YYYY-MM-DDThh:mm:ss+hh:mm] [--obsolete-at YYYY-MM-DDThh:mm:ss+hh:mm]  If you want to change the deprecate-at and obsolete-at date and time entries, you can run these commands again. The previous dates and times are then replaced with the new dates and times.       Remove a previously scheduled custom image lifecycle status change by using the CLI   You can remove a scheduled status change by using the --reset-deprecate-at or --reset-obsolete-at options. If you use either of these options with the ibmcloud is image-update command, the date and time are removed from the image. The image is no longer scheduled for that status change.  ibmcloud is image-update IMAGE [--reset-deprecate-at] [--reset-obsolete-at]  If you use both the --reset-deprecate-at and --reset-obsolete-at options, the image status returns to available.       Change the custom image lifecycle status by using the API   You can change the lifecycle status of an IBM Cloud VPC custom image by using the application programming interface (API). You can make an immediate status change or schedule a status change to happen later.  To make an immediate status change, use one of the following examples. For the$image_id variable, specify the ID of the custom image for the status change.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_15647-2393-4239",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Schedule lifecycle Opens the Schedule image lifecycle panel. You can make an immediate status change or schedule a statue change for a future date and time. You can schedule a single status change or schedule the complete lifecycle of the images. The image statuses are:<br><br><br><br> * available: The image can be used to create an instance.<br> * deprecated: The image is still available to use to provision and instance. Using the deprecated status can discourage use of the image before the status changes to obsolete.<br> * obsolete: The image is not available to use to provision an instancce.<br> * Schedule complete lifecycle: You can schedule both the deprecated and obsolete status changes at the same time.<br><br><br><br>You can move back and forth between the three statuses. Only the statuses you can change to are displayed. You can schedule status changes by by using calendar date and time or number of days. The obsolescence dates must always be after the deprecation date.   Delete Delete the custom image.<br><br>If you want to delete a custom image in a private catalog, see [Deleting a custom image in a private catalog](https://cloud.ibm.com/docs/vpc?topic=vpc-planning-custom-imagesdeleting-private-catalog-custom-image-vpc).          Listing custom images by using the CLI   You can list all of the IBM Cloud VPC custom images in your region by using the command-line interface (CLI).  To list all custom images by using the CLI, use the ibmcloud is images command. Custom images are private to the account where they are created, so the --visibility option is private.  ibmcloud is images --visibility private  For more information, see [ibmcloud is images](https://cloud.ibm.com/docs/vpc?topic=vpc-infrastructure-cli-plugin-vpc-referenceimages) in the VPC CLI reference page.       Listing all images by using the API",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_15646-2393-4239",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Schedule lifecycle Opens the Schedule image lifecycle panel. You can make an immediate status change or schedule a statue change for a future date and time. You can schedule a single status change or schedule the complete lifecycle of the images. The image statuses are:<br><br><br><br> * available: The image can be used to create an instance.<br> * deprecated: The image is still available to use to provision and instance. Using the deprecated status can discourage use of the image before the status changes to obsolete.<br> * obsolete: The image is not available to use to provision an instancce.<br> * Schedule complete lifecycle: You can schedule both the deprecated and obsolete status changes at the same time.<br><br><br><br>You can move back and forth between the three statuses. Only the statuses you can change to are displayed. You can schedule status changes by by using calendar date and time or number of days. The obsolescence dates must always be after the deprecation date.   Delete Delete the custom image.<br><br>If you want to delete a custom image in a private catalog, see [Deleting a custom image in a private catalog](https://cloud.ibm.com/docs/vpc?topic=vpc-planning-custom-imagesdeleting-private-catalog-custom-image-vpc).          Listing custom images by using the CLI   You can list all of the IBM Cloud VPC custom images in your region by using the command-line interface (CLI).  To list all custom images by using the CLI, use the ibmcloud is images command. Custom images are private to the account where they are created, so the --visibility option is private.  ibmcloud is images --visibility private  For more information, see [ibmcloud is images](https://cloud.ibm.com/docs/vpc?topic=vpc-infrastructure-cli-plugin-vpc-referenceimages) in the VPC CLI reference page.       Listing all images by using the API",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_15647-25269-26966",
+            "score": null,
+            "score_type": "contriever",
+            "text": " You can make an immediate status change by using the ibmcloud is image-deprecate or ibmcloud is image-obsolete commands. You can also schedule these status changes for a future date and time by using the ibmcloud is image-update command. Specify the name or ID of the custom image with the IMAGE variable.  To make an immediate status change, use one of the following examples.  You can make an immediate status change only if a future status change is not scheduled. To remove a scheduled status change, see [Remove a scheduled custom image lifecycle status change by using the CLI](https://cloud.ibm.com/docs/vpc?topic=vpc-managing-custom-images&interface=uischedule-reset-ilm-status-change-cli). After you remove the scheduled status change, you can make an immediate status change.    * Change the image lifecycle status to deprecate.  ibmcloud is image-deprecate IMAGE * Change the image lifecycle status to obsolete.  ibmcloud is image-obsolete IMAGE    To schedule a status change, use the following example.  For the deprecate-at or obsolete-at option, specify a date in the ISO 8601 (YYYY-MM-DDThh:mm:ss+hh:mm) date and time format.    * YYYY is the four digit year * MM is the two digit month * DD is the two digit day * T separates the date and time information * hh is the two digit hours * mm is the two digit minutes * +hh:mm or -hh:mm is the UTC time zone    Thus, the date of 30 September 2023 at 8:00 p.m. in the North American Central Standard Time Zone (CST) would be 2023-09-30T20:00:00-06:00  When scheduling the date and time, you can't use your current date and time. For example, if it is 8 a.m. on June 12, then the scheduled date and time must be after 8 a.m. on June 12.",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "To schedule a status change to obsolete in a month and to deprecated in two months, you can use the following command:\n```\nibmcloud is image-update IMAGE --deprecate-at 2023-07-01T00:00:00+00:00 --obsolete-at 2023-08-01T00:00:00+00:00\n```\nThis will schedule the status change to obsolete the image on July 1st, 2023, and to deprecate it on August 1st, 2023.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "ibmcld_15647-26643-28392",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Thus, the date of 30 September 2023 at 8:00 p.m. in the North American Central Standard Time Zone (CST) would be 2023-09-30T20:00:00-06:00  When scheduling the date and time, you can't use your current date and time. For example, if it is 8 a.m. on June 12, then the scheduled date and time must be after 8 a.m. on June 12. If you define both the deprecate-at and obsolete-at dates, the obsolete-at date must be after the deprecate-at date.  ibmcloud is image-update IMAGE [--deprecate-at YYYY-MM-DDThh:mm:ss+hh:mm] [--obsolete-at YYYY-MM-DDThh:mm:ss+hh:mm]  If you want to change the deprecate-at and obsolete-at date and time entries, you can run these commands again. The previous dates and times are then replaced with the new dates and times.       Remove a previously scheduled custom image lifecycle status change by using the CLI   You can remove a scheduled status change by using the --reset-deprecate-at or --reset-obsolete-at options. If you use either of these options with the ibmcloud is image-update command, the date and time are removed from the image. The image is no longer scheduled for that status change.  ibmcloud is image-update IMAGE [--reset-deprecate-at] [--reset-obsolete-at]  If you use both the --reset-deprecate-at and --reset-obsolete-at options, the image status returns to available.       Change the custom image lifecycle status by using the API   You can change the lifecycle status of an IBM Cloud VPC custom image by using the application programming interface (API). You can make an immediate status change or schedule a status change to happen later.  To make an immediate status change, use one of the following examples. For the$image_id variable, specify the ID of the custom image for the status change.",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "ibmcld_15646-26617-28366",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Thus, the date of 30 September 2023 at 8:00 p.m. in the North American Central Standard Time Zone (CST) would be 2023-09-30T20:00:00-06:00  When scheduling the date and time, you can't use your current date and time. For example, if it is 8 a.m. on June 12, then the scheduled date and time must be after 8 a.m. on June 12. If you define both the deprecate-at and obsolete-at dates, the obsolete-at date must be after the deprecate-at date.  ibmcloud is image-update IMAGE [--deprecate-at YYYY-MM-DDThh:mm:ss+hh:mm] [--obsolete-at YYYY-MM-DDThh:mm:ss+hh:mm]  If you want to change the deprecate-at and obsolete-at date and time entries, you can run these commands again. The previous dates and times are then replaced with the new dates and times.       Remove a previously scheduled custom image lifecycle status change by using the CLI   You can remove a scheduled status change by using the --reset-deprecate-at or --reset-obsolete-at options. If you use either of these options with the ibmcloud is image-update command, the date and time are removed from the image. The image is no longer scheduled for that status change.  ibmcloud is image-update IMAGE [--reset-deprecate-at] [--reset-obsolete-at]  If you use both the --reset-deprecate-at and --reset-obsolete-at options, the image status returns to available.       Change the custom image lifecycle status by using the API   You can change the lifecycle status of an IBM Cloud VPC custom image by using the application programming interface (API). You can make an immediate status change or schedule a status change to happen later.  To make an immediate status change, use one of the following examples. For the$image_id variable, specify the ID of the custom image for the status change.",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "ibmcld_15647-2393-4239",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Schedule lifecycle Opens the Schedule image lifecycle panel. You can make an immediate status change or schedule a statue change for a future date and time. You can schedule a single status change or schedule the complete lifecycle of the images. The image statuses are:<br><br><br><br> * available: The image can be used to create an instance.<br> * deprecated: The image is still available to use to provision and instance. Using the deprecated status can discourage use of the image before the status changes to obsolete.<br> * obsolete: The image is not available to use to provision an instancce.<br> * Schedule complete lifecycle: You can schedule both the deprecated and obsolete status changes at the same time.<br><br><br><br>You can move back and forth between the three statuses. Only the statuses you can change to are displayed. You can schedule status changes by by using calendar date and time or number of days. The obsolescence dates must always be after the deprecation date.   Delete Delete the custom image.<br><br>If you want to delete a custom image in a private catalog, see [Deleting a custom image in a private catalog](https://cloud.ibm.com/docs/vpc?topic=vpc-planning-custom-imagesdeleting-private-catalog-custom-image-vpc).          Listing custom images by using the CLI   You can list all of the IBM Cloud VPC custom images in your region by using the command-line interface (CLI).  To list all custom images by using the CLI, use the ibmcloud is images command. Custom images are private to the account where they are created, so the --visibility option is private.  ibmcloud is images --visibility private  For more information, see [ibmcloud is images](https://cloud.ibm.com/docs/vpc?topic=vpc-infrastructure-cli-plugin-vpc-referenceimages) in the VPC CLI reference page.       Listing all images by using the API",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "ibmcld_15646-2393-4239",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Schedule lifecycle Opens the Schedule image lifecycle panel. You can make an immediate status change or schedule a statue change for a future date and time. You can schedule a single status change or schedule the complete lifecycle of the images. The image statuses are:<br><br><br><br> * available: The image can be used to create an instance.<br> * deprecated: The image is still available to use to provision and instance. Using the deprecated status can discourage use of the image before the status changes to obsolete.<br> * obsolete: The image is not available to use to provision an instancce.<br> * Schedule complete lifecycle: You can schedule both the deprecated and obsolete status changes at the same time.<br><br><br><br>You can move back and forth between the three statuses. Only the statuses you can change to are displayed. You can schedule status changes by by using calendar date and time or number of days. The obsolescence dates must always be after the deprecation date.   Delete Delete the custom image.<br><br>If you want to delete a custom image in a private catalog, see [Deleting a custom image in a private catalog](https://cloud.ibm.com/docs/vpc?topic=vpc-planning-custom-imagesdeleting-private-catalog-custom-image-vpc).          Listing custom images by using the CLI   You can list all of the IBM Cloud VPC custom images in your region by using the command-line interface (CLI).  To list all custom images by using the CLI, use the ibmcloud is images command. Custom images are private to the account where they are created, so the --visibility option is private.  ibmcloud is images --visibility private  For more information, see [ibmcloud is images](https://cloud.ibm.com/docs/vpc?topic=vpc-infrastructure-cli-plugin-vpc-referenceimages) in the VPC CLI reference page.       Listing all images by using the API",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "ibmcld_15647-25269-26966",
+          "score": null,
+          "score_type": "contriever",
+          "text": " You can make an immediate status change by using the ibmcloud is image-deprecate or ibmcloud is image-obsolete commands. You can also schedule these status changes for a future date and time by using the ibmcloud is image-update command. Specify the name or ID of the custom image with the IMAGE variable.  To make an immediate status change, use one of the following examples.  You can make an immediate status change only if a future status change is not scheduled. To remove a scheduled status change, see [Remove a scheduled custom image lifecycle status change by using the CLI](https://cloud.ibm.com/docs/vpc?topic=vpc-managing-custom-images&interface=uischedule-reset-ilm-status-change-cli). After you remove the scheduled status change, you can make an immediate status change.    * Change the image lifecycle status to deprecate.  ibmcloud is image-deprecate IMAGE * Change the image lifecycle status to obsolete.  ibmcloud is image-obsolete IMAGE    To schedule a status change, use the following example.  For the deprecate-at or obsolete-at option, specify a date in the ISO 8601 (YYYY-MM-DDThh:mm:ss+hh:mm) date and time format.    * YYYY is the four digit year * MM is the two digit month * DD is the two digit day * T separates the date and time information * hh is the two digit hours * mm is the two digit minutes * +hh:mm or -hh:mm is the UTC time zone    Thus, the date of 30 September 2023 at 8:00 p.m. in the North American Central Standard Time Zone (CST) would be 2023-09-30T20:00:00-06:00  When scheduling the date and time, you can't use your current date and time. For example, if it is 8 a.m. on June 12, then the scheduled date and time must be after 8 a.m. on June 12.",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "Yes, as I described previously, you can use the scheduling functionality to schedule a status change to obsolete and deprecated in the future using the `ibmcloud is image-update` command with the `--obsolete-at` and `--deprecate-at` options. Note, if you define both the deprecate-at and obsolete-at dates, the obsolete-at date must be after the deprecate-at date. In addition, when scheduling the date and time, you can't use your current date and time but a month and two months in the future is acceptable.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Clarification"
+        ]
+      }
+    },
+    {
+      "turn_id": "5",
+      "task_id": "927077bd895f0c292618f4a34789bef3<::>5",
+      "question": "Thank you!",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "How does version 6.15.0 differ from 6.14.0?"
+        },
+        {
+          "role": "assistant",
+          "content": "Assuming the question is about the IBM Cloud® Virtual Private Cloud (VPC) command line interface (CLI),  version 6.15.0 includes the following changes over version 6.14.0. It introduces new commands image-obsolete and image-deprecate for image lifecycle management. It also adds support for image lifecycle management in image-create, image-update, and images commands and it fixes an issue with using the SSH key generated from UI in CLI."
+        },
+        {
+          "role": "user",
+          "content": "Tell me more about the new commands"
+        },
+        {
+          "role": "assistant",
+          "content": "The new commands introduced in version 6.15.0 of the IBM Cloud® Virtual Private Cloud (VPC) command line interface (CLI) are image-obsolete and image-deprecate. These commands support image lifecycle management, allowing users to manage the lifecycle of their custom images more effectively. The image-obsolete command can be used to mark an image as obsolete, indicating that it is no longer available to be used to provision an instance. The image-deprecate command can be used to mark an image as deprecated, discouraging its use before it becomes obsolete."
+        },
+        {
+          "role": "user",
+          "content": "How do I use them?"
+        },
+        {
+          "role": "assistant",
+          "content": "To use the new `image-obsolete` and `image-deprecate` commands, you need to specify the name or ID of the custom image with the `IMAGE` variable.  To mark an image as deprecated, use the following command:  ```  ibmcloud is image-deprecate IMAGE  ``` - To mark an image as obsolete, use the following command:  ```  ibmcloud is image-obsolete IMAGE  ``` These commands allow you to make an immediate status change. Alternatively, you can schedule these status changes for a future date and time by using the `ibmcloud is image-update` command with the `--deprecate-at` or `--obsolete-at` options. Finally, please note that you can only make an immediate status change if a future status change is not scheduled. If you have a scheduled status change, you need to remove it first."
+        },
+        {
+          "role": "user",
+          "content": "Can I use the scheduling functionality to schedule a status change to obsolete in a month and to deprecated in two months?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, as I described previously, you can use the scheduling functionality to schedule a status change to obsolete and deprecated in the future using the `ibmcloud is image-update` command with the `--obsolete-at` and `--deprecate-at` options. Note, if you define both the deprecate-at and obsolete-at dates, the obsolete-at date must be after the deprecate-at date. In addition, when scheduling the date and time, you can't use your current date and time but a month and two months in the future is acceptable."
+        }
+      ],
+      "retrieval": {
+        "query": "Thank you!",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_16335-0-6",
+            "score": null,
+            "score_type": "contriever",
+            "text": "       ",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_01049-0-2",
+            "score": null,
+            "score_type": "contriever",
+            "text": "   ",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_00004-0-0",
+            "score": null,
+            "score_type": "contriever",
+            "text": " ",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_13708-1572-2135",
+            "score": null,
+            "score_type": "contriever",
+            "text": " h h<br><br>x<br><br>χ<br><br>ɦ 0068<br><br>0078<br><br>03C7<br><br>0266 hot, hero   J dʒ<br><br>ʤ 0064+0292<br><br>02A4 Jane, huge   k k 006B kill, make, back   l l 006C low, hall   L l̩ 006C+0329 candle   m m 006D man, hum, summer   n n 006E never, sun, winner   p p 0070 pit, rip   r r<br><br>ɹ<br><br>ɾ 0072<br><br>0279<br><br>027E borrow, rake   s s 0073 seal, miss, ceiling   S ʃ 0283 ship, wish   t t 0074 tip, pet   T θ 03B8 thing, Beth   v v 0076 vase, save   w w 0077 wear, quick   y j 006A yes, Virginia   z z 007A zip, phase   Z ʒ 0292 treasure, garage",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_06945-5213-6133",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"location\": { \"begin\": 28, \"end\": 36 } } ], \"relevance\": 0.596757 }, { \"text\": \"parents\", \"mentions\": { \"text\": \"parents\", \"location\": { \"begin\": 52, \"end\": 59 } } ], \"relevance\": 0.568336 }, { \"text\": \"mother\", \"mentions\": { \"text\": \"mother\", \"location\": { \"begin\": 66, \"end\": 72 } } ], \"relevance\": 0.755562 }, { \"text\": \"Mr. Collins\", \"mentions\": { \"text\": \"Mr. Collins\", \"location\": { \"begin\": 118, \"end\": 129 } } ], \"relevance\": 0.945891 } ] } ], \"url\": \"https://www.gutenberg.org/files/1342/1342-h/1342-h.htmlink2HCH0020\", \"Subject\": \"Parental love\", \"Year\": \"1813/01/01\", \"Book\": \"Pride and Prejudice\", \"Author\": \"Jane Austen\", \"Quote\": [ \"From this day you must be a stranger to one of your parents. Your mother will never see you again if you do not marry Mr. Collins, and I will never see you again if you do.\" ], \"metadata\": { \"name\": \"favorites2.json\" }, \"Speaker\": \"Mr. Bennett\" }, \"notices\": [] } Show more",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_16335-0-6",
+            "score": null,
+            "score_type": "contriever",
+            "text": "       ",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_01049-0-2",
+            "score": null,
+            "score_type": "contriever",
+            "text": "   ",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_00004-0-0",
+            "score": null,
+            "score_type": "contriever",
+            "text": " ",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_13708-1572-2135",
+            "score": null,
+            "score_type": "contriever",
+            "text": " h h<br><br>x<br><br>χ<br><br>ɦ 0068<br><br>0078<br><br>03C7<br><br>0266 hot, hero   J dʒ<br><br>ʤ 0064+0292<br><br>02A4 Jane, huge   k k 006B kill, make, back   l l 006C low, hall   L l̩ 006C+0329 candle   m m 006D man, hum, summer   n n 006E never, sun, winner   p p 0070 pit, rip   r r<br><br>ɹ<br><br>ɾ 0072<br><br>0279<br><br>027E borrow, rake   s s 0073 seal, miss, ceiling   S ʃ 0283 ship, wish   t t 0074 tip, pet   T θ 03B8 thing, Beth   v v 0076 vase, save   w w 0077 wear, quick   y j 006A yes, Virginia   z z 007A zip, phase   Z ʒ 0292 treasure, garage",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_06945-5213-6133",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"location\": { \"begin\": 28, \"end\": 36 } } ], \"relevance\": 0.596757 }, { \"text\": \"parents\", \"mentions\": { \"text\": \"parents\", \"location\": { \"begin\": 52, \"end\": 59 } } ], \"relevance\": 0.568336 }, { \"text\": \"mother\", \"mentions\": { \"text\": \"mother\", \"location\": { \"begin\": 66, \"end\": 72 } } ], \"relevance\": 0.755562 }, { \"text\": \"Mr. Collins\", \"mentions\": { \"text\": \"Mr. Collins\", \"location\": { \"begin\": 118, \"end\": 129 } } ], \"relevance\": 0.945891 } ] } ], \"url\": \"https://www.gutenberg.org/files/1342/1342-h/1342-h.htmlink2HCH0020\", \"Subject\": \"Parental love\", \"Year\": \"1813/01/01\", \"Book\": \"Pride and Prejudice\", \"Author\": \"Jane Austen\", \"Quote\": [ \"From this day you must be a stranger to one of your parents. Your mother will never see you again if you do not marry Mr. Collins, and I will never see you again if you do.\" ], \"metadata\": { \"name\": \"favorites2.json\" }, \"Speaker\": \"Mr. Bennett\" }, \"notices\": [] } Show more",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "You're welcome!Is there anything else I can help you with?",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "ibmcld_16335-0-6",
+          "score": null,
+          "score_type": "contriever",
+          "text": "       ",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "ibmcld_01049-0-2",
+          "score": null,
+          "score_type": "contriever",
+          "text": "   ",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "ibmcld_00004-0-0",
+          "score": null,
+          "score_type": "contriever",
+          "text": " ",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "ibmcld_13708-1572-2135",
+          "score": null,
+          "score_type": "contriever",
+          "text": " h h<br><br>x<br><br>χ<br><br>ɦ 0068<br><br>0078<br><br>03C7<br><br>0266 hot, hero   J dʒ<br><br>ʤ 0064+0292<br><br>02A4 Jane, huge   k k 006B kill, make, back   l l 006C low, hall   L l̩ 006C+0329 candle   m m 006D man, hum, summer   n n 006E never, sun, winner   p p 0070 pit, rip   r r<br><br>ɹ<br><br>ɾ 0072<br><br>0279<br><br>027E borrow, rake   s s 0073 seal, miss, ceiling   S ʃ 0283 ship, wish   t t 0074 tip, pet   T θ 03B8 thing, Beth   v v 0076 vase, save   w w 0077 wear, quick   y j 006A yes, Virginia   z z 007A zip, phase   Z ʒ 0292 treasure, garage",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "ibmcld_06945-5213-6133",
+          "score": null,
+          "score_type": "contriever",
+          "text": " \"location\": { \"begin\": 28, \"end\": 36 } } ], \"relevance\": 0.596757 }, { \"text\": \"parents\", \"mentions\": { \"text\": \"parents\", \"location\": { \"begin\": 52, \"end\": 59 } } ], \"relevance\": 0.568336 }, { \"text\": \"mother\", \"mentions\": { \"text\": \"mother\", \"location\": { \"begin\": 66, \"end\": 72 } } ], \"relevance\": 0.755562 }, { \"text\": \"Mr. Collins\", \"mentions\": { \"text\": \"Mr. Collins\", \"location\": { \"begin\": 118, \"end\": 129 } } ], \"relevance\": 0.945891 } ] } ], \"url\": \"https://www.gutenberg.org/files/1342/1342-h/1342-h.htmlink2HCH0020\", \"Subject\": \"Parental love\", \"Year\": \"1813/01/01\", \"Book\": \"Pride and Prejudice\", \"Author\": \"Jane Austen\", \"Quote\": [ \"From this day you must be a stranger to one of your parents. Your mother will never see you again if you do not marry Mr. Collins, and I will never see you again if you do.\" ], \"metadata\": { \"name\": \"favorites2.json\" }, \"Speaker\": \"Mr. Bennett\" }, \"notices\": [] } Show more",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "You're welcome! I'm glad I could help. Let me know if you have any other questions.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "CONVERSATIONAL",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "6",
+      "task_id": "927077bd895f0c292618f4a34789bef3<::>6",
+      "question": "BTW, how about version 6.16.0? Does it include any other changes?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "How does version 6.15.0 differ from 6.14.0?"
+        },
+        {
+          "role": "assistant",
+          "content": "Assuming the question is about the IBM Cloud® Virtual Private Cloud (VPC) command line interface (CLI),  version 6.15.0 includes the following changes over version 6.14.0. It introduces new commands image-obsolete and image-deprecate for image lifecycle management. It also adds support for image lifecycle management in image-create, image-update, and images commands and it fixes an issue with using the SSH key generated from UI in CLI."
+        },
+        {
+          "role": "user",
+          "content": "Tell me more about the new commands"
+        },
+        {
+          "role": "assistant",
+          "content": "The new commands introduced in version 6.15.0 of the IBM Cloud® Virtual Private Cloud (VPC) command line interface (CLI) are image-obsolete and image-deprecate. These commands support image lifecycle management, allowing users to manage the lifecycle of their custom images more effectively. The image-obsolete command can be used to mark an image as obsolete, indicating that it is no longer available to be used to provision an instance. The image-deprecate command can be used to mark an image as deprecated, discouraging its use before it becomes obsolete."
+        },
+        {
+          "role": "user",
+          "content": "How do I use them?"
+        },
+        {
+          "role": "assistant",
+          "content": "To use the new `image-obsolete` and `image-deprecate` commands, you need to specify the name or ID of the custom image with the `IMAGE` variable.  To mark an image as deprecated, use the following command:  ```  ibmcloud is image-deprecate IMAGE  ``` - To mark an image as obsolete, use the following command:  ```  ibmcloud is image-obsolete IMAGE  ``` These commands allow you to make an immediate status change. Alternatively, you can schedule these status changes for a future date and time by using the `ibmcloud is image-update` command with the `--deprecate-at` or `--obsolete-at` options. Finally, please note that you can only make an immediate status change if a future status change is not scheduled. If you have a scheduled status change, you need to remove it first."
+        },
+        {
+          "role": "user",
+          "content": "Can I use the scheduling functionality to schedule a status change to obsolete in a month and to deprecated in two months?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, as I described previously, you can use the scheduling functionality to schedule a status change to obsolete and deprecated in the future using the `ibmcloud is image-update` command with the `--obsolete-at` and `--deprecate-at` options. Note, if you define both the deprecate-at and obsolete-at dates, the obsolete-at date must be after the deprecate-at date. In addition, when scheduling the date and time, you can't use your current date and time but a month and two months in the future is acceptable."
+        },
+        {
+          "role": "user",
+          "content": "Thank you!"
+        },
+        {
+          "role": "assistant",
+          "content": "You're welcome! I'm glad I could help. Let me know if you have any other questions."
+        }
+      ],
+      "retrieval": {
+        "query": "BTW, how about version 6.16.0? Does it include any other changes?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_00861-230015-230974",
+            "score": null,
+            "score_type": "contriever",
+            "text": " v14.16.1   npm --version 6.14.12   jq --version jq-1.6   yq --version yq version 2.4.1   yq3 --version yq version 3.4.1   yq4 --version yq version 4.6.2   kubectl version --client Client Version: version.Info{Major:\"1\", Minor:\"20\", GitVersion:\"v1.20.5\", GitCommit:\"6b1d87acf3c8253c123756b9e61dac642678305f\", GitTreeState:\"clean\", BuildDate:\"2021-03-18T01:10:43Z\", GoVersion:\"go1.15.8\", Compiler:\"gc\", Platform:\"linux/amd64\"}   buildctl --version buildctl github.com/moby/buildkit v0.8.2 9065b18ba4633c75862befca8188de4338d9f94a   helm version --client Client: &version.Version{SemVer:\"v2.17.0\", GitCommit:\"a690bad98af45b015bd3da1a41f6218b1a451dbe\", GitTreeState:\"clean\"}   helm3 version --client version.BuildInfo{Version:\"v3.5.3\", GitCommit:\"041ce5a2c17a58be0fcd5f5e16fb3e7e95fea622\", GitTreeState:\"dirty\", GoVersion:\"go1.15.8\"}   ibmcloud -version ibmcloud version 1.4.0+4705d79-2021-02-24T21:18:06+00:00   ibmcloud plugin list Listing installed plug-ins...",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_00861-237281-238251",
+            "score": null,
+            "score_type": "contriever",
+            "text": " To view the contents of version 2.10, from the running image, type default_versions.sh. This image includes the following tools:   node --version v12.20.0   npm --version 6.14.9   jq --version jq-1.6   yq --version yq version 2.4.1   yq3 --version yq version 3.4.1   kubectl version --client Client Version: version.Info{Major:\"1\", Minor:\"17+\", GitVersion:\"v1.17.16-rc.0\", GitCommit:\"737e2c461a2999fa242d39e77b9252d0eee7167e\", GitTreeState:\"clean\", BuildDate:\"2020-12-09T11:14:02Z\", GoVersion:\"go1.13.15\", Compiler:\"gc\", Platform:\"linux/amd64\"}   buildctl --version buildctl github.com/moby/buildkit v0.8.0 73fe4736135645a342abc7b587bba0994cccf0f9   helm version --client Client: &version.Version{SemVer:\"v2.17.0\", GitCommit:\"a690bad98af45b015bd3da1a41f6218b1a451dbe\", GitTreeState:\"clean\"}   helm3 version --client version.BuildInfo{Version:\"v3.4.2\", GitCommit:\"23dd3af5e19a02d4f4baa5b2f242645a1a3af629\", GitTreeState:\"clean\", GoVersion:\"go1.14.13\"}   ibmcloud -version",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_00861-233607-234578",
+            "score": null,
+            "score_type": "contriever",
+            "text": " To view the contents of version 2.11, from the running image, type default_versions.sh. This image includes the following tools:   node --version v12.20.1   npm --version 6.14.11   jq --version jq-1.6   yq --version yq version 2.4.1   yq3 --version yq version 3.4.1   kubectl version --client Client Version: version.Info{Major:\"1\", Minor:\"17+\", GitVersion:\"v1.17.16-rc.0\", GitCommit:\"737e2c461a2999fa242d39e77b9252d0eee7167e\", GitTreeState:\"clean\", BuildDate:\"2020-12-09T11:14:02Z\", GoVersion:\"go1.13.15\", Compiler:\"gc\", Platform:\"linux/amd64\"}   buildctl --version buildctl github.com/moby/buildkit v0.8.0 73fe4736135645a342abc7b587bba0994cccf0f9   helm version --client Client: &version.Version{SemVer:\"v2.17.0\", GitCommit:\"a690bad98af45b015bd3da1a41f6218b1a451dbe\", GitTreeState:\"clean\"}   helm3 version --client version.BuildInfo{Version:\"v3.4.2\", GitCommit:\"23dd3af5e19a02d4f4baa5b2f242645a1a3af629\", GitTreeState:\"clean\", GoVersion:\"go1.14.13\"}   ibmcloud -version",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_00861-240810-241878",
+            "score": null,
+            "score_type": "contriever",
+            "text": " To view the contents of version 2.9, from the running image, type default_versions.sh. This image includes the following tools:   node --version v12.18.3   npm --version 6.14.8   jq --version jq-1.6   yq --version yq version 2.4.1   kubectl version --client Client Version: version.Info{Major:\"1\", Minor:\"17\", GitVersion:\"v1.17.11\", GitCommit:\"ea5f00d93211b7c80247bf607cfa422ad6fb5347\", GitTreeState:\"clean\", BuildDate:\"2020-08-13T15:20:25Z\", GoVersion:\"go1.13.15\", Compiler:\"gc\", Platform:\"linux/amd64\"}   buildctl --version buildctl github.com/moby/buildkit v0.7.2 22e230744171b4442101731951bbbecf97796ea5   helm version --client Client: &version.Version{SemVer:\"v2.16.10\", GitCommit:\"bceca24a91639f045f22ab0f41e47589a932cf5e\", GitTreeState:\"clean\"}   helm3 version --client version.BuildInfo{Version:\"v3.3.1\", GitCommit:\"249e5215cde0c3fa72e27eb7a30e8d55c9696144\", GitTreeState:\"clean\", GoVersion:\"go1.14.7\"}   ibmcloud -version ibmcloud version 1.2.1+29ade2b-2020-09-04T12:46:49+00:00   ibmcloud plugin list Listing installed plug-ins...  Plugin Name Version Status",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_10062-24150-25459",
+            "score": null,
+            "score_type": "contriever",
+            "text": " * Image tags: 1.11.0-7, 1.16.2-8, 1.17.0-9, 1.18.1-8, and 1.19.0-3. * Supported cluster versions: 4.3 - 4.6 * Images are now signed. * Resources that are deployed by the cluster autoscaler add-on are now linked with the corresponding source code and build URLs. * Updates the Go version to 1.15.5.         Change log for patch update 1.0.1_146, released 03 December 2020   Review the changes in version 1.0.1_146 of the cluster autoscaler add-on.    * Image tags: 1.15.4-4, 1.16.2-7, 1.17.0-8, 1.18.1-7, and 1.19.0-2. * Supported cluster versions: 4.3 - 4.6 * Updates the cluster autoscaler to run as non-root. * Adds a feature to validate secrets before the autoscaler pods are initialized.         Change log for patch update 1.0.1_128, released 27 October 2020   Review the changes in version 1.0.1_128 of the cluster autoscaler add-on.    * Image tags: 1.15.4-4, 1.16.2-6, 1.17.0-7, 1.18.1-6, and 1.19.0-1. * Supported cluster versions: 4.3 - 4.5 * Updates the Go version to 1.15.2.         Change log for patch update 1.0.1_124, released 16 October 2020   Review the changes in version 1.0.1_124 of the cluster autoscaler add-on.    * Image tags: 1.15.4-4, 1.16.2-6, 1.17.0-7, 1.18.1-6, and 1.19.0-1. * Supported cluster versions: 4.3 - 4.5 * Exposes the --new-pod-scale-up-delay option in the ConfigMap.",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_00861-230015-230974",
+            "score": null,
+            "score_type": "contriever",
+            "text": " v14.16.1   npm --version 6.14.12   jq --version jq-1.6   yq --version yq version 2.4.1   yq3 --version yq version 3.4.1   yq4 --version yq version 4.6.2   kubectl version --client Client Version: version.Info{Major:\"1\", Minor:\"20\", GitVersion:\"v1.20.5\", GitCommit:\"6b1d87acf3c8253c123756b9e61dac642678305f\", GitTreeState:\"clean\", BuildDate:\"2021-03-18T01:10:43Z\", GoVersion:\"go1.15.8\", Compiler:\"gc\", Platform:\"linux/amd64\"}   buildctl --version buildctl github.com/moby/buildkit v0.8.2 9065b18ba4633c75862befca8188de4338d9f94a   helm version --client Client: &version.Version{SemVer:\"v2.17.0\", GitCommit:\"a690bad98af45b015bd3da1a41f6218b1a451dbe\", GitTreeState:\"clean\"}   helm3 version --client version.BuildInfo{Version:\"v3.5.3\", GitCommit:\"041ce5a2c17a58be0fcd5f5e16fb3e7e95fea622\", GitTreeState:\"dirty\", GoVersion:\"go1.15.8\"}   ibmcloud -version ibmcloud version 1.4.0+4705d79-2021-02-24T21:18:06+00:00   ibmcloud plugin list Listing installed plug-ins...",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_00861-237281-238251",
+            "score": null,
+            "score_type": "contriever",
+            "text": " To view the contents of version 2.10, from the running image, type default_versions.sh. This image includes the following tools:   node --version v12.20.0   npm --version 6.14.9   jq --version jq-1.6   yq --version yq version 2.4.1   yq3 --version yq version 3.4.1   kubectl version --client Client Version: version.Info{Major:\"1\", Minor:\"17+\", GitVersion:\"v1.17.16-rc.0\", GitCommit:\"737e2c461a2999fa242d39e77b9252d0eee7167e\", GitTreeState:\"clean\", BuildDate:\"2020-12-09T11:14:02Z\", GoVersion:\"go1.13.15\", Compiler:\"gc\", Platform:\"linux/amd64\"}   buildctl --version buildctl github.com/moby/buildkit v0.8.0 73fe4736135645a342abc7b587bba0994cccf0f9   helm version --client Client: &version.Version{SemVer:\"v2.17.0\", GitCommit:\"a690bad98af45b015bd3da1a41f6218b1a451dbe\", GitTreeState:\"clean\"}   helm3 version --client version.BuildInfo{Version:\"v3.4.2\", GitCommit:\"23dd3af5e19a02d4f4baa5b2f242645a1a3af629\", GitTreeState:\"clean\", GoVersion:\"go1.14.13\"}   ibmcloud -version",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_00861-233607-234578",
+            "score": null,
+            "score_type": "contriever",
+            "text": " To view the contents of version 2.11, from the running image, type default_versions.sh. This image includes the following tools:   node --version v12.20.1   npm --version 6.14.11   jq --version jq-1.6   yq --version yq version 2.4.1   yq3 --version yq version 3.4.1   kubectl version --client Client Version: version.Info{Major:\"1\", Minor:\"17+\", GitVersion:\"v1.17.16-rc.0\", GitCommit:\"737e2c461a2999fa242d39e77b9252d0eee7167e\", GitTreeState:\"clean\", BuildDate:\"2020-12-09T11:14:02Z\", GoVersion:\"go1.13.15\", Compiler:\"gc\", Platform:\"linux/amd64\"}   buildctl --version buildctl github.com/moby/buildkit v0.8.0 73fe4736135645a342abc7b587bba0994cccf0f9   helm version --client Client: &version.Version{SemVer:\"v2.17.0\", GitCommit:\"a690bad98af45b015bd3da1a41f6218b1a451dbe\", GitTreeState:\"clean\"}   helm3 version --client version.BuildInfo{Version:\"v3.4.2\", GitCommit:\"23dd3af5e19a02d4f4baa5b2f242645a1a3af629\", GitTreeState:\"clean\", GoVersion:\"go1.14.13\"}   ibmcloud -version",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_00861-240810-241878",
+            "score": null,
+            "score_type": "contriever",
+            "text": " To view the contents of version 2.9, from the running image, type default_versions.sh. This image includes the following tools:   node --version v12.18.3   npm --version 6.14.8   jq --version jq-1.6   yq --version yq version 2.4.1   kubectl version --client Client Version: version.Info{Major:\"1\", Minor:\"17\", GitVersion:\"v1.17.11\", GitCommit:\"ea5f00d93211b7c80247bf607cfa422ad6fb5347\", GitTreeState:\"clean\", BuildDate:\"2020-08-13T15:20:25Z\", GoVersion:\"go1.13.15\", Compiler:\"gc\", Platform:\"linux/amd64\"}   buildctl --version buildctl github.com/moby/buildkit v0.7.2 22e230744171b4442101731951bbbecf97796ea5   helm version --client Client: &version.Version{SemVer:\"v2.16.10\", GitCommit:\"bceca24a91639f045f22ab0f41e47589a932cf5e\", GitTreeState:\"clean\"}   helm3 version --client version.BuildInfo{Version:\"v3.3.1\", GitCommit:\"249e5215cde0c3fa72e27eb7a30e8d55c9696144\", GitTreeState:\"clean\", GoVersion:\"go1.14.7\"}   ibmcloud -version ibmcloud version 1.2.1+29ade2b-2020-09-04T12:46:49+00:00   ibmcloud plugin list Listing installed plug-ins...  Plugin Name Version Status",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_10062-24150-25459",
+            "score": null,
+            "score_type": "contriever",
+            "text": " * Image tags: 1.11.0-7, 1.16.2-8, 1.17.0-9, 1.18.1-8, and 1.19.0-3. * Supported cluster versions: 4.3 - 4.6 * Images are now signed. * Resources that are deployed by the cluster autoscaler add-on are now linked with the corresponding source code and build URLs. * Updates the Go version to 1.15.5.         Change log for patch update 1.0.1_146, released 03 December 2020   Review the changes in version 1.0.1_146 of the cluster autoscaler add-on.    * Image tags: 1.15.4-4, 1.16.2-7, 1.17.0-8, 1.18.1-7, and 1.19.0-2. * Supported cluster versions: 4.3 - 4.6 * Updates the cluster autoscaler to run as non-root. * Adds a feature to validate secrets before the autoscaler pods are initialized.         Change log for patch update 1.0.1_128, released 27 October 2020   Review the changes in version 1.0.1_128 of the cluster autoscaler add-on.    * Image tags: 1.15.4-4, 1.16.2-6, 1.17.0-7, 1.18.1-6, and 1.19.0-1. * Supported cluster versions: 4.3 - 4.5 * Updates the Go version to 1.15.2.         Change log for patch update 1.0.1_124, released 16 October 2020   Review the changes in version 1.0.1_124 of the cluster autoscaler add-on.    * Image tags: 1.15.4-4, 1.16.2-6, 1.17.0-7, 1.18.1-6, and 1.19.0-1. * Supported cluster versions: 4.3 - 4.5 * Exposes the --new-pod-scale-up-delay option in the ConfigMap.",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Assistant:",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "ibmcld_00861-230015-230974",
+          "score": null,
+          "score_type": "contriever",
+          "text": " v14.16.1   npm --version 6.14.12   jq --version jq-1.6   yq --version yq version 2.4.1   yq3 --version yq version 3.4.1   yq4 --version yq version 4.6.2   kubectl version --client Client Version: version.Info{Major:\"1\", Minor:\"20\", GitVersion:\"v1.20.5\", GitCommit:\"6b1d87acf3c8253c123756b9e61dac642678305f\", GitTreeState:\"clean\", BuildDate:\"2021-03-18T01:10:43Z\", GoVersion:\"go1.15.8\", Compiler:\"gc\", Platform:\"linux/amd64\"}   buildctl --version buildctl github.com/moby/buildkit v0.8.2 9065b18ba4633c75862befca8188de4338d9f94a   helm version --client Client: &version.Version{SemVer:\"v2.17.0\", GitCommit:\"a690bad98af45b015bd3da1a41f6218b1a451dbe\", GitTreeState:\"clean\"}   helm3 version --client version.BuildInfo{Version:\"v3.5.3\", GitCommit:\"041ce5a2c17a58be0fcd5f5e16fb3e7e95fea622\", GitTreeState:\"dirty\", GoVersion:\"go1.15.8\"}   ibmcloud -version ibmcloud version 1.4.0+4705d79-2021-02-24T21:18:06+00:00   ibmcloud plugin list Listing installed plug-ins...",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "ibmcld_00861-237281-238251",
+          "score": null,
+          "score_type": "contriever",
+          "text": " To view the contents of version 2.10, from the running image, type default_versions.sh. This image includes the following tools:   node --version v12.20.0   npm --version 6.14.9   jq --version jq-1.6   yq --version yq version 2.4.1   yq3 --version yq version 3.4.1   kubectl version --client Client Version: version.Info{Major:\"1\", Minor:\"17+\", GitVersion:\"v1.17.16-rc.0\", GitCommit:\"737e2c461a2999fa242d39e77b9252d0eee7167e\", GitTreeState:\"clean\", BuildDate:\"2020-12-09T11:14:02Z\", GoVersion:\"go1.13.15\", Compiler:\"gc\", Platform:\"linux/amd64\"}   buildctl --version buildctl github.com/moby/buildkit v0.8.0 73fe4736135645a342abc7b587bba0994cccf0f9   helm version --client Client: &version.Version{SemVer:\"v2.17.0\", GitCommit:\"a690bad98af45b015bd3da1a41f6218b1a451dbe\", GitTreeState:\"clean\"}   helm3 version --client version.BuildInfo{Version:\"v3.4.2\", GitCommit:\"23dd3af5e19a02d4f4baa5b2f242645a1a3af629\", GitTreeState:\"clean\", GoVersion:\"go1.14.13\"}   ibmcloud -version",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "ibmcld_00861-233607-234578",
+          "score": null,
+          "score_type": "contriever",
+          "text": " To view the contents of version 2.11, from the running image, type default_versions.sh. This image includes the following tools:   node --version v12.20.1   npm --version 6.14.11   jq --version jq-1.6   yq --version yq version 2.4.1   yq3 --version yq version 3.4.1   kubectl version --client Client Version: version.Info{Major:\"1\", Minor:\"17+\", GitVersion:\"v1.17.16-rc.0\", GitCommit:\"737e2c461a2999fa242d39e77b9252d0eee7167e\", GitTreeState:\"clean\", BuildDate:\"2020-12-09T11:14:02Z\", GoVersion:\"go1.13.15\", Compiler:\"gc\", Platform:\"linux/amd64\"}   buildctl --version buildctl github.com/moby/buildkit v0.8.0 73fe4736135645a342abc7b587bba0994cccf0f9   helm version --client Client: &version.Version{SemVer:\"v2.17.0\", GitCommit:\"a690bad98af45b015bd3da1a41f6218b1a451dbe\", GitTreeState:\"clean\"}   helm3 version --client version.BuildInfo{Version:\"v3.4.2\", GitCommit:\"23dd3af5e19a02d4f4baa5b2f242645a1a3af629\", GitTreeState:\"clean\", GoVersion:\"go1.14.13\"}   ibmcloud -version",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "ibmcld_00861-240810-241878",
+          "score": null,
+          "score_type": "contriever",
+          "text": " To view the contents of version 2.9, from the running image, type default_versions.sh. This image includes the following tools:   node --version v12.18.3   npm --version 6.14.8   jq --version jq-1.6   yq --version yq version 2.4.1   kubectl version --client Client Version: version.Info{Major:\"1\", Minor:\"17\", GitVersion:\"v1.17.11\", GitCommit:\"ea5f00d93211b7c80247bf607cfa422ad6fb5347\", GitTreeState:\"clean\", BuildDate:\"2020-08-13T15:20:25Z\", GoVersion:\"go1.13.15\", Compiler:\"gc\", Platform:\"linux/amd64\"}   buildctl --version buildctl github.com/moby/buildkit v0.7.2 22e230744171b4442101731951bbbecf97796ea5   helm version --client Client: &version.Version{SemVer:\"v2.16.10\", GitCommit:\"bceca24a91639f045f22ab0f41e47589a932cf5e\", GitTreeState:\"clean\"}   helm3 version --client version.BuildInfo{Version:\"v3.3.1\", GitCommit:\"249e5215cde0c3fa72e27eb7a30e8d55c9696144\", GitTreeState:\"clean\", GoVersion:\"go1.14.7\"}   ibmcloud -version ibmcloud version 1.2.1+29ade2b-2020-09-04T12:46:49+00:00   ibmcloud plugin list Listing installed plug-ins...  Plugin Name Version Status",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "ibmcld_10062-24150-25459",
+          "score": null,
+          "score_type": "contriever",
+          "text": " * Image tags: 1.11.0-7, 1.16.2-8, 1.17.0-9, 1.18.1-8, and 1.19.0-3. * Supported cluster versions: 4.3 - 4.6 * Images are now signed. * Resources that are deployed by the cluster autoscaler add-on are now linked with the corresponding source code and build URLs. * Updates the Go version to 1.15.5.         Change log for patch update 1.0.1_146, released 03 December 2020   Review the changes in version 1.0.1_146 of the cluster autoscaler add-on.    * Image tags: 1.15.4-4, 1.16.2-7, 1.17.0-8, 1.18.1-7, and 1.19.0-2. * Supported cluster versions: 4.3 - 4.6 * Updates the cluster autoscaler to run as non-root. * Adds a feature to validate secrets before the autoscaler pods are initialized.         Change log for patch update 1.0.1_128, released 27 October 2020   Review the changes in version 1.0.1_128 of the cluster autoscaler add-on.    * Image tags: 1.15.4-4, 1.16.2-6, 1.17.0-7, 1.18.1-6, and 1.19.0-1. * Supported cluster versions: 4.3 - 4.5 * Updates the Go version to 1.15.2.         Change log for patch update 1.0.1_124, released 16 October 2020   Review the changes in version 1.0.1_124 of the cluster autoscaler add-on.    * Image tags: 1.15.4-4, 1.16.2-6, 1.17.0-7, 1.18.1-6, and 1.19.0-1. * Supported cluster versions: 4.3 - 4.5 * Exposes the --new-pod-scale-up-delay option in the ConfigMap.",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "I don't have specific information about version 6.16.0 of the IBM Cloud® Virtual Private Cloud (VPC) command line interface (CLI).",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "UNANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    }
+  ]
+}

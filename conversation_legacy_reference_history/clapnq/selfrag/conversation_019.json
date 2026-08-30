@@ -1,0 +1,1936 @@
+{
+  "conversation_id": "a2698b2973ea7db1ee5adb5e70ec02e4",
+  "dataset": "clapnq",
+  "collection": "mt-rag-clapnq-elser-512-100-20240503",
+  "rag": "selfrag",
+  "num_turns": 9,
+  "turns": [
+    {
+      "turn_id": "1",
+      "task_id": "a2698b2973ea7db1ee5adb5e70ec02e4<::>1",
+      "question": "where does water go after it enters a storm drain",
+      "rag_history_before_turn": [],
+      "retrieval": {
+        "query": "where does water go after it enters a storm drain",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "834226571_10005-10224-0-219",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain The first flush from urban runoff can be extremely dirty . Storm water may become contaminated while running down the road or other impervious surface , or from lawn chemical run - off , before entering the drain . Lack",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 2,
+            "doc_id": "834226571_364-764-0-400",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain A storm drain , storm sewer ( U.S. and Canada ) , surface water drain / sewer ( United Kingdom ) , or stormwater drain ( Australia and New Zealand ) is designed to drain excess rain and ground water from impervious surfaces such as paved streets , car parks , parking lots , footpaths , sidewalks , and roofs . Storm drains vary in design from small residential dry wells to large municipal systems .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 3,
+            "doc_id": "834226571_4749-5081-0-332",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Some of the heavier sediment and small objects may settle in a catchbasin , or sump , which lies immediately below the outlet , where water from the top of the catchbasin reservoir overflows into the sewer proper . The catchbasin serves much the same function as the `` trap '' in household wastewater plumbing in trapping objects .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 4,
+            "doc_id": "834226571_765-1254-0-489",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Drains are fed by street gutters on most motorways , freeways and other busy roads , as well as towns in areas which experience heavy rainfall , flooding and coastal towns which experience regular storms . Even the gutters from houses and buildings can be connected to the storm drain . Many storm drainage systems are designed as gravity sewers draining untreated storm water into rivers or streams . As a result , it is not acceptable to pour certain types of chemicals into the drains .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 5,
+            "doc_id": "834226571_1255-1874-0-619",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Storm drains are often unable to manage the quantity of rain that falls during heavy rains and / or storms . When storm drains are inundated , basement and street flooding can occur . In many areas , detention tanks are required to be installed inside a property and are used to temporarily hold rainwater runoff during heavy rains and restrict the outlet flow to the public sewer . This lessens the risk of the public sewer being overburdened during heavy rain . Some storm drains lead to a mixing of stormwater ( rainwater ) with sewage , either intentionally -- in the case of combined sewers -- or unintentionally .",
+            "title": "Storm drain"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "834226571_10005-10224-0-219",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain The first flush from urban runoff can be extremely dirty . Storm water may become contaminated while running down the road or other impervious surface , or from lawn chemical run - off , before entering the drain . Lack",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 2,
+            "doc_id": "834226571_364-764-0-400",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain A storm drain , storm sewer ( U.S. and Canada ) , surface water drain / sewer ( United Kingdom ) , or stormwater drain ( Australia and New Zealand ) is designed to drain excess rain and ground water from impervious surfaces such as paved streets , car parks , parking lots , footpaths , sidewalks , and roofs . Storm drains vary in design from small residential dry wells to large municipal systems .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 3,
+            "doc_id": "834226571_4749-5081-0-332",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Some of the heavier sediment and small objects may settle in a catchbasin , or sump , which lies immediately below the outlet , where water from the top of the catchbasin reservoir overflows into the sewer proper . The catchbasin serves much the same function as the `` trap '' in household wastewater plumbing in trapping objects .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 4,
+            "doc_id": "834226571_765-1254-0-489",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Drains are fed by street gutters on most motorways , freeways and other busy roads , as well as towns in areas which experience heavy rainfall , flooding and coastal towns which experience regular storms . Even the gutters from houses and buildings can be connected to the storm drain . Many storm drainage systems are designed as gravity sewers draining untreated storm water into rivers or streams . As a result , it is not acceptable to pour certain types of chemicals into the drains .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 5,
+            "doc_id": "834226571_1255-1874-0-619",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Storm drains are often unable to manage the quantity of rain that falls during heavy rains and / or storms . When storm drains are inundated , basement and street flooding can occur . In many areas , detention tanks are required to be installed inside a property and are used to temporarily hold rainwater runoff during heavy rains and restrict the outlet flow to the public sewer . This lessens the risk of the public sewer being overburdened during heavy rain . Some storm drains lead to a mixing of stormwater ( rainwater ) with sewage , either intentionally -- in the case of combined sewers -- or unintentionally .",
+            "title": "Storm drain"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "rivers or streams",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "834226571_10005-10224-0-219",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Storm drain The first flush from urban runoff can be extremely dirty . Storm water may become contaminated while running down the road or other impervious surface , or from lawn chemical run - off , before entering the drain . Lack",
+          "title": "Storm drain"
+        },
+        {
+          "rank": 2,
+          "doc_id": "834226571_364-764-0-400",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Storm drain A storm drain , storm sewer ( U.S. and Canada ) , surface water drain / sewer ( United Kingdom ) , or stormwater drain ( Australia and New Zealand ) is designed to drain excess rain and ground water from impervious surfaces such as paved streets , car parks , parking lots , footpaths , sidewalks , and roofs . Storm drains vary in design from small residential dry wells to large municipal systems .",
+          "title": "Storm drain"
+        },
+        {
+          "rank": 3,
+          "doc_id": "834226571_4749-5081-0-332",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Storm drain Some of the heavier sediment and small objects may settle in a catchbasin , or sump , which lies immediately below the outlet , where water from the top of the catchbasin reservoir overflows into the sewer proper . The catchbasin serves much the same function as the `` trap '' in household wastewater plumbing in trapping objects .",
+          "title": "Storm drain"
+        },
+        {
+          "rank": 4,
+          "doc_id": "834226571_765-1254-0-489",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Storm drain Drains are fed by street gutters on most motorways , freeways and other busy roads , as well as towns in areas which experience heavy rainfall , flooding and coastal towns which experience regular storms . Even the gutters from houses and buildings can be connected to the storm drain . Many storm drainage systems are designed as gravity sewers draining untreated storm water into rivers or streams . As a result , it is not acceptable to pour certain types of chemicals into the drains .",
+          "title": "Storm drain"
+        },
+        {
+          "rank": 5,
+          "doc_id": "834226571_1255-1874-0-619",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Storm drain Storm drains are often unable to manage the quantity of rain that falls during heavy rains and / or storms . When storm drains are inundated , basement and street flooding can occur . In many areas , detention tanks are required to be installed inside a property and are used to temporarily hold rainwater runoff during heavy rains and restrict the outlet flow to the public sewer . This lessens the risk of the public sewer being overburdened during heavy rain . Some storm drains lead to a mixing of stormwater ( rainwater ) with sewage , either intentionally -- in the case of combined sewers -- or unintentionally .",
+          "title": "Storm drain"
+        }
+      ],
+      "reference": {
+        "answer": "The water that enters a storm drain like some of the heavier sediment and small objects may settle in a catchbasin , or sump , which lies immediately below the outlet , where water from the top of the catchbasin reservoir overflows into the sewer proper . Most drains have a single large exit at their point of discharge ( often covered by a grating ) into a canal , river , lake , reservoir , sea or ocean . Storm drains may discharge into man - made excavations known as recharge basins or retention ponds .",
+        "evidence_ids": [
+          "834226571_4749-5081-0-332",
+          "834226571_7232-7729-0-497"
+        ],
+        "evidence": [
+          {
+            "doc_id": "834226571_4749-5081-0-332",
+            "text": "Storm drain\nStorm drain\nSome of the heavier sediment and small objects may settle in a catchbasin , or sump , which lies immediately below the outlet , where water from the top of the catchbasin reservoir overflows into the sewer proper . The catchbasin serves much the same function as the `` trap '' in household wastewater plumbing in trapping objects ."
+          },
+          {
+            "doc_id": "834226571_7232-7729-0-497",
+            "text": "Storm drain\nStorm drain\nMost drains have a single large exit at their point of discharge ( often covered by a grating ) into a canal , river , lake , reservoir , sea or ocean . Other than catchbasins , typically there are no treatment facilities in the piping system . Small storm drains may discharge into individual dry wells . Storm drains may be interconnected using slotted pipe , to make a larger dry well system . Storm drains may discharge into man - made excavations known as recharge basins or retention ponds ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "N/A"
+        ]
+      }
+    },
+    {
+      "turn_id": "2",
+      "task_id": "a2698b2973ea7db1ee5adb5e70ec02e4<::>2",
+      "question": "What is a catchbasin and how they are designed?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "where does water go after it enters a storm drain"
+        },
+        {
+          "role": "assistant",
+          "content": "The water that enters a storm drain like some of the heavier sediment and small objects may settle in a catchbasin , or sump , which lies immediately below the outlet , where water from the top of the catchbasin reservoir overflows into the sewer proper . Most drains have a single large exit at their point of discharge ( often covered by a grating ) into a canal , river , lake , reservoir , sea or ocean . Storm drains may discharge into man - made excavations known as recharge basins or retention ponds ."
+        }
+      ],
+      "retrieval": {
+        "query": "What is a catchbasin and how they are designed?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "834226571_5082-5403-0-321",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain In the United States , unlike the plumbing trap , the catchbasin does not necessarily prevent sewer gases such as hydrogen sulfide and methane from escaping . However , in the United Kingdom , where they are called gully pots , they are designed as true water - filled traps and do block the egress of gases and rodents .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 2,
+            "doc_id": "834226571_6020-6341-0-321",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain The performance of catchbasins at removing sediment and other pollutants depends on the design of the catchbasin ( for example , the size of the sump ) , and on routine maintenance to retain the storage available in the sump to capture sediment . Municipalities typically have large vacuum trucks that perform this task .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 3,
+            "doc_id": "834226571_6342-6558-0-216",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Catchbasins act as a first - line pretreatment for other treatment practices , such as retention basins , by capturing large sediments and street litter from urban runoff before it enters the storm drainage pipes . A",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 4,
+            "doc_id": "834226571_4749-5081-0-332",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Some of the heavier sediment and small objects may settle in a catchbasin , or sump , which lies immediately below the outlet , where water from the top of the catchbasin reservoir overflows into the sewer proper . The catchbasin serves much the same function as the `` trap '' in household wastewater plumbing in trapping objects .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 5,
+            "doc_id": "834226571_5404-6019-0-615",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Most catchbasins will contain stagnant water during the drier parts of the year , and can , in warm countries , be used by mosquitos for breeding . Larvicides or disruptive larval hormones , sometimes released from `` mosquito biscuits '' , have been used to control mosquito breeding in catchbasins . Mosquitoes may be physically prevented from reaching the standing water or migrating into the sewer proper by the use of an `` inverted cone filter '' . Another method of mosquito control is to spread a thin layer of oil on the surface of stagnant water , interfering with the breathing tubes of mosquito larvae .",
+            "title": "Storm drain"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "834226571_5082-5403-0-321",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain In the United States , unlike the plumbing trap , the catchbasin does not necessarily prevent sewer gases such as hydrogen sulfide and methane from escaping . However , in the United Kingdom , where they are called gully pots , they are designed as true water - filled traps and do block the egress of gases and rodents .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 2,
+            "doc_id": "834226571_6020-6341-0-321",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain The performance of catchbasins at removing sediment and other pollutants depends on the design of the catchbasin ( for example , the size of the sump ) , and on routine maintenance to retain the storage available in the sump to capture sediment . Municipalities typically have large vacuum trucks that perform this task .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 3,
+            "doc_id": "834226571_6342-6558-0-216",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Catchbasins act as a first - line pretreatment for other treatment practices , such as retention basins , by capturing large sediments and street litter from urban runoff before it enters the storm drainage pipes . A",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 4,
+            "doc_id": "834226571_4749-5081-0-332",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Some of the heavier sediment and small objects may settle in a catchbasin , or sump , which lies immediately below the outlet , where water from the top of the catchbasin reservoir overflows into the sewer proper . The catchbasin serves much the same function as the `` trap '' in household wastewater plumbing in trapping objects .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 5,
+            "doc_id": "834226571_5404-6019-0-615",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Most catchbasins will contain stagnant water during the drier parts of the year , and can , in warm countries , be used by mosquitos for breeding . Larvicides or disruptive larval hormones , sometimes released from `` mosquito biscuits '' , have been used to control mosquito breeding in catchbasins . Mosquitoes may be physically prevented from reaching the standing water or migrating into the sewer proper by the use of an `` inverted cone filter '' . Another method of mosquito control is to spread a thin layer of oil on the surface of stagnant water , interfering with the breathing tubes of mosquito larvae .",
+            "title": "Storm drain"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "The performance of catchbasins at removing sediment and other pollutants depends on the design of the catchbasin ( for example , the size of the sump ) , and on routine maintenance to retain the storage available in the sump to capture sediment .Municipalities typically have large vacuum trucks that perform this task .",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "834226571_5082-5403-0-321",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Storm drain In the United States , unlike the plumbing trap , the catchbasin does not necessarily prevent sewer gases such as hydrogen sulfide and methane from escaping . However , in the United Kingdom , where they are called gully pots , they are designed as true water - filled traps and do block the egress of gases and rodents .",
+          "title": "Storm drain"
+        },
+        {
+          "rank": 2,
+          "doc_id": "834226571_6020-6341-0-321",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Storm drain The performance of catchbasins at removing sediment and other pollutants depends on the design of the catchbasin ( for example , the size of the sump ) , and on routine maintenance to retain the storage available in the sump to capture sediment . Municipalities typically have large vacuum trucks that perform this task .",
+          "title": "Storm drain"
+        },
+        {
+          "rank": 3,
+          "doc_id": "834226571_6342-6558-0-216",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Storm drain Catchbasins act as a first - line pretreatment for other treatment practices , such as retention basins , by capturing large sediments and street litter from urban runoff before it enters the storm drainage pipes . A",
+          "title": "Storm drain"
+        },
+        {
+          "rank": 4,
+          "doc_id": "834226571_4749-5081-0-332",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Storm drain Some of the heavier sediment and small objects may settle in a catchbasin , or sump , which lies immediately below the outlet , where water from the top of the catchbasin reservoir overflows into the sewer proper . The catchbasin serves much the same function as the `` trap '' in household wastewater plumbing in trapping objects .",
+          "title": "Storm drain"
+        },
+        {
+          "rank": 5,
+          "doc_id": "834226571_5404-6019-0-615",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Storm drain Most catchbasins will contain stagnant water during the drier parts of the year , and can , in warm countries , be used by mosquitos for breeding . Larvicides or disruptive larval hormones , sometimes released from `` mosquito biscuits '' , have been used to control mosquito breeding in catchbasins . Mosquitoes may be physically prevented from reaching the standing water or migrating into the sewer proper by the use of an `` inverted cone filter '' . Another method of mosquito control is to spread a thin layer of oil on the surface of stagnant water , interfering with the breathing tubes of mosquito larvae .",
+          "title": "Storm drain"
+        }
+      ],
+      "reference": {
+        "answer": "A catchbasin is a component in a storm drain system that serves as a first-line pretreatment for other treatment practices. It functions similarly to the trap in household wastewater plumbing by capturing large sediments and street litter from urban runoff before it enters the storm drainage pipes. It is designed with a single large exit at its point of discharge, often covered by a grating, and lies immediately below the outlet of the storm drain. Water from the top of the catchbasin reservoir overflows into the sewer proper, and most catchbasins are connected to a piping system that leads to a canal, river, lake, reservoir, sea, or ocean.  Unlike the plumbing trap , the catchbasin does not necessarily prevent sewer gases such as hydrogen sulfide and methane from escaping. Its performance at removing sediment and other pollutants depends on the design of the catchbasin ( for example , the size of the sump ) , and on routine maintenance to retain the storage available in the sump to capture sediment . Some  catch basins are also commonly designed with a sump area below the outlet pipe level which is a reservoir for water and debris to help prevent the pipe from clogging ",
+        "evidence_ids": [
+          "834226571_4749-5081-0-332",
+          "834226571_7232-7729-0-497",
+          "834226571_6342-6558-0-216",
+          "834226571_5082-5403-0-321",
+          "834226571_6020-6341-0-321",
+          "834226571_11488-12059-0-571"
+        ],
+        "evidence": [
+          {
+            "doc_id": "834226571_4749-5081-0-332",
+            "text": "Storm drain\nStorm drain\nSome of the heavier sediment and small objects may settle in a catchbasin , or sump , which lies immediately below the outlet , where water from the top of the catchbasin reservoir overflows into the sewer proper . The catchbasin serves much the same function as the `` trap '' in household wastewater plumbing in trapping objects ."
+          },
+          {
+            "doc_id": "834226571_7232-7729-0-497",
+            "text": "Storm drain\nStorm drain\nMost drains have a single large exit at their point of discharge ( often covered by a grating ) into a canal , river , lake , reservoir , sea or ocean . Other than catchbasins , typically there are no treatment facilities in the piping system . Small storm drains may discharge into individual dry wells . Storm drains may be interconnected using slotted pipe , to make a larger dry well system . Storm drains may discharge into man - made excavations known as recharge basins or retention ponds ."
+          },
+          {
+            "doc_id": "834226571_6342-6558-0-216",
+            "text": "Storm drain\nStorm drain\nCatchbasins act as a first - line pretreatment for other treatment practices , such as retention basins , by capturing large sediments and street litter from urban runoff before it enters the storm drainage pipes . A"
+          },
+          {
+            "doc_id": "834226571_5082-5403-0-321",
+            "text": "Storm drain\nStorm drain\nIn the United States , unlike the plumbing trap , the catchbasin does not necessarily prevent sewer gases such as hydrogen sulfide and methane from escaping . However , in the United Kingdom , where they are called gully pots , they are designed as true water - filled traps and do block the egress of gases and rodents ."
+          },
+          {
+            "doc_id": "834226571_6020-6341-0-321",
+            "text": "Storm drain\nStorm drain\nThe performance of catchbasins at removing sediment and other pollutants depends on the design of the catchbasin ( for example , the size of the sump ) , and on routine maintenance to retain the storage available in the sump to capture sediment . Municipalities typically have large vacuum trucks that perform this task ."
+          },
+          {
+            "doc_id": "834226571_11488-12059-0-571",
+            "text": "Storm drain\nStorm drain\nCatch basins are commonly designed with a sump area below the outlet pipe level which is a reservoir for water and debris to help prevent the pipe from clogging . Unless they are constructed with permeable bottoms to allow water to infiltrate into the underlying soil , this subterranean basin can become a perfect mosquito breeding area because it is cool , dark , and retains stagnant water for long periods of time . Combined with standard grates which have holes large enough for mosquitoes to enter and leave the basin , this is a major problem in mosquito control ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Composite",
+          "Factoid",
+          "How-To"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "3",
+      "task_id": "a2698b2973ea7db1ee5adb5e70ec02e4<::>3",
+      "question": "Does the basin really capture the litter  and debris from the water from the streets, roads, roofs?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "where does water go after it enters a storm drain"
+        },
+        {
+          "role": "assistant",
+          "content": "The water that enters a storm drain like some of the heavier sediment and small objects may settle in a catchbasin , or sump , which lies immediately below the outlet , where water from the top of the catchbasin reservoir overflows into the sewer proper . Most drains have a single large exit at their point of discharge ( often covered by a grating ) into a canal , river , lake , reservoir , sea or ocean . Storm drains may discharge into man - made excavations known as recharge basins or retention ponds ."
+        },
+        {
+          "role": "user",
+          "content": "What is a catchbasin and how they are designed?"
+        },
+        {
+          "role": "assistant",
+          "content": "A catchbasin is a component in a storm drain system that serves as a first-line pretreatment for other treatment practices. It functions similarly to the trap in household wastewater plumbing by capturing large sediments and street litter from urban runoff before it enters the storm drainage pipes. It is designed with a single large exit at its point of discharge, often covered by a grating, and lies immediately below the outlet of the storm drain. Water from the top of the catchbasin reservoir overflows into the sewer proper, and most catchbasins are connected to a piping system that leads to a canal, river, lake, reservoir, sea, or ocean.  Unlike the plumbing trap , the catchbasin does not necessarily prevent sewer gases such as hydrogen sulfide and methane from escaping. Its performance at removing sediment and other pollutants depends on the design of the catchbasin ( for example , the size of the sump ) , and on routine maintenance to retain the storage available in the sump to capture sediment . Some  catch basins are also commonly designed with a sump area below the outlet pipe level which is a reservoir for water and debris to help prevent the pipe from clogging "
+        }
+      ],
+      "retrieval": {
+        "query": "Does the basin really capture the litter  and debris from the water from the streets, roads, roofs?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "834226571_6342-6558-0-216",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Catchbasins act as a first - line pretreatment for other treatment practices , such as retention basins , by capturing large sediments and street litter from urban runoff before it enters the storm drainage pipes . A",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 2,
+            "doc_id": "834226571_12060-12659-0-599",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Basins can be filled with concrete up to the pipe level to prevent this reservoir from forming . Without proper maintenance , the functionality of the basin is questionable , as these catch basins are most commonly not cleaned annually as is needed to make them perform as designed . The trapping of debris serves no purpose because once filled they operate as if no basins were present , but continue to allow a shallow area of water retention for the breeding of mosquito . Moreover , even if cleaned and maintained , the water reservoir remains filled , accommodating the breeding of mosquitoes .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 3,
+            "doc_id": "834226571_11488-12059-0-571",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Catch basins are commonly designed with a sump area below the outlet pipe level which is a reservoir for water and debris to help prevent the pipe from clogging . Unless they are constructed with permeable bottoms to allow water to infiltrate into the underlying soil , this subterranean basin can become a perfect mosquito breeding area because it is cool , dark , and retains stagnant water for long periods of time . Combined with standard grates which have holes large enough for mosquitoes to enter and leave the basin , this is a major problem in mosquito control .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 4,
+            "doc_id": "834226571_6020-6341-0-321",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain The performance of catchbasins at removing sediment and other pollutants depends on the design of the catchbasin ( for example , the size of the sump ) , and on routine maintenance to retain the storage available in the sump to capture sediment . Municipalities typically have large vacuum trucks that perform this task .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 5,
+            "doc_id": "810295079_7664-8053-0-389",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Rainwater harvesting Instead of using the roof for catchment , the RainSaucer , which looks like an upside - down umbrella , collects rain straight from the sky . This decreases the potential for contamination and makes potable water for developing countries a potential application . Other applications of this free - standing rainwater collection approach are sustainable gardening and small - plot farming .",
+            "title": "Rainwater harvesting"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "834226571_6342-6558-0-216",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Catchbasins act as a first - line pretreatment for other treatment practices , such as retention basins , by capturing large sediments and street litter from urban runoff before it enters the storm drainage pipes . A",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 2,
+            "doc_id": "834226571_12060-12659-0-599",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Basins can be filled with concrete up to the pipe level to prevent this reservoir from forming . Without proper maintenance , the functionality of the basin is questionable , as these catch basins are most commonly not cleaned annually as is needed to make them perform as designed . The trapping of debris serves no purpose because once filled they operate as if no basins were present , but continue to allow a shallow area of water retention for the breeding of mosquito . Moreover , even if cleaned and maintained , the water reservoir remains filled , accommodating the breeding of mosquitoes .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 3,
+            "doc_id": "834226571_11488-12059-0-571",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Catch basins are commonly designed with a sump area below the outlet pipe level which is a reservoir for water and debris to help prevent the pipe from clogging . Unless they are constructed with permeable bottoms to allow water to infiltrate into the underlying soil , this subterranean basin can become a perfect mosquito breeding area because it is cool , dark , and retains stagnant water for long periods of time . Combined with standard grates which have holes large enough for mosquitoes to enter and leave the basin , this is a major problem in mosquito control .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 4,
+            "doc_id": "834226571_6020-6341-0-321",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain The performance of catchbasins at removing sediment and other pollutants depends on the design of the catchbasin ( for example , the size of the sump ) , and on routine maintenance to retain the storage available in the sump to capture sediment . Municipalities typically have large vacuum trucks that perform this task .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 5,
+            "doc_id": "810295079_7664-8053-0-389",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Rainwater harvesting Instead of using the roof for catchment , the RainSaucer , which looks like an upside - down umbrella , collects rain straight from the sky . This decreases the potential for contamination and makes potable water for developing countries a potential application . Other applications of this free - standing rainwater collection approach are sustainable gardening and small - plot farming .",
+            "title": "Rainwater harvesting"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Unless they are constructed with permeable bottoms to allow water to infiltrate into the underlying soil , this subterranean basin can become a perfect mosquito breeding area because it is cool , dark , and retains stagnant water for long periods of time .",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "834226571_6342-6558-0-216",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Storm drain Catchbasins act as a first - line pretreatment for other treatment practices , such as retention basins , by capturing large sediments and street litter from urban runoff before it enters the storm drainage pipes . A",
+          "title": "Storm drain"
+        },
+        {
+          "rank": 2,
+          "doc_id": "834226571_12060-12659-0-599",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Storm drain Basins can be filled with concrete up to the pipe level to prevent this reservoir from forming . Without proper maintenance , the functionality of the basin is questionable , as these catch basins are most commonly not cleaned annually as is needed to make them perform as designed . The trapping of debris serves no purpose because once filled they operate as if no basins were present , but continue to allow a shallow area of water retention for the breeding of mosquito . Moreover , even if cleaned and maintained , the water reservoir remains filled , accommodating the breeding of mosquitoes .",
+          "title": "Storm drain"
+        },
+        {
+          "rank": 3,
+          "doc_id": "834226571_11488-12059-0-571",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Storm drain Catch basins are commonly designed with a sump area below the outlet pipe level which is a reservoir for water and debris to help prevent the pipe from clogging . Unless they are constructed with permeable bottoms to allow water to infiltrate into the underlying soil , this subterranean basin can become a perfect mosquito breeding area because it is cool , dark , and retains stagnant water for long periods of time . Combined with standard grates which have holes large enough for mosquitoes to enter and leave the basin , this is a major problem in mosquito control .",
+          "title": "Storm drain"
+        },
+        {
+          "rank": 4,
+          "doc_id": "834226571_6020-6341-0-321",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Storm drain The performance of catchbasins at removing sediment and other pollutants depends on the design of the catchbasin ( for example , the size of the sump ) , and on routine maintenance to retain the storage available in the sump to capture sediment . Municipalities typically have large vacuum trucks that perform this task .",
+          "title": "Storm drain"
+        },
+        {
+          "rank": 5,
+          "doc_id": "810295079_7664-8053-0-389",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Rainwater harvesting Instead of using the roof for catchment , the RainSaucer , which looks like an upside - down umbrella , collects rain straight from the sky . This decreases the potential for contamination and makes potable water for developing countries a potential application . Other applications of this free - standing rainwater collection approach are sustainable gardening and small - plot farming .",
+          "title": "Rainwater harvesting"
+        }
+      ],
+      "reference": {
+        "answer": "As I mentioned before the are commonly designed to capture large sediments and street litter from urban runoff before it enters the storm drainage pipes. However its  functionality is questionable , as these catch basins are most commonly not cleaned annually as is needed to make them perform as designed . The trapping of debris serves no purpose because once filled they operate as if no basins were present , but continue to allow a shallow area of water retention for the breeding of mosquito since it is cool , dark , and retains stagnant water for long periods of time . Combined with standard grates which have holes large enough for mosquitoes to enter and leave the basin , this is a major problem in mosquito control .  . Moreover , even if cleaned and maintained , the water reservoir remains filled , accommodating the breeding of mosquitoes .",
+        "evidence_ids": [
+          "834226571_6342-6558-0-216",
+          "834226571_11488-12059-0-571",
+          "834226571_12060-12659-0-599"
+        ],
+        "evidence": [
+          {
+            "doc_id": "834226571_6342-6558-0-216",
+            "text": "Storm drain\nStorm drain\nCatchbasins act as a first - line pretreatment for other treatment practices , such as retention basins , by capturing large sediments and street litter from urban runoff before it enters the storm drainage pipes . A"
+          },
+          {
+            "doc_id": "834226571_11488-12059-0-571",
+            "text": "Storm drain\nStorm drain\nCatch basins are commonly designed with a sump area below the outlet pipe level which is a reservoir for water and debris to help prevent the pipe from clogging . Unless they are constructed with permeable bottoms to allow water to infiltrate into the underlying soil , this subterranean basin can become a perfect mosquito breeding area because it is cool , dark , and retains stagnant water for long periods of time . Combined with standard grates which have holes large enough for mosquitoes to enter and leave the basin , this is a major problem in mosquito control ."
+          },
+          {
+            "doc_id": "834226571_12060-12659-0-599",
+            "text": "Storm drain\nStorm drain\nBasins can be filled with concrete up to the pipe level to prevent this reservoir from forming . Without proper maintenance , the functionality of the basin is questionable , as these catch basins are most commonly not cleaned annually as is needed to make them perform as designed . The trapping of debris serves no purpose because once filled they operate as if no basins were present , but continue to allow a shallow area of water retention for the breeding of mosquito . Moreover , even if cleaned and maintained , the water reservoir remains filled , accommodating the breeding of mosquitoes ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Opinion"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "4",
+      "task_id": "a2698b2973ea7db1ee5adb5e70ec02e4<::>4",
+      "question": "Could be the water that enters a storm drain recycled and be used in the house chores like cleaning, gardening , etc?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "where does water go after it enters a storm drain"
+        },
+        {
+          "role": "assistant",
+          "content": "The water that enters a storm drain like some of the heavier sediment and small objects may settle in a catchbasin , or sump , which lies immediately below the outlet , where water from the top of the catchbasin reservoir overflows into the sewer proper . Most drains have a single large exit at their point of discharge ( often covered by a grating ) into a canal , river , lake , reservoir , sea or ocean . Storm drains may discharge into man - made excavations known as recharge basins or retention ponds ."
+        },
+        {
+          "role": "user",
+          "content": "What is a catchbasin and how they are designed?"
+        },
+        {
+          "role": "assistant",
+          "content": "A catchbasin is a component in a storm drain system that serves as a first-line pretreatment for other treatment practices. It functions similarly to the trap in household wastewater plumbing by capturing large sediments and street litter from urban runoff before it enters the storm drainage pipes. It is designed with a single large exit at its point of discharge, often covered by a grating, and lies immediately below the outlet of the storm drain. Water from the top of the catchbasin reservoir overflows into the sewer proper, and most catchbasins are connected to a piping system that leads to a canal, river, lake, reservoir, sea, or ocean.  Unlike the plumbing trap , the catchbasin does not necessarily prevent sewer gases such as hydrogen sulfide and methane from escaping. Its performance at removing sediment and other pollutants depends on the design of the catchbasin ( for example , the size of the sump ) , and on routine maintenance to retain the storage available in the sump to capture sediment . Some  catch basins are also commonly designed with a sump area below the outlet pipe level which is a reservoir for water and debris to help prevent the pipe from clogging "
+        },
+        {
+          "role": "user",
+          "content": "Does the basin really capture the litter  and debris from the water from the streets, roads, roofs?"
+        },
+        {
+          "role": "assistant",
+          "content": "As I mentioned before the are commonly designed to capture large sediments and street litter from urban runoff before it enters the storm drainage pipes. However its  functionality is questionable , as these catch basins are most commonly not cleaned annually as is needed to make them perform as designed . The trapping of debris serves no purpose because once filled they operate as if no basins were present , but continue to allow a shallow area of water retention for the breeding of mosquito since it is cool , dark , and retains stagnant water for long periods of time . Combined with standard grates which have holes large enough for mosquitoes to enter and leave the basin , this is a major problem in mosquito control .  . Moreover , even if cleaned and maintained , the water reservoir remains filled , accommodating the breeding of mosquitoes ."
+        }
+      ],
+      "retrieval": {
+        "query": "Could be the water that enters a storm drain recycled and be used in the house chores like cleaning, gardening , etc?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "834226571_8587-9336-0-749",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Runoff into storm sewers can be minimized by including sustainable urban drainage systems ( UK term ) or low impact development or green infrastructure practices ( US terms ) into municipal plans . To reduce stormwater from rooftops , flows from eaves troughs ( rain gutters and downspouts ) may be infiltrated into adjacent soil , rather than discharged into the storm sewer system . Storm water runoff from paved surfaces can be directed to unlined ditches ( sometimes called swales or bioswales ) before flowing into the storm sewers , again to allow the runoff to soak into the ground . Permeable paving materials can be used in building sidewalks , driveways and in some cases , parking lots , to infiltrate a portion of the stormwater volume .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 2,
+            "doc_id": "834226571_10005-10224-0-219",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain The first flush from urban runoff can be extremely dirty . Storm water may become contaminated while running down the road or other impervious surface , or from lawn chemical run - off , before entering the drain . Lack",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 3,
+            "doc_id": "834226571_765-1254-0-489",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Drains are fed by street gutters on most motorways , freeways and other busy roads , as well as towns in areas which experience heavy rainfall , flooding and coastal towns which experience regular storms . Even the gutters from houses and buildings can be connected to the storm drain . Many storm drainage systems are designed as gravity sewers draining untreated storm water into rivers or streams . As a result , it is not acceptable to pour certain types of chemicals into the drains .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 4,
+            "doc_id": "834226571_13168-13671-0-503",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Many storm drainage systems are designed to drain the storm water , untreated , into rivers or streams . Many local governments conduct public awareness campaigns about this , lest waste be dumped into the storm drain system . In the city of Cleveland , Ohio , for example , all new catch basins installed have inscriptions on them not to dump any waste , and usually include a fish imprint as well . Trout Unlimited Canada recommends that a yellow fish symbol be painted next to existing storm drains .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 5,
+            "doc_id": "834226571_4749-5081-0-332",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Some of the heavier sediment and small objects may settle in a catchbasin , or sump , which lies immediately below the outlet , where water from the top of the catchbasin reservoir overflows into the sewer proper . The catchbasin serves much the same function as the `` trap '' in household wastewater plumbing in trapping objects .",
+            "title": "Storm drain"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "834226571_8587-9336-0-749",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Runoff into storm sewers can be minimized by including sustainable urban drainage systems ( UK term ) or low impact development or green infrastructure practices ( US terms ) into municipal plans . To reduce stormwater from rooftops , flows from eaves troughs ( rain gutters and downspouts ) may be infiltrated into adjacent soil , rather than discharged into the storm sewer system . Storm water runoff from paved surfaces can be directed to unlined ditches ( sometimes called swales or bioswales ) before flowing into the storm sewers , again to allow the runoff to soak into the ground . Permeable paving materials can be used in building sidewalks , driveways and in some cases , parking lots , to infiltrate a portion of the stormwater volume .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 2,
+            "doc_id": "834226571_10005-10224-0-219",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain The first flush from urban runoff can be extremely dirty . Storm water may become contaminated while running down the road or other impervious surface , or from lawn chemical run - off , before entering the drain . Lack",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 3,
+            "doc_id": "834226571_765-1254-0-489",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Drains are fed by street gutters on most motorways , freeways and other busy roads , as well as towns in areas which experience heavy rainfall , flooding and coastal towns which experience regular storms . Even the gutters from houses and buildings can be connected to the storm drain . Many storm drainage systems are designed as gravity sewers draining untreated storm water into rivers or streams . As a result , it is not acceptable to pour certain types of chemicals into the drains .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 4,
+            "doc_id": "834226571_13168-13671-0-503",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Many storm drainage systems are designed to drain the storm water , untreated , into rivers or streams . Many local governments conduct public awareness campaigns about this , lest waste be dumped into the storm drain system . In the city of Cleveland , Ohio , for example , all new catch basins installed have inscriptions on them not to dump any waste , and usually include a fish imprint as well . Trout Unlimited Canada recommends that a yellow fish symbol be painted next to existing storm drains .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 5,
+            "doc_id": "834226571_4749-5081-0-332",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Some of the heavier sediment and small objects may settle in a catchbasin , or sump , which lies immediately below the outlet , where water from the top of the catchbasin reservoir overflows into the sewer proper . The catchbasin serves much the same function as the `` trap '' in household wastewater plumbing in trapping objects .",
+            "title": "Storm drain"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Assistant: The water that enters a storm drain like some of the heavier sediment and small objects may settle in a catchbasin , or sump , which lies immediately below the outlet , where water from the top of the catchbasin reservoir overflows into the sewer proper .Most drains have a single large exit at their point of discharge ( often covered by a grating ) into a canal , river , lake , reservoir , sea or ocean .Storm drains may discharge into man - made excavations known as recharge basins or retention ponds .",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "834226571_8587-9336-0-749",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Storm drain Runoff into storm sewers can be minimized by including sustainable urban drainage systems ( UK term ) or low impact development or green infrastructure practices ( US terms ) into municipal plans . To reduce stormwater from rooftops , flows from eaves troughs ( rain gutters and downspouts ) may be infiltrated into adjacent soil , rather than discharged into the storm sewer system . Storm water runoff from paved surfaces can be directed to unlined ditches ( sometimes called swales or bioswales ) before flowing into the storm sewers , again to allow the runoff to soak into the ground . Permeable paving materials can be used in building sidewalks , driveways and in some cases , parking lots , to infiltrate a portion of the stormwater volume .",
+          "title": "Storm drain"
+        },
+        {
+          "rank": 2,
+          "doc_id": "834226571_10005-10224-0-219",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Storm drain The first flush from urban runoff can be extremely dirty . Storm water may become contaminated while running down the road or other impervious surface , or from lawn chemical run - off , before entering the drain . Lack",
+          "title": "Storm drain"
+        },
+        {
+          "rank": 3,
+          "doc_id": "834226571_765-1254-0-489",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Storm drain Drains are fed by street gutters on most motorways , freeways and other busy roads , as well as towns in areas which experience heavy rainfall , flooding and coastal towns which experience regular storms . Even the gutters from houses and buildings can be connected to the storm drain . Many storm drainage systems are designed as gravity sewers draining untreated storm water into rivers or streams . As a result , it is not acceptable to pour certain types of chemicals into the drains .",
+          "title": "Storm drain"
+        },
+        {
+          "rank": 4,
+          "doc_id": "834226571_13168-13671-0-503",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Storm drain Many storm drainage systems are designed to drain the storm water , untreated , into rivers or streams . Many local governments conduct public awareness campaigns about this , lest waste be dumped into the storm drain system . In the city of Cleveland , Ohio , for example , all new catch basins installed have inscriptions on them not to dump any waste , and usually include a fish imprint as well . Trout Unlimited Canada recommends that a yellow fish symbol be painted next to existing storm drains .",
+          "title": "Storm drain"
+        },
+        {
+          "rank": 5,
+          "doc_id": "834226571_4749-5081-0-332",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Storm drain Some of the heavier sediment and small objects may settle in a catchbasin , or sump , which lies immediately below the outlet , where water from the top of the catchbasin reservoir overflows into the sewer proper . The catchbasin serves much the same function as the `` trap '' in household wastewater plumbing in trapping objects .",
+          "title": "Storm drain"
+        }
+      ],
+      "reference": {
+        "answer": "The water from urban runoff is very dirty. It tends to pick up gasoline , motor oil , heavy metals , trash and other pollutants from roadways and parking lots , as well as fertilizers and pesticides from lawns  and may become contaminated while running down the road or other impervious surface , before entering the drain and could not be used in house chores. However,  Many local governments conduct public awareness campaigns about this including sustainable urban drainage systems or low impact development or green infrastructure practices   into municipal plans , helping lest waste be dumped into the storm drain system . In the city of Cleveland , Ohio , for example , all new catch basins installed have inscriptions on them not to dump any waste , and usually include a fish imprint as well . ",
+        "evidence_ids": [
+          "834226571_10005-10224-0-219",
+          "834226571_10375-11016-0-641",
+          "834226571_13168-13671-0-503",
+          "834226571_8587-9336-0-749"
+        ],
+        "evidence": [
+          {
+            "doc_id": "834226571_10005-10224-0-219",
+            "text": "Storm drain\nStorm drain\nThe first flush from urban runoff can be extremely dirty . Storm water may become contaminated while running down the road or other impervious surface , or from lawn chemical run - off , before entering the drain . Lack"
+          },
+          {
+            "doc_id": "834226571_10375-11016-0-641",
+            "text": "Storm drain\nStorm drain\nWater running off these impervious surfaces tends to pick up gasoline , motor oil , heavy metals , trash and other pollutants from roadways and parking lots , as well as fertilizers and pesticides from lawns . Roads and parking lots are major sources of nickel , copper , zinc , cadmium , lead and polycyclic aromatic hydrocarbons ( PAHs ) , which are created as combustion byproducts of gasoline and other fossil fuels . Roof runoff contributes high levels of synthetic organic compounds and zinc ( from galvanized gutters ) . Fertilizer use on residential lawns , parks and golf courses is a significant source of nitrates and phosphorus ."
+          },
+          {
+            "doc_id": "834226571_13168-13671-0-503",
+            "text": "Storm drain\nStorm drain\nMany storm drainage systems are designed to drain the storm water , untreated , into rivers or streams . Many local governments conduct public awareness campaigns about this , lest waste be dumped into the storm drain system . In the city of Cleveland , Ohio , for example , all new catch basins installed have inscriptions on them not to dump any waste , and usually include a fish imprint as well . Trout Unlimited Canada recommends that a yellow fish symbol be painted next to existing storm drains ."
+          },
+          {
+            "doc_id": "834226571_8587-9336-0-749",
+            "text": "Storm drain\nStorm drain\nRunoff into storm sewers can be minimized by including sustainable urban drainage systems ( UK term ) or low impact development or green infrastructure practices ( US terms ) into municipal plans . To reduce stormwater from rooftops , flows from eaves troughs ( rain gutters and downspouts ) may be infiltrated into adjacent soil , rather than discharged into the storm sewer system . Storm water runoff from paved surfaces can be directed to unlined ditches ( sometimes called swales or bioswales ) before flowing into the storm sewers , again to allow the runoff to soak into the ground . Permeable paving materials can be used in building sidewalks , driveways and in some cases , parking lots , to infiltrate a portion of the stormwater volume ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Composite",
+          "Opinion"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "5",
+      "task_id": "a2698b2973ea7db1ee5adb5e70ec02e4<::>5",
+      "question": "And about on the level of the Federal government, do  they have guidelines or even a law to how to build more sustainable storm drain so the water could be recycled ?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "where does water go after it enters a storm drain"
+        },
+        {
+          "role": "assistant",
+          "content": "The water that enters a storm drain like some of the heavier sediment and small objects may settle in a catchbasin , or sump , which lies immediately below the outlet , where water from the top of the catchbasin reservoir overflows into the sewer proper . Most drains have a single large exit at their point of discharge ( often covered by a grating ) into a canal , river , lake , reservoir , sea or ocean . Storm drains may discharge into man - made excavations known as recharge basins or retention ponds ."
+        },
+        {
+          "role": "user",
+          "content": "What is a catchbasin and how they are designed?"
+        },
+        {
+          "role": "assistant",
+          "content": "A catchbasin is a component in a storm drain system that serves as a first-line pretreatment for other treatment practices. It functions similarly to the trap in household wastewater plumbing by capturing large sediments and street litter from urban runoff before it enters the storm drainage pipes. It is designed with a single large exit at its point of discharge, often covered by a grating, and lies immediately below the outlet of the storm drain. Water from the top of the catchbasin reservoir overflows into the sewer proper, and most catchbasins are connected to a piping system that leads to a canal, river, lake, reservoir, sea, or ocean.  Unlike the plumbing trap , the catchbasin does not necessarily prevent sewer gases such as hydrogen sulfide and methane from escaping. Its performance at removing sediment and other pollutants depends on the design of the catchbasin ( for example , the size of the sump ) , and on routine maintenance to retain the storage available in the sump to capture sediment . Some  catch basins are also commonly designed with a sump area below the outlet pipe level which is a reservoir for water and debris to help prevent the pipe from clogging "
+        },
+        {
+          "role": "user",
+          "content": "Does the basin really capture the litter  and debris from the water from the streets, roads, roofs?"
+        },
+        {
+          "role": "assistant",
+          "content": "As I mentioned before the are commonly designed to capture large sediments and street litter from urban runoff before it enters the storm drainage pipes. However its  functionality is questionable , as these catch basins are most commonly not cleaned annually as is needed to make them perform as designed . The trapping of debris serves no purpose because once filled they operate as if no basins were present , but continue to allow a shallow area of water retention for the breeding of mosquito since it is cool , dark , and retains stagnant water for long periods of time . Combined with standard grates which have holes large enough for mosquitoes to enter and leave the basin , this is a major problem in mosquito control .  . Moreover , even if cleaned and maintained , the water reservoir remains filled , accommodating the breeding of mosquitoes ."
+        },
+        {
+          "role": "user",
+          "content": "Could be the water that enters a storm drain recycled and be used in the house chores like cleaning, gardening , etc?"
+        },
+        {
+          "role": "assistant",
+          "content": "The water from urban runoff is very dirty. It tends to pick up gasoline , motor oil , heavy metals , trash and other pollutants from roadways and parking lots , as well as fertilizers and pesticides from lawns  and may become contaminated while running down the road or other impervious surface , before entering the drain and could not be used in house chores. However,  Many local governments conduct public awareness campaigns about this including sustainable urban drainage systems or low impact development or green infrastructure practices   into municipal plans , helping lest waste be dumped into the storm drain system . In the city of Cleveland , Ohio , for example , all new catch basins installed have inscriptions on them not to dump any waste , and usually include a fish imprint as well . "
+        }
+      ],
+      "retrieval": {
+        "query": "And about on the level of the Federal government, do  they have guidelines or even a law to how to build more sustainable storm drain so the water could be recycled ?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "834226571_13168-13671-0-503",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Many storm drainage systems are designed to drain the storm water , untreated , into rivers or streams . Many local governments conduct public awareness campaigns about this , lest waste be dumped into the storm drain system . In the city of Cleveland , Ohio , for example , all new catch basins installed have inscriptions on them not to dump any waste , and usually include a fish imprint as well . Trout Unlimited Canada recommends that a yellow fish symbol be painted next to existing storm drains .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 2,
+            "doc_id": "834226571_15633-15953-0-320",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Building codes and local government ordinances vary greatly on the handling of storm drain runoff . New developments might be required to construct their own storm drain processing capacity for returning the runoff to the water table and bioswales may be required in sensitive ecological areas to protect the watershed .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 3,
+            "doc_id": "834226571_15954-16896-0-942",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain In the United States , cities , suburban communities and towns with over 10,000 population are required to obtain discharge permits for their storm sewer systems , under the Clean Water Act . The Environmental Protection Agency ( EPA ) issued stormwater regulations for large cities in 1990 and for other communities in 1999 . The permits require local governments to operate stormwater management programs , covering both construction of new buildings and facilities , and maintenance of their existing municipal drainage networks . Many municipalities have revised their local ordinances covering management of runoff . State government facilities , such as roads and highways , are also subject to the stormwater management regulations . Many local municipalities have placed ordinances for both commercial and residential stormwater management practices to be designed , implemented , and approved before an occupancy permit is released .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 4,
+            "doc_id": "834226571_8587-9336-0-749",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Runoff into storm sewers can be minimized by including sustainable urban drainage systems ( UK term ) or low impact development or green infrastructure practices ( US terms ) into municipal plans . To reduce stormwater from rooftops , flows from eaves troughs ( rain gutters and downspouts ) may be infiltrated into adjacent soil , rather than discharged into the storm sewer system . Storm water runoff from paved surfaces can be directed to unlined ditches ( sometimes called swales or bioswales ) before flowing into the storm sewers , again to allow the runoff to soak into the ground . Permeable paving materials can be used in building sidewalks , driveways and in some cases , parking lots , to infiltrate a portion of the stormwater volume .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 5,
+            "doc_id": "834226571_765-1254-0-489",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Drains are fed by street gutters on most motorways , freeways and other busy roads , as well as towns in areas which experience heavy rainfall , flooding and coastal towns which experience regular storms . Even the gutters from houses and buildings can be connected to the storm drain . Many storm drainage systems are designed as gravity sewers draining untreated storm water into rivers or streams . As a result , it is not acceptable to pour certain types of chemicals into the drains .",
+            "title": "Storm drain"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "834226571_13168-13671-0-503",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Many storm drainage systems are designed to drain the storm water , untreated , into rivers or streams . Many local governments conduct public awareness campaigns about this , lest waste be dumped into the storm drain system . In the city of Cleveland , Ohio , for example , all new catch basins installed have inscriptions on them not to dump any waste , and usually include a fish imprint as well . Trout Unlimited Canada recommends that a yellow fish symbol be painted next to existing storm drains .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 2,
+            "doc_id": "834226571_15633-15953-0-320",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Building codes and local government ordinances vary greatly on the handling of storm drain runoff . New developments might be required to construct their own storm drain processing capacity for returning the runoff to the water table and bioswales may be required in sensitive ecological areas to protect the watershed .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 3,
+            "doc_id": "834226571_15954-16896-0-942",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain In the United States , cities , suburban communities and towns with over 10,000 population are required to obtain discharge permits for their storm sewer systems , under the Clean Water Act . The Environmental Protection Agency ( EPA ) issued stormwater regulations for large cities in 1990 and for other communities in 1999 . The permits require local governments to operate stormwater management programs , covering both construction of new buildings and facilities , and maintenance of their existing municipal drainage networks . Many municipalities have revised their local ordinances covering management of runoff . State government facilities , such as roads and highways , are also subject to the stormwater management regulations . Many local municipalities have placed ordinances for both commercial and residential stormwater management practices to be designed , implemented , and approved before an occupancy permit is released .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 4,
+            "doc_id": "834226571_8587-9336-0-749",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Runoff into storm sewers can be minimized by including sustainable urban drainage systems ( UK term ) or low impact development or green infrastructure practices ( US terms ) into municipal plans . To reduce stormwater from rooftops , flows from eaves troughs ( rain gutters and downspouts ) may be infiltrated into adjacent soil , rather than discharged into the storm sewer system . Storm water runoff from paved surfaces can be directed to unlined ditches ( sometimes called swales or bioswales ) before flowing into the storm sewers , again to allow the runoff to soak into the ground . Permeable paving materials can be used in building sidewalks , driveways and in some cases , parking lots , to infiltrate a portion of the stormwater volume .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 5,
+            "doc_id": "834226571_765-1254-0-489",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Drains are fed by street gutters on most motorways , freeways and other busy roads , as well as towns in areas which experience heavy rainfall , flooding and coastal towns which experience regular storms . Even the gutters from houses and buildings can be connected to the storm drain . Many storm drainage systems are designed as gravity sewers draining untreated storm water into rivers or streams . As a result , it is not acceptable to pour certain types of chemicals into the drains .",
+            "title": "Storm drain"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Assistant: Building codes and local government ordinances vary greatly on the handling of storm drain runoff.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "834226571_13168-13671-0-503",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Storm drain Many storm drainage systems are designed to drain the storm water , untreated , into rivers or streams . Many local governments conduct public awareness campaigns about this , lest waste be dumped into the storm drain system . In the city of Cleveland , Ohio , for example , all new catch basins installed have inscriptions on them not to dump any waste , and usually include a fish imprint as well . Trout Unlimited Canada recommends that a yellow fish symbol be painted next to existing storm drains .",
+          "title": "Storm drain"
+        },
+        {
+          "rank": 2,
+          "doc_id": "834226571_15633-15953-0-320",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Storm drain Building codes and local government ordinances vary greatly on the handling of storm drain runoff . New developments might be required to construct their own storm drain processing capacity for returning the runoff to the water table and bioswales may be required in sensitive ecological areas to protect the watershed .",
+          "title": "Storm drain"
+        },
+        {
+          "rank": 3,
+          "doc_id": "834226571_15954-16896-0-942",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Storm drain In the United States , cities , suburban communities and towns with over 10,000 population are required to obtain discharge permits for their storm sewer systems , under the Clean Water Act . The Environmental Protection Agency ( EPA ) issued stormwater regulations for large cities in 1990 and for other communities in 1999 . The permits require local governments to operate stormwater management programs , covering both construction of new buildings and facilities , and maintenance of their existing municipal drainage networks . Many municipalities have revised their local ordinances covering management of runoff . State government facilities , such as roads and highways , are also subject to the stormwater management regulations . Many local municipalities have placed ordinances for both commercial and residential stormwater management practices to be designed , implemented , and approved before an occupancy permit is released .",
+          "title": "Storm drain"
+        },
+        {
+          "rank": 4,
+          "doc_id": "834226571_8587-9336-0-749",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Storm drain Runoff into storm sewers can be minimized by including sustainable urban drainage systems ( UK term ) or low impact development or green infrastructure practices ( US terms ) into municipal plans . To reduce stormwater from rooftops , flows from eaves troughs ( rain gutters and downspouts ) may be infiltrated into adjacent soil , rather than discharged into the storm sewer system . Storm water runoff from paved surfaces can be directed to unlined ditches ( sometimes called swales or bioswales ) before flowing into the storm sewers , again to allow the runoff to soak into the ground . Permeable paving materials can be used in building sidewalks , driveways and in some cases , parking lots , to infiltrate a portion of the stormwater volume .",
+          "title": "Storm drain"
+        },
+        {
+          "rank": 5,
+          "doc_id": "834226571_765-1254-0-489",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Storm drain Drains are fed by street gutters on most motorways , freeways and other busy roads , as well as towns in areas which experience heavy rainfall , flooding and coastal towns which experience regular storms . Even the gutters from houses and buildings can be connected to the storm drain . Many storm drainage systems are designed as gravity sewers draining untreated storm water into rivers or streams . As a result , it is not acceptable to pour certain types of chemicals into the drains .",
+          "title": "Storm drain"
+        }
+      ],
+      "reference": {
+        "answer": "At the federal level in the United States,  we have the National Environmental Policy Act ( NEPA ) and the Environmental Protection Agency ( EPA )created and signed during President Nixon term. That legislation was concerned primarily first - generation pollutants in the air , surface water , groundwater , and solid waste disposal . Later solid waste contaminants from agriculture , industry , mining , municipalities , and others were put under control .EPA have spent more than than $8.7 million on environmental education annually to increase public knowledge and awareness about the current environmental issues and the consequences . They aim to promote the popularization of the necessary skills and knowledge for the public to make decisions and participate in activities that lead to the resolution of environmental challenges . Virtually all of the executive branch 's departments have some area of environmental authority .The Environmental Protection Agency ( EPA ) issued stormwater regulations for  cities , suburban communities and towns with over 10,000 population requiring them  to obtain discharge permits for their storm sewer systems , under the Clean Water Act . The permits require local governments to operate stormwater management programs , covering both construction of new buildings and facilities , and maintenance of their existing municipal drainage networks . Many municipalities have revised their local ordinances covering management of runoff . State government facilities , such as roads and highways , are also subject to the stormwater management regulations . Many local municipalities have placed ordinances for both commercial and residential stormwater management practices to be designed , implemented , and approved before an occupancy permit is released .New developments might be required to construct their own storm drain processing capacity for returning the runoff to the water table and bioswales may be required in sensitive ecological areas to protect the watershed ",
+        "evidence_ids": [
+          "834226571_15954-16896-0-942",
+          "834226571_15633-15953-0-320",
+          "799262937_4587-5000-0-413",
+          "848480323_34054-34448-0-394",
+          "799262937_14460-15670-0-1210"
+        ],
+        "evidence": [
+          {
+            "doc_id": "834226571_15954-16896-0-942",
+            "text": "Storm drain\nStorm drain\nIn the United States , cities , suburban communities and towns with over 10,000 population are required to obtain discharge permits for their storm sewer systems , under the Clean Water Act . The Environmental Protection Agency ( EPA ) issued stormwater regulations for large cities in 1990 and for other communities in 1999 . The permits require local governments to operate stormwater management programs , covering both construction of new buildings and facilities , and maintenance of their existing municipal drainage networks . Many municipalities have revised their local ordinances covering management of runoff . State government facilities , such as roads and highways , are also subject to the stormwater management regulations . Many local municipalities have placed ordinances for both commercial and residential stormwater management practices to be designed , implemented , and approved before an occupancy permit is released ."
+          },
+          {
+            "doc_id": "834226571_15633-15953-0-320",
+            "text": "Storm drain\nStorm drain\nBuilding codes and local government ordinances vary greatly on the handling of storm drain runoff . New developments might be required to construct their own storm drain processing capacity for returning the runoff to the water table and bioswales may be required in sensitive ecological areas to protect the watershed ."
+          },
+          {
+            "doc_id": "799262937_4587-5000-0-413",
+            "text": "Environmental policy of the United States\nEnvironmental policy of the United States\nGovernmental authority on environmental issues in the United States is highly fragmented . While the EPA is the most comprehensive environmental agency , its authority on these matters is not absolute . Virtually all of the executive branch 's departments have some area of environmental authority . This contributes somewhat to the cost and questionable efficacy of the United States ' environmental regulation ."
+          },
+          {
+            "doc_id": "848480323_34054-34448-0-394",
+            "text": "Air pollution in the United States\nAir pollution in the United States\nBefore 2017 , the EPA have spent more than $8.7 million on environmental education annually to increase public knowledge and awareness about the current environmental issues and the consequences . They aim to promote the popularization of the necessary skills and knowledge for the public to make decisions and participate in activities that lead to the resolution of environmental challenges ."
+          },
+          {
+            "doc_id": "799262937_14460-15670-0-1210",
+            "text": "Environmental policy of the United States\nEnvironmental policy of the United States\nOn January 1 , 1970 , President Richard Nixon signed the National Environmental Policy Act ( NEPA ) , beginning the 1970s as the environmental decade . NEPA created the Council on Environmental Quality which oversaw the environmental impact of federal actions . Later in the year , Nixon created the Environmental Protection Agency ( EPA ) , which consolidated environmental programs from other agencies into a single entity . The legislation during this period concerned primarily first - generation pollutants in the air , surface water , groundwater , and solid waste disposal . Air pollutants such as particulates , sulfur dioxide , nitrogen dioxide , carbon monoxide , and ozone were put under regulation , and issues such as acid rain , visibility , and global warming were also concerns . In surface water , the contaminants of concern were dissolved oxygen , bacteria , suspended and dissolved solids , nutrients , and toxic substances such as metals . For groundwater , the pollutants included biological contaminants , inorganic and organic substances , and radionuclides . Finally , solid waste contaminants from agriculture , industry , mining , municipalities , and others were put under control ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid",
+          "Summarization"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "6",
+      "task_id": "a2698b2973ea7db1ee5adb5e70ec02e4<::>6",
+      "question": "How does the storm drain work in the other parts of the world.",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "where does water go after it enters a storm drain"
+        },
+        {
+          "role": "assistant",
+          "content": "The water that enters a storm drain like some of the heavier sediment and small objects may settle in a catchbasin , or sump , which lies immediately below the outlet , where water from the top of the catchbasin reservoir overflows into the sewer proper . Most drains have a single large exit at their point of discharge ( often covered by a grating ) into a canal , river , lake , reservoir , sea or ocean . Storm drains may discharge into man - made excavations known as recharge basins or retention ponds ."
+        },
+        {
+          "role": "user",
+          "content": "What is a catchbasin and how they are designed?"
+        },
+        {
+          "role": "assistant",
+          "content": "A catchbasin is a component in a storm drain system that serves as a first-line pretreatment for other treatment practices. It functions similarly to the trap in household wastewater plumbing by capturing large sediments and street litter from urban runoff before it enters the storm drainage pipes. It is designed with a single large exit at its point of discharge, often covered by a grating, and lies immediately below the outlet of the storm drain. Water from the top of the catchbasin reservoir overflows into the sewer proper, and most catchbasins are connected to a piping system that leads to a canal, river, lake, reservoir, sea, or ocean.  Unlike the plumbing trap , the catchbasin does not necessarily prevent sewer gases such as hydrogen sulfide and methane from escaping. Its performance at removing sediment and other pollutants depends on the design of the catchbasin ( for example , the size of the sump ) , and on routine maintenance to retain the storage available in the sump to capture sediment . Some  catch basins are also commonly designed with a sump area below the outlet pipe level which is a reservoir for water and debris to help prevent the pipe from clogging "
+        },
+        {
+          "role": "user",
+          "content": "Does the basin really capture the litter  and debris from the water from the streets, roads, roofs?"
+        },
+        {
+          "role": "assistant",
+          "content": "As I mentioned before the are commonly designed to capture large sediments and street litter from urban runoff before it enters the storm drainage pipes. However its  functionality is questionable , as these catch basins are most commonly not cleaned annually as is needed to make them perform as designed . The trapping of debris serves no purpose because once filled they operate as if no basins were present , but continue to allow a shallow area of water retention for the breeding of mosquito since it is cool , dark , and retains stagnant water for long periods of time . Combined with standard grates which have holes large enough for mosquitoes to enter and leave the basin , this is a major problem in mosquito control .  . Moreover , even if cleaned and maintained , the water reservoir remains filled , accommodating the breeding of mosquitoes ."
+        },
+        {
+          "role": "user",
+          "content": "Could be the water that enters a storm drain recycled and be used in the house chores like cleaning, gardening , etc?"
+        },
+        {
+          "role": "assistant",
+          "content": "The water from urban runoff is very dirty. It tends to pick up gasoline , motor oil , heavy metals , trash and other pollutants from roadways and parking lots , as well as fertilizers and pesticides from lawns  and may become contaminated while running down the road or other impervious surface , before entering the drain and could not be used in house chores. However,  Many local governments conduct public awareness campaigns about this including sustainable urban drainage systems or low impact development or green infrastructure practices   into municipal plans , helping lest waste be dumped into the storm drain system . In the city of Cleveland , Ohio , for example , all new catch basins installed have inscriptions on them not to dump any waste , and usually include a fish imprint as well . "
+        },
+        {
+          "role": "user",
+          "content": "And about on the level of the Federal government, do  they have guidelines or even a law to how to build more sustainable storm drain so the water could be recycled ?"
+        },
+        {
+          "role": "assistant",
+          "content": "At the federal level in the United States,  we have the National Environmental Policy Act ( NEPA ) and the Environmental Protection Agency ( EPA )created and signed during President Nixon term. That legislation was concerned primarily first - generation pollutants in the air , surface water , groundwater , and solid waste disposal . Later solid waste contaminants from agriculture , industry , mining , municipalities , and others were put under control .EPA have spent more than than $8.7 million on environmental education annually to increase public knowledge and awareness about the current environmental issues and the consequences . They aim to promote the popularization of the necessary skills and knowledge for the public to make decisions and participate in activities that lead to the resolution of environmental challenges . Virtually all of the executive branch 's departments have some area of environmental authority .The Environmental Protection Agency ( EPA ) issued stormwater regulations for  cities , suburban communities and towns with over 10,000 population requiring them  to obtain discharge permits for their storm sewer systems , under the Clean Water Act . The permits require local governments to operate stormwater management programs , covering both construction of new buildings and facilities , and maintenance of their existing municipal drainage networks . Many municipalities have revised their local ordinances covering management of runoff . State government facilities , such as roads and highways , are also subject to the stormwater management regulations . Many local municipalities have placed ordinances for both commercial and residential stormwater management practices to be designed , implemented , and approved before an occupancy permit is released .New developments might be required to construct their own storm drain processing capacity for returning the runoff to the water table and bioswales may be required in sensitive ecological areas to protect the watershed "
+        }
+      ],
+      "retrieval": {
+        "query": "How does the storm drain work in the other parts of the world.",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "834226571_765-1254-0-489",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Drains are fed by street gutters on most motorways , freeways and other busy roads , as well as towns in areas which experience heavy rainfall , flooding and coastal towns which experience regular storms . Even the gutters from houses and buildings can be connected to the storm drain . Many storm drainage systems are designed as gravity sewers draining untreated storm water into rivers or streams . As a result , it is not acceptable to pour certain types of chemicals into the drains .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 2,
+            "doc_id": "834226571_18623-19245-0-621",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain A storm drain discharging into the River Brent in the UK . Iron Cove Creek , Sydney , Australia . Inside of a large reinforced concrete box storm drain in Mississauga , Ontario , Canada . Storm drain in Obertraun , Austria . Storm drain overflowing in Durham , North Carolina . 114 '' pipe installation ; Pipe : 114 '' aluminized type 2 ; Flow : 25 cubic meters / second ; This is a storm drain in Guasave , Mexico . The inlet to a storm drain in Markeaton , Derby allowing a river to overflow into the storm drain . Inside the Markeaton Interceptor Storm Relief Culvert Old storm drain in Kutná Hora , the Czech Republic",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 3,
+            "doc_id": "834226571_364-764-0-400",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain A storm drain , storm sewer ( U.S. and Canada ) , surface water drain / sewer ( United Kingdom ) , or stormwater drain ( Australia and New Zealand ) is designed to drain excess rain and ground water from impervious surfaces such as paved streets , car parks , parking lots , footpaths , sidewalks , and roofs . Storm drains vary in design from small residential dry wells to large municipal systems .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 4,
+            "doc_id": "834226571_18029-18605-0-576",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Archaeological studies have revealed use of rather sophisticated stormwater runoff systems in ancient cultures . For example , in Minoan Crete approximately 4000 years before present , cities such as Phaistos were designed to have storm drains and channels to collect precipitation runoff . At Cretan Knossos , storm drains include stone - lined structures large enough for a person to crawl through . Other examples of early civilizations with elements of stormwater drain systems include early people of Mainland Orkney such as Gurness and the Brough of Birsay in Scotland .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 5,
+            "doc_id": "834226571_17102-17395-0-293",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain An international subculture has grown up around the exploration of stormwater drains . Societies such as the Cave Clan regularly explore the drains underneath cities . This is commonly known as `` urban exploration '' , but is also known as draining when in specific relation to storm drains .",
+            "title": "Storm drain"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "834226571_765-1254-0-489",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Drains are fed by street gutters on most motorways , freeways and other busy roads , as well as towns in areas which experience heavy rainfall , flooding and coastal towns which experience regular storms . Even the gutters from houses and buildings can be connected to the storm drain . Many storm drainage systems are designed as gravity sewers draining untreated storm water into rivers or streams . As a result , it is not acceptable to pour certain types of chemicals into the drains .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 2,
+            "doc_id": "834226571_18623-19245-0-621",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain A storm drain discharging into the River Brent in the UK . Iron Cove Creek , Sydney , Australia . Inside of a large reinforced concrete box storm drain in Mississauga , Ontario , Canada . Storm drain in Obertraun , Austria . Storm drain overflowing in Durham , North Carolina . 114 '' pipe installation ; Pipe : 114 '' aluminized type 2 ; Flow : 25 cubic meters / second ; This is a storm drain in Guasave , Mexico . The inlet to a storm drain in Markeaton , Derby allowing a river to overflow into the storm drain . Inside the Markeaton Interceptor Storm Relief Culvert Old storm drain in Kutná Hora , the Czech Republic",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 3,
+            "doc_id": "834226571_364-764-0-400",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain A storm drain , storm sewer ( U.S. and Canada ) , surface water drain / sewer ( United Kingdom ) , or stormwater drain ( Australia and New Zealand ) is designed to drain excess rain and ground water from impervious surfaces such as paved streets , car parks , parking lots , footpaths , sidewalks , and roofs . Storm drains vary in design from small residential dry wells to large municipal systems .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 4,
+            "doc_id": "834226571_18029-18605-0-576",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Archaeological studies have revealed use of rather sophisticated stormwater runoff systems in ancient cultures . For example , in Minoan Crete approximately 4000 years before present , cities such as Phaistos were designed to have storm drains and channels to collect precipitation runoff . At Cretan Knossos , storm drains include stone - lined structures large enough for a person to crawl through . Other examples of early civilizations with elements of stormwater drain systems include early people of Mainland Orkney such as Gurness and the Brough of Birsay in Scotland .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 5,
+            "doc_id": "834226571_17102-17395-0-293",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain An international subculture has grown up around the exploration of stormwater drains . Societies such as the Cave Clan regularly explore the drains underneath cities . This is commonly known as `` urban exploration '' , but is also known as draining when in specific relation to storm drains .",
+            "title": "Storm drain"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Assistant: The design of storm drains varies widely across the world.In some countries, such as Australia, stormwater is often managed through a combination of infrastructure and land use planning.In other countries, such as China, stormwater management is often focused on flood control and water supply.It is important to note that the design and function of storm drains can vary greatly depending on the local climate, topography, and regulatory environment.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "834226571_765-1254-0-489",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Storm drain Drains are fed by street gutters on most motorways , freeways and other busy roads , as well as towns in areas which experience heavy rainfall , flooding and coastal towns which experience regular storms . Even the gutters from houses and buildings can be connected to the storm drain . Many storm drainage systems are designed as gravity sewers draining untreated storm water into rivers or streams . As a result , it is not acceptable to pour certain types of chemicals into the drains .",
+          "title": "Storm drain"
+        },
+        {
+          "rank": 2,
+          "doc_id": "834226571_18623-19245-0-621",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Storm drain A storm drain discharging into the River Brent in the UK . Iron Cove Creek , Sydney , Australia . Inside of a large reinforced concrete box storm drain in Mississauga , Ontario , Canada . Storm drain in Obertraun , Austria . Storm drain overflowing in Durham , North Carolina . 114 '' pipe installation ; Pipe : 114 '' aluminized type 2 ; Flow : 25 cubic meters / second ; This is a storm drain in Guasave , Mexico . The inlet to a storm drain in Markeaton , Derby allowing a river to overflow into the storm drain . Inside the Markeaton Interceptor Storm Relief Culvert Old storm drain in Kutná Hora , the Czech Republic",
+          "title": "Storm drain"
+        },
+        {
+          "rank": 3,
+          "doc_id": "834226571_364-764-0-400",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Storm drain A storm drain , storm sewer ( U.S. and Canada ) , surface water drain / sewer ( United Kingdom ) , or stormwater drain ( Australia and New Zealand ) is designed to drain excess rain and ground water from impervious surfaces such as paved streets , car parks , parking lots , footpaths , sidewalks , and roofs . Storm drains vary in design from small residential dry wells to large municipal systems .",
+          "title": "Storm drain"
+        },
+        {
+          "rank": 4,
+          "doc_id": "834226571_18029-18605-0-576",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Storm drain Archaeological studies have revealed use of rather sophisticated stormwater runoff systems in ancient cultures . For example , in Minoan Crete approximately 4000 years before present , cities such as Phaistos were designed to have storm drains and channels to collect precipitation runoff . At Cretan Knossos , storm drains include stone - lined structures large enough for a person to crawl through . Other examples of early civilizations with elements of stormwater drain systems include early people of Mainland Orkney such as Gurness and the Brough of Birsay in Scotland .",
+          "title": "Storm drain"
+        },
+        {
+          "rank": 5,
+          "doc_id": "834226571_17102-17395-0-293",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Storm drain An international subculture has grown up around the exploration of stormwater drains . Societies such as the Cave Clan regularly explore the drains underneath cities . This is commonly known as `` urban exploration '' , but is also known as draining when in specific relation to storm drains .",
+          "title": "Storm drain"
+        }
+      ],
+      "reference": {
+        "answer": "I do not have much information about how storm drain works around the world, but an international subculture has grown up around the exploration of stormwater drains . Societies such as the Cave Clan regularly explore the drains underneath cities . This is commonly known as `` urban exploration '' , but is also known as draining when in specific relation to storm drains . Storm drain , storm sewer ( U.S. and Canada ) , surface water drain / sewer ( United Kingdom ) , or stormwater drain ( Australia and New Zealand ) is usually designed to drain excess rain and ground water from impervious surfaces such as paved streets , car parks , parking lots , footpaths , sidewalks , and roofs. In UK, there are here are two main types of stormwater drain : the highway drain or road gully in the UK inlets.",
+        "evidence_ids": [
+          "834226571_364-764-0-400",
+          "834226571_17102-17395-0-293",
+          "834226571_3561-3915-0-354"
+        ],
+        "evidence": [
+          {
+            "doc_id": "834226571_364-764-0-400",
+            "text": "Storm drain\nStorm drain\nA storm drain , storm sewer ( U.S. and Canada ) , surface water drain / sewer ( United Kingdom ) , or stormwater drain ( Australia and New Zealand ) is designed to drain excess rain and ground water from impervious surfaces such as paved streets , car parks , parking lots , footpaths , sidewalks , and roofs . Storm drains vary in design from small residential dry wells to large municipal systems ."
+          },
+          {
+            "doc_id": "834226571_17102-17395-0-293",
+            "text": "Storm drain\nStorm drain\nAn international subculture has grown up around the exploration of stormwater drains . Societies such as the Cave Clan regularly explore the drains underneath cities . This is commonly known as `` urban exploration '' , but is also known as draining when in specific relation to storm drains ."
+          },
+          {
+            "doc_id": "834226571_3561-3915-0-354",
+            "text": "Storm drain\nStorm drain\nThere are two main types of stormwater drain ( highway drain or road gully in the UK ) inlets : side inlets and grated inlets . Side inlets are located adjacent to the curb ( kerb ) and rely on the ability of the opening under the backstone or lintel to capture flow . They are usually depressed at the invert of the channel to improve capture capacity ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "PARTIAL",
+        "question_type": [
+          "How-To",
+          "Summarization"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "7",
+      "task_id": "a2698b2973ea7db1ee5adb5e70ec02e4<::>7",
+      "question": "Do you have any information about how the ancient civilization deal with the stormwater?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "where does water go after it enters a storm drain"
+        },
+        {
+          "role": "assistant",
+          "content": "The water that enters a storm drain like some of the heavier sediment and small objects may settle in a catchbasin , or sump , which lies immediately below the outlet , where water from the top of the catchbasin reservoir overflows into the sewer proper . Most drains have a single large exit at their point of discharge ( often covered by a grating ) into a canal , river , lake , reservoir , sea or ocean . Storm drains may discharge into man - made excavations known as recharge basins or retention ponds ."
+        },
+        {
+          "role": "user",
+          "content": "What is a catchbasin and how they are designed?"
+        },
+        {
+          "role": "assistant",
+          "content": "A catchbasin is a component in a storm drain system that serves as a first-line pretreatment for other treatment practices. It functions similarly to the trap in household wastewater plumbing by capturing large sediments and street litter from urban runoff before it enters the storm drainage pipes. It is designed with a single large exit at its point of discharge, often covered by a grating, and lies immediately below the outlet of the storm drain. Water from the top of the catchbasin reservoir overflows into the sewer proper, and most catchbasins are connected to a piping system that leads to a canal, river, lake, reservoir, sea, or ocean.  Unlike the plumbing trap , the catchbasin does not necessarily prevent sewer gases such as hydrogen sulfide and methane from escaping. Its performance at removing sediment and other pollutants depends on the design of the catchbasin ( for example , the size of the sump ) , and on routine maintenance to retain the storage available in the sump to capture sediment . Some  catch basins are also commonly designed with a sump area below the outlet pipe level which is a reservoir for water and debris to help prevent the pipe from clogging "
+        },
+        {
+          "role": "user",
+          "content": "Does the basin really capture the litter  and debris from the water from the streets, roads, roofs?"
+        },
+        {
+          "role": "assistant",
+          "content": "As I mentioned before the are commonly designed to capture large sediments and street litter from urban runoff before it enters the storm drainage pipes. However its  functionality is questionable , as these catch basins are most commonly not cleaned annually as is needed to make them perform as designed . The trapping of debris serves no purpose because once filled they operate as if no basins were present , but continue to allow a shallow area of water retention for the breeding of mosquito since it is cool , dark , and retains stagnant water for long periods of time . Combined with standard grates which have holes large enough for mosquitoes to enter and leave the basin , this is a major problem in mosquito control .  . Moreover , even if cleaned and maintained , the water reservoir remains filled , accommodating the breeding of mosquitoes ."
+        },
+        {
+          "role": "user",
+          "content": "Could be the water that enters a storm drain recycled and be used in the house chores like cleaning, gardening , etc?"
+        },
+        {
+          "role": "assistant",
+          "content": "The water from urban runoff is very dirty. It tends to pick up gasoline , motor oil , heavy metals , trash and other pollutants from roadways and parking lots , as well as fertilizers and pesticides from lawns  and may become contaminated while running down the road or other impervious surface , before entering the drain and could not be used in house chores. However,  Many local governments conduct public awareness campaigns about this including sustainable urban drainage systems or low impact development or green infrastructure practices   into municipal plans , helping lest waste be dumped into the storm drain system . In the city of Cleveland , Ohio , for example , all new catch basins installed have inscriptions on them not to dump any waste , and usually include a fish imprint as well . "
+        },
+        {
+          "role": "user",
+          "content": "And about on the level of the Federal government, do  they have guidelines or even a law to how to build more sustainable storm drain so the water could be recycled ?"
+        },
+        {
+          "role": "assistant",
+          "content": "At the federal level in the United States,  we have the National Environmental Policy Act ( NEPA ) and the Environmental Protection Agency ( EPA )created and signed during President Nixon term. That legislation was concerned primarily first - generation pollutants in the air , surface water , groundwater , and solid waste disposal . Later solid waste contaminants from agriculture , industry , mining , municipalities , and others were put under control .EPA have spent more than than $8.7 million on environmental education annually to increase public knowledge and awareness about the current environmental issues and the consequences . They aim to promote the popularization of the necessary skills and knowledge for the public to make decisions and participate in activities that lead to the resolution of environmental challenges . Virtually all of the executive branch 's departments have some area of environmental authority .The Environmental Protection Agency ( EPA ) issued stormwater regulations for  cities , suburban communities and towns with over 10,000 population requiring them  to obtain discharge permits for their storm sewer systems , under the Clean Water Act . The permits require local governments to operate stormwater management programs , covering both construction of new buildings and facilities , and maintenance of their existing municipal drainage networks . Many municipalities have revised their local ordinances covering management of runoff . State government facilities , such as roads and highways , are also subject to the stormwater management regulations . Many local municipalities have placed ordinances for both commercial and residential stormwater management practices to be designed , implemented , and approved before an occupancy permit is released .New developments might be required to construct their own storm drain processing capacity for returning the runoff to the water table and bioswales may be required in sensitive ecological areas to protect the watershed "
+        },
+        {
+          "role": "user",
+          "content": "How does the storm drain work in the other parts of the world."
+        },
+        {
+          "role": "assistant",
+          "content": "I do not have much information about how storm drain works around the world, but an international subculture has grown up around the exploration of stormwater drains . Societies such as the Cave Clan regularly explore the drains underneath cities . This is commonly known as `` urban exploration '' , but is also known as draining when in specific relation to storm drains . Storm drain , storm sewer ( U.S. and Canada ) , surface water drain / sewer ( United Kingdom ) , or stormwater drain ( Australia and New Zealand ) is usually designed to drain excess rain and ground water from impervious surfaces such as paved streets , car parks , parking lots , footpaths , sidewalks , and roofs. In UK, there are here are two main types of stormwater drain : the highway drain or road gully in the UK inlets."
+        }
+      ],
+      "retrieval": {
+        "query": "Do you have any information about how the ancient civilization deal with the stormwater?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "834226571_18029-18605-0-576",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Archaeological studies have revealed use of rather sophisticated stormwater runoff systems in ancient cultures . For example , in Minoan Crete approximately 4000 years before present , cities such as Phaistos were designed to have storm drains and channels to collect precipitation runoff . At Cretan Knossos , storm drains include stone - lined structures large enough for a person to crawl through . Other examples of early civilizations with elements of stormwater drain systems include early people of Mainland Orkney such as Gurness and the Brough of Birsay in Scotland .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 2,
+            "doc_id": "856975427_56891-57508-0-617",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Ancient Roman architecture The most frequent dam types were earth - or rock - filled embankment dams and masonry gravity dams . These served a wide array of purposes , such as irrigation , flood control , river diversion , soil - retention , or a combination of these functions . The impermeability of Roman dams was increased by the introduction of waterproof hydraulic mortar and especially opus caementicium in the Concrete Revolution . These materials also allowed for bigger structures to be built , like the Lake Homs Dam , possibly the largest water barrier today , and the sturdy Harbaqa Dam , both of which consist of a concrete core .",
+            "title": "Ancient Roman architecture"
+          },
+          {
+            "rank": 3,
+            "doc_id": "803140957_5239-5565-0-326",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Siege The Assyrians deployed large labour forces to build new palaces , temples , and defensive walls . Some settlements in the Indus Valley Civilization were also fortified . By about 3500 BC , hundreds of small farming villages dotted the Indus River floodplain . Many of these settlements had fortifications and planned streets .",
+            "title": "Siege"
+          },
+          {
+            "rank": 4,
+            "doc_id": "804150900_6903-7510-0-607",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Ancient Egypt The Nile has been the lifeline of its region for much of human history . The fertile floodplain of the Nile gave humans the opportunity to develop a settled agricultural economy and a more sophisticated , centralized society that became a cornerstone in the history of human civilization . Nomadic modern human hunter - gatherers began living in the Nile valley through the end of the Middle Pleistocene some 120,000 years ago . By the late Paleolithic period , the arid climate of Northern Africa became increasingly hot and dry , forcing the populations of the area to concentrate along the river region .",
+            "title": "Ancient Egypt"
+          },
+          {
+            "rank": 5,
+            "doc_id": "837032107_19497-20487-0-990",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Nile Water buffalo were introduced from Asia , and Assyrians introduced camels in the 7th century BC . These animals were killed for meat , and were domesticated and used for ploughing -- or in the camels ' case , carriage . Water was vital to both people and livestock . The Nile was also a convenient and efficient means of transportation for people and goods . The Nile was an important part of ancient Egyptian spiritual life . Hapy was the god of the annual floods , and both he and the pharaoh were thought to control the flooding . The Nile was considered to be a causeway from life to death and the afterlife . The east was thought of as a place of birth and growth , and the west was considered the place of death , as the god Ra , the Sun , underwent birth , death , and resurrection each day as he crossed the sky . Thus , all tombs were west of the Nile , because the Egyptians believed that in order to enter the afterlife , they had to be buried on the side that symbolized death .",
+            "title": "Nile"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "834226571_18029-18605-0-576",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Storm drain Archaeological studies have revealed use of rather sophisticated stormwater runoff systems in ancient cultures . For example , in Minoan Crete approximately 4000 years before present , cities such as Phaistos were designed to have storm drains and channels to collect precipitation runoff . At Cretan Knossos , storm drains include stone - lined structures large enough for a person to crawl through . Other examples of early civilizations with elements of stormwater drain systems include early people of Mainland Orkney such as Gurness and the Brough of Birsay in Scotland .",
+            "title": "Storm drain"
+          },
+          {
+            "rank": 2,
+            "doc_id": "856975427_56891-57508-0-617",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Ancient Roman architecture The most frequent dam types were earth - or rock - filled embankment dams and masonry gravity dams . These served a wide array of purposes , such as irrigation , flood control , river diversion , soil - retention , or a combination of these functions . The impermeability of Roman dams was increased by the introduction of waterproof hydraulic mortar and especially opus caementicium in the Concrete Revolution . These materials also allowed for bigger structures to be built , like the Lake Homs Dam , possibly the largest water barrier today , and the sturdy Harbaqa Dam , both of which consist of a concrete core .",
+            "title": "Ancient Roman architecture"
+          },
+          {
+            "rank": 3,
+            "doc_id": "803140957_5239-5565-0-326",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Siege The Assyrians deployed large labour forces to build new palaces , temples , and defensive walls . Some settlements in the Indus Valley Civilization were also fortified . By about 3500 BC , hundreds of small farming villages dotted the Indus River floodplain . Many of these settlements had fortifications and planned streets .",
+            "title": "Siege"
+          },
+          {
+            "rank": 4,
+            "doc_id": "804150900_6903-7510-0-607",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Ancient Egypt The Nile has been the lifeline of its region for much of human history . The fertile floodplain of the Nile gave humans the opportunity to develop a settled agricultural economy and a more sophisticated , centralized society that became a cornerstone in the history of human civilization . Nomadic modern human hunter - gatherers began living in the Nile valley through the end of the Middle Pleistocene some 120,000 years ago . By the late Paleolithic period , the arid climate of Northern Africa became increasingly hot and dry , forcing the populations of the area to concentrate along the river region .",
+            "title": "Ancient Egypt"
+          },
+          {
+            "rank": 5,
+            "doc_id": "837032107_19497-20487-0-990",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Nile Water buffalo were introduced from Asia , and Assyrians introduced camels in the 7th century BC . These animals were killed for meat , and were domesticated and used for ploughing -- or in the camels ' case , carriage . Water was vital to both people and livestock . The Nile was also a convenient and efficient means of transportation for people and goods . The Nile was an important part of ancient Egyptian spiritual life . Hapy was the god of the annual floods , and both he and the pharaoh were thought to control the flooding . The Nile was considered to be a causeway from life to death and the afterlife . The east was thought of as a place of birth and growth , and the west was considered the place of death , as the god Ra , the Sun , underwent birth , death , and resurrection each day as he crossed the sky . Thus , all tombs were west of the Nile , because the Egyptians believed that in order to enter the afterlife , they had to be buried on the side that symbolized death .",
+            "title": "Nile"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Assistant: Archaeological studies have revealed use of rather sophisticated stormwater runoff systems in ancient cultures.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "834226571_18029-18605-0-576",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Storm drain Archaeological studies have revealed use of rather sophisticated stormwater runoff systems in ancient cultures . For example , in Minoan Crete approximately 4000 years before present , cities such as Phaistos were designed to have storm drains and channels to collect precipitation runoff . At Cretan Knossos , storm drains include stone - lined structures large enough for a person to crawl through . Other examples of early civilizations with elements of stormwater drain systems include early people of Mainland Orkney such as Gurness and the Brough of Birsay in Scotland .",
+          "title": "Storm drain"
+        },
+        {
+          "rank": 2,
+          "doc_id": "856975427_56891-57508-0-617",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Ancient Roman architecture The most frequent dam types were earth - or rock - filled embankment dams and masonry gravity dams . These served a wide array of purposes , such as irrigation , flood control , river diversion , soil - retention , or a combination of these functions . The impermeability of Roman dams was increased by the introduction of waterproof hydraulic mortar and especially opus caementicium in the Concrete Revolution . These materials also allowed for bigger structures to be built , like the Lake Homs Dam , possibly the largest water barrier today , and the sturdy Harbaqa Dam , both of which consist of a concrete core .",
+          "title": "Ancient Roman architecture"
+        },
+        {
+          "rank": 3,
+          "doc_id": "803140957_5239-5565-0-326",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Siege The Assyrians deployed large labour forces to build new palaces , temples , and defensive walls . Some settlements in the Indus Valley Civilization were also fortified . By about 3500 BC , hundreds of small farming villages dotted the Indus River floodplain . Many of these settlements had fortifications and planned streets .",
+          "title": "Siege"
+        },
+        {
+          "rank": 4,
+          "doc_id": "804150900_6903-7510-0-607",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Ancient Egypt The Nile has been the lifeline of its region for much of human history . The fertile floodplain of the Nile gave humans the opportunity to develop a settled agricultural economy and a more sophisticated , centralized society that became a cornerstone in the history of human civilization . Nomadic modern human hunter - gatherers began living in the Nile valley through the end of the Middle Pleistocene some 120,000 years ago . By the late Paleolithic period , the arid climate of Northern Africa became increasingly hot and dry , forcing the populations of the area to concentrate along the river region .",
+          "title": "Ancient Egypt"
+        },
+        {
+          "rank": 5,
+          "doc_id": "837032107_19497-20487-0-990",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Nile Water buffalo were introduced from Asia , and Assyrians introduced camels in the 7th century BC . These animals were killed for meat , and were domesticated and used for ploughing -- or in the camels ' case , carriage . Water was vital to both people and livestock . The Nile was also a convenient and efficient means of transportation for people and goods . The Nile was an important part of ancient Egyptian spiritual life . Hapy was the god of the annual floods , and both he and the pharaoh were thought to control the flooding . The Nile was considered to be a causeway from life to death and the afterlife . The east was thought of as a place of birth and growth , and the west was considered the place of death , as the god Ra , the Sun , underwent birth , death , and resurrection each day as he crossed the sky . Thus , all tombs were west of the Nile , because the Egyptians believed that in order to enter the afterlife , they had to be buried on the side that symbolized death .",
+          "title": "Nile"
+        }
+      ],
+      "reference": {
+        "answer": "The storm drain Archaeological studies have revealed the use of quite sophisticated stormwater runoff systems in ancient cultures . For instance , in Minoan Crete approximately 4000 years before present , cities such as Phaistos were designed to have storm drains and channels to collect precipitation runoff . At Cretan Knossos , storm drains include stone - lined structures large enough for a person to crawl through . Other examples of early civilizations with elements of stormwater drain systems include early people of Mainland Orkney such as Gurness and the Brough of Birsay in Scotland . Even the success of ancient Egyptian civilization came partly from its ability to use and adapt the stormrain flooding of the Nile River valley for agriculture . ",
+        "evidence_ids": [
+          "834226571_18029-18605-0-576",
+          "804150900_3742-4703-0-961"
+        ],
+        "evidence": [
+          {
+            "doc_id": "834226571_18029-18605-0-576",
+            "text": "Storm drain\nStorm drain\nArchaeological studies have revealed use of rather sophisticated stormwater runoff systems in ancient cultures . For example , in Minoan Crete approximately 4000 years before present , cities such as Phaistos were designed to have storm drains and channels to collect precipitation runoff . At Cretan Knossos , storm drains include stone - lined structures large enough for a person to crawl through . Other examples of early civilizations with elements of stormwater drain systems include early people of Mainland Orkney such as Gurness and the Brough of Birsay in Scotland ."
+          },
+          {
+            "doc_id": "804150900_3742-4703-0-961",
+            "text": "Ancient Egypt\nAncient Egypt\nThe success of ancient Egyptian civilization came partly from its ability to adapt to the conditions of the Nile River valley for agriculture . The predictable flooding and controlled irrigation of the fertile valley produced surplus crops , which supported a more dense population , and social development and culture . With resources to spare , the administration sponsored mineral exploitation of the valley and surrounding desert regions , the early development of an independent writing system , the organization of collective construction and agricultural projects , trade with surrounding regions , and a military intended to defeat foreign enemies and assert Egyptian dominance . Motivating and organizing these activities was a bureaucracy of elite scribes , religious leaders , and administrators under the control of a pharaoh , who ensured the cooperation and unity of the Egyptian people in the context of an elaborate system of religious beliefs ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid",
+          "Summarization"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "8",
+      "task_id": "a2698b2973ea7db1ee5adb5e70ec02e4<::>8",
+      "question": "Chaging the subject a little a bit,  are there many people worldwide without  proper sewage treatment?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "where does water go after it enters a storm drain"
+        },
+        {
+          "role": "assistant",
+          "content": "The water that enters a storm drain like some of the heavier sediment and small objects may settle in a catchbasin , or sump , which lies immediately below the outlet , where water from the top of the catchbasin reservoir overflows into the sewer proper . Most drains have a single large exit at their point of discharge ( often covered by a grating ) into a canal , river , lake , reservoir , sea or ocean . Storm drains may discharge into man - made excavations known as recharge basins or retention ponds ."
+        },
+        {
+          "role": "user",
+          "content": "What is a catchbasin and how they are designed?"
+        },
+        {
+          "role": "assistant",
+          "content": "A catchbasin is a component in a storm drain system that serves as a first-line pretreatment for other treatment practices. It functions similarly to the trap in household wastewater plumbing by capturing large sediments and street litter from urban runoff before it enters the storm drainage pipes. It is designed with a single large exit at its point of discharge, often covered by a grating, and lies immediately below the outlet of the storm drain. Water from the top of the catchbasin reservoir overflows into the sewer proper, and most catchbasins are connected to a piping system that leads to a canal, river, lake, reservoir, sea, or ocean.  Unlike the plumbing trap , the catchbasin does not necessarily prevent sewer gases such as hydrogen sulfide and methane from escaping. Its performance at removing sediment and other pollutants depends on the design of the catchbasin ( for example , the size of the sump ) , and on routine maintenance to retain the storage available in the sump to capture sediment . Some  catch basins are also commonly designed with a sump area below the outlet pipe level which is a reservoir for water and debris to help prevent the pipe from clogging "
+        },
+        {
+          "role": "user",
+          "content": "Does the basin really capture the litter  and debris from the water from the streets, roads, roofs?"
+        },
+        {
+          "role": "assistant",
+          "content": "As I mentioned before the are commonly designed to capture large sediments and street litter from urban runoff before it enters the storm drainage pipes. However its  functionality is questionable , as these catch basins are most commonly not cleaned annually as is needed to make them perform as designed . The trapping of debris serves no purpose because once filled they operate as if no basins were present , but continue to allow a shallow area of water retention for the breeding of mosquito since it is cool , dark , and retains stagnant water for long periods of time . Combined with standard grates which have holes large enough for mosquitoes to enter and leave the basin , this is a major problem in mosquito control .  . Moreover , even if cleaned and maintained , the water reservoir remains filled , accommodating the breeding of mosquitoes ."
+        },
+        {
+          "role": "user",
+          "content": "Could be the water that enters a storm drain recycled and be used in the house chores like cleaning, gardening , etc?"
+        },
+        {
+          "role": "assistant",
+          "content": "The water from urban runoff is very dirty. It tends to pick up gasoline , motor oil , heavy metals , trash and other pollutants from roadways and parking lots , as well as fertilizers and pesticides from lawns  and may become contaminated while running down the road or other impervious surface , before entering the drain and could not be used in house chores. However,  Many local governments conduct public awareness campaigns about this including sustainable urban drainage systems or low impact development or green infrastructure practices   into municipal plans , helping lest waste be dumped into the storm drain system . In the city of Cleveland , Ohio , for example , all new catch basins installed have inscriptions on them not to dump any waste , and usually include a fish imprint as well . "
+        },
+        {
+          "role": "user",
+          "content": "And about on the level of the Federal government, do  they have guidelines or even a law to how to build more sustainable storm drain so the water could be recycled ?"
+        },
+        {
+          "role": "assistant",
+          "content": "At the federal level in the United States,  we have the National Environmental Policy Act ( NEPA ) and the Environmental Protection Agency ( EPA )created and signed during President Nixon term. That legislation was concerned primarily first - generation pollutants in the air , surface water , groundwater , and solid waste disposal . Later solid waste contaminants from agriculture , industry , mining , municipalities , and others were put under control .EPA have spent more than than $8.7 million on environmental education annually to increase public knowledge and awareness about the current environmental issues and the consequences . They aim to promote the popularization of the necessary skills and knowledge for the public to make decisions and participate in activities that lead to the resolution of environmental challenges . Virtually all of the executive branch 's departments have some area of environmental authority .The Environmental Protection Agency ( EPA ) issued stormwater regulations for  cities , suburban communities and towns with over 10,000 population requiring them  to obtain discharge permits for their storm sewer systems , under the Clean Water Act . The permits require local governments to operate stormwater management programs , covering both construction of new buildings and facilities , and maintenance of their existing municipal drainage networks . Many municipalities have revised their local ordinances covering management of runoff . State government facilities , such as roads and highways , are also subject to the stormwater management regulations . Many local municipalities have placed ordinances for both commercial and residential stormwater management practices to be designed , implemented , and approved before an occupancy permit is released .New developments might be required to construct their own storm drain processing capacity for returning the runoff to the water table and bioswales may be required in sensitive ecological areas to protect the watershed "
+        },
+        {
+          "role": "user",
+          "content": "How does the storm drain work in the other parts of the world."
+        },
+        {
+          "role": "assistant",
+          "content": "I do not have much information about how storm drain works around the world, but an international subculture has grown up around the exploration of stormwater drains . Societies such as the Cave Clan regularly explore the drains underneath cities . This is commonly known as `` urban exploration '' , but is also known as draining when in specific relation to storm drains . Storm drain , storm sewer ( U.S. and Canada ) , surface water drain / sewer ( United Kingdom ) , or stormwater drain ( Australia and New Zealand ) is usually designed to drain excess rain and ground water from impervious surfaces such as paved streets , car parks , parking lots , footpaths , sidewalks , and roofs. In UK, there are here are two main types of stormwater drain : the highway drain or road gully in the UK inlets."
+        },
+        {
+          "role": "user",
+          "content": "Do you have any information about how the ancient civilization deal with the stormwater?"
+        },
+        {
+          "role": "assistant",
+          "content": "The storm drain Archaeological studies have revealed the use of quite sophisticated stormwater runoff systems in ancient cultures . For instance , in Minoan Crete approximately 4000 years before present , cities such as Phaistos were designed to have storm drains and channels to collect precipitation runoff . At Cretan Knossos , storm drains include stone - lined structures large enough for a person to crawl through . Other examples of early civilizations with elements of stormwater drain systems include early people of Mainland Orkney such as Gurness and the Brough of Birsay in Scotland . Even the success of ancient Egyptian civilization came partly from its ability to use and adapt the stormrain flooding of the Nile River valley for agriculture . "
+        }
+      ],
+      "retrieval": {
+        "query": "Chaging the subject a little a bit,  are there many people worldwide without  proper sewage treatment?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "865292047_10908-11347-0-439",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Environmental issues in India According to a World Health Organization study , out of India 's 3,119 towns and cities , just 209 have partial sewage treatment facilities , and only 8 have full wastewater treatment facilities . Over 100 Indian cities dump untreated sewage directly into the Ganges River . Investment is needed to bridge the gap between 29000 million litre per day of sewage India generates , and a treatment capacity of mere 6000 million litre per day .",
+            "title": "Environmental issues in India"
+          },
+          {
+            "rank": 2,
+            "doc_id": "843324743_98752-98913-0-161",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Venezuela Venezuela had a total of 150 plants for sewage treatment . However , 13 % of the population lacked access to drinking water , but this number had been dropping .",
+            "title": "Venezuela"
+          },
+          {
+            "rank": 3,
+            "doc_id": "848935469_8724-9774-0-1050",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Drinking water supply and sanitation in the United States Few sewage treatment facilities were constructed in the late 19th century to treat combined wastewater because of the associated difficulties . There were only 27 U.S. cities with wastewater treatment works by 1892 , most of them `` treating '' wastewater through land application . Of these 27 cities , 26 had separate sanitary and storm water sewer systems , thus facilitating wastewater treatment , because there was no need for large capacitites to accommodate wet weather flows . Furthermore , there was a belief that the diluted combined wastewater was not harmful to receiving waters , due to the natural dilution and self - purifying capacity of rivers , lakes and the sea . In the early 20th century a debate evolved between those who thought it was in the best interest of public health to construct wastewater treatment facilities and those who believed building them was unnecessary . Nevertheless , many cities began to opt for separate sewer systems , creating favorable conditions for adding wastewater treatment plants in the future .",
+            "title": "Drinking water supply and sanitation in the United States"
+          },
+          {
+            "rank": 4,
+            "doc_id": "798813276_46030-46657-0-627",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Human rights and development Of note a staggering 2.5 billion people still do not have access to toilets or latrines . Open defecation is a practice that poses serious health and environmental risks and stopping it is a key factor in the progress of sanitation goals . In 2013 , UN Member States adopted the Sanitation for All resolution calling for increased efforts to improve access to proper sanitation . The number of slum dwellers however continues to grow , due to the fast pace of urbanization . The number of urban residents living in slum conditions was estimated at 863 million in 2012 , compared to 650 million in 1990 and 760 million in 2000 .",
+            "title": "Human rights and development"
+          },
+          {
+            "rank": 5,
+            "doc_id": "865292047_10006-10907-0-901",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Environmental issues in India India has major water pollution issues . Discharge of untreated sewage is the single most important cause for pollution of surface and ground water in India . There is a large gap between generation and treatment of domestic waste water in India . The problem is not only that India lacks sufficient treatment capacity but also that the sewage treatment plants that exist do not operate and are not maintained . The majority of the government - owned sewage treatment plants remain closed most of the time due to improper design or poor maintenance or lack of reliable electricity supply to operate the plants , together with absentee employees and poor management . The waste water generated in these areas normally percolates in the soil or evaporates . The uncollected wastes accumulate in the urban areas cause unhygienic conditions and release pollutants that leaches to surface and groundwater .",
+            "title": "Environmental issues in India"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "865292047_10908-11347-0-439",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Environmental issues in India According to a World Health Organization study , out of India 's 3,119 towns and cities , just 209 have partial sewage treatment facilities , and only 8 have full wastewater treatment facilities . Over 100 Indian cities dump untreated sewage directly into the Ganges River . Investment is needed to bridge the gap between 29000 million litre per day of sewage India generates , and a treatment capacity of mere 6000 million litre per day .",
+            "title": "Environmental issues in India"
+          },
+          {
+            "rank": 2,
+            "doc_id": "843324743_98752-98913-0-161",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Venezuela Venezuela had a total of 150 plants for sewage treatment . However , 13 % of the population lacked access to drinking water , but this number had been dropping .",
+            "title": "Venezuela"
+          },
+          {
+            "rank": 3,
+            "doc_id": "848935469_8724-9774-0-1050",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Drinking water supply and sanitation in the United States Few sewage treatment facilities were constructed in the late 19th century to treat combined wastewater because of the associated difficulties . There were only 27 U.S. cities with wastewater treatment works by 1892 , most of them `` treating '' wastewater through land application . Of these 27 cities , 26 had separate sanitary and storm water sewer systems , thus facilitating wastewater treatment , because there was no need for large capacitites to accommodate wet weather flows . Furthermore , there was a belief that the diluted combined wastewater was not harmful to receiving waters , due to the natural dilution and self - purifying capacity of rivers , lakes and the sea . In the early 20th century a debate evolved between those who thought it was in the best interest of public health to construct wastewater treatment facilities and those who believed building them was unnecessary . Nevertheless , many cities began to opt for separate sewer systems , creating favorable conditions for adding wastewater treatment plants in the future .",
+            "title": "Drinking water supply and sanitation in the United States"
+          },
+          {
+            "rank": 4,
+            "doc_id": "798813276_46030-46657-0-627",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Human rights and development Of note a staggering 2.5 billion people still do not have access to toilets or latrines . Open defecation is a practice that poses serious health and environmental risks and stopping it is a key factor in the progress of sanitation goals . In 2013 , UN Member States adopted the Sanitation for All resolution calling for increased efforts to improve access to proper sanitation . The number of slum dwellers however continues to grow , due to the fast pace of urbanization . The number of urban residents living in slum conditions was estimated at 863 million in 2012 , compared to 650 million in 1990 and 760 million in 2000 .",
+            "title": "Human rights and development"
+          },
+          {
+            "rank": 5,
+            "doc_id": "865292047_10006-10907-0-901",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Environmental issues in India India has major water pollution issues . Discharge of untreated sewage is the single most important cause for pollution of surface and ground water in India . There is a large gap between generation and treatment of domestic waste water in India . The problem is not only that India lacks sufficient treatment capacity but also that the sewage treatment plants that exist do not operate and are not maintained . The majority of the government - owned sewage treatment plants remain closed most of the time due to improper design or poor maintenance or lack of reliable electricity supply to operate the plants , together with absentee employees and poor management . The waste water generated in these areas normally percolates in the soil or evaporates . The uncollected wastes accumulate in the urban areas cause unhygienic conditions and release pollutants that leaches to surface and groundwater .",
+            "title": "Environmental issues in India"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Assistant: India has major water pollution issues .Discharge of untreated sewage is the single most important cause for pollution of surface and ground water in India .There is a large gap between generation and treatment of domestic waste water in India .",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "865292047_10908-11347-0-439",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Environmental issues in India According to a World Health Organization study , out of India 's 3,119 towns and cities , just 209 have partial sewage treatment facilities , and only 8 have full wastewater treatment facilities . Over 100 Indian cities dump untreated sewage directly into the Ganges River . Investment is needed to bridge the gap between 29000 million litre per day of sewage India generates , and a treatment capacity of mere 6000 million litre per day .",
+          "title": "Environmental issues in India"
+        },
+        {
+          "rank": 2,
+          "doc_id": "843324743_98752-98913-0-161",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Venezuela Venezuela had a total of 150 plants for sewage treatment . However , 13 % of the population lacked access to drinking water , but this number had been dropping .",
+          "title": "Venezuela"
+        },
+        {
+          "rank": 3,
+          "doc_id": "848935469_8724-9774-0-1050",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Drinking water supply and sanitation in the United States Few sewage treatment facilities were constructed in the late 19th century to treat combined wastewater because of the associated difficulties . There were only 27 U.S. cities with wastewater treatment works by 1892 , most of them `` treating '' wastewater through land application . Of these 27 cities , 26 had separate sanitary and storm water sewer systems , thus facilitating wastewater treatment , because there was no need for large capacitites to accommodate wet weather flows . Furthermore , there was a belief that the diluted combined wastewater was not harmful to receiving waters , due to the natural dilution and self - purifying capacity of rivers , lakes and the sea . In the early 20th century a debate evolved between those who thought it was in the best interest of public health to construct wastewater treatment facilities and those who believed building them was unnecessary . Nevertheless , many cities began to opt for separate sewer systems , creating favorable conditions for adding wastewater treatment plants in the future .",
+          "title": "Drinking water supply and sanitation in the United States"
+        },
+        {
+          "rank": 4,
+          "doc_id": "798813276_46030-46657-0-627",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Human rights and development Of note a staggering 2.5 billion people still do not have access to toilets or latrines . Open defecation is a practice that poses serious health and environmental risks and stopping it is a key factor in the progress of sanitation goals . In 2013 , UN Member States adopted the Sanitation for All resolution calling for increased efforts to improve access to proper sanitation . The number of slum dwellers however continues to grow , due to the fast pace of urbanization . The number of urban residents living in slum conditions was estimated at 863 million in 2012 , compared to 650 million in 1990 and 760 million in 2000 .",
+          "title": "Human rights and development"
+        },
+        {
+          "rank": 5,
+          "doc_id": "865292047_10006-10907-0-901",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Environmental issues in India India has major water pollution issues . Discharge of untreated sewage is the single most important cause for pollution of surface and ground water in India . There is a large gap between generation and treatment of domestic waste water in India . The problem is not only that India lacks sufficient treatment capacity but also that the sewage treatment plants that exist do not operate and are not maintained . The majority of the government - owned sewage treatment plants remain closed most of the time due to improper design or poor maintenance or lack of reliable electricity supply to operate the plants , together with absentee employees and poor management . The waste water generated in these areas normally percolates in the soil or evaporates . The uncollected wastes accumulate in the urban areas cause unhygienic conditions and release pollutants that leaches to surface and groundwater .",
+          "title": "Environmental issues in India"
+        }
+      ],
+      "reference": {
+        "answer": "Unfortunately there are many countries worldwide with environmental issues  and theirs citizens living without a  proper sewage treatment or even having access to clean water. For instance, in Philippines only 5 % of the total population is connected to a sewer network . The vast majority uses flush toilets connected to septic tanks . Since sludge treatment and disposal facilities are rare , most effluents are discharged without treatment . Same problem in India where,  according to a World Health Organization study , out of country 's 3,119 towns and cities , just 209 have partial sewage treatment facilities , and only 8 have full wastewater treatment facilities . Over 100 Indian cities dump untreated sewage directly into the Ganges River . In Venezuela, 13 % of the population lacked access to drinking water , but this number had been dropping . Surprisingly  in the United States  more than 1.6 million people in 630,000 households , still lack basic plumbing facilities . More than a third of them have household incomes below the federal poverty level . They are spread across all racial and ethnic categories , but they are more prominent in the minority groups . Most of the people who lacked plumbing services were elderly , poor , and living in rural areas . Alaska has the highest percentage of households without plumbing -- 6.32 percent of all its households . One in eight people in the world do not having access to safe water inappropriate use of water may contribute to this  situation .",
+        "evidence_ids": [
+          "865341845_2494-3230-0-736",
+          "865292047_10908-11347-0-439",
+          "843324743_98752-98913-0-161",
+          "848935469_40050-40571-0-521",
+          "865719407_11474-11661-0-187"
+        ],
+        "evidence": [
+          {
+            "doc_id": "865341845_2494-3230-0-736",
+            "text": "Environmental issues in the Philippines\nEnvironmental issues in the Philippines\nOnly 5 % of the total population is connected to a sewer network . The vast majority uses flush toilets connected to septic tanks . Since sludge treatment and disposal facilities are rare , most effluents are discharged without treatment . According to the Asian Development Bank , the Pasig River is one of the world 's most polluted rivers . In March 2008 , Manila Water announced that a wastewater treatment plant will be constructed in Taguig . The first Philippine constructed wetland serving about 700 households was completed in 2006 in a peri-urban area of Bayawan City which has been used to resettle families that lived along the coast in informal settlements and had no access to safe water supply and sanitation facilities ."
+          },
+          {
+            "doc_id": "865292047_10908-11347-0-439",
+            "text": "Environmental issues in India\nEnvironmental issues in India\nAccording to a World Health Organization study , out of India 's 3,119 towns and cities , just 209 have partial sewage treatment facilities , and only 8 have full wastewater treatment facilities . Over 100 Indian cities dump untreated sewage directly into the Ganges River . Investment is needed to bridge the gap between 29000 million litre per day of sewage India generates , and a treatment capacity of mere 6000 million litre per day ."
+          },
+          {
+            "doc_id": "843324743_98752-98913-0-161",
+            "text": "Venezuela\nVenezuela\nVenezuela had a total of 150 plants for sewage treatment . However , 13 % of the population lacked access to drinking water , but this number had been dropping ."
+          },
+          {
+            "doc_id": "848935469_40050-40571-0-521",
+            "text": "Drinking water supply and sanitation in the United States\nDrinking water supply and sanitation in the United States\nHowever , more than 1.6 million people in the United States , in 630,000 households , still lack basic plumbing facilities . More than a third of them have household incomes below the federal poverty level . They are spread across all racial and ethnic categories , but they are more prominent in the minority groups . Most of the people who lacked plumbing services were elderly , poor , and living in rural areas . Alaska has the highest percentage of households without plumbing -- 6.32 percent of all its households ."
+          },
+          {
+            "doc_id": "865719407_11474-11661-0-187",
+            "text": "Fresh water\nFresh water\nOne in eight people in the world do not having access to safe water Innapropriate use of water may contribute to this problem . The following tables provide some indicators of water use ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid",
+          "Summarization"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "9",
+      "task_id": "a2698b2973ea7db1ee5adb5e70ec02e4<::>9",
+      "question": "That is really surprised me. Do you have information when the first sewage treatment facilities  were built?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "where does water go after it enters a storm drain"
+        },
+        {
+          "role": "assistant",
+          "content": "The water that enters a storm drain like some of the heavier sediment and small objects may settle in a catchbasin , or sump , which lies immediately below the outlet , where water from the top of the catchbasin reservoir overflows into the sewer proper . Most drains have a single large exit at their point of discharge ( often covered by a grating ) into a canal , river , lake , reservoir , sea or ocean . Storm drains may discharge into man - made excavations known as recharge basins or retention ponds ."
+        },
+        {
+          "role": "user",
+          "content": "What is a catchbasin and how they are designed?"
+        },
+        {
+          "role": "assistant",
+          "content": "A catchbasin is a component in a storm drain system that serves as a first-line pretreatment for other treatment practices. It functions similarly to the trap in household wastewater plumbing by capturing large sediments and street litter from urban runoff before it enters the storm drainage pipes. It is designed with a single large exit at its point of discharge, often covered by a grating, and lies immediately below the outlet of the storm drain. Water from the top of the catchbasin reservoir overflows into the sewer proper, and most catchbasins are connected to a piping system that leads to a canal, river, lake, reservoir, sea, or ocean.  Unlike the plumbing trap , the catchbasin does not necessarily prevent sewer gases such as hydrogen sulfide and methane from escaping. Its performance at removing sediment and other pollutants depends on the design of the catchbasin ( for example , the size of the sump ) , and on routine maintenance to retain the storage available in the sump to capture sediment . Some  catch basins are also commonly designed with a sump area below the outlet pipe level which is a reservoir for water and debris to help prevent the pipe from clogging "
+        },
+        {
+          "role": "user",
+          "content": "Does the basin really capture the litter  and debris from the water from the streets, roads, roofs?"
+        },
+        {
+          "role": "assistant",
+          "content": "As I mentioned before the are commonly designed to capture large sediments and street litter from urban runoff before it enters the storm drainage pipes. However its  functionality is questionable , as these catch basins are most commonly not cleaned annually as is needed to make them perform as designed . The trapping of debris serves no purpose because once filled they operate as if no basins were present , but continue to allow a shallow area of water retention for the breeding of mosquito since it is cool , dark , and retains stagnant water for long periods of time . Combined with standard grates which have holes large enough for mosquitoes to enter and leave the basin , this is a major problem in mosquito control .  . Moreover , even if cleaned and maintained , the water reservoir remains filled , accommodating the breeding of mosquitoes ."
+        },
+        {
+          "role": "user",
+          "content": "Could be the water that enters a storm drain recycled and be used in the house chores like cleaning, gardening , etc?"
+        },
+        {
+          "role": "assistant",
+          "content": "The water from urban runoff is very dirty. It tends to pick up gasoline , motor oil , heavy metals , trash and other pollutants from roadways and parking lots , as well as fertilizers and pesticides from lawns  and may become contaminated while running down the road or other impervious surface , before entering the drain and could not be used in house chores. However,  Many local governments conduct public awareness campaigns about this including sustainable urban drainage systems or low impact development or green infrastructure practices   into municipal plans , helping lest waste be dumped into the storm drain system . In the city of Cleveland , Ohio , for example , all new catch basins installed have inscriptions on them not to dump any waste , and usually include a fish imprint as well . "
+        },
+        {
+          "role": "user",
+          "content": "And about on the level of the Federal government, do  they have guidelines or even a law to how to build more sustainable storm drain so the water could be recycled ?"
+        },
+        {
+          "role": "assistant",
+          "content": "At the federal level in the United States,  we have the National Environmental Policy Act ( NEPA ) and the Environmental Protection Agency ( EPA )created and signed during President Nixon term. That legislation was concerned primarily first - generation pollutants in the air , surface water , groundwater , and solid waste disposal . Later solid waste contaminants from agriculture , industry , mining , municipalities , and others were put under control .EPA have spent more than than $8.7 million on environmental education annually to increase public knowledge and awareness about the current environmental issues and the consequences . They aim to promote the popularization of the necessary skills and knowledge for the public to make decisions and participate in activities that lead to the resolution of environmental challenges . Virtually all of the executive branch 's departments have some area of environmental authority .The Environmental Protection Agency ( EPA ) issued stormwater regulations for  cities , suburban communities and towns with over 10,000 population requiring them  to obtain discharge permits for their storm sewer systems , under the Clean Water Act . The permits require local governments to operate stormwater management programs , covering both construction of new buildings and facilities , and maintenance of their existing municipal drainage networks . Many municipalities have revised their local ordinances covering management of runoff . State government facilities , such as roads and highways , are also subject to the stormwater management regulations . Many local municipalities have placed ordinances for both commercial and residential stormwater management practices to be designed , implemented , and approved before an occupancy permit is released .New developments might be required to construct their own storm drain processing capacity for returning the runoff to the water table and bioswales may be required in sensitive ecological areas to protect the watershed "
+        },
+        {
+          "role": "user",
+          "content": "How does the storm drain work in the other parts of the world."
+        },
+        {
+          "role": "assistant",
+          "content": "I do not have much information about how storm drain works around the world, but an international subculture has grown up around the exploration of stormwater drains . Societies such as the Cave Clan regularly explore the drains underneath cities . This is commonly known as `` urban exploration '' , but is also known as draining when in specific relation to storm drains . Storm drain , storm sewer ( U.S. and Canada ) , surface water drain / sewer ( United Kingdom ) , or stormwater drain ( Australia and New Zealand ) is usually designed to drain excess rain and ground water from impervious surfaces such as paved streets , car parks , parking lots , footpaths , sidewalks , and roofs. In UK, there are here are two main types of stormwater drain : the highway drain or road gully in the UK inlets."
+        },
+        {
+          "role": "user",
+          "content": "Do you have any information about how the ancient civilization deal with the stormwater?"
+        },
+        {
+          "role": "assistant",
+          "content": "The storm drain Archaeological studies have revealed the use of quite sophisticated stormwater runoff systems in ancient cultures . For instance , in Minoan Crete approximately 4000 years before present , cities such as Phaistos were designed to have storm drains and channels to collect precipitation runoff . At Cretan Knossos , storm drains include stone - lined structures large enough for a person to crawl through . Other examples of early civilizations with elements of stormwater drain systems include early people of Mainland Orkney such as Gurness and the Brough of Birsay in Scotland . Even the success of ancient Egyptian civilization came partly from its ability to use and adapt the stormrain flooding of the Nile River valley for agriculture . "
+        },
+        {
+          "role": "user",
+          "content": "Chaging the subject a little a bit,  are there many people worldwide without  proper sewage treatment?"
+        },
+        {
+          "role": "assistant",
+          "content": "Unfortunately there are many countries worldwide with environmental issues  and theirs citizens living without a  proper sewage treatment or even having access to clean water. For instance, in Philippines only 5 % of the total population is connected to a sewer network . The vast majority uses flush toilets connected to septic tanks . Since sludge treatment and disposal facilities are rare , most effluents are discharged without treatment . Same problem in India where,  according to a World Health Organization study , out of country 's 3,119 towns and cities , just 209 have partial sewage treatment facilities , and only 8 have full wastewater treatment facilities . Over 100 Indian cities dump untreated sewage directly into the Ganges River . In Venezuela, 13 % of the population lacked access to drinking water , but this number had been dropping . Surprisingly  in the United States  more than 1.6 million people in 630,000 households , still lack basic plumbing facilities . More than a third of them have household incomes below the federal poverty level . They are spread across all racial and ethnic categories , but they are more prominent in the minority groups . Most of the people who lacked plumbing services were elderly , poor , and living in rural areas . Alaska has the highest percentage of households without plumbing -- 6.32 percent of all its households . One in eight people in the world do not having access to safe water inappropriate use of water may contribute to this  situation ."
+        }
+      ],
+      "retrieval": {
+        "query": "That is really surprised me. Do you have information when the first sewage treatment facilities  were built?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "848935469_8724-9774-0-1050",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Drinking water supply and sanitation in the United States Few sewage treatment facilities were constructed in the late 19th century to treat combined wastewater because of the associated difficulties . There were only 27 U.S. cities with wastewater treatment works by 1892 , most of them `` treating '' wastewater through land application . Of these 27 cities , 26 had separate sanitary and storm water sewer systems , thus facilitating wastewater treatment , because there was no need for large capacitites to accommodate wet weather flows . Furthermore , there was a belief that the diluted combined wastewater was not harmful to receiving waters , due to the natural dilution and self - purifying capacity of rivers , lakes and the sea . In the early 20th century a debate evolved between those who thought it was in the best interest of public health to construct wastewater treatment facilities and those who believed building them was unnecessary . Nevertheless , many cities began to opt for separate sewer systems , creating favorable conditions for adding wastewater treatment plants in the future .",
+            "title": "Drinking water supply and sanitation in the United States"
+          },
+          {
+            "rank": 2,
+            "doc_id": "810308089_34521-35458-0-937",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Great Lakes The amount of raw sewage dumped into the waters was the primary focus of both the first Great Lakes Water Quality Agreement and federal laws passed in both countries during the 1970s . Implementation of secondary treatment of municipal sewage by major cities greatly reduced the routine discharge of untreated sewage during the 1970s and 1980s . The International Joint Commission in 2009 summarized the change : `` Since the early 1970s , the level of treatment to reduce pollution from waste water discharges to the Great Lakes has improved considerably . This is a result of significant expenditures to date on both infrastructure and technology , and robust regulatory systems that have proven to be , on the whole , quite effective . '' The commission reported that all urban sewage treatment systems on the U.S. side of the lakes had implemented secondary treatment , as had all on the Canadian side except for five small systems .",
+            "title": "Great Lakes"
+          },
+          {
+            "rank": 3,
+            "doc_id": "848935469_8066-8723-0-657",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Drinking water supply and sanitation in the United States Most of the first sewer systems in the United States were built as combined sewers ( carrying both storm water and sewerage ) . They discharged into rivers , lakes and the sea without any treatment . The main reason for choosing combined sewers over separate systems ( separating sanitary sewers from storm water drains ) was a belief that combined sewer systems were cheaper to build than separate systems . Also , there was no European precedent for successful separate sewer systems at the time . The first large - scale sewer systems in the United States were constructed in Chicago and Brooklyn in the late 1850s , followed by other major U.S. cities .",
+            "title": "Drinking water supply and sanitation in the United States"
+          },
+          {
+            "rank": 4,
+            "doc_id": "848935469_9775-10037-0-262",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Drinking water supply and sanitation in the United States Where wastewater was being treated it was typically discharged into rivers or lakes . However , in 1932 , the first reclaimed water facility in the U.S. was built in Golden Gate Park , San Francisco , for the reuse of treated wastewater in landscape irrigation .",
+            "title": "Drinking water supply and sanitation in the United States"
+          },
+          {
+            "rank": 5,
+            "doc_id": "815240122_50643-51052-0-409",
+            "score": null,
+            "score_type": "contriever",
+            "text": "River Thames A concerted effort to contain the city 's sewage by constructing massive sewer systems on the north and south river embankments followed , under the supervision of engineer Joseph Bazalgette . Meanwhile , similar huge undertakings took place to ensure the water supply , with the building of reservoirs and pumping stations on the river to the west of London , slowly helping the quality of water to improve .",
+            "title": "River Thames"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "848935469_8724-9774-0-1050",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Drinking water supply and sanitation in the United States Few sewage treatment facilities were constructed in the late 19th century to treat combined wastewater because of the associated difficulties . There were only 27 U.S. cities with wastewater treatment works by 1892 , most of them `` treating '' wastewater through land application . Of these 27 cities , 26 had separate sanitary and storm water sewer systems , thus facilitating wastewater treatment , because there was no need for large capacitites to accommodate wet weather flows . Furthermore , there was a belief that the diluted combined wastewater was not harmful to receiving waters , due to the natural dilution and self - purifying capacity of rivers , lakes and the sea . In the early 20th century a debate evolved between those who thought it was in the best interest of public health to construct wastewater treatment facilities and those who believed building them was unnecessary . Nevertheless , many cities began to opt for separate sewer systems , creating favorable conditions for adding wastewater treatment plants in the future .",
+            "title": "Drinking water supply and sanitation in the United States"
+          },
+          {
+            "rank": 2,
+            "doc_id": "810308089_34521-35458-0-937",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Great Lakes The amount of raw sewage dumped into the waters was the primary focus of both the first Great Lakes Water Quality Agreement and federal laws passed in both countries during the 1970s . Implementation of secondary treatment of municipal sewage by major cities greatly reduced the routine discharge of untreated sewage during the 1970s and 1980s . The International Joint Commission in 2009 summarized the change : `` Since the early 1970s , the level of treatment to reduce pollution from waste water discharges to the Great Lakes has improved considerably . This is a result of significant expenditures to date on both infrastructure and technology , and robust regulatory systems that have proven to be , on the whole , quite effective . '' The commission reported that all urban sewage treatment systems on the U.S. side of the lakes had implemented secondary treatment , as had all on the Canadian side except for five small systems .",
+            "title": "Great Lakes"
+          },
+          {
+            "rank": 3,
+            "doc_id": "848935469_8066-8723-0-657",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Drinking water supply and sanitation in the United States Most of the first sewer systems in the United States were built as combined sewers ( carrying both storm water and sewerage ) . They discharged into rivers , lakes and the sea without any treatment . The main reason for choosing combined sewers over separate systems ( separating sanitary sewers from storm water drains ) was a belief that combined sewer systems were cheaper to build than separate systems . Also , there was no European precedent for successful separate sewer systems at the time . The first large - scale sewer systems in the United States were constructed in Chicago and Brooklyn in the late 1850s , followed by other major U.S. cities .",
+            "title": "Drinking water supply and sanitation in the United States"
+          },
+          {
+            "rank": 4,
+            "doc_id": "848935469_9775-10037-0-262",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Drinking water supply and sanitation in the United States Where wastewater was being treated it was typically discharged into rivers or lakes . However , in 1932 , the first reclaimed water facility in the U.S. was built in Golden Gate Park , San Francisco , for the reuse of treated wastewater in landscape irrigation .",
+            "title": "Drinking water supply and sanitation in the United States"
+          },
+          {
+            "rank": 5,
+            "doc_id": "815240122_50643-51052-0-409",
+            "score": null,
+            "score_type": "contriever",
+            "text": "River Thames A concerted effort to contain the city 's sewage by constructing massive sewer systems on the north and south river embankments followed , under the supervision of engineer Joseph Bazalgette . Meanwhile , similar huge undertakings took place to ensure the water supply , with the building of reservoirs and pumping stations on the river to the west of London , slowly helping the quality of water to improve .",
+            "title": "River Thames"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Assistant: The first large - scale sewer systems in the United States were constructed in Chicago and Brooklyn in the late 1850s , followed by other major U.S. cities .",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "848935469_8724-9774-0-1050",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Drinking water supply and sanitation in the United States Few sewage treatment facilities were constructed in the late 19th century to treat combined wastewater because of the associated difficulties . There were only 27 U.S. cities with wastewater treatment works by 1892 , most of them `` treating '' wastewater through land application . Of these 27 cities , 26 had separate sanitary and storm water sewer systems , thus facilitating wastewater treatment , because there was no need for large capacitites to accommodate wet weather flows . Furthermore , there was a belief that the diluted combined wastewater was not harmful to receiving waters , due to the natural dilution and self - purifying capacity of rivers , lakes and the sea . In the early 20th century a debate evolved between those who thought it was in the best interest of public health to construct wastewater treatment facilities and those who believed building them was unnecessary . Nevertheless , many cities began to opt for separate sewer systems , creating favorable conditions for adding wastewater treatment plants in the future .",
+          "title": "Drinking water supply and sanitation in the United States"
+        },
+        {
+          "rank": 2,
+          "doc_id": "810308089_34521-35458-0-937",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Great Lakes The amount of raw sewage dumped into the waters was the primary focus of both the first Great Lakes Water Quality Agreement and federal laws passed in both countries during the 1970s . Implementation of secondary treatment of municipal sewage by major cities greatly reduced the routine discharge of untreated sewage during the 1970s and 1980s . The International Joint Commission in 2009 summarized the change : `` Since the early 1970s , the level of treatment to reduce pollution from waste water discharges to the Great Lakes has improved considerably . This is a result of significant expenditures to date on both infrastructure and technology , and robust regulatory systems that have proven to be , on the whole , quite effective . '' The commission reported that all urban sewage treatment systems on the U.S. side of the lakes had implemented secondary treatment , as had all on the Canadian side except for five small systems .",
+          "title": "Great Lakes"
+        },
+        {
+          "rank": 3,
+          "doc_id": "848935469_8066-8723-0-657",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Drinking water supply and sanitation in the United States Most of the first sewer systems in the United States were built as combined sewers ( carrying both storm water and sewerage ) . They discharged into rivers , lakes and the sea without any treatment . The main reason for choosing combined sewers over separate systems ( separating sanitary sewers from storm water drains ) was a belief that combined sewer systems were cheaper to build than separate systems . Also , there was no European precedent for successful separate sewer systems at the time . The first large - scale sewer systems in the United States were constructed in Chicago and Brooklyn in the late 1850s , followed by other major U.S. cities .",
+          "title": "Drinking water supply and sanitation in the United States"
+        },
+        {
+          "rank": 4,
+          "doc_id": "848935469_9775-10037-0-262",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Drinking water supply and sanitation in the United States Where wastewater was being treated it was typically discharged into rivers or lakes . However , in 1932 , the first reclaimed water facility in the U.S. was built in Golden Gate Park , San Francisco , for the reuse of treated wastewater in landscape irrigation .",
+          "title": "Drinking water supply and sanitation in the United States"
+        },
+        {
+          "rank": 5,
+          "doc_id": "815240122_50643-51052-0-409",
+          "score": null,
+          "score_type": "contriever",
+          "text": "River Thames A concerted effort to contain the city 's sewage by constructing massive sewer systems on the north and south river embankments followed , under the supervision of engineer Joseph Bazalgette . Meanwhile , similar huge undertakings took place to ensure the water supply , with the building of reservoirs and pumping stations on the river to the west of London , slowly helping the quality of water to improve .",
+          "title": "River Thames"
+        }
+      ],
+      "reference": {
+        "answer": "The first sewage treatment facilities in the United States were built in the mid-19th  to treat combined wastewater. By 1892 there were only 27 U.S. cities with wastewater treatment facilities. Of these 27 cities , 26 had separate sanitary and storm water sewer systems , thus facilitating wastewater treatment , because there was no need for large capacitites to accommodate wet weather flows . Morover , there was a belief that the diluted combined wastewater was not harmful to receiving waters , due to the natural dilution and self - purifying capacity of rivers , lakes and the sea . In the early 20th century a debate evolved between those who thought it was in the best interest of public health to construct wastewater treatment facilities and those who believed building them was unnecessary . Nevertheless , many cities began to opt for separate sewer systems , creating favorable conditions for adding wastewater treatment plants in the future and  in 1932 , the first reclaimed water facility in the U.S. was built in Golden Gate Park , San Francisco , for the reuse of treated wastewater in landscape irrigation . It must note the mosts of  the first sewer systems in the country were constructed as combined sewers , carrying both storm water and sewerage and they were discharged into rivers , lakes and the sea without any treatment . The main reason for choosing combined sewers over separate systems ( separating sanitary sewers from storm water drains ) was a belief that combined sewer systems were cheaper to build than separate systems . The good news is the In July 2014 , the city of Wichita Falls , Texas ( USA ) , became one of the first in the United States to use treated wastewater directly in its drinking water supply ( production of 45,000 -- 60,000 m per day ) . ",
+        "evidence_ids": [
+          "848935469_8724-9774-0-1050",
+          "848935469_9775-10037-0-262",
+          "848935469_8066-8723-0-657",
+          "848935469_56375-56973-0-598",
+          "848935469_4492-5386-0-894"
+        ],
+        "evidence": [
+          {
+            "doc_id": "848935469_8724-9774-0-1050",
+            "text": "Drinking water supply and sanitation in the United States\nDrinking water supply and sanitation in the United States\nFew sewage treatment facilities were constructed in the late 19th century to treat combined wastewater because of the associated difficulties . There were only 27 U.S. cities with wastewater treatment works by 1892 , most of them `` treating '' wastewater through land application . Of these 27 cities , 26 had separate sanitary and storm water sewer systems , thus facilitating wastewater treatment , because there was no need for large capacitites to accommodate wet weather flows . Furthermore , there was a belief that the diluted combined wastewater was not harmful to receiving waters , due to the natural dilution and self - purifying capacity of rivers , lakes and the sea . In the early 20th century a debate evolved between those who thought it was in the best interest of public health to construct wastewater treatment facilities and those who believed building them was unnecessary . Nevertheless , many cities began to opt for separate sewer systems , creating favorable conditions for adding wastewater treatment plants in the future ."
+          },
+          {
+            "doc_id": "848935469_9775-10037-0-262",
+            "text": "Drinking water supply and sanitation in the United States\nDrinking water supply and sanitation in the United States\nWhere wastewater was being treated it was typically discharged into rivers or lakes . However , in 1932 , the first reclaimed water facility in the U.S. was built in Golden Gate Park , San Francisco , for the reuse of treated wastewater in landscape irrigation ."
+          },
+          {
+            "doc_id": "848935469_8066-8723-0-657",
+            "text": "Drinking water supply and sanitation in the United States\nDrinking water supply and sanitation in the United States\nMost of the first sewer systems in the United States were built as combined sewers ( carrying both storm water and sewerage ) . They discharged into rivers , lakes and the sea without any treatment . The main reason for choosing combined sewers over separate systems ( separating sanitary sewers from storm water drains ) was a belief that combined sewer systems were cheaper to build than separate systems . Also , there was no European precedent for successful separate sewer systems at the time . The first large - scale sewer systems in the United States were constructed in Chicago and Brooklyn in the late 1850s , followed by other major U.S. cities ."
+          },
+          {
+            "doc_id": "848935469_56375-56973-0-598",
+            "text": "Drinking water supply and sanitation in the United States\nDrinking water supply and sanitation in the United States\nIn July 2014 , the city of Wichita Falls , Texas ( USA ) , became one of the first in the United States to use treated wastewater directly in its drinking water supply ( production of 45,000 -- 60,000 m per day ) . Treated wastewater is disinfected and pumped to the Cypress Water Treatment Plant where it goes through clarification , microfiltration ( MF ) , reverse osmosis ( RO ) , and ultraviolet light disinfection before being released into a holding lagoon where it is blended with lake water ( 50 : 50 ) . The blended water goes through a seven - step conventional surface water treatment ."
+          },
+          {
+            "doc_id": "848935469_4492-5386-0-894",
+            "text": "Drinking water supply and sanitation in the United States\nDrinking water supply and sanitation in the United States\nIn the 19th century numerous American cities were afflicted with major outbreaks of disease , including cholera in 1832 , 1849 and 1866 and typhoid in 1848 . The fast - growing cities did not have sewers and relied on contaminated wells within the city confines for drinking water supply . In the mid-19th century many cities built centralized water supply systems . However , initially these systems provided raw river water without any treatment . Only after John Snow established the link between contaminated water and disease in 1854 and after authorities became gradually convinced of that link , water treatment plants were added and public health improved . Sewers were built since the 1850s , initially based on the erroneous belief that bad air ( miasma theory ) caused cholera and typhoid . It took until the 1890s for the now universally accepted germ theory of disease to prevail ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    }
+  ]
+}

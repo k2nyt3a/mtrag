@@ -1,0 +1,1156 @@
+{
+  "conversation_id": "3f5fa378239f7475baac89fa40288aaa",
+  "dataset": "clapnq",
+  "collection": "mt-rag-clapnq-elser-512-100-20240503",
+  "rag": "selfrag",
+  "num_turns": 6,
+  "turns": [
+    {
+      "turn_id": "1",
+      "task_id": "3f5fa378239f7475baac89fa40288aaa<::>1",
+      "question": "what makes the different shapes of the moon",
+      "rag_history_before_turn": [],
+      "retrieval": {
+        "query": "what makes the different shapes of the moon",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "800869209_6198-6886-0-688",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Lunar phase When a sphere is illuminated on one hemisphere and viewed from a different angle , the portion of the illuminated area that is visible will have a two - dimensional shape defined by the intersection of an ellipse and circle ( where the major axis of the ellipse coincides with a diameter of the circle ) . If the half - ellipse is convex with respect to the half - circle , then the shape will be gibbous ( bulging outwards ) whereas if the half - ellipse is concave with respect to the half - circle , then the shape will be a crescent . When a crescent Moon occurs , the phenomenon of earthshine may be apparent , where the night side of the Moon faintly reflects light from the Earth .",
+            "title": "Lunar phase"
+          },
+          {
+            "rank": 2,
+            "doc_id": "856136637_57345-57823-0-478",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Earth The gravitational attraction between Earth and the Moon causes tides on Earth . The same effect on the Moon has led to its tidal locking : its rotation period is the same as the time it takes to orbit Earth . As a result , it always presents the same face to the planet . As the Moon orbits Earth , different parts of its face are illuminated by the Sun , leading to the lunar phases ; the dark part of the face is separated from the light part by the solar terminator . Details",
+            "title": "Earth"
+          },
+          {
+            "rank": 3,
+            "doc_id": "821797291_40617-41173-0-556",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Jupiter The eccentricity of their orbits causes regular flexing of the three moons ' shapes , with Jupiter 's gravity stretching them out as they approach it and allowing them to spring back to more spherical shapes as they swing away . This tidal flexing heats the moons ' interiors by friction . This is seen most dramatically in the extraordinary volcanic activity of innermost Io ( which is subject to the strongest tidal forces ) , and to a lesser degree in the geological youth of Europa 's surface ( indicating recent resurfacing of the moon 's exterior ) .",
+            "title": "Jupiter"
+          },
+          {
+            "rank": 4,
+            "doc_id": "856136637_59271-59650-0-379",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Earth The most widely accepted theory of the Moon 's origin , the giant - impact hypothesis , states that it formed from the collision of a Mars - size protoplanet called Theia with the early Earth . This hypothesis explains ( among other things ) the Moon 's relative lack of iron and volatile elements and the fact that its composition is nearly identical to that of Earth 's crust .",
+            "title": "Earth"
+          },
+          {
+            "rank": 5,
+            "doc_id": "800869209_855-2044-0-1189",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Lunar phase The lunar phase or phase of the moon is the shape of the illuminated ( sunlit ) portion of the Moon as seen by an observer on Earth . The lunar phases change cyclically as the Moon orbits the Earth , according to the changing positions of the Moon and Sun relative to the Earth . The Moon 's rotation is tidally locked by the Earth 's gravity , therefore the same lunar surface always faces Earth . This face is variously sunlit depending on the position of the Moon in its orbit . Therefore , the portion of this hemisphere that is visible to an observer on Earth can vary from about 100 % ( full moon ) to 0 % ( new moon ) . The lunar terminator is the boundary between the illuminated and darkened hemispheres . Each of the four `` intermediate '' lunar phases ( see below ) is roughly seven days ( ~ 7.4 days ) but this varies slightly due to the elliptical shape of the Moon 's orbit . Aside from some craters near the lunar poles such as Shoemaker , all parts of the Moon see around 14.77 days of sunlight , followed by 14.77 days of `` night '' . ( The side of the Moon facing away from the Earth is sometimes called the `` dark side of the Moon '' , although that is a misnomer . )",
+            "title": "Lunar phase"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "800869209_6198-6886-0-688",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Lunar phase When a sphere is illuminated on one hemisphere and viewed from a different angle , the portion of the illuminated area that is visible will have a two - dimensional shape defined by the intersection of an ellipse and circle ( where the major axis of the ellipse coincides with a diameter of the circle ) . If the half - ellipse is convex with respect to the half - circle , then the shape will be gibbous ( bulging outwards ) whereas if the half - ellipse is concave with respect to the half - circle , then the shape will be a crescent . When a crescent Moon occurs , the phenomenon of earthshine may be apparent , where the night side of the Moon faintly reflects light from the Earth .",
+            "title": "Lunar phase"
+          },
+          {
+            "rank": 2,
+            "doc_id": "856136637_57345-57823-0-478",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Earth The gravitational attraction between Earth and the Moon causes tides on Earth . The same effect on the Moon has led to its tidal locking : its rotation period is the same as the time it takes to orbit Earth . As a result , it always presents the same face to the planet . As the Moon orbits Earth , different parts of its face are illuminated by the Sun , leading to the lunar phases ; the dark part of the face is separated from the light part by the solar terminator . Details",
+            "title": "Earth"
+          },
+          {
+            "rank": 3,
+            "doc_id": "821797291_40617-41173-0-556",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Jupiter The eccentricity of their orbits causes regular flexing of the three moons ' shapes , with Jupiter 's gravity stretching them out as they approach it and allowing them to spring back to more spherical shapes as they swing away . This tidal flexing heats the moons ' interiors by friction . This is seen most dramatically in the extraordinary volcanic activity of innermost Io ( which is subject to the strongest tidal forces ) , and to a lesser degree in the geological youth of Europa 's surface ( indicating recent resurfacing of the moon 's exterior ) .",
+            "title": "Jupiter"
+          },
+          {
+            "rank": 4,
+            "doc_id": "856136637_59271-59650-0-379",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Earth The most widely accepted theory of the Moon 's origin , the giant - impact hypothesis , states that it formed from the collision of a Mars - size protoplanet called Theia with the early Earth . This hypothesis explains ( among other things ) the Moon 's relative lack of iron and volatile elements and the fact that its composition is nearly identical to that of Earth 's crust .",
+            "title": "Earth"
+          },
+          {
+            "rank": 5,
+            "doc_id": "800869209_855-2044-0-1189",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Lunar phase The lunar phase or phase of the moon is the shape of the illuminated ( sunlit ) portion of the Moon as seen by an observer on Earth . The lunar phases change cyclically as the Moon orbits the Earth , according to the changing positions of the Moon and Sun relative to the Earth . The Moon 's rotation is tidally locked by the Earth 's gravity , therefore the same lunar surface always faces Earth . This face is variously sunlit depending on the position of the Moon in its orbit . Therefore , the portion of this hemisphere that is visible to an observer on Earth can vary from about 100 % ( full moon ) to 0 % ( new moon ) . The lunar terminator is the boundary between the illuminated and darkened hemispheres . Each of the four `` intermediate '' lunar phases ( see below ) is roughly seven days ( ~ 7.4 days ) but this varies slightly due to the elliptical shape of the Moon 's orbit . Aside from some craters near the lunar poles such as Shoemaker , all parts of the Moon see around 14.77 days of sunlight , followed by 14.77 days of `` night '' . ( The side of the Moon facing away from the Earth is sometimes called the `` dark side of the Moon '' , although that is a misnomer . )",
+            "title": "Lunar phase"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "The lunar phases change cyclically as the Moon orbits the Earth",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "800869209_6198-6886-0-688",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Lunar phase When a sphere is illuminated on one hemisphere and viewed from a different angle , the portion of the illuminated area that is visible will have a two - dimensional shape defined by the intersection of an ellipse and circle ( where the major axis of the ellipse coincides with a diameter of the circle ) . If the half - ellipse is convex with respect to the half - circle , then the shape will be gibbous ( bulging outwards ) whereas if the half - ellipse is concave with respect to the half - circle , then the shape will be a crescent . When a crescent Moon occurs , the phenomenon of earthshine may be apparent , where the night side of the Moon faintly reflects light from the Earth .",
+          "title": "Lunar phase"
+        },
+        {
+          "rank": 2,
+          "doc_id": "856136637_57345-57823-0-478",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Earth The gravitational attraction between Earth and the Moon causes tides on Earth . The same effect on the Moon has led to its tidal locking : its rotation period is the same as the time it takes to orbit Earth . As a result , it always presents the same face to the planet . As the Moon orbits Earth , different parts of its face are illuminated by the Sun , leading to the lunar phases ; the dark part of the face is separated from the light part by the solar terminator . Details",
+          "title": "Earth"
+        },
+        {
+          "rank": 3,
+          "doc_id": "821797291_40617-41173-0-556",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Jupiter The eccentricity of their orbits causes regular flexing of the three moons ' shapes , with Jupiter 's gravity stretching them out as they approach it and allowing them to spring back to more spherical shapes as they swing away . This tidal flexing heats the moons ' interiors by friction . This is seen most dramatically in the extraordinary volcanic activity of innermost Io ( which is subject to the strongest tidal forces ) , and to a lesser degree in the geological youth of Europa 's surface ( indicating recent resurfacing of the moon 's exterior ) .",
+          "title": "Jupiter"
+        },
+        {
+          "rank": 4,
+          "doc_id": "856136637_59271-59650-0-379",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Earth The most widely accepted theory of the Moon 's origin , the giant - impact hypothesis , states that it formed from the collision of a Mars - size protoplanet called Theia with the early Earth . This hypothesis explains ( among other things ) the Moon 's relative lack of iron and volatile elements and the fact that its composition is nearly identical to that of Earth 's crust .",
+          "title": "Earth"
+        },
+        {
+          "rank": 5,
+          "doc_id": "800869209_855-2044-0-1189",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Lunar phase The lunar phase or phase of the moon is the shape of the illuminated ( sunlit ) portion of the Moon as seen by an observer on Earth . The lunar phases change cyclically as the Moon orbits the Earth , according to the changing positions of the Moon and Sun relative to the Earth . The Moon 's rotation is tidally locked by the Earth 's gravity , therefore the same lunar surface always faces Earth . This face is variously sunlit depending on the position of the Moon in its orbit . Therefore , the portion of this hemisphere that is visible to an observer on Earth can vary from about 100 % ( full moon ) to 0 % ( new moon ) . The lunar terminator is the boundary between the illuminated and darkened hemispheres . Each of the four `` intermediate '' lunar phases ( see below ) is roughly seven days ( ~ 7.4 days ) but this varies slightly due to the elliptical shape of the Moon 's orbit . Aside from some craters near the lunar poles such as Shoemaker , all parts of the Moon see around 14.77 days of sunlight , followed by 14.77 days of `` night '' . ( The side of the Moon facing away from the Earth is sometimes called the `` dark side of the Moon '' , although that is a misnomer . )",
+          "title": "Lunar phase"
+        }
+      ],
+      "reference": {
+        "answer": "The different shapes of the Moon, also known as lunar phases, are determined by the amount of sunlight that is illuminating the portion of the Moon visible from Earth. This changes as the Moon orbits the Earth and the relative positions of the Moon, Earth, and Sun shift. When the Sun, Earth, and Moon are aligned, with the Sun and Moon on opposite sides of the Earth, we see a full moon. When the Moon is positioned between the Earth and the Sun, we see a new moon. The crescent and gibbous shapes occur during the intervals between these principal phases, when only a portion of the Moon's surface is illuminated. The specific shape at any given time depends on the Moon's position in its orbit. When a sphere is illuminated on one hemisphere and viewed from a different angle , the portion of the illuminated area that is visible will have a two - dimensional shape defined by the intersection of an ellipse and circle ( where the major axis of the ellipse coincides with a diameter of the circle ) . If the half - ellipse is convex with respect to the half - circle , then the shape will be gibbous ( bulging outwards ) whereas if the half - ellipse is concave with respect to the half - circle , then the shape will be a crescent .",
+        "evidence_ids": [
+          "800869209_6198-6886-0-688",
+          "800869209_855-2044-0-1189",
+          "800869209_2267-3302-0-1031",
+          "800869209_5261-6197-0-936"
+        ],
+        "evidence": [
+          {
+            "doc_id": "800869209_6198-6886-0-688",
+            "text": "Lunar phase\nLunar phase\nWhen a sphere is illuminated on one hemisphere and viewed from a different angle , the portion of the illuminated area that is visible will have a two - dimensional shape defined by the intersection of an ellipse and circle ( where the major axis of the ellipse coincides with a diameter of the circle ) . If the half - ellipse is convex with respect to the half - circle , then the shape will be gibbous ( bulging outwards ) whereas if the half - ellipse is concave with respect to the half - circle , then the shape will be a crescent . When a crescent Moon occurs , the phenomenon of earthshine may be apparent , where the night side of the Moon faintly reflects light from the Earth ."
+          },
+          {
+            "doc_id": "800869209_855-2044-0-1189",
+            "text": "Lunar phase\nLunar phase\nThe lunar phase or phase of the moon is the shape of the illuminated ( sunlit ) portion of the Moon as seen by an observer on Earth . The lunar phases change cyclically as the Moon orbits the Earth , according to the changing positions of the Moon and Sun relative to the Earth . The Moon 's rotation is tidally locked by the Earth 's gravity , therefore the same lunar surface always faces Earth . This face is variously sunlit depending on the position of the Moon in its orbit . Therefore , the portion of this hemisphere that is visible to an observer on Earth can vary from about 100 % ( full moon ) to 0 % ( new moon ) . The lunar terminator is the boundary between the illuminated and darkened hemispheres . Each of the four `` intermediate '' lunar phases ( see below ) is roughly seven days ( ~ 7.4 days ) but this varies slightly due to the elliptical shape of the Moon 's orbit . Aside from some craters near the lunar poles such as Shoemaker , all parts of the Moon see around 14.77 days of sunlight , followed by 14.77 days of `` night '' . ( The side of the Moon facing away from the Earth is sometimes called the `` dark side of the Moon '' , although that is a misnomer . )"
+          },
+          {
+            "doc_id": "800869209_2267-3302-0-1031",
+            "text": "Lunar phase\nLunar phase\nIn Western culture , the four principal lunar phases are new moon , first quarter , full moon , and third quarter ( also known as last quarter ) . These are the instances when the Moon 's apparent geocentric celestial longitude minus the Sun 's apparent geocentric celestial longitude is 0 ° , 90 ° , 180 ° and 270 ° , respectively . Each of these phases occur at slightly different times when viewed from different points on the Earth . During the intervals between principal phases , the Moon appears either crescent - shaped or gibbous . These shapes , and the periods of time when the Moon shows them , are called the intermediate phases . They last , on average , one - quarter of a synodic month , roughly 7.38 days , but their durations vary slightly because the Moon 's orbit is slightly elliptical , and thus its speed in orbit is not constant . The descriptor waxing is used for an intermediate phase when the Moon 's apparent size is increasing , from new moon toward full moon , and waning when the size is decreasing ."
+          },
+          {
+            "doc_id": "800869209_5261-6197-0-936",
+            "text": "Lunar phase\nLunar phase\nWhen the Sun and Moon are aligned on the same side of the Earth , the moon is `` new '' , and the side of the Moon facing Earth is not illuminated by the Sun . As the moon waxes ( the amount of illuminated surface as seen from Earth is increasing ) , the lunar phases progress through new moon , crescent moon , first - quarter moon , gibbous moon , and full moon . The moon is then said to wane as it passes through the gibbous moon , third - quarter moon , crescent moon and back to new moon . The terms `` old moon '' and `` new moon '' are not interchangeable . The `` old moon '' is a waning sliver ( which eventually becomes undetectable to the naked eye ) until the moment it aligns with the sun and begins to wax , at which point it becomes new again . Half moon is often used to mean the first - and third - quarter moons , while the term ' quarter ' refers to the extent of the moon 's cycle around the Earth , not its shape ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Explanation"
+        ],
+        "multi_turn": [
+          "N/A"
+        ]
+      }
+    },
+    {
+      "turn_id": "2",
+      "task_id": "3f5fa378239f7475baac89fa40288aaa<::>2",
+      "question": "What is the distance between the moon and earth?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "what makes the different shapes of the moon"
+        },
+        {
+          "role": "assistant",
+          "content": "The different shapes of the Moon, also known as lunar phases, are determined by the amount of sunlight that is illuminating the portion of the Moon visible from Earth. This changes as the Moon orbits the Earth and the relative positions of the Moon, Earth, and Sun shift. When the Sun, Earth, and Moon are aligned, with the Sun and Moon on opposite sides of the Earth, we see a full moon. When the Moon is positioned between the Earth and the Sun, we see a new moon. The crescent and gibbous shapes occur during the intervals between these principal phases, when only a portion of the Moon's surface is illuminated. The specific shape at any given time depends on the Moon's position in its orbit. When a sphere is illuminated on one hemisphere and viewed from a different angle , the portion of the illuminated area that is visible will have a two - dimensional shape defined by the intersection of an ellipse and circle ( where the major axis of the ellipse coincides with a diameter of the circle ) . If the half - ellipse is convex with respect to the half - circle , then the shape will be gibbous ( bulging outwards ) whereas if the half - ellipse is concave with respect to the half - circle , then the shape will be a crescent ."
+        }
+      ],
+      "retrieval": {
+        "query": "What is the distance between the moon and earth?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "800694603_1069-1451-0-382",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Lunar distance (astronomy) The mean semi-major axis has a value of 384,402 km ( 238,856 mi ) . The time - averaged distance between Earth and Moon centers is 385,000.6 km ( 239,228.3 mi ) . The actual distance varies over the course of the orbit of the Moon , from 356,500 km ( 221,500 mi ) at the perigee to 406,700 km ( 252,700 mi ) at apogee , resulting in a differential range of 50,200 km ( 31,200 mi ) .",
+            "title": "Lunar distance (astronomy)"
+          },
+          {
+            "rank": 2,
+            "doc_id": "800694603_3260-3620-0-358",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Lunar distance (astronomy) The instantaneous lunar distance is constantly changing . In fact the true distance between the Moon and Earth can change by as much as 7001750000000000000 ♠ 75 m / s , or more than 1,000 kilometers in just 6 hours , due to its non-circular orbit . There are other effects that also influence the lunar distance . Some factors are described in this section .",
+            "title": "Lunar distance (astronomy)"
+          },
+          {
+            "rank": 3,
+            "doc_id": "800694603_465-1068-0-600",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Lunar distance (astronomy) Lunar distance ( LD or Δ ⊕ L ( \\ textstyle \\ Delta _ ( \\ oplus L ) ) ) , also called Earth -- Moon distance , Earth -- Moon characteristic distance , or distance to the Moon , is a unit of measure in astronomy . It is the average distance from the center of Earth to the center of the Moon . More technically , it is the mean semi-major axis of the geocentric lunar orbit . It may also refer to the time - averaged distance between the centers of the Earth and the Moon , or less commonly , the instantaneous Earth -- Moon distance . The lunar distance is approximately a quarter of a million miles .",
+            "title": "Lunar distance (astronomy)"
+          },
+          {
+            "rank": 4,
+            "doc_id": "800694603_1973-2436-0-461",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Lunar distance (astronomy) Millimeter - precision measurements of the lunar distance are made by measuring the time taken for light to travel between LIDAR stations on the Earth and retroreflectors placed on the Moon . The Moon is spiraling away from the Earth at an average rate of 3.8 cm ( 1.5 in ) per year , as detected by the Lunar Laser Ranging Experiment . By coincidence , the diameter of corner cubes in retroreflectors on the Moon is also 6998380000000000000 ♠ 3.8 cm . Distance",
+            "title": "Lunar distance (astronomy)"
+          },
+          {
+            "rank": 5,
+            "doc_id": "800694603_3661-4443-0-775",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Lunar distance (astronomy) The distance to the Moon can be measured to an accuracy of 6997200000000000000 ♠ 2 mm over a 1 - hour sampling period , which results in an overall uncertainty of 6998200000000000000 ♠ 2 -- 3 cm for the average distance . However , due to its elliptical orbit with varying eccentricity , the instantaneous distance varies with monthly periodicity . Furthermore , the distance is perturbed by the gravitational effects of various astronomical bodies - most significantly the Sun and less so by Jupiter . Other forces responsible for minuscule perturbations are other planets in the solar system , asteroids , tidal forces , and relativistic effects . The effect of radiation pressure from the sun contributes an amount of ± 6997360000000000000 ♠ 3.6 mm to the lunar distance .",
+            "title": "Lunar distance (astronomy)"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "800694603_1069-1451-0-382",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Lunar distance (astronomy) The mean semi-major axis has a value of 384,402 km ( 238,856 mi ) . The time - averaged distance between Earth and Moon centers is 385,000.6 km ( 239,228.3 mi ) . The actual distance varies over the course of the orbit of the Moon , from 356,500 km ( 221,500 mi ) at the perigee to 406,700 km ( 252,700 mi ) at apogee , resulting in a differential range of 50,200 km ( 31,200 mi ) .",
+            "title": "Lunar distance (astronomy)"
+          },
+          {
+            "rank": 2,
+            "doc_id": "800694603_3260-3620-0-358",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Lunar distance (astronomy) The instantaneous lunar distance is constantly changing . In fact the true distance between the Moon and Earth can change by as much as 7001750000000000000 ♠ 75 m / s , or more than 1,000 kilometers in just 6 hours , due to its non-circular orbit . There are other effects that also influence the lunar distance . Some factors are described in this section .",
+            "title": "Lunar distance (astronomy)"
+          },
+          {
+            "rank": 3,
+            "doc_id": "800694603_465-1068-0-600",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Lunar distance (astronomy) Lunar distance ( LD or Δ ⊕ L ( \\ textstyle \\ Delta _ ( \\ oplus L ) ) ) , also called Earth -- Moon distance , Earth -- Moon characteristic distance , or distance to the Moon , is a unit of measure in astronomy . It is the average distance from the center of Earth to the center of the Moon . More technically , it is the mean semi-major axis of the geocentric lunar orbit . It may also refer to the time - averaged distance between the centers of the Earth and the Moon , or less commonly , the instantaneous Earth -- Moon distance . The lunar distance is approximately a quarter of a million miles .",
+            "title": "Lunar distance (astronomy)"
+          },
+          {
+            "rank": 4,
+            "doc_id": "800694603_1973-2436-0-461",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Lunar distance (astronomy) Millimeter - precision measurements of the lunar distance are made by measuring the time taken for light to travel between LIDAR stations on the Earth and retroreflectors placed on the Moon . The Moon is spiraling away from the Earth at an average rate of 3.8 cm ( 1.5 in ) per year , as detected by the Lunar Laser Ranging Experiment . By coincidence , the diameter of corner cubes in retroreflectors on the Moon is also 6998380000000000000 ♠ 3.8 cm . Distance",
+            "title": "Lunar distance (astronomy)"
+          },
+          {
+            "rank": 5,
+            "doc_id": "800694603_3661-4443-0-775",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Lunar distance (astronomy) The distance to the Moon can be measured to an accuracy of 6997200000000000000 ♠ 2 mm over a 1 - hour sampling period , which results in an overall uncertainty of 6998200000000000000 ♠ 2 -- 3 cm for the average distance . However , due to its elliptical orbit with varying eccentricity , the instantaneous distance varies with monthly periodicity . Furthermore , the distance is perturbed by the gravitational effects of various astronomical bodies - most significantly the Sun and less so by Jupiter . Other forces responsible for minuscule perturbations are other planets in the solar system , asteroids , tidal forces , and relativistic effects . The effect of radiation pressure from the sun contributes an amount of ± 6997360000000000000 ♠ 3.6 mm to the lunar distance .",
+            "title": "Lunar distance (astronomy)"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "The instantaneous lunar distance is constantly changing.In fact the true distance between the Moon and Earth can change by as much as 75000000000000000000 ♠ 75 m / s, or more than 1,000 kilometers in just 6 hours, due to its non-circular orbit.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "800694603_1069-1451-0-382",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Lunar distance (astronomy) The mean semi-major axis has a value of 384,402 km ( 238,856 mi ) . The time - averaged distance between Earth and Moon centers is 385,000.6 km ( 239,228.3 mi ) . The actual distance varies over the course of the orbit of the Moon , from 356,500 km ( 221,500 mi ) at the perigee to 406,700 km ( 252,700 mi ) at apogee , resulting in a differential range of 50,200 km ( 31,200 mi ) .",
+          "title": "Lunar distance (astronomy)"
+        },
+        {
+          "rank": 2,
+          "doc_id": "800694603_3260-3620-0-358",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Lunar distance (astronomy) The instantaneous lunar distance is constantly changing . In fact the true distance between the Moon and Earth can change by as much as 7001750000000000000 ♠ 75 m / s , or more than 1,000 kilometers in just 6 hours , due to its non-circular orbit . There are other effects that also influence the lunar distance . Some factors are described in this section .",
+          "title": "Lunar distance (astronomy)"
+        },
+        {
+          "rank": 3,
+          "doc_id": "800694603_465-1068-0-600",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Lunar distance (astronomy) Lunar distance ( LD or Δ ⊕ L ( \\ textstyle \\ Delta _ ( \\ oplus L ) ) ) , also called Earth -- Moon distance , Earth -- Moon characteristic distance , or distance to the Moon , is a unit of measure in astronomy . It is the average distance from the center of Earth to the center of the Moon . More technically , it is the mean semi-major axis of the geocentric lunar orbit . It may also refer to the time - averaged distance between the centers of the Earth and the Moon , or less commonly , the instantaneous Earth -- Moon distance . The lunar distance is approximately a quarter of a million miles .",
+          "title": "Lunar distance (astronomy)"
+        },
+        {
+          "rank": 4,
+          "doc_id": "800694603_1973-2436-0-461",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Lunar distance (astronomy) Millimeter - precision measurements of the lunar distance are made by measuring the time taken for light to travel between LIDAR stations on the Earth and retroreflectors placed on the Moon . The Moon is spiraling away from the Earth at an average rate of 3.8 cm ( 1.5 in ) per year , as detected by the Lunar Laser Ranging Experiment . By coincidence , the diameter of corner cubes in retroreflectors on the Moon is also 6998380000000000000 ♠ 3.8 cm . Distance",
+          "title": "Lunar distance (astronomy)"
+        },
+        {
+          "rank": 5,
+          "doc_id": "800694603_3661-4443-0-775",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Lunar distance (astronomy) The distance to the Moon can be measured to an accuracy of 6997200000000000000 ♠ 2 mm over a 1 - hour sampling period , which results in an overall uncertainty of 6998200000000000000 ♠ 2 -- 3 cm for the average distance . However , due to its elliptical orbit with varying eccentricity , the instantaneous distance varies with monthly periodicity . Furthermore , the distance is perturbed by the gravitational effects of various astronomical bodies - most significantly the Sun and less so by Jupiter . Other forces responsible for minuscule perturbations are other planets in the solar system , asteroids , tidal forces , and relativistic effects . The effect of radiation pressure from the sun contributes an amount of ± 6997360000000000000 ♠ 3.6 mm to the lunar distance .",
+          "title": "Lunar distance (astronomy)"
+        }
+      ],
+      "reference": {
+        "answer": "The average distance from the Moon to the Earth is about 238,856 miles or 384,402 kilometers. But this distance varies throughout the Moon's orbit, ranging from about 221,500 miles or 385,000 kilometers at its closest, to about 252,700 miles or 406,700 kilometers at its farthest resulting in a differential range of 50,200 kilometers or 31,200 miles. Lunar distance (astronomy) Astronomers O'Keefe and Anderson calculated the lunar distance by observing 4 occultations from 9 locations in 1952 . They calculated a mean distance of 7008384407600000000 ♠ 384 407. 6 ± 4.7 km , however the value was refined by in 1962 by Irene Fischer , who incorporated updated geodetic data to produce a value of 7008384403700000000 ♠ 384 403. 7 ± 2 km .",
+        "evidence_ids": [
+          "800694603_1069-1451-0-382",
+          "800694603_3260-3620-0-358",
+          "800694603_465-1068-0-600",
+          "800694603_9892-10257-0-359"
+        ],
+        "evidence": [
+          {
+            "doc_id": "800694603_1069-1451-0-382",
+            "text": "Lunar distance (astronomy)\nLunar distance (astronomy)\nThe mean semi-major axis has a value of 384,402 km ( 238,856 mi ) . The time - averaged distance between Earth and Moon centers is 385,000.6 km ( 239,228.3 mi ) . The actual distance varies over the course of the orbit of the Moon , from 356,500 km ( 221,500 mi ) at the perigee to 406,700 km ( 252,700 mi ) at apogee , resulting in a differential range of 50,200 km ( 31,200 mi ) ."
+          },
+          {
+            "doc_id": "800694603_3260-3620-0-358",
+            "text": "Lunar distance (astronomy)\nLunar distance (astronomy)\nThe instantaneous lunar distance is constantly changing . In fact the true distance between the Moon and Earth can change by as much as 7001750000000000000 ♠ 75 m / s , or more than 1,000 kilometers in just 6 hours , due to its non-circular orbit . There are other effects that also influence the lunar distance . Some factors are described in this section ."
+          },
+          {
+            "doc_id": "800694603_465-1068-0-600",
+            "text": "Lunar distance (astronomy)\nLunar distance (astronomy)\nLunar distance ( LD or Δ ⊕ L ( \\ textstyle \\ Delta _ ( \\ oplus L ) ) ) , also called Earth -- Moon distance , Earth -- Moon characteristic distance , or distance to the Moon , is a unit of measure in astronomy . It is the average distance from the center of Earth to the center of the Moon . More technically , it is the mean semi-major axis of the geocentric lunar orbit . It may also refer to the time - averaged distance between the centers of the Earth and the Moon , or less commonly , the instantaneous Earth -- Moon distance . The lunar distance is approximately a quarter of a million miles ."
+          },
+          {
+            "doc_id": "800694603_9892-10257-0-359",
+            "text": "Lunar distance (astronomy)\nLunar distance (astronomy)\nAstronomers O'Keefe and Anderson calculated the lunar distance by observing 4 occultations from 9 locations in 1952 . They calculated a mean distance of 7008384407600000000 ♠ 384 407. 6 ± 4.7 km , however the value was refined by in 1962 by Irene Fischer , who incorporated updated geodetic data to produce a value of 7008384403700000000 ♠ 384 403. 7 ± 2 km ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "3",
+      "task_id": "3f5fa378239f7475baac89fa40288aaa<::>3",
+      "question": "How old is the moon?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "what makes the different shapes of the moon"
+        },
+        {
+          "role": "assistant",
+          "content": "The different shapes of the Moon, also known as lunar phases, are determined by the amount of sunlight that is illuminating the portion of the Moon visible from Earth. This changes as the Moon orbits the Earth and the relative positions of the Moon, Earth, and Sun shift. When the Sun, Earth, and Moon are aligned, with the Sun and Moon on opposite sides of the Earth, we see a full moon. When the Moon is positioned between the Earth and the Sun, we see a new moon. The crescent and gibbous shapes occur during the intervals between these principal phases, when only a portion of the Moon's surface is illuminated. The specific shape at any given time depends on the Moon's position in its orbit. When a sphere is illuminated on one hemisphere and viewed from a different angle , the portion of the illuminated area that is visible will have a two - dimensional shape defined by the intersection of an ellipse and circle ( where the major axis of the ellipse coincides with a diameter of the circle ) . If the half - ellipse is convex with respect to the half - circle , then the shape will be gibbous ( bulging outwards ) whereas if the half - ellipse is concave with respect to the half - circle , then the shape will be a crescent ."
+        },
+        {
+          "role": "user",
+          "content": "What is the distance between the moon and earth?"
+        },
+        {
+          "role": "assistant",
+          "content": "The average distance from the Moon to the Earth is about 238,856 miles or 384,402 kilometers. But this distance varies throughout the Moon's orbit, ranging from about 221,500 miles or 385,000 kilometers at its closest, to about 252,700 miles or 406,700 kilometers at its farthest resulting in a differential range of 50,200 kilometers or 31,200 miles. Lunar distance (astronomy) Astronomers O'Keefe and Anderson calculated the lunar distance by observing 4 occultations from 9 locations in 1952 . They calculated a mean distance of 7008384407600000000 ♠ 384 407. 6 ± 4.7 km , however the value was refined by in 1962 by Irene Fischer , who incorporated updated geodetic data to produce a value of 7008384403700000000 ♠ 384 403. 7 ± 2 km ."
+        }
+      ],
+      "retrieval": {
+        "query": "How old is the moon?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "800694603_5028-5760-0-725",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Lunar distance (astronomy) Through the action of tidal forces , angular momentum is slowly being transferred from Earth 's rotation to the Moon 's orbit . The result is that Earth 's rate of spin is imperceptibly decreasing ( at a rate of 7000229999999999999 ♠ 2.3 milliseconds / century ) , and the lunar orbit is gradually expanding . The current rate of recession is 7000380500000000000 ♠ 3.805 ± 0.004 cm per year . However , it is believed that this rate has recently increased , as a rate of 6991120417206325883 ♠ 3.8 cm / year would imply that the Moon is only 1.5 billion years old , whereas scientific consensus assumes an age of ~ 4 billion years . It is also believed that this anomalously high rate of recession may continue to accelerate .",
+            "title": "Lunar distance (astronomy)"
+          },
+          {
+            "rank": 2,
+            "doc_id": "800869209_10879-11855-0-976",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Lunar phase The approximate age of the moon , and hence the approximate phase , can be calculated for any date by calculating the number of days since a known new moon ( such as January 1 , 1900 or August 11 , 1999 ) and reducing this modulo 29.530588853 ( the length of a synodic month ) . The difference between two dates can be calculated by subtracting the Julian Day Number of one from that of the other , or there are simpler formulae giving ( for instance ) the number of days since December 31 , 1899 . However , this calculation assumes a perfectly circular orbit and makes no allowance for the time of day at which the new moon happened , therefore may be incorrect by several hours ( it also becomes less accurate the larger the difference between the required date and the reference date ) ; it is accurate enough to use in a novelty clock application showing moon phase , but specialist usage taking account of lunar apogee and perigee requires a more elaborate calculation .",
+            "title": "Lunar phase"
+          },
+          {
+            "rank": 3,
+            "doc_id": "856136637_57977-58401-0-421",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Earth Due to their tidal interaction , the Moon recedes from Earth at the rate of approximately 38 mm / a ( 1.5 in / year ) . Over millions of years , these tiny modifications -- and the lengthening of Earth 's day by about 23 μs / yr -- add up to significant changes . During the Devonian period , for example , ( approximately 7002410000000000000 ♠ 410 Mya ) there were 400 days in a year , with each day lasting 21.8 hours .",
+            "title": "Earth"
+          },
+          {
+            "rank": 4,
+            "doc_id": "800694603_6494-6820-0-326",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Lunar distance (astronomy) The giant impact hypothesis , a widely accepted theory , states that the Moon was created as a result of a catastrophic impact between another planet and Earth , resulting in a re-accumulation of fragments at an initial distance of 3.8 R. In this theory , the initial impact is assumed to have occurred 4.5 billion years ago .",
+            "title": "Lunar distance (astronomy)"
+          },
+          {
+            "rank": 5,
+            "doc_id": "800694603_6268-6493-0-225",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Lunar distance (astronomy) The average lunar distance is increasing , which implies that the Moon was closer in the past . There is geological evidence that the average lunar distance was about 52 R during the Precambrian Era ; 2,500 million years BP .",
+            "title": "Lunar distance (astronomy)"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "800694603_5028-5760-0-725",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Lunar distance (astronomy) Through the action of tidal forces , angular momentum is slowly being transferred from Earth 's rotation to the Moon 's orbit . The result is that Earth 's rate of spin is imperceptibly decreasing ( at a rate of 7000229999999999999 ♠ 2.3 milliseconds / century ) , and the lunar orbit is gradually expanding . The current rate of recession is 7000380500000000000 ♠ 3.805 ± 0.004 cm per year . However , it is believed that this rate has recently increased , as a rate of 6991120417206325883 ♠ 3.8 cm / year would imply that the Moon is only 1.5 billion years old , whereas scientific consensus assumes an age of ~ 4 billion years . It is also believed that this anomalously high rate of recession may continue to accelerate .",
+            "title": "Lunar distance (astronomy)"
+          },
+          {
+            "rank": 2,
+            "doc_id": "800869209_10879-11855-0-976",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Lunar phase The approximate age of the moon , and hence the approximate phase , can be calculated for any date by calculating the number of days since a known new moon ( such as January 1 , 1900 or August 11 , 1999 ) and reducing this modulo 29.530588853 ( the length of a synodic month ) . The difference between two dates can be calculated by subtracting the Julian Day Number of one from that of the other , or there are simpler formulae giving ( for instance ) the number of days since December 31 , 1899 . However , this calculation assumes a perfectly circular orbit and makes no allowance for the time of day at which the new moon happened , therefore may be incorrect by several hours ( it also becomes less accurate the larger the difference between the required date and the reference date ) ; it is accurate enough to use in a novelty clock application showing moon phase , but specialist usage taking account of lunar apogee and perigee requires a more elaborate calculation .",
+            "title": "Lunar phase"
+          },
+          {
+            "rank": 3,
+            "doc_id": "856136637_57977-58401-0-421",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Earth Due to their tidal interaction , the Moon recedes from Earth at the rate of approximately 38 mm / a ( 1.5 in / year ) . Over millions of years , these tiny modifications -- and the lengthening of Earth 's day by about 23 μs / yr -- add up to significant changes . During the Devonian period , for example , ( approximately 7002410000000000000 ♠ 410 Mya ) there were 400 days in a year , with each day lasting 21.8 hours .",
+            "title": "Earth"
+          },
+          {
+            "rank": 4,
+            "doc_id": "800694603_6494-6820-0-326",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Lunar distance (astronomy) The giant impact hypothesis , a widely accepted theory , states that the Moon was created as a result of a catastrophic impact between another planet and Earth , resulting in a re-accumulation of fragments at an initial distance of 3.8 R. In this theory , the initial impact is assumed to have occurred 4.5 billion years ago .",
+            "title": "Lunar distance (astronomy)"
+          },
+          {
+            "rank": 5,
+            "doc_id": "800694603_6268-6493-0-225",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Lunar distance (astronomy) The average lunar distance is increasing , which implies that the Moon was closer in the past . There is geological evidence that the average lunar distance was about 52 R during the Precambrian Era ; 2,500 million years BP .",
+            "title": "Lunar distance (astronomy)"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "The Moon is estimated to be about 4.5 billion years old, which is relatively young in the history of the universe.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "800694603_5028-5760-0-725",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Lunar distance (astronomy) Through the action of tidal forces , angular momentum is slowly being transferred from Earth 's rotation to the Moon 's orbit . The result is that Earth 's rate of spin is imperceptibly decreasing ( at a rate of 7000229999999999999 ♠ 2.3 milliseconds / century ) , and the lunar orbit is gradually expanding . The current rate of recession is 7000380500000000000 ♠ 3.805 ± 0.004 cm per year . However , it is believed that this rate has recently increased , as a rate of 6991120417206325883 ♠ 3.8 cm / year would imply that the Moon is only 1.5 billion years old , whereas scientific consensus assumes an age of ~ 4 billion years . It is also believed that this anomalously high rate of recession may continue to accelerate .",
+          "title": "Lunar distance (astronomy)"
+        },
+        {
+          "rank": 2,
+          "doc_id": "800869209_10879-11855-0-976",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Lunar phase The approximate age of the moon , and hence the approximate phase , can be calculated for any date by calculating the number of days since a known new moon ( such as January 1 , 1900 or August 11 , 1999 ) and reducing this modulo 29.530588853 ( the length of a synodic month ) . The difference between two dates can be calculated by subtracting the Julian Day Number of one from that of the other , or there are simpler formulae giving ( for instance ) the number of days since December 31 , 1899 . However , this calculation assumes a perfectly circular orbit and makes no allowance for the time of day at which the new moon happened , therefore may be incorrect by several hours ( it also becomes less accurate the larger the difference between the required date and the reference date ) ; it is accurate enough to use in a novelty clock application showing moon phase , but specialist usage taking account of lunar apogee and perigee requires a more elaborate calculation .",
+          "title": "Lunar phase"
+        },
+        {
+          "rank": 3,
+          "doc_id": "856136637_57977-58401-0-421",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Earth Due to their tidal interaction , the Moon recedes from Earth at the rate of approximately 38 mm / a ( 1.5 in / year ) . Over millions of years , these tiny modifications -- and the lengthening of Earth 's day by about 23 μs / yr -- add up to significant changes . During the Devonian period , for example , ( approximately 7002410000000000000 ♠ 410 Mya ) there were 400 days in a year , with each day lasting 21.8 hours .",
+          "title": "Earth"
+        },
+        {
+          "rank": 4,
+          "doc_id": "800694603_6494-6820-0-326",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Lunar distance (astronomy) The giant impact hypothesis , a widely accepted theory , states that the Moon was created as a result of a catastrophic impact between another planet and Earth , resulting in a re-accumulation of fragments at an initial distance of 3.8 R. In this theory , the initial impact is assumed to have occurred 4.5 billion years ago .",
+          "title": "Lunar distance (astronomy)"
+        },
+        {
+          "rank": 5,
+          "doc_id": "800694603_6268-6493-0-225",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Lunar distance (astronomy) The average lunar distance is increasing , which implies that the Moon was closer in the past . There is geological evidence that the average lunar distance was about 52 R during the Precambrian Era ; 2,500 million years BP .",
+          "title": "Lunar distance (astronomy)"
+        }
+      ],
+      "reference": {
+        "answer": "Using the rate of recession to calculate the Moon's age suggest the Moon is approximately 1.5 billion years old while scientific consensus assumes an age of approximately 4 billion years. ",
+        "evidence_ids": [
+          "800694603_5028-5760-0-725"
+        ],
+        "evidence": [
+          {
+            "doc_id": "800694603_5028-5760-0-725",
+            "text": "Lunar distance (astronomy)\nLunar distance (astronomy)\nThrough the action of tidal forces , angular momentum is slowly being transferred from Earth 's rotation to the Moon 's orbit . The result is that Earth 's rate of spin is imperceptibly decreasing ( at a rate of 7000229999999999999 ♠ 2.3 milliseconds / century ) , and the lunar orbit is gradually expanding . The current rate of recession is 7000380500000000000 ♠ 3.805 ± 0.004 cm per year . However , it is believed that this rate has recently increased , as a rate of 6991120417206325883 ♠ 3.8 cm / year would imply that the Moon is only 1.5 billion years old , whereas scientific consensus assumes an age of ~ 4 billion years . It is also believed that this anomalously high rate of recession may continue to accelerate ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Explanation"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "4",
+      "task_id": "3f5fa378239f7475baac89fa40288aaa<::>4",
+      "question": "What was the longest mission to the moon?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "what makes the different shapes of the moon"
+        },
+        {
+          "role": "assistant",
+          "content": "The different shapes of the Moon, also known as lunar phases, are determined by the amount of sunlight that is illuminating the portion of the Moon visible from Earth. This changes as the Moon orbits the Earth and the relative positions of the Moon, Earth, and Sun shift. When the Sun, Earth, and Moon are aligned, with the Sun and Moon on opposite sides of the Earth, we see a full moon. When the Moon is positioned between the Earth and the Sun, we see a new moon. The crescent and gibbous shapes occur during the intervals between these principal phases, when only a portion of the Moon's surface is illuminated. The specific shape at any given time depends on the Moon's position in its orbit. When a sphere is illuminated on one hemisphere and viewed from a different angle , the portion of the illuminated area that is visible will have a two - dimensional shape defined by the intersection of an ellipse and circle ( where the major axis of the ellipse coincides with a diameter of the circle ) . If the half - ellipse is convex with respect to the half - circle , then the shape will be gibbous ( bulging outwards ) whereas if the half - ellipse is concave with respect to the half - circle , then the shape will be a crescent ."
+        },
+        {
+          "role": "user",
+          "content": "What is the distance between the moon and earth?"
+        },
+        {
+          "role": "assistant",
+          "content": "The average distance from the Moon to the Earth is about 238,856 miles or 384,402 kilometers. But this distance varies throughout the Moon's orbit, ranging from about 221,500 miles or 385,000 kilometers at its closest, to about 252,700 miles or 406,700 kilometers at its farthest resulting in a differential range of 50,200 kilometers or 31,200 miles. Lunar distance (astronomy) Astronomers O'Keefe and Anderson calculated the lunar distance by observing 4 occultations from 9 locations in 1952 . They calculated a mean distance of 7008384407600000000 ♠ 384 407. 6 ± 4.7 km , however the value was refined by in 1962 by Irene Fischer , who incorporated updated geodetic data to produce a value of 7008384403700000000 ♠ 384 403. 7 ± 2 km ."
+        },
+        {
+          "role": "user",
+          "content": "How old is the moon?"
+        },
+        {
+          "role": "assistant",
+          "content": "Using the rate of recession to calculate the Moon's age suggest the Moon is approximately 1.5 billion years old while scientific consensus assumes an age of approximately 4 billion years. "
+        }
+      ],
+      "retrieval": {
+        "query": "What was the longest mission to the moon?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "866491906_29833-30189-0-356",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Moon landing In 1970 and 1973 two Lunokhod ( `` Moonwalker '' ) robotic lunar rovers were delivered to the Moon , where they successfully operated for 10 and 4 months respectively , covering 10.5 km ( Lunokhod 1 ) and 37 km ( Lunokhod 2 ) . These rover missions were in operation concurrently with the Zond and Luna series of Moon flyby , orbiter and landing missions .",
+            "title": "Moon landing"
+          },
+          {
+            "rank": 2,
+            "doc_id": "866491906_60531-60973-0-442",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Moon landing The GRAIL mission consisted of two small spacecraft : GRAIL A ( Ebb ) , and GRAIL B ( Flow ) . They were launched on 10 September 2011 on board a Delta II rocket . GRAIL A separated from the rocket about nine minutes after launch , and GRAIL B followed about eight minutes later . The first probe entered orbit on 31 December 2011 and the second followed on 1 January 2012 . The two spacecraft impacted the Lunar surface on 17 December 2012 .",
+            "title": "Moon landing"
+          },
+          {
+            "rank": 3,
+            "doc_id": "814759473_29564-29967-0-403",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Alan Shepard Shepard made his second space flight as Commander of Apollo 14 from January 31 to February 9 , 1971 . It was America 's third successful lunar landing mission . Shepard piloted the lunar module Antares to the most accurate landing of the entire Apollo program . He became the fifth and , at the age of 47 , the oldest man to walk on the moon , and the only one of the Mercury Seven astronauts to do so .",
+            "title": "Alan Shepard"
+          },
+          {
+            "rank": 4,
+            "doc_id": "866491906_40011-40851-0-840",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Moon landing U.S. mission Mass ( kg ) Booster Launched Mission goal Mission result Lunar Orbiter 1 386 Atlas -- Agena 10 August 1966 Lunar orbiter Success -- 1,160 km X 189 km x 12 deg orbit , 208 m period , 80 - day photography mission Lunar Orbiter 2 386 Atlas -- Agena 6 November 1966 Lunar orbiter Success -- 1,860 km X 52 km x 12 deg orbit , 208 m period , 339 - day photography mission Lunar Orbiter 3 386 Atlas -- Agena 5 February 1967 Lunar orbiter Success -- 1,860 km X 52 km x 21 deg orbit , 208 m period , 246 - day photography mission Lunar Orbiter 4 386 Atlas -- Agena 4 May 1967 Lunar orbiter Success -- 6,111 km X 2,706 km x 86 deg orbit , 721 m period , 180 - day photography mission Lunar Orbiter 5 386 Atlas -- Agena 1 August 1967 Lunar orbiter Success -- 6,023 km X 195 km x 85 deg orbit , 510 m period , 183 - day photography mission",
+            "title": "Moon landing"
+          },
+          {
+            "rank": 5,
+            "doc_id": "866491906_16710-17113-0-403",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Moon landing In contrast to Soviet lunar exploration triumphs in 1959 , success eluded initial U.S. efforts to reach the Moon with the Pioneer and Ranger programs . Fifteen consecutive U.S. unmanned lunar missions over a six - year period from 1958 to 1964 all failed their primary photographic missions ; however , Rangers 4 and 6 successfully repeated the Soviet lunar impacts as part of their secondary missions .",
+            "title": "Moon landing"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "866491906_29833-30189-0-356",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Moon landing In 1970 and 1973 two Lunokhod ( `` Moonwalker '' ) robotic lunar rovers were delivered to the Moon , where they successfully operated for 10 and 4 months respectively , covering 10.5 km ( Lunokhod 1 ) and 37 km ( Lunokhod 2 ) . These rover missions were in operation concurrently with the Zond and Luna series of Moon flyby , orbiter and landing missions .",
+            "title": "Moon landing"
+          },
+          {
+            "rank": 2,
+            "doc_id": "866491906_60531-60973-0-442",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Moon landing The GRAIL mission consisted of two small spacecraft : GRAIL A ( Ebb ) , and GRAIL B ( Flow ) . They were launched on 10 September 2011 on board a Delta II rocket . GRAIL A separated from the rocket about nine minutes after launch , and GRAIL B followed about eight minutes later . The first probe entered orbit on 31 December 2011 and the second followed on 1 January 2012 . The two spacecraft impacted the Lunar surface on 17 December 2012 .",
+            "title": "Moon landing"
+          },
+          {
+            "rank": 3,
+            "doc_id": "814759473_29564-29967-0-403",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Alan Shepard Shepard made his second space flight as Commander of Apollo 14 from January 31 to February 9 , 1971 . It was America 's third successful lunar landing mission . Shepard piloted the lunar module Antares to the most accurate landing of the entire Apollo program . He became the fifth and , at the age of 47 , the oldest man to walk on the moon , and the only one of the Mercury Seven astronauts to do so .",
+            "title": "Alan Shepard"
+          },
+          {
+            "rank": 4,
+            "doc_id": "866491906_40011-40851-0-840",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Moon landing U.S. mission Mass ( kg ) Booster Launched Mission goal Mission result Lunar Orbiter 1 386 Atlas -- Agena 10 August 1966 Lunar orbiter Success -- 1,160 km X 189 km x 12 deg orbit , 208 m period , 80 - day photography mission Lunar Orbiter 2 386 Atlas -- Agena 6 November 1966 Lunar orbiter Success -- 1,860 km X 52 km x 12 deg orbit , 208 m period , 339 - day photography mission Lunar Orbiter 3 386 Atlas -- Agena 5 February 1967 Lunar orbiter Success -- 1,860 km X 52 km x 21 deg orbit , 208 m period , 246 - day photography mission Lunar Orbiter 4 386 Atlas -- Agena 4 May 1967 Lunar orbiter Success -- 6,111 km X 2,706 km x 86 deg orbit , 721 m period , 180 - day photography mission Lunar Orbiter 5 386 Atlas -- Agena 1 August 1967 Lunar orbiter Success -- 6,023 km X 195 km x 85 deg orbit , 510 m period , 183 - day photography mission",
+            "title": "Moon landing"
+          },
+          {
+            "rank": 5,
+            "doc_id": "866491906_16710-17113-0-403",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Moon landing In contrast to Soviet lunar exploration triumphs in 1959 , success eluded initial U.S. efforts to reach the Moon with the Pioneer and Ranger programs . Fifteen consecutive U.S. unmanned lunar missions over a six - year period from 1958 to 1964 all failed their primary photographic missions ; however , Rangers 4 and 6 successfully repeated the Soviet lunar impacts as part of their secondary missions .",
+            "title": "Moon landing"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Alan Shepard",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "866491906_29833-30189-0-356",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Moon landing In 1970 and 1973 two Lunokhod ( `` Moonwalker '' ) robotic lunar rovers were delivered to the Moon , where they successfully operated for 10 and 4 months respectively , covering 10.5 km ( Lunokhod 1 ) and 37 km ( Lunokhod 2 ) . These rover missions were in operation concurrently with the Zond and Luna series of Moon flyby , orbiter and landing missions .",
+          "title": "Moon landing"
+        },
+        {
+          "rank": 2,
+          "doc_id": "866491906_60531-60973-0-442",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Moon landing The GRAIL mission consisted of two small spacecraft : GRAIL A ( Ebb ) , and GRAIL B ( Flow ) . They were launched on 10 September 2011 on board a Delta II rocket . GRAIL A separated from the rocket about nine minutes after launch , and GRAIL B followed about eight minutes later . The first probe entered orbit on 31 December 2011 and the second followed on 1 January 2012 . The two spacecraft impacted the Lunar surface on 17 December 2012 .",
+          "title": "Moon landing"
+        },
+        {
+          "rank": 3,
+          "doc_id": "814759473_29564-29967-0-403",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Alan Shepard Shepard made his second space flight as Commander of Apollo 14 from January 31 to February 9 , 1971 . It was America 's third successful lunar landing mission . Shepard piloted the lunar module Antares to the most accurate landing of the entire Apollo program . He became the fifth and , at the age of 47 , the oldest man to walk on the moon , and the only one of the Mercury Seven astronauts to do so .",
+          "title": "Alan Shepard"
+        },
+        {
+          "rank": 4,
+          "doc_id": "866491906_40011-40851-0-840",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Moon landing U.S. mission Mass ( kg ) Booster Launched Mission goal Mission result Lunar Orbiter 1 386 Atlas -- Agena 10 August 1966 Lunar orbiter Success -- 1,160 km X 189 km x 12 deg orbit , 208 m period , 80 - day photography mission Lunar Orbiter 2 386 Atlas -- Agena 6 November 1966 Lunar orbiter Success -- 1,860 km X 52 km x 12 deg orbit , 208 m period , 339 - day photography mission Lunar Orbiter 3 386 Atlas -- Agena 5 February 1967 Lunar orbiter Success -- 1,860 km X 52 km x 21 deg orbit , 208 m period , 246 - day photography mission Lunar Orbiter 4 386 Atlas -- Agena 4 May 1967 Lunar orbiter Success -- 6,111 km X 2,706 km x 86 deg orbit , 721 m period , 180 - day photography mission Lunar Orbiter 5 386 Atlas -- Agena 1 August 1967 Lunar orbiter Success -- 6,023 km X 195 km x 85 deg orbit , 510 m period , 183 - day photography mission",
+          "title": "Moon landing"
+        },
+        {
+          "rank": 5,
+          "doc_id": "866491906_16710-17113-0-403",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Moon landing In contrast to Soviet lunar exploration triumphs in 1959 , success eluded initial U.S. efforts to reach the Moon with the Pioneer and Ranger programs . Fifteen consecutive U.S. unmanned lunar missions over a six - year period from 1958 to 1964 all failed their primary photographic missions ; however , Rangers 4 and 6 successfully repeated the Soviet lunar impacts as part of their secondary missions .",
+          "title": "Moon landing"
+        }
+      ],
+      "reference": {
+        "answer": "I could not find information about the longest mission to the Moon.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "UNANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Clarification"
+        ]
+      }
+    },
+    {
+      "turn_id": "5",
+      "task_id": "3f5fa378239f7475baac89fa40288aaa<::>5",
+      "question": "what makes monkeys suitable for space travel?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "what makes the different shapes of the moon"
+        },
+        {
+          "role": "assistant",
+          "content": "The different shapes of the Moon, also known as lunar phases, are determined by the amount of sunlight that is illuminating the portion of the Moon visible from Earth. This changes as the Moon orbits the Earth and the relative positions of the Moon, Earth, and Sun shift. When the Sun, Earth, and Moon are aligned, with the Sun and Moon on opposite sides of the Earth, we see a full moon. When the Moon is positioned between the Earth and the Sun, we see a new moon. The crescent and gibbous shapes occur during the intervals between these principal phases, when only a portion of the Moon's surface is illuminated. The specific shape at any given time depends on the Moon's position in its orbit. When a sphere is illuminated on one hemisphere and viewed from a different angle , the portion of the illuminated area that is visible will have a two - dimensional shape defined by the intersection of an ellipse and circle ( where the major axis of the ellipse coincides with a diameter of the circle ) . If the half - ellipse is convex with respect to the half - circle , then the shape will be gibbous ( bulging outwards ) whereas if the half - ellipse is concave with respect to the half - circle , then the shape will be a crescent ."
+        },
+        {
+          "role": "user",
+          "content": "What is the distance between the moon and earth?"
+        },
+        {
+          "role": "assistant",
+          "content": "The average distance from the Moon to the Earth is about 238,856 miles or 384,402 kilometers. But this distance varies throughout the Moon's orbit, ranging from about 221,500 miles or 385,000 kilometers at its closest, to about 252,700 miles or 406,700 kilometers at its farthest resulting in a differential range of 50,200 kilometers or 31,200 miles. Lunar distance (astronomy) Astronomers O'Keefe and Anderson calculated the lunar distance by observing 4 occultations from 9 locations in 1952 . They calculated a mean distance of 7008384407600000000 ♠ 384 407. 6 ± 4.7 km , however the value was refined by in 1962 by Irene Fischer , who incorporated updated geodetic data to produce a value of 7008384403700000000 ♠ 384 403. 7 ± 2 km ."
+        },
+        {
+          "role": "user",
+          "content": "How old is the moon?"
+        },
+        {
+          "role": "assistant",
+          "content": "Using the rate of recession to calculate the Moon's age suggest the Moon is approximately 1.5 billion years old while scientific consensus assumes an age of approximately 4 billion years. "
+        },
+        {
+          "role": "user",
+          "content": "What was the longest mission to the moon?"
+        },
+        {
+          "role": "assistant",
+          "content": "I could not find information about the longest mission to the Moon."
+        }
+      ],
+      "retrieval": {
+        "query": "what makes monkeys suitable for space travel?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "799931694_52616-52900-0-284",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Primate Primates are used as model organisms in laboratories and have been used in space missions . They serve as service animals for disabled humans . Capuchin monkeys can be trained to assist quadriplegic humans ; their intelligence , memory , and manual dexterity make them ideal helpers .",
+            "title": "Primate"
+          },
+          {
+            "rank": 2,
+            "doc_id": "799931694_28462-29603-0-1141",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Primate Primate species move by brachiation , bipedalism , leaping , arboreal and terrestrial quadrupedalism , climbing , knuckle - walking or by a combination of these methods . Several prosimians are primarily vertical clingers and leapers . These include many bushbabies , all indriids ( i.e. , sifakas , avahis and indris ) , sportive lemurs , and all tarsiers . Other prosimians are arboreal quadrupeds and climbers . Some are also terrestrial quadrupeds , while some are leapers . Most monkeys are both arboreal and terrestrial quadrupeds and climbers . Gibbons , muriquis and spider monkeys all brachiate extensively , with gibbons sometimes doing so in remarkably acrobatic fashion . Woolly monkeys also brachiate at times . Orangutans use a similar form of locomotion called quadramanous climbing , in which they use their arms and legs to carry their heavy bodies through the trees . Chimpanzees and gorillas knuckle walk , and can move bipedally for short distances . Although numerous species , such as australopithecines and early hominids , have exhibited fully bipedal locomotion , humans are the only extant species with this trait .",
+            "title": "Primate"
+          },
+          {
+            "rank": 3,
+            "doc_id": "799931694_18189-19142-0-953",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Primate As in the case of lemurs , the origin of New World monkeys is unclear . Molecular studies of concatenated nuclear sequences have yielded a widely varying estimated date of divergence between platyrrhines and catarrhines , ranging from 33 to 70 mya , while studies based on mitochondrial sequences produce a narrower range of 35 to 43 mya . The anthropoid primates possibly traversed the Atlantic Ocean from Africa to South America during the Eocene by island hopping , facilitated by Atlantic Ocean ridges and a lowered sea level . Alternatively , a single rafting event may explain this transoceanic colonization . Due to continental drift , the Atlantic Ocean was not nearly as wide at the time as it is today . Research suggests that a small 1 kg ( 2.2 lb ) primate could have survived 13 days on a raft of vegetation . Given estimated current and wind speeds , this would have provided enough time to make the voyage between the continents . Emperor",
+            "title": "Primate"
+          },
+          {
+            "rank": 4,
+            "doc_id": "850372895_3902-4797-0-895",
+            "score": null,
+            "score_type": "contriever",
+            "text": "New World monkey About 40 million years ago , the Simiiformes infraorder split into the parvorders Platyrrhini ( New World monkeys -- in South America ) and Catarrhini ( apes and Old World monkeys -- in Africa ) . The individuals whose descendents would become Platyrrhini are currently conjectured to have migrated to South America either on a raft of vegetation or via a land bridge . There are two possible rafting routes , either across the Atlantic Ocean from Africa or across the Caribbean from North America . However , there is no fossil record to support the hypothesis of a migration from North America . The land bridge hypothesis relies on the existence of Atlantic Ocean ridges and a fall in the sea level in the Oligocene . This would have either produced a single land bridge or a series of mid-Atlantic islands to act as stepping stones for the migration . The latter is now the favorite choice .",
+            "title": "New World monkey"
+          },
+          {
+            "rank": 5,
+            "doc_id": "799931694_49384-50785-0-1400",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Primate Some species are partially terrestrial , such as baboons and patas monkeys , and a few species are fully terrestrial , such as geladas and humans . Non-human primates live in a diverse number of forested habitats in the tropical latitudes of Africa , India , Southeast Asia , and South America , including rainforests , mangrove forests , and montane forests . There are some examples of non-human primates that live outside of the tropics ; the mountain - dwelling Japanese macaque lives in the north of Honshū where there is snow - cover eight months of the year ; the Barbary macaque lives in the Atlas Mountains of Algeria and Morocco . Primate habitats span a range of altitudes : the black snub - nosed monkey has been found living in the Hengduan Mountains at altitudes of 4,700 meters ( 15,400 ft ) , the mountain gorilla can be found at 4,200 meters ( 13,200 ft ) crossing the Virunga Mountains , and the gelada has been found at elevations of up to 5,000 m ( 16,000 ft ) in the Ethiopian Highlands . Although most species are generally shy of water , a few are good swimmers and are comfortable in swamps and watery areas , including the proboscis monkey , De Brazza 's monkey and Allen 's swamp monkey , which has developed small webbing between its fingers . Some primates , such as the rhesus macaque and gray langurs , can exploit human - modified environments and even live in cities .",
+            "title": "Primate"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "799931694_52616-52900-0-284",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Primate Primates are used as model organisms in laboratories and have been used in space missions . They serve as service animals for disabled humans . Capuchin monkeys can be trained to assist quadriplegic humans ; their intelligence , memory , and manual dexterity make them ideal helpers .",
+            "title": "Primate"
+          },
+          {
+            "rank": 2,
+            "doc_id": "799931694_28462-29603-0-1141",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Primate Primate species move by brachiation , bipedalism , leaping , arboreal and terrestrial quadrupedalism , climbing , knuckle - walking or by a combination of these methods . Several prosimians are primarily vertical clingers and leapers . These include many bushbabies , all indriids ( i.e. , sifakas , avahis and indris ) , sportive lemurs , and all tarsiers . Other prosimians are arboreal quadrupeds and climbers . Some are also terrestrial quadrupeds , while some are leapers . Most monkeys are both arboreal and terrestrial quadrupeds and climbers . Gibbons , muriquis and spider monkeys all brachiate extensively , with gibbons sometimes doing so in remarkably acrobatic fashion . Woolly monkeys also brachiate at times . Orangutans use a similar form of locomotion called quadramanous climbing , in which they use their arms and legs to carry their heavy bodies through the trees . Chimpanzees and gorillas knuckle walk , and can move bipedally for short distances . Although numerous species , such as australopithecines and early hominids , have exhibited fully bipedal locomotion , humans are the only extant species with this trait .",
+            "title": "Primate"
+          },
+          {
+            "rank": 3,
+            "doc_id": "799931694_18189-19142-0-953",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Primate As in the case of lemurs , the origin of New World monkeys is unclear . Molecular studies of concatenated nuclear sequences have yielded a widely varying estimated date of divergence between platyrrhines and catarrhines , ranging from 33 to 70 mya , while studies based on mitochondrial sequences produce a narrower range of 35 to 43 mya . The anthropoid primates possibly traversed the Atlantic Ocean from Africa to South America during the Eocene by island hopping , facilitated by Atlantic Ocean ridges and a lowered sea level . Alternatively , a single rafting event may explain this transoceanic colonization . Due to continental drift , the Atlantic Ocean was not nearly as wide at the time as it is today . Research suggests that a small 1 kg ( 2.2 lb ) primate could have survived 13 days on a raft of vegetation . Given estimated current and wind speeds , this would have provided enough time to make the voyage between the continents . Emperor",
+            "title": "Primate"
+          },
+          {
+            "rank": 4,
+            "doc_id": "850372895_3902-4797-0-895",
+            "score": null,
+            "score_type": "contriever",
+            "text": "New World monkey About 40 million years ago , the Simiiformes infraorder split into the parvorders Platyrrhini ( New World monkeys -- in South America ) and Catarrhini ( apes and Old World monkeys -- in Africa ) . The individuals whose descendents would become Platyrrhini are currently conjectured to have migrated to South America either on a raft of vegetation or via a land bridge . There are two possible rafting routes , either across the Atlantic Ocean from Africa or across the Caribbean from North America . However , there is no fossil record to support the hypothesis of a migration from North America . The land bridge hypothesis relies on the existence of Atlantic Ocean ridges and a fall in the sea level in the Oligocene . This would have either produced a single land bridge or a series of mid-Atlantic islands to act as stepping stones for the migration . The latter is now the favorite choice .",
+            "title": "New World monkey"
+          },
+          {
+            "rank": 5,
+            "doc_id": "799931694_49384-50785-0-1400",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Primate Some species are partially terrestrial , such as baboons and patas monkeys , and a few species are fully terrestrial , such as geladas and humans . Non-human primates live in a diverse number of forested habitats in the tropical latitudes of Africa , India , Southeast Asia , and South America , including rainforests , mangrove forests , and montane forests . There are some examples of non-human primates that live outside of the tropics ; the mountain - dwelling Japanese macaque lives in the north of Honshū where there is snow - cover eight months of the year ; the Barbary macaque lives in the Atlas Mountains of Algeria and Morocco . Primate habitats span a range of altitudes : the black snub - nosed monkey has been found living in the Hengduan Mountains at altitudes of 4,700 meters ( 15,400 ft ) , the mountain gorilla can be found at 4,200 meters ( 13,200 ft ) crossing the Virunga Mountains , and the gelada has been found at elevations of up to 5,000 m ( 16,000 ft ) in the Ethiopian Highlands . Although most species are generally shy of water , a few are good swimmers and are comfortable in swamps and watery areas , including the proboscis monkey , De Brazza 's monkey and Allen 's swamp monkey , which has developed small webbing between its fingers . Some primates , such as the rhesus macaque and gray langurs , can exploit human - modified environments and even live in cities .",
+            "title": "Primate"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Monkeys are also intelligent and have good manual dexterity, which makes them well-suited for space travel.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "799931694_52616-52900-0-284",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Primate Primates are used as model organisms in laboratories and have been used in space missions . They serve as service animals for disabled humans . Capuchin monkeys can be trained to assist quadriplegic humans ; their intelligence , memory , and manual dexterity make them ideal helpers .",
+          "title": "Primate"
+        },
+        {
+          "rank": 2,
+          "doc_id": "799931694_28462-29603-0-1141",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Primate Primate species move by brachiation , bipedalism , leaping , arboreal and terrestrial quadrupedalism , climbing , knuckle - walking or by a combination of these methods . Several prosimians are primarily vertical clingers and leapers . These include many bushbabies , all indriids ( i.e. , sifakas , avahis and indris ) , sportive lemurs , and all tarsiers . Other prosimians are arboreal quadrupeds and climbers . Some are also terrestrial quadrupeds , while some are leapers . Most monkeys are both arboreal and terrestrial quadrupeds and climbers . Gibbons , muriquis and spider monkeys all brachiate extensively , with gibbons sometimes doing so in remarkably acrobatic fashion . Woolly monkeys also brachiate at times . Orangutans use a similar form of locomotion called quadramanous climbing , in which they use their arms and legs to carry their heavy bodies through the trees . Chimpanzees and gorillas knuckle walk , and can move bipedally for short distances . Although numerous species , such as australopithecines and early hominids , have exhibited fully bipedal locomotion , humans are the only extant species with this trait .",
+          "title": "Primate"
+        },
+        {
+          "rank": 3,
+          "doc_id": "799931694_18189-19142-0-953",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Primate As in the case of lemurs , the origin of New World monkeys is unclear . Molecular studies of concatenated nuclear sequences have yielded a widely varying estimated date of divergence between platyrrhines and catarrhines , ranging from 33 to 70 mya , while studies based on mitochondrial sequences produce a narrower range of 35 to 43 mya . The anthropoid primates possibly traversed the Atlantic Ocean from Africa to South America during the Eocene by island hopping , facilitated by Atlantic Ocean ridges and a lowered sea level . Alternatively , a single rafting event may explain this transoceanic colonization . Due to continental drift , the Atlantic Ocean was not nearly as wide at the time as it is today . Research suggests that a small 1 kg ( 2.2 lb ) primate could have survived 13 days on a raft of vegetation . Given estimated current and wind speeds , this would have provided enough time to make the voyage between the continents . Emperor",
+          "title": "Primate"
+        },
+        {
+          "rank": 4,
+          "doc_id": "850372895_3902-4797-0-895",
+          "score": null,
+          "score_type": "contriever",
+          "text": "New World monkey About 40 million years ago , the Simiiformes infraorder split into the parvorders Platyrrhini ( New World monkeys -- in South America ) and Catarrhini ( apes and Old World monkeys -- in Africa ) . The individuals whose descendents would become Platyrrhini are currently conjectured to have migrated to South America either on a raft of vegetation or via a land bridge . There are two possible rafting routes , either across the Atlantic Ocean from Africa or across the Caribbean from North America . However , there is no fossil record to support the hypothesis of a migration from North America . The land bridge hypothesis relies on the existence of Atlantic Ocean ridges and a fall in the sea level in the Oligocene . This would have either produced a single land bridge or a series of mid-Atlantic islands to act as stepping stones for the migration . The latter is now the favorite choice .",
+          "title": "New World monkey"
+        },
+        {
+          "rank": 5,
+          "doc_id": "799931694_49384-50785-0-1400",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Primate Some species are partially terrestrial , such as baboons and patas monkeys , and a few species are fully terrestrial , such as geladas and humans . Non-human primates live in a diverse number of forested habitats in the tropical latitudes of Africa , India , Southeast Asia , and South America , including rainforests , mangrove forests , and montane forests . There are some examples of non-human primates that live outside of the tropics ; the mountain - dwelling Japanese macaque lives in the north of Honshū where there is snow - cover eight months of the year ; the Barbary macaque lives in the Atlas Mountains of Algeria and Morocco . Primate habitats span a range of altitudes : the black snub - nosed monkey has been found living in the Hengduan Mountains at altitudes of 4,700 meters ( 15,400 ft ) , the mountain gorilla can be found at 4,200 meters ( 13,200 ft ) crossing the Virunga Mountains , and the gelada has been found at elevations of up to 5,000 m ( 16,000 ft ) in the Ethiopian Highlands . Although most species are generally shy of water , a few are good swimmers and are comfortable in swamps and watery areas , including the proboscis monkey , De Brazza 's monkey and Allen 's swamp monkey , which has developed small webbing between its fingers . Some primates , such as the rhesus macaque and gray langurs , can exploit human - modified environments and even live in cities .",
+          "title": "Primate"
+        }
+      ],
+      "reference": {
+        "answer": "I cannot find information about what makes monkeys suitable for space travel. ",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "UNANSWERABLE",
+        "question_type": [
+          "Explanation"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "6",
+      "task_id": "3f5fa378239f7475baac89fa40288aaa<::>6",
+      "question": "What was collected from the surface of the moon?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "what makes the different shapes of the moon"
+        },
+        {
+          "role": "assistant",
+          "content": "The different shapes of the Moon, also known as lunar phases, are determined by the amount of sunlight that is illuminating the portion of the Moon visible from Earth. This changes as the Moon orbits the Earth and the relative positions of the Moon, Earth, and Sun shift. When the Sun, Earth, and Moon are aligned, with the Sun and Moon on opposite sides of the Earth, we see a full moon. When the Moon is positioned between the Earth and the Sun, we see a new moon. The crescent and gibbous shapes occur during the intervals between these principal phases, when only a portion of the Moon's surface is illuminated. The specific shape at any given time depends on the Moon's position in its orbit. When a sphere is illuminated on one hemisphere and viewed from a different angle , the portion of the illuminated area that is visible will have a two - dimensional shape defined by the intersection of an ellipse and circle ( where the major axis of the ellipse coincides with a diameter of the circle ) . If the half - ellipse is convex with respect to the half - circle , then the shape will be gibbous ( bulging outwards ) whereas if the half - ellipse is concave with respect to the half - circle , then the shape will be a crescent ."
+        },
+        {
+          "role": "user",
+          "content": "What is the distance between the moon and earth?"
+        },
+        {
+          "role": "assistant",
+          "content": "The average distance from the Moon to the Earth is about 238,856 miles or 384,402 kilometers. But this distance varies throughout the Moon's orbit, ranging from about 221,500 miles or 385,000 kilometers at its closest, to about 252,700 miles or 406,700 kilometers at its farthest resulting in a differential range of 50,200 kilometers or 31,200 miles. Lunar distance (astronomy) Astronomers O'Keefe and Anderson calculated the lunar distance by observing 4 occultations from 9 locations in 1952 . They calculated a mean distance of 7008384407600000000 ♠ 384 407. 6 ± 4.7 km , however the value was refined by in 1962 by Irene Fischer , who incorporated updated geodetic data to produce a value of 7008384403700000000 ♠ 384 403. 7 ± 2 km ."
+        },
+        {
+          "role": "user",
+          "content": "How old is the moon?"
+        },
+        {
+          "role": "assistant",
+          "content": "Using the rate of recession to calculate the Moon's age suggest the Moon is approximately 1.5 billion years old while scientific consensus assumes an age of approximately 4 billion years. "
+        },
+        {
+          "role": "user",
+          "content": "What was the longest mission to the moon?"
+        },
+        {
+          "role": "assistant",
+          "content": "I could not find information about the longest mission to the Moon."
+        },
+        {
+          "role": "user",
+          "content": "what makes monkeys suitable for space travel?"
+        },
+        {
+          "role": "assistant",
+          "content": "I cannot find information about what makes monkeys suitable for space travel. "
+        }
+      ],
+      "retrieval": {
+        "query": "What was collected from the surface of the moon?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "866491906_60035-60507-0-472",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Moon landing The LCROSS data collecting shepherding spacecraft was launched together with the Lunar Reconnaissance Orbiter ( LRO ) on 18 June 2009 on board an Atlas V rocket with a Centaur upper stage . On 9 October 2009 , at 11 : 31 UTC , the Centaur upper stage impacted the lunar surface , releasing the kinetic energy equivalent of detonating approximately 2 tons of TNT ( 8.86 GJ ) . Six minutes later at 11 : 37 UTC , the LCROSS shepherding spacecraft also impacted the surface .",
+            "title": "Moon landing"
+          },
+          {
+            "rank": 2,
+            "doc_id": "866491906_26413-26942-0-529",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Moon landing Other instruments gathering data before the mother ship crashed onto the Moon were a gamma ray spectrometer to measure overall lunar chemical composition and a radar altimeter . The radar altimeter was to give a signal ejecting the landing capsule and its solid - fueled braking rocket overboard from the Block II mother ship . The braking rocket was to slow and the landing sphere to a dead stop at 330 metres ( 1,080 ft ) above the surface and separate , allowing the landing sphere to free fall once more and hit the surface .",
+            "title": "Moon landing"
+          },
+          {
+            "rank": 3,
+            "doc_id": "866491906_37231-37843-0-612",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Moon landing An unexpected major discovery from initial lunar orbiters were vast volumes of dense materials beneath the surface of the Moon 's maria . Such mass concentrations ( `` mascons '' ) can send a manned mission dangerously off course in the final minutes of a Moon landing when aiming for a relatively small landing zone that is smooth and safe . Mascons were also found over a longer period of time to greatly disturb the orbits of low - altitude satellites around the Moon , making their orbits unstable and forcing an inevitable crash on the lunar surface in the relatively short period of months to a few years .",
+            "title": "Moon landing"
+          },
+          {
+            "rank": 4,
+            "doc_id": "866491906_19565-20530-0-965",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Moon landing Three different designs of Pioneer lunar probes were flown on three different modified ICBMs . Those flown on the Thor booster modified with an Able upper stage carried an infrared image scanning television system with a resolution of 1 milliradian to study the Moon 's surface , an ionization chamber to measure radiation in space , a diaphragm / microphone assembly to detect micrometeorites , a magnetometer , and temperature - variable resistors to monitor spacecraft internal thermal conditions . The first , a mission managed by the United States Air Force , exploded during launch ; all subsequent Pioneer lunar flights had NASA as the lead management organization . The next two returned to Earth and burned up upon reentry into the atmosphere after achieved maximum altitudes of around 110,000 kilometres ( 68,000 mi ) and 1,450 kilometres ( 900 mi ) , far short of the roughly 400,000 kilometres ( 250,000 mi ) required to reach the vicinity of the Moon .",
+            "title": "Moon landing"
+          },
+          {
+            "rank": 5,
+            "doc_id": "866491906_30190-32247-1011-2053",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Moon landing returned 0.10 kg of Moon soil back to Earth Mare Fecunditatis 000.68 S 056.30 E Luna - 17 5,700 Proton 10 November 1970 Lunar rover Success -- Lunokhod - 1 rover traveled 10.5 km across lunar surface Mare Imbrium 038.28 N 325.00 E Luna - 18 5,750 Proton 2 September 1971 Sample return Failure -- lunar crash impact Mare Fecunditatis 003.57 N 056.50 E Luna - 20 5,727 Proton 14 February 1972 Sample return Success -- returned 0.05 kg of Moon soil back to Earth Mare Fecunditatis 003.57 N 056.50 E Luna - 21 5,950 Proton 8 January 1973 Lunar rover Success -- Lunokhod - 2 rover traveled 37.0 km across lunar surface LeMonnier Crater 025.85 N 030.45 E Luna - 23 5,800 Proton 28 October 1974 Sample return Failure -- Moon landing achieved , but malfunction prevented sample return Mare Crisium 012.00 N 062.00 E Proton 16 October 1975 Sample return Failure -- booster malfunction , failed to reach Earth orbit Luna - 24 5,800 Proton 9 August 1976 Sample return Success -- returned 0.17 kg of Moon soil back to Earth Mare Crisium 012.25 N 062.20 E",
+            "title": "Moon landing"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "866491906_60035-60507-0-472",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Moon landing The LCROSS data collecting shepherding spacecraft was launched together with the Lunar Reconnaissance Orbiter ( LRO ) on 18 June 2009 on board an Atlas V rocket with a Centaur upper stage . On 9 October 2009 , at 11 : 31 UTC , the Centaur upper stage impacted the lunar surface , releasing the kinetic energy equivalent of detonating approximately 2 tons of TNT ( 8.86 GJ ) . Six minutes later at 11 : 37 UTC , the LCROSS shepherding spacecraft also impacted the surface .",
+            "title": "Moon landing"
+          },
+          {
+            "rank": 2,
+            "doc_id": "866491906_26413-26942-0-529",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Moon landing Other instruments gathering data before the mother ship crashed onto the Moon were a gamma ray spectrometer to measure overall lunar chemical composition and a radar altimeter . The radar altimeter was to give a signal ejecting the landing capsule and its solid - fueled braking rocket overboard from the Block II mother ship . The braking rocket was to slow and the landing sphere to a dead stop at 330 metres ( 1,080 ft ) above the surface and separate , allowing the landing sphere to free fall once more and hit the surface .",
+            "title": "Moon landing"
+          },
+          {
+            "rank": 3,
+            "doc_id": "866491906_37231-37843-0-612",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Moon landing An unexpected major discovery from initial lunar orbiters were vast volumes of dense materials beneath the surface of the Moon 's maria . Such mass concentrations ( `` mascons '' ) can send a manned mission dangerously off course in the final minutes of a Moon landing when aiming for a relatively small landing zone that is smooth and safe . Mascons were also found over a longer period of time to greatly disturb the orbits of low - altitude satellites around the Moon , making their orbits unstable and forcing an inevitable crash on the lunar surface in the relatively short period of months to a few years .",
+            "title": "Moon landing"
+          },
+          {
+            "rank": 4,
+            "doc_id": "866491906_19565-20530-0-965",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Moon landing Three different designs of Pioneer lunar probes were flown on three different modified ICBMs . Those flown on the Thor booster modified with an Able upper stage carried an infrared image scanning television system with a resolution of 1 milliradian to study the Moon 's surface , an ionization chamber to measure radiation in space , a diaphragm / microphone assembly to detect micrometeorites , a magnetometer , and temperature - variable resistors to monitor spacecraft internal thermal conditions . The first , a mission managed by the United States Air Force , exploded during launch ; all subsequent Pioneer lunar flights had NASA as the lead management organization . The next two returned to Earth and burned up upon reentry into the atmosphere after achieved maximum altitudes of around 110,000 kilometres ( 68,000 mi ) and 1,450 kilometres ( 900 mi ) , far short of the roughly 400,000 kilometres ( 250,000 mi ) required to reach the vicinity of the Moon .",
+            "title": "Moon landing"
+          },
+          {
+            "rank": 5,
+            "doc_id": "866491906_30190-32247-1011-2053",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Moon landing returned 0.10 kg of Moon soil back to Earth Mare Fecunditatis 000.68 S 056.30 E Luna - 17 5,700 Proton 10 November 1970 Lunar rover Success -- Lunokhod - 1 rover traveled 10.5 km across lunar surface Mare Imbrium 038.28 N 325.00 E Luna - 18 5,750 Proton 2 September 1971 Sample return Failure -- lunar crash impact Mare Fecunditatis 003.57 N 056.50 E Luna - 20 5,727 Proton 14 February 1972 Sample return Success -- returned 0.05 kg of Moon soil back to Earth Mare Fecunditatis 003.57 N 056.50 E Luna - 21 5,950 Proton 8 January 1973 Lunar rover Success -- Lunokhod - 2 rover traveled 37.0 km across lunar surface LeMonnier Crater 025.85 N 030.45 E Luna - 23 5,800 Proton 28 October 1974 Sample return Failure -- Moon landing achieved , but malfunction prevented sample return Mare Crisium 012.00 N 062.00 E Proton 16 October 1975 Sample return Failure -- booster malfunction , failed to reach Earth orbit Luna - 24 5,800 Proton 9 August 1976 Sample return Success -- returned 0.17 kg of Moon soil back to Earth Mare Crisium 012.25 N 062.20 E",
+            "title": "Moon landing"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "The LCROSS data collecting shepherding spacecraft was launched together with the Lunar Reconnaissance Orbiter (LRO) on 18 June 2009 on board an Atlas V rocket with a Centaur upper stage.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "866491906_60035-60507-0-472",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Moon landing The LCROSS data collecting shepherding spacecraft was launched together with the Lunar Reconnaissance Orbiter ( LRO ) on 18 June 2009 on board an Atlas V rocket with a Centaur upper stage . On 9 October 2009 , at 11 : 31 UTC , the Centaur upper stage impacted the lunar surface , releasing the kinetic energy equivalent of detonating approximately 2 tons of TNT ( 8.86 GJ ) . Six minutes later at 11 : 37 UTC , the LCROSS shepherding spacecraft also impacted the surface .",
+          "title": "Moon landing"
+        },
+        {
+          "rank": 2,
+          "doc_id": "866491906_26413-26942-0-529",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Moon landing Other instruments gathering data before the mother ship crashed onto the Moon were a gamma ray spectrometer to measure overall lunar chemical composition and a radar altimeter . The radar altimeter was to give a signal ejecting the landing capsule and its solid - fueled braking rocket overboard from the Block II mother ship . The braking rocket was to slow and the landing sphere to a dead stop at 330 metres ( 1,080 ft ) above the surface and separate , allowing the landing sphere to free fall once more and hit the surface .",
+          "title": "Moon landing"
+        },
+        {
+          "rank": 3,
+          "doc_id": "866491906_37231-37843-0-612",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Moon landing An unexpected major discovery from initial lunar orbiters were vast volumes of dense materials beneath the surface of the Moon 's maria . Such mass concentrations ( `` mascons '' ) can send a manned mission dangerously off course in the final minutes of a Moon landing when aiming for a relatively small landing zone that is smooth and safe . Mascons were also found over a longer period of time to greatly disturb the orbits of low - altitude satellites around the Moon , making their orbits unstable and forcing an inevitable crash on the lunar surface in the relatively short period of months to a few years .",
+          "title": "Moon landing"
+        },
+        {
+          "rank": 4,
+          "doc_id": "866491906_19565-20530-0-965",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Moon landing Three different designs of Pioneer lunar probes were flown on three different modified ICBMs . Those flown on the Thor booster modified with an Able upper stage carried an infrared image scanning television system with a resolution of 1 milliradian to study the Moon 's surface , an ionization chamber to measure radiation in space , a diaphragm / microphone assembly to detect micrometeorites , a magnetometer , and temperature - variable resistors to monitor spacecraft internal thermal conditions . The first , a mission managed by the United States Air Force , exploded during launch ; all subsequent Pioneer lunar flights had NASA as the lead management organization . The next two returned to Earth and burned up upon reentry into the atmosphere after achieved maximum altitudes of around 110,000 kilometres ( 68,000 mi ) and 1,450 kilometres ( 900 mi ) , far short of the roughly 400,000 kilometres ( 250,000 mi ) required to reach the vicinity of the Moon .",
+          "title": "Moon landing"
+        },
+        {
+          "rank": 5,
+          "doc_id": "866491906_30190-32247-1011-2053",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Moon landing returned 0.10 kg of Moon soil back to Earth Mare Fecunditatis 000.68 S 056.30 E Luna - 17 5,700 Proton 10 November 1970 Lunar rover Success -- Lunokhod - 1 rover traveled 10.5 km across lunar surface Mare Imbrium 038.28 N 325.00 E Luna - 18 5,750 Proton 2 September 1971 Sample return Failure -- lunar crash impact Mare Fecunditatis 003.57 N 056.50 E Luna - 20 5,727 Proton 14 February 1972 Sample return Success -- returned 0.05 kg of Moon soil back to Earth Mare Fecunditatis 003.57 N 056.50 E Luna - 21 5,950 Proton 8 January 1973 Lunar rover Success -- Lunokhod - 2 rover traveled 37.0 km across lunar surface LeMonnier Crater 025.85 N 030.45 E Luna - 23 5,800 Proton 28 October 1974 Sample return Failure -- Moon landing achieved , but malfunction prevented sample return Mare Crisium 012.00 N 062.00 E Proton 16 October 1975 Sample return Failure -- booster malfunction , failed to reach Earth orbit Luna - 24 5,800 Proton 9 August 1976 Sample return Success -- returned 0.17 kg of Moon soil back to Earth Mare Crisium 012.25 N 062.20 E",
+          "title": "Moon landing"
+        }
+      ],
+      "reference": {
+        "answer": "Lunar rock and soil samples have been collected. A large basalt rock collected by astronaut David Scott on the Apollo 15 mission to the moon in 1971 is informally known as Great Scott. Luna 16 was the first robotic probe to land on the Moon and safely return a sample of lunar soil back to Earth on 24 September 1970.",
+        "evidence_ids": [
+          "836166840_5492-5628-0-136",
+          "866491906_29452-29832-0-380",
+          "866491906_3648-4010-0-362"
+        ],
+        "evidence": [
+          {
+            "doc_id": "836166840_5492-5628-0-136",
+            "text": "Great Scott\nGreat Scott\nA large basalt rock collected by astronaut David Scott on the Apollo 15 mission to the moon in 1971 is informally known as Great Scott ."
+          },
+          {
+            "doc_id": "866491906_29452-29832-0-380",
+            "text": "Moon landing\nMoon landing\nLuna 16 was the first robotic probe to land on the Moon and safely return a sample of lunar soil back to Earth . It represented the first lunar sample return mission by the Soviet Union , and was the third lunar sample return mission overall , following the Apollo 11 and Apollo 12 missions . This mission was later successfully repeated by Luna 20 ( 1972 ) and Luna 24 ( 1976 ) ."
+          },
+          {
+            "doc_id": "866491906_3648-4010-0-362",
+            "text": "Moon landing\nMoon landing\nThe Soviet Union achieved the first unmanned lunar soil sample return with the Luna 16 probe on 24 September 1970 . This was followed by Luna 20 and Luna 24 in 1972 and 1976 , respectively . Following the failure at launch in 1969 of the first Lunokhod , Luna E-8 No. 201 , the Luna 17 and Luna 21 were successful unmanned lunar rover missions in 1970 and 1973 ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    }
+  ]
+}

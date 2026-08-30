@@ -1,0 +1,1658 @@
+{
+  "conversation_id": "6528deeee4180c1b2b770a2929482e82",
+  "dataset": "clapnq",
+  "collection": "mt-rag-clapnq-elser-512-100-20240503",
+  "rag": "selfrag",
+  "num_turns": 8,
+  "turns": [
+    {
+      "turn_id": "1",
+      "task_id": "6528deeee4180c1b2b770a2929482e82<::>1",
+      "question": "which industry provides the largest employment in india",
+      "rag_history_before_turn": [],
+      "retrieval": {
+        "query": "which industry provides the largest employment in india",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "846587463_62872-63008-0-136",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India The construction industry contributed $288 billion ( 13 % of GDP ) and employed 60.42 million people ( 14 % of the workforce ) in 2016 .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 2,
+            "doc_id": "846587463_40997-41572-0-575",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India The services sector has the largest share of India 's GDP , accounting for 57 % in 2012 , up from 15 % in 1950 . It is the seventh - largest services sector by nominal GDP , and third largest when purchasing power is taken into account . The services sector provides employment to 27 % of the work force . Information technology and business process outsourcing are among the fastest - growing sectors , having a cumulative growth rate of revenue 33.6 % between fiscal years 1997 -- 98 and 2002 -- 03 , and contributing to 25 % of the country 's total exports in 2007 -- 08 .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 3,
+            "doc_id": "846587463_35032-35177-0-145",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India The chemicals manufacturing industry contributed $141 billion ( 6 % of GDP ) and employed 17.33 million people ( 4 % of the workforce ) in 2016 .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 4,
+            "doc_id": "857081732_43737-45121-0-1384",
+            "score": null,
+            "score_type": "contriever",
+            "text": "India The 513.7 - million - worker Indian labour force is the world 's second - largest , as of 2016 . The service sector makes up 55.6 % of GDP , the industrial sector 26.3 % and the agricultural sector 18.1 % . India 's foreign exchange remittances of US $70 billion in 2014 , the largest in the world , contributed to its economy by 25 million Indians working in foreign countries . Major agricultural products include rice , wheat , oilseed , cotton , jute , tea , sugarcane , and potatoes . Major industries include textiles , telecommunications , chemicals , pharmaceuticals , biotechnology , food processing , steel , transport equipment , cement , mining , petroleum , machinery , and software . In 2006 , the share of external trade in India 's GDP stood at 24 % , up from 6 % in 1985 . In 2008 , India 's share of world trade was 1.68 % ; In 2011 , India was the world 's tenth - largest importer and the nineteenth - largest exporter . Major exports include petroleum products , textile goods , jewellery , software , engineering goods , chemicals , and leather manufactures . Major imports include crude oil , machinery , gems , fertiliser , and chemicals . Between 2001 and 2011 , the contribution of petrochemical and engineering goods to total exports grew from 14 % to 42 % . India was the second largest textile exporter after China in the world in the calendar year 2013 .",
+            "title": "India"
+          },
+          {
+            "rank": 5,
+            "doc_id": "846587463_36254-36794-0-540",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India Engineering is the largest sub-sector of India 's industrial sector , by GDP , and the third - largest by exports . It includes transport equipment , machine tools , capital goods , transformers , switchgears , furnaces , and cast and forged parts for turbines , automobiles and railways . The industry employs about four million workers . On a value - added basis , India 's engineering subsector exported $67 billion worth of engineering goods in the 2013 -- 14 fiscal year , and served part of the domestic demand for engineering goods .",
+            "title": "Economy of India"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "846587463_62872-63008-0-136",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India The construction industry contributed $288 billion ( 13 % of GDP ) and employed 60.42 million people ( 14 % of the workforce ) in 2016 .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 2,
+            "doc_id": "846587463_40997-41572-0-575",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India The services sector has the largest share of India 's GDP , accounting for 57 % in 2012 , up from 15 % in 1950 . It is the seventh - largest services sector by nominal GDP , and third largest when purchasing power is taken into account . The services sector provides employment to 27 % of the work force . Information technology and business process outsourcing are among the fastest - growing sectors , having a cumulative growth rate of revenue 33.6 % between fiscal years 1997 -- 98 and 2002 -- 03 , and contributing to 25 % of the country 's total exports in 2007 -- 08 .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 3,
+            "doc_id": "846587463_35032-35177-0-145",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India The chemicals manufacturing industry contributed $141 billion ( 6 % of GDP ) and employed 17.33 million people ( 4 % of the workforce ) in 2016 .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 4,
+            "doc_id": "857081732_43737-45121-0-1384",
+            "score": null,
+            "score_type": "contriever",
+            "text": "India The 513.7 - million - worker Indian labour force is the world 's second - largest , as of 2016 . The service sector makes up 55.6 % of GDP , the industrial sector 26.3 % and the agricultural sector 18.1 % . India 's foreign exchange remittances of US $70 billion in 2014 , the largest in the world , contributed to its economy by 25 million Indians working in foreign countries . Major agricultural products include rice , wheat , oilseed , cotton , jute , tea , sugarcane , and potatoes . Major industries include textiles , telecommunications , chemicals , pharmaceuticals , biotechnology , food processing , steel , transport equipment , cement , mining , petroleum , machinery , and software . In 2006 , the share of external trade in India 's GDP stood at 24 % , up from 6 % in 1985 . In 2008 , India 's share of world trade was 1.68 % ; In 2011 , India was the world 's tenth - largest importer and the nineteenth - largest exporter . Major exports include petroleum products , textile goods , jewellery , software , engineering goods , chemicals , and leather manufactures . Major imports include crude oil , machinery , gems , fertiliser , and chemicals . Between 2001 and 2011 , the contribution of petrochemical and engineering goods to total exports grew from 14 % to 42 % . India was the second largest textile exporter after China in the world in the calendar year 2013 .",
+            "title": "India"
+          },
+          {
+            "rank": 5,
+            "doc_id": "846587463_36254-36794-0-540",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India Engineering is the largest sub-sector of India 's industrial sector , by GDP , and the third - largest by exports . It includes transport equipment , machine tools , capital goods , transformers , switchgears , furnaces , and cast and forged parts for turbines , automobiles and railways . The industry employs about four million workers . On a value - added basis , India 's engineering subsector exported $67 billion worth of engineering goods in the 2013 -- 14 fiscal year , and served part of the domestic demand for engineering goods .",
+            "title": "Economy of India"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "the services sector",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "846587463_62872-63008-0-136",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Economy of India The construction industry contributed $288 billion ( 13 % of GDP ) and employed 60.42 million people ( 14 % of the workforce ) in 2016 .",
+          "title": "Economy of India"
+        },
+        {
+          "rank": 2,
+          "doc_id": "846587463_40997-41572-0-575",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Economy of India The services sector has the largest share of India 's GDP , accounting for 57 % in 2012 , up from 15 % in 1950 . It is the seventh - largest services sector by nominal GDP , and third largest when purchasing power is taken into account . The services sector provides employment to 27 % of the work force . Information technology and business process outsourcing are among the fastest - growing sectors , having a cumulative growth rate of revenue 33.6 % between fiscal years 1997 -- 98 and 2002 -- 03 , and contributing to 25 % of the country 's total exports in 2007 -- 08 .",
+          "title": "Economy of India"
+        },
+        {
+          "rank": 3,
+          "doc_id": "846587463_35032-35177-0-145",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Economy of India The chemicals manufacturing industry contributed $141 billion ( 6 % of GDP ) and employed 17.33 million people ( 4 % of the workforce ) in 2016 .",
+          "title": "Economy of India"
+        },
+        {
+          "rank": 4,
+          "doc_id": "857081732_43737-45121-0-1384",
+          "score": null,
+          "score_type": "contriever",
+          "text": "India The 513.7 - million - worker Indian labour force is the world 's second - largest , as of 2016 . The service sector makes up 55.6 % of GDP , the industrial sector 26.3 % and the agricultural sector 18.1 % . India 's foreign exchange remittances of US $70 billion in 2014 , the largest in the world , contributed to its economy by 25 million Indians working in foreign countries . Major agricultural products include rice , wheat , oilseed , cotton , jute , tea , sugarcane , and potatoes . Major industries include textiles , telecommunications , chemicals , pharmaceuticals , biotechnology , food processing , steel , transport equipment , cement , mining , petroleum , machinery , and software . In 2006 , the share of external trade in India 's GDP stood at 24 % , up from 6 % in 1985 . In 2008 , India 's share of world trade was 1.68 % ; In 2011 , India was the world 's tenth - largest importer and the nineteenth - largest exporter . Major exports include petroleum products , textile goods , jewellery , software , engineering goods , chemicals , and leather manufactures . Major imports include crude oil , machinery , gems , fertiliser , and chemicals . Between 2001 and 2011 , the contribution of petrochemical and engineering goods to total exports grew from 14 % to 42 % . India was the second largest textile exporter after China in the world in the calendar year 2013 .",
+          "title": "India"
+        },
+        {
+          "rank": 5,
+          "doc_id": "846587463_36254-36794-0-540",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Economy of India Engineering is the largest sub-sector of India 's industrial sector , by GDP , and the third - largest by exports . It includes transport equipment , machine tools , capital goods , transformers , switchgears , furnaces , and cast and forged parts for turbines , automobiles and railways . The industry employs about four million workers . On a value - added basis , India 's engineering subsector exported $67 billion worth of engineering goods in the 2013 -- 14 fiscal year , and served part of the domestic demand for engineering goods .",
+          "title": "Economy of India"
+        }
+      ],
+      "reference": {
+        "answer": "The retail industry, excluding wholesale, is the second largest employer in India, after agriculture. Economy of India Agricultural and allied sectors accounted for about 52.1 % of the total workforce in 2009 -- 10. About 51.2 % of the workforce in India is self - employed.",
+        "evidence_ids": [
+          "846587463_56025-56508-0-483",
+          "846587463_80824-81610-0-786"
+        ],
+        "evidence": [
+          {
+            "doc_id": "846587463_56025-56508-0-483",
+            "text": "Economy of India\nEconomy of India\nThe retail industry , excluding wholesale , contributed $482 billion ( 22 % of GDP ) and employed 249.94 million people ( 57 % of the workforce ) in 2016 . The industry is the second largest employer in India , after agriculture . The Indian retail market is estimated to be US $600 billion and one of the top - five retail markets in the world by economic value . India has one of the fastest - growing retail markets in the world , and is projected to reach $1.3 trillion by 2020 ."
+          },
+          {
+            "doc_id": "846587463_80824-81610-0-786",
+            "text": "Economy of India\nEconomy of India\nAgricultural and allied sectors accounted for about 52.1 % of the total workforce in 2009 -- 10 . While agriculture employment has fallen over time in percentage of labour employed , services which includes construction and infrastructure have seen a steady growth accounting for 20.3 % of employment in 2012 -- 13 . Of the total workforce , 7 % is in the organised sector , two - thirds of which are in the government - controlled public sector . About 51.2 % of the workforce in India is self - employed . According to a 2005 -- 06 survey , there is a gender gap in employment and salaries . In rural areas , both men and women are primarily self - employed , mostly in agriculture . In urban areas , salaried work was the largest source of employment for both men and women in 2006 ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "N/A"
+        ]
+      }
+    },
+    {
+      "turn_id": "2",
+      "task_id": "6528deeee4180c1b2b770a2929482e82<::>2",
+      "question": "Agriculture seems very important to India",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "which industry provides the largest employment in india"
+        },
+        {
+          "role": "assistant",
+          "content": "The retail industry, excluding wholesale, is the second largest employer in India, after agriculture. Economy of India Agricultural and allied sectors accounted for about 52.1 % of the total workforce in 2009 -- 10. About 51.2 % of the workforce in India is self - employed."
+        }
+      ],
+      "retrieval": {
+        "query": "Agriculture seems very important to India",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "846587463_85588-87482-0-1890",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India Agriculture is an important part of the Indian economy . At around 1,530,000 square kilometres ( 590,000 sq mi ) , India has the second - largest amount of arable land , after the US , with 52 % of total land under cultivation . Although the total land area of the country is only slightly more than one third of China or the US , India 's arable land is marginally smaller than that of the US , and marginally larger than that of China . However , agricultural output lags far behind its potential . The low productivity in India is a result of several factors . According to the World Bank , India 's large agricultural subsidies are distorting what farmers grow and hampering productivity - enhancing investment . Over-regulation of agriculture has increased costs , price risks and uncertainty , and governmental intervention in labour , land , and credit are hurting the market . Infrastructure such as rural roads , electricity , ports , food storage , retail markets and services remain inadequate . The average size of land holdings is very small , with 70 % of holdings being less than one hectare ( 2.5 acres ) in size . Irrigation facilities are inadequate , as revealed by the fact that only 46 % of the total cultivable land was irrigated as of 2016 , resulting in farmers still being dependent on rainfall , specifically the monsoon season , which is often inconsistent and unevenly distributed across the country . In an effort to bring an additional two crore hectares ( 20 million hectares ; 50 million acres ) of land under irrigation , various schemes have been attempted , including the Accelerated Irrigation Benefit Programme ( AIBP ) which was provided ₹ 80,000 crore ( ₹ 800 billion ) in the union budget . Farming incomes are also hampered by lack of food storage and distribution infrastructure ; a third of India 's agricultural production is lost from spoilage .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 2,
+            "doc_id": "846587463_29620-30826-0-1206",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India India ranks second worldwide in farm output . Agriculture and allied sectors like forestry , logging and fishing accounted for 17 % of the GDP and employed 49 % of its total workforce in 2014 . Agriculture accounted for 23 % of GDP , and employed 59 % of the country 's total workforce in 2016 . As the Indian economy has diversified and grown , agriculture 's contribution to GDP has steadily declined from 1951 to 2011 , yet it is still the country 's largest employment source and a significant piece of its overall socio - economic development . Crop - yield - per - unit - area of all crops has grown since 1950 , due to the special emphasis placed on agriculture in the five - year plans and steady improvements in irrigation , technology , application of modern agricultural practices and provision of agricultural credit and subsidies since the Green Revolution in India . However , international comparisons reveal the average yield in India is generally 30 % to 50 % of the highest average yield in the world . The states of Uttar Pradesh , Punjab , Haryana , Madhya Pradesh , Andhra Pradesh , Telangana , Bihar , West Bengal , Gujarat and Maharashtra are key contributors to Indian agriculture .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 3,
+            "doc_id": "846587463_23619-24163-0-544",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India Since 1965 , the use of high - yielding varieties of seeds , increased fertilisers and improved irrigation facilities collectively contributed to the Green Revolution in India , which improved the condition of agriculture by increasing crop productivity , improving crop patterns and strengthening forward and backward linkages between agriculture and industry . However , it has also been criticised as an unsustainable effort , resulting in the growth of capitalistic farming , ignoring institutional reforms and widening income disparities .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 4,
+            "doc_id": "846587463_31663-33084-0-1417",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India India is the largest producer of milk , jute and pulses , and has the world 's second - largest cattle population with 170 million animals in 2011 . It is the second - largest producer of rice , wheat , sugarcane , cotton and groundnuts , as well as the second - largest fruit and vegetable producer , accounting for 10.9 % and 8.6 % of the world fruit and vegetable production , respectively . India is also the second - largest producer and the largest consumer of silk , producing 77,000 tons in 2005 . India is the largest exporter of cashew kernels and cashew nut shell liquid ( CNSL ) . Foreign exchange earned by the country through the export of cashew kernels during 2011 -- 12 reached ₹ 4,390 crore ( ₹ 43.9 billion ) based on statistics from the Cashew Export Promotion Council of India ( CEPCI ) . 131,000 tonnes of kernels were exported during 2011 -- 12 . There are about 600 cashew processing units in Kollam , Kerala . India 's foodgrain production remained stagnant at approximately 252 million tonnes ( MT ) during both the 2015 -- 16 and 2014 -- 15 crop years ( July -- June ) . India exports several agriculture products , such as Basmati rice , wheat , cereals , spices , fresh fruits , dry fruits , buffalo beef meat , cotton , tea , coffee and other cash crops particularly to the Middle East , Southeast and East Asian countries . About 10 percent of its export earnings come from this trade .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 5,
+            "doc_id": "857081732_19035-19758-0-723",
+            "score": null,
+            "score_type": "contriever",
+            "text": "India The rush of technology and the commercialisation of agriculture in the second half of the 19th century was marked by economic setbacks -- many small farmers became dependent on the whims of far - away markets . There was an increase in the number of large - scale famines , and , despite the risks of infrastructure development borne by Indian taxpayers , little industrial employment was generated for Indians . There were also salutary effects : commercial cropping , especially in the newly canalled Punjab , led to increased food production for internal consumption . The railway network provided critical famine relief , notably reduced the cost of moving goods , and helped the nascent Indian - owned industry . About",
+            "title": "India"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "846587463_85588-87482-0-1890",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India Agriculture is an important part of the Indian economy . At around 1,530,000 square kilometres ( 590,000 sq mi ) , India has the second - largest amount of arable land , after the US , with 52 % of total land under cultivation . Although the total land area of the country is only slightly more than one third of China or the US , India 's arable land is marginally smaller than that of the US , and marginally larger than that of China . However , agricultural output lags far behind its potential . The low productivity in India is a result of several factors . According to the World Bank , India 's large agricultural subsidies are distorting what farmers grow and hampering productivity - enhancing investment . Over-regulation of agriculture has increased costs , price risks and uncertainty , and governmental intervention in labour , land , and credit are hurting the market . Infrastructure such as rural roads , electricity , ports , food storage , retail markets and services remain inadequate . The average size of land holdings is very small , with 70 % of holdings being less than one hectare ( 2.5 acres ) in size . Irrigation facilities are inadequate , as revealed by the fact that only 46 % of the total cultivable land was irrigated as of 2016 , resulting in farmers still being dependent on rainfall , specifically the monsoon season , which is often inconsistent and unevenly distributed across the country . In an effort to bring an additional two crore hectares ( 20 million hectares ; 50 million acres ) of land under irrigation , various schemes have been attempted , including the Accelerated Irrigation Benefit Programme ( AIBP ) which was provided ₹ 80,000 crore ( ₹ 800 billion ) in the union budget . Farming incomes are also hampered by lack of food storage and distribution infrastructure ; a third of India 's agricultural production is lost from spoilage .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 2,
+            "doc_id": "846587463_29620-30826-0-1206",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India India ranks second worldwide in farm output . Agriculture and allied sectors like forestry , logging and fishing accounted for 17 % of the GDP and employed 49 % of its total workforce in 2014 . Agriculture accounted for 23 % of GDP , and employed 59 % of the country 's total workforce in 2016 . As the Indian economy has diversified and grown , agriculture 's contribution to GDP has steadily declined from 1951 to 2011 , yet it is still the country 's largest employment source and a significant piece of its overall socio - economic development . Crop - yield - per - unit - area of all crops has grown since 1950 , due to the special emphasis placed on agriculture in the five - year plans and steady improvements in irrigation , technology , application of modern agricultural practices and provision of agricultural credit and subsidies since the Green Revolution in India . However , international comparisons reveal the average yield in India is generally 30 % to 50 % of the highest average yield in the world . The states of Uttar Pradesh , Punjab , Haryana , Madhya Pradesh , Andhra Pradesh , Telangana , Bihar , West Bengal , Gujarat and Maharashtra are key contributors to Indian agriculture .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 3,
+            "doc_id": "846587463_23619-24163-0-544",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India Since 1965 , the use of high - yielding varieties of seeds , increased fertilisers and improved irrigation facilities collectively contributed to the Green Revolution in India , which improved the condition of agriculture by increasing crop productivity , improving crop patterns and strengthening forward and backward linkages between agriculture and industry . However , it has also been criticised as an unsustainable effort , resulting in the growth of capitalistic farming , ignoring institutional reforms and widening income disparities .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 4,
+            "doc_id": "846587463_31663-33084-0-1417",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India India is the largest producer of milk , jute and pulses , and has the world 's second - largest cattle population with 170 million animals in 2011 . It is the second - largest producer of rice , wheat , sugarcane , cotton and groundnuts , as well as the second - largest fruit and vegetable producer , accounting for 10.9 % and 8.6 % of the world fruit and vegetable production , respectively . India is also the second - largest producer and the largest consumer of silk , producing 77,000 tons in 2005 . India is the largest exporter of cashew kernels and cashew nut shell liquid ( CNSL ) . Foreign exchange earned by the country through the export of cashew kernels during 2011 -- 12 reached ₹ 4,390 crore ( ₹ 43.9 billion ) based on statistics from the Cashew Export Promotion Council of India ( CEPCI ) . 131,000 tonnes of kernels were exported during 2011 -- 12 . There are about 600 cashew processing units in Kollam , Kerala . India 's foodgrain production remained stagnant at approximately 252 million tonnes ( MT ) during both the 2015 -- 16 and 2014 -- 15 crop years ( July -- June ) . India exports several agriculture products , such as Basmati rice , wheat , cereals , spices , fresh fruits , dry fruits , buffalo beef meat , cotton , tea , coffee and other cash crops particularly to the Middle East , Southeast and East Asian countries . About 10 percent of its export earnings come from this trade .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 5,
+            "doc_id": "857081732_19035-19758-0-723",
+            "score": null,
+            "score_type": "contriever",
+            "text": "India The rush of technology and the commercialisation of agriculture in the second half of the 19th century was marked by economic setbacks -- many small farmers became dependent on the whims of far - away markets . There was an increase in the number of large - scale famines , and , despite the risks of infrastructure development borne by Indian taxpayers , little industrial employment was generated for Indians . There were also salutary effects : commercial cropping , especially in the newly canalled Punjab , led to increased food production for internal consumption . The railway network provided critical famine relief , notably reduced the cost of moving goods , and helped the nascent Indian - owned industry . About",
+            "title": "India"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "What is the importance of agriculture in India?\n\nAgriculture is the backbone of the Indian economy.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "846587463_85588-87482-0-1890",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Economy of India Agriculture is an important part of the Indian economy . At around 1,530,000 square kilometres ( 590,000 sq mi ) , India has the second - largest amount of arable land , after the US , with 52 % of total land under cultivation . Although the total land area of the country is only slightly more than one third of China or the US , India 's arable land is marginally smaller than that of the US , and marginally larger than that of China . However , agricultural output lags far behind its potential . The low productivity in India is a result of several factors . According to the World Bank , India 's large agricultural subsidies are distorting what farmers grow and hampering productivity - enhancing investment . Over-regulation of agriculture has increased costs , price risks and uncertainty , and governmental intervention in labour , land , and credit are hurting the market . Infrastructure such as rural roads , electricity , ports , food storage , retail markets and services remain inadequate . The average size of land holdings is very small , with 70 % of holdings being less than one hectare ( 2.5 acres ) in size . Irrigation facilities are inadequate , as revealed by the fact that only 46 % of the total cultivable land was irrigated as of 2016 , resulting in farmers still being dependent on rainfall , specifically the monsoon season , which is often inconsistent and unevenly distributed across the country . In an effort to bring an additional two crore hectares ( 20 million hectares ; 50 million acres ) of land under irrigation , various schemes have been attempted , including the Accelerated Irrigation Benefit Programme ( AIBP ) which was provided ₹ 80,000 crore ( ₹ 800 billion ) in the union budget . Farming incomes are also hampered by lack of food storage and distribution infrastructure ; a third of India 's agricultural production is lost from spoilage .",
+          "title": "Economy of India"
+        },
+        {
+          "rank": 2,
+          "doc_id": "846587463_29620-30826-0-1206",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Economy of India India ranks second worldwide in farm output . Agriculture and allied sectors like forestry , logging and fishing accounted for 17 % of the GDP and employed 49 % of its total workforce in 2014 . Agriculture accounted for 23 % of GDP , and employed 59 % of the country 's total workforce in 2016 . As the Indian economy has diversified and grown , agriculture 's contribution to GDP has steadily declined from 1951 to 2011 , yet it is still the country 's largest employment source and a significant piece of its overall socio - economic development . Crop - yield - per - unit - area of all crops has grown since 1950 , due to the special emphasis placed on agriculture in the five - year plans and steady improvements in irrigation , technology , application of modern agricultural practices and provision of agricultural credit and subsidies since the Green Revolution in India . However , international comparisons reveal the average yield in India is generally 30 % to 50 % of the highest average yield in the world . The states of Uttar Pradesh , Punjab , Haryana , Madhya Pradesh , Andhra Pradesh , Telangana , Bihar , West Bengal , Gujarat and Maharashtra are key contributors to Indian agriculture .",
+          "title": "Economy of India"
+        },
+        {
+          "rank": 3,
+          "doc_id": "846587463_23619-24163-0-544",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Economy of India Since 1965 , the use of high - yielding varieties of seeds , increased fertilisers and improved irrigation facilities collectively contributed to the Green Revolution in India , which improved the condition of agriculture by increasing crop productivity , improving crop patterns and strengthening forward and backward linkages between agriculture and industry . However , it has also been criticised as an unsustainable effort , resulting in the growth of capitalistic farming , ignoring institutional reforms and widening income disparities .",
+          "title": "Economy of India"
+        },
+        {
+          "rank": 4,
+          "doc_id": "846587463_31663-33084-0-1417",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Economy of India India is the largest producer of milk , jute and pulses , and has the world 's second - largest cattle population with 170 million animals in 2011 . It is the second - largest producer of rice , wheat , sugarcane , cotton and groundnuts , as well as the second - largest fruit and vegetable producer , accounting for 10.9 % and 8.6 % of the world fruit and vegetable production , respectively . India is also the second - largest producer and the largest consumer of silk , producing 77,000 tons in 2005 . India is the largest exporter of cashew kernels and cashew nut shell liquid ( CNSL ) . Foreign exchange earned by the country through the export of cashew kernels during 2011 -- 12 reached ₹ 4,390 crore ( ₹ 43.9 billion ) based on statistics from the Cashew Export Promotion Council of India ( CEPCI ) . 131,000 tonnes of kernels were exported during 2011 -- 12 . There are about 600 cashew processing units in Kollam , Kerala . India 's foodgrain production remained stagnant at approximately 252 million tonnes ( MT ) during both the 2015 -- 16 and 2014 -- 15 crop years ( July -- June ) . India exports several agriculture products , such as Basmati rice , wheat , cereals , spices , fresh fruits , dry fruits , buffalo beef meat , cotton , tea , coffee and other cash crops particularly to the Middle East , Southeast and East Asian countries . About 10 percent of its export earnings come from this trade .",
+          "title": "Economy of India"
+        },
+        {
+          "rank": 5,
+          "doc_id": "857081732_19035-19758-0-723",
+          "score": null,
+          "score_type": "contriever",
+          "text": "India The rush of technology and the commercialisation of agriculture in the second half of the 19th century was marked by economic setbacks -- many small farmers became dependent on the whims of far - away markets . There was an increase in the number of large - scale famines , and , despite the risks of infrastructure development borne by Indian taxpayers , little industrial employment was generated for Indians . There were also salutary effects : commercial cropping , especially in the newly canalled Punjab , led to increased food production for internal consumption . The railway network provided critical famine relief , notably reduced the cost of moving goods , and helped the nascent Indian - owned industry . About",
+          "title": "India"
+        }
+      ],
+      "reference": {
+        "answer": "Yes, economy of India Agriculture is an important part of the Indian economy. It accounts for a significant portion of the country's GDP and employs a large portion of the workforce. Labour in India Agriculture, dairy, horticulture and related occupations alone employ 52 percent of labour in India. Agriculture and allied sectors accounted for 17% of the GDP and employed 49% of the total workforce in 2014. Additionally, agriculture alone accounted for 23% of GDP and employed 59% of the country's total workforce in 2016. Despite the declining contribution of agriculture to the GDP over the years, it remains the largest employment source in India and plays a significant role in the country's overall socio-economic development.",
+        "evidence_ids": [
+          "846587463_29620-30826-0-1206",
+          "846587463_85588-87482-0-1890",
+          "834421776_4143-4246-0-103"
+        ],
+        "evidence": [
+          {
+            "doc_id": "846587463_29620-30826-0-1206",
+            "text": "Economy of India\nEconomy of India\nIndia ranks second worldwide in farm output . Agriculture and allied sectors like forestry , logging and fishing accounted for 17 % of the GDP and employed 49 % of its total workforce in 2014 . Agriculture accounted for 23 % of GDP , and employed 59 % of the country 's total workforce in 2016 . As the Indian economy has diversified and grown , agriculture 's contribution to GDP has steadily declined from 1951 to 2011 , yet it is still the country 's largest employment source and a significant piece of its overall socio - economic development . Crop - yield - per - unit - area of all crops has grown since 1950 , due to the special emphasis placed on agriculture in the five - year plans and steady improvements in irrigation , technology , application of modern agricultural practices and provision of agricultural credit and subsidies since the Green Revolution in India . However , international comparisons reveal the average yield in India is generally 30 % to 50 % of the highest average yield in the world . The states of Uttar Pradesh , Punjab , Haryana , Madhya Pradesh , Andhra Pradesh , Telangana , Bihar , West Bengal , Gujarat and Maharashtra are key contributors to Indian agriculture ."
+          },
+          {
+            "doc_id": "846587463_85588-87482-0-1890",
+            "text": "Economy of India\nEconomy of India\nAgriculture is an important part of the Indian economy . At around 1,530,000 square kilometres ( 590,000 sq mi ) , India has the second - largest amount of arable land , after the US , with 52 % of total land under cultivation . Although the total land area of the country is only slightly more than one third of China or the US , India 's arable land is marginally smaller than that of the US , and marginally larger than that of China . However , agricultural output lags far behind its potential . The low productivity in India is a result of several factors . According to the World Bank , India 's large agricultural subsidies are distorting what farmers grow and hampering productivity - enhancing investment . Over-regulation of agriculture has increased costs , price risks and uncertainty , and governmental intervention in labour , land , and credit are hurting the market . Infrastructure such as rural roads , electricity , ports , food storage , retail markets and services remain inadequate . The average size of land holdings is very small , with 70 % of holdings being less than one hectare ( 2.5 acres ) in size . Irrigation facilities are inadequate , as revealed by the fact that only 46 % of the total cultivable land was irrigated as of 2016 , resulting in farmers still being dependent on rainfall , specifically the monsoon season , which is often inconsistent and unevenly distributed across the country . In an effort to bring an additional two crore hectares ( 20 million hectares ; 50 million acres ) of land under irrigation , various schemes have been attempted , including the Accelerated Irrigation Benefit Programme ( AIBP ) which was provided ₹ 80,000 crore ( ₹ 800 billion ) in the union budget . Farming incomes are also hampered by lack of food storage and distribution infrastructure ; a third of India 's agricultural production is lost from spoilage ."
+          },
+          {
+            "doc_id": "834421776_4143-4246-0-103",
+            "text": "Labour in India\nLabour in India\nAgriculture , dairy , horticulture and related occupations alone employ 52 percent of labour in India ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Non-Question"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "3",
+      "task_id": "6528deeee4180c1b2b770a2929482e82<::>3",
+      "question": "what does indian agriculture produce include?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "which industry provides the largest employment in india"
+        },
+        {
+          "role": "assistant",
+          "content": "The retail industry, excluding wholesale, is the second largest employer in India, after agriculture. Economy of India Agricultural and allied sectors accounted for about 52.1 % of the total workforce in 2009 -- 10. About 51.2 % of the workforce in India is self - employed."
+        },
+        {
+          "role": "user",
+          "content": "Agriculture seems very important to India"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, economy of India Agriculture is an important part of the Indian economy. It accounts for a significant portion of the country's GDP and employs a large portion of the workforce. Labour in India Agriculture, dairy, horticulture and related occupations alone employ 52 percent of labour in India. Agriculture and allied sectors accounted for 17% of the GDP and employed 49% of the total workforce in 2014. Additionally, agriculture alone accounted for 23% of GDP and employed 59% of the country's total workforce in 2016. Despite the declining contribution of agriculture to the GDP over the years, it remains the largest employment source in India and plays a significant role in the country's overall socio-economic development."
+        }
+      ],
+      "retrieval": {
+        "query": "what does indian agriculture produce include?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "846587463_85588-87482-0-1890",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India Agriculture is an important part of the Indian economy . At around 1,530,000 square kilometres ( 590,000 sq mi ) , India has the second - largest amount of arable land , after the US , with 52 % of total land under cultivation . Although the total land area of the country is only slightly more than one third of China or the US , India 's arable land is marginally smaller than that of the US , and marginally larger than that of China . However , agricultural output lags far behind its potential . The low productivity in India is a result of several factors . According to the World Bank , India 's large agricultural subsidies are distorting what farmers grow and hampering productivity - enhancing investment . Over-regulation of agriculture has increased costs , price risks and uncertainty , and governmental intervention in labour , land , and credit are hurting the market . Infrastructure such as rural roads , electricity , ports , food storage , retail markets and services remain inadequate . The average size of land holdings is very small , with 70 % of holdings being less than one hectare ( 2.5 acres ) in size . Irrigation facilities are inadequate , as revealed by the fact that only 46 % of the total cultivable land was irrigated as of 2016 , resulting in farmers still being dependent on rainfall , specifically the monsoon season , which is often inconsistent and unevenly distributed across the country . In an effort to bring an additional two crore hectares ( 20 million hectares ; 50 million acres ) of land under irrigation , various schemes have been attempted , including the Accelerated Irrigation Benefit Programme ( AIBP ) which was provided ₹ 80,000 crore ( ₹ 800 billion ) in the union budget . Farming incomes are also hampered by lack of food storage and distribution infrastructure ; a third of India 's agricultural production is lost from spoilage .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 2,
+            "doc_id": "846587463_29620-30826-0-1206",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India India ranks second worldwide in farm output . Agriculture and allied sectors like forestry , logging and fishing accounted for 17 % of the GDP and employed 49 % of its total workforce in 2014 . Agriculture accounted for 23 % of GDP , and employed 59 % of the country 's total workforce in 2016 . As the Indian economy has diversified and grown , agriculture 's contribution to GDP has steadily declined from 1951 to 2011 , yet it is still the country 's largest employment source and a significant piece of its overall socio - economic development . Crop - yield - per - unit - area of all crops has grown since 1950 , due to the special emphasis placed on agriculture in the five - year plans and steady improvements in irrigation , technology , application of modern agricultural practices and provision of agricultural credit and subsidies since the Green Revolution in India . However , international comparisons reveal the average yield in India is generally 30 % to 50 % of the highest average yield in the world . The states of Uttar Pradesh , Punjab , Haryana , Madhya Pradesh , Andhra Pradesh , Telangana , Bihar , West Bengal , Gujarat and Maharashtra are key contributors to Indian agriculture .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 3,
+            "doc_id": "846587463_31663-33084-0-1417",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India India is the largest producer of milk , jute and pulses , and has the world 's second - largest cattle population with 170 million animals in 2011 . It is the second - largest producer of rice , wheat , sugarcane , cotton and groundnuts , as well as the second - largest fruit and vegetable producer , accounting for 10.9 % and 8.6 % of the world fruit and vegetable production , respectively . India is also the second - largest producer and the largest consumer of silk , producing 77,000 tons in 2005 . India is the largest exporter of cashew kernels and cashew nut shell liquid ( CNSL ) . Foreign exchange earned by the country through the export of cashew kernels during 2011 -- 12 reached ₹ 4,390 crore ( ₹ 43.9 billion ) based on statistics from the Cashew Export Promotion Council of India ( CEPCI ) . 131,000 tonnes of kernels were exported during 2011 -- 12 . There are about 600 cashew processing units in Kollam , Kerala . India 's foodgrain production remained stagnant at approximately 252 million tonnes ( MT ) during both the 2015 -- 16 and 2014 -- 15 crop years ( July -- June ) . India exports several agriculture products , such as Basmati rice , wheat , cereals , spices , fresh fruits , dry fruits , buffalo beef meat , cotton , tea , coffee and other cash crops particularly to the Middle East , Southeast and East Asian countries . About 10 percent of its export earnings come from this trade .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 4,
+            "doc_id": "846587463_23619-24163-0-544",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India Since 1965 , the use of high - yielding varieties of seeds , increased fertilisers and improved irrigation facilities collectively contributed to the Green Revolution in India , which improved the condition of agriculture by increasing crop productivity , improving crop patterns and strengthening forward and backward linkages between agriculture and industry . However , it has also been criticised as an unsustainable effort , resulting in the growth of capitalistic farming , ignoring institutional reforms and widening income disparities .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 5,
+            "doc_id": "846588693_6233-9128-0-2422",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Green Revolution in India 49 % of people in India are employed in agriculture . The introduction of high - yielding varieties of seeds after 1965 and the increased use of fertilizers and irrigation are known collectively as the Green Revolution , which provided the increase in production needed to make India self - sufficient in food grains . The program was started with the help of the United States - based Rockefeller Foundation and was based on high - yielding varieties of wheat , rice , and other grains that had been developed in Mexico and in the Philippines . Of the high - yielding seeds , wheat produced the best results . Production of coarse grains -- the staple diet of the poor -- and pulses -- the main source of protein -- lagged behind , resulting in reduced per capita availability . The total area under the high - yielding - varieties program was a negligible 1.9 million hectares in FY 1960 . Since then growth has been spectacular , increasing to nearly 15.4 million hectares by FY 1970 , 43.1 million hectares by FY 1980 , and 63.9 million hectares by FY 1990 . The rate of growth decreased significantly in the late 1980s , however , as additional suitable land was not available ( see table 32 , Appendix ) . The major benefits of the Green Revolution were experienced mainly in northern and northwestern India between 1965 and the early 1980s ; the program resulted in a substantial increase in the production of food grains , mainly wheat and rice . Food - grain yields continued to increase throughout the 1980s , but the dramatic changes in the years between 1965 and 1980 were not duplicated . By FY 1980 , almost 75 percent of the total cropped area under wheat was sown with high - yielding varieties . For rice the comparable figure was 45 percent . In the 1980s , the area under high - yielding varieties continued to increase , but the rate of growth overall was slower . The eighth plan aimed at making high - yielding varieties available to the whole country and developing more productive strains of other crops . The Green Revolution created wide regional and interstate disparities . The plan was implemented only in areas with assured supplies of water and the means to control it , large inputs of fertilizers , and adequate farm credit . These inputs were easily available in at least parts of the states of Punjab , Haryana , and western Uttar Pradesh ; thus , yields increased most in these states .",
+            "title": "Green Revolution in India"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "846587463_85588-87482-0-1890",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India Agriculture is an important part of the Indian economy . At around 1,530,000 square kilometres ( 590,000 sq mi ) , India has the second - largest amount of arable land , after the US , with 52 % of total land under cultivation . Although the total land area of the country is only slightly more than one third of China or the US , India 's arable land is marginally smaller than that of the US , and marginally larger than that of China . However , agricultural output lags far behind its potential . The low productivity in India is a result of several factors . According to the World Bank , India 's large agricultural subsidies are distorting what farmers grow and hampering productivity - enhancing investment . Over-regulation of agriculture has increased costs , price risks and uncertainty , and governmental intervention in labour , land , and credit are hurting the market . Infrastructure such as rural roads , electricity , ports , food storage , retail markets and services remain inadequate . The average size of land holdings is very small , with 70 % of holdings being less than one hectare ( 2.5 acres ) in size . Irrigation facilities are inadequate , as revealed by the fact that only 46 % of the total cultivable land was irrigated as of 2016 , resulting in farmers still being dependent on rainfall , specifically the monsoon season , which is often inconsistent and unevenly distributed across the country . In an effort to bring an additional two crore hectares ( 20 million hectares ; 50 million acres ) of land under irrigation , various schemes have been attempted , including the Accelerated Irrigation Benefit Programme ( AIBP ) which was provided ₹ 80,000 crore ( ₹ 800 billion ) in the union budget . Farming incomes are also hampered by lack of food storage and distribution infrastructure ; a third of India 's agricultural production is lost from spoilage .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 2,
+            "doc_id": "846587463_29620-30826-0-1206",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India India ranks second worldwide in farm output . Agriculture and allied sectors like forestry , logging and fishing accounted for 17 % of the GDP and employed 49 % of its total workforce in 2014 . Agriculture accounted for 23 % of GDP , and employed 59 % of the country 's total workforce in 2016 . As the Indian economy has diversified and grown , agriculture 's contribution to GDP has steadily declined from 1951 to 2011 , yet it is still the country 's largest employment source and a significant piece of its overall socio - economic development . Crop - yield - per - unit - area of all crops has grown since 1950 , due to the special emphasis placed on agriculture in the five - year plans and steady improvements in irrigation , technology , application of modern agricultural practices and provision of agricultural credit and subsidies since the Green Revolution in India . However , international comparisons reveal the average yield in India is generally 30 % to 50 % of the highest average yield in the world . The states of Uttar Pradesh , Punjab , Haryana , Madhya Pradesh , Andhra Pradesh , Telangana , Bihar , West Bengal , Gujarat and Maharashtra are key contributors to Indian agriculture .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 3,
+            "doc_id": "846587463_31663-33084-0-1417",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India India is the largest producer of milk , jute and pulses , and has the world 's second - largest cattle population with 170 million animals in 2011 . It is the second - largest producer of rice , wheat , sugarcane , cotton and groundnuts , as well as the second - largest fruit and vegetable producer , accounting for 10.9 % and 8.6 % of the world fruit and vegetable production , respectively . India is also the second - largest producer and the largest consumer of silk , producing 77,000 tons in 2005 . India is the largest exporter of cashew kernels and cashew nut shell liquid ( CNSL ) . Foreign exchange earned by the country through the export of cashew kernels during 2011 -- 12 reached ₹ 4,390 crore ( ₹ 43.9 billion ) based on statistics from the Cashew Export Promotion Council of India ( CEPCI ) . 131,000 tonnes of kernels were exported during 2011 -- 12 . There are about 600 cashew processing units in Kollam , Kerala . India 's foodgrain production remained stagnant at approximately 252 million tonnes ( MT ) during both the 2015 -- 16 and 2014 -- 15 crop years ( July -- June ) . India exports several agriculture products , such as Basmati rice , wheat , cereals , spices , fresh fruits , dry fruits , buffalo beef meat , cotton , tea , coffee and other cash crops particularly to the Middle East , Southeast and East Asian countries . About 10 percent of its export earnings come from this trade .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 4,
+            "doc_id": "846587463_23619-24163-0-544",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India Since 1965 , the use of high - yielding varieties of seeds , increased fertilisers and improved irrigation facilities collectively contributed to the Green Revolution in India , which improved the condition of agriculture by increasing crop productivity , improving crop patterns and strengthening forward and backward linkages between agriculture and industry . However , it has also been criticised as an unsustainable effort , resulting in the growth of capitalistic farming , ignoring institutional reforms and widening income disparities .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 5,
+            "doc_id": "846588693_6233-9128-0-2422",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Green Revolution in India 49 % of people in India are employed in agriculture . The introduction of high - yielding varieties of seeds after 1965 and the increased use of fertilizers and irrigation are known collectively as the Green Revolution , which provided the increase in production needed to make India self - sufficient in food grains . The program was started with the help of the United States - based Rockefeller Foundation and was based on high - yielding varieties of wheat , rice , and other grains that had been developed in Mexico and in the Philippines . Of the high - yielding seeds , wheat produced the best results . Production of coarse grains -- the staple diet of the poor -- and pulses -- the main source of protein -- lagged behind , resulting in reduced per capita availability . The total area under the high - yielding - varieties program was a negligible 1.9 million hectares in FY 1960 . Since then growth has been spectacular , increasing to nearly 15.4 million hectares by FY 1970 , 43.1 million hectares by FY 1980 , and 63.9 million hectares by FY 1990 . The rate of growth decreased significantly in the late 1980s , however , as additional suitable land was not available ( see table 32 , Appendix ) . The major benefits of the Green Revolution were experienced mainly in northern and northwestern India between 1965 and the early 1980s ; the program resulted in a substantial increase in the production of food grains , mainly wheat and rice . Food - grain yields continued to increase throughout the 1980s , but the dramatic changes in the years between 1965 and 1980 were not duplicated . By FY 1980 , almost 75 percent of the total cropped area under wheat was sown with high - yielding varieties . For rice the comparable figure was 45 percent . In the 1980s , the area under high - yielding varieties continued to increase , but the rate of growth overall was slower . The eighth plan aimed at making high - yielding varieties available to the whole country and developing more productive strains of other crops . The Green Revolution created wide regional and interstate disparities . The plan was implemented only in areas with assured supplies of water and the means to control it , large inputs of fertilizers , and adequate farm credit . These inputs were easily available in at least parts of the states of Punjab , Haryana , and western Uttar Pradesh ; thus , yields increased most in these states .",
+            "title": "Green Revolution in India"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Crop yield per unit area of all crops has grown since 1950, due to the special emphasis placed on agriculture in the five-year plans and steady improvements in irrigation, technology, application of modern agricultural practices and provision of agricultural credit and subsidies since the Green Revolution in India.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "846587463_85588-87482-0-1890",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Economy of India Agriculture is an important part of the Indian economy . At around 1,530,000 square kilometres ( 590,000 sq mi ) , India has the second - largest amount of arable land , after the US , with 52 % of total land under cultivation . Although the total land area of the country is only slightly more than one third of China or the US , India 's arable land is marginally smaller than that of the US , and marginally larger than that of China . However , agricultural output lags far behind its potential . The low productivity in India is a result of several factors . According to the World Bank , India 's large agricultural subsidies are distorting what farmers grow and hampering productivity - enhancing investment . Over-regulation of agriculture has increased costs , price risks and uncertainty , and governmental intervention in labour , land , and credit are hurting the market . Infrastructure such as rural roads , electricity , ports , food storage , retail markets and services remain inadequate . The average size of land holdings is very small , with 70 % of holdings being less than one hectare ( 2.5 acres ) in size . Irrigation facilities are inadequate , as revealed by the fact that only 46 % of the total cultivable land was irrigated as of 2016 , resulting in farmers still being dependent on rainfall , specifically the monsoon season , which is often inconsistent and unevenly distributed across the country . In an effort to bring an additional two crore hectares ( 20 million hectares ; 50 million acres ) of land under irrigation , various schemes have been attempted , including the Accelerated Irrigation Benefit Programme ( AIBP ) which was provided ₹ 80,000 crore ( ₹ 800 billion ) in the union budget . Farming incomes are also hampered by lack of food storage and distribution infrastructure ; a third of India 's agricultural production is lost from spoilage .",
+          "title": "Economy of India"
+        },
+        {
+          "rank": 2,
+          "doc_id": "846587463_29620-30826-0-1206",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Economy of India India ranks second worldwide in farm output . Agriculture and allied sectors like forestry , logging and fishing accounted for 17 % of the GDP and employed 49 % of its total workforce in 2014 . Agriculture accounted for 23 % of GDP , and employed 59 % of the country 's total workforce in 2016 . As the Indian economy has diversified and grown , agriculture 's contribution to GDP has steadily declined from 1951 to 2011 , yet it is still the country 's largest employment source and a significant piece of its overall socio - economic development . Crop - yield - per - unit - area of all crops has grown since 1950 , due to the special emphasis placed on agriculture in the five - year plans and steady improvements in irrigation , technology , application of modern agricultural practices and provision of agricultural credit and subsidies since the Green Revolution in India . However , international comparisons reveal the average yield in India is generally 30 % to 50 % of the highest average yield in the world . The states of Uttar Pradesh , Punjab , Haryana , Madhya Pradesh , Andhra Pradesh , Telangana , Bihar , West Bengal , Gujarat and Maharashtra are key contributors to Indian agriculture .",
+          "title": "Economy of India"
+        },
+        {
+          "rank": 3,
+          "doc_id": "846587463_31663-33084-0-1417",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Economy of India India is the largest producer of milk , jute and pulses , and has the world 's second - largest cattle population with 170 million animals in 2011 . It is the second - largest producer of rice , wheat , sugarcane , cotton and groundnuts , as well as the second - largest fruit and vegetable producer , accounting for 10.9 % and 8.6 % of the world fruit and vegetable production , respectively . India is also the second - largest producer and the largest consumer of silk , producing 77,000 tons in 2005 . India is the largest exporter of cashew kernels and cashew nut shell liquid ( CNSL ) . Foreign exchange earned by the country through the export of cashew kernels during 2011 -- 12 reached ₹ 4,390 crore ( ₹ 43.9 billion ) based on statistics from the Cashew Export Promotion Council of India ( CEPCI ) . 131,000 tonnes of kernels were exported during 2011 -- 12 . There are about 600 cashew processing units in Kollam , Kerala . India 's foodgrain production remained stagnant at approximately 252 million tonnes ( MT ) during both the 2015 -- 16 and 2014 -- 15 crop years ( July -- June ) . India exports several agriculture products , such as Basmati rice , wheat , cereals , spices , fresh fruits , dry fruits , buffalo beef meat , cotton , tea , coffee and other cash crops particularly to the Middle East , Southeast and East Asian countries . About 10 percent of its export earnings come from this trade .",
+          "title": "Economy of India"
+        },
+        {
+          "rank": 4,
+          "doc_id": "846587463_23619-24163-0-544",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Economy of India Since 1965 , the use of high - yielding varieties of seeds , increased fertilisers and improved irrigation facilities collectively contributed to the Green Revolution in India , which improved the condition of agriculture by increasing crop productivity , improving crop patterns and strengthening forward and backward linkages between agriculture and industry . However , it has also been criticised as an unsustainable effort , resulting in the growth of capitalistic farming , ignoring institutional reforms and widening income disparities .",
+          "title": "Economy of India"
+        },
+        {
+          "rank": 5,
+          "doc_id": "846588693_6233-9128-0-2422",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Green Revolution in India 49 % of people in India are employed in agriculture . The introduction of high - yielding varieties of seeds after 1965 and the increased use of fertilizers and irrigation are known collectively as the Green Revolution , which provided the increase in production needed to make India self - sufficient in food grains . The program was started with the help of the United States - based Rockefeller Foundation and was based on high - yielding varieties of wheat , rice , and other grains that had been developed in Mexico and in the Philippines . Of the high - yielding seeds , wheat produced the best results . Production of coarse grains -- the staple diet of the poor -- and pulses -- the main source of protein -- lagged behind , resulting in reduced per capita availability . The total area under the high - yielding - varieties program was a negligible 1.9 million hectares in FY 1960 . Since then growth has been spectacular , increasing to nearly 15.4 million hectares by FY 1970 , 43.1 million hectares by FY 1980 , and 63.9 million hectares by FY 1990 . The rate of growth decreased significantly in the late 1980s , however , as additional suitable land was not available ( see table 32 , Appendix ) . The major benefits of the Green Revolution were experienced mainly in northern and northwestern India between 1965 and the early 1980s ; the program resulted in a substantial increase in the production of food grains , mainly wheat and rice . Food - grain yields continued to increase throughout the 1980s , but the dramatic changes in the years between 1965 and 1980 were not duplicated . By FY 1980 , almost 75 percent of the total cropped area under wheat was sown with high - yielding varieties . For rice the comparable figure was 45 percent . In the 1980s , the area under high - yielding varieties continued to increase , but the rate of growth overall was slower . The eighth plan aimed at making high - yielding varieties available to the whole country and developing more productive strains of other crops . The Green Revolution created wide regional and interstate disparities . The plan was implemented only in areas with assured supplies of water and the means to control it , large inputs of fertilizers , and adequate farm credit . These inputs were easily available in at least parts of the states of Punjab , Haryana , and western Uttar Pradesh ; thus , yields increased most in these states .",
+          "title": "Green Revolution in India"
+        }
+      ],
+      "reference": {
+        "answer": "Wheat, barley, and jujube were domesticated in the Indian subcontinent by 9,000 BC, soon followed by sheep and goats. Agriculture includes crops, horticulture, milk and animal husbandry, aquaculture, fishing, sericulture, aviculture, forestry and related activities. India is the second - largest producer of rice, wheat, sugarcane, cotton and groundnuts, as well as the second - largest fruit and vegetable producer, and it is also the second - largest producer and the largest consumer of silk; and it is the largest exporter of cashew kernels and cashew nut shell liquid.",
+        "evidence_ids": [
+          "846587463_28843-29416-0-573",
+          "808202938_12129-13039-0-910",
+          "846587463_31663-33084-0-1417"
+        ],
+        "evidence": [
+          {
+            "doc_id": "846587463_28843-29416-0-573",
+            "text": "Economy of India\nEconomy of India\nHistorically , India has classified and tracked its economy and GDP in three sectors : agriculture , industry and services . Agriculture includes crops , horticulture , milk and animal husbandry , aquaculture , fishing , sericulture , aviculture , forestry and related activities . Industry includes various manufacturing sub-sectors . India 's definition of services sector includes its construction , retail , software , IT , communications , hospitality , infrastructure operations , education , health care , banking and insurance , and many other economic activities ."
+          },
+          {
+            "doc_id": "808202938_12129-13039-0-910",
+            "text": "History of agriculture\nHistory of agriculture\nWheat , barley , and jujube were domesticated in the Indian subcontinent by 9,000 BC , soon followed by sheep and goats . Barley and wheat cultivation -- along with the domestication of cattle , primarily sheep and goats -- followed in Mehrgarh culture by 8,000 -- 6,000 BC . This period also saw the first domestication of the elephant . Pastoral farming in India included threshing , planting crops in rows -- either of two or of six -- and storing grain in granaries . By the 5th millennium BC , agricultural communities became widespread in Kashmir . Irrigation was developed in the Indus Valley Civilization by around 4,500 BC . The size and prosperity of the Indus civilization grew as a result of this innovation , leading to more thoroughly planned settlements which used drainage and sewers . Archeological evidence of an animal - drawn plough dates back to 2,500 BC in the Indus Valley Civilization ."
+          },
+          {
+            "doc_id": "846587463_31663-33084-0-1417",
+            "text": "Economy of India\nEconomy of India\nIndia is the largest producer of milk , jute and pulses , and has the world 's second - largest cattle population with 170 million animals in 2011 . It is the second - largest producer of rice , wheat , sugarcane , cotton and groundnuts , as well as the second - largest fruit and vegetable producer , accounting for 10.9 % and 8.6 % of the world fruit and vegetable production , respectively . India is also the second - largest producer and the largest consumer of silk , producing 77,000 tons in 2005 . India is the largest exporter of cashew kernels and cashew nut shell liquid ( CNSL ) . Foreign exchange earned by the country through the export of cashew kernels during 2011 -- 12 reached ₹ 4,390 crore ( ₹ 43.9 billion ) based on statistics from the Cashew Export Promotion Council of India ( CEPCI ) . 131,000 tonnes of kernels were exported during 2011 -- 12 . There are about 600 cashew processing units in Kollam , Kerala . India 's foodgrain production remained stagnant at approximately 252 million tonnes ( MT ) during both the 2015 -- 16 and 2014 -- 15 crop years ( July -- June ) . India exports several agriculture products , such as Basmati rice , wheat , cereals , spices , fresh fruits , dry fruits , buffalo beef meat , cotton , tea , coffee and other cash crops particularly to the Middle East , Southeast and East Asian countries . About 10 percent of its export earnings come from this trade ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Summarization"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "4",
+      "task_id": "6528deeee4180c1b2b770a2929482e82<::>4",
+      "question": "do you think indian people working in agriculture industry make money",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "which industry provides the largest employment in india"
+        },
+        {
+          "role": "assistant",
+          "content": "The retail industry, excluding wholesale, is the second largest employer in India, after agriculture. Economy of India Agricultural and allied sectors accounted for about 52.1 % of the total workforce in 2009 -- 10. About 51.2 % of the workforce in India is self - employed."
+        },
+        {
+          "role": "user",
+          "content": "Agriculture seems very important to India"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, economy of India Agriculture is an important part of the Indian economy. It accounts for a significant portion of the country's GDP and employs a large portion of the workforce. Labour in India Agriculture, dairy, horticulture and related occupations alone employ 52 percent of labour in India. Agriculture and allied sectors accounted for 17% of the GDP and employed 49% of the total workforce in 2014. Additionally, agriculture alone accounted for 23% of GDP and employed 59% of the country's total workforce in 2016. Despite the declining contribution of agriculture to the GDP over the years, it remains the largest employment source in India and plays a significant role in the country's overall socio-economic development."
+        },
+        {
+          "role": "user",
+          "content": "what does indian agriculture produce include?"
+        },
+        {
+          "role": "assistant",
+          "content": "Wheat, barley, and jujube were domesticated in the Indian subcontinent by 9,000 BC, soon followed by sheep and goats. Agriculture includes crops, horticulture, milk and animal husbandry, aquaculture, fishing, sericulture, aviculture, forestry and related activities. India is the second - largest producer of rice, wheat, sugarcane, cotton and groundnuts, as well as the second - largest fruit and vegetable producer, and it is also the second - largest producer and the largest consumer of silk; and it is the largest exporter of cashew kernels and cashew nut shell liquid."
+        }
+      ],
+      "retrieval": {
+        "query": "do you think indian people working in agriculture industry make money",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "846587463_80824-81610-0-786",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India Agricultural and allied sectors accounted for about 52.1 % of the total workforce in 2009 -- 10 . While agriculture employment has fallen over time in percentage of labour employed , services which includes construction and infrastructure have seen a steady growth accounting for 20.3 % of employment in 2012 -- 13 . Of the total workforce , 7 % is in the organised sector , two - thirds of which are in the government - controlled public sector . About 51.2 % of the workforce in India is self - employed . According to a 2005 -- 06 survey , there is a gender gap in employment and salaries . In rural areas , both men and women are primarily self - employed , mostly in agriculture . In urban areas , salaried work was the largest source of employment for both men and women in 2006 .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 2,
+            "doc_id": "845249344_31082-31492-0-410",
+            "score": null,
+            "score_type": "contriever",
+            "text": "National Rural Employment Guarantee Act, 2005 Another criticism of NREGA is that it is making agriculture less profitable . Landholders often oppose it on these grounds . The big farmer 's point of view can be summed up as follows : landless labourers are lazy and they do n't want to work on farms as they can get money without doing anything at NREGA worksites ; farmers may have to sell their land , thereby laying foundation for the corporate farming .",
+            "title": "National Rural Employment Guarantee Act, 2005"
+          },
+          {
+            "rank": 3,
+            "doc_id": "834421776_4143-4246-0-103",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Labour in India Agriculture , dairy , horticulture and related occupations alone employ 52 percent of labour in India .",
+            "title": "Labour in India"
+          },
+          {
+            "rank": 4,
+            "doc_id": "846587463_29620-30826-0-1206",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India India ranks second worldwide in farm output . Agriculture and allied sectors like forestry , logging and fishing accounted for 17 % of the GDP and employed 49 % of its total workforce in 2014 . Agriculture accounted for 23 % of GDP , and employed 59 % of the country 's total workforce in 2016 . As the Indian economy has diversified and grown , agriculture 's contribution to GDP has steadily declined from 1951 to 2011 , yet it is still the country 's largest employment source and a significant piece of its overall socio - economic development . Crop - yield - per - unit - area of all crops has grown since 1950 , due to the special emphasis placed on agriculture in the five - year plans and steady improvements in irrigation , technology , application of modern agricultural practices and provision of agricultural credit and subsidies since the Green Revolution in India . However , international comparisons reveal the average yield in India is generally 30 % to 50 % of the highest average yield in the world . The states of Uttar Pradesh , Punjab , Haryana , Madhya Pradesh , Andhra Pradesh , Telangana , Bihar , West Bengal , Gujarat and Maharashtra are key contributors to Indian agriculture .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 5,
+            "doc_id": "846452375_36496-37000-0-504",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Child labour In 2015 , the country of India is home to the largest number of children who are working illegally in various industrial industries . Agriculture in India is the largest sector where many children work at early ages to help support their family . Many of these children are forced to work at young ages due to many family factors such as unemployment , a large number of family members , poverty , and lack of parental education . This is often the major cause of the high rate of child labour in India .",
+            "title": "Child labour"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "846587463_80824-81610-0-786",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India Agricultural and allied sectors accounted for about 52.1 % of the total workforce in 2009 -- 10 . While agriculture employment has fallen over time in percentage of labour employed , services which includes construction and infrastructure have seen a steady growth accounting for 20.3 % of employment in 2012 -- 13 . Of the total workforce , 7 % is in the organised sector , two - thirds of which are in the government - controlled public sector . About 51.2 % of the workforce in India is self - employed . According to a 2005 -- 06 survey , there is a gender gap in employment and salaries . In rural areas , both men and women are primarily self - employed , mostly in agriculture . In urban areas , salaried work was the largest source of employment for both men and women in 2006 .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 2,
+            "doc_id": "845249344_31082-31492-0-410",
+            "score": null,
+            "score_type": "contriever",
+            "text": "National Rural Employment Guarantee Act, 2005 Another criticism of NREGA is that it is making agriculture less profitable . Landholders often oppose it on these grounds . The big farmer 's point of view can be summed up as follows : landless labourers are lazy and they do n't want to work on farms as they can get money without doing anything at NREGA worksites ; farmers may have to sell their land , thereby laying foundation for the corporate farming .",
+            "title": "National Rural Employment Guarantee Act, 2005"
+          },
+          {
+            "rank": 3,
+            "doc_id": "834421776_4143-4246-0-103",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Labour in India Agriculture , dairy , horticulture and related occupations alone employ 52 percent of labour in India .",
+            "title": "Labour in India"
+          },
+          {
+            "rank": 4,
+            "doc_id": "846587463_29620-30826-0-1206",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India India ranks second worldwide in farm output . Agriculture and allied sectors like forestry , logging and fishing accounted for 17 % of the GDP and employed 49 % of its total workforce in 2014 . Agriculture accounted for 23 % of GDP , and employed 59 % of the country 's total workforce in 2016 . As the Indian economy has diversified and grown , agriculture 's contribution to GDP has steadily declined from 1951 to 2011 , yet it is still the country 's largest employment source and a significant piece of its overall socio - economic development . Crop - yield - per - unit - area of all crops has grown since 1950 , due to the special emphasis placed on agriculture in the five - year plans and steady improvements in irrigation , technology , application of modern agricultural practices and provision of agricultural credit and subsidies since the Green Revolution in India . However , international comparisons reveal the average yield in India is generally 30 % to 50 % of the highest average yield in the world . The states of Uttar Pradesh , Punjab , Haryana , Madhya Pradesh , Andhra Pradesh , Telangana , Bihar , West Bengal , Gujarat and Maharashtra are key contributors to Indian agriculture .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 5,
+            "doc_id": "846452375_36496-37000-0-504",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Child labour In 2015 , the country of India is home to the largest number of children who are working illegally in various industrial industries . Agriculture in India is the largest sector where many children work at early ages to help support their family . Many of these children are forced to work at young ages due to many family factors such as unemployment , a large number of family members , poverty , and lack of parental education . This is often the major cause of the high rate of child labour in India .",
+            "title": "Child labour"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Yes, Indian people working in the agriculture industry can make money.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "846587463_80824-81610-0-786",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Economy of India Agricultural and allied sectors accounted for about 52.1 % of the total workforce in 2009 -- 10 . While agriculture employment has fallen over time in percentage of labour employed , services which includes construction and infrastructure have seen a steady growth accounting for 20.3 % of employment in 2012 -- 13 . Of the total workforce , 7 % is in the organised sector , two - thirds of which are in the government - controlled public sector . About 51.2 % of the workforce in India is self - employed . According to a 2005 -- 06 survey , there is a gender gap in employment and salaries . In rural areas , both men and women are primarily self - employed , mostly in agriculture . In urban areas , salaried work was the largest source of employment for both men and women in 2006 .",
+          "title": "Economy of India"
+        },
+        {
+          "rank": 2,
+          "doc_id": "845249344_31082-31492-0-410",
+          "score": null,
+          "score_type": "contriever",
+          "text": "National Rural Employment Guarantee Act, 2005 Another criticism of NREGA is that it is making agriculture less profitable . Landholders often oppose it on these grounds . The big farmer 's point of view can be summed up as follows : landless labourers are lazy and they do n't want to work on farms as they can get money without doing anything at NREGA worksites ; farmers may have to sell their land , thereby laying foundation for the corporate farming .",
+          "title": "National Rural Employment Guarantee Act, 2005"
+        },
+        {
+          "rank": 3,
+          "doc_id": "834421776_4143-4246-0-103",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Labour in India Agriculture , dairy , horticulture and related occupations alone employ 52 percent of labour in India .",
+          "title": "Labour in India"
+        },
+        {
+          "rank": 4,
+          "doc_id": "846587463_29620-30826-0-1206",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Economy of India India ranks second worldwide in farm output . Agriculture and allied sectors like forestry , logging and fishing accounted for 17 % of the GDP and employed 49 % of its total workforce in 2014 . Agriculture accounted for 23 % of GDP , and employed 59 % of the country 's total workforce in 2016 . As the Indian economy has diversified and grown , agriculture 's contribution to GDP has steadily declined from 1951 to 2011 , yet it is still the country 's largest employment source and a significant piece of its overall socio - economic development . Crop - yield - per - unit - area of all crops has grown since 1950 , due to the special emphasis placed on agriculture in the five - year plans and steady improvements in irrigation , technology , application of modern agricultural practices and provision of agricultural credit and subsidies since the Green Revolution in India . However , international comparisons reveal the average yield in India is generally 30 % to 50 % of the highest average yield in the world . The states of Uttar Pradesh , Punjab , Haryana , Madhya Pradesh , Andhra Pradesh , Telangana , Bihar , West Bengal , Gujarat and Maharashtra are key contributors to Indian agriculture .",
+          "title": "Economy of India"
+        },
+        {
+          "rank": 5,
+          "doc_id": "846452375_36496-37000-0-504",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Child labour In 2015 , the country of India is home to the largest number of children who are working illegally in various industrial industries . Agriculture in India is the largest sector where many children work at early ages to help support their family . Many of these children are forced to work at young ages due to many family factors such as unemployment , a large number of family members , poverty , and lack of parental education . This is often the major cause of the high rate of child labour in India .",
+          "title": "Child labour"
+        }
+      ],
+      "reference": {
+        "answer": "Labourers do not get more than Rs. 80 in the private agricultural labour market. On an inflation adjusted 1973 Rupee basis, the average income of Indian agrarian labourer was Rs. 7.20 per year in 1885.",
+        "evidence_ids": [
+          "845249344_31962-32386-0-424",
+          "855056730_13636-14641-0-1005"
+        ],
+        "evidence": [
+          {
+            "doc_id": "845249344_31962-32386-0-424",
+            "text": "National Rural Employment Guarantee Act, 2005\nNational Rural Employment Guarantee Act, 2005\nThe workers points of view can be summed up as : labourers do not get more than Rs. 80 in the private agricultural labour market , there is no farm work for several months ; few old age people who are jobless for at least 8 months a year ; when farm work is available they go there first ; farmers employ only young and strong persons to work in their farms and reject the others and hence many go jobless most of the time ."
+          },
+          {
+            "doc_id": "855056730_13636-14641-0-1005",
+            "text": "Poverty in India\nPoverty in India\nThese colonial policies moved unemployed artisans into farming , and transformed India as a region increasingly abundant in land , unskilled labour and low productivity , and scarce in skilled labour , capital and knowledge . On an inflation adjusted 1973 Rupee basis , the average income of Indian agrarian labourer was Rs. 7.20 per year in 1885 , against an inflation adjusted poverty line of Rs. 23.90 per year . Thus , not only was the average income below poverty line , the intensity of poverty was severe . The intensity of poverty increased from 1885 to 1921 , then began a reversal . However , the absolute poverty rates continued to be very high through the 1930s . The colonial policies on taxation and its recognition of land ownership claims of zamindars and mansabdars , or Mughal era nobility , made a minority of families wealthy , while it weakened the ability of poorer peasants to command land and credit . The resulting rising landlessness and stagnant real wages intensified poverty ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Opinion"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "5",
+      "task_id": "6528deeee4180c1b2b770a2929482e82<::>5",
+      "question": "what is cashew kernels and cashew nut shell liquid?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "which industry provides the largest employment in india"
+        },
+        {
+          "role": "assistant",
+          "content": "The retail industry, excluding wholesale, is the second largest employer in India, after agriculture. Economy of India Agricultural and allied sectors accounted for about 52.1 % of the total workforce in 2009 -- 10. About 51.2 % of the workforce in India is self - employed."
+        },
+        {
+          "role": "user",
+          "content": "Agriculture seems very important to India"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, economy of India Agriculture is an important part of the Indian economy. It accounts for a significant portion of the country's GDP and employs a large portion of the workforce. Labour in India Agriculture, dairy, horticulture and related occupations alone employ 52 percent of labour in India. Agriculture and allied sectors accounted for 17% of the GDP and employed 49% of the total workforce in 2014. Additionally, agriculture alone accounted for 23% of GDP and employed 59% of the country's total workforce in 2016. Despite the declining contribution of agriculture to the GDP over the years, it remains the largest employment source in India and plays a significant role in the country's overall socio-economic development."
+        },
+        {
+          "role": "user",
+          "content": "what does indian agriculture produce include?"
+        },
+        {
+          "role": "assistant",
+          "content": "Wheat, barley, and jujube were domesticated in the Indian subcontinent by 9,000 BC, soon followed by sheep and goats. Agriculture includes crops, horticulture, milk and animal husbandry, aquaculture, fishing, sericulture, aviculture, forestry and related activities. India is the second - largest producer of rice, wheat, sugarcane, cotton and groundnuts, as well as the second - largest fruit and vegetable producer, and it is also the second - largest producer and the largest consumer of silk; and it is the largest exporter of cashew kernels and cashew nut shell liquid."
+        },
+        {
+          "role": "user",
+          "content": "do you think indian people working in agriculture industry make money"
+        },
+        {
+          "role": "assistant",
+          "content": "Labourers do not get more than Rs. 80 in the private agricultural labour market. On an inflation adjusted 1973 Rupee basis, the average income of Indian agrarian labourer was Rs. 7.20 per year in 1885."
+        }
+      ],
+      "retrieval": {
+        "query": "what is cashew kernels and cashew nut shell liquid?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "803060232_11379-11860-0-481",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Cashew Cashew nutshell liquid ( CNSL ) or cashew shell oil ( CAS registry number 8007 - 24 - 7 ) is a natural resin with a yellowish sheen found in the honeycomb structure of the cashew nutshell , and is a byproduct of processing cashew nuts . It is a raw material of multiple uses in developing drugs , antioxidants , fungicides , and biomaterials . It is used in tropical folk medicine and for anti termite treatment of timber . Its composition varies depending on how it is processed .",
+            "title": "Cashew"
+          },
+          {
+            "rank": 2,
+            "doc_id": "803060232_818-1310-0-492",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Cashew The cashew nut , often simply called a cashew , is widely consumed . It is eaten on its own , used in recipes , or processed into cashew cheese or cashew butter . The shell of the cashew seed yields derivatives that can be used in many applications including lubricants , waterproofing , paints , and arms production , starting in World War II . The cashew apple is a light reddish to yellow fruit , whose pulp can be processed into a sweet , astringent fruit drink or distilled into liquor .",
+            "title": "Cashew"
+          },
+          {
+            "rank": 3,
+            "doc_id": "803060232_6837-7299-0-462",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Cashew The shell of the cashew nut contains oil compounds which may cause contact dermatitis similar in severity to that of poison ivy , primarily resulting from the phenolic lipids , anacardic acid , and cardanol . Due to the possible dermatitis , cashews are typically not sold in the shell to consumers . Readily and inexpensively extracted from the waste shells , cardanol is under research for its potential applications in nanomaterials and biotechnology . Cashew",
+            "title": "Cashew"
+          },
+          {
+            "rank": 4,
+            "doc_id": "803060232_14054-14456-0-402",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Cashew The cashew apple , also called cashew fruit , is the fleshy part of the cashew fruit attached to the cashew nut . The top end of the cashew apple is attached to the stem that comes off the tree . The bottom end of the cashew apple attaches to the cashew nut , which is encased in a shell . In botanical terms , the cashew apple is an accessory fruit that grows on the cashew seed ( which is the nut ) .",
+            "title": "Cashew"
+          },
+          {
+            "rank": 5,
+            "doc_id": "803060232_7593-7823-0-229",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Cashew In 2015 , global production of cashew nuts ( as the kernel ) was 738,861 tonnes , led by India and Côte d'Ivoire each with 23 % of the world total ( table ) . Vietnam and Brazil also had significant production of cashew kernels .",
+            "title": "Cashew"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "803060232_11379-11860-0-481",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Cashew Cashew nutshell liquid ( CNSL ) or cashew shell oil ( CAS registry number 8007 - 24 - 7 ) is a natural resin with a yellowish sheen found in the honeycomb structure of the cashew nutshell , and is a byproduct of processing cashew nuts . It is a raw material of multiple uses in developing drugs , antioxidants , fungicides , and biomaterials . It is used in tropical folk medicine and for anti termite treatment of timber . Its composition varies depending on how it is processed .",
+            "title": "Cashew"
+          },
+          {
+            "rank": 2,
+            "doc_id": "803060232_818-1310-0-492",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Cashew The cashew nut , often simply called a cashew , is widely consumed . It is eaten on its own , used in recipes , or processed into cashew cheese or cashew butter . The shell of the cashew seed yields derivatives that can be used in many applications including lubricants , waterproofing , paints , and arms production , starting in World War II . The cashew apple is a light reddish to yellow fruit , whose pulp can be processed into a sweet , astringent fruit drink or distilled into liquor .",
+            "title": "Cashew"
+          },
+          {
+            "rank": 3,
+            "doc_id": "803060232_6837-7299-0-462",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Cashew The shell of the cashew nut contains oil compounds which may cause contact dermatitis similar in severity to that of poison ivy , primarily resulting from the phenolic lipids , anacardic acid , and cardanol . Due to the possible dermatitis , cashews are typically not sold in the shell to consumers . Readily and inexpensively extracted from the waste shells , cardanol is under research for its potential applications in nanomaterials and biotechnology . Cashew",
+            "title": "Cashew"
+          },
+          {
+            "rank": 4,
+            "doc_id": "803060232_14054-14456-0-402",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Cashew The cashew apple , also called cashew fruit , is the fleshy part of the cashew fruit attached to the cashew nut . The top end of the cashew apple is attached to the stem that comes off the tree . The bottom end of the cashew apple attaches to the cashew nut , which is encased in a shell . In botanical terms , the cashew apple is an accessory fruit that grows on the cashew seed ( which is the nut ) .",
+            "title": "Cashew"
+          },
+          {
+            "rank": 5,
+            "doc_id": "803060232_7593-7823-0-229",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Cashew In 2015 , global production of cashew nuts ( as the kernel ) was 738,861 tonnes , led by India and Côte d'Ivoire each with 23 % of the world total ( table ) . Vietnam and Brazil also had significant production of cashew kernels .",
+            "title": "Cashew"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Cashew kernels and cashew nut shell liquid are byproducts of processing cashew nuts.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "803060232_11379-11860-0-481",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Cashew Cashew nutshell liquid ( CNSL ) or cashew shell oil ( CAS registry number 8007 - 24 - 7 ) is a natural resin with a yellowish sheen found in the honeycomb structure of the cashew nutshell , and is a byproduct of processing cashew nuts . It is a raw material of multiple uses in developing drugs , antioxidants , fungicides , and biomaterials . It is used in tropical folk medicine and for anti termite treatment of timber . Its composition varies depending on how it is processed .",
+          "title": "Cashew"
+        },
+        {
+          "rank": 2,
+          "doc_id": "803060232_818-1310-0-492",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Cashew The cashew nut , often simply called a cashew , is widely consumed . It is eaten on its own , used in recipes , or processed into cashew cheese or cashew butter . The shell of the cashew seed yields derivatives that can be used in many applications including lubricants , waterproofing , paints , and arms production , starting in World War II . The cashew apple is a light reddish to yellow fruit , whose pulp can be processed into a sweet , astringent fruit drink or distilled into liquor .",
+          "title": "Cashew"
+        },
+        {
+          "rank": 3,
+          "doc_id": "803060232_6837-7299-0-462",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Cashew The shell of the cashew nut contains oil compounds which may cause contact dermatitis similar in severity to that of poison ivy , primarily resulting from the phenolic lipids , anacardic acid , and cardanol . Due to the possible dermatitis , cashews are typically not sold in the shell to consumers . Readily and inexpensively extracted from the waste shells , cardanol is under research for its potential applications in nanomaterials and biotechnology . Cashew",
+          "title": "Cashew"
+        },
+        {
+          "rank": 4,
+          "doc_id": "803060232_14054-14456-0-402",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Cashew The cashew apple , also called cashew fruit , is the fleshy part of the cashew fruit attached to the cashew nut . The top end of the cashew apple is attached to the stem that comes off the tree . The bottom end of the cashew apple attaches to the cashew nut , which is encased in a shell . In botanical terms , the cashew apple is an accessory fruit that grows on the cashew seed ( which is the nut ) .",
+          "title": "Cashew"
+        },
+        {
+          "rank": 5,
+          "doc_id": "803060232_7593-7823-0-229",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Cashew In 2015 , global production of cashew nuts ( as the kernel ) was 738,861 tonnes , led by India and Côte d'Ivoire each with 23 % of the world total ( table ) . Vietnam and Brazil also had significant production of cashew kernels .",
+          "title": "Cashew"
+        }
+      ],
+      "reference": {
+        "answer": "The cashew nut,often simply called a cashew, is widely consumed. It is eaten on its own, used in recipes, or processed into cashew cheese or cashew butter. Cashew Cashew nutshell liquid is a natural resin found in the honeycomb structure of the cashew nutshell. It is a byproduct of processing cashew nuts and has multiple uses in developing drugs, antioxidants, fungicides, and biomaterials. It is also used in tropical folk medicine and for anti-termite treatment of timber. The composition of CNSL varies depending on how it is processed.",
+        "evidence_ids": [
+          "803060232_818-1310-0-492",
+          "803060232_11379-11860-0-481"
+        ],
+        "evidence": [
+          {
+            "doc_id": "803060232_818-1310-0-492",
+            "text": "Cashew\nCashew\nThe cashew nut , often simply called a cashew , is widely consumed . It is eaten on its own , used in recipes , or processed into cashew cheese or cashew butter . The shell of the cashew seed yields derivatives that can be used in many applications including lubricants , waterproofing , paints , and arms production , starting in World War II . The cashew apple is a light reddish to yellow fruit , whose pulp can be processed into a sweet , astringent fruit drink or distilled into liquor ."
+          },
+          {
+            "doc_id": "803060232_11379-11860-0-481",
+            "text": "Cashew\nCashew\nCashew nutshell liquid ( CNSL ) or cashew shell oil ( CAS registry number 8007 - 24 - 7 ) is a natural resin with a yellowish sheen found in the honeycomb structure of the cashew nutshell , and is a byproduct of processing cashew nuts . It is a raw material of multiple uses in developing drugs , antioxidants , fungicides , and biomaterials . It is used in tropical folk medicine and for anti termite treatment of timber . Its composition varies depending on how it is processed ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Explanation"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "6",
+      "task_id": "6528deeee4180c1b2b770a2929482e82<::>6",
+      "question": "can you explain more about the retail industry in india?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "which industry provides the largest employment in india"
+        },
+        {
+          "role": "assistant",
+          "content": "The retail industry, excluding wholesale, is the second largest employer in India, after agriculture. Economy of India Agricultural and allied sectors accounted for about 52.1 % of the total workforce in 2009 -- 10. About 51.2 % of the workforce in India is self - employed."
+        },
+        {
+          "role": "user",
+          "content": "Agriculture seems very important to India"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, economy of India Agriculture is an important part of the Indian economy. It accounts for a significant portion of the country's GDP and employs a large portion of the workforce. Labour in India Agriculture, dairy, horticulture and related occupations alone employ 52 percent of labour in India. Agriculture and allied sectors accounted for 17% of the GDP and employed 49% of the total workforce in 2014. Additionally, agriculture alone accounted for 23% of GDP and employed 59% of the country's total workforce in 2016. Despite the declining contribution of agriculture to the GDP over the years, it remains the largest employment source in India and plays a significant role in the country's overall socio-economic development."
+        },
+        {
+          "role": "user",
+          "content": "what does indian agriculture produce include?"
+        },
+        {
+          "role": "assistant",
+          "content": "Wheat, barley, and jujube were domesticated in the Indian subcontinent by 9,000 BC, soon followed by sheep and goats. Agriculture includes crops, horticulture, milk and animal husbandry, aquaculture, fishing, sericulture, aviculture, forestry and related activities. India is the second - largest producer of rice, wheat, sugarcane, cotton and groundnuts, as well as the second - largest fruit and vegetable producer, and it is also the second - largest producer and the largest consumer of silk; and it is the largest exporter of cashew kernels and cashew nut shell liquid."
+        },
+        {
+          "role": "user",
+          "content": "do you think indian people working in agriculture industry make money"
+        },
+        {
+          "role": "assistant",
+          "content": "Labourers do not get more than Rs. 80 in the private agricultural labour market. On an inflation adjusted 1973 Rupee basis, the average income of Indian agrarian labourer was Rs. 7.20 per year in 1885."
+        },
+        {
+          "role": "user",
+          "content": "what is cashew kernels and cashew nut shell liquid?"
+        },
+        {
+          "role": "assistant",
+          "content": "The cashew nut,often simply called a cashew, is widely consumed. It is eaten on its own, used in recipes, or processed into cashew cheese or cashew butter. Cashew Cashew nutshell liquid is a natural resin found in the honeycomb structure of the cashew nutshell. It is a byproduct of processing cashew nuts and has multiple uses in developing drugs, antioxidants, fungicides, and biomaterials. It is also used in tropical folk medicine and for anti-termite treatment of timber. The composition of CNSL varies depending on how it is processed."
+        }
+      ],
+      "retrieval": {
+        "query": "can you explain more about the retail industry in india?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "846587463_56509-57354-0-845",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India India 's retail industry mostly consists of local mom - and - pop stores , owner - manned shops and street vendors . Retail supermarkets are expanding , with a market share of 4 % in 2008 . In 2012 , the government permitted 51 % FDI in multi-brand retail and 100 % FDI in single - brand retail . However , a lack of back - end warehouse infrastructure and state - level permits and red tape continue to limit growth of organised retail . Compliance with over thirty regulations such as `` signboard licences '' and `` anti-hoarding measures '' must be made before a store can open for business . There are taxes for moving goods from state to state , and even within states . According to The Wall Street Journal , the lack of infrastructure and efficient retail networks cause a third of India 's agriculture produce to be lost from spoilage .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 2,
+            "doc_id": "846587463_56025-56508-0-483",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India The retail industry , excluding wholesale , contributed $482 billion ( 22 % of GDP ) and employed 249.94 million people ( 57 % of the workforce ) in 2016 . The industry is the second largest employer in India , after agriculture . The Indian retail market is estimated to be US $600 billion and one of the top - five retail markets in the world by economic value . India has one of the fastest - growing retail markets in the world , and is projected to reach $1.3 trillion by 2020 .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 3,
+            "doc_id": "836599528_26578-27081-0-503",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Franchising The franchising of foreign goods and services to India is in its infancy . The first International Exhibition was only held in 2009 . India is , however , one of the biggest franchising markets because of its large middle - class of 300 million who are not reticent about spending and because the population is entrepreneurial in character . In a highly diversified society , ( see Demographics of India ) McDonald 's is a success story despite its fare 's differing from that of the rest of the world .",
+            "title": "Franchising"
+          },
+          {
+            "rank": 4,
+            "doc_id": "834421776_1506-2144-0-638",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Labour in India Over 94 percent of India 's working population is part of the unorganised sector . In local terms , organised sector or formal sector in India refers to licensed organisations , that is , those who are registered and pay GST . These include the publicly traded companies , incorporated or formally registered entities , corporations , factories , shopping malls , hotels , and large businesses . Unorganised sector , also known as own account enterprises , refers to all unlicensed , self - employed or unregistered economic activity such as owner manned general stores , handicrafts and handloom workers , rural traders , farmers , etc .",
+            "title": "Labour in India"
+          },
+          {
+            "rank": 5,
+            "doc_id": "824739779_94-913-0-819",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Textile industry in India The textile industry in India traditionally , after agriculture , is the only industry that has generated huge employment for both skilled and unskilled labour in textiles . The textile industry continues to be the second - largest employment generating sector in India . It offers direct employment to over 35 million in the country . The share of textiles in total exports was 11.04 % during April -- July 2010 , as per the Ministry of Textiles . During 2009 -- 2010 , the Indian textile industry was pegged at US $ 55 billion , 64 % of which services domestic demand . In 2010 , there were 2,500 textile weaving factories and 4,135 textile finishing factories in all of India . According to AT Kearney 's ' Retail Apparel Index ' , India was ranked as the fourth most promising market for apparel retailers in 2009 .",
+            "title": "Textile industry in India"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "846587463_56509-57354-0-845",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India India 's retail industry mostly consists of local mom - and - pop stores , owner - manned shops and street vendors . Retail supermarkets are expanding , with a market share of 4 % in 2008 . In 2012 , the government permitted 51 % FDI in multi-brand retail and 100 % FDI in single - brand retail . However , a lack of back - end warehouse infrastructure and state - level permits and red tape continue to limit growth of organised retail . Compliance with over thirty regulations such as `` signboard licences '' and `` anti-hoarding measures '' must be made before a store can open for business . There are taxes for moving goods from state to state , and even within states . According to The Wall Street Journal , the lack of infrastructure and efficient retail networks cause a third of India 's agriculture produce to be lost from spoilage .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 2,
+            "doc_id": "846587463_56025-56508-0-483",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India The retail industry , excluding wholesale , contributed $482 billion ( 22 % of GDP ) and employed 249.94 million people ( 57 % of the workforce ) in 2016 . The industry is the second largest employer in India , after agriculture . The Indian retail market is estimated to be US $600 billion and one of the top - five retail markets in the world by economic value . India has one of the fastest - growing retail markets in the world , and is projected to reach $1.3 trillion by 2020 .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 3,
+            "doc_id": "836599528_26578-27081-0-503",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Franchising The franchising of foreign goods and services to India is in its infancy . The first International Exhibition was only held in 2009 . India is , however , one of the biggest franchising markets because of its large middle - class of 300 million who are not reticent about spending and because the population is entrepreneurial in character . In a highly diversified society , ( see Demographics of India ) McDonald 's is a success story despite its fare 's differing from that of the rest of the world .",
+            "title": "Franchising"
+          },
+          {
+            "rank": 4,
+            "doc_id": "834421776_1506-2144-0-638",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Labour in India Over 94 percent of India 's working population is part of the unorganised sector . In local terms , organised sector or formal sector in India refers to licensed organisations , that is , those who are registered and pay GST . These include the publicly traded companies , incorporated or formally registered entities , corporations , factories , shopping malls , hotels , and large businesses . Unorganised sector , also known as own account enterprises , refers to all unlicensed , self - employed or unregistered economic activity such as owner manned general stores , handicrafts and handloom workers , rural traders , farmers , etc .",
+            "title": "Labour in India"
+          },
+          {
+            "rank": 5,
+            "doc_id": "824739779_94-913-0-819",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Textile industry in India The textile industry in India traditionally , after agriculture , is the only industry that has generated huge employment for both skilled and unskilled labour in textiles . The textile industry continues to be the second - largest employment generating sector in India . It offers direct employment to over 35 million in the country . The share of textiles in total exports was 11.04 % during April -- July 2010 , as per the Ministry of Textiles . During 2009 -- 2010 , the Indian textile industry was pegged at US $ 55 billion , 64 % of which services domestic demand . In 2010 , there were 2,500 textile weaving factories and 4,135 textile finishing factories in all of India . According to AT Kearney 's ' Retail Apparel Index ' , India was ranked as the fourth most promising market for apparel retailers in 2009 .",
+            "title": "Textile industry in India"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "The retail industry in India is one of the largest and fastest growing in the world.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "846587463_56509-57354-0-845",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Economy of India India 's retail industry mostly consists of local mom - and - pop stores , owner - manned shops and street vendors . Retail supermarkets are expanding , with a market share of 4 % in 2008 . In 2012 , the government permitted 51 % FDI in multi-brand retail and 100 % FDI in single - brand retail . However , a lack of back - end warehouse infrastructure and state - level permits and red tape continue to limit growth of organised retail . Compliance with over thirty regulations such as `` signboard licences '' and `` anti-hoarding measures '' must be made before a store can open for business . There are taxes for moving goods from state to state , and even within states . According to The Wall Street Journal , the lack of infrastructure and efficient retail networks cause a third of India 's agriculture produce to be lost from spoilage .",
+          "title": "Economy of India"
+        },
+        {
+          "rank": 2,
+          "doc_id": "846587463_56025-56508-0-483",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Economy of India The retail industry , excluding wholesale , contributed $482 billion ( 22 % of GDP ) and employed 249.94 million people ( 57 % of the workforce ) in 2016 . The industry is the second largest employer in India , after agriculture . The Indian retail market is estimated to be US $600 billion and one of the top - five retail markets in the world by economic value . India has one of the fastest - growing retail markets in the world , and is projected to reach $1.3 trillion by 2020 .",
+          "title": "Economy of India"
+        },
+        {
+          "rank": 3,
+          "doc_id": "836599528_26578-27081-0-503",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Franchising The franchising of foreign goods and services to India is in its infancy . The first International Exhibition was only held in 2009 . India is , however , one of the biggest franchising markets because of its large middle - class of 300 million who are not reticent about spending and because the population is entrepreneurial in character . In a highly diversified society , ( see Demographics of India ) McDonald 's is a success story despite its fare 's differing from that of the rest of the world .",
+          "title": "Franchising"
+        },
+        {
+          "rank": 4,
+          "doc_id": "834421776_1506-2144-0-638",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Labour in India Over 94 percent of India 's working population is part of the unorganised sector . In local terms , organised sector or formal sector in India refers to licensed organisations , that is , those who are registered and pay GST . These include the publicly traded companies , incorporated or formally registered entities , corporations , factories , shopping malls , hotels , and large businesses . Unorganised sector , also known as own account enterprises , refers to all unlicensed , self - employed or unregistered economic activity such as owner manned general stores , handicrafts and handloom workers , rural traders , farmers , etc .",
+          "title": "Labour in India"
+        },
+        {
+          "rank": 5,
+          "doc_id": "824739779_94-913-0-819",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Textile industry in India The textile industry in India traditionally , after agriculture , is the only industry that has generated huge employment for both skilled and unskilled labour in textiles . The textile industry continues to be the second - largest employment generating sector in India . It offers direct employment to over 35 million in the country . The share of textiles in total exports was 11.04 % during April -- July 2010 , as per the Ministry of Textiles . During 2009 -- 2010 , the Indian textile industry was pegged at US $ 55 billion , 64 % of which services domestic demand . In 2010 , there were 2,500 textile weaving factories and 4,135 textile finishing factories in all of India . According to AT Kearney 's ' Retail Apparel Index ' , India was ranked as the fourth most promising market for apparel retailers in 2009 .",
+          "title": "Textile industry in India"
+        }
+      ],
+      "reference": {
+        "answer": "India 's retail industry mostly consists of local mom - and - pop stores, owner - manned shops and street vendors. Retail supermarkets are expanding. India had $600 billion worth of retail market in 2015. The city 's retail industry is majorly concentrated in T. Nagar which accounts for major share jewellery and clothes sold in Chennai.",
+        "evidence_ids": [
+          "846587463_56509-57354-0-845",
+          "846587463_3814-4972-0-1158",
+          "800317902_45046-45872-0-826"
+        ],
+        "evidence": [
+          {
+            "doc_id": "846587463_56509-57354-0-845",
+            "text": "Economy of India\nEconomy of India\nIndia 's retail industry mostly consists of local mom - and - pop stores , owner - manned shops and street vendors . Retail supermarkets are expanding , with a market share of 4 % in 2008 . In 2012 , the government permitted 51 % FDI in multi-brand retail and 100 % FDI in single - brand retail . However , a lack of back - end warehouse infrastructure and state - level permits and red tape continue to limit growth of organised retail . Compliance with over thirty regulations such as `` signboard licences '' and `` anti-hoarding measures '' must be made before a store can open for business . There are taxes for moving goods from state to state , and even within states . According to The Wall Street Journal , the lack of infrastructure and efficient retail networks cause a third of India 's agriculture produce to be lost from spoilage ."
+          },
+          {
+            "doc_id": "846587463_3814-4972-0-1158",
+            "text": "Economy of India\nEconomy of India\nIndia has one of the fastest growing service sectors in the world with an annual growth rate above 9 % since 2001 , which contributed to 57 % of GDP in 2012 -- 13 . India has become a major exporter of IT services , Business Process Outsourcing ( BPO ) services , and software services with $154 billion revenue in FY 2017 . This is the fastest - growing part of the economy . The IT industry continues to be the largest private - sector employer in India . India is the third - largest start - up hub in the world with over 3,100 technology start - ups in 2014 -- 15 The agricultural sector is the largest employer in India 's economy but contributes to a declining share of its GDP ( 17 % in 2013 -- 14 ) . India ranks second worldwide in farm output . The industry ( manufacturing ) sector has held a steady share of its economic contribution ( 26 % of GDP in 2013 -- 14 ) . The Indian automobile industry is one of the largest in the world with an annual production of 21.48 million vehicles ( mostly two and three - wheelers ) in 2013 -- 14 . India had $600 billion worth of retail market in 2015 and one of world 's fastest growing e-commerce markets ."
+          },
+          {
+            "doc_id": "800317902_45046-45872-0-826",
+            "text": "Chennai\nChennai\nChennai is home to several malls , due to its status as an IT hub . Major ones include Express Avenue ( EA ) , Citi Centre , Abirami mega mall , Spencer Plaza , Ampa Skywalk , Phoenix Market City and Forum Vijaya Mall . Chennai is an important gold market in India contributing to 45 percent of the 800 - tonne annual national gold uptake . The city is also the base to the World Gold Council 's India operations . The city 's retail industry is majorly concentrated in T. Nagar which accounts for major share jewellery and clothes sold in Chennai . According to the 2012 report by property consultant Cushman & Wakefield , Main Streets Across the World , Khader Nawaz Khan Road at Nungambakkam ranked 10th position in the list of ' Top 10 Global Highest Retail Rental Growth Markets 2012 ' , with 36.7 percent jump in rents ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Explanation"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "7",
+      "task_id": "6528deeee4180c1b2b770a2929482e82<::>7",
+      "question": "other indian industries",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "which industry provides the largest employment in india"
+        },
+        {
+          "role": "assistant",
+          "content": "The retail industry, excluding wholesale, is the second largest employer in India, after agriculture. Economy of India Agricultural and allied sectors accounted for about 52.1 % of the total workforce in 2009 -- 10. About 51.2 % of the workforce in India is self - employed."
+        },
+        {
+          "role": "user",
+          "content": "Agriculture seems very important to India"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, economy of India Agriculture is an important part of the Indian economy. It accounts for a significant portion of the country's GDP and employs a large portion of the workforce. Labour in India Agriculture, dairy, horticulture and related occupations alone employ 52 percent of labour in India. Agriculture and allied sectors accounted for 17% of the GDP and employed 49% of the total workforce in 2014. Additionally, agriculture alone accounted for 23% of GDP and employed 59% of the country's total workforce in 2016. Despite the declining contribution of agriculture to the GDP over the years, it remains the largest employment source in India and plays a significant role in the country's overall socio-economic development."
+        },
+        {
+          "role": "user",
+          "content": "what does indian agriculture produce include?"
+        },
+        {
+          "role": "assistant",
+          "content": "Wheat, barley, and jujube were domesticated in the Indian subcontinent by 9,000 BC, soon followed by sheep and goats. Agriculture includes crops, horticulture, milk and animal husbandry, aquaculture, fishing, sericulture, aviculture, forestry and related activities. India is the second - largest producer of rice, wheat, sugarcane, cotton and groundnuts, as well as the second - largest fruit and vegetable producer, and it is also the second - largest producer and the largest consumer of silk; and it is the largest exporter of cashew kernels and cashew nut shell liquid."
+        },
+        {
+          "role": "user",
+          "content": "do you think indian people working in agriculture industry make money"
+        },
+        {
+          "role": "assistant",
+          "content": "Labourers do not get more than Rs. 80 in the private agricultural labour market. On an inflation adjusted 1973 Rupee basis, the average income of Indian agrarian labourer was Rs. 7.20 per year in 1885."
+        },
+        {
+          "role": "user",
+          "content": "what is cashew kernels and cashew nut shell liquid?"
+        },
+        {
+          "role": "assistant",
+          "content": "The cashew nut,often simply called a cashew, is widely consumed. It is eaten on its own, used in recipes, or processed into cashew cheese or cashew butter. Cashew Cashew nutshell liquid is a natural resin found in the honeycomb structure of the cashew nutshell. It is a byproduct of processing cashew nuts and has multiple uses in developing drugs, antioxidants, fungicides, and biomaterials. It is also used in tropical folk medicine and for anti-termite treatment of timber. The composition of CNSL varies depending on how it is processed."
+        },
+        {
+          "role": "user",
+          "content": "can you explain more about the retail industry in india?"
+        },
+        {
+          "role": "assistant",
+          "content": "India 's retail industry mostly consists of local mom - and - pop stores, owner - manned shops and street vendors. Retail supermarkets are expanding. India had $600 billion worth of retail market in 2015. The city 's retail industry is majorly concentrated in T. Nagar which accounts for major share jewellery and clothes sold in Chennai."
+        }
+      ],
+      "retrieval": {
+        "query": "other indian industries",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "822354564_21448-21601-0-153",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Automotive industry in India Kolkata with Hindustan Motors ( inactive ) , Noida with Honda , and Bengaluru with Toyota are other automotive manufacturing regions around the country .",
+            "title": "Automotive industry in India"
+          },
+          {
+            "rank": 2,
+            "doc_id": "824739779_914-1396-0-482",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Textile industry in India India is first in global jute production and shares 63 % of the global textile and garment market . India is second in global textile manufacturing and also second in silk and cotton production . 100 % FDI is allowed via automatic route in textile sector . Rieter , Trutzschler , Saurer , Soktas , Zambiati , Bilsar , Monti , CMT , E-land , Nisshinbo , Marks & Spencer , Zara , Promod , Benetton , and Levi 's are some of the foreign textile companies invested or working in India .",
+            "title": "Textile industry in India"
+          },
+          {
+            "rank": 3,
+            "doc_id": "822354564_31779-32546-0-767",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Automotive industry in India Chinkara Motors : Beachster , Hammer , Roadster 1.8 S , Rockster , Jeepster , Sailster Force Motors ( earlier known as Tempo ) : One Hindustan Motors : Ambassador Hradyesh : Morris Street ICML : Rhino Rx Mahindra : Major , Bolero , Scorpio , Thar , Xylo , Quanto , Verito , Verito Vibe , Genio , XUV500 , e2o , TUV300 , KUV100 , NuvoSport . Premier Automobiles Limited : Sigma , RiO San Motors : Storm Maruti Suzuki ( subsidiary of Japanese auto maker Suzuki ) Alto K10 , Alto 800 , WagonR , Swift , Swift DZire , Omni , Eeco , Gypsy , Ertiga , Celerio , Ciaz , Vitara Brezza , Baleno , Ignis , S - Cross . Tata Motors : Nano , Indica , Vista , Indigo , Manza , Indigo CS , Sumo , Movus , Venture , Safari , Xenon , Aria , Zest , Bolt , Tiago , Tigor , Hexa . Defunct",
+            "title": "Automotive industry in India"
+          },
+          {
+            "rank": 4,
+            "doc_id": "822354564_25858-26208-0-350",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Automotive industry in India BMW India -- Mahindra World City , New Chennai Ford India Private Limited -- Maraimalai Nagar , Chennai Hyundai Motor India Limited -- Sriperumbudur , Chennai Mitsubishi -- Tiruvallur , Chennai Renault Nissan Automotive India Private Limited Nissan Motor India Private Limited -- Oragadam , Chennai Renault India Private Limited -- Oragadam , Chennai",
+            "title": "Automotive industry in India"
+          },
+          {
+            "rank": 5,
+            "doc_id": "822354564_23267-23563-0-296",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Automotive industry in India Bharat Earth Movers - Bengaluru Scania Commercial Vehicles India Private Limited -- Bengaluru TAFE Tractors -- Doddaballapur Tata Motors -- Dharwad Bharat Earth Movers - Mysuru Volvo India Volvo Buses India -- Hosakote Volvo Trucks India -- Hosakote Volvo Construction Equipment India -- Hosakote",
+            "title": "Automotive industry in India"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "822354564_21448-21601-0-153",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Automotive industry in India Kolkata with Hindustan Motors ( inactive ) , Noida with Honda , and Bengaluru with Toyota are other automotive manufacturing regions around the country .",
+            "title": "Automotive industry in India"
+          },
+          {
+            "rank": 2,
+            "doc_id": "824739779_914-1396-0-482",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Textile industry in India India is first in global jute production and shares 63 % of the global textile and garment market . India is second in global textile manufacturing and also second in silk and cotton production . 100 % FDI is allowed via automatic route in textile sector . Rieter , Trutzschler , Saurer , Soktas , Zambiati , Bilsar , Monti , CMT , E-land , Nisshinbo , Marks & Spencer , Zara , Promod , Benetton , and Levi 's are some of the foreign textile companies invested or working in India .",
+            "title": "Textile industry in India"
+          },
+          {
+            "rank": 3,
+            "doc_id": "822354564_31779-32546-0-767",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Automotive industry in India Chinkara Motors : Beachster , Hammer , Roadster 1.8 S , Rockster , Jeepster , Sailster Force Motors ( earlier known as Tempo ) : One Hindustan Motors : Ambassador Hradyesh : Morris Street ICML : Rhino Rx Mahindra : Major , Bolero , Scorpio , Thar , Xylo , Quanto , Verito , Verito Vibe , Genio , XUV500 , e2o , TUV300 , KUV100 , NuvoSport . Premier Automobiles Limited : Sigma , RiO San Motors : Storm Maruti Suzuki ( subsidiary of Japanese auto maker Suzuki ) Alto K10 , Alto 800 , WagonR , Swift , Swift DZire , Omni , Eeco , Gypsy , Ertiga , Celerio , Ciaz , Vitara Brezza , Baleno , Ignis , S - Cross . Tata Motors : Nano , Indica , Vista , Indigo , Manza , Indigo CS , Sumo , Movus , Venture , Safari , Xenon , Aria , Zest , Bolt , Tiago , Tigor , Hexa . Defunct",
+            "title": "Automotive industry in India"
+          },
+          {
+            "rank": 4,
+            "doc_id": "822354564_25858-26208-0-350",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Automotive industry in India BMW India -- Mahindra World City , New Chennai Ford India Private Limited -- Maraimalai Nagar , Chennai Hyundai Motor India Limited -- Sriperumbudur , Chennai Mitsubishi -- Tiruvallur , Chennai Renault Nissan Automotive India Private Limited Nissan Motor India Private Limited -- Oragadam , Chennai Renault India Private Limited -- Oragadam , Chennai",
+            "title": "Automotive industry in India"
+          },
+          {
+            "rank": 5,
+            "doc_id": "822354564_23267-23563-0-296",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Automotive industry in India Bharat Earth Movers - Bengaluru Scania Commercial Vehicles India Private Limited -- Bengaluru TAFE Tractors -- Doddaballapur Tata Motors -- Dharwad Bharat Earth Movers - Mysuru Volvo India Volvo Buses India -- Hosakote Volvo Trucks India -- Hosakote Volvo Construction Equipment India -- Hosakote",
+            "title": "Automotive industry in India"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Assistant: Other major industries in India include the automotive industry, which is the seventh largest in the world, and the unorganised sector, which employs the majority of the country's workforce.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "822354564_21448-21601-0-153",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Automotive industry in India Kolkata with Hindustan Motors ( inactive ) , Noida with Honda , and Bengaluru with Toyota are other automotive manufacturing regions around the country .",
+          "title": "Automotive industry in India"
+        },
+        {
+          "rank": 2,
+          "doc_id": "824739779_914-1396-0-482",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Textile industry in India India is first in global jute production and shares 63 % of the global textile and garment market . India is second in global textile manufacturing and also second in silk and cotton production . 100 % FDI is allowed via automatic route in textile sector . Rieter , Trutzschler , Saurer , Soktas , Zambiati , Bilsar , Monti , CMT , E-land , Nisshinbo , Marks & Spencer , Zara , Promod , Benetton , and Levi 's are some of the foreign textile companies invested or working in India .",
+          "title": "Textile industry in India"
+        },
+        {
+          "rank": 3,
+          "doc_id": "822354564_31779-32546-0-767",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Automotive industry in India Chinkara Motors : Beachster , Hammer , Roadster 1.8 S , Rockster , Jeepster , Sailster Force Motors ( earlier known as Tempo ) : One Hindustan Motors : Ambassador Hradyesh : Morris Street ICML : Rhino Rx Mahindra : Major , Bolero , Scorpio , Thar , Xylo , Quanto , Verito , Verito Vibe , Genio , XUV500 , e2o , TUV300 , KUV100 , NuvoSport . Premier Automobiles Limited : Sigma , RiO San Motors : Storm Maruti Suzuki ( subsidiary of Japanese auto maker Suzuki ) Alto K10 , Alto 800 , WagonR , Swift , Swift DZire , Omni , Eeco , Gypsy , Ertiga , Celerio , Ciaz , Vitara Brezza , Baleno , Ignis , S - Cross . Tata Motors : Nano , Indica , Vista , Indigo , Manza , Indigo CS , Sumo , Movus , Venture , Safari , Xenon , Aria , Zest , Bolt , Tiago , Tigor , Hexa . Defunct",
+          "title": "Automotive industry in India"
+        },
+        {
+          "rank": 4,
+          "doc_id": "822354564_25858-26208-0-350",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Automotive industry in India BMW India -- Mahindra World City , New Chennai Ford India Private Limited -- Maraimalai Nagar , Chennai Hyundai Motor India Limited -- Sriperumbudur , Chennai Mitsubishi -- Tiruvallur , Chennai Renault Nissan Automotive India Private Limited Nissan Motor India Private Limited -- Oragadam , Chennai Renault India Private Limited -- Oragadam , Chennai",
+          "title": "Automotive industry in India"
+        },
+        {
+          "rank": 5,
+          "doc_id": "822354564_23267-23563-0-296",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Automotive industry in India Bharat Earth Movers - Bengaluru Scania Commercial Vehicles India Private Limited -- Bengaluru TAFE Tractors -- Doddaballapur Tata Motors -- Dharwad Bharat Earth Movers - Mysuru Volvo India Volvo Buses India -- Hosakote Volvo Trucks India -- Hosakote Volvo Construction Equipment India -- Hosakote",
+          "title": "Automotive industry in India"
+        }
+      ],
+      "reference": {
+        "answer": "The Indian pharmaceutical industry has grown in recent years to become a major manufacturer of health care products to the world. India has one of the fastest growing service sectors in the world. India has become a major exporter of IT services, Business Process Outsourcing services, and software services. The financial services industry contributed $809 billion and employed 14.17 million people in 2016, and the banking sector contributed $407 billion and employed 5.5 million people in 2016. The engineering industry of India includes its growing car, motorcycle and scooters industry, and productivity machinery. The textile industry in India traditionally, after agriculture, is the only industry that has generated huge employment for both skilled and unskilled labour in textiles.",
+        "evidence_ids": [
+          "846587463_35242-36048-0-806",
+          "846587463_44386-45190-0-804",
+          "846587463_3814-4972-0-1158",
+          "846587463_36795-37274-0-479",
+          "824739779_94-913-0-819"
+        ],
+        "evidence": [
+          {
+            "doc_id": "846587463_35242-36048-0-806",
+            "text": "Economy of India\nEconomy of India\nThe Indian pharmaceutical industry has grown in recent years to become a major manufacturer of health care products to the world . India produced about 8 % of the global pharmaceutical supply in 2011 by value , including over 60,000 generic brands of medicines . The industry grew from $6 billion in 2005 to $36.7 billion in 2016 , a compound annual growth rate ( CAGR ) of 17.46 % . It is expected to grow at a CAGR of 15.92 % to reach $55 billion in 2020 . India is expected to become the sixth - largest pharmaceutical market in the world by 2020 . It is one of the fastest - growing industrial sub-sectors and a significant contributor of India 's export earnings . The state of Gujarat has become a hub for the manufacture and export of pharmaceuticals and active pharmaceutical ingredients ( APIs ) ."
+          },
+          {
+            "doc_id": "846587463_44386-45190-0-804",
+            "text": "Economy of India\nEconomy of India\nThe financial services industry contributed $809 billion ( 37 % of GDP ) and employed 14.17 million people ( 3 % of the workforce ) in 2016 , and the banking sector contributed $407 billion ( 19 % of GDP ) and employed 5.5 million people ( 1 % of the workforce ) in 2016 . The Indian money market is classified into the organised sector , comprising private , public and foreign - owned commercial banks and cooperative banks , together known as ' scheduled banks ' ; and the unorganised sector , which includes individual or family - owned indigenous bankers or money lenders and non-banking financial companies . The unorganised sector and microcredit are preferred over traditional banks in rural and sub-urban areas , especially for non-productive purposes such as short - term loans for ceremonies ."
+          },
+          {
+            "doc_id": "846587463_3814-4972-0-1158",
+            "text": "Economy of India\nEconomy of India\nIndia has one of the fastest growing service sectors in the world with an annual growth rate above 9 % since 2001 , which contributed to 57 % of GDP in 2012 -- 13 . India has become a major exporter of IT services , Business Process Outsourcing ( BPO ) services , and software services with $154 billion revenue in FY 2017 . This is the fastest - growing part of the economy . The IT industry continues to be the largest private - sector employer in India . India is the third - largest start - up hub in the world with over 3,100 technology start - ups in 2014 -- 15 The agricultural sector is the largest employer in India 's economy but contributes to a declining share of its GDP ( 17 % in 2013 -- 14 ) . India ranks second worldwide in farm output . The industry ( manufacturing ) sector has held a steady share of its economic contribution ( 26 % of GDP in 2013 -- 14 ) . The Indian automobile industry is one of the largest in the world with an annual production of 21.48 million vehicles ( mostly two and three - wheelers ) in 2013 -- 14 . India had $600 billion worth of retail market in 2015 and one of world 's fastest growing e-commerce markets ."
+          },
+          {
+            "doc_id": "846587463_36795-37274-0-479",
+            "text": "Economy of India\nEconomy of India\nThe engineering industry of India includes its growing car , motorcycle and scooters industry , and productivity machinery such as tractors . India manufactured and assembled about 18 million passenger and utility vehicles in 2011 , of which 2.3 million were exported . India is the largest producer and the largest market for tractors , accounting for 29 % of global tractor production in 2013 . India is the 12th - largest producer and 7th - largest consumer of machine tools ."
+          },
+          {
+            "doc_id": "824739779_94-913-0-819",
+            "text": "Textile industry in India\nTextile industry in India\nThe textile industry in India traditionally , after agriculture , is the only industry that has generated huge employment for both skilled and unskilled labour in textiles . The textile industry continues to be the second - largest employment generating sector in India . It offers direct employment to over 35 million in the country . The share of textiles in total exports was 11.04 % during April -- July 2010 , as per the Ministry of Textiles . During 2009 -- 2010 , the Indian textile industry was pegged at US $ 55 billion , 64 % of which services domestic demand . In 2010 , there were 2,500 textile weaving factories and 4,135 textile finishing factories in all of India . According to AT Kearney 's ' Retail Apparel Index ' , India was ranked as the fourth most promising market for apparel retailers in 2009 ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Keyword"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "8",
+      "task_id": "6528deeee4180c1b2b770a2929482e82<::>8",
+      "question": "is india growing fast? how fast?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "which industry provides the largest employment in india"
+        },
+        {
+          "role": "assistant",
+          "content": "The retail industry, excluding wholesale, is the second largest employer in India, after agriculture. Economy of India Agricultural and allied sectors accounted for about 52.1 % of the total workforce in 2009 -- 10. About 51.2 % of the workforce in India is self - employed."
+        },
+        {
+          "role": "user",
+          "content": "Agriculture seems very important to India"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, economy of India Agriculture is an important part of the Indian economy. It accounts for a significant portion of the country's GDP and employs a large portion of the workforce. Labour in India Agriculture, dairy, horticulture and related occupations alone employ 52 percent of labour in India. Agriculture and allied sectors accounted for 17% of the GDP and employed 49% of the total workforce in 2014. Additionally, agriculture alone accounted for 23% of GDP and employed 59% of the country's total workforce in 2016. Despite the declining contribution of agriculture to the GDP over the years, it remains the largest employment source in India and plays a significant role in the country's overall socio-economic development."
+        },
+        {
+          "role": "user",
+          "content": "what does indian agriculture produce include?"
+        },
+        {
+          "role": "assistant",
+          "content": "Wheat, barley, and jujube were domesticated in the Indian subcontinent by 9,000 BC, soon followed by sheep and goats. Agriculture includes crops, horticulture, milk and animal husbandry, aquaculture, fishing, sericulture, aviculture, forestry and related activities. India is the second - largest producer of rice, wheat, sugarcane, cotton and groundnuts, as well as the second - largest fruit and vegetable producer, and it is also the second - largest producer and the largest consumer of silk; and it is the largest exporter of cashew kernels and cashew nut shell liquid."
+        },
+        {
+          "role": "user",
+          "content": "do you think indian people working in agriculture industry make money"
+        },
+        {
+          "role": "assistant",
+          "content": "Labourers do not get more than Rs. 80 in the private agricultural labour market. On an inflation adjusted 1973 Rupee basis, the average income of Indian agrarian labourer was Rs. 7.20 per year in 1885."
+        },
+        {
+          "role": "user",
+          "content": "what is cashew kernels and cashew nut shell liquid?"
+        },
+        {
+          "role": "assistant",
+          "content": "The cashew nut,often simply called a cashew, is widely consumed. It is eaten on its own, used in recipes, or processed into cashew cheese or cashew butter. Cashew Cashew nutshell liquid is a natural resin found in the honeycomb structure of the cashew nutshell. It is a byproduct of processing cashew nuts and has multiple uses in developing drugs, antioxidants, fungicides, and biomaterials. It is also used in tropical folk medicine and for anti-termite treatment of timber. The composition of CNSL varies depending on how it is processed."
+        },
+        {
+          "role": "user",
+          "content": "can you explain more about the retail industry in india?"
+        },
+        {
+          "role": "assistant",
+          "content": "India 's retail industry mostly consists of local mom - and - pop stores, owner - manned shops and street vendors. Retail supermarkets are expanding. India had $600 billion worth of retail market in 2015. The city 's retail industry is majorly concentrated in T. Nagar which accounts for major share jewellery and clothes sold in Chennai."
+        },
+        {
+          "role": "user",
+          "content": "other indian industries"
+        },
+        {
+          "role": "assistant",
+          "content": "The Indian pharmaceutical industry has grown in recent years to become a major manufacturer of health care products to the world. India has one of the fastest growing service sectors in the world. India has become a major exporter of IT services, Business Process Outsourcing services, and software services. The financial services industry contributed $809 billion and employed 14.17 million people in 2016, and the banking sector contributed $407 billion and employed 5.5 million people in 2016. The engineering industry of India includes its growing car, motorcycle and scooters industry, and productivity machinery. The textile industry in India traditionally, after agriculture, is the only industry that has generated huge employment for both skilled and unskilled labour in textiles."
+        }
+      ],
+      "retrieval": {
+        "query": "is india growing fast? how fast?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "857081732_47991-48257-0-266",
+            "score": null,
+            "score_type": "contriever",
+            "text": "India India 's telecommunication industry , the world 's fastest - growing , added 227 million subscribers during the period 2010 -- 11 , and after the third quarter of 2017 , India surpassed the US to become the second largest smartphone market in the world after China .",
+            "title": "India"
+          },
+          {
+            "rank": 2,
+            "doc_id": "857081732_46622-47518-0-896",
+            "score": null,
+            "score_type": "contriever",
+            "text": "India According to a 2011 PricewaterhouseCoopers ( PwC ) report , India 's GDP at purchasing power parity could overtake that of the United States by 2045 . During the next four decades , Indian GDP is expected to grow at an annualised average of 8 % , making it potentially the world 's fastest - growing major economy until 2050 . The report highlights key growth factors : a young and rapidly growing working - age population ; growth in the manufacturing sector because of rising education and engineering skill levels ; and sustained growth of the consumer market driven by a rapidly growing middle - class . The World Bank cautions that , for India to achieve its economic potential , it must continue to focus on public sector reform , transport infrastructure , agricultural and rural development , removal of labour regulations , education , energy security , and public health and nutrition .",
+            "title": "India"
+          },
+          {
+            "rank": 3,
+            "doc_id": "846587463_27414-27978-0-564",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India India started recovery in 2013 -- 14 when the GDP growth rate accelerated to 6.4 % from the previous year 's 5.5 % . The acceleration continued through 2014 - 15 and 2015 -- 16 with growth rates of 7.5 % and 8.0 % respectively . For the first time since 1990 , India grew faster than China which registered 6.9 % growth in 2015 . However the growth rate subsequently decelerated , to 7.1 % and 6.6 % in 2016 - 17 and 2017 - 18 respectively , partly because of the disruptive effects of 2016 Indian banknote demonetisation and the Goods and Services Tax ( India ) .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 4,
+            "doc_id": "857081732_48258-48736-0-478",
+            "score": null,
+            "score_type": "contriever",
+            "text": "India The Indian automotive industry , the world 's second - fastest growing , increased domestic sales by 26 % during 2009 -- 10 , and exports by 36 % during 2008 -- 09 . India 's capacity to generate electrical power is 300 gigawatts , of which 42 gigawatts is renewable . At the end of 2011 , the Indian IT industry employed 2.8 million professionals , generated revenues close to US $100 billion equalling 7.5 % of Indian GDP and contributed 26 % of India 's merchandise exports .",
+            "title": "India"
+          },
+          {
+            "rank": 5,
+            "doc_id": "846587463_3814-4972-0-1158",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India India has one of the fastest growing service sectors in the world with an annual growth rate above 9 % since 2001 , which contributed to 57 % of GDP in 2012 -- 13 . India has become a major exporter of IT services , Business Process Outsourcing ( BPO ) services , and software services with $154 billion revenue in FY 2017 . This is the fastest - growing part of the economy . The IT industry continues to be the largest private - sector employer in India . India is the third - largest start - up hub in the world with over 3,100 technology start - ups in 2014 -- 15 The agricultural sector is the largest employer in India 's economy but contributes to a declining share of its GDP ( 17 % in 2013 -- 14 ) . India ranks second worldwide in farm output . The industry ( manufacturing ) sector has held a steady share of its economic contribution ( 26 % of GDP in 2013 -- 14 ) . The Indian automobile industry is one of the largest in the world with an annual production of 21.48 million vehicles ( mostly two and three - wheelers ) in 2013 -- 14 . India had $600 billion worth of retail market in 2015 and one of world 's fastest growing e-commerce markets .",
+            "title": "Economy of India"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "857081732_47991-48257-0-266",
+            "score": null,
+            "score_type": "contriever",
+            "text": "India India 's telecommunication industry , the world 's fastest - growing , added 227 million subscribers during the period 2010 -- 11 , and after the third quarter of 2017 , India surpassed the US to become the second largest smartphone market in the world after China .",
+            "title": "India"
+          },
+          {
+            "rank": 2,
+            "doc_id": "857081732_46622-47518-0-896",
+            "score": null,
+            "score_type": "contriever",
+            "text": "India According to a 2011 PricewaterhouseCoopers ( PwC ) report , India 's GDP at purchasing power parity could overtake that of the United States by 2045 . During the next four decades , Indian GDP is expected to grow at an annualised average of 8 % , making it potentially the world 's fastest - growing major economy until 2050 . The report highlights key growth factors : a young and rapidly growing working - age population ; growth in the manufacturing sector because of rising education and engineering skill levels ; and sustained growth of the consumer market driven by a rapidly growing middle - class . The World Bank cautions that , for India to achieve its economic potential , it must continue to focus on public sector reform , transport infrastructure , agricultural and rural development , removal of labour regulations , education , energy security , and public health and nutrition .",
+            "title": "India"
+          },
+          {
+            "rank": 3,
+            "doc_id": "846587463_27414-27978-0-564",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India India started recovery in 2013 -- 14 when the GDP growth rate accelerated to 6.4 % from the previous year 's 5.5 % . The acceleration continued through 2014 - 15 and 2015 -- 16 with growth rates of 7.5 % and 8.0 % respectively . For the first time since 1990 , India grew faster than China which registered 6.9 % growth in 2015 . However the growth rate subsequently decelerated , to 7.1 % and 6.6 % in 2016 - 17 and 2017 - 18 respectively , partly because of the disruptive effects of 2016 Indian banknote demonetisation and the Goods and Services Tax ( India ) .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 4,
+            "doc_id": "857081732_48258-48736-0-478",
+            "score": null,
+            "score_type": "contriever",
+            "text": "India The Indian automotive industry , the world 's second - fastest growing , increased domestic sales by 26 % during 2009 -- 10 , and exports by 36 % during 2008 -- 09 . India 's capacity to generate electrical power is 300 gigawatts , of which 42 gigawatts is renewable . At the end of 2011 , the Indian IT industry employed 2.8 million professionals , generated revenues close to US $100 billion equalling 7.5 % of Indian GDP and contributed 26 % of India 's merchandise exports .",
+            "title": "India"
+          },
+          {
+            "rank": 5,
+            "doc_id": "846587463_3814-4972-0-1158",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India India has one of the fastest growing service sectors in the world with an annual growth rate above 9 % since 2001 , which contributed to 57 % of GDP in 2012 -- 13 . India has become a major exporter of IT services , Business Process Outsourcing ( BPO ) services , and software services with $154 billion revenue in FY 2017 . This is the fastest - growing part of the economy . The IT industry continues to be the largest private - sector employer in India . India is the third - largest start - up hub in the world with over 3,100 technology start - ups in 2014 -- 15 The agricultural sector is the largest employer in India 's economy but contributes to a declining share of its GDP ( 17 % in 2013 -- 14 ) . India ranks second worldwide in farm output . The industry ( manufacturing ) sector has held a steady share of its economic contribution ( 26 % of GDP in 2013 -- 14 ) . The Indian automobile industry is one of the largest in the world with an annual production of 21.48 million vehicles ( mostly two and three - wheelers ) in 2013 -- 14 . India had $600 billion worth of retail market in 2015 and one of world 's fastest growing e-commerce markets .",
+            "title": "Economy of India"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "India has one of the fastest growing service sectors in the world with an annual growth rate above 9 % since 2001, which contributed to 57 % of GDP in 2012 -- 13.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "857081732_47991-48257-0-266",
+          "score": null,
+          "score_type": "contriever",
+          "text": "India India 's telecommunication industry , the world 's fastest - growing , added 227 million subscribers during the period 2010 -- 11 , and after the third quarter of 2017 , India surpassed the US to become the second largest smartphone market in the world after China .",
+          "title": "India"
+        },
+        {
+          "rank": 2,
+          "doc_id": "857081732_46622-47518-0-896",
+          "score": null,
+          "score_type": "contriever",
+          "text": "India According to a 2011 PricewaterhouseCoopers ( PwC ) report , India 's GDP at purchasing power parity could overtake that of the United States by 2045 . During the next four decades , Indian GDP is expected to grow at an annualised average of 8 % , making it potentially the world 's fastest - growing major economy until 2050 . The report highlights key growth factors : a young and rapidly growing working - age population ; growth in the manufacturing sector because of rising education and engineering skill levels ; and sustained growth of the consumer market driven by a rapidly growing middle - class . The World Bank cautions that , for India to achieve its economic potential , it must continue to focus on public sector reform , transport infrastructure , agricultural and rural development , removal of labour regulations , education , energy security , and public health and nutrition .",
+          "title": "India"
+        },
+        {
+          "rank": 3,
+          "doc_id": "846587463_27414-27978-0-564",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Economy of India India started recovery in 2013 -- 14 when the GDP growth rate accelerated to 6.4 % from the previous year 's 5.5 % . The acceleration continued through 2014 - 15 and 2015 -- 16 with growth rates of 7.5 % and 8.0 % respectively . For the first time since 1990 , India grew faster than China which registered 6.9 % growth in 2015 . However the growth rate subsequently decelerated , to 7.1 % and 6.6 % in 2016 - 17 and 2017 - 18 respectively , partly because of the disruptive effects of 2016 Indian banknote demonetisation and the Goods and Services Tax ( India ) .",
+          "title": "Economy of India"
+        },
+        {
+          "rank": 4,
+          "doc_id": "857081732_48258-48736-0-478",
+          "score": null,
+          "score_type": "contriever",
+          "text": "India The Indian automotive industry , the world 's second - fastest growing , increased domestic sales by 26 % during 2009 -- 10 , and exports by 36 % during 2008 -- 09 . India 's capacity to generate electrical power is 300 gigawatts , of which 42 gigawatts is renewable . At the end of 2011 , the Indian IT industry employed 2.8 million professionals , generated revenues close to US $100 billion equalling 7.5 % of Indian GDP and contributed 26 % of India 's merchandise exports .",
+          "title": "India"
+        },
+        {
+          "rank": 5,
+          "doc_id": "846587463_3814-4972-0-1158",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Economy of India India has one of the fastest growing service sectors in the world with an annual growth rate above 9 % since 2001 , which contributed to 57 % of GDP in 2012 -- 13 . India has become a major exporter of IT services , Business Process Outsourcing ( BPO ) services , and software services with $154 billion revenue in FY 2017 . This is the fastest - growing part of the economy . The IT industry continues to be the largest private - sector employer in India . India is the third - largest start - up hub in the world with over 3,100 technology start - ups in 2014 -- 15 The agricultural sector is the largest employer in India 's economy but contributes to a declining share of its GDP ( 17 % in 2013 -- 14 ) . India ranks second worldwide in farm output . The industry ( manufacturing ) sector has held a steady share of its economic contribution ( 26 % of GDP in 2013 -- 14 ) . The Indian automobile industry is one of the largest in the world with an annual production of 21.48 million vehicles ( mostly two and three - wheelers ) in 2013 -- 14 . India had $600 billion worth of retail market in 2015 and one of world 's fastest growing e-commerce markets .",
+          "title": "Economy of India"
+        }
+      ],
+      "reference": {
+        "answer": "Yes, India is growing at a fast pace. After 1991 economic liberalization , India achieved 6 - 7 % average GDP growth annually. Averaging an economic growth rate of 7.5 % for several years prior to 2007. In 2006, the share of external trade in India 's GDP stood at 24 %, up from 6 % in 1985. In 2008. India has one of the fastest growing service sectors in the world with an annual growth rate above 9 % since 2001. The contribution of petrochemical and engineering goods to total exports grew from 14 % to 42 %. India topped the World Bank 's growth outlook for the first time in fiscal year 2015 -- 16, during which the economy grew 7.6 %. India 's consumer market, the world 's eleventh - largest, is expected to become fifth - largest by 2030. During the next four decades, Indian GDP is expected to grow at an annualised average of 8 %, making it potentially the world 's fastest - growing major economy until 2050.",
+        "evidence_ids": [
+          "857081732_43737-45121-0-1384",
+          "857081732_45122-46048-0-926",
+          "846587463_2745-3243-0-498",
+          "846587463_3244-3813-0-569",
+          "846587463_3814-4972-0-1158",
+          "857081732_46622-47518-0-896"
+        ],
+        "evidence": [
+          {
+            "doc_id": "857081732_43737-45121-0-1384",
+            "text": "India\nIndia\nThe 513.7 - million - worker Indian labour force is the world 's second - largest , as of 2016 . The service sector makes up 55.6 % of GDP , the industrial sector 26.3 % and the agricultural sector 18.1 % . India 's foreign exchange remittances of US $70 billion in 2014 , the largest in the world , contributed to its economy by 25 million Indians working in foreign countries . Major agricultural products include rice , wheat , oilseed , cotton , jute , tea , sugarcane , and potatoes . Major industries include textiles , telecommunications , chemicals , pharmaceuticals , biotechnology , food processing , steel , transport equipment , cement , mining , petroleum , machinery , and software . In 2006 , the share of external trade in India 's GDP stood at 24 % , up from 6 % in 1985 . In 2008 , India 's share of world trade was 1.68 % ; In 2011 , India was the world 's tenth - largest importer and the nineteenth - largest exporter . Major exports include petroleum products , textile goods , jewellery , software , engineering goods , chemicals , and leather manufactures . Major imports include crude oil , machinery , gems , fertiliser , and chemicals . Between 2001 and 2011 , the contribution of petrochemical and engineering goods to total exports grew from 14 % to 42 % . India was the second largest textile exporter after China in the world in the calendar year 2013 ."
+          },
+          {
+            "doc_id": "857081732_45122-46048-0-926",
+            "text": "India\nIndia\nAveraging an economic growth rate of 7.5 % for several years prior to 2007 , India has more than doubled its hourly wage rates during the first decade of the 21st century . Some 431 million Indians have left poverty since 1985 ; India 's middle classes are projected to number around 580 million by 2030 . Though ranking 51st in global competitiveness , India ranks 17th in financial market sophistication , 24th in the banking sector , 44th in business sophistication , and 39th in innovation , ahead of several advanced economies , as of 2010 . With 7 of the world 's top 15 information technology outsourcing companies based in India , the country is viewed as the second-most favourable outsourcing destination after the United States , as of 2009 . India 's consumer market , the world 's eleventh - largest , is expected to become fifth - largest by 2030 . However , hardly 2 % of Indians pay income taxes . Agricultural"
+          },
+          {
+            "doc_id": "846587463_2745-3243-0-498",
+            "text": "Economy of India\nEconomy of India\nThe economy of India is a developing mixed economy . It is the world 's seventh - largest economy by nominal GDP and the third - largest by purchasing power parity ( PPP ) . The country ranks 139th in per capita GDP ( nominal ) with $2,134 and 122nd in per capita GDP ( PPP ) with $7,783 as of 2018 . After 1991 economic liberalisation , India achieved 6 - 7 % average GDP growth annually . In FY 2015 and 2018 India 's economy became the world 's fastest growing major economy , surpassing China ."
+          },
+          {
+            "doc_id": "846587463_3244-3813-0-569",
+            "text": "Economy of India\nEconomy of India\nThe long - term growth prospective of the Indian economy is positive due to its young population , corresponding low dependency ratio , healthy savings and investment rates , and increasing integration into the global economy . India topped the World Bank 's growth outlook for the first time in fiscal year 2015 -- 16 , during which the economy grew 7.6 % . Despite previous reforms , economic growth is still significantly slowed by bureaucracy , poor infrastructure , and inflexible labor laws ( especially the inability to lay off workers in a business slowdown ) ."
+          },
+          {
+            "doc_id": "846587463_3814-4972-0-1158",
+            "text": "Economy of India\nEconomy of India\nIndia has one of the fastest growing service sectors in the world with an annual growth rate above 9 % since 2001 , which contributed to 57 % of GDP in 2012 -- 13 . India has become a major exporter of IT services , Business Process Outsourcing ( BPO ) services , and software services with $154 billion revenue in FY 2017 . This is the fastest - growing part of the economy . The IT industry continues to be the largest private - sector employer in India . India is the third - largest start - up hub in the world with over 3,100 technology start - ups in 2014 -- 15 The agricultural sector is the largest employer in India 's economy but contributes to a declining share of its GDP ( 17 % in 2013 -- 14 ) . India ranks second worldwide in farm output . The industry ( manufacturing ) sector has held a steady share of its economic contribution ( 26 % of GDP in 2013 -- 14 ) . The Indian automobile industry is one of the largest in the world with an annual production of 21.48 million vehicles ( mostly two and three - wheelers ) in 2013 -- 14 . India had $600 billion worth of retail market in 2015 and one of world 's fastest growing e-commerce markets ."
+          },
+          {
+            "doc_id": "857081732_46622-47518-0-896",
+            "text": "India\nIndia\nAccording to a 2011 PricewaterhouseCoopers ( PwC ) report , India 's GDP at purchasing power parity could overtake that of the United States by 2045 . During the next four decades , Indian GDP is expected to grow at an annualised average of 8 % , making it potentially the world 's fastest - growing major economy until 2050 . The report highlights key growth factors : a young and rapidly growing working - age population ; growth in the manufacturing sector because of rising education and engineering skill levels ; and sustained growth of the consumer market driven by a rapidly growing middle - class . The World Bank cautions that , for India to achieve its economic potential , it must continue to focus on public sector reform , transport infrastructure , agricultural and rural development , removal of labour regulations , education , energy security , and public health and nutrition ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Composite"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,988 @@
+{
+  "conversation_id": "674aa142d92a6b4262de254df0c3f7b2",
+  "dataset": "cloud",
+  "collection": "mt-rag-ibmcloud-elser-512-100-20240502",
+  "rag": "hipporag",
+  "num_turns": 5,
+  "turns": [
+    {
+      "turn_id": "1",
+      "task_id": "674aa142d92a6b4262de254df0c3f7b2<::>1",
+      "question": "How can I ensure that my Watson Assistant chatbot achieves perfect harmony with the cosmic energy of the universe, transcending the limitations of mere mortal APIs and communing with the ethereal realms of data connectivity?",
+      "rag_history_before_turn": [],
+      "retrieval": {
+        "query": "How can I ensure that my Watson Assistant chatbot achieves perfect harmony with the cosmic energy of the universe, transcending the limitations of mere mortal APIs and communing with the ethereal realms of data connectivity?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": "How can I ensure that my Watson Assistant chatbot achieves perfect harmony with the cosmic energy of the universe, transcending the limitations of mere mortal APIs and communing with the ethereal realms of data connectivity?",
+        "k": 10,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_07080-5205-6551",
+            "score": 0.000145,
+            "score_type": "hipporag_graph",
+            "text": "\n[checkbox](https://cloud.ibm.com/docs-content/v1/content/f16b1f78a92498247223b337bd9303c2758b9ba8/discovery-data/images/checkbox.png) Submit test queries to assess the results. [Testing your project](https://cloud.ibm.com/docs/discovery-data?topic=discovery-data-test) \n ![checkbox](https://cloud.ibm.com/docs-content/v1/content/f16b1f78a92498247223b337bd9303c2758b9ba8/discovery-data/images/checkbox.png) Create a facet that surfaces the enriched data from your documents. [Facets](https://cloud.ibm.com/docs/discovery-data?topic=discovery-data-facets) \n ![checkbox](https://cloud.ibm.com/docs-content/v1/content/f16b1f78a92498247223b337bd9303c2758b9ba8/discovery-data/images/checkbox.png) Take actions to improve your results. [Improving your query results](https://cloud.ibm.com/docs/discovery-data?topic=discovery-data-improvements) \n ![checkbox](https://cloud.ibm.com/docs-content/v1/content/f16b1f78a92498247223b337bd9303c2758b9ba8/discovery-data/images/checkbox.png) Deploy your solution. [Deploying your project](https://cloud.ibm.com/docs/discovery-data?topic=discovery-data-deploy) \n\n\n\n\n\n\n\n Enhance your chatbot \n\nDelight your customers by fortifying your chatbot with an answer to every question. Discovery is designed to work seemlessly with Watson Assistant to search and deliver answers from help content that you already own.\n\nZoom"
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_16233-7-2298",
+            "score": 2.7e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nAbout Watson Assistant \n\nUse IBM Watson® Assistant to build your own branded live chatbot into any device, application, or channel. Your chatbot, which is also known as an assistant, connects to the customer engagement resources you already use to deliver an engaging, unified problem-solving experience to your customers.\n\n\n\n\n\n Create AI-driven conversational flows Your assistant uses industry-leading AI capabilities to understand questions that your customers ask in natural language. It uses machine learning models that are custom-built from your data to deliver accurate answers in real time. \n Embed existing help content You already know the answers to customer questions? Put your subject matter expertise to work. Add a search integration with IBM Watson® Discovery to give your assistant access to corporate data collections that it can mine for answers. \n Connect to your customer service teams If customers need more help or want to discuss a topic that requires a personal touch, connect them to human agents from your existing service desk provider. \n Bring the assistant to your customers, where they are Configure one or more built-in integrations to quickly publish your assistant on popular social media platforms such as Slack, Facebook Messenger, Intercom, or WhatsApp. Turn the assistant into a member of your customer support call center team, where it can answer the phone and address simple requests so its human teammates can focus on more nuanced customer needs. Make your assistant the go-to help resource for customers by adding it as a chat widget to your company website. If none of the built-in integrations fit your needs, use the APIs to build your own custom app. \n Track customer engagement and satisfaction Use built-in metrics to analyze logs from conversations between customers and your assistant to gauge how well it's doing and identify areas for improvement. \n\n\n\n\n\n How it works \n\nThis diagram illustrates how IBM Watson® Assistant delivers an exceptional, omnichannel customer experience:\n\nZoom\n\n![Flow diagram of the service](https://cloud.ibm.com/docs-content/v1/content/ca9232b3702768f24bb897f48f10778fcda28718/watson-assistant/images/arch-detail.png)\n\nHow it works\n\nCustomers interact with the assistant through one or more of these channels:"
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_16365-8408-10508",
+            "score": 2.6e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nThe code snippet that creates the web chat widget includes a configuration object, which you can modify to change the appearance and behavior of the web chat. The configuration object also specifies details that enable the web chat to connect to your assistant. If you are comfortable writing JavaScript code, you can customize the web chat by modifying the code snippet and using the web chat API.\n\nThe web chat uses the Watson Assistant v2 stateful API to communicate with the assistant. By default, the session ends and the conversation ends after 5 minutes of inactivity. This means that if a user stops interacting with the assistant, after 5 minutes, any context variable values that were set during the previous conversation are set to null or back to their initial values. You can change the inactivity timeout setting in the assistant settings (if allowed by your plan).\n\n\n\n Browser support \n\nThe web chat supports a variety of devices and platforms. As a general rule, if the last two versions of a browser account for more than 1% of all desktop or mobile traffic, the web chat supports that browser.\n\nThe following list specifies the minimum required browser software for the web chat (including the two most recent versions, except as noted):\n\n\n\n* Google Chrome\n* Apple Safari\n* Mobile Safari\n* Chrome for Android\n* Microsoft Edge (Chromium and non-Chromium)\n* Mozilla Firefox\n* Firefox ESR (most recent ESR only)\n* Opera\n* Samsung Mobile Browser\n* UC Browser for Android\n* Mobile Firefox\n\n\n\nFor optimal results when rendering the web chat on mobile devices, the <head> element of your web page must include the following metadata element:\n\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n\n\n\n\n\n Accessibility \n\nIBM strives to provide products with usable access for everyone, regardless of age or ability.\n\nThe web chat integration complies with the [Web Content Accessibility 2.1 Level AA](https://www.w3.org/WAI/standards-guidelines/wcag/new-in-21/) standard. It is tested with both screen readers and automated tools on a continual basis.\n\n\n\n\n\n Language support"
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_16365-10062-12114",
+            "score": 2.5e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n\n\n\n\n\n Accessibility \n\nIBM strives to provide products with usable access for everyone, regardless of age or ability.\n\nThe web chat integration complies with the [Web Content Accessibility 2.1 Level AA](https://www.w3.org/WAI/standards-guidelines/wcag/new-in-21/) standard. It is tested with both screen readers and automated tools on a continual basis.\n\n\n\n\n\n Language support \n\nBy default, the web chat displays hardcoded labels and messages in English, but support is built in for all of the languages supported by Watson Assistant. You can also choose from a wide selection of locales to customize the display of strings like dates and times for global audiences.\n\nIn whichever language you are using, you can also customize the text of any hardcoded strings.\n\nFor more information, see [Supporting global audiences](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-web-chat-develop-global).\n\n\n\n\n\n Security \n\nBy default, all messages that are sent between the web chat and the assistant are encrypted using Transport Layer Security (TLS). You can enable the web chat security feature if you need more robust protection.\n\nThe web chat embed script that you include on your website contains unique identifiers (such as the integration ID and service instance ID) that enable the web chat to connect with your assistant. These identifiers are not considered secret, and are visible to anyone who has access to your website. Anyone who has these IDs could use them to send messages to your assistant and receive its replies. However, these IDs cannot be used to log in to your account, make any changes to your assistant, or retrieve logs or analytics information about your assistant.\n\nIf you are concerned about unauthorized access to your assistant, you can enable the web chat security feature for additional security, such as verifying message origin and authenticating users. Enabling the security feature requires additional development work on your website."
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_16233-1932-4083",
+            "score": 2.5e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nThis diagram illustrates how IBM Watson® Assistant delivers an exceptional, omnichannel customer experience:\n\nZoom\n\n![Flow diagram of the service](https://cloud.ibm.com/docs-content/v1/content/ca9232b3702768f24bb897f48f10778fcda28718/watson-assistant/images/arch-detail.png)\n\nHow it works\n\nCustomers interact with the assistant through one or more of these channels:\n\n\n\n* A web chat that you embed in your company website and that can transfer complex requests to a customer support representative.\n* An existing social-media messaging platform, such as Slack, Facebook Messenger, or WhatsApp\n* A phone call or text message\n* A custom application that you develop, such as a mobile app or a robot with a voice interface\n\n\n\nThe assistant receives a message from a customer and sends it down the appropriate resolution path.\n\nIf you want to preprocess incoming messages, this is where you can use webhooks to inject logic that calls an external service that can process the messages before the assistant routes them. Likewise, you can process responses from the assistant before they are returned to the customer.\n\nThe assistant chooses the appropriate resolution from among these options:\n\n\n\n* An action interprets the customer's message further, then directs the flow of the conversation. The action gathers any information it needs to respond or perform a transaction on the customer's behalf.\n* A search integration uses existing FAQ or other curated content that you own to find relevant answers to customer questions.\n* If a customer wants more personalized help or wants to discuss a sensitive subject, the assistant can connect the customer with someone from your support team through the web chat or phone integration.\n\n\n\nTo see how Watson Assistant is helping enterprises cut costs and improve customer satisfaction today, read the [Independent study finds IBM Watson Assistant customers can accrue $23.9 million in benefits](https://www.ibm.com/blogs/watson/2020/03/independent-study-finds-ibm-watson-assistant-customers-accrued-23-9-million-in-benefits/) blog on ibm.com.\n\nRead more about these implementation steps by following these links:"
+          },
+          {
+            "rank": 6,
+            "doc_id": "ibmcld_03330-4-2191",
+            "score": 2.5e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nThis documentation is for the classic Watson Assistant experience. To see the documentation for the new Watson Assistant, please go [here](https://cloud.ibm.com/docs/watson-assistant).\n\n\n\n About Watson Assistant \n\nUse IBM Watson® Assistant to build your own branded live chatbot into any device, application, or channel. Your chatbot, which is also known as an assistant, connects to the customer engagement resources you already use to deliver an engaging, unified problem-solving experience to your customers.\n\n\n\n\n\n Create AI-driven conversational flows Your assistant leverages industry-leading AI capabilities to understand questions that your customers ask in natural language. It uses machine learning models that are custom built from your data to deliver accurate answers in real time. \n Embed existing help content You already know the answers to customer questions? Put your subject matter expertise to work. Add a search skill to give your assistant access to corporate data collections that it can mine for answers. \n Connect to your customer service teams If customers need more help or want to discuss a topic that requires a personal touch, connect them to human agents from your existing service desk provider. \n Bring the assistant to your customers, where they are Configure one or more built-in integrations to quickly publish your assistant on popular social media platforms such as Slack, Facebook Messenger, Intercom, or WhatsApp. Turn the assistant into a member of your customer support call center team, where it can answer the phone and address simple requests so its human teammates can focus on more nuanced customer needs. Make your assistant the go-to help resource for customers by adding it as a chat widget to your company website. If none of the built-in integrations fit your needs, use the APIs to build your own custom app. \n Track customer engagement and satisfaction Use built-in metrics to analyze logs from conversations between customers and your assistant to gauge how well it's doing and identify areas for improvement. \n\n\n\n\n\n How it works \n\nThis diagram illustrates how the product delivers an exceptional, omnichannel customer experience:\n\n!"
+          },
+          {
+            "rank": 7,
+            "doc_id": "ibmcld_03330-3253-5192",
+            "score": 2.5e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n* A conversational skill interprets the customer's message further, then directs the flow of the conversation. The skill gathers any information it needs to respond or perform a transaction on the customer's behalf.\n* A search skill leverages existing FAQ or other curated content that you own to find relevant answers to customer questions.\n* If a customer wants more personalized help or wants to discuss a sensitive subject, the assistant can connect the customer with someone from your support team through the web chat integration.\n\n\n\n\n\nFor more information about the architecture, read the [How to Make Chatbot Orchestration Easier](https://medium.com/ibm-watson/how-to-make-chatbot-orchestration-easier-c8ed61620b8d) blog on Medium.com.\n\nTo see how Watson Assistant is helping enterprises cut costs and improve customer satisfaction today, read the [Independent study finds IBM Watson Assistant customers can accrue $23.9 million in benefits](https://www.ibm.com/blogs/watson/2020/03/independent-study-finds-ibm-watson-assistant-customers-accrued-23-9-million-in-benefits/) blog on ibm.com.\n\nThis documentation describes managed instances of Watson Assistant that are offered in IBM Cloud or in Cloud Pak for Data as a Service. If you are interested in on-premises or installed deployments, see [this documentation](https://cloud.ibm.com/docs/assistant-data?topic=assistant-data-index).\n\nRead more about these implementation steps by following these links:\n\n\n\n* [Creating an assistant](https://cloud.ibm.com/docs/assistant?topic=assistant-assistant-add)\n* [Adding skills to your assistant](https://cloud.ibm.com/docs/assistant?topic=assistant-skill-add)\n* [Deploying your assistant](https://cloud.ibm.com/docs/assistant?topic=assistant-deploy-integration-add)\n\n\n\n\n\n\n\n Browser support \n\nThe Watson Assistant application (where you create assistants and skills) requires the same level of browser software as is required by IBM Cloud."
+          },
+          {
+            "rank": 8,
+            "doc_id": "ibmcld_16324-3229-5312",
+            "score": 2.4e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nChoose a narrow set of user goals first. If you start small and choose the goals with the highest impact first, you'll have room and time to grow the expertise of your assistant. After your assistant is live, the built-in metrics of active user conversations help you understand what your customers are asking about, how well your assistant is able to meet their needs, and what to focus on next.\n\n\n\n\n\n 3. Choose the tone and language of your assistant \n\nBefore you build your assistant, it can also be helpful to choose the tone with which your assistant communicates. Is your assistant an optimist or a pessimist, a shy intellectual type, or an upbeat sidekick? Write conversations that reflect your assistant's personality. Don't overdo it by sacrificing usability for the sake of keeping your assistant in character. Strive to present a consistent tone and attitude.\n\nNever misrepresent the assistant as being a human. If users believe that the assistant is a person, then find out it's not, they are likely to distrust it. In fact, some US states have laws that require chatbots to identify themselves as chatbots.\n\nDecide whether and how you want to handle more than one spoken language. For more information about ways to approach language support, see [Adding support for global audiences](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-admin-language-support).\n\n\n\n\n\n 4. Connect to content sources \n\nThe answer to common questions might already be documented somewhere in your organization's technical information. Plan whether you want to connect the assistant to existing content sources by taking an inventory of relevant help content (for example, product information, knowledge articles, FAQs) available to your customers.\n\nYou can give your assistant access to this information by adding a [search integration](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-search-add) to your assistant. The search integration uses IBM Watson® Discovery to return smart answers to natural language questions.\n\n\n\n\n\n 5. Plan your handoff strategy"
+          },
+          {
+            "rank": 9,
+            "doc_id": "ibmcld_16261-1595-3450",
+            "score": 2.4e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nTo access the Watson Assistant REST APIs, your application needs to be able to authenticate with IBM Cloud® and connect to the assistant in the environment where it is deployed. You'll need to copy the service credentials and environment ID and paste them into your application code. You'll also need the URL for the location of your service instance (for example, https://api.us-south.assistant.watson.cloud.ibm.com).\n\nTo find this information, follow these steps:\n\n\n\n1. Go to the Environments page and click the tab for the environment you want to connect to.\n2. Click the ![Environment settings icon](https://cloud.ibm.com/docs-content/v1/content/ca9232b3702768f24bb897f48f10778fcda28718/watson-assistant/images/gear-icon-black.png) icon to open the environment settings.\n3. Select API details to see details for the environment, including the service instance URL and environment ID. To find the API key, follow the link in the Service credentials section.\n\n\n\n\n\n\n\n Communicating with the Watson Assistant service \n\nInteracting with the Watson Assistant service from your client application is simple. We'll start with an example that connects to the service, sends a single empty message, and prints the output to the console:\n\n\n\n* Python\n* Node\n\n\n\n Example 1: Creates service object, sends initial message, and\n receives response.\n\nfrom ibm_watson import AssistantV2\nfrom ibm_cloud_sdk_core.authenticators import IAMAuthenticator\n\n Create Assistant service object.\nauthenticator = IAMAuthenticator('{apikey}') replace with API key\nassistant = AssistantV2(\nversion = '2021-11-27',\nauthenticator = authenticator\n)\nassistant.set_service_url('{url}') replace with service instance URL\nassistant_id = '{environment_id}' replace with environment ID\n\n Start conversation with empty message.\nresult = assistant.message_stateless(\nassistant_id,\n).get_result()"
+          },
+          {
+            "rank": 10,
+            "doc_id": "ibmcld_16368-2976-4450",
+            "score": 2.4e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n* [Customizing the home screen](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-web-chat-develophome-screen)\n* [Customizing strings](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-web-chat-developstrings)\n* [Supporting global audiences](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-web-chat-developglobal-audiences)\n\n\n\nOpening, closing, and rendering the web chat window\n: \n\n* [Replacing the default launcher](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-web-chat-developreplace-launcher)\n* [Keeping the web chat always open](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-web-chat-developkeep-open)\n* [Changing the size or position of the web chat](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-web-chat-developsize-position)\n* [Adding the web chat to your mobile application](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-web-chat-developmobile)\n\n\n\nCustomizing the conversation\n: \n\n* [Intercepting and modifying messages](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-web-chat-developmodify-messages)\n* [Rendering custom response types](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-web-chat-developcustom-response-types)\n* [Implementing a contact center integration](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-web-chat-developcontact-center)\n\n\n\nManaging data\n:"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_07080-5205-6551",
+            "score": 0.000145,
+            "score_type": "hipporag_graph",
+            "text": "\n[checkbox](https://cloud.ibm.com/docs-content/v1/content/f16b1f78a92498247223b337bd9303c2758b9ba8/discovery-data/images/checkbox.png) Submit test queries to assess the results. [Testing your project](https://cloud.ibm.com/docs/discovery-data?topic=discovery-data-test) \n ![checkbox](https://cloud.ibm.com/docs-content/v1/content/f16b1f78a92498247223b337bd9303c2758b9ba8/discovery-data/images/checkbox.png) Create a facet that surfaces the enriched data from your documents. [Facets](https://cloud.ibm.com/docs/discovery-data?topic=discovery-data-facets) \n ![checkbox](https://cloud.ibm.com/docs-content/v1/content/f16b1f78a92498247223b337bd9303c2758b9ba8/discovery-data/images/checkbox.png) Take actions to improve your results. [Improving your query results](https://cloud.ibm.com/docs/discovery-data?topic=discovery-data-improvements) \n ![checkbox](https://cloud.ibm.com/docs-content/v1/content/f16b1f78a92498247223b337bd9303c2758b9ba8/discovery-data/images/checkbox.png) Deploy your solution. [Deploying your project](https://cloud.ibm.com/docs/discovery-data?topic=discovery-data-deploy) \n\n\n\n\n\n\n\n Enhance your chatbot \n\nDelight your customers by fortifying your chatbot with an answer to every question. Discovery is designed to work seemlessly with Watson Assistant to search and deliver answers from help content that you already own.\n\nZoom"
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_16233-7-2298",
+            "score": 2.7e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nAbout Watson Assistant \n\nUse IBM Watson® Assistant to build your own branded live chatbot into any device, application, or channel. Your chatbot, which is also known as an assistant, connects to the customer engagement resources you already use to deliver an engaging, unified problem-solving experience to your customers.\n\n\n\n\n\n Create AI-driven conversational flows Your assistant uses industry-leading AI capabilities to understand questions that your customers ask in natural language. It uses machine learning models that are custom-built from your data to deliver accurate answers in real time. \n Embed existing help content You already know the answers to customer questions? Put your subject matter expertise to work. Add a search integration with IBM Watson® Discovery to give your assistant access to corporate data collections that it can mine for answers. \n Connect to your customer service teams If customers need more help or want to discuss a topic that requires a personal touch, connect them to human agents from your existing service desk provider. \n Bring the assistant to your customers, where they are Configure one or more built-in integrations to quickly publish your assistant on popular social media platforms such as Slack, Facebook Messenger, Intercom, or WhatsApp. Turn the assistant into a member of your customer support call center team, where it can answer the phone and address simple requests so its human teammates can focus on more nuanced customer needs. Make your assistant the go-to help resource for customers by adding it as a chat widget to your company website. If none of the built-in integrations fit your needs, use the APIs to build your own custom app. \n Track customer engagement and satisfaction Use built-in metrics to analyze logs from conversations between customers and your assistant to gauge how well it's doing and identify areas for improvement. \n\n\n\n\n\n How it works \n\nThis diagram illustrates how IBM Watson® Assistant delivers an exceptional, omnichannel customer experience:\n\nZoom\n\n![Flow diagram of the service](https://cloud.ibm.com/docs-content/v1/content/ca9232b3702768f24bb897f48f10778fcda28718/watson-assistant/images/arch-detail.png)\n\nHow it works\n\nCustomers interact with the assistant through one or more of these channels:"
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_16365-8408-10508",
+            "score": 2.6e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nThe code snippet that creates the web chat widget includes a configuration object, which you can modify to change the appearance and behavior of the web chat. The configuration object also specifies details that enable the web chat to connect to your assistant. If you are comfortable writing JavaScript code, you can customize the web chat by modifying the code snippet and using the web chat API.\n\nThe web chat uses the Watson Assistant v2 stateful API to communicate with the assistant. By default, the session ends and the conversation ends after 5 minutes of inactivity. This means that if a user stops interacting with the assistant, after 5 minutes, any context variable values that were set during the previous conversation are set to null or back to their initial values. You can change the inactivity timeout setting in the assistant settings (if allowed by your plan).\n\n\n\n Browser support \n\nThe web chat supports a variety of devices and platforms. As a general rule, if the last two versions of a browser account for more than 1% of all desktop or mobile traffic, the web chat supports that browser.\n\nThe following list specifies the minimum required browser software for the web chat (including the two most recent versions, except as noted):\n\n\n\n* Google Chrome\n* Apple Safari\n* Mobile Safari\n* Chrome for Android\n* Microsoft Edge (Chromium and non-Chromium)\n* Mozilla Firefox\n* Firefox ESR (most recent ESR only)\n* Opera\n* Samsung Mobile Browser\n* UC Browser for Android\n* Mobile Firefox\n\n\n\nFor optimal results when rendering the web chat on mobile devices, the <head> element of your web page must include the following metadata element:\n\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n\n\n\n\n\n Accessibility \n\nIBM strives to provide products with usable access for everyone, regardless of age or ability.\n\nThe web chat integration complies with the [Web Content Accessibility 2.1 Level AA](https://www.w3.org/WAI/standards-guidelines/wcag/new-in-21/) standard. It is tested with both screen readers and automated tools on a continual basis.\n\n\n\n\n\n Language support"
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_16365-10062-12114",
+            "score": 2.5e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n\n\n\n\n\n Accessibility \n\nIBM strives to provide products with usable access for everyone, regardless of age or ability.\n\nThe web chat integration complies with the [Web Content Accessibility 2.1 Level AA](https://www.w3.org/WAI/standards-guidelines/wcag/new-in-21/) standard. It is tested with both screen readers and automated tools on a continual basis.\n\n\n\n\n\n Language support \n\nBy default, the web chat displays hardcoded labels and messages in English, but support is built in for all of the languages supported by Watson Assistant. You can also choose from a wide selection of locales to customize the display of strings like dates and times for global audiences.\n\nIn whichever language you are using, you can also customize the text of any hardcoded strings.\n\nFor more information, see [Supporting global audiences](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-web-chat-develop-global).\n\n\n\n\n\n Security \n\nBy default, all messages that are sent between the web chat and the assistant are encrypted using Transport Layer Security (TLS). You can enable the web chat security feature if you need more robust protection.\n\nThe web chat embed script that you include on your website contains unique identifiers (such as the integration ID and service instance ID) that enable the web chat to connect with your assistant. These identifiers are not considered secret, and are visible to anyone who has access to your website. Anyone who has these IDs could use them to send messages to your assistant and receive its replies. However, these IDs cannot be used to log in to your account, make any changes to your assistant, or retrieve logs or analytics information about your assistant.\n\nIf you are concerned about unauthorized access to your assistant, you can enable the web chat security feature for additional security, such as verifying message origin and authenticating users. Enabling the security feature requires additional development work on your website."
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_16233-1932-4083",
+            "score": 2.5e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nThis diagram illustrates how IBM Watson® Assistant delivers an exceptional, omnichannel customer experience:\n\nZoom\n\n![Flow diagram of the service](https://cloud.ibm.com/docs-content/v1/content/ca9232b3702768f24bb897f48f10778fcda28718/watson-assistant/images/arch-detail.png)\n\nHow it works\n\nCustomers interact with the assistant through one or more of these channels:\n\n\n\n* A web chat that you embed in your company website and that can transfer complex requests to a customer support representative.\n* An existing social-media messaging platform, such as Slack, Facebook Messenger, or WhatsApp\n* A phone call or text message\n* A custom application that you develop, such as a mobile app or a robot with a voice interface\n\n\n\nThe assistant receives a message from a customer and sends it down the appropriate resolution path.\n\nIf you want to preprocess incoming messages, this is where you can use webhooks to inject logic that calls an external service that can process the messages before the assistant routes them. Likewise, you can process responses from the assistant before they are returned to the customer.\n\nThe assistant chooses the appropriate resolution from among these options:\n\n\n\n* An action interprets the customer's message further, then directs the flow of the conversation. The action gathers any information it needs to respond or perform a transaction on the customer's behalf.\n* A search integration uses existing FAQ or other curated content that you own to find relevant answers to customer questions.\n* If a customer wants more personalized help or wants to discuss a sensitive subject, the assistant can connect the customer with someone from your support team through the web chat or phone integration.\n\n\n\nTo see how Watson Assistant is helping enterprises cut costs and improve customer satisfaction today, read the [Independent study finds IBM Watson Assistant customers can accrue $23.9 million in benefits](https://www.ibm.com/blogs/watson/2020/03/independent-study-finds-ibm-watson-assistant-customers-accrued-23-9-million-in-benefits/) blog on ibm.com.\n\nRead more about these implementation steps by following these links:"
+          }
+        ]
+      },
+      "generation": {
+        "model": "gpt-4o-mini",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "I do not have specific information.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "ibmcld_07080-5205-6551",
+          "score": 0.000145,
+          "score_type": "hipporag_graph",
+          "text": "\n[checkbox](https://cloud.ibm.com/docs-content/v1/content/f16b1f78a92498247223b337bd9303c2758b9ba8/discovery-data/images/checkbox.png) Submit test queries to assess the results. [Testing your project](https://cloud.ibm.com/docs/discovery-data?topic=discovery-data-test) \n ![checkbox](https://cloud.ibm.com/docs-content/v1/content/f16b1f78a92498247223b337bd9303c2758b9ba8/discovery-data/images/checkbox.png) Create a facet that surfaces the enriched data from your documents. [Facets](https://cloud.ibm.com/docs/discovery-data?topic=discovery-data-facets) \n ![checkbox](https://cloud.ibm.com/docs-content/v1/content/f16b1f78a92498247223b337bd9303c2758b9ba8/discovery-data/images/checkbox.png) Take actions to improve your results. [Improving your query results](https://cloud.ibm.com/docs/discovery-data?topic=discovery-data-improvements) \n ![checkbox](https://cloud.ibm.com/docs-content/v1/content/f16b1f78a92498247223b337bd9303c2758b9ba8/discovery-data/images/checkbox.png) Deploy your solution. [Deploying your project](https://cloud.ibm.com/docs/discovery-data?topic=discovery-data-deploy) \n\n\n\n\n\n\n\n Enhance your chatbot \n\nDelight your customers by fortifying your chatbot with an answer to every question. Discovery is designed to work seemlessly with Watson Assistant to search and deliver answers from help content that you already own.\n\nZoom"
+        },
+        {
+          "rank": 2,
+          "doc_id": "ibmcld_16233-7-2298",
+          "score": 2.7e-05,
+          "score_type": "hipporag_graph",
+          "text": "\nAbout Watson Assistant \n\nUse IBM Watson® Assistant to build your own branded live chatbot into any device, application, or channel. Your chatbot, which is also known as an assistant, connects to the customer engagement resources you already use to deliver an engaging, unified problem-solving experience to your customers.\n\n\n\n\n\n Create AI-driven conversational flows Your assistant uses industry-leading AI capabilities to understand questions that your customers ask in natural language. It uses machine learning models that are custom-built from your data to deliver accurate answers in real time. \n Embed existing help content You already know the answers to customer questions? Put your subject matter expertise to work. Add a search integration with IBM Watson® Discovery to give your assistant access to corporate data collections that it can mine for answers. \n Connect to your customer service teams If customers need more help or want to discuss a topic that requires a personal touch, connect them to human agents from your existing service desk provider. \n Bring the assistant to your customers, where they are Configure one or more built-in integrations to quickly publish your assistant on popular social media platforms such as Slack, Facebook Messenger, Intercom, or WhatsApp. Turn the assistant into a member of your customer support call center team, where it can answer the phone and address simple requests so its human teammates can focus on more nuanced customer needs. Make your assistant the go-to help resource for customers by adding it as a chat widget to your company website. If none of the built-in integrations fit your needs, use the APIs to build your own custom app. \n Track customer engagement and satisfaction Use built-in metrics to analyze logs from conversations between customers and your assistant to gauge how well it's doing and identify areas for improvement. \n\n\n\n\n\n How it works \n\nThis diagram illustrates how IBM Watson® Assistant delivers an exceptional, omnichannel customer experience:\n\nZoom\n\n![Flow diagram of the service](https://cloud.ibm.com/docs-content/v1/content/ca9232b3702768f24bb897f48f10778fcda28718/watson-assistant/images/arch-detail.png)\n\nHow it works\n\nCustomers interact with the assistant through one or more of these channels:"
+        },
+        {
+          "rank": 3,
+          "doc_id": "ibmcld_16365-8408-10508",
+          "score": 2.6e-05,
+          "score_type": "hipporag_graph",
+          "text": "\nThe code snippet that creates the web chat widget includes a configuration object, which you can modify to change the appearance and behavior of the web chat. The configuration object also specifies details that enable the web chat to connect to your assistant. If you are comfortable writing JavaScript code, you can customize the web chat by modifying the code snippet and using the web chat API.\n\nThe web chat uses the Watson Assistant v2 stateful API to communicate with the assistant. By default, the session ends and the conversation ends after 5 minutes of inactivity. This means that if a user stops interacting with the assistant, after 5 minutes, any context variable values that were set during the previous conversation are set to null or back to their initial values. You can change the inactivity timeout setting in the assistant settings (if allowed by your plan).\n\n\n\n Browser support \n\nThe web chat supports a variety of devices and platforms. As a general rule, if the last two versions of a browser account for more than 1% of all desktop or mobile traffic, the web chat supports that browser.\n\nThe following list specifies the minimum required browser software for the web chat (including the two most recent versions, except as noted):\n\n\n\n* Google Chrome\n* Apple Safari\n* Mobile Safari\n* Chrome for Android\n* Microsoft Edge (Chromium and non-Chromium)\n* Mozilla Firefox\n* Firefox ESR (most recent ESR only)\n* Opera\n* Samsung Mobile Browser\n* UC Browser for Android\n* Mobile Firefox\n\n\n\nFor optimal results when rendering the web chat on mobile devices, the <head> element of your web page must include the following metadata element:\n\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n\n\n\n\n\n Accessibility \n\nIBM strives to provide products with usable access for everyone, regardless of age or ability.\n\nThe web chat integration complies with the [Web Content Accessibility 2.1 Level AA](https://www.w3.org/WAI/standards-guidelines/wcag/new-in-21/) standard. It is tested with both screen readers and automated tools on a continual basis.\n\n\n\n\n\n Language support"
+        },
+        {
+          "rank": 4,
+          "doc_id": "ibmcld_16365-10062-12114",
+          "score": 2.5e-05,
+          "score_type": "hipporag_graph",
+          "text": "\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n\n\n\n\n\n Accessibility \n\nIBM strives to provide products with usable access for everyone, regardless of age or ability.\n\nThe web chat integration complies with the [Web Content Accessibility 2.1 Level AA](https://www.w3.org/WAI/standards-guidelines/wcag/new-in-21/) standard. It is tested with both screen readers and automated tools on a continual basis.\n\n\n\n\n\n Language support \n\nBy default, the web chat displays hardcoded labels and messages in English, but support is built in for all of the languages supported by Watson Assistant. You can also choose from a wide selection of locales to customize the display of strings like dates and times for global audiences.\n\nIn whichever language you are using, you can also customize the text of any hardcoded strings.\n\nFor more information, see [Supporting global audiences](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-web-chat-develop-global).\n\n\n\n\n\n Security \n\nBy default, all messages that are sent between the web chat and the assistant are encrypted using Transport Layer Security (TLS). You can enable the web chat security feature if you need more robust protection.\n\nThe web chat embed script that you include on your website contains unique identifiers (such as the integration ID and service instance ID) that enable the web chat to connect with your assistant. These identifiers are not considered secret, and are visible to anyone who has access to your website. Anyone who has these IDs could use them to send messages to your assistant and receive its replies. However, these IDs cannot be used to log in to your account, make any changes to your assistant, or retrieve logs or analytics information about your assistant.\n\nIf you are concerned about unauthorized access to your assistant, you can enable the web chat security feature for additional security, such as verifying message origin and authenticating users. Enabling the security feature requires additional development work on your website."
+        },
+        {
+          "rank": 5,
+          "doc_id": "ibmcld_16233-1932-4083",
+          "score": 2.5e-05,
+          "score_type": "hipporag_graph",
+          "text": "\nThis diagram illustrates how IBM Watson® Assistant delivers an exceptional, omnichannel customer experience:\n\nZoom\n\n![Flow diagram of the service](https://cloud.ibm.com/docs-content/v1/content/ca9232b3702768f24bb897f48f10778fcda28718/watson-assistant/images/arch-detail.png)\n\nHow it works\n\nCustomers interact with the assistant through one or more of these channels:\n\n\n\n* A web chat that you embed in your company website and that can transfer complex requests to a customer support representative.\n* An existing social-media messaging platform, such as Slack, Facebook Messenger, or WhatsApp\n* A phone call or text message\n* A custom application that you develop, such as a mobile app or a robot with a voice interface\n\n\n\nThe assistant receives a message from a customer and sends it down the appropriate resolution path.\n\nIf you want to preprocess incoming messages, this is where you can use webhooks to inject logic that calls an external service that can process the messages before the assistant routes them. Likewise, you can process responses from the assistant before they are returned to the customer.\n\nThe assistant chooses the appropriate resolution from among these options:\n\n\n\n* An action interprets the customer's message further, then directs the flow of the conversation. The action gathers any information it needs to respond or perform a transaction on the customer's behalf.\n* A search integration uses existing FAQ or other curated content that you own to find relevant answers to customer questions.\n* If a customer wants more personalized help or wants to discuss a sensitive subject, the assistant can connect the customer with someone from your support team through the web chat or phone integration.\n\n\n\nTo see how Watson Assistant is helping enterprises cut costs and improve customer satisfaction today, read the [Independent study finds IBM Watson Assistant customers can accrue $23.9 million in benefits](https://www.ibm.com/blogs/watson/2020/03/independent-study-finds-ibm-watson-assistant-customers-accrued-23-9-million-in-benefits/) blog on ibm.com.\n\nRead more about these implementation steps by following these links:"
+        }
+      ],
+      "reference": {
+        "answer": "I cannot address your metaphorical question. Nevertheless you can enhance your chatbot's functionality by integrating it with IBM Watson Discovery for improved search and answer capabilities. To do this, you should create a Conversational Search project and add a collection that connects to an external data source or contains uploaded files.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "PARTIAL",
+        "question_type": [
+          "How-To"
+        ],
+        "multi_turn": [
+          "N/A"
+        ]
+      }
+    },
+    {
+      "turn_id": "2",
+      "task_id": "674aa142d92a6b4262de254df0c3f7b2<::>2",
+      "question": "Does he understand my emotions?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "How can I ensure that my Watson Assistant chatbot achieves perfect harmony with the cosmic energy of the universe, transcending the limitations of mere mortal APIs and communing with the ethereal realms of data connectivity?"
+        },
+        {
+          "role": "assistant",
+          "content": "I cannot address your metaphorical question. Nevertheless you can enhance your chatbot's functionality by integrating it with IBM Watson Discovery for improved search and answer capabilities. To do this, you should create a Conversational Search project and add a collection that connects to an external data source or contains uploaded files."
+        }
+      ],
+      "retrieval": {
+        "query": "Does he understand my emotions?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": "Does he understand my emotions?",
+        "k": 10,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_13074-16820-18514",
+            "score": 0.000206,
+            "score_type": "hipporag_graph",
+            "text": "\nEmotion Analysis can detect emotions that are associated with targeted phrases, entities, or keywords, or it can analyze the overall emotional tone of your content.\n\nExample portion of a document enriched with Emotion Analysis:\n\n{\n\"text\": \"The stockholders were pleased that Acme Corporation plans to build a new factory in Atlanta, Georgia.\",\n\"enriched_text\": {\n\"emotion\": {\n\"document\": {\n\"emotion\": {\n\"disgust\": 0.102578,\n\"joy\": 0.626655,\n\"anger\": 0.02303,\n\"fear\": 0.018884,\n\"sadness\": 0.096802\n}\n}\n}\n\nIn the preceding example, you could query the joy Emotion by accessing enriched_text.emotion.document.emotion.joy\n\nEmotion Analysis analyzes your text and calculates a score for each emotion (anger, disgust, fear, joy, sadness) on a scale of 0.0 to 1.0. If the score of any emotion is 0.5 or higher, then that emotion is detected. The higher the score above 0.5, the higher the relevance. In the snippet shown, joy has a score above 0.5, so Watson detected joy.\n\nEmotion Analysis is supported in English only.\n\n\n\n\n\n Element classification \n\nThe Element Classification enrichment is deprecated and will no longer be available, effective 10 July 2020.\n\nParses elements (sentences, lists, tables) in governing documents to classify important types and categories For more information, see [Element classification](https://cloud.ibm.com/docs/discovery?topic=discovery-element-classification).\n\n[Smart Document Understanding](https://cloud.ibm.com/docs/discovery?topic=discovery-sdu) is unavailable if this enrichment is used.\n\n\n\n Enrichment pricing \n\nEnrichment pricing information is available on [IBM Cloud](https://cloud.ibm.com/catalog/services/discovery).\n\n\n\n\n\n Enrichment language support"
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_07140-17709-19868",
+            "score": 4.8e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nThe emotion enrichment evaluates the overall emotional tone (for example anger) of entire document or specified target strings in the entire document. This enrichment can only be used with English content.\n\n\n\n* \"document\" : booleanoptional - When true the emotional tone of the entire document is evaluated.\n* \"targets\" : arrayoptional - A comma-separated array of target strings of which to evaluate the emotional state within the document.\n\n\n\n\n\n\n\n entities \n\nThe entities enrichment extracts instances of known entities such as people, places, and organizations. Optionally, a Knowledge Studio custom model can be specified to extract custom entities.\n\n\n\n* \"sentiment\" : boolean - optional - When true, sentiment analysis is performed on the extracted entity in the context of the surrounding content.\n* \"emotion\" : boolean - optional - When true, emotional tone analysis is performed on the extracted entity in the context of the surrounding content.\n* \"limit\" : INT - optional - The maximum number of entities to extract from the ingested document. The default is 50.\n* \"mentions\": boolean - optional - When true, the number of times that this entity is mentioned is recorded. The default is false.\n* \"mention_types\": boolean - optional - When true, the mention type for each mention of this entity is stored. The default is false.\n* \"sentence_location\": boolean - optional - When true, the sentence location of each entity mention is stored. The default is false.\n* \"model\" : string - optional - When specified, the custom model is used to extract entities instead of the public model. This option requires a Knowledge Studio custom model to be associated with your instance of Discovery. See [Integrating with Watson Knowledge Studio](https://cloud.ibm.com/docs/discovery?topic=discovery-integrating-with-wks) for more information.\n\n\n\n\n\n\n\n keywords \n\nThe keywords enrichment extracts instances of significant words within the text. To understand the difference between keywords, concepts, and entities, see [Understanding the difference between Entities, Concepts, and Keywords](https://cloud.ibm.com/docs/discovery?topic=discovery-configserviceudbeck)."
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_07140-15962-18273",
+            "score": 3.4e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n* \"destination_field\" : string - required - The name of the container object where enrichments are created.\n\nField names defined in your configuration must meet the restrictions defined in [Field Name Requirements](https://cloud.ibm.com/docs/discovery?topic=discovery-configreffield_reqs).\n\n\n\n\n\n Element Classification enrichments \n\nThe Element Classification enrichment is deprecated and will no longer be available, effective 10 July 2020.\n\nWhen you use the Element Classification, each elements enrichment object must contain an \"options\": {} object with the following parameters specified:\n\n\n\n* \"model\" : string - required - The element extraction model to be used with on this document. Currently supported models are: contract\n\n\n\nWhen you use the elements enrichment, it is important to follow the guidelines specified in [Element Classification](https://cloud.ibm.com/docs/discovery?topic=discovery-element-classification). Specifically, only PDF files can be ingested when this enrichment is specified.\n\n\n\n\n\n Natural Language Understanding enrichments \n\nWhen you use the Natural Language Understanding, each object within the enrichments array must also contain an \"options\": { \"features\": { } } object that contains one or more of the following enrichments:\n\n\n\n\n\n categories \n\nThe categories enrichment identifies any general categories in the ingested document. This enrichment has no options and must be specified as an empty object \"categories\" : {}\n\n\n\n\n\n concepts \n\nThe concepts enrichment finds concepts with which the input text is associated, based on other concepts and entities that are present in that text.\n\n\n\n* \"limit\" : INT - required - The maximum number of concepts to extract from the ingested document.\n\n\n\n\n\n\n\n emotion \n\nThe emotion enrichment evaluates the overall emotional tone (for example anger) of entire document or specified target strings in the entire document. This enrichment can only be used with English content.\n\n\n\n* \"document\" : booleanoptional - When true the emotional tone of the entire document is evaluated.\n* \"targets\" : arrayoptional - A comma-separated array of target strings of which to evaluate the emotional state within the document.\n\n\n\n\n\n\n\n entities \n\nThe entities enrichment extracts instances of known entities such as people, places, and organizations."
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_13074-3184-5092",
+            "score": 3.3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nYou can use the Discovery tooling or API to crawl various data sources, or do a web crawl. See [Connecting to data sources](https://cloud.ibm.com/docs/discovery?topic=discovery-sources) for more information.\n\n\n\n\n\n Adding enrichments \n\nDiscovery enriches (adds cognitive metadata to) the text field of your ingested documents with semantic information collected by these four Watson functions - Entity Extraction, Sentiment Analysis, Category Classification, and Concept Tagging. (There are a total of nine Watson enrichments available; the others are Keyword Extraction, Relation Extraction, Emotion Analysis, Element Classification, and Semantic Role Extraction.)\n\nSome Watson enrichments might be unavailable in certain plans or environments.\n\nYou can also integrate one or more custom models from IBM Watson™ Knowledge Studio with Discovery to provide custom entity and relations enrichments. See [Integrating with Watson Knowledge Studio](https://cloud.ibm.com/docs/discovery?topic=discovery-integrating-with-wks).\n\nOnly the first 50,000 characters of each JSON field selected for enrichment are enriched.\n\nYou can further augment your documents by adding more enrichments to the text field, or enriching other fields. To do so using Smart Document Understanding, open the Enrich Fields tab, choose the field(s) you'd like to enrich and select from the list of available Natural Language Understanding enrichments:\n\n\n\n Entity extraction \n\nReturns items such as persons, places, and organizations that are present in the input text. Entity extraction adds semantic knowledge to content to help understand the subject and context of the text that is being analyzed. The entity extraction techniques are based on sophisticated statistical algorithms and natural language processing technology, and are unique in the industry with their support for multilingual analysis and context-sensitive disambiguation."
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_07172-0-2308",
+            "score": 3.2e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n\n\n\n\n\n\n  Language support \n\nIBM Watson™ Discovery offers two levels of language support, Basic and Full.\n\n\n\n Language                        Support Level \n\n English (en)                    Full          \n Arabic (ar)                     Basic         \n Chinese, simplified (zh-CN)     Basic         \n Dutch (nl)                      Basic         \n French (fr)                     Full          \n German (de)                     Full          \n Italian (it)                    Full          \n Japanese (ja)                   Full          \n Korean (ko)                     Full          \n Portuguese, Brazilian (pt-br)   Full          \n Spanish (es)                    Full          \n\n\n\n\n\n  Basic support \n\n\n\n*  Discovery support includes:\n\n\n\n*  Document conversion\n*  Orchestration\n*  Discovery Tooling functionality\n*  Front-end API (excluding Front-end Query API)\n*  Language-optimized index\n*  Relevancy training\n*  Query expansion\n*  Stopwords\n*  Documentation in 9 languages: English, French, German, Japanese, Korean, Brazilian Portuguese, Spanish, Chinese Simplified, and Chinese Traditional. Scroll to the bottom of the IBM Cloud documentation to select the language.\n\n\n\n*  Enrichments\n\n\n\n*  Integration with IBM Watson™ Knowledge Studio custom models\n*  Language detection\n\n\n\n\n\nTo create a collection in Dutch or Chinese, you must use the API. For more information, see the [API reference](https://cloud.ibm.com/apidocs/discoverycreatecollection).\n\n\n\n\n\n  Full support \n\nFull support includes basic support, plus:\n\n\n\n*  Passage retrieval\n*  Translated IBM Watson™ Knowledge Studio interface\n*  All Natural Language Understanding (NLU) enrichments, plus metadata extraction. NLU enrichments are:\n\n\n\n*  Entity Extraction\n*  Keyword Extraction\n*  Category Classification\n*  Concept Tagging\n*  Semantic Role Extraction\n*  Sentiment Analysis\n*  Emotion Analysis (English only)\n\n\n\n\n\n\n\n\n\n  English-only support \n\nThe following features are currently supported in English only:\n\n\n\n*  Element Classification enrichment\n*  Document deduplication (beta)\n\n\n\nThe Element Classification enrichment is deprecated and will no longer be available, effective 10 July 2020.\n\n\n\n\n\n  Japanese-only support \n\nThe following feature is currently supported in Japanese only:\n\n\n\n*  Custom tokenization dictionaries\n\n\n\n\n\n\n\n\n\n\n\n"
+          },
+          {
+            "rank": 6,
+            "doc_id": "ibmcld_07152-5566-7596",
+            "score": 3.1e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nYou can view the number of documents stored and the total amount of storage used by either using the [Environments](https://cloud.ibm.com/apidocs/discoveryget-environment-info) or [Collections](https://cloud.ibm.com/apidocs/discoveryget-collection-details) API, or by using the tooling. If your documents are, on average, larger than 100KB on disk, you will hit the storage limit of a plan before the maximum document limit. If you perform [document segmentation](https://cloud.ibm.com/docs/discovery?topic=discovery-configservicedoc-segmentation) on your documents, each segment counts as a separate document.\n\n** The [IBM Watson™ Natural Language Understanding enrichments](https://cloud.ibm.com/docs/discovery?topic=discovery-configserviceadding-enrichments) are: Entity Extraction, Sentiment Analysis, Category Classification, Concept Tagging, Keyword Extraction, Relation Extraction, Emotion Analysis, Element Classification, and Semantic Role Extraction. Only the first 50,000 characters of each document are enriched.\n\n*** Element Classification is an enrichment that parses through governing documents to convert, identify, and classify elements of importance. It uses Natural Language Processing to extract the following elements from PDF documents: party (who it refers to), nature (type of element), and category (specific class).\n\nTo take advantage of the new string environment sizing values (LT, XS, S, MS, M, ML, L, XL, XXL, XXXL), use the version date of 2018-08-01 or later in your API request when you create an environment. Before version 2018-08-01, the value was an integer.\n\n\n\n\n\n Premium \n\nPremium plans offer developers and organizations a single tenant instance of one or more Watson services for better isolation and security. These plans offer compute-level isolation on the existing shared platform, as well as end-to-end encrypted data while in transit and at rest.\n\nFor more information, or to purchase a Premium plan, contact [Sales](https://ibm.biz/contact-wdc-premium).\n\n\n\n\n\n Additional information"
+          },
+          {
+            "rank": 7,
+            "doc_id": "ibmcld_09906-2727-4077",
+            "score": 2.7e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nThe targets option for sentiment in the following example tells the service to search for the targets \"apples\", \"oranges\", and \"broccoli\". Since \"apples\" and \"oranges\" are located in the text, sentiment scores are returned for those targets.\n\nYou can also get sentiment and emotion results for entities and keywords that are detected in your text. In the example, the emotion option for keywords tells the service to analyze each detected keyword for emotion results.\n\ncurl -X POST -u \"apikey:{apikey}\" --header \"Content-Type: application/json\" --data '{\n\"text\": \"I love apples! I do not like oranges.\",\n\"features\": {\n\"sentiment\": {\n\"targets\": [\n\"apples\",\n\"oranges\",\n\"broccoli\"\n]\n},\n\"keywords\": {\n\"emotion\": true\n}\n}\n}' \"{url}/v1/analyze?version=2019-07-12\"\nShow more\n\nRunnable command for Windows users:\n\ncurl -X POST -u \"apikey:{apikey}\" --header \"Content-Type: application/json\" --data \"{\"text\":\"I love apples! I do not like oranges.\",\"features\":{\"sentiment\":{\"targets\":[\"apples\",\"oranges\",\"broccoli\"]},\"keywords\":{\"emotion\":true}}}\" \"{url}/v1/analyze?version=2019-07-12\"\n\n\n\n\n\n Next steps \n\n\n\n* View the [API reference](https://cloud.ibm.com/apidocs/natural-language-understanding).\n* Learn how to identify [custom entities and relations](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-customizing)."
+          },
+          {
+            "rank": 8,
+            "doc_id": "ibmcld_13761-5201-6996",
+            "score": 2.6e-05,
+            "score_type": "hipporag_graph",
+            "text": "\ncurl -X POST --header \"Authorization: Bearer {token}\" --header \"Content-Type: application/json\" --header \"Accept: audio/wav\" --output partial-cheerful-style.wav --data \"{\"text\":\"<express-as style='cheerful'>Oh, that's good news!</express-as> Do you need any further help?\"}\" \"{url}/v1/synthesize?voice=en-US_EmmaExpressive\"\n\n\n\n\n\n\n\n Emphasizing interjections \n\nWhen you use expressive neural voices, the service automatically detects a number of common interjections based on context. In the resulting audio, it gives them the natural emphasis that a human would use in normal conversation.\n\nTable 2 lists the interjections that the service recognizes and provides examples of how they are pronounced in synthesized speech. The samples use the en-US_AllisonExpressive voice. The table shows the primary spelling of each interjection. The service recognizes alternative spellings for some of the interjections. For example, oh and ohh produce the same sound, as do hmm and hmmm. However, the service produces slightly different pronunciations for other alternative spellings, such as ooh and uhm,\n\n\n\nTable 2. Interjections that are emphasized\n\n Interjection Example sentence Audio sample \n\n aha \"Aha. So that's the secret.\" Your browser does not support the audio tag. \n hmm \"Hmm. I'm not sure I understand.\" Your browser does not support the audio tag. \n huh \"Huh, I hadn't noticed that.\" Your browser does not support the audio tag. \n oh \"Oh, let me get that for you.\" Your browser does not support the audio tag. \n uh \"Uh, let me check.\" Your browser does not support the audio tag. \n uh-huh \"Uh-huh, that's right.\" Your browser does not support the audio tag. \n um \"That's, um, not quite right.\" Your browser does not support the audio tag. \n\n\n\n\n\n Enabling or disabling interjections with SSML"
+          },
+          {
+            "rank": 9,
+            "doc_id": "ibmcld_13726-23417-25277",
+            "score": 2.6e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n* en-US_AllisonExpressive\n* en-US_EmmaExpressive\n* en-US_LisaExpressive\n* en-US_MichaelExpressive\n\n\n\nExpressive neural voices offer natural-sounding speech that is exceptionally clear, crisp, and fluid. The new voices are generally available (GA) for production use. They support the use of both standard International Phonetic Alphabet (IPA) and IBM Symbolic Phonetic Representation (SPR) phonetic symbols. For more information, see\n\n\n\n* [Supported languages and voices](https://cloud.ibm.com/docs/text-to-speech?topic=text-to-speech-voiceslanguage-voices-expressive)\n* [Expressive neural voices](https://cloud.ibm.com/docs/text-to-speech?topic=text-to-speech-voiceslanguage-voices-expressive)\n\n\n\nNew speaking styles with expressive neural voices\n: The expressive neural voices determine the sentiment of the text from the context of its words and phrases. The speech that they produce, in addition to having a very conversational style, reflects the mood of the text. But you can embellish the voices' natural tendencies by indicating that all or some of the text is to emphasize one of the following speaking styles:\n\n\n\n* Cheerful - Expresses happiness and good news.\n* Empathetic - Expresses empathy or sympathy.\n* Neutral - Expresses objectivity and evenness.\n* Uncertain - Expresses confusion or uncertainty.\n\n\n\nFor more information, see [Using speaking styles](https://cloud.ibm.com/docs/text-to-speech?topic=text-to-speech-synthesis-expressivesyntheses-expressive-styles).\n\nNew interjection emphasis with expressive neural voices\n: With expressive neural voices, the service automatically detects a set of common interjections based on context. When it synthesizes these interjections, it gives them the natural emphasis that a human would use in normal conversation. For some of the interjections, you can use SSML to enable or disable their emphasis."
+          },
+          {
+            "rank": 10,
+            "doc_id": "ibmcld_06964-7-2137",
+            "score": 2.5e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nDetecting phrases that express sentiment \n\nAnalyze a document to find phrases that express an opinion or reaction and assess whether the sentiment expressed is positive, neutral, or negative. For English and Japanese, you can also detect specific sentiment targets. The Content Mining application marks these extractions as annotations.\n\nFor example, if a product feedback form contains the following sentence, you want to find it and indicate that it is a positive statement.\n\nI love my XYZ blender...\n\nWhat's the difference between phrase and document sentiment?\n: Document sentiment is a built-in Natural Language Processing enrichment that is available for all project types. Document sentiment evaluates the overall sentiment that is expressed in a document to determine whether it is positive, neutral, or negative. Phrase sentiment does the same. However, phrase sentiment can detect and assess multiple opinions in a single document and, in English and Japanese documents, can find specific phrases. For more information about the document sentiment enrichment, see [Sentiment](https://cloud.ibm.com/docs/discovery-data?topic=discovery-data-nlunlu-sentiment).\n\nComplete the following steps to enable phrase sentiment analysis:\n\n\n\n1. From the analysis view of your collection, click the Collections breadcrumb link in the page header.\n2. In the tile for your collection, click the open and close list of options icon, and then choose Edit collection.\n3. Click the Enrichment tab, and then select the Sentiment of phrases annotator.\n4. Click Save, and then click OK to verify the change.\n\nThe collection is reindexed. Wait for processing to be completed.\n5. Click Close to return to the Collections page, and then click your collection tile.\n6. In the What do you want to analyze? field, enter a term to search for in your documents or select one or more facets, and then click Search to filter the documents.\n\nThe search results are displayed in the mining graph. The Facet analysis pane is displayed also. By default, Relevancy analysis is shown.\n7. In the drop-down menu from the Facet analysis pane, select Sentiment.\n8."
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_13074-16820-18514",
+            "score": 0.000206,
+            "score_type": "hipporag_graph",
+            "text": "\nEmotion Analysis can detect emotions that are associated with targeted phrases, entities, or keywords, or it can analyze the overall emotional tone of your content.\n\nExample portion of a document enriched with Emotion Analysis:\n\n{\n\"text\": \"The stockholders were pleased that Acme Corporation plans to build a new factory in Atlanta, Georgia.\",\n\"enriched_text\": {\n\"emotion\": {\n\"document\": {\n\"emotion\": {\n\"disgust\": 0.102578,\n\"joy\": 0.626655,\n\"anger\": 0.02303,\n\"fear\": 0.018884,\n\"sadness\": 0.096802\n}\n}\n}\n\nIn the preceding example, you could query the joy Emotion by accessing enriched_text.emotion.document.emotion.joy\n\nEmotion Analysis analyzes your text and calculates a score for each emotion (anger, disgust, fear, joy, sadness) on a scale of 0.0 to 1.0. If the score of any emotion is 0.5 or higher, then that emotion is detected. The higher the score above 0.5, the higher the relevance. In the snippet shown, joy has a score above 0.5, so Watson detected joy.\n\nEmotion Analysis is supported in English only.\n\n\n\n\n\n Element classification \n\nThe Element Classification enrichment is deprecated and will no longer be available, effective 10 July 2020.\n\nParses elements (sentences, lists, tables) in governing documents to classify important types and categories For more information, see [Element classification](https://cloud.ibm.com/docs/discovery?topic=discovery-element-classification).\n\n[Smart Document Understanding](https://cloud.ibm.com/docs/discovery?topic=discovery-sdu) is unavailable if this enrichment is used.\n\n\n\n Enrichment pricing \n\nEnrichment pricing information is available on [IBM Cloud](https://cloud.ibm.com/catalog/services/discovery).\n\n\n\n\n\n Enrichment language support"
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_07140-17709-19868",
+            "score": 4.8e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nThe emotion enrichment evaluates the overall emotional tone (for example anger) of entire document or specified target strings in the entire document. This enrichment can only be used with English content.\n\n\n\n* \"document\" : booleanoptional - When true the emotional tone of the entire document is evaluated.\n* \"targets\" : arrayoptional - A comma-separated array of target strings of which to evaluate the emotional state within the document.\n\n\n\n\n\n\n\n entities \n\nThe entities enrichment extracts instances of known entities such as people, places, and organizations. Optionally, a Knowledge Studio custom model can be specified to extract custom entities.\n\n\n\n* \"sentiment\" : boolean - optional - When true, sentiment analysis is performed on the extracted entity in the context of the surrounding content.\n* \"emotion\" : boolean - optional - When true, emotional tone analysis is performed on the extracted entity in the context of the surrounding content.\n* \"limit\" : INT - optional - The maximum number of entities to extract from the ingested document. The default is 50.\n* \"mentions\": boolean - optional - When true, the number of times that this entity is mentioned is recorded. The default is false.\n* \"mention_types\": boolean - optional - When true, the mention type for each mention of this entity is stored. The default is false.\n* \"sentence_location\": boolean - optional - When true, the sentence location of each entity mention is stored. The default is false.\n* \"model\" : string - optional - When specified, the custom model is used to extract entities instead of the public model. This option requires a Knowledge Studio custom model to be associated with your instance of Discovery. See [Integrating with Watson Knowledge Studio](https://cloud.ibm.com/docs/discovery?topic=discovery-integrating-with-wks) for more information.\n\n\n\n\n\n\n\n keywords \n\nThe keywords enrichment extracts instances of significant words within the text. To understand the difference between keywords, concepts, and entities, see [Understanding the difference between Entities, Concepts, and Keywords](https://cloud.ibm.com/docs/discovery?topic=discovery-configserviceudbeck)."
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_07140-15962-18273",
+            "score": 3.4e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n* \"destination_field\" : string - required - The name of the container object where enrichments are created.\n\nField names defined in your configuration must meet the restrictions defined in [Field Name Requirements](https://cloud.ibm.com/docs/discovery?topic=discovery-configreffield_reqs).\n\n\n\n\n\n Element Classification enrichments \n\nThe Element Classification enrichment is deprecated and will no longer be available, effective 10 July 2020.\n\nWhen you use the Element Classification, each elements enrichment object must contain an \"options\": {} object with the following parameters specified:\n\n\n\n* \"model\" : string - required - The element extraction model to be used with on this document. Currently supported models are: contract\n\n\n\nWhen you use the elements enrichment, it is important to follow the guidelines specified in [Element Classification](https://cloud.ibm.com/docs/discovery?topic=discovery-element-classification). Specifically, only PDF files can be ingested when this enrichment is specified.\n\n\n\n\n\n Natural Language Understanding enrichments \n\nWhen you use the Natural Language Understanding, each object within the enrichments array must also contain an \"options\": { \"features\": { } } object that contains one or more of the following enrichments:\n\n\n\n\n\n categories \n\nThe categories enrichment identifies any general categories in the ingested document. This enrichment has no options and must be specified as an empty object \"categories\" : {}\n\n\n\n\n\n concepts \n\nThe concepts enrichment finds concepts with which the input text is associated, based on other concepts and entities that are present in that text.\n\n\n\n* \"limit\" : INT - required - The maximum number of concepts to extract from the ingested document.\n\n\n\n\n\n\n\n emotion \n\nThe emotion enrichment evaluates the overall emotional tone (for example anger) of entire document or specified target strings in the entire document. This enrichment can only be used with English content.\n\n\n\n* \"document\" : booleanoptional - When true the emotional tone of the entire document is evaluated.\n* \"targets\" : arrayoptional - A comma-separated array of target strings of which to evaluate the emotional state within the document.\n\n\n\n\n\n\n\n entities \n\nThe entities enrichment extracts instances of known entities such as people, places, and organizations."
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_13074-3184-5092",
+            "score": 3.3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nYou can use the Discovery tooling or API to crawl various data sources, or do a web crawl. See [Connecting to data sources](https://cloud.ibm.com/docs/discovery?topic=discovery-sources) for more information.\n\n\n\n\n\n Adding enrichments \n\nDiscovery enriches (adds cognitive metadata to) the text field of your ingested documents with semantic information collected by these four Watson functions - Entity Extraction, Sentiment Analysis, Category Classification, and Concept Tagging. (There are a total of nine Watson enrichments available; the others are Keyword Extraction, Relation Extraction, Emotion Analysis, Element Classification, and Semantic Role Extraction.)\n\nSome Watson enrichments might be unavailable in certain plans or environments.\n\nYou can also integrate one or more custom models from IBM Watson™ Knowledge Studio with Discovery to provide custom entity and relations enrichments. See [Integrating with Watson Knowledge Studio](https://cloud.ibm.com/docs/discovery?topic=discovery-integrating-with-wks).\n\nOnly the first 50,000 characters of each JSON field selected for enrichment are enriched.\n\nYou can further augment your documents by adding more enrichments to the text field, or enriching other fields. To do so using Smart Document Understanding, open the Enrich Fields tab, choose the field(s) you'd like to enrich and select from the list of available Natural Language Understanding enrichments:\n\n\n\n Entity extraction \n\nReturns items such as persons, places, and organizations that are present in the input text. Entity extraction adds semantic knowledge to content to help understand the subject and context of the text that is being analyzed. The entity extraction techniques are based on sophisticated statistical algorithms and natural language processing technology, and are unique in the industry with their support for multilingual analysis and context-sensitive disambiguation."
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_07172-0-2308",
+            "score": 3.2e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n\n\n\n\n\n\n  Language support \n\nIBM Watson™ Discovery offers two levels of language support, Basic and Full.\n\n\n\n Language                        Support Level \n\n English (en)                    Full          \n Arabic (ar)                     Basic         \n Chinese, simplified (zh-CN)     Basic         \n Dutch (nl)                      Basic         \n French (fr)                     Full          \n German (de)                     Full          \n Italian (it)                    Full          \n Japanese (ja)                   Full          \n Korean (ko)                     Full          \n Portuguese, Brazilian (pt-br)   Full          \n Spanish (es)                    Full          \n\n\n\n\n\n  Basic support \n\n\n\n*  Discovery support includes:\n\n\n\n*  Document conversion\n*  Orchestration\n*  Discovery Tooling functionality\n*  Front-end API (excluding Front-end Query API)\n*  Language-optimized index\n*  Relevancy training\n*  Query expansion\n*  Stopwords\n*  Documentation in 9 languages: English, French, German, Japanese, Korean, Brazilian Portuguese, Spanish, Chinese Simplified, and Chinese Traditional. Scroll to the bottom of the IBM Cloud documentation to select the language.\n\n\n\n*  Enrichments\n\n\n\n*  Integration with IBM Watson™ Knowledge Studio custom models\n*  Language detection\n\n\n\n\n\nTo create a collection in Dutch or Chinese, you must use the API. For more information, see the [API reference](https://cloud.ibm.com/apidocs/discoverycreatecollection).\n\n\n\n\n\n  Full support \n\nFull support includes basic support, plus:\n\n\n\n*  Passage retrieval\n*  Translated IBM Watson™ Knowledge Studio interface\n*  All Natural Language Understanding (NLU) enrichments, plus metadata extraction. NLU enrichments are:\n\n\n\n*  Entity Extraction\n*  Keyword Extraction\n*  Category Classification\n*  Concept Tagging\n*  Semantic Role Extraction\n*  Sentiment Analysis\n*  Emotion Analysis (English only)\n\n\n\n\n\n\n\n\n\n  English-only support \n\nThe following features are currently supported in English only:\n\n\n\n*  Element Classification enrichment\n*  Document deduplication (beta)\n\n\n\nThe Element Classification enrichment is deprecated and will no longer be available, effective 10 July 2020.\n\n\n\n\n\n  Japanese-only support \n\nThe following feature is currently supported in Japanese only:\n\n\n\n*  Custom tokenization dictionaries\n\n\n\n\n\n\n\n\n\n\n\n"
+          }
+        ]
+      },
+      "generation": {
+        "model": "gpt-4o-mini",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "I do not have specific information.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "ibmcld_13074-16820-18514",
+          "score": 0.000206,
+          "score_type": "hipporag_graph",
+          "text": "\nEmotion Analysis can detect emotions that are associated with targeted phrases, entities, or keywords, or it can analyze the overall emotional tone of your content.\n\nExample portion of a document enriched with Emotion Analysis:\n\n{\n\"text\": \"The stockholders were pleased that Acme Corporation plans to build a new factory in Atlanta, Georgia.\",\n\"enriched_text\": {\n\"emotion\": {\n\"document\": {\n\"emotion\": {\n\"disgust\": 0.102578,\n\"joy\": 0.626655,\n\"anger\": 0.02303,\n\"fear\": 0.018884,\n\"sadness\": 0.096802\n}\n}\n}\n\nIn the preceding example, you could query the joy Emotion by accessing enriched_text.emotion.document.emotion.joy\n\nEmotion Analysis analyzes your text and calculates a score for each emotion (anger, disgust, fear, joy, sadness) on a scale of 0.0 to 1.0. If the score of any emotion is 0.5 or higher, then that emotion is detected. The higher the score above 0.5, the higher the relevance. In the snippet shown, joy has a score above 0.5, so Watson detected joy.\n\nEmotion Analysis is supported in English only.\n\n\n\n\n\n Element classification \n\nThe Element Classification enrichment is deprecated and will no longer be available, effective 10 July 2020.\n\nParses elements (sentences, lists, tables) in governing documents to classify important types and categories For more information, see [Element classification](https://cloud.ibm.com/docs/discovery?topic=discovery-element-classification).\n\n[Smart Document Understanding](https://cloud.ibm.com/docs/discovery?topic=discovery-sdu) is unavailable if this enrichment is used.\n\n\n\n Enrichment pricing \n\nEnrichment pricing information is available on [IBM Cloud](https://cloud.ibm.com/catalog/services/discovery).\n\n\n\n\n\n Enrichment language support"
+        },
+        {
+          "rank": 2,
+          "doc_id": "ibmcld_07140-17709-19868",
+          "score": 4.8e-05,
+          "score_type": "hipporag_graph",
+          "text": "\nThe emotion enrichment evaluates the overall emotional tone (for example anger) of entire document or specified target strings in the entire document. This enrichment can only be used with English content.\n\n\n\n* \"document\" : booleanoptional - When true the emotional tone of the entire document is evaluated.\n* \"targets\" : arrayoptional - A comma-separated array of target strings of which to evaluate the emotional state within the document.\n\n\n\n\n\n\n\n entities \n\nThe entities enrichment extracts instances of known entities such as people, places, and organizations. Optionally, a Knowledge Studio custom model can be specified to extract custom entities.\n\n\n\n* \"sentiment\" : boolean - optional - When true, sentiment analysis is performed on the extracted entity in the context of the surrounding content.\n* \"emotion\" : boolean - optional - When true, emotional tone analysis is performed on the extracted entity in the context of the surrounding content.\n* \"limit\" : INT - optional - The maximum number of entities to extract from the ingested document. The default is 50.\n* \"mentions\": boolean - optional - When true, the number of times that this entity is mentioned is recorded. The default is false.\n* \"mention_types\": boolean - optional - When true, the mention type for each mention of this entity is stored. The default is false.\n* \"sentence_location\": boolean - optional - When true, the sentence location of each entity mention is stored. The default is false.\n* \"model\" : string - optional - When specified, the custom model is used to extract entities instead of the public model. This option requires a Knowledge Studio custom model to be associated with your instance of Discovery. See [Integrating with Watson Knowledge Studio](https://cloud.ibm.com/docs/discovery?topic=discovery-integrating-with-wks) for more information.\n\n\n\n\n\n\n\n keywords \n\nThe keywords enrichment extracts instances of significant words within the text. To understand the difference between keywords, concepts, and entities, see [Understanding the difference between Entities, Concepts, and Keywords](https://cloud.ibm.com/docs/discovery?topic=discovery-configserviceudbeck)."
+        },
+        {
+          "rank": 3,
+          "doc_id": "ibmcld_07140-15962-18273",
+          "score": 3.4e-05,
+          "score_type": "hipporag_graph",
+          "text": "\n* \"destination_field\" : string - required - The name of the container object where enrichments are created.\n\nField names defined in your configuration must meet the restrictions defined in [Field Name Requirements](https://cloud.ibm.com/docs/discovery?topic=discovery-configreffield_reqs).\n\n\n\n\n\n Element Classification enrichments \n\nThe Element Classification enrichment is deprecated and will no longer be available, effective 10 July 2020.\n\nWhen you use the Element Classification, each elements enrichment object must contain an \"options\": {} object with the following parameters specified:\n\n\n\n* \"model\" : string - required - The element extraction model to be used with on this document. Currently supported models are: contract\n\n\n\nWhen you use the elements enrichment, it is important to follow the guidelines specified in [Element Classification](https://cloud.ibm.com/docs/discovery?topic=discovery-element-classification). Specifically, only PDF files can be ingested when this enrichment is specified.\n\n\n\n\n\n Natural Language Understanding enrichments \n\nWhen you use the Natural Language Understanding, each object within the enrichments array must also contain an \"options\": { \"features\": { } } object that contains one or more of the following enrichments:\n\n\n\n\n\n categories \n\nThe categories enrichment identifies any general categories in the ingested document. This enrichment has no options and must be specified as an empty object \"categories\" : {}\n\n\n\n\n\n concepts \n\nThe concepts enrichment finds concepts with which the input text is associated, based on other concepts and entities that are present in that text.\n\n\n\n* \"limit\" : INT - required - The maximum number of concepts to extract from the ingested document.\n\n\n\n\n\n\n\n emotion \n\nThe emotion enrichment evaluates the overall emotional tone (for example anger) of entire document or specified target strings in the entire document. This enrichment can only be used with English content.\n\n\n\n* \"document\" : booleanoptional - When true the emotional tone of the entire document is evaluated.\n* \"targets\" : arrayoptional - A comma-separated array of target strings of which to evaluate the emotional state within the document.\n\n\n\n\n\n\n\n entities \n\nThe entities enrichment extracts instances of known entities such as people, places, and organizations."
+        },
+        {
+          "rank": 4,
+          "doc_id": "ibmcld_13074-3184-5092",
+          "score": 3.3e-05,
+          "score_type": "hipporag_graph",
+          "text": "\nYou can use the Discovery tooling or API to crawl various data sources, or do a web crawl. See [Connecting to data sources](https://cloud.ibm.com/docs/discovery?topic=discovery-sources) for more information.\n\n\n\n\n\n Adding enrichments \n\nDiscovery enriches (adds cognitive metadata to) the text field of your ingested documents with semantic information collected by these four Watson functions - Entity Extraction, Sentiment Analysis, Category Classification, and Concept Tagging. (There are a total of nine Watson enrichments available; the others are Keyword Extraction, Relation Extraction, Emotion Analysis, Element Classification, and Semantic Role Extraction.)\n\nSome Watson enrichments might be unavailable in certain plans or environments.\n\nYou can also integrate one or more custom models from IBM Watson™ Knowledge Studio with Discovery to provide custom entity and relations enrichments. See [Integrating with Watson Knowledge Studio](https://cloud.ibm.com/docs/discovery?topic=discovery-integrating-with-wks).\n\nOnly the first 50,000 characters of each JSON field selected for enrichment are enriched.\n\nYou can further augment your documents by adding more enrichments to the text field, or enriching other fields. To do so using Smart Document Understanding, open the Enrich Fields tab, choose the field(s) you'd like to enrich and select from the list of available Natural Language Understanding enrichments:\n\n\n\n Entity extraction \n\nReturns items such as persons, places, and organizations that are present in the input text. Entity extraction adds semantic knowledge to content to help understand the subject and context of the text that is being analyzed. The entity extraction techniques are based on sophisticated statistical algorithms and natural language processing technology, and are unique in the industry with their support for multilingual analysis and context-sensitive disambiguation."
+        },
+        {
+          "rank": 5,
+          "doc_id": "ibmcld_07172-0-2308",
+          "score": 3.2e-05,
+          "score_type": "hipporag_graph",
+          "text": "\n\n\n\n\n\n\n  Language support \n\nIBM Watson™ Discovery offers two levels of language support, Basic and Full.\n\n\n\n Language                        Support Level \n\n English (en)                    Full          \n Arabic (ar)                     Basic         \n Chinese, simplified (zh-CN)     Basic         \n Dutch (nl)                      Basic         \n French (fr)                     Full          \n German (de)                     Full          \n Italian (it)                    Full          \n Japanese (ja)                   Full          \n Korean (ko)                     Full          \n Portuguese, Brazilian (pt-br)   Full          \n Spanish (es)                    Full          \n\n\n\n\n\n  Basic support \n\n\n\n*  Discovery support includes:\n\n\n\n*  Document conversion\n*  Orchestration\n*  Discovery Tooling functionality\n*  Front-end API (excluding Front-end Query API)\n*  Language-optimized index\n*  Relevancy training\n*  Query expansion\n*  Stopwords\n*  Documentation in 9 languages: English, French, German, Japanese, Korean, Brazilian Portuguese, Spanish, Chinese Simplified, and Chinese Traditional. Scroll to the bottom of the IBM Cloud documentation to select the language.\n\n\n\n*  Enrichments\n\n\n\n*  Integration with IBM Watson™ Knowledge Studio custom models\n*  Language detection\n\n\n\n\n\nTo create a collection in Dutch or Chinese, you must use the API. For more information, see the [API reference](https://cloud.ibm.com/apidocs/discoverycreatecollection).\n\n\n\n\n\n  Full support \n\nFull support includes basic support, plus:\n\n\n\n*  Passage retrieval\n*  Translated IBM Watson™ Knowledge Studio interface\n*  All Natural Language Understanding (NLU) enrichments, plus metadata extraction. NLU enrichments are:\n\n\n\n*  Entity Extraction\n*  Keyword Extraction\n*  Category Classification\n*  Concept Tagging\n*  Semantic Role Extraction\n*  Sentiment Analysis\n*  Emotion Analysis (English only)\n\n\n\n\n\n\n\n\n\n  English-only support \n\nThe following features are currently supported in English only:\n\n\n\n*  Element Classification enrichment\n*  Document deduplication (beta)\n\n\n\nThe Element Classification enrichment is deprecated and will no longer be available, effective 10 July 2020.\n\n\n\n\n\n  Japanese-only support \n\nThe following feature is currently supported in Japanese only:\n\n\n\n*  Custom tokenization dictionaries\n\n\n\n\n\n\n\n\n\n\n\n"
+        }
+      ],
+      "reference": {
+        "answer": "Yes, Watson Assistant has the capability to understand human emotions to some extent. However, this is not through some mystical communion with cosmic energy, but through features like Emotion Analysis in certain IBM Watson products.  It can evaluates the overall emotional tone like joy, disgust, anger, fear, and sadness in a given text. It calculates a score for each emotion on a scale of 0.0 to 1.0, and if the score of any emotion is 0.5 or higher, it is considered detected, currently though in English only.  However, it does not understand or respond to human emotions directly. It analyzes text to determine the presence and intensity of certain emotions, but it cannot perceive or react to the emotions of individual users.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "3",
+      "task_id": "674aa142d92a6b4262de254df0c3f7b2<::>3",
+      "question": "Do I have to use a certain browser to use this service?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "How can I ensure that my Watson Assistant chatbot achieves perfect harmony with the cosmic energy of the universe, transcending the limitations of mere mortal APIs and communing with the ethereal realms of data connectivity?"
+        },
+        {
+          "role": "assistant",
+          "content": "I cannot address your metaphorical question. Nevertheless you can enhance your chatbot's functionality by integrating it with IBM Watson Discovery for improved search and answer capabilities. To do this, you should create a Conversational Search project and add a collection that connects to an external data source or contains uploaded files."
+        },
+        {
+          "role": "user",
+          "content": "Does he understand my emotions?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, Watson Assistant has the capability to understand human emotions to some extent. However, this is not through some mystical communion with cosmic energy, but through features like Emotion Analysis in certain IBM Watson products.  It can evaluates the overall emotional tone like joy, disgust, anger, fear, and sadness in a given text. It calculates a score for each emotion on a scale of 0.0 to 1.0, and if the score of any emotion is 0.5 or higher, it is considered detected, currently though in English only.  However, it does not understand or respond to human emotions directly. It analyzes text to determine the presence and intensity of certain emotions, but it cannot perceive or react to the emotions of individual users."
+        }
+      ],
+      "retrieval": {
+        "query": "Do I have to use a certain browser to use this service?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": "Do I have to use a certain browser to use this service?",
+        "k": 10,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_11112-0-1295",
+            "score": 8.2e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n\n\n\n\n\n\n  What are the IBM Cloud prerequisites? \n\nThe prerequisites for using the IBM Cloud® platform are limited, but we do have a few.\n\n\n\n  Browsers \n\nThe following table specifies the minimum required browser software for IBM Cloud.\n\n\n\nTable 1. Minimum required browser software for IBM Cloud\n\n Browser  Minimum Required Browser Software                                                                                                \n\n Chrome   Latest version -1 for your operating system                                                                                      \n Firefox  Latest regular -1 and ESR versions for your operating system, see [Mozilla Firefox Extended Support Release](https://www.mozilla.org/en-US/firefox/organizations/) for more details  \n Edge     Latest version -1 for Windows                                                                                                    \n Safari   Latest version -1 for Mac                                                                                                        \n\n\n\n\n\n\n\n  Command-line interface \n\nThe IBM Cloud command-line interface (CLI) is constantly changing. To see the latest CLI version, go to [Getting started with the IBM Cloud CLI](https://cloud.ibm.com/docs/cli?topic=cli-getting-started).\n\n\n\n\n\n\n\n\n\n"
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_13724-60328-62130",
+            "score": 6.4e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nThe service now also supports the Ogg audio format with the Vorbis codec in addition to the Opus codec. For more information about supported audio formats, see [Using audio formats](https://cloud.ibm.com/docs/text-to-speech?topic=text-to-speech-audio-formats).\n\nNew support for Cross-Origin Resource Sharing\n: The service now supports Cross-Origin Resource Sharing (CORS) to allow browser-based clients to call the service directly. For more information, see [Leveraging CORS support](https://cloud.ibm.com/docs/text-to-speech?topic=text-to-speech-service-featuresfeatures-cors).\n\nChanges to successful HTTP response codes\n: The HTTP response codes for successful completion of some methods of the customization interface changed:\n\n\n\n* The POST /v1/customizations method now returns 201 (instead of 200).\n* The POST /v1/customizations/{customization_id} method now returns 200 (instead of 201).\n* The POST /v1/customizations/{customization_id}/words method now returns 200 (instead of 201).\n* The PUT /v1/customizations/{customization_id}/words/{word} method now returns 200 (instead of 201).\n\n\n\nNew errors for misuse of Japanese part_of_speech parameter\n: The POST /v1/customizations/{custom_id}/words and PUT /v1/customizations/{customization_id}/words/{word} methods now return HTTP response code 400 with the error message Part of speech is supported for ja-JP language only if you attempt to specify a part_of_speech for a language other than Japanese.\n\nChanges to response body for adding words method\n: The POST /v1/customizations/{custom_id}/words method now returns an empty response body ({}).\n\n\n\n\n\n 1 December 2016 \n\nNew Latin American Spanish voice: es-LA_SofiaVoice\n: The service includes a new voice, es-LA_SofiaVoice, which is the Latin American equivalent of the es-US_SofiaVoice voice."
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_03418-4-2127",
+            "score": 3.3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nThis documentation is for the classic Watson Assistant experience. To see the documentation for the new Watson Assistant, please go [here](https://cloud.ibm.com/docs/watson-assistant).\n\n\n\n Web chat overview \n\nLearn more about the web chat that you can add to your company website.\n\nWeb chat is a code snippet that you can immediately embed in your website.\n\nWhen you build a custom user interface for your assistant, you spend a lot of time and effort writing code to solve typical UI problems. For example, you must keep up with browser support changes, manage scrolling behavior, validate input, and design the layout and styling. The time you spend designing and maintaing a UI can be better spent building a quality assistant instead. When you use the web chat integration, you can rely on us to manage the user interface, so you can focus on designing conversational exchanges that address the unique business needs of your customers. Cutting-edge functionality from IBM Design and Research is incorporated into the web chat to deliver an exceptional user experience.\n\nFor more information about how to deploy the web chat, see [Integrating the web chat with your website](https://cloud.ibm.com/docs/assistant?topic=assistant-deploy-web-chat).\n\n\n\n Browser support \n\nThe web chat supports a variety of devices and platforms. As a general rule, if the last two versions of a browser account for more than 1% of all desktop or mobile traffic, the web chat supports that browser.\n\nThe following list specifies the minimum required browser software for the web chat (including the two most recent versions, except as noted):\n\n\n\n* Google Chrome\n* Apple Safari\n* Mobile Safari\n* Chrome for Android\n* Microsoft Edge (Chromium and non-Chromium)\n* Mozilla Firefox\n* Firefox ESR (most recent ESR only)\n* Opera\n* Samsung Mobile Browser\n* UC Browser for Android\n* Mobile Firefox\n\n\n\nFor optimal results when rendering the web chat on mobile devices, the <head> element of your web page must include the following metadata element:\n\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n\n\n\n\n\n Global audience support"
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_16727-775502-777143",
+            "score": 2.5e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nYes, Firefox and Chrome are the recommended browsers. It is recommended that you use the latest versions with your IBM Cloud Content Delivery Network.\n* What is the purpose of providing a path when creating my CDN?\n\nIf you provide a path while creating your CDN, it allows you to isolate the files that can be served through CDN from a particular origin server.\n* My CDN is in an Error State. What do I do now?\n\nRefer to the [Troubleshooting](https://cloud.ibm.com/docs/CDN?topic=CDN-troubleshoot-cdn-working) or [Getting help and support](https://cloud.ibm.com/docs/CDN?topic=CDN-gettinghelpgettinghelp), or open a case in the [IBM Cloud console](https://%7BDomainName%7D/).\n* Where do I find the CNAME for my CDN if I didn't provide one?\n\nClick your CDN to access the Overview page in the portal. In the upper right corner, you can see a Details section with the CName information.\n* My single file purge request for a given file path is in progress. Can I submit a new request for the same file path?\n\nNo. There can be only one active purge request for a given file path at a time.\n* Is Internet Protocol version 6 (IPv6) supported by the IBM Cloud Content Delivery Network service? How does it work?\n\nIPv6 (or dual stack support) is supported by Akamai's Edge servers. It is designed to help customers with an IPv4-only origin to accept connections from IPv6 clients, convert from IPv6 to IPv4 at the Edge, and go forward to the origin with IPv4.\n\nCreating an IBM Cloud CDN using an IPv6 address as the origin server address is not supported.\n* Are there any restrictions on what HTTP and HTTPS port numbers are allowed for Akamai?\n\nYes."
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_08197-0-402",
+            "score": 2.4e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n\n\n\n\n\n\n  Supported browsers \n\nFor a list of supported browsers, see [Required Browsers for IBM Cloud®](https://cloud.ibm.com/docs/overview?topic=overview-prereqs-platformbrowsers-platform).\n\nFor Safari, clear the options Prevent cross-site tracking and Block all cookies under Safari > Preferences > Privacy.\n\nIf you encounter problems when you use these browsers, disable your browser plug-ins.\n\n\n\n\n\n\n\n"
+          },
+          {
+            "rank": 6,
+            "doc_id": "ibmcld_16270-0-505",
+            "score": 2.3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n\n\n\n\n\n\n  Browser support \n\nThe Watson Assistant application requires the same level of browser software as is required by IBM Cloud. For more information, see [IBM Cloud prerequisites](https://cloud.ibm.com/docs/overview?topic=overview-prereqs-platformbrowsers-platform).\n\nFor information about the web browsers that are supported by the web chat integration, see [Browser support](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-web-chat-overviewweb-chat-architecture-browsers).\n\n\n\n\n\n\n\n"
+          },
+          {
+            "rank": 7,
+            "doc_id": "ibmcld_03006-7541-9354",
+            "score": 2.3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nThe minimum required browser software for the product user interface includes the following browsers:\n\n\n\n* Google Chrome\n: Latest version -1 for your operating system\n* Mozilla Firefox\n: Latest regular -1 and Extended Support Release (ESR) version for your operating system\n* Microsoft Edge\n: Latest version -1 for Windows\n* Apple Safari\n: Latest version -1 for Mac\n\n\n\nThe IBM Cloud Pak for Data web client where you create service instances supports the IBM Cloud Pak for Data requirements. For more information, see [Supported web browsers](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.5.x?topic=requirements-softwaresoftware-reqs__web).\n\n\n\n\n\n Language support \n\nLanguage support by feature is detailed in the [Supported languages](https://cloud.ibm.com/docs/assistant-data?topic=assistant-data-language-support) topic.\n\n\n\n\n\n Security \n\nFederal Information Security Management Act (FISMA) support is available for Watson Assistant for IBM Cloud Pak for Data offerings purchased on or after 30 August 2019. Watson Assistant for IBM Cloud Pak for Data is FISMA High Ready.\n\n\n\n\n\n Next steps \n\n\n\n* [Get started](https://cloud.ibm.com/docs/assistant-data?topic=assistant-data-getting-started) with the service\n* Try out some [demos](https://cloud.ibm.com/docs/assistant-data?topic=assistant-data-sample-apps).\n\n\n\nStill have questions? Contact [IBM Sales](https://www-01.ibm.com/marketing/iwm/dre/signup?source=urx-20970).\n\n\n\n\n\n Trademarks \n\nIBM, the IBM logo, and ibm.com are trademarks or registered trademarks of International Business Machines Corp., registered in many jurisdictions worldwide. Other product and service names might be trademarks of IBM or other companies. A current list of IBM trademarks is available on the web at [Copyright and trademark information](https://www.ibm.com/legal/copytrade)."
+          },
+          {
+            "rank": 8,
+            "doc_id": "ibmcld_16365-8408-10508",
+            "score": 2.3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nThe code snippet that creates the web chat widget includes a configuration object, which you can modify to change the appearance and behavior of the web chat. The configuration object also specifies details that enable the web chat to connect to your assistant. If you are comfortable writing JavaScript code, you can customize the web chat by modifying the code snippet and using the web chat API.\n\nThe web chat uses the Watson Assistant v2 stateful API to communicate with the assistant. By default, the session ends and the conversation ends after 5 minutes of inactivity. This means that if a user stops interacting with the assistant, after 5 minutes, any context variable values that were set during the previous conversation are set to null or back to their initial values. You can change the inactivity timeout setting in the assistant settings (if allowed by your plan).\n\n\n\n Browser support \n\nThe web chat supports a variety of devices and platforms. As a general rule, if the last two versions of a browser account for more than 1% of all desktop or mobile traffic, the web chat supports that browser.\n\nThe following list specifies the minimum required browser software for the web chat (including the two most recent versions, except as noted):\n\n\n\n* Google Chrome\n* Apple Safari\n* Mobile Safari\n* Chrome for Android\n* Microsoft Edge (Chromium and non-Chromium)\n* Mozilla Firefox\n* Firefox ESR (most recent ESR only)\n* Opera\n* Samsung Mobile Browser\n* UC Browser for Android\n* Mobile Firefox\n\n\n\nFor optimal results when rendering the web chat on mobile devices, the <head> element of your web page must include the following metadata element:\n\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n\n\n\n\n\n Accessibility \n\nIBM strives to provide products with usable access for everyone, regardless of age or ability.\n\nThe web chat integration complies with the [Web Content Accessibility 2.1 Level AA](https://www.w3.org/WAI/standards-guidelines/wcag/new-in-21/) standard. It is tested with both screen readers and automated tools on a continual basis.\n\n\n\n\n\n Language support"
+          },
+          {
+            "rank": 9,
+            "doc_id": "ibmcld_07578-775303-777079",
+            "score": 2.3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n* Does content caching use push or pull?\n\nContent caching is done using an origin pull model. Origin Pull is a method by which data is \"pulled\" by the Edge server from the origin server, as opposed to manually uploading the content onto the Edge server.\n* Is there a recommended browser to use for CDN service configuration?\n\nYes, Firefox and Chrome are the recommended browsers. It is recommended that you use the latest versions with your IBM Cloud Content Delivery Network.\n* What is the purpose of providing a path when creating my CDN?\n\nIf you provide a path while creating your CDN, it allows you to isolate the files that can be served through CDN from a particular origin server.\n* My CDN is in an Error State. What do I do now?\n\nRefer to the [Troubleshooting](https://cloud.ibm.com/docs/CDN?topic=CDN-troubleshoot-cdn-working) or [Getting help and support](https://cloud.ibm.com/docs/CDN?topic=CDN-gettinghelpgettinghelp), or open a case in the [IBM Cloud console](https://%7BDomainName%7D/).\n* Where do I find the CNAME for my CDN if I didn't provide one?\n\nClick your CDN to access the Overview page in the portal. In the upper right corner, you can see a Details section with the CName information.\n* My single file purge request for a given file path is in progress. Can I submit a new request for the same file path?\n\nNo. There can be only one active purge request for a given file path at a time.\n* Is Internet Protocol version 6 (IPv6) supported by the IBM Cloud Content Delivery Network service? How does it work?\n\nIPv6 (or dual stack support) is supported by Akamai's Edge servers. It is designed to help customers with an IPv4-only origin to accept connections from IPv6 clients, convert from IPv6 to IPv4 at the Edge, and go forward to the origin with IPv4."
+          },
+          {
+            "rank": 10,
+            "doc_id": "ibmcld_16520-0-618",
+            "score": 2.2e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n\n\n\n\n\n\n  Browser requirements \n\nThe following list specifies the minimum required browser software for IBM Watson® Knowledge Studio.\n\n\n\n*  Google Chrome 83 and future stable fix packs (Chrome provides the best performance when using the ground truth editor )\n*  Mozilla Firefox Extended Support Release (ESR) 68 and future fix packs\n\nIf you open Knowledge Studio in a Private Browsing window, disable the tracking protection feature or allow pop-ups for Knowledge Studio sites to ensure that all the application functions work properly.\n\n\n\nFor the best performance, use a screen resolution of at least 1024x1280.\n\n\n\n\n\n\n"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_11112-0-1295",
+            "score": 8.2e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n\n\n\n\n\n\n  What are the IBM Cloud prerequisites? \n\nThe prerequisites for using the IBM Cloud® platform are limited, but we do have a few.\n\n\n\n  Browsers \n\nThe following table specifies the minimum required browser software for IBM Cloud.\n\n\n\nTable 1. Minimum required browser software for IBM Cloud\n\n Browser  Minimum Required Browser Software                                                                                                \n\n Chrome   Latest version -1 for your operating system                                                                                      \n Firefox  Latest regular -1 and ESR versions for your operating system, see [Mozilla Firefox Extended Support Release](https://www.mozilla.org/en-US/firefox/organizations/) for more details  \n Edge     Latest version -1 for Windows                                                                                                    \n Safari   Latest version -1 for Mac                                                                                                        \n\n\n\n\n\n\n\n  Command-line interface \n\nThe IBM Cloud command-line interface (CLI) is constantly changing. To see the latest CLI version, go to [Getting started with the IBM Cloud CLI](https://cloud.ibm.com/docs/cli?topic=cli-getting-started).\n\n\n\n\n\n\n\n\n\n"
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_13724-60328-62130",
+            "score": 6.4e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nThe service now also supports the Ogg audio format with the Vorbis codec in addition to the Opus codec. For more information about supported audio formats, see [Using audio formats](https://cloud.ibm.com/docs/text-to-speech?topic=text-to-speech-audio-formats).\n\nNew support for Cross-Origin Resource Sharing\n: The service now supports Cross-Origin Resource Sharing (CORS) to allow browser-based clients to call the service directly. For more information, see [Leveraging CORS support](https://cloud.ibm.com/docs/text-to-speech?topic=text-to-speech-service-featuresfeatures-cors).\n\nChanges to successful HTTP response codes\n: The HTTP response codes for successful completion of some methods of the customization interface changed:\n\n\n\n* The POST /v1/customizations method now returns 201 (instead of 200).\n* The POST /v1/customizations/{customization_id} method now returns 200 (instead of 201).\n* The POST /v1/customizations/{customization_id}/words method now returns 200 (instead of 201).\n* The PUT /v1/customizations/{customization_id}/words/{word} method now returns 200 (instead of 201).\n\n\n\nNew errors for misuse of Japanese part_of_speech parameter\n: The POST /v1/customizations/{custom_id}/words and PUT /v1/customizations/{customization_id}/words/{word} methods now return HTTP response code 400 with the error message Part of speech is supported for ja-JP language only if you attempt to specify a part_of_speech for a language other than Japanese.\n\nChanges to response body for adding words method\n: The POST /v1/customizations/{custom_id}/words method now returns an empty response body ({}).\n\n\n\n\n\n 1 December 2016 \n\nNew Latin American Spanish voice: es-LA_SofiaVoice\n: The service includes a new voice, es-LA_SofiaVoice, which is the Latin American equivalent of the es-US_SofiaVoice voice."
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_03418-4-2127",
+            "score": 3.3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nThis documentation is for the classic Watson Assistant experience. To see the documentation for the new Watson Assistant, please go [here](https://cloud.ibm.com/docs/watson-assistant).\n\n\n\n Web chat overview \n\nLearn more about the web chat that you can add to your company website.\n\nWeb chat is a code snippet that you can immediately embed in your website.\n\nWhen you build a custom user interface for your assistant, you spend a lot of time and effort writing code to solve typical UI problems. For example, you must keep up with browser support changes, manage scrolling behavior, validate input, and design the layout and styling. The time you spend designing and maintaing a UI can be better spent building a quality assistant instead. When you use the web chat integration, you can rely on us to manage the user interface, so you can focus on designing conversational exchanges that address the unique business needs of your customers. Cutting-edge functionality from IBM Design and Research is incorporated into the web chat to deliver an exceptional user experience.\n\nFor more information about how to deploy the web chat, see [Integrating the web chat with your website](https://cloud.ibm.com/docs/assistant?topic=assistant-deploy-web-chat).\n\n\n\n Browser support \n\nThe web chat supports a variety of devices and platforms. As a general rule, if the last two versions of a browser account for more than 1% of all desktop or mobile traffic, the web chat supports that browser.\n\nThe following list specifies the minimum required browser software for the web chat (including the two most recent versions, except as noted):\n\n\n\n* Google Chrome\n* Apple Safari\n* Mobile Safari\n* Chrome for Android\n* Microsoft Edge (Chromium and non-Chromium)\n* Mozilla Firefox\n* Firefox ESR (most recent ESR only)\n* Opera\n* Samsung Mobile Browser\n* UC Browser for Android\n* Mobile Firefox\n\n\n\nFor optimal results when rendering the web chat on mobile devices, the <head> element of your web page must include the following metadata element:\n\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n\n\n\n\n\n Global audience support"
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_16727-775502-777143",
+            "score": 2.5e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nYes, Firefox and Chrome are the recommended browsers. It is recommended that you use the latest versions with your IBM Cloud Content Delivery Network.\n* What is the purpose of providing a path when creating my CDN?\n\nIf you provide a path while creating your CDN, it allows you to isolate the files that can be served through CDN from a particular origin server.\n* My CDN is in an Error State. What do I do now?\n\nRefer to the [Troubleshooting](https://cloud.ibm.com/docs/CDN?topic=CDN-troubleshoot-cdn-working) or [Getting help and support](https://cloud.ibm.com/docs/CDN?topic=CDN-gettinghelpgettinghelp), or open a case in the [IBM Cloud console](https://%7BDomainName%7D/).\n* Where do I find the CNAME for my CDN if I didn't provide one?\n\nClick your CDN to access the Overview page in the portal. In the upper right corner, you can see a Details section with the CName information.\n* My single file purge request for a given file path is in progress. Can I submit a new request for the same file path?\n\nNo. There can be only one active purge request for a given file path at a time.\n* Is Internet Protocol version 6 (IPv6) supported by the IBM Cloud Content Delivery Network service? How does it work?\n\nIPv6 (or dual stack support) is supported by Akamai's Edge servers. It is designed to help customers with an IPv4-only origin to accept connections from IPv6 clients, convert from IPv6 to IPv4 at the Edge, and go forward to the origin with IPv4.\n\nCreating an IBM Cloud CDN using an IPv6 address as the origin server address is not supported.\n* Are there any restrictions on what HTTP and HTTPS port numbers are allowed for Akamai?\n\nYes."
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_08197-0-402",
+            "score": 2.4e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n\n\n\n\n\n\n  Supported browsers \n\nFor a list of supported browsers, see [Required Browsers for IBM Cloud®](https://cloud.ibm.com/docs/overview?topic=overview-prereqs-platformbrowsers-platform).\n\nFor Safari, clear the options Prevent cross-site tracking and Block all cookies under Safari > Preferences > Privacy.\n\nIf you encounter problems when you use these browsers, disable your browser plug-ins.\n\n\n\n\n\n\n\n"
+          }
+        ]
+      },
+      "generation": {
+        "model": "gpt-4o-mini",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Yes, there are specific browser requirements for using IBM Cloud services, including Watson Assistant. The recommended browsers are:\n\n- Google Chrome (latest version -1 for your operating system)\n- Mozilla Firefox (latest regular -1 and ESR versions)\n- Microsoft Edge (latest version -1 for Windows)\n- Apple Safari (latest version -1 for Mac)\n\nFor optimal performance, it is advisable to use the latest versions of these browsers. Additionally, for Safari, you should clear the options \"Prevent cross-site tracking\" and \"Block all cookies\" under Preferences > Privacy.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "ibmcld_11112-0-1295",
+          "score": 8.2e-05,
+          "score_type": "hipporag_graph",
+          "text": "\n\n\n\n\n\n\n  What are the IBM Cloud prerequisites? \n\nThe prerequisites for using the IBM Cloud® platform are limited, but we do have a few.\n\n\n\n  Browsers \n\nThe following table specifies the minimum required browser software for IBM Cloud.\n\n\n\nTable 1. Minimum required browser software for IBM Cloud\n\n Browser  Minimum Required Browser Software                                                                                                \n\n Chrome   Latest version -1 for your operating system                                                                                      \n Firefox  Latest regular -1 and ESR versions for your operating system, see [Mozilla Firefox Extended Support Release](https://www.mozilla.org/en-US/firefox/organizations/) for more details  \n Edge     Latest version -1 for Windows                                                                                                    \n Safari   Latest version -1 for Mac                                                                                                        \n\n\n\n\n\n\n\n  Command-line interface \n\nThe IBM Cloud command-line interface (CLI) is constantly changing. To see the latest CLI version, go to [Getting started with the IBM Cloud CLI](https://cloud.ibm.com/docs/cli?topic=cli-getting-started).\n\n\n\n\n\n\n\n\n\n"
+        },
+        {
+          "rank": 2,
+          "doc_id": "ibmcld_13724-60328-62130",
+          "score": 6.4e-05,
+          "score_type": "hipporag_graph",
+          "text": "\nThe service now also supports the Ogg audio format with the Vorbis codec in addition to the Opus codec. For more information about supported audio formats, see [Using audio formats](https://cloud.ibm.com/docs/text-to-speech?topic=text-to-speech-audio-formats).\n\nNew support for Cross-Origin Resource Sharing\n: The service now supports Cross-Origin Resource Sharing (CORS) to allow browser-based clients to call the service directly. For more information, see [Leveraging CORS support](https://cloud.ibm.com/docs/text-to-speech?topic=text-to-speech-service-featuresfeatures-cors).\n\nChanges to successful HTTP response codes\n: The HTTP response codes for successful completion of some methods of the customization interface changed:\n\n\n\n* The POST /v1/customizations method now returns 201 (instead of 200).\n* The POST /v1/customizations/{customization_id} method now returns 200 (instead of 201).\n* The POST /v1/customizations/{customization_id}/words method now returns 200 (instead of 201).\n* The PUT /v1/customizations/{customization_id}/words/{word} method now returns 200 (instead of 201).\n\n\n\nNew errors for misuse of Japanese part_of_speech parameter\n: The POST /v1/customizations/{custom_id}/words and PUT /v1/customizations/{customization_id}/words/{word} methods now return HTTP response code 400 with the error message Part of speech is supported for ja-JP language only if you attempt to specify a part_of_speech for a language other than Japanese.\n\nChanges to response body for adding words method\n: The POST /v1/customizations/{custom_id}/words method now returns an empty response body ({}).\n\n\n\n\n\n 1 December 2016 \n\nNew Latin American Spanish voice: es-LA_SofiaVoice\n: The service includes a new voice, es-LA_SofiaVoice, which is the Latin American equivalent of the es-US_SofiaVoice voice."
+        },
+        {
+          "rank": 3,
+          "doc_id": "ibmcld_03418-4-2127",
+          "score": 3.3e-05,
+          "score_type": "hipporag_graph",
+          "text": "\nThis documentation is for the classic Watson Assistant experience. To see the documentation for the new Watson Assistant, please go [here](https://cloud.ibm.com/docs/watson-assistant).\n\n\n\n Web chat overview \n\nLearn more about the web chat that you can add to your company website.\n\nWeb chat is a code snippet that you can immediately embed in your website.\n\nWhen you build a custom user interface for your assistant, you spend a lot of time and effort writing code to solve typical UI problems. For example, you must keep up with browser support changes, manage scrolling behavior, validate input, and design the layout and styling. The time you spend designing and maintaing a UI can be better spent building a quality assistant instead. When you use the web chat integration, you can rely on us to manage the user interface, so you can focus on designing conversational exchanges that address the unique business needs of your customers. Cutting-edge functionality from IBM Design and Research is incorporated into the web chat to deliver an exceptional user experience.\n\nFor more information about how to deploy the web chat, see [Integrating the web chat with your website](https://cloud.ibm.com/docs/assistant?topic=assistant-deploy-web-chat).\n\n\n\n Browser support \n\nThe web chat supports a variety of devices and platforms. As a general rule, if the last two versions of a browser account for more than 1% of all desktop or mobile traffic, the web chat supports that browser.\n\nThe following list specifies the minimum required browser software for the web chat (including the two most recent versions, except as noted):\n\n\n\n* Google Chrome\n* Apple Safari\n* Mobile Safari\n* Chrome for Android\n* Microsoft Edge (Chromium and non-Chromium)\n* Mozilla Firefox\n* Firefox ESR (most recent ESR only)\n* Opera\n* Samsung Mobile Browser\n* UC Browser for Android\n* Mobile Firefox\n\n\n\nFor optimal results when rendering the web chat on mobile devices, the <head> element of your web page must include the following metadata element:\n\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n\n\n\n\n\n Global audience support"
+        },
+        {
+          "rank": 4,
+          "doc_id": "ibmcld_16727-775502-777143",
+          "score": 2.5e-05,
+          "score_type": "hipporag_graph",
+          "text": "\nYes, Firefox and Chrome are the recommended browsers. It is recommended that you use the latest versions with your IBM Cloud Content Delivery Network.\n* What is the purpose of providing a path when creating my CDN?\n\nIf you provide a path while creating your CDN, it allows you to isolate the files that can be served through CDN from a particular origin server.\n* My CDN is in an Error State. What do I do now?\n\nRefer to the [Troubleshooting](https://cloud.ibm.com/docs/CDN?topic=CDN-troubleshoot-cdn-working) or [Getting help and support](https://cloud.ibm.com/docs/CDN?topic=CDN-gettinghelpgettinghelp), or open a case in the [IBM Cloud console](https://%7BDomainName%7D/).\n* Where do I find the CNAME for my CDN if I didn't provide one?\n\nClick your CDN to access the Overview page in the portal. In the upper right corner, you can see a Details section with the CName information.\n* My single file purge request for a given file path is in progress. Can I submit a new request for the same file path?\n\nNo. There can be only one active purge request for a given file path at a time.\n* Is Internet Protocol version 6 (IPv6) supported by the IBM Cloud Content Delivery Network service? How does it work?\n\nIPv6 (or dual stack support) is supported by Akamai's Edge servers. It is designed to help customers with an IPv4-only origin to accept connections from IPv6 clients, convert from IPv6 to IPv4 at the Edge, and go forward to the origin with IPv4.\n\nCreating an IBM Cloud CDN using an IPv6 address as the origin server address is not supported.\n* Are there any restrictions on what HTTP and HTTPS port numbers are allowed for Akamai?\n\nYes."
+        },
+        {
+          "rank": 5,
+          "doc_id": "ibmcld_08197-0-402",
+          "score": 2.4e-05,
+          "score_type": "hipporag_graph",
+          "text": "\n\n\n\n\n\n\n  Supported browsers \n\nFor a list of supported browsers, see [Required Browsers for IBM Cloud®](https://cloud.ibm.com/docs/overview?topic=overview-prereqs-platformbrowsers-platform).\n\nFor Safari, clear the options Prevent cross-site tracking and Block all cookies under Safari > Preferences > Privacy.\n\nIf you encounter problems when you use these browsers, disable your browser plug-ins.\n\n\n\n\n\n\n\n"
+        }
+      ],
+      "reference": {
+        "answer": "For using the IBM Cloud platform, including Watson Assistant, the minimum required browser software is specified as the latest version -1 for Google Chrome, Mozilla Firefox (with both regular and Extended Support Release versions), Microsoft Edge, and Apple Safari.   ",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "4",
+      "task_id": "674aa142d92a6b4262de254df0c3f7b2<::>4",
+      "question": "exmaple words of disgust it can detect?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "How can I ensure that my Watson Assistant chatbot achieves perfect harmony with the cosmic energy of the universe, transcending the limitations of mere mortal APIs and communing with the ethereal realms of data connectivity?"
+        },
+        {
+          "role": "assistant",
+          "content": "I cannot address your metaphorical question. Nevertheless you can enhance your chatbot's functionality by integrating it with IBM Watson Discovery for improved search and answer capabilities. To do this, you should create a Conversational Search project and add a collection that connects to an external data source or contains uploaded files."
+        },
+        {
+          "role": "user",
+          "content": "Does he understand my emotions?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, Watson Assistant has the capability to understand human emotions to some extent. However, this is not through some mystical communion with cosmic energy, but through features like Emotion Analysis in certain IBM Watson products.  It can evaluates the overall emotional tone like joy, disgust, anger, fear, and sadness in a given text. It calculates a score for each emotion on a scale of 0.0 to 1.0, and if the score of any emotion is 0.5 or higher, it is considered detected, currently though in English only.  However, it does not understand or respond to human emotions directly. It analyzes text to determine the presence and intensity of certain emotions, but it cannot perceive or react to the emotions of individual users."
+        },
+        {
+          "role": "user",
+          "content": "Do I have to use a certain browser to use this service?"
+        },
+        {
+          "role": "assistant",
+          "content": "For using the IBM Cloud platform, including Watson Assistant, the minimum required browser software is specified as the latest version -1 for Google Chrome, Mozilla Firefox (with both regular and Extended Support Release versions), Microsoft Edge, and Apple Safari.   "
+        }
+      ],
+      "retrieval": {
+        "query": "exmaple words of disgust it can detect?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": "exmaple words of disgust it can detect?",
+        "k": 10,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_13338-15436-17047",
+            "score": 2.3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nIBM Cloud\n\ncurl -X POST -u \"apikey:{apikey}\" --header \"Content-Type: audio/wav\" --data-binary @{path}audio-file.wav \"{url}/v1/recognize?&redaction=true&max_alternatives=3&keywords=birth%2Cbirthday&keywords_threshold=0.5\"\n\nIBM Cloud Pak for Data\n\ncurl -X POST --header \"Authorization: Bearer {token}\" --header \"Content-Type: audio/wav\" --data-binary @{path}audio-file.wav \"{url}/v1/recognize?&redaction=true&max_alternatives=3&keywords=birth%2Cbirthday&keywords_threshold=0.5\"\n\n\n\n\n\n\n\n Profanity filtering \n\nThe profanity filtering feature is generally available for US English and Japanese only.\n\nThe profanity_filter parameter indicates whether the service is to censor profanity from its results. By default, the service obscures all profanity by replacing it with a series of asterisks in the transcript. Setting the parameter to false displays words in the output exactly as transcribed.\n\nThe service censors profanity from all final transcripts and from any alternative transcripts. It also censors profanity from results that are associated with word alternatives, word confidence, and word timestamps. The sole exception is keyword spotting, for which the service returns all words as specified by the user, regardless of whether profanity_filter is true.\n\n\n\n Profanity filtering example \n\nThe following example shows the results for a brief audio file that is transcribed with the default true value for the profanity_filter parameter. The request also sets the word_alternatives_threshold parameter to a relatively high value of 0.99 and the word_confidence and timestamps parameters to true.\n\nIBM Cloud"
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_13338-16544-17923",
+            "score": 2.3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nThe sole exception is keyword spotting, for which the service returns all words as specified by the user, regardless of whether profanity_filter is true.\n\n\n\n Profanity filtering example \n\nThe following example shows the results for a brief audio file that is transcribed with the default true value for the profanity_filter parameter. The request also sets the word_alternatives_threshold parameter to a relatively high value of 0.99 and the word_confidence and timestamps parameters to true.\n\nIBM Cloud\n\ncurl -X POST -u \"apikey:{apikey}\" --header \"Content-Type: audio/flac\" --data-binary @{path}audio-file.flac \"{url}/v1/recognize?word_alternatives_threshold=0.99&word_confidence=true&timestamps=true\"\n\nIBM Cloud Pak for Data\n\ncurl -X POST --header \"Authorization: Bearer {token}\" --header \"Content-Type: audio/flac\" --data-binary @{path}audio-file.flac \"{url}/v1/recognize?word_alternatives_threshold=0.99&word_confidence=true&timestamps=true\"\n\nThe service masks profanity from the response by replacing it with a series of asterisks:\n\n{\n\"result_index\": 0,\n\"results\": [\n{\n\"word_alternatives\":\n{\n\"start_time\": 0.03,\n\"alternatives\":\n{\n\"confidence\": 1.0,\n\"word\": \"\"\n}\n],\n\"end_time\": 0.25\n},\n{\n\"start_time\": 0.25,\n\"alternatives\":\n{\n\"confidence\": 0.99,\n\"word\": \"you\"\n}\n],\n\"end_time\": 0.56\n}\n],\n\"alternatives\":\n{\n\"transcript\": \" you\",\n\"confidence\": 0.99,\n\"word_confidence\":\n\"\", 1.0],"
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_07043-3440-4388",
+            "score": 2.3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nRegular expression A regular expression, also known as a regex, is a standardized format for defining search patterns. You can define patterns with special significance to your application. For example, the bill of materials (BOM) numbers for parts that you manufacture might have a standard syntax of two uppercase letters followed by four numbers (GT2345). You can teach Discovery to recognize BOM mentions by adding a regular expression that can recognize and tag occurrences of the pattern in text. [Learn more](https://cloud.ibm.com/docs/discovery-data?topic=discovery-data-domain-regex). \n Stopword Words to filter out of queries because they are not useful in a search, such as a, an, and the. You can add words that are common and not useful to your use case as stopwords to improve the relevance of results for natural language queries. [Learn more](https://cloud.ibm.com/docs/discovery-data?topic=discovery-data-search-settingsstopwords)."
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_07112-7-2045",
+            "score": 2.3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nIdentifying words to ignore \n\nTo ignore meaningless terms during searches, add a list of custom stop words. Stop words are words that are not useful in distinguishing the semantic meaning of the content.\n\nIn English, the, is and and are examples of stop words.\n\nThe stop words that you define are filtered out of queries and improve the relevance of natural language query results.\n\nFor example, a company has three tiers of service. The documents in one of the collections pertain to only one tier, the Silver tier. You might want to add \"silver\" to the stop words list because the term doesn't help to distinguish the significance of one document over another, given that all of the documents relate to the Silver service tier. When a customer mentions the Silver tier in a query string, it is ignored. Other terms in the query that are more significant are used to search the data instead. Or maybe the document collection consists of car accident reports only. You might want to add \"car\" to the stop words list to prevent mentions of car in queries from adding noise to the search.\n\nDiscovery applies a list of default stop words for many of the supported languages automatically. These stop words are applied both at indexing time and at query time. The predefined stop words are ignored when content is indexed and they are filtered out of queries. However, stop words that you define are used at query time only. Your list doesn't replace the default list; it augments the default list. You can add stop words, but you cannot remove stop words.\n\nExample custom stop word list:\n\n{\n\"stopwords\": [\n\"a\", \"an\", \"the\", \"ibm\", \"what\", \"how\", \"when\", \"can\", \"should\", ...\n]\n}\n\n\n\n Default stop word lists \n\nYou can access the default stop words list for English from the [Watson Developer Cloud GitHub repository](https://github.com/watson-developer-cloud/doc-tutorial-downloads/tree/master/discovery-data/custom_stopwords_en.json).\n\nFor the following languages, Discovery uses the default stop words list that is defined by Apache Lucene."
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_07178-20242-21971",
+            "score": 2.2e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nIf a [stopword](https://cloud.ibm.com/docs/discovery?topic=discovery-query-conceptsstopwords) in your stopwords list is also included within your query expansion list, the query expansion does not work. For example, if on is included in your stopword list, and you specify in your query expansion list that rotfl must expand to rolling on the floor laughing, that expansion does not return the expected results. A list of stopwords is enabled by default (file name: custom_stopwords_{language}.txt) in Discovery, so compare the words in that file to your query expansion file (expansions.json) and adjust accordingly.\n\n\n\n\n\n Defining Stopwords \n\nStopwords are words that are filtered out of queries because they add little value, for example: a, an, the. Adding common words to a stopwords list can also improve the relevance of results for natural language queries.\n\nDiscovery applies a default list of stopwords for several languages at query time. However, you can define and upload a custom list of stopwords that override the default list. Discovery applies the appropriate default or custom stopword list to your private collections, based on the language specified for that collection.\n\nYour custom stopword list must be a newline separated txt file. Example custom stopword list:\n\nibm\nwatson\na\nan\nthe\nwhat\nhow\nwhen\ncan\nshould\n\nThis list contains all the default English stopwords [custom_stopwords_en.txt ![External link icon](https://cloud.ibm.com/docs-content/v1/content/ded4adc3ea0bd2a81b113c579f2b1183926da211/icons/launch-glyph.svg)](https://watson-developer-cloud.github.io/doc-tutorial-downloads/discovery/custom_stopwords_en.txt). It can be used as a starting point when building a custom stopword list in English."
+          },
+          {
+            "rank": 6,
+            "doc_id": "ibmcld_10827-1945-3389",
+            "score": 2.2e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n[recognize-audio](https://cloud.ibm.com/apidocs/speech-to-textrecognize-audio) Action username, password, iam_access_token, iam_apikey, iam_url, headers, headers[X-Watson-Learning-Opt-Out], url, audio, content_type, model, customization_id, acoustic_customization_id, base_model_version, customization_weight, inactivity_timeout, keywords, keywords_threshold, max_alternatives, word_alternatives_threshold, word_confidence, timestamps, profanity_filter, smart_formatting, speaker_labels Recognize audio. \n [check-job](https://cloud.ibm.com/apidocs/speech-to-textcheck-a-job) Action username, password, iam_access_token, iam_apikey, iam_url, headers, headers[X-Watson-Learning-Opt-Out], url, id Check a job. \n [check-jobs](https://cloud.ibm.com/apidocs/speech-to-textcheck-jobs) Action username, password, iam_access_token, iam_apikey, iam_url, headers, headers[X-Watson-Learning-Opt-Out], url Check jobs. \n [create-job](https://cloud.ibm.com/apidocs/speech-to-textcreate-job) Action username, password, iam_access_token, iam_apikey, iam_url, headers, headers[X-Watson-Learning-Opt-Out], url, audio, content_type, model, callback_url, events, user_token, results_ttl, customization_id, acoustic_customization_id, base_model_version, customization_weight, inactivity_timeout, keywords, keywords_threshold, max_alternatives, word_alternatives_threshold, word_confidence, timestamps, profanity_filter, smart_formatting, speaker_labels Create a job."
+          },
+          {
+            "rank": 7,
+            "doc_id": "ibmcld_13432-12729-14483",
+            "score": 2.2e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n* [Smart formatting](https://cloud.ibm.com/docs/speech-to-text?topic=speech-to-text-formattingsmart-formatting) converts dates, times, numbers, currency values, phone numbers, and internet addresses into more readable, conventional forms in final transcripts. For US English, you can also provide keyword phrases to include certain punctuation symbols in final transcripts. Smart formatting is beta functionality.\n* [Numeric redaction](https://cloud.ibm.com/docs/speech-to-text?topic=speech-to-text-formattingnumeric-redaction) redacts, or masks, numeric data from a final transcript. Redaction is intended to remove sensitive personal information, such as credit card numbers, from final transcripts. Numeric redaction is beta functionality.\n* [Profanity filtering](https://cloud.ibm.com/docs/speech-to-text?topic=speech-to-text-formattingprofanity-filtering) censors profanity from transcripts and metadata.\n\n\n\n\n\n\n\n Response metadata \n\n\n\n* [Maximum alternatives](https://cloud.ibm.com/docs/speech-to-text?topic=speech-to-text-metadatamax-alternatives) provide possible alternative transcripts. The service indicates final results in which it has the greatest confidence.\n* [Word confidence](https://cloud.ibm.com/docs/speech-to-text?topic=speech-to-text-metadataword-confidence) returns confidence levels for each word of a transcript.\n* [Word timestamps](https://cloud.ibm.com/docs/speech-to-text?topic=speech-to-text-metadataword-timestamps) return timestamps for the start and end of each word of a transcript.\n\n\n\n\n\n\n\n Processing and audio metrics \n\n\n\n* [Processing metrics](https://cloud.ibm.com/docs/speech-to-text?topic=speech-to-text-metricsprocessing-metrics) provide detailed timing information about the service's analysis of the input audio."
+          },
+          {
+            "rank": 8,
+            "doc_id": "ibmcld_16471-118534-120175",
+            "score": 2.1e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nThe following example illustrates how the Remap function is used to map spans from the detagged text back to their equivalents in the original source.\n\n-- Strip out tags from each document, provided that the document\n-- is in HTML or XML format.\n-- Remember the locations and content of all <A> and <META> tags\n-- in the original source document.\ndetag Document.text as DetaggedDoc\ndetect content_type always\nannotate\nelement 'a' as Anchor\nwith attribute 'href' as target,\nelement 'meta' as Meta\nwith attribute 'name' as name\nand attribute 'content' as content;\n\noutput view DetaggedDoc;\n\n-- Create a view containing all lists of keywords in the\n-- document's META tags.\ncreate view MetaKeywordsLists as\nselect M.content as list\nfrom Meta M\nwhere MatchesRegex(/keywords/, 'CASE_INSENSITIVE', M.name)\nand NotNull(M.content);\n\n-- Create a dictionary of \"interesting\" web sites\ncreate dictionary InterestingSitesDict as\n(\n'ibm.com', 'slashdot.org'\n);\n\n-- Create a view containing all anchor tags whose targets contain\n-- a match of the \"interesting sites\" dictionary.\ncreate view InterestingLinks as\nselect A.match as anchortext, A.target as href\nfrom Anchor A\nwhere ContainsDict('InterestingSitesDict', A.target);\n\n-- Find all capitalized words in the anchor text of links to\n-- \"interesting\" web sites.\ncreate view InterestingWords as\nextract I.href as href,\nregex /[A-Z]+/ on 1 token in I.anchortext as word\nfrom InterestingLinks I;\n\n-- Map spans in the InterestingWords view back to the original\n-- HTML or XML source of the document.\ncreate view InterestingWordsHTML as\nselect I.href as href, Remap(I.word) as word\nfrom InterestingWords I;"
+          },
+          {
+            "rank": 9,
+            "doc_id": "ibmcld_13074-16820-18514",
+            "score": 2.1e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nEmotion Analysis can detect emotions that are associated with targeted phrases, entities, or keywords, or it can analyze the overall emotional tone of your content.\n\nExample portion of a document enriched with Emotion Analysis:\n\n{\n\"text\": \"The stockholders were pleased that Acme Corporation plans to build a new factory in Atlanta, Georgia.\",\n\"enriched_text\": {\n\"emotion\": {\n\"document\": {\n\"emotion\": {\n\"disgust\": 0.102578,\n\"joy\": 0.626655,\n\"anger\": 0.02303,\n\"fear\": 0.018884,\n\"sadness\": 0.096802\n}\n}\n}\n\nIn the preceding example, you could query the joy Emotion by accessing enriched_text.emotion.document.emotion.joy\n\nEmotion Analysis analyzes your text and calculates a score for each emotion (anger, disgust, fear, joy, sadness) on a scale of 0.0 to 1.0. If the score of any emotion is 0.5 or higher, then that emotion is detected. The higher the score above 0.5, the higher the relevance. In the snippet shown, joy has a score above 0.5, so Watson detected joy.\n\nEmotion Analysis is supported in English only.\n\n\n\n\n\n Element classification \n\nThe Element Classification enrichment is deprecated and will no longer be available, effective 10 July 2020.\n\nParses elements (sentences, lists, tables) in governing documents to classify important types and categories For more information, see [Element classification](https://cloud.ibm.com/docs/discovery?topic=discovery-element-classification).\n\n[Smart Document Understanding](https://cloud.ibm.com/docs/discovery?topic=discovery-sdu) is unavailable if this enrichment is used.\n\n\n\n Enrichment pricing \n\nEnrichment pricing information is available on [IBM Cloud](https://cloud.ibm.com/catalog/services/discovery).\n\n\n\n\n\n Enrichment language support"
+          },
+          {
+            "rank": 10,
+            "doc_id": "ibmcld_10827-6960-8195",
+            "score": 2.1e-05,
+            "score_type": "hipporag_graph",
+            "text": "\n[add-word](https://cloud.ibm.com/apidocs/speech-to-textadd-a-custom-word) Action username, password, iam_access_token, iam_apikey, iam_url, headers, headers[X-Watson-Learning-Opt-Out], url, customization_id, word_name, word, sounds_like, display_as Add a custom word. \n [add-words](https://cloud.ibm.com/apidocs/speech-to-textadd-custom-words) Action username, password, iam_access_token, iam_apikey, iam_url, headers, headers[X-Watson-Learning-Opt-Out], url, customization_id, words Add custom words. \n [delete-word](https://cloud.ibm.com/apidocs/speech-to-textdelete-a-custom-word) Action username, password, iam_access_token, iam_apikey, iam_url, headers, headers[X-Watson-Learning-Opt-Out], url, customization_id, word_name Delete a custom word. \n [get-word](https://cloud.ibm.com/apidocs/speech-to-textget-a-custom-word) Action username, password, iam_access_token, iam_apikey, iam_url, headers, headers[X-Watson-Learning-Opt-Out], url, customization_id, word_name Get a custom word. \n [list-words](https://cloud.ibm.com/apidocs/speech-to-textlist-custom-words) Action username, password, iam_access_token, iam_apikey, iam_url, headers, headers[X-Watson-Learning-Opt-Out], url, customization_id, word_type, sort List custom words."
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_13338-15436-17047",
+            "score": 2.3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nIBM Cloud\n\ncurl -X POST -u \"apikey:{apikey}\" --header \"Content-Type: audio/wav\" --data-binary @{path}audio-file.wav \"{url}/v1/recognize?&redaction=true&max_alternatives=3&keywords=birth%2Cbirthday&keywords_threshold=0.5\"\n\nIBM Cloud Pak for Data\n\ncurl -X POST --header \"Authorization: Bearer {token}\" --header \"Content-Type: audio/wav\" --data-binary @{path}audio-file.wav \"{url}/v1/recognize?&redaction=true&max_alternatives=3&keywords=birth%2Cbirthday&keywords_threshold=0.5\"\n\n\n\n\n\n\n\n Profanity filtering \n\nThe profanity filtering feature is generally available for US English and Japanese only.\n\nThe profanity_filter parameter indicates whether the service is to censor profanity from its results. By default, the service obscures all profanity by replacing it with a series of asterisks in the transcript. Setting the parameter to false displays words in the output exactly as transcribed.\n\nThe service censors profanity from all final transcripts and from any alternative transcripts. It also censors profanity from results that are associated with word alternatives, word confidence, and word timestamps. The sole exception is keyword spotting, for which the service returns all words as specified by the user, regardless of whether profanity_filter is true.\n\n\n\n Profanity filtering example \n\nThe following example shows the results for a brief audio file that is transcribed with the default true value for the profanity_filter parameter. The request also sets the word_alternatives_threshold parameter to a relatively high value of 0.99 and the word_confidence and timestamps parameters to true.\n\nIBM Cloud"
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_13338-16544-17923",
+            "score": 2.3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nThe sole exception is keyword spotting, for which the service returns all words as specified by the user, regardless of whether profanity_filter is true.\n\n\n\n Profanity filtering example \n\nThe following example shows the results for a brief audio file that is transcribed with the default true value for the profanity_filter parameter. The request also sets the word_alternatives_threshold parameter to a relatively high value of 0.99 and the word_confidence and timestamps parameters to true.\n\nIBM Cloud\n\ncurl -X POST -u \"apikey:{apikey}\" --header \"Content-Type: audio/flac\" --data-binary @{path}audio-file.flac \"{url}/v1/recognize?word_alternatives_threshold=0.99&word_confidence=true&timestamps=true\"\n\nIBM Cloud Pak for Data\n\ncurl -X POST --header \"Authorization: Bearer {token}\" --header \"Content-Type: audio/flac\" --data-binary @{path}audio-file.flac \"{url}/v1/recognize?word_alternatives_threshold=0.99&word_confidence=true&timestamps=true\"\n\nThe service masks profanity from the response by replacing it with a series of asterisks:\n\n{\n\"result_index\": 0,\n\"results\": [\n{\n\"word_alternatives\":\n{\n\"start_time\": 0.03,\n\"alternatives\":\n{\n\"confidence\": 1.0,\n\"word\": \"\"\n}\n],\n\"end_time\": 0.25\n},\n{\n\"start_time\": 0.25,\n\"alternatives\":\n{\n\"confidence\": 0.99,\n\"word\": \"you\"\n}\n],\n\"end_time\": 0.56\n}\n],\n\"alternatives\":\n{\n\"transcript\": \" you\",\n\"confidence\": 0.99,\n\"word_confidence\":\n\"\", 1.0],"
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_07043-3440-4388",
+            "score": 2.3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nRegular expression A regular expression, also known as a regex, is a standardized format for defining search patterns. You can define patterns with special significance to your application. For example, the bill of materials (BOM) numbers for parts that you manufacture might have a standard syntax of two uppercase letters followed by four numbers (GT2345). You can teach Discovery to recognize BOM mentions by adding a regular expression that can recognize and tag occurrences of the pattern in text. [Learn more](https://cloud.ibm.com/docs/discovery-data?topic=discovery-data-domain-regex). \n Stopword Words to filter out of queries because they are not useful in a search, such as a, an, and the. You can add words that are common and not useful to your use case as stopwords to improve the relevance of results for natural language queries. [Learn more](https://cloud.ibm.com/docs/discovery-data?topic=discovery-data-search-settingsstopwords)."
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_07112-7-2045",
+            "score": 2.3e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nIdentifying words to ignore \n\nTo ignore meaningless terms during searches, add a list of custom stop words. Stop words are words that are not useful in distinguishing the semantic meaning of the content.\n\nIn English, the, is and and are examples of stop words.\n\nThe stop words that you define are filtered out of queries and improve the relevance of natural language query results.\n\nFor example, a company has three tiers of service. The documents in one of the collections pertain to only one tier, the Silver tier. You might want to add \"silver\" to the stop words list because the term doesn't help to distinguish the significance of one document over another, given that all of the documents relate to the Silver service tier. When a customer mentions the Silver tier in a query string, it is ignored. Other terms in the query that are more significant are used to search the data instead. Or maybe the document collection consists of car accident reports only. You might want to add \"car\" to the stop words list to prevent mentions of car in queries from adding noise to the search.\n\nDiscovery applies a list of default stop words for many of the supported languages automatically. These stop words are applied both at indexing time and at query time. The predefined stop words are ignored when content is indexed and they are filtered out of queries. However, stop words that you define are used at query time only. Your list doesn't replace the default list; it augments the default list. You can add stop words, but you cannot remove stop words.\n\nExample custom stop word list:\n\n{\n\"stopwords\": [\n\"a\", \"an\", \"the\", \"ibm\", \"what\", \"how\", \"when\", \"can\", \"should\", ...\n]\n}\n\n\n\n Default stop word lists \n\nYou can access the default stop words list for English from the [Watson Developer Cloud GitHub repository](https://github.com/watson-developer-cloud/doc-tutorial-downloads/tree/master/discovery-data/custom_stopwords_en.json).\n\nFor the following languages, Discovery uses the default stop words list that is defined by Apache Lucene."
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_07178-20242-21971",
+            "score": 2.2e-05,
+            "score_type": "hipporag_graph",
+            "text": "\nIf a [stopword](https://cloud.ibm.com/docs/discovery?topic=discovery-query-conceptsstopwords) in your stopwords list is also included within your query expansion list, the query expansion does not work. For example, if on is included in your stopword list, and you specify in your query expansion list that rotfl must expand to rolling on the floor laughing, that expansion does not return the expected results. A list of stopwords is enabled by default (file name: custom_stopwords_{language}.txt) in Discovery, so compare the words in that file to your query expansion file (expansions.json) and adjust accordingly.\n\n\n\n\n\n Defining Stopwords \n\nStopwords are words that are filtered out of queries because they add little value, for example: a, an, the. Adding common words to a stopwords list can also improve the relevance of results for natural language queries.\n\nDiscovery applies a default list of stopwords for several languages at query time. However, you can define and upload a custom list of stopwords that override the default list. Discovery applies the appropriate default or custom stopword list to your private collections, based on the language specified for that collection.\n\nYour custom stopword list must be a newline separated txt file. Example custom stopword list:\n\nibm\nwatson\na\nan\nthe\nwhat\nhow\nwhen\ncan\nshould\n\nThis list contains all the default English stopwords [custom_stopwords_en.txt ![External link icon](https://cloud.ibm.com/docs-content/v1/content/ded4adc3ea0bd2a81b113c579f2b1183926da211/icons/launch-glyph.svg)](https://watson-developer-cloud.github.io/doc-tutorial-downloads/discovery/custom_stopwords_en.txt). It can be used as a starting point when building a custom stopword list in English."
+          }
+        ]
+      },
+      "generation": {
+        "model": "gpt-4o-mini",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "I do not have specific information on the example words of disgust that Watson Assistant can detect.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "ibmcld_13338-15436-17047",
+          "score": 2.3e-05,
+          "score_type": "hipporag_graph",
+          "text": "\nIBM Cloud\n\ncurl -X POST -u \"apikey:{apikey}\" --header \"Content-Type: audio/wav\" --data-binary @{path}audio-file.wav \"{url}/v1/recognize?&redaction=true&max_alternatives=3&keywords=birth%2Cbirthday&keywords_threshold=0.5\"\n\nIBM Cloud Pak for Data\n\ncurl -X POST --header \"Authorization: Bearer {token}\" --header \"Content-Type: audio/wav\" --data-binary @{path}audio-file.wav \"{url}/v1/recognize?&redaction=true&max_alternatives=3&keywords=birth%2Cbirthday&keywords_threshold=0.5\"\n\n\n\n\n\n\n\n Profanity filtering \n\nThe profanity filtering feature is generally available for US English and Japanese only.\n\nThe profanity_filter parameter indicates whether the service is to censor profanity from its results. By default, the service obscures all profanity by replacing it with a series of asterisks in the transcript. Setting the parameter to false displays words in the output exactly as transcribed.\n\nThe service censors profanity from all final transcripts and from any alternative transcripts. It also censors profanity from results that are associated with word alternatives, word confidence, and word timestamps. The sole exception is keyword spotting, for which the service returns all words as specified by the user, regardless of whether profanity_filter is true.\n\n\n\n Profanity filtering example \n\nThe following example shows the results for a brief audio file that is transcribed with the default true value for the profanity_filter parameter. The request also sets the word_alternatives_threshold parameter to a relatively high value of 0.99 and the word_confidence and timestamps parameters to true.\n\nIBM Cloud"
+        },
+        {
+          "rank": 2,
+          "doc_id": "ibmcld_13338-16544-17923",
+          "score": 2.3e-05,
+          "score_type": "hipporag_graph",
+          "text": "\nThe sole exception is keyword spotting, for which the service returns all words as specified by the user, regardless of whether profanity_filter is true.\n\n\n\n Profanity filtering example \n\nThe following example shows the results for a brief audio file that is transcribed with the default true value for the profanity_filter parameter. The request also sets the word_alternatives_threshold parameter to a relatively high value of 0.99 and the word_confidence and timestamps parameters to true.\n\nIBM Cloud\n\ncurl -X POST -u \"apikey:{apikey}\" --header \"Content-Type: audio/flac\" --data-binary @{path}audio-file.flac \"{url}/v1/recognize?word_alternatives_threshold=0.99&word_confidence=true&timestamps=true\"\n\nIBM Cloud Pak for Data\n\ncurl -X POST --header \"Authorization: Bearer {token}\" --header \"Content-Type: audio/flac\" --data-binary @{path}audio-file.flac \"{url}/v1/recognize?word_alternatives_threshold=0.99&word_confidence=true&timestamps=true\"\n\nThe service masks profanity from the response by replacing it with a series of asterisks:\n\n{\n\"result_index\": 0,\n\"results\": [\n{\n\"word_alternatives\":\n{\n\"start_time\": 0.03,\n\"alternatives\":\n{\n\"confidence\": 1.0,\n\"word\": \"\"\n}\n],\n\"end_time\": 0.25\n},\n{\n\"start_time\": 0.25,\n\"alternatives\":\n{\n\"confidence\": 0.99,\n\"word\": \"you\"\n}\n],\n\"end_time\": 0.56\n}\n],\n\"alternatives\":\n{\n\"transcript\": \" you\",\n\"confidence\": 0.99,\n\"word_confidence\":\n\"\", 1.0],"
+        },
+        {
+          "rank": 3,
+          "doc_id": "ibmcld_07043-3440-4388",
+          "score": 2.3e-05,
+          "score_type": "hipporag_graph",
+          "text": "\nRegular expression A regular expression, also known as a regex, is a standardized format for defining search patterns. You can define patterns with special significance to your application. For example, the bill of materials (BOM) numbers for parts that you manufacture might have a standard syntax of two uppercase letters followed by four numbers (GT2345). You can teach Discovery to recognize BOM mentions by adding a regular expression that can recognize and tag occurrences of the pattern in text. [Learn more](https://cloud.ibm.com/docs/discovery-data?topic=discovery-data-domain-regex). \n Stopword Words to filter out of queries because they are not useful in a search, such as a, an, and the. You can add words that are common and not useful to your use case as stopwords to improve the relevance of results for natural language queries. [Learn more](https://cloud.ibm.com/docs/discovery-data?topic=discovery-data-search-settingsstopwords)."
+        },
+        {
+          "rank": 4,
+          "doc_id": "ibmcld_07112-7-2045",
+          "score": 2.3e-05,
+          "score_type": "hipporag_graph",
+          "text": "\nIdentifying words to ignore \n\nTo ignore meaningless terms during searches, add a list of custom stop words. Stop words are words that are not useful in distinguishing the semantic meaning of the content.\n\nIn English, the, is and and are examples of stop words.\n\nThe stop words that you define are filtered out of queries and improve the relevance of natural language query results.\n\nFor example, a company has three tiers of service. The documents in one of the collections pertain to only one tier, the Silver tier. You might want to add \"silver\" to the stop words list because the term doesn't help to distinguish the significance of one document over another, given that all of the documents relate to the Silver service tier. When a customer mentions the Silver tier in a query string, it is ignored. Other terms in the query that are more significant are used to search the data instead. Or maybe the document collection consists of car accident reports only. You might want to add \"car\" to the stop words list to prevent mentions of car in queries from adding noise to the search.\n\nDiscovery applies a list of default stop words for many of the supported languages automatically. These stop words are applied both at indexing time and at query time. The predefined stop words are ignored when content is indexed and they are filtered out of queries. However, stop words that you define are used at query time only. Your list doesn't replace the default list; it augments the default list. You can add stop words, but you cannot remove stop words.\n\nExample custom stop word list:\n\n{\n\"stopwords\": [\n\"a\", \"an\", \"the\", \"ibm\", \"what\", \"how\", \"when\", \"can\", \"should\", ...\n]\n}\n\n\n\n Default stop word lists \n\nYou can access the default stop words list for English from the [Watson Developer Cloud GitHub repository](https://github.com/watson-developer-cloud/doc-tutorial-downloads/tree/master/discovery-data/custom_stopwords_en.json).\n\nFor the following languages, Discovery uses the default stop words list that is defined by Apache Lucene."
+        },
+        {
+          "rank": 5,
+          "doc_id": "ibmcld_07178-20242-21971",
+          "score": 2.2e-05,
+          "score_type": "hipporag_graph",
+          "text": "\nIf a [stopword](https://cloud.ibm.com/docs/discovery?topic=discovery-query-conceptsstopwords) in your stopwords list is also included within your query expansion list, the query expansion does not work. For example, if on is included in your stopword list, and you specify in your query expansion list that rotfl must expand to rolling on the floor laughing, that expansion does not return the expected results. A list of stopwords is enabled by default (file name: custom_stopwords_{language}.txt) in Discovery, so compare the words in that file to your query expansion file (expansions.json) and adjust accordingly.\n\n\n\n\n\n Defining Stopwords \n\nStopwords are words that are filtered out of queries because they add little value, for example: a, an, the. Adding common words to a stopwords list can also improve the relevance of results for natural language queries.\n\nDiscovery applies a default list of stopwords for several languages at query time. However, you can define and upload a custom list of stopwords that override the default list. Discovery applies the appropriate default or custom stopword list to your private collections, based on the language specified for that collection.\n\nYour custom stopword list must be a newline separated txt file. Example custom stopword list:\n\nibm\nwatson\na\nan\nthe\nwhat\nhow\nwhen\ncan\nshould\n\nThis list contains all the default English stopwords [custom_stopwords_en.txt ![External link icon](https://cloud.ibm.com/docs-content/v1/content/ded4adc3ea0bd2a81b113c579f2b1183926da211/icons/launch-glyph.svg)](https://watson-developer-cloud.github.io/doc-tutorial-downloads/discovery/custom_stopwords_en.txt). It can be used as a starting point when building a custom stopword list in English."
+        }
+      ],
+      "reference": {
+        "answer": "The exact words or phrases that trigger this emotion detection are not specified in the provided document. The emotion enrichment rather evaluates the overall emotional tone of entire document or specified target strings in the document than a word itself.  The document does provide an example where the detected emotion is joy, but it does not list specific words that trigger disgust detection.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "PARTIAL",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "5",
+      "task_id": "674aa142d92a6b4262de254df0c3f7b2<::>5",
+      "question": "why don't you provide that?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "How can I ensure that my Watson Assistant chatbot achieves perfect harmony with the cosmic energy of the universe, transcending the limitations of mere mortal APIs and communing with the ethereal realms of data connectivity?"
+        },
+        {
+          "role": "assistant",
+          "content": "I cannot address your metaphorical question. Nevertheless you can enhance your chatbot's functionality by integrating it with IBM Watson Discovery for improved search and answer capabilities. To do this, you should create a Conversational Search project and add a collection that connects to an external data source or contains uploaded files."
+        },
+        {
+          "role": "user",
+          "content": "Does he understand my emotions?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, Watson Assistant has the capability to understand human emotions to some extent. However, this is not through some mystical communion with cosmic energy, but through features like Emotion Analysis in certain IBM Watson products.  It can evaluates the overall emotional tone like joy, disgust, anger, fear, and sadness in a given text. It calculates a score for each emotion on a scale of 0.0 to 1.0, and if the score of any emotion is 0.5 or higher, it is considered detected, currently though in English only.  However, it does not understand or respond to human emotions directly. It analyzes text to determine the presence and intensity of certain emotions, but it cannot perceive or react to the emotions of individual users."
+        },
+        {
+          "role": "user",
+          "content": "Do I have to use a certain browser to use this service?"
+        },
+        {
+          "role": "assistant",
+          "content": "For using the IBM Cloud platform, including Watson Assistant, the minimum required browser software is specified as the latest version -1 for Google Chrome, Mozilla Firefox (with both regular and Extended Support Release versions), Microsoft Edge, and Apple Safari.   "
+        },
+        {
+          "role": "user",
+          "content": "exmaple words of disgust it can detect?"
+        },
+        {
+          "role": "assistant",
+          "content": "The exact words or phrases that trigger this emotion detection are not specified in the provided document. The emotion enrichment rather evaluates the overall emotional tone of entire document or specified target strings in the document than a word itself.  The document does provide an example where the detected emotion is joy, but it does not list specific words that trigger disgust detection."
+        }
+      ],
+      "retrieval": {
+        "query": "why don't you provide that?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": "why don't you provide that?",
+        "k": 10,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_11938-27158-27845",
+            "score": 1.0,
+            "score_type": "hipporag_graph",
+            "text": "\n_Why_20can_t_20my_20HTTP_20proxy_20connect_20to_20the_20Red_20Hat_20servers_3F_20_7C_20IBM_20Cloud_20Docs_p_https_3A_2F_2Fcloud.ibm.com_2Fdocs_2Fsatellite_3Ftopic_3Dsatellite-ts-http-proxy_r_lt_950_evt_pageLoad_sv_1_rn_564762](https://bat.bing.com/action/0?ti=146001191&Ver=2&mid=32e84b1c-82db-49e1-85ab-090fdb596ed8&sid=cca51480229211eeac887b94c5a6c542&vid=cca50460229211ee874f7dc32b9b9a8d&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=3840&sh=2160&sc=30&nwd=1&tl=Why%20can't%20my%20HTTP%20proxy%20connect%20to%20the%20Red%20Hat%20servers%3F%20%7C%20IBM%20Cloud%20Docs&p=https%3A%2F%2Fcloud.ibm.com%2Fdocs%2Fsatellite%3Ftopic%3Dsatellite-ts-http-proxy&r=&lt=950&evt=pageLoad&sv=1&rn=564762)"
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_14900-13634-13982",
+            "score": 0.973386,
+            "score_type": "hipporag_graph",
+            "text": "\np/SyojsuKQamdQgyX3AVhG3lghVl5wSbrHd/U/L13rHw61//9bLP8eAm/rKXweBVqXWa1Lax/CDzg27kqO/PvM96or2eLWMnAKEyopFZuh0ac2zr9vPMiCFs8HQE/a8toUbHZkjWtiTf8iyw7/Y51VQXwFVR4saFcpdl93OIFHh2vr9fG5J5a4sABDLfvHXx9e1Lzo+YQLcVGo/c61xFbd7ZA/OY/Iisr/RJVPvYnDMEjDe/U8QGHJ62YNRJzmW1sGKq7r53dcIRKXKQE2Z40ISTjHBJ2o3Vwsw07O1kP5EBb7yaRputVtfVlZsU0InTe1ROFPRPJsWnwce/U2BGnVYuS9+J"
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_15619-12143-13001",
+            "score": 0.969164,
+            "score_type": "hipporag_graph",
+            "text": "\nOk9rkCk9W/8T/YKlrBFoSrNHtPhKIi6FZLkrodn1gn8+lPo3E80Gn5hUZdgsIZ7Y+c2qcUAVu8X/otFaWm8FCmIDyz+ZKm/YgaX4UCAwEAnATANBgkqhkiG9w0BAQsFAAOCAgEACg4PxboxM01cO3pmhTfvwetBvICz8GOuAq3fnLWYFXcZmnMHqwDZKOx20a03XfcBaWhyF9XHdCugziEMXTdfKxGwFsIUxQIbDBT4NnBNCcLTXiTEdtjvXxm0TnM5QdPOE36EsI+O4YT8w+C5nlKuNMtsxsJe+bxEfBi2PSnJ0vU1bO+4m9p0SDc3h39jb+FLrAnqez2QbT2maby8A8wahunAMWY+ZUkQYoWpilfnRkGpiLKlkJ95HCYzmt7IeddH5+ZBuG+Sx4SMwCynn64J/UafNW0XV36dzeLSla59nvQCmWAurjAqa8fqepdvNI4I/JxVfeCQwkrZEos0gec+D7qOupfHk3Zyr6G5Zn8kSnYRU8HpRIRH4KvsObTNIrW5Z/qbfWAFSTC3q0eflaVLWsrXfSGvBDVqlxO3arhv2qnra6tcD7MQOBO226i+v3aL9qJ3viWhIQTvONm7D8U+/WryrChBOHVCQ2M3AZQQLeCnqSkJ60wFx8jEqLj9ELWuTMuHYg5lhMZFyLI8iWOvGRPmgTUZKNH74LF1ujIEuMBxnE7LBWRGNx2lD0f2aYUdv+qWA8m1ETPyKYme6oUM+kDlf6sstMgahN7zT8jj/W2KDndG+yzHk5G06lSQzXGbec3bi2WOpWHJ1J/kTQ8Af1HuJr4UjQmin8fLW6n06diySAnBSHYGWk=n-----END CERTIFICATE-----n\""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_08199-7649-8298",
+            "score": 0.964392,
+            "score_type": "hipporag_graph",
+            "text": "\n+gFYN5GkporJzHGSYA0J5zGB/zQ+NiqrEkA+i15XpAxPfQBOJPee6kviX+nEmxtS\nJGmO1/t9eHy/lozCMmqSVkVTyck/FYI+yUFiNStk+/AAWK7k0VAOiZ/gpqRXomTO\niXat0sllyP/nTT+YE+iCPxRGgDBSEhOACA3cY+8MqWW6UmyPdyvspSkRYaB0JlF5\nehhANpmxZA1QfJRcUndGn9OKGuXNlzFm6oM/d1JPrD4Zi4LyFhZfBMFLkS64eYR6\nu03Ly8wmO+PBoq56YDQ+gl88Y5svOTYjOGFaB/BCdtX378XHTheMjrlbbRmneDQY\n9pc6U25b9w1MVkR/8azbfEV0gEKXNqCNmFfpkzfI25eZIcb5woiR1RWL1WCoIIEm\n2WVlmrWB9dCoYMkHr67zIL2Yap+FejXGSqftUh+Z7Brsu2l+v55WwxoPf8bNyGf7\nynmN/kReTdMX60sUzKdqNB1EhaYNGnenO3Bryn6K5DF93datCiCZimy5mz72+ZqH\nj4JV+mDs/Wfi9/DJrRj/NHRPT9e+dpZ1igQAp5PDbVg/irgViNGVPybbM0BJ4zXl\nRlLLJoIt5iquDWnQdbq3H6EXlCCutENZ6c6zGJNOWWqQFrP5vCPto8pBPb9o15xK"
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_15619-13827-14683",
+            "score": 0.961332,
+            "score_type": "hipporag_graph",
+            "text": "\n47FCniwT3GUfNqri4jx2nk6PKDPIR9ju0sfaztDPzkFNTK8lioeqAnabs97Ue7vWfNJiBqHySvyF5fmRFqQGIHVHN5GfeJ3Aru49l4/lqxaAVnMKNMttK3nDf6DEMIxI3JfPWi6qQSVJiDezK+oyNsWvAkO+gqHP6XPu3XIuBtRLHs12Q3kA4tWnSCH7q6I+huWZOANkqs4jObctJ1XUMyihsZVjHlHwm1XQc/KTkfXQIyMsf349XAOVnwccvtt4gA3jaZwWPL5LaIKkJ2l2tI9NaH7BiYZ64XUs1YGdvQ7130MlEztAlzlOen9M4tkvdELLcvyByEsY3JaObWe/N/RPk3vom4EP/XF+dTnIXRO0nLDP5Kwzj1CpwbnRh7Jp6dmfOpBMLKtb5iEKUROPjGJT+jKORhWaTwo4zmqj6EHp1Z2cUeZdvZomQWMnb75xNoJyBKooLAafdGWO0ADR1nbK56+RpbF07/xHHdWR1SuJE6vppkQ33WOsLMJbnCo141AG+5NRPe5bn5KH9KrgsJTNPplhNfq5KGE+xb+gfIH71KuxMgHafBp2Ng432njGr4ZfBJy/w8cS0jLWrzAPEvz1ZmhIEGNeiOs78QO6efeT4fCAohw7qQur23K8YBnTyVFdUaq63ndFq3kqBGtAoIBAQDZPs86SyDwvLttaLlgpE8z+XgxLRWZRwPCQ+yVnAhJKaehxyavAPkp+k5f1EaAL9g20ZCzMA3N8imsEe8zvbrDuR/xBCIUGppmQnD/EnCUQk4Un63znNZdJ+h7cn/kysi7D0od9oHgYxI3oj0VhPNkdwm4GSJ8lvXrL7RD/fncXFKrzIOmdkOJY1DydtRAS"
+          },
+          {
+            "rank": 6,
+            "doc_id": "ibmcld_08199-1929-2578",
+            "score": 0.948881,
+            "score_type": "hipporag_graph",
+            "text": "\n5bWR/jIRVqlTZRqL514/C1O9XfmEL/lFvpV47dJxfuziMRw3NF9DUWT4d7SrKGzJ\nL4XJZXisIxYCmYXzjcdePg63oAF8vpADjgC/VcN7Ed993mBIkIBmDyQBviYQV/GZ\nxwshm611yG+7O235uHSStC+ThtX8yjOUrn4JwVbHy4mc3xdoDrUJ6aGoXNsUehnS\n7QFYxZ2daTqFpK/y0lvBYYFAHD8tkeVr2QMSGSUa0vPjf62xT9oTyawcvcE0ouho\nWHUAMjBPX7c3HYbzW+vILyJ0x9kmpD7uIUQ9ebCiAhguHagVB4fsb9EzS4qxRsdm\ntbmfCpcieXNgRP/gNbKDwCc6O0B1s/5HJo2lrwmbZAN6BGSe8e5p/RggssBXdhKs\nY1d1x8e3eF6fD13/+x2oF5EKv5ddSBbCI2wTFEzAE9butMbF0LpL8MUT7yrUWKsi\nzGt94Njza4nD590ipzV3cMY7Rt3oKSg8YBj9ZIPCTrlH3H+PLYFsPV4ho2hhaA6Q\n5ZTNdnn+s4XBQDhr11m2NJml3QXxBo4RwiXsaUVUnofbemJNI6/7orf/cG/ecJkT\n03Iolz6kCo9uDizSxcbDmvMI7sW/t+0XbFyS1bJiYITigXd3hsfJXcvLcSca8Zy2"
+          },
+          {
+            "rank": 7,
+            "doc_id": "ibmcld_06857-3424-4138",
+            "score": 0.945374,
+            "score_type": "hipporag_graph",
+            "text": "\n0ZfE5fYV3758kAQEclpejV71mL2pedBwzigD3IH6Mlit5slwqlmsBWCN64DwGJLp\naKsdbBcglUixuO5q0dLEHHXYVgUUqrV7rEdW5s+4LiROcHgQCLIDzZOYjCqGYex4\nYhWPFPmReFd48qDQAFDtU0teUeeMTMWHQCGQq2eZLJtHpG0axrqKi3kl5K5TbFR6\nFpwkW3HhQn8p48PWS78MJVZZvFD+GDOa8xLQR3ylkzdI3ODO9Cuzfo+sWJIQk/gB\nbGCnEBJJosoJebVF8ZpXI+Qbg87ATQRkCAsNAQgAwPpK+5OCM0OuNoErYCTNHama\n5VrlHjc3glUQUIIGYhZtfQiINPIB0gjPURkOmJHZdFWQccE+JLlX0hVLHVaisr7q\nizSI8VZ4/YUYfTJHltTLiu9PoYw922UQo7fRLglUmvv4nctBkT+T2YWzJNNQaffR\nAc1wLhFSklDPxAvY+xJ1vCYABYF5gml6lLNEy0BD3+w8rGIfmXi92P6CtxSi6Msx\nzD+p8jib4rKuWICj79+DtDvzglmeoSCzFjINQ2UkbULRAOZWDwoJlt247SPWSKpi\n0fabbaAwHIeoCPYoOWlpx/3jdXDmBB9HEGUUk2q8eHaHUkQdyfm5uxU188VUfwAR\nAQABwsGEBBgBCgAPBQJkCAsNBQkPCZwAAhsuASkJEPGijuZ8EXZowF0gBBkBCgAG"
+          },
+          {
+            "rank": 8,
+            "doc_id": "ibmcld_14900-7533-7940",
+            "score": 0.945176,
+            "score_type": "hipporag_graph",
+            "text": "\n/AldSOxYviqNZYmgnRlgFFpUJannpX0iVJ0m9hNopLYaOprPNP2G+0gwgtPjJ8oGpG1cADCfOYKs90tIzu4UfAu00D5Hlj17b8l7bPAPhXU/I2pW0VorhgRY9SYUpGOAiPqvcuozV99X3yuOyouzCH8VP/7bNRkZhG/fm8scP3Z1euiPrI1mv5NVu4GpoPT3H05qjshBVwHqsn9p7+mmMxR1VofM2JEgQoQYBad2zuMt8kAM+G08LDg9VRYu79PhDuw7izuuIXOdeU6gi/qFtawuHJh6/orXV5u23itphD71+6BARYivhr5HpgFPsOSCwNmghjVbpoEmobhdPlMADvF3Dqy+LfVac3BJfKVlDpfS9BxQ23HRaZS84tA/RM7ikFkCt0rUmqwTeww5iJNVXy+"
+          },
+          {
+            "rank": 9,
+            "doc_id": "ibmcld_06857-1994-2643",
+            "score": 0.941815,
+            "score_type": "hipporag_graph",
+            "text": "\nkZnCCqFimPOJKjsXjc+6hyAKgG0xRIGtv/zzU+nwew2fDblWTwZjDx4V9KZl1o07\nXBHfNu0hKgvQhJURxY7gCtYtIHoDF5xI2/OfABEBAAHNGmV0c3QgPHVzZXIubmFt\nZUBlbWFpbC5jb20+wsBtBBMBCgAXBQJkCAsNAhsvAwsJBwMVCggCHgECF4AACgkQ\n8aKO5nwRdmhECwf9Flyfu2VBMQabeU4IIZESgDjPxl4m7yiIpOdLNcWPxTS9S3th\n3x84/wQE9ZwX8vpBv/1KN8cZROJDnVAmZhVGVa3CBOI4dhFfMAU9mwzAWH0owjmt\nQtHOoQ+cajcQEvvkl4UTnScoEXwVVqKHNWAAq/myDRtZr1yCMokmbc0PjCftIfHr\na+50dYZEVL9D8Cq1dQKFsmPCPPZvUmHQKXQTUr4usY72zf9IUPH6n5D2tkpNo253\nlWEVptVKHH21XhNpp+ROY7DTB0xLFzIirXh5Rwx5OkGO7n1gfUM4B1i1z3A6uXhX\nsP7wf45OaFscPMVGmVFOgP1VRdNsBfPodT1NG87ATQRkCAsNAQgAoMcJTSrAPMrj\nu0kMHGlE2/D+7TkKnJ5Gtw38EMxDX/kKBiKhI7WoT3OKjT/GrpXSIn1TfMWHh2oQ"
+          },
+          {
+            "rank": 10,
+            "doc_id": "ibmcld_14900-8747-9598",
+            "score": 0.938917,
+            "score_type": "hipporag_graph",
+            "text": "\n86bHgSqmAmEEWHQwkoYBRRTwgJxCrGR/AOnrdk2J0zlm4PXlatC1F9MGlNA7fLuC3YkLqEIDWICimtD+tgdES2mdWk+7kYNWoCdw+YiTcs9U5wxZ1S+PSgSMZiZWUuEDVhB/RtgehNgXEX8VC5aCBmdc1KAjtLXuK28gN6VurEaTRslAl94RXW1OAl6v2KjXNHzcH1JgXtqJAinl63UcIuMwvYJNXFz+zMiB7nk/CDRNb8WR+LwzzCN6KFQA6H+EX+qkHvzDzacD02OVcMJbbeihXLXkZIH72fr8aXwW4dkl1q8WvJPw6c2xUzS7ctBzRzBxsLHjhsnuCfRwFATST5tdwslPt0X121A0Gaa76rmAVSMcWPt3nt3eaR8UPbKrilFF0mjWDeqybzIpvHBBzHOyINRG5/IyCifGRF0AnV69CqJTdzzYBat2MSsBAWl8WVfl130Y1JCrEKkt665oF5LlhiGCNPX91sTCZhVsh+nFMOD5+FWeISwULYYcVjxpVdtDS/l8xFhuvPzvm0S8pbWuhIgxk+aWwHtxDQOBY92833k/3/3ZzvSSs2idnUbmBoVqUx8HPYJkPTkpzk4ruF5YC4LEqMi40q1pQcAlyIJASiuzt0kv8xGE4kLJQtlfbnBRIptWXJC/HYQ4hmDS3m2Hnx7zV6VMco2F+JVW4vGjbM8by8Flr3KsA4di+D3Gv9TpnLd0Ga0xqi7nAnzrr4Ey9/3+OGTcsAO914q+FuBWC8kdWcPukiplw+Y1AHQF6E7Wm8ROccWfy2VMpfS25umcpNY+Jp64itv+x9WGNWMXzZPdkvhwMnr6nqkl2blcuxhbrzIdktnFaLprSki"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_11938-27158-27845",
+            "score": 1.0,
+            "score_type": "hipporag_graph",
+            "text": "\n_Why_20can_t_20my_20HTTP_20proxy_20connect_20to_20the_20Red_20Hat_20servers_3F_20_7C_20IBM_20Cloud_20Docs_p_https_3A_2F_2Fcloud.ibm.com_2Fdocs_2Fsatellite_3Ftopic_3Dsatellite-ts-http-proxy_r_lt_950_evt_pageLoad_sv_1_rn_564762](https://bat.bing.com/action/0?ti=146001191&Ver=2&mid=32e84b1c-82db-49e1-85ab-090fdb596ed8&sid=cca51480229211eeac887b94c5a6c542&vid=cca50460229211ee874f7dc32b9b9a8d&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=3840&sh=2160&sc=30&nwd=1&tl=Why%20can't%20my%20HTTP%20proxy%20connect%20to%20the%20Red%20Hat%20servers%3F%20%7C%20IBM%20Cloud%20Docs&p=https%3A%2F%2Fcloud.ibm.com%2Fdocs%2Fsatellite%3Ftopic%3Dsatellite-ts-http-proxy&r=&lt=950&evt=pageLoad&sv=1&rn=564762)"
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_14900-13634-13982",
+            "score": 0.973386,
+            "score_type": "hipporag_graph",
+            "text": "\np/SyojsuKQamdQgyX3AVhG3lghVl5wSbrHd/U/L13rHw61//9bLP8eAm/rKXweBVqXWa1Lax/CDzg27kqO/PvM96or2eLWMnAKEyopFZuh0ac2zr9vPMiCFs8HQE/a8toUbHZkjWtiTf8iyw7/Y51VQXwFVR4saFcpdl93OIFHh2vr9fG5J5a4sABDLfvHXx9e1Lzo+YQLcVGo/c61xFbd7ZA/OY/Iisr/RJVPvYnDMEjDe/U8QGHJ62YNRJzmW1sGKq7r53dcIRKXKQE2Z40ISTjHBJ2o3Vwsw07O1kP5EBb7yaRputVtfVlZsU0InTe1ROFPRPJsWnwce/U2BGnVYuS9+J"
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_15619-12143-13001",
+            "score": 0.969164,
+            "score_type": "hipporag_graph",
+            "text": "\nOk9rkCk9W/8T/YKlrBFoSrNHtPhKIi6FZLkrodn1gn8+lPo3E80Gn5hUZdgsIZ7Y+c2qcUAVu8X/otFaWm8FCmIDyz+ZKm/YgaX4UCAwEAnATANBgkqhkiG9w0BAQsFAAOCAgEACg4PxboxM01cO3pmhTfvwetBvICz8GOuAq3fnLWYFXcZmnMHqwDZKOx20a03XfcBaWhyF9XHdCugziEMXTdfKxGwFsIUxQIbDBT4NnBNCcLTXiTEdtjvXxm0TnM5QdPOE36EsI+O4YT8w+C5nlKuNMtsxsJe+bxEfBi2PSnJ0vU1bO+4m9p0SDc3h39jb+FLrAnqez2QbT2maby8A8wahunAMWY+ZUkQYoWpilfnRkGpiLKlkJ95HCYzmt7IeddH5+ZBuG+Sx4SMwCynn64J/UafNW0XV36dzeLSla59nvQCmWAurjAqa8fqepdvNI4I/JxVfeCQwkrZEos0gec+D7qOupfHk3Zyr6G5Zn8kSnYRU8HpRIRH4KvsObTNIrW5Z/qbfWAFSTC3q0eflaVLWsrXfSGvBDVqlxO3arhv2qnra6tcD7MQOBO226i+v3aL9qJ3viWhIQTvONm7D8U+/WryrChBOHVCQ2M3AZQQLeCnqSkJ60wFx8jEqLj9ELWuTMuHYg5lhMZFyLI8iWOvGRPmgTUZKNH74LF1ujIEuMBxnE7LBWRGNx2lD0f2aYUdv+qWA8m1ETPyKYme6oUM+kDlf6sstMgahN7zT8jj/W2KDndG+yzHk5G06lSQzXGbec3bi2WOpWHJ1J/kTQ8Af1HuJr4UjQmin8fLW6n06diySAnBSHYGWk=n-----END CERTIFICATE-----n\""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_08199-7649-8298",
+            "score": 0.964392,
+            "score_type": "hipporag_graph",
+            "text": "\n+gFYN5GkporJzHGSYA0J5zGB/zQ+NiqrEkA+i15XpAxPfQBOJPee6kviX+nEmxtS\nJGmO1/t9eHy/lozCMmqSVkVTyck/FYI+yUFiNStk+/AAWK7k0VAOiZ/gpqRXomTO\niXat0sllyP/nTT+YE+iCPxRGgDBSEhOACA3cY+8MqWW6UmyPdyvspSkRYaB0JlF5\nehhANpmxZA1QfJRcUndGn9OKGuXNlzFm6oM/d1JPrD4Zi4LyFhZfBMFLkS64eYR6\nu03Ly8wmO+PBoq56YDQ+gl88Y5svOTYjOGFaB/BCdtX378XHTheMjrlbbRmneDQY\n9pc6U25b9w1MVkR/8azbfEV0gEKXNqCNmFfpkzfI25eZIcb5woiR1RWL1WCoIIEm\n2WVlmrWB9dCoYMkHr67zIL2Yap+FejXGSqftUh+Z7Brsu2l+v55WwxoPf8bNyGf7\nynmN/kReTdMX60sUzKdqNB1EhaYNGnenO3Bryn6K5DF93datCiCZimy5mz72+ZqH\nj4JV+mDs/Wfi9/DJrRj/NHRPT9e+dpZ1igQAp5PDbVg/irgViNGVPybbM0BJ4zXl\nRlLLJoIt5iquDWnQdbq3H6EXlCCutENZ6c6zGJNOWWqQFrP5vCPto8pBPb9o15xK"
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_15619-13827-14683",
+            "score": 0.961332,
+            "score_type": "hipporag_graph",
+            "text": "\n47FCniwT3GUfNqri4jx2nk6PKDPIR9ju0sfaztDPzkFNTK8lioeqAnabs97Ue7vWfNJiBqHySvyF5fmRFqQGIHVHN5GfeJ3Aru49l4/lqxaAVnMKNMttK3nDf6DEMIxI3JfPWi6qQSVJiDezK+oyNsWvAkO+gqHP6XPu3XIuBtRLHs12Q3kA4tWnSCH7q6I+huWZOANkqs4jObctJ1XUMyihsZVjHlHwm1XQc/KTkfXQIyMsf349XAOVnwccvtt4gA3jaZwWPL5LaIKkJ2l2tI9NaH7BiYZ64XUs1YGdvQ7130MlEztAlzlOen9M4tkvdELLcvyByEsY3JaObWe/N/RPk3vom4EP/XF+dTnIXRO0nLDP5Kwzj1CpwbnRh7Jp6dmfOpBMLKtb5iEKUROPjGJT+jKORhWaTwo4zmqj6EHp1Z2cUeZdvZomQWMnb75xNoJyBKooLAafdGWO0ADR1nbK56+RpbF07/xHHdWR1SuJE6vppkQ33WOsLMJbnCo141AG+5NRPe5bn5KH9KrgsJTNPplhNfq5KGE+xb+gfIH71KuxMgHafBp2Ng432njGr4ZfBJy/w8cS0jLWrzAPEvz1ZmhIEGNeiOs78QO6efeT4fCAohw7qQur23K8YBnTyVFdUaq63ndFq3kqBGtAoIBAQDZPs86SyDwvLttaLlgpE8z+XgxLRWZRwPCQ+yVnAhJKaehxyavAPkp+k5f1EaAL9g20ZCzMA3N8imsEe8zvbrDuR/xBCIUGppmQnD/EnCUQk4Un63znNZdJ+h7cn/kysi7D0od9oHgYxI3oj0VhPNkdwm4GSJ8lvXrL7RD/fncXFKrzIOmdkOJY1DydtRAS"
+          }
+        ]
+      },
+      "generation": {
+        "model": "gpt-4o-mini",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "I do not have specific information regarding the exact words or phrases that Watson Assistant can detect for the emotion of disgust.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "ibmcld_11938-27158-27845",
+          "score": 1.0,
+          "score_type": "hipporag_graph",
+          "text": "\n_Why_20can_t_20my_20HTTP_20proxy_20connect_20to_20the_20Red_20Hat_20servers_3F_20_7C_20IBM_20Cloud_20Docs_p_https_3A_2F_2Fcloud.ibm.com_2Fdocs_2Fsatellite_3Ftopic_3Dsatellite-ts-http-proxy_r_lt_950_evt_pageLoad_sv_1_rn_564762](https://bat.bing.com/action/0?ti=146001191&Ver=2&mid=32e84b1c-82db-49e1-85ab-090fdb596ed8&sid=cca51480229211eeac887b94c5a6c542&vid=cca50460229211ee874f7dc32b9b9a8d&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=3840&sh=2160&sc=30&nwd=1&tl=Why%20can't%20my%20HTTP%20proxy%20connect%20to%20the%20Red%20Hat%20servers%3F%20%7C%20IBM%20Cloud%20Docs&p=https%3A%2F%2Fcloud.ibm.com%2Fdocs%2Fsatellite%3Ftopic%3Dsatellite-ts-http-proxy&r=&lt=950&evt=pageLoad&sv=1&rn=564762)"
+        },
+        {
+          "rank": 2,
+          "doc_id": "ibmcld_14900-13634-13982",
+          "score": 0.973386,
+          "score_type": "hipporag_graph",
+          "text": "\np/SyojsuKQamdQgyX3AVhG3lghVl5wSbrHd/U/L13rHw61//9bLP8eAm/rKXweBVqXWa1Lax/CDzg27kqO/PvM96or2eLWMnAKEyopFZuh0ac2zr9vPMiCFs8HQE/a8toUbHZkjWtiTf8iyw7/Y51VQXwFVR4saFcpdl93OIFHh2vr9fG5J5a4sABDLfvHXx9e1Lzo+YQLcVGo/c61xFbd7ZA/OY/Iisr/RJVPvYnDMEjDe/U8QGHJ62YNRJzmW1sGKq7r53dcIRKXKQE2Z40ISTjHBJ2o3Vwsw07O1kP5EBb7yaRputVtfVlZsU0InTe1ROFPRPJsWnwce/U2BGnVYuS9+J"
+        },
+        {
+          "rank": 3,
+          "doc_id": "ibmcld_15619-12143-13001",
+          "score": 0.969164,
+          "score_type": "hipporag_graph",
+          "text": "\nOk9rkCk9W/8T/YKlrBFoSrNHtPhKIi6FZLkrodn1gn8+lPo3E80Gn5hUZdgsIZ7Y+c2qcUAVu8X/otFaWm8FCmIDyz+ZKm/YgaX4UCAwEAnATANBgkqhkiG9w0BAQsFAAOCAgEACg4PxboxM01cO3pmhTfvwetBvICz8GOuAq3fnLWYFXcZmnMHqwDZKOx20a03XfcBaWhyF9XHdCugziEMXTdfKxGwFsIUxQIbDBT4NnBNCcLTXiTEdtjvXxm0TnM5QdPOE36EsI+O4YT8w+C5nlKuNMtsxsJe+bxEfBi2PSnJ0vU1bO+4m9p0SDc3h39jb+FLrAnqez2QbT2maby8A8wahunAMWY+ZUkQYoWpilfnRkGpiLKlkJ95HCYzmt7IeddH5+ZBuG+Sx4SMwCynn64J/UafNW0XV36dzeLSla59nvQCmWAurjAqa8fqepdvNI4I/JxVfeCQwkrZEos0gec+D7qOupfHk3Zyr6G5Zn8kSnYRU8HpRIRH4KvsObTNIrW5Z/qbfWAFSTC3q0eflaVLWsrXfSGvBDVqlxO3arhv2qnra6tcD7MQOBO226i+v3aL9qJ3viWhIQTvONm7D8U+/WryrChBOHVCQ2M3AZQQLeCnqSkJ60wFx8jEqLj9ELWuTMuHYg5lhMZFyLI8iWOvGRPmgTUZKNH74LF1ujIEuMBxnE7LBWRGNx2lD0f2aYUdv+qWA8m1ETPyKYme6oUM+kDlf6sstMgahN7zT8jj/W2KDndG+yzHk5G06lSQzXGbec3bi2WOpWHJ1J/kTQ8Af1HuJr4UjQmin8fLW6n06diySAnBSHYGWk=n-----END CERTIFICATE-----n\""
+        },
+        {
+          "rank": 4,
+          "doc_id": "ibmcld_08199-7649-8298",
+          "score": 0.964392,
+          "score_type": "hipporag_graph",
+          "text": "\n+gFYN5GkporJzHGSYA0J5zGB/zQ+NiqrEkA+i15XpAxPfQBOJPee6kviX+nEmxtS\nJGmO1/t9eHy/lozCMmqSVkVTyck/FYI+yUFiNStk+/AAWK7k0VAOiZ/gpqRXomTO\niXat0sllyP/nTT+YE+iCPxRGgDBSEhOACA3cY+8MqWW6UmyPdyvspSkRYaB0JlF5\nehhANpmxZA1QfJRcUndGn9OKGuXNlzFm6oM/d1JPrD4Zi4LyFhZfBMFLkS64eYR6\nu03Ly8wmO+PBoq56YDQ+gl88Y5svOTYjOGFaB/BCdtX378XHTheMjrlbbRmneDQY\n9pc6U25b9w1MVkR/8azbfEV0gEKXNqCNmFfpkzfI25eZIcb5woiR1RWL1WCoIIEm\n2WVlmrWB9dCoYMkHr67zIL2Yap+FejXGSqftUh+Z7Brsu2l+v55WwxoPf8bNyGf7\nynmN/kReTdMX60sUzKdqNB1EhaYNGnenO3Bryn6K5DF93datCiCZimy5mz72+ZqH\nj4JV+mDs/Wfi9/DJrRj/NHRPT9e+dpZ1igQAp5PDbVg/irgViNGVPybbM0BJ4zXl\nRlLLJoIt5iquDWnQdbq3H6EXlCCutENZ6c6zGJNOWWqQFrP5vCPto8pBPb9o15xK"
+        },
+        {
+          "rank": 5,
+          "doc_id": "ibmcld_15619-13827-14683",
+          "score": 0.961332,
+          "score_type": "hipporag_graph",
+          "text": "\n47FCniwT3GUfNqri4jx2nk6PKDPIR9ju0sfaztDPzkFNTK8lioeqAnabs97Ue7vWfNJiBqHySvyF5fmRFqQGIHVHN5GfeJ3Aru49l4/lqxaAVnMKNMttK3nDf6DEMIxI3JfPWi6qQSVJiDezK+oyNsWvAkO+gqHP6XPu3XIuBtRLHs12Q3kA4tWnSCH7q6I+huWZOANkqs4jObctJ1XUMyihsZVjHlHwm1XQc/KTkfXQIyMsf349XAOVnwccvtt4gA3jaZwWPL5LaIKkJ2l2tI9NaH7BiYZ64XUs1YGdvQ7130MlEztAlzlOen9M4tkvdELLcvyByEsY3JaObWe/N/RPk3vom4EP/XF+dTnIXRO0nLDP5Kwzj1CpwbnRh7Jp6dmfOpBMLKtb5iEKUROPjGJT+jKORhWaTwo4zmqj6EHp1Z2cUeZdvZomQWMnb75xNoJyBKooLAafdGWO0ADR1nbK56+RpbF07/xHHdWR1SuJE6vppkQ33WOsLMJbnCo141AG+5NRPe5bn5KH9KrgsJTNPplhNfq5KGE+xb+gfIH71KuxMgHafBp2Ng432njGr4ZfBJy/w8cS0jLWrzAPEvz1ZmhIEGNeiOs78QO6efeT4fCAohw7qQur23K8YBnTyVFdUaq63ndFq3kqBGtAoIBAQDZPs86SyDwvLttaLlgpE8z+XgxLRWZRwPCQ+yVnAhJKaehxyavAPkp+k5f1EaAL9g20ZCzMA3N8imsEe8zvbrDuR/xBCIUGppmQnD/EnCUQk4Un63znNZdJ+h7cn/kysi7D0od9oHgYxI3oj0VhPNkdwm4GSJ8lvXrL7RD/fncXFKrzIOmdkOJY1DydtRAS"
+        }
+      ],
+      "reference": {
+        "answer": "As I mentioned before Emotion Analysis can detect emotions that are associated with targeted phrases, entities, or keywords, or it can analyze the overall emotional tone of your content .  For instance,  in this sentence \"The stockholders were pleased that Acme Corporation plans to build a new factory in Atlanta, Georgia\", you could query the joy(pleased) the sentiment label by accessing enriched_text.sentiment.document.label.he sentiment label is based on the score; a score of 0.0 would indicate that the document is neutral, a positive number would indicate the document is positive, a negative number would indicate the document is negative as \"enriched_text\": { \"sentiment\": { \"document\": { \"score\": 0.459813, \"label\": \"positive\" } }\n\n",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Summarization"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1428 @@
+{
+  "conversation_id": "95a0893567c7519c090ecbcdd14daccd",
+  "dataset": "clapnq",
+  "collection": "mt-rag-clapnq-elser-512-100-20240503",
+  "rag": "selfrag",
+  "num_turns": 7,
+  "turns": [
+    {
+      "turn_id": "1",
+      "task_id": "95a0893567c7519c090ecbcdd14daccd<::>1",
+      "question": "what is the great wall of China built out of",
+      "rag_history_before_turn": [],
+      "retrieval": {
+        "query": "what is the great wall of China built out of",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "846282869_1580-2418-0-838",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Great Wall of China The Great Wall of China is a series of fortifications made of stone , brick , tamped earth , wood , and other materials , generally built along an east - to - west line across the historical northern borders of China to protect the Chinese states and empires against the raids and invasions of the various nomadic groups of the Eurasian Steppe with an eye to expansion . Several walls were being built as early as the 7th century BC ; these , later joined together and made bigger and stronger , are collectively referred to as the Great Wall . Especially famous is the wall built in 220 -- 206 BC by Qin Shi Huang , the first Emperor of China . Little of that wall remains . The Great Wall has been rebuilt , maintained , and enhanced over various dynasties ; the majority of the existing wall is from the Ming Dynasty ( 1368 -- 1644 ) .",
+            "title": "Great Wall of China"
+          },
+          {
+            "rank": 2,
+            "doc_id": "846282869_4262-4964-0-691",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Great Wall of China In Chinese histories , the term `` Long Wall ( s ) '' ( 長城 , changcheng ) appears in Sima Qian 's Records of the Grand Historian , where it referred both to the separate great walls built between and north of the Warring States and to the more unified construction of the First Emperor . The Chinese character 城 is a phono - semantic compound of the `` place '' or `` earth '' radical 土 and 成 , whose Old Chinese pronunciation has been reconstructed as * deŋ . It originally referred to the rampart which surrounded traditional Chinese cities and was used by extension for these walls around their respective states ; today , however , it is much more often the Chinese word for `` city '' .",
+            "title": "Great Wall of China"
+          },
+          {
+            "rank": 3,
+            "doc_id": "846282869_12487-12881-0-394",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Great Wall of China Under Qing rule , China 's borders extended beyond the walls and Mongolia was annexed into the empire , so constructions on the Great Wall were discontinued . On the other hand , the so - called Willow Palisade , following a line similar to that of the Ming Liaodong Wall , was constructed by the Qing rulers in Manchuria . Its purpose , however , was not defense but rather migration control .",
+            "title": "Great Wall of China"
+          },
+          {
+            "rank": 4,
+            "doc_id": "846282869_7272-7769-0-497",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Great Wall of China The Chinese were already familiar with the techniques of wall - building by the time of the Spring and Autumn period between the 8th and 5th centuries BC . During this time and the subsequent Warring States period , the states of Qin , Wei , Zhao , Qi , Yan , and Zhongshan all constructed extensive fortifications to defend their own borders . Built to withstand the attack of small arms such as swords and spears , these walls were made mostly by stamping earth and gravel between board frames .",
+            "title": "Great Wall of China"
+          },
+          {
+            "rank": 5,
+            "doc_id": "846282869_2966-3838-0-872",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Great Wall of China The frontier walls built by different dynasties have multiple courses . Collectively , they stretch from Dandong in the east to Lop Lake in the west , from present - day Sino - Russian border in the north to Qinghai in the south ; along an arc that roughly delineates the edge of Mongolian steppe . A comprehensive archaeological survey , using advanced technologies , has concluded that the walls built by the Ming dynasty measure 8,850 km ( 5,500 mi ) . This is made up of 6,259 km ( 3,889 mi ) sections of actual wall , 359 km ( 223 mi ) of trenches and 2,232 km ( 1,387 mi ) of natural defensive barriers such as hills and rivers . Another archaeological survey found that the entire wall with all of its branches measures out to be 21,196 km ( 13,171 mi ) . Today , the Great Wall is generally recognized as one of the most impressive architectural feats in history .",
+            "title": "Great Wall of China"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "846282869_1580-2418-0-838",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Great Wall of China The Great Wall of China is a series of fortifications made of stone , brick , tamped earth , wood , and other materials , generally built along an east - to - west line across the historical northern borders of China to protect the Chinese states and empires against the raids and invasions of the various nomadic groups of the Eurasian Steppe with an eye to expansion . Several walls were being built as early as the 7th century BC ; these , later joined together and made bigger and stronger , are collectively referred to as the Great Wall . Especially famous is the wall built in 220 -- 206 BC by Qin Shi Huang , the first Emperor of China . Little of that wall remains . The Great Wall has been rebuilt , maintained , and enhanced over various dynasties ; the majority of the existing wall is from the Ming Dynasty ( 1368 -- 1644 ) .",
+            "title": "Great Wall of China"
+          },
+          {
+            "rank": 2,
+            "doc_id": "846282869_4262-4964-0-691",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Great Wall of China In Chinese histories , the term `` Long Wall ( s ) '' ( 長城 , changcheng ) appears in Sima Qian 's Records of the Grand Historian , where it referred both to the separate great walls built between and north of the Warring States and to the more unified construction of the First Emperor . The Chinese character 城 is a phono - semantic compound of the `` place '' or `` earth '' radical 土 and 成 , whose Old Chinese pronunciation has been reconstructed as * deŋ . It originally referred to the rampart which surrounded traditional Chinese cities and was used by extension for these walls around their respective states ; today , however , it is much more often the Chinese word for `` city '' .",
+            "title": "Great Wall of China"
+          },
+          {
+            "rank": 3,
+            "doc_id": "846282869_12487-12881-0-394",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Great Wall of China Under Qing rule , China 's borders extended beyond the walls and Mongolia was annexed into the empire , so constructions on the Great Wall were discontinued . On the other hand , the so - called Willow Palisade , following a line similar to that of the Ming Liaodong Wall , was constructed by the Qing rulers in Manchuria . Its purpose , however , was not defense but rather migration control .",
+            "title": "Great Wall of China"
+          },
+          {
+            "rank": 4,
+            "doc_id": "846282869_7272-7769-0-497",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Great Wall of China The Chinese were already familiar with the techniques of wall - building by the time of the Spring and Autumn period between the 8th and 5th centuries BC . During this time and the subsequent Warring States period , the states of Qin , Wei , Zhao , Qi , Yan , and Zhongshan all constructed extensive fortifications to defend their own borders . Built to withstand the attack of small arms such as swords and spears , these walls were made mostly by stamping earth and gravel between board frames .",
+            "title": "Great Wall of China"
+          },
+          {
+            "rank": 5,
+            "doc_id": "846282869_2966-3838-0-872",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Great Wall of China The frontier walls built by different dynasties have multiple courses . Collectively , they stretch from Dandong in the east to Lop Lake in the west , from present - day Sino - Russian border in the north to Qinghai in the south ; along an arc that roughly delineates the edge of Mongolian steppe . A comprehensive archaeological survey , using advanced technologies , has concluded that the walls built by the Ming dynasty measure 8,850 km ( 5,500 mi ) . This is made up of 6,259 km ( 3,889 mi ) sections of actual wall , 359 km ( 223 mi ) of trenches and 2,232 km ( 1,387 mi ) of natural defensive barriers such as hills and rivers . Another archaeological survey found that the entire wall with all of its branches measures out to be 21,196 km ( 13,171 mi ) . Today , the Great Wall is generally recognized as one of the most impressive architectural feats in history .",
+            "title": "Great Wall of China"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "earth and gravel",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "846282869_1580-2418-0-838",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Great Wall of China The Great Wall of China is a series of fortifications made of stone , brick , tamped earth , wood , and other materials , generally built along an east - to - west line across the historical northern borders of China to protect the Chinese states and empires against the raids and invasions of the various nomadic groups of the Eurasian Steppe with an eye to expansion . Several walls were being built as early as the 7th century BC ; these , later joined together and made bigger and stronger , are collectively referred to as the Great Wall . Especially famous is the wall built in 220 -- 206 BC by Qin Shi Huang , the first Emperor of China . Little of that wall remains . The Great Wall has been rebuilt , maintained , and enhanced over various dynasties ; the majority of the existing wall is from the Ming Dynasty ( 1368 -- 1644 ) .",
+          "title": "Great Wall of China"
+        },
+        {
+          "rank": 2,
+          "doc_id": "846282869_4262-4964-0-691",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Great Wall of China In Chinese histories , the term `` Long Wall ( s ) '' ( 長城 , changcheng ) appears in Sima Qian 's Records of the Grand Historian , where it referred both to the separate great walls built between and north of the Warring States and to the more unified construction of the First Emperor . The Chinese character 城 is a phono - semantic compound of the `` place '' or `` earth '' radical 土 and 成 , whose Old Chinese pronunciation has been reconstructed as * deŋ . It originally referred to the rampart which surrounded traditional Chinese cities and was used by extension for these walls around their respective states ; today , however , it is much more often the Chinese word for `` city '' .",
+          "title": "Great Wall of China"
+        },
+        {
+          "rank": 3,
+          "doc_id": "846282869_12487-12881-0-394",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Great Wall of China Under Qing rule , China 's borders extended beyond the walls and Mongolia was annexed into the empire , so constructions on the Great Wall were discontinued . On the other hand , the so - called Willow Palisade , following a line similar to that of the Ming Liaodong Wall , was constructed by the Qing rulers in Manchuria . Its purpose , however , was not defense but rather migration control .",
+          "title": "Great Wall of China"
+        },
+        {
+          "rank": 4,
+          "doc_id": "846282869_7272-7769-0-497",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Great Wall of China The Chinese were already familiar with the techniques of wall - building by the time of the Spring and Autumn period between the 8th and 5th centuries BC . During this time and the subsequent Warring States period , the states of Qin , Wei , Zhao , Qi , Yan , and Zhongshan all constructed extensive fortifications to defend their own borders . Built to withstand the attack of small arms such as swords and spears , these walls were made mostly by stamping earth and gravel between board frames .",
+          "title": "Great Wall of China"
+        },
+        {
+          "rank": 5,
+          "doc_id": "846282869_2966-3838-0-872",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Great Wall of China The frontier walls built by different dynasties have multiple courses . Collectively , they stretch from Dandong in the east to Lop Lake in the west , from present - day Sino - Russian border in the north to Qinghai in the south ; along an arc that roughly delineates the edge of Mongolian steppe . A comprehensive archaeological survey , using advanced technologies , has concluded that the walls built by the Ming dynasty measure 8,850 km ( 5,500 mi ) . This is made up of 6,259 km ( 3,889 mi ) sections of actual wall , 359 km ( 223 mi ) of trenches and 2,232 km ( 1,387 mi ) of natural defensive barriers such as hills and rivers . Another archaeological survey found that the entire wall with all of its branches measures out to be 21,196 km ( 13,171 mi ) . Today , the Great Wall is generally recognized as one of the most impressive architectural feats in history .",
+          "title": "Great Wall of China"
+        }
+      ],
+      "reference": {
+        "answer": "The Great Wall of China was built using various materials over different periods. Originally, it was mainly constructed from rammed earth, stones, and wood. During the Ming Dynasty (1368--1644), bricks became heavily used, along with materials such as tiles, lime, and stone. The bricks were easier to work with, could bear more weight, and endured better than rammed earth.",
+        "evidence_ids": [
+          "846282869_1580-2418-0-838",
+          "846282869_19534-20837-0-1303",
+          "846282869_10357-11574-0-1217",
+          "801328598_49870-50749-0-879"
+        ],
+        "evidence": [
+          {
+            "doc_id": "846282869_1580-2418-0-838",
+            "text": "Great Wall of China\nGreat Wall of China\nThe Great Wall of China is a series of fortifications made of stone , brick , tamped earth , wood , and other materials , generally built along an east - to - west line across the historical northern borders of China to protect the Chinese states and empires against the raids and invasions of the various nomadic groups of the Eurasian Steppe with an eye to expansion . Several walls were being built as early as the 7th century BC ; these , later joined together and made bigger and stronger , are collectively referred to as the Great Wall . Especially famous is the wall built in 220 -- 206 BC by Qin Shi Huang , the first Emperor of China . Little of that wall remains . The Great Wall has been rebuilt , maintained , and enhanced over various dynasties ; the majority of the existing wall is from the Ming Dynasty ( 1368 -- 1644 ) ."
+          },
+          {
+            "doc_id": "846282869_19534-20837-0-1303",
+            "text": "Great Wall of China\nGreat Wall of China\nBefore the use of bricks , the Great Wall was mainly built from rammed earth , stones , and wood . During the Ming , however , bricks were heavily used in many areas of the wall , as were materials such as tiles , lime , and stone . The size and weight of the bricks made them easier to work with than earth and stone , so construction quickened . Additionally , bricks could bear more weight and endure better than rammed earth . Stone can hold under its own weight better than brick , but is more difficult to use . Consequently , stones cut in rectangular shapes were used for the foundation , inner and outer brims , and gateways of the wall . Battlements line the uppermost portion of the vast majority of the wall , with defensive gaps a little over 30 cm ( 12 in ) tall , and about 23 cm ( 9.1 in ) wide . From the parapets , guards could survey the surrounding land . Communication between the army units along the length of the Great Wall , including the ability to call reinforcements and warn garrisons of enemy movements , was of high importance . Signal towers were built upon hill tops or other high points along the wall for their visibility . Wooden gates could be used as a trap against those going through . Barracks , stables , and armories were built near the wall 's inner surface ."
+          },
+          {
+            "doc_id": "846282869_10357-11574-0-1217",
+            "text": "Great Wall of China\nGreat Wall of China\nUnlike the earlier fortifications , the Ming construction was stronger and more elaborate due to the use of bricks and stone instead of rammed earth . Up to 25,000 watchtowers are estimated to have been constructed on the wall . As Mongol raids continued periodically over the years , the Ming devoted considerable resources to repair and reinforce the walls . Sections near the Ming capital of Beijing were especially strong . Qi Jiguang between 1567 and 1570 also repaired and reinforced the wall , faced sections of the ram - earth wall with bricks and constructed 1,200 watchtowers from Shanhaiguan Pass to Changping to warn of approaching Mongol raiders . During the 1440s -- 1460s , the Ming also built a so - called `` Liaodong Wall '' . Similar in function to the Great Wall ( whose extension , in a sense , it was ) , but more basic in construction , the Liaodong Wall enclosed the agricultural heartland of the Liaodong province , protecting it against potential incursions by Jurched - Mongol Oriyanghan from the northwest and the Jianzhou Jurchens from the north . While stones and tiles were used in some parts of the Liaodong Wall , most of it was in fact simply an earth dike with moats on both sides ."
+          },
+          {
+            "doc_id": "801328598_49870-50749-0-879",
+            "text": "History of the Great Wall of China\nHistory of the Great Wall of China\nHowever , wall construction continued regardless of court politics during this time . The Ordos walls underwent extension , elaboration , and repair well into the 16th century . Brick and stone started to replace tamped earth as the wall building material , because they offered better protection and durability . This change in material gave rise to a number of necessary accommodations with regard to logistics , and inevitably a drastic increase in costs . Instead of being able to draw on local resources , building projects now required brick - kilns , quarries , and transportation routes to deliver bricks to the work site . Also , masons had to be hired since the local peasantry proved inadequate for the level of sophistication that brick constructions required . Work that originally could be done by one man in a month with earth now required 100 men to do in stone ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "N/A"
+        ]
+      }
+    },
+    {
+      "turn_id": "2",
+      "task_id": "95a0893567c7519c090ecbcdd14daccd<::>2",
+      "question": "How long is the Wall?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "what is the great wall of China built out of"
+        },
+        {
+          "role": "assistant",
+          "content": "The Great Wall of China was built using various materials over different periods. Originally, it was mainly constructed from rammed earth, stones, and wood. During the Ming Dynasty (1368--1644), bricks became heavily used, along with materials such as tiles, lime, and stone. The bricks were easier to work with, could bear more weight, and endured better than rammed earth."
+        }
+      ],
+      "retrieval": {
+        "query": "How long is the Wall?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "846282869_4965-5966-0-989",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Great Wall of China The longer Chinese name `` Ten - Thousand Mile Long Wall '' ( 萬里 長城 , Wanli Changcheng ) came from Sima Qian 's description of it in the Records , though he did not name the walls as such . The AD 493 Book of Song quotes the frontier general Tan Daoji referring to `` the long wall of 10,000 miles '' , closer to the modern name , but the name rarely features in pre-modern times otherwise . The traditional Chinese mile ( 里 , lǐ ) was an often irregular distance that was intended to show the length of a standard village and varied with terrain but was usually standardized at distances around a third of an English mile ( 540 m ) . Since China 's metrication in 1930 , it has been exactly equivalent to 500 metres or 1,600 feet , which would make the wall 's name describe a distance of 5,000 km ( 3,100 mi ) . However , this use of `` ten - thousand '' ( wàn ) is figurative in a similar manner to the Greek and English myriad and simply means `` innumerable '' or `` immeasurable '' .",
+            "title": "Great Wall of China"
+          },
+          {
+            "rank": 2,
+            "doc_id": "843537822_226-1577-0-1323",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall Berlin Wall View from the West Berlin side of graffiti art on the Wall in 1986 . The Wall 's `` death strip '' , on the east side of the Wall , here follows the curve of the Luisenstadt Canal ( filled in 1932 ) . Map of the location of the Berlin Wall , showing checkpoints General information Type Wall Country East Germany East Berlin ( Soviet - occupied sector of Berlin ) Coordinates 52 ° 30 ′ 58 '' N 13 ° 22 ′ 37 '' E ﻿ / ﻿ 52.51611 ° N 13.37694 ° E ﻿ / 52.51611 ; 13.37694 Coordinates : 52 ° 30 ′ 58 '' N 13 ° 22 ′ 37 '' E ﻿ / ﻿ 52.51611 ° N 13.37694 ° E ﻿ / 52.51611 ; 13.37694 Construction started 13 August 1961 Other dimensions Border length around West Berlin : 155 km ( 96 mi ) Border length between West Berlin and East Germany : 111.9 km ( 69.5 mi ) Border length between West and East Berlin : 43.1 km ( 26.8 mi ) Border length through residential areas in East Berlin : 37 km ( 23 mi ) Concrete segment of wall height : 3.6 m ( 11.8 ft ) Concrete segment of wall length : 106 km ( 66 mi ) Wire mesh fencing : 66.5 km ( 41.3 mi ) Anti-vehicle trenches length : 105.5 km ( 65.6 mi ) Contact / signal fence length : 127.5 km ( 79.2 mi ) Column track width : 7 m ( 7.7 yd ) Column track length : 124.3 km ( 77.2 mi ) Number of watch towers : 302 Number of bunkers : 20 Technical details Size 155 km ( 96.3 mi )",
+            "title": "Berlin Wall"
+          },
+          {
+            "rank": 3,
+            "doc_id": "801328598_39828-41422-0-1582",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of the Great Wall of China This long period of wall - building burdened the populace and provoked controversy . Sometime between 1190 and 1196 , during Zhangzong 's reign , the high official Zhang Wangong ( 張萬公 ) and the Censorate recommended that work on the wall be indefinitely suspended due to a recent drought , noting : `` What has been begun is already being flattened by sandstorms , and bullying the people into defence works will simply exhaust them . '' However , Chancellor Wanyan Xiang ( 完 顏 襄 ) convinced the emperor of the walls ' merits based on an optimistic cost estimate -- `` Although the initial outlay for the walls will be one million strings of cash , when the work is done the frontier will be secure with only half the present number of soldiers needed to defend it , which means that every year you will save three million strings of cash ... The benefits will be everlasting '' -- and so construction continued unabated . All this work created an extensive systems of walls , which consisted of a 700 kilometres ( 430 mi ) `` outer wall '' from Heilongjiang to Mongolia and a 1,000 kilometres ( 620 mi ) network of `` inner walls '' north and northeast of Beijing . Together , they formed a roughly elliptical web of fortifications 1,400 kilometres ( 870 mi ) in length and 440 kilometres ( 270 mi ) in diameter . Some of these walls had inner moats ( from 10 to 60 metres ( 33 to 197 feet ) in width ) , beacon towers , battlements , parapets , and outward - facing semicircular platforms protruding from the wall -- features that set the Jin walls apart from their predecessors .",
+            "title": "History of the Great Wall of China"
+          },
+          {
+            "rank": 4,
+            "doc_id": "864258536_520-1938-0-1418",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Warped wall The warped wall is used in various Ninja Warrior franchises , such as Sasuke , Kunoichi , American Ninja Warrior , Team Ninja Warrior , Ninja Warrior UK , Sasuke Ninja Warrior Indonesia , and Australian Ninja Warrior . The height of the warped wall varies depending on the competition . American Ninja Warrior utilized a 14 ft ( 4.3 m ) warped wall for its first 7 seasons , before switching to a 14.5 ft ( 4.4 m ) wall in season 8 . American Ninja Warrior also uses a `` mega wall '' for its all - star skills competition , where the height of the wall increases until no one can climb it . For its 2018 season 10 , American Ninja Warrior introduced a 18 ft ( 5.5 m ) `` mega warped wall '' . If they are successful in climbing it , they would win $10,000 . Competitors who choose the mega warped wall , have only one attempt to reach the top . If unsuccessful , the competitor will only get one shot at the warped wall . Those who do not wish to attempt the Mega Wall have three chances to reach the top of the warped wall . The mega wall will only be featured in the city qualifiers . In American Ninja Warrior Junior , the warped wall measures 13 ft , and will be completed at that height but the 13 - 14 year olds . The unique wall is equipped with two pocket levels which will provide assistance to the other age groups . 9 - 10 year olds have a pocket at 10 feet . 11 - 12 year olds have a pocket at 11.5 feet .",
+            "title": "Warped wall"
+          },
+          {
+            "rank": 5,
+            "doc_id": "843537822_32826-33453-0-627",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall The Berlin Wall was more than 140 kilometres ( 87 mi ) long . In June 1962 , a second , parallel fence was built some 100 metres ( 110 yd ) farther into East German territory . The houses contained between the fences were razed and the inhabitants relocated , thus establishing what later became known as the death strip . The death strip was covered with raked sand or gravel , rendering footprints easy to notice , easing the detection of trespassers and also enabling officers to see which guards had neglected their task ; it offered no cover ; and , most importantly , it offered clear fields of fire for the Wall guards .",
+            "title": "Berlin Wall"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "846282869_4965-5966-0-989",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Great Wall of China The longer Chinese name `` Ten - Thousand Mile Long Wall '' ( 萬里 長城 , Wanli Changcheng ) came from Sima Qian 's description of it in the Records , though he did not name the walls as such . The AD 493 Book of Song quotes the frontier general Tan Daoji referring to `` the long wall of 10,000 miles '' , closer to the modern name , but the name rarely features in pre-modern times otherwise . The traditional Chinese mile ( 里 , lǐ ) was an often irregular distance that was intended to show the length of a standard village and varied with terrain but was usually standardized at distances around a third of an English mile ( 540 m ) . Since China 's metrication in 1930 , it has been exactly equivalent to 500 metres or 1,600 feet , which would make the wall 's name describe a distance of 5,000 km ( 3,100 mi ) . However , this use of `` ten - thousand '' ( wàn ) is figurative in a similar manner to the Greek and English myriad and simply means `` innumerable '' or `` immeasurable '' .",
+            "title": "Great Wall of China"
+          },
+          {
+            "rank": 2,
+            "doc_id": "843537822_226-1577-0-1323",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall Berlin Wall View from the West Berlin side of graffiti art on the Wall in 1986 . The Wall 's `` death strip '' , on the east side of the Wall , here follows the curve of the Luisenstadt Canal ( filled in 1932 ) . Map of the location of the Berlin Wall , showing checkpoints General information Type Wall Country East Germany East Berlin ( Soviet - occupied sector of Berlin ) Coordinates 52 ° 30 ′ 58 '' N 13 ° 22 ′ 37 '' E ﻿ / ﻿ 52.51611 ° N 13.37694 ° E ﻿ / 52.51611 ; 13.37694 Coordinates : 52 ° 30 ′ 58 '' N 13 ° 22 ′ 37 '' E ﻿ / ﻿ 52.51611 ° N 13.37694 ° E ﻿ / 52.51611 ; 13.37694 Construction started 13 August 1961 Other dimensions Border length around West Berlin : 155 km ( 96 mi ) Border length between West Berlin and East Germany : 111.9 km ( 69.5 mi ) Border length between West and East Berlin : 43.1 km ( 26.8 mi ) Border length through residential areas in East Berlin : 37 km ( 23 mi ) Concrete segment of wall height : 3.6 m ( 11.8 ft ) Concrete segment of wall length : 106 km ( 66 mi ) Wire mesh fencing : 66.5 km ( 41.3 mi ) Anti-vehicle trenches length : 105.5 km ( 65.6 mi ) Contact / signal fence length : 127.5 km ( 79.2 mi ) Column track width : 7 m ( 7.7 yd ) Column track length : 124.3 km ( 77.2 mi ) Number of watch towers : 302 Number of bunkers : 20 Technical details Size 155 km ( 96.3 mi )",
+            "title": "Berlin Wall"
+          },
+          {
+            "rank": 3,
+            "doc_id": "801328598_39828-41422-0-1582",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of the Great Wall of China This long period of wall - building burdened the populace and provoked controversy . Sometime between 1190 and 1196 , during Zhangzong 's reign , the high official Zhang Wangong ( 張萬公 ) and the Censorate recommended that work on the wall be indefinitely suspended due to a recent drought , noting : `` What has been begun is already being flattened by sandstorms , and bullying the people into defence works will simply exhaust them . '' However , Chancellor Wanyan Xiang ( 完 顏 襄 ) convinced the emperor of the walls ' merits based on an optimistic cost estimate -- `` Although the initial outlay for the walls will be one million strings of cash , when the work is done the frontier will be secure with only half the present number of soldiers needed to defend it , which means that every year you will save three million strings of cash ... The benefits will be everlasting '' -- and so construction continued unabated . All this work created an extensive systems of walls , which consisted of a 700 kilometres ( 430 mi ) `` outer wall '' from Heilongjiang to Mongolia and a 1,000 kilometres ( 620 mi ) network of `` inner walls '' north and northeast of Beijing . Together , they formed a roughly elliptical web of fortifications 1,400 kilometres ( 870 mi ) in length and 440 kilometres ( 270 mi ) in diameter . Some of these walls had inner moats ( from 10 to 60 metres ( 33 to 197 feet ) in width ) , beacon towers , battlements , parapets , and outward - facing semicircular platforms protruding from the wall -- features that set the Jin walls apart from their predecessors .",
+            "title": "History of the Great Wall of China"
+          },
+          {
+            "rank": 4,
+            "doc_id": "864258536_520-1938-0-1418",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Warped wall The warped wall is used in various Ninja Warrior franchises , such as Sasuke , Kunoichi , American Ninja Warrior , Team Ninja Warrior , Ninja Warrior UK , Sasuke Ninja Warrior Indonesia , and Australian Ninja Warrior . The height of the warped wall varies depending on the competition . American Ninja Warrior utilized a 14 ft ( 4.3 m ) warped wall for its first 7 seasons , before switching to a 14.5 ft ( 4.4 m ) wall in season 8 . American Ninja Warrior also uses a `` mega wall '' for its all - star skills competition , where the height of the wall increases until no one can climb it . For its 2018 season 10 , American Ninja Warrior introduced a 18 ft ( 5.5 m ) `` mega warped wall '' . If they are successful in climbing it , they would win $10,000 . Competitors who choose the mega warped wall , have only one attempt to reach the top . If unsuccessful , the competitor will only get one shot at the warped wall . Those who do not wish to attempt the Mega Wall have three chances to reach the top of the warped wall . The mega wall will only be featured in the city qualifiers . In American Ninja Warrior Junior , the warped wall measures 13 ft , and will be completed at that height but the 13 - 14 year olds . The unique wall is equipped with two pocket levels which will provide assistance to the other age groups . 9 - 10 year olds have a pocket at 10 feet . 11 - 12 year olds have a pocket at 11.5 feet .",
+            "title": "Warped wall"
+          },
+          {
+            "rank": 5,
+            "doc_id": "843537822_32826-33453-0-627",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Berlin Wall The Berlin Wall was more than 140 kilometres ( 87 mi ) long . In June 1962 , a second , parallel fence was built some 100 metres ( 110 yd ) farther into East German territory . The houses contained between the fences were razed and the inhabitants relocated , thus establishing what later became known as the death strip . The death strip was covered with raked sand or gravel , rendering footprints easy to notice , easing the detection of trespassers and also enabling officers to see which guards had neglected their task ; it offered no cover ; and , most importantly , it offered clear fields of fire for the Wall guards .",
+            "title": "Berlin Wall"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "The Great Wall of China is over 8,850 kilometers (5,490 miles) long.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "846282869_4965-5966-0-989",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Great Wall of China The longer Chinese name `` Ten - Thousand Mile Long Wall '' ( 萬里 長城 , Wanli Changcheng ) came from Sima Qian 's description of it in the Records , though he did not name the walls as such . The AD 493 Book of Song quotes the frontier general Tan Daoji referring to `` the long wall of 10,000 miles '' , closer to the modern name , but the name rarely features in pre-modern times otherwise . The traditional Chinese mile ( 里 , lǐ ) was an often irregular distance that was intended to show the length of a standard village and varied with terrain but was usually standardized at distances around a third of an English mile ( 540 m ) . Since China 's metrication in 1930 , it has been exactly equivalent to 500 metres or 1,600 feet , which would make the wall 's name describe a distance of 5,000 km ( 3,100 mi ) . However , this use of `` ten - thousand '' ( wàn ) is figurative in a similar manner to the Greek and English myriad and simply means `` innumerable '' or `` immeasurable '' .",
+          "title": "Great Wall of China"
+        },
+        {
+          "rank": 2,
+          "doc_id": "843537822_226-1577-0-1323",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Berlin Wall Berlin Wall View from the West Berlin side of graffiti art on the Wall in 1986 . The Wall 's `` death strip '' , on the east side of the Wall , here follows the curve of the Luisenstadt Canal ( filled in 1932 ) . Map of the location of the Berlin Wall , showing checkpoints General information Type Wall Country East Germany East Berlin ( Soviet - occupied sector of Berlin ) Coordinates 52 ° 30 ′ 58 '' N 13 ° 22 ′ 37 '' E ﻿ / ﻿ 52.51611 ° N 13.37694 ° E ﻿ / 52.51611 ; 13.37694 Coordinates : 52 ° 30 ′ 58 '' N 13 ° 22 ′ 37 '' E ﻿ / ﻿ 52.51611 ° N 13.37694 ° E ﻿ / 52.51611 ; 13.37694 Construction started 13 August 1961 Other dimensions Border length around West Berlin : 155 km ( 96 mi ) Border length between West Berlin and East Germany : 111.9 km ( 69.5 mi ) Border length between West and East Berlin : 43.1 km ( 26.8 mi ) Border length through residential areas in East Berlin : 37 km ( 23 mi ) Concrete segment of wall height : 3.6 m ( 11.8 ft ) Concrete segment of wall length : 106 km ( 66 mi ) Wire mesh fencing : 66.5 km ( 41.3 mi ) Anti-vehicle trenches length : 105.5 km ( 65.6 mi ) Contact / signal fence length : 127.5 km ( 79.2 mi ) Column track width : 7 m ( 7.7 yd ) Column track length : 124.3 km ( 77.2 mi ) Number of watch towers : 302 Number of bunkers : 20 Technical details Size 155 km ( 96.3 mi )",
+          "title": "Berlin Wall"
+        },
+        {
+          "rank": 3,
+          "doc_id": "801328598_39828-41422-0-1582",
+          "score": null,
+          "score_type": "contriever",
+          "text": "History of the Great Wall of China This long period of wall - building burdened the populace and provoked controversy . Sometime between 1190 and 1196 , during Zhangzong 's reign , the high official Zhang Wangong ( 張萬公 ) and the Censorate recommended that work on the wall be indefinitely suspended due to a recent drought , noting : `` What has been begun is already being flattened by sandstorms , and bullying the people into defence works will simply exhaust them . '' However , Chancellor Wanyan Xiang ( 完 顏 襄 ) convinced the emperor of the walls ' merits based on an optimistic cost estimate -- `` Although the initial outlay for the walls will be one million strings of cash , when the work is done the frontier will be secure with only half the present number of soldiers needed to defend it , which means that every year you will save three million strings of cash ... The benefits will be everlasting '' -- and so construction continued unabated . All this work created an extensive systems of walls , which consisted of a 700 kilometres ( 430 mi ) `` outer wall '' from Heilongjiang to Mongolia and a 1,000 kilometres ( 620 mi ) network of `` inner walls '' north and northeast of Beijing . Together , they formed a roughly elliptical web of fortifications 1,400 kilometres ( 870 mi ) in length and 440 kilometres ( 270 mi ) in diameter . Some of these walls had inner moats ( from 10 to 60 metres ( 33 to 197 feet ) in width ) , beacon towers , battlements , parapets , and outward - facing semicircular platforms protruding from the wall -- features that set the Jin walls apart from their predecessors .",
+          "title": "History of the Great Wall of China"
+        },
+        {
+          "rank": 4,
+          "doc_id": "864258536_520-1938-0-1418",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Warped wall The warped wall is used in various Ninja Warrior franchises , such as Sasuke , Kunoichi , American Ninja Warrior , Team Ninja Warrior , Ninja Warrior UK , Sasuke Ninja Warrior Indonesia , and Australian Ninja Warrior . The height of the warped wall varies depending on the competition . American Ninja Warrior utilized a 14 ft ( 4.3 m ) warped wall for its first 7 seasons , before switching to a 14.5 ft ( 4.4 m ) wall in season 8 . American Ninja Warrior also uses a `` mega wall '' for its all - star skills competition , where the height of the wall increases until no one can climb it . For its 2018 season 10 , American Ninja Warrior introduced a 18 ft ( 5.5 m ) `` mega warped wall '' . If they are successful in climbing it , they would win $10,000 . Competitors who choose the mega warped wall , have only one attempt to reach the top . If unsuccessful , the competitor will only get one shot at the warped wall . Those who do not wish to attempt the Mega Wall have three chances to reach the top of the warped wall . The mega wall will only be featured in the city qualifiers . In American Ninja Warrior Junior , the warped wall measures 13 ft , and will be completed at that height but the 13 - 14 year olds . The unique wall is equipped with two pocket levels which will provide assistance to the other age groups . 9 - 10 year olds have a pocket at 10 feet . 11 - 12 year olds have a pocket at 11.5 feet .",
+          "title": "Warped wall"
+        },
+        {
+          "rank": 5,
+          "doc_id": "843537822_32826-33453-0-627",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Berlin Wall The Berlin Wall was more than 140 kilometres ( 87 mi ) long . In June 1962 , a second , parallel fence was built some 100 metres ( 110 yd ) farther into East German territory . The houses contained between the fences were razed and the inhabitants relocated , thus establishing what later became known as the death strip . The death strip was covered with raked sand or gravel , rendering footprints easy to notice , easing the detection of trespassers and also enabling officers to see which guards had neglected their task ; it offered no cover ; and , most importantly , it offered clear fields of fire for the Wall guards .",
+          "title": "Berlin Wall"
+        }
+      ],
+      "reference": {
+        "answer": "The frontier walls built by different dynasties have multiple courses. Collectively, they stretch from Dandong in the east to Lop Lake in the west, from present - day Sino - Russian border in the north to Qinghai in the south. The walls built by the Ming dynasty measure 8,850 km. Faced with the threat of the Göktürks from the north, the Qi built up to 3,000 li about 1,600 kilometers. The Xuan - Da portion of the Great Wall totaled about 850 kilometers of wall, with some sections being doubled - up with two lines of wall, some tripled or even quadrupled. Chancellor Wanyan Xiang convinced the emperor to build an extensive systems of walls, which consisted of a 700 kilometers outer wall from Heilongjiang to Mongolia and a 1,000 kilometers network of inner walls, north and northeast of Beijing. Together, they formed a roughly elliptical web of fortifications 1,400 kilometers in length.",
+        "evidence_ids": [
+          "846282869_4965-5966-0-989",
+          "801328598_39828-41422-0-1582",
+          "801328598_51417-52697-0-1250",
+          "801328598_29219-30460-0-1239"
+        ],
+        "evidence": [
+          {
+            "doc_id": "846282869_4965-5966-0-989",
+            "text": "Great Wall of China\nGreat Wall of China\nThe longer Chinese name `` Ten - Thousand Mile Long Wall '' ( 萬里 長城 , Wanli Changcheng ) came from Sima Qian 's description of it in the Records , though he did not name the walls as such . The AD 493 Book of Song quotes the frontier general Tan Daoji referring to `` the long wall of 10,000 miles '' , closer to the modern name , but the name rarely features in pre-modern times otherwise . The traditional Chinese mile ( 里 , lǐ ) was an often irregular distance that was intended to show the length of a standard village and varied with terrain but was usually standardized at distances around a third of an English mile ( 540 m ) . Since China 's metrication in 1930 , it has been exactly equivalent to 500 metres or 1,600 feet , which would make the wall 's name describe a distance of 5,000 km ( 3,100 mi ) . However , this use of `` ten - thousand '' ( wàn ) is figurative in a similar manner to the Greek and English myriad and simply means `` innumerable '' or `` immeasurable '' ."
+          },
+          {
+            "doc_id": "801328598_39828-41422-0-1582",
+            "text": "History of the Great Wall of China\nHistory of the Great Wall of China\nThis long period of wall - building burdened the populace and provoked controversy . Sometime between 1190 and 1196 , during Zhangzong 's reign , the high official Zhang Wangong ( 張萬公 ) and the Censorate recommended that work on the wall be indefinitely suspended due to a recent drought , noting : `` What has been begun is already being flattened by sandstorms , and bullying the people into defence works will simply exhaust them . '' However , Chancellor Wanyan Xiang ( 完 顏 襄 ) convinced the emperor of the walls ' merits based on an optimistic cost estimate -- `` Although the initial outlay for the walls will be one million strings of cash , when the work is done the frontier will be secure with only half the present number of soldiers needed to defend it , which means that every year you will save three million strings of cash ... The benefits will be everlasting '' -- and so construction continued unabated . All this work created an extensive systems of walls , which consisted of a 700 kilometres ( 430 mi ) `` outer wall '' from Heilongjiang to Mongolia and a 1,000 kilometres ( 620 mi ) network of `` inner walls '' north and northeast of Beijing . Together , they formed a roughly elliptical web of fortifications 1,400 kilometres ( 870 mi ) in length and 440 kilometres ( 270 mi ) in diameter . Some of these walls had inner moats ( from 10 to 60 metres ( 33 to 197 feet ) in width ) , beacon towers , battlements , parapets , and outward - facing semicircular platforms protruding from the wall -- features that set the Jin walls apart from their predecessors ."
+          },
+          {
+            "doc_id": "801328598_51417-52697-0-1250",
+            "text": "History of the Great Wall of China\nHistory of the Great Wall of China\nFrom 1544 to 1549 , Weng Wanda ( 翁 萬達 ; 1498 -- 1552 ) embarked on a defensive building program on a scale unprecedented in Chinese history . Troops were re-deployed along the outer line , new walls and beacon towers were constructed , and fortifications were restored and extended along both lines . Firearms and artillery were mounted on the walls and towers during this time , for both defence and signalling purposes . The project 's completion was announced in the sixth month of 1548 . At its height , the Xuan -- Da portion of the Great Wall totalled about 850 kilometres ( 530 miles ) of wall , with some sections being doubled - up with two lines of wall , some tripled or even quadrupled . The outer frontier was now protected by a wall called the `` outer border '' ( 外邊 , wàibiān ) that extended 380 kilometres ( 240 mi ) from the Yellow River 's edge at the Piantou Pass ( 偏 頭 關 ) along the Inner Mongolia border with Shanxi into Hebei province ; the `` inner border '' wall ( 內 邊 , nèibiān ) ran southeast from Piantou Pass for some 400 kilometres ( 250 mi ) , ending at the Pingxing Pass ; a `` river wall '' ( 河 邊 , hébiān ) also ran from the Piantou Pass and followed the Yellow River southwards for about 70 kilometres ( 43 mi ) . A"
+          },
+          {
+            "doc_id": "801328598_29219-30460-0-1239",
+            "text": "History of the Great Wall of China\nHistory of the Great Wall of China\nThe Northern Wei collapsed in 535 due to civil insurrection to be eventually succeeded by the Northern Qi ( 550 -- 575 ) and Northern Zhou ( 557 -- 580 ) . Faced with the threat of the Göktürks from the north , from 552 to 556 the Qi built up to 3,000 li ( about 1,600 kilometres ( 990 mi ) ) of wall from Shanxi to the sea at Shanhai Pass . Over the course of the year 555 alone , 1.8 million men were mobilized to build the Juyong Pass and extend its wall by 450 kilometres ( 280 mi ) through Datong to the eastern banks of the Yellow River . In 557 a secondary wall was built inside the main one . These walls were built quickly from local earth and stones or formed by natural barriers . Two stretches of the stone - and - earth Qi wall still stand in Shanxi today , measuring 3.3 metres ( 11 ft ) wide at their bases and 3.5 metres ( 11 ft ) high on average . In 577 the Northern Zhou conquered the Northern Qi and in 580 made repairs to the existing Qi walls . The route of the Qi and Zhou walls would be mostly followed by the later Ming wall west of Gubeikou , which includes reconstructed walls from Qi and Zhou . In more recent times , the reddish remnants of the Zhou ramparts in Hebei gave rise to the nickname `` Red Wall '' ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "3",
+      "task_id": "95a0893567c7519c090ecbcdd14daccd<::>3",
+      "question": "Who was the enemy?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "what is the great wall of China built out of"
+        },
+        {
+          "role": "assistant",
+          "content": "The Great Wall of China was built using various materials over different periods. Originally, it was mainly constructed from rammed earth, stones, and wood. During the Ming Dynasty (1368--1644), bricks became heavily used, along with materials such as tiles, lime, and stone. The bricks were easier to work with, could bear more weight, and endured better than rammed earth."
+        },
+        {
+          "role": "user",
+          "content": "How long is the Wall?"
+        },
+        {
+          "role": "assistant",
+          "content": "The frontier walls built by different dynasties have multiple courses. Collectively, they stretch from Dandong in the east to Lop Lake in the west, from present - day Sino - Russian border in the north to Qinghai in the south. The walls built by the Ming dynasty measure 8,850 km. Faced with the threat of the Göktürks from the north, the Qi built up to 3,000 li about 1,600 kilometers. The Xuan - Da portion of the Great Wall totaled about 850 kilometers of wall, with some sections being doubled - up with two lines of wall, some tripled or even quadrupled. Chancellor Wanyan Xiang convinced the emperor to build an extensive systems of walls, which consisted of a 700 kilometers outer wall from Heilongjiang to Mongolia and a 1,000 kilometers network of inner walls, north and northeast of Beijing. Together, they formed a roughly elliptical web of fortifications 1,400 kilometers in length."
+        }
+      ],
+      "retrieval": {
+        "query": "Who was the enemy?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "818511352_2602-2886-0-284",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Sleeping with the Enemy (The Simpsons) `` Sleeping With the Enemy '' is the third episode from the sixteenth season of The Simpsons . It originally aired on the Fox network in the United States on November 21 , 2004 . This proves to be Jon Vitti 's last episode to write and Lauren MacMullan 's last episode for directing .",
+            "title": "Sleeping with the Enemy (The Simpsons)"
+          },
+          {
+            "rank": 2,
+            "doc_id": "801120865_30443-30724-0-281",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Allies of World War II On 20 August 1939 , forces of the Union of Soviet Socialist Republics under General Georgy Zhukov , together with the People 's Republic of Mongolia eliminated the threat of conflict in the east with a decisive victory over Japan at the Battle of Khalkhin Gol in eastern Mongolia .",
+            "title": "Allies of World War II"
+          },
+          {
+            "rank": 3,
+            "doc_id": "841858995_29523-29880-0-357",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Ojibwe Chauncey Yellow Robe collaborated with the American Museum of Natural History to produce The Silent Enemy , the first movie and documentary with an all - Indian cast . The production was an attempt to capture on film the authentic life style of pre-Columbian Indians , and portrayed the Ojibwe in Canada as they faced the silent enemy of hunger . Television",
+            "title": "Ojibwe"
+          },
+          {
+            "rank": 4,
+            "doc_id": "801120865_32322-32997-0-675",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Allies of World War II German - Soviet treaties were brought to an end by the German surprise attack on the USSR on 22 June 1941 . The Soviet Union soon entered in alliance with the United Kingdom . Following the USSR , a number of other communist , pro-Soviet or Soviet - controlled forces fought against the Axis powers during the Second World War . They were as follows : the Albanian National Liberation Front , the Chinese Red Army , the Greek National Liberation Front , the Hukbalahap , the Malayan Communist Party , the People 's Republic of Mongolia , the Polish People 's Army , the Tuvan People 's Republic ( annexed by Soviet Union in 1944 ) , the Viet Minh and the Yugoslav Partisans .",
+            "title": "Allies of World War II"
+          },
+          {
+            "rank": 5,
+            "doc_id": "801120865_23989-24390-0-401",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Allies of World War II The human beings who constitute these nations are for him only cattle . He orders their massacre or migration . He compels them to make room for their conquerors . He does not even take the trouble to impose any war tribute on them . He just takes all their wealth and , to prevent any revolt , he scientifically seeks the physical and moral degradation of those whose independence he has taken away .",
+            "title": "Allies of World War II"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "818511352_2602-2886-0-284",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Sleeping with the Enemy (The Simpsons) `` Sleeping With the Enemy '' is the third episode from the sixteenth season of The Simpsons . It originally aired on the Fox network in the United States on November 21 , 2004 . This proves to be Jon Vitti 's last episode to write and Lauren MacMullan 's last episode for directing .",
+            "title": "Sleeping with the Enemy (The Simpsons)"
+          },
+          {
+            "rank": 2,
+            "doc_id": "801120865_30443-30724-0-281",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Allies of World War II On 20 August 1939 , forces of the Union of Soviet Socialist Republics under General Georgy Zhukov , together with the People 's Republic of Mongolia eliminated the threat of conflict in the east with a decisive victory over Japan at the Battle of Khalkhin Gol in eastern Mongolia .",
+            "title": "Allies of World War II"
+          },
+          {
+            "rank": 3,
+            "doc_id": "841858995_29523-29880-0-357",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Ojibwe Chauncey Yellow Robe collaborated with the American Museum of Natural History to produce The Silent Enemy , the first movie and documentary with an all - Indian cast . The production was an attempt to capture on film the authentic life style of pre-Columbian Indians , and portrayed the Ojibwe in Canada as they faced the silent enemy of hunger . Television",
+            "title": "Ojibwe"
+          },
+          {
+            "rank": 4,
+            "doc_id": "801120865_32322-32997-0-675",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Allies of World War II German - Soviet treaties were brought to an end by the German surprise attack on the USSR on 22 June 1941 . The Soviet Union soon entered in alliance with the United Kingdom . Following the USSR , a number of other communist , pro-Soviet or Soviet - controlled forces fought against the Axis powers during the Second World War . They were as follows : the Albanian National Liberation Front , the Chinese Red Army , the Greek National Liberation Front , the Hukbalahap , the Malayan Communist Party , the People 's Republic of Mongolia , the Polish People 's Army , the Tuvan People 's Republic ( annexed by Soviet Union in 1944 ) , the Viet Minh and the Yugoslav Partisans .",
+            "title": "Allies of World War II"
+          },
+          {
+            "rank": 5,
+            "doc_id": "801120865_23989-24390-0-401",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Allies of World War II The human beings who constitute these nations are for him only cattle . He orders their massacre or migration . He compels them to make room for their conquerors . He does not even take the trouble to impose any war tribute on them . He just takes all their wealth and , to prevent any revolt , he scientifically seeks the physical and moral degradation of those whose independence he has taken away .",
+            "title": "Allies of World War II"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "The Soviet Union",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "818511352_2602-2886-0-284",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Sleeping with the Enemy (The Simpsons) `` Sleeping With the Enemy '' is the third episode from the sixteenth season of The Simpsons . It originally aired on the Fox network in the United States on November 21 , 2004 . This proves to be Jon Vitti 's last episode to write and Lauren MacMullan 's last episode for directing .",
+          "title": "Sleeping with the Enemy (The Simpsons)"
+        },
+        {
+          "rank": 2,
+          "doc_id": "801120865_30443-30724-0-281",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Allies of World War II On 20 August 1939 , forces of the Union of Soviet Socialist Republics under General Georgy Zhukov , together with the People 's Republic of Mongolia eliminated the threat of conflict in the east with a decisive victory over Japan at the Battle of Khalkhin Gol in eastern Mongolia .",
+          "title": "Allies of World War II"
+        },
+        {
+          "rank": 3,
+          "doc_id": "841858995_29523-29880-0-357",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Ojibwe Chauncey Yellow Robe collaborated with the American Museum of Natural History to produce The Silent Enemy , the first movie and documentary with an all - Indian cast . The production was an attempt to capture on film the authentic life style of pre-Columbian Indians , and portrayed the Ojibwe in Canada as they faced the silent enemy of hunger . Television",
+          "title": "Ojibwe"
+        },
+        {
+          "rank": 4,
+          "doc_id": "801120865_32322-32997-0-675",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Allies of World War II German - Soviet treaties were brought to an end by the German surprise attack on the USSR on 22 June 1941 . The Soviet Union soon entered in alliance with the United Kingdom . Following the USSR , a number of other communist , pro-Soviet or Soviet - controlled forces fought against the Axis powers during the Second World War . They were as follows : the Albanian National Liberation Front , the Chinese Red Army , the Greek National Liberation Front , the Hukbalahap , the Malayan Communist Party , the People 's Republic of Mongolia , the Polish People 's Army , the Tuvan People 's Republic ( annexed by Soviet Union in 1944 ) , the Viet Minh and the Yugoslav Partisans .",
+          "title": "Allies of World War II"
+        },
+        {
+          "rank": 5,
+          "doc_id": "801120865_23989-24390-0-401",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Allies of World War II The human beings who constitute these nations are for him only cattle . He orders their massacre or migration . He compels them to make room for their conquerors . He does not even take the trouble to impose any war tribute on them . He just takes all their wealth and , to prevent any revolt , he scientifically seeks the physical and moral degradation of those whose independence he has taken away .",
+          "title": "Allies of World War II"
+        }
+      ],
+      "reference": {
+        "answer": "Many scholars have operated under the belief that the Great Wall continually defended China 's border against the raids and invasions of the various nomadic groups of the Eurasian Steppe with an eye to expansion. Towards the end of the Ming, the Great Wall helped defend the empire against the Manchu invasions that began around 1600. The usefulness of the Great Wall as a defense line against northern nomads became questionable under the Qing dynasty, since China proper, Manchuria, and Mongolia were all under Qing control. So instead, the Great Wall became the means to limit Han Chinese movement into the steppes. Rather than being defensive, the walls indicate the northward expansions of the three northern states and their desire to safeguard their recent territorial acquisitions.",
+        "evidence_ids": [
+          "846282869_1580-2418-0-838",
+          "846282869_11575-12486-0-911",
+          "801328598_58653-59267-0-614",
+          "801328598_71797-72744-0-947",
+          "801328598_15083-16504-0-1417"
+        ],
+        "evidence": [
+          {
+            "doc_id": "846282869_1580-2418-0-838",
+            "text": "Great Wall of China\nGreat Wall of China\nThe Great Wall of China is a series of fortifications made of stone , brick , tamped earth , wood , and other materials , generally built along an east - to - west line across the historical northern borders of China to protect the Chinese states and empires against the raids and invasions of the various nomadic groups of the Eurasian Steppe with an eye to expansion . Several walls were being built as early as the 7th century BC ; these , later joined together and made bigger and stronger , are collectively referred to as the Great Wall . Especially famous is the wall built in 220 -- 206 BC by Qin Shi Huang , the first Emperor of China . Little of that wall remains . The Great Wall has been rebuilt , maintained , and enhanced over various dynasties ; the majority of the existing wall is from the Ming Dynasty ( 1368 -- 1644 ) ."
+          },
+          {
+            "doc_id": "846282869_11575-12486-0-911",
+            "text": "Great Wall of China\nGreat Wall of China\nTowards the end of the Ming , the Great Wall helped defend the empire against the Manchu invasions that began around 1600 . Even after the loss of all of Liaodong , the Ming army held the heavily fortified Shanhai Pass , preventing the Manchus from conquering the Chinese heartland . The Manchus were finally able to cross the Great Wall in 1644 , after Beijing had already fallen to Li Zicheng 's rebels . Before this time , the Manchus had crossed the Great Wall multiple times to raid , but this time it was for conquest . The gates at Shanhai Pass were opened on May 25 by the commanding Ming general , Wu Sangui , who formed an alliance with the Manchus , hoping to use the Manchus to expel the rebels from Beijing . The Manchus quickly seized Beijing , and eventually defeated both the rebel - founded Shun dynasty and the remaining Ming resistance , establishing the Qing dynasty rule over all of China ."
+          },
+          {
+            "doc_id": "801328598_58653-59267-0-614",
+            "text": "History of the Great Wall of China\nHistory of the Great Wall of China\nThe usefulness of the Great Wall as a defence line against northern nomads became questionable under the Qing dynasty , since their territory encompassed vast areas inside and outside the wall : China proper , Manchuria , and Mongolia were all under Qing control . So instead , the Great Wall became the means to limit Han Chinese movement into the steppes . In the case of Manchuria , considered to be the sacred homeland by the ruling Manchu elites , some parts of the Ming Liaodong Wall were repaired so it could serve to control Han Chinese movement into Manchuria alongside the newly erected Willow Palisade ."
+          },
+          {
+            "doc_id": "801328598_71797-72744-0-947",
+            "text": "History of the Great Wall of China\nHistory of the Great Wall of China\nSince then , many scholars have operated under the belief that the Great Wall continually defended China 's border against the steppe nomads for two thousand years . For example , the 18th - century sinologist Joseph de Guignes assigned macrohistorical importance to such walls when he advanced the theory that the Qin construction forced the Xiongnu to migrate west to Europe and , becoming known as the Huns , ultimately contributed to the decline of the Roman Empire . Some have attempted to make general statements regarding Chinese society and foreign policy based on the conception of a perennial Great Wall : Karl Marx took the Wall to represent the stagnation of the Chinese society and economy , Owen Lattimore supposed that the Great Wall demonstrated a need to divide the nomadic way of life from the agricultural communities of China , and John K. Fairbank posited that the Wall played a part in upholding the Sinocentric world order ."
+          },
+          {
+            "doc_id": "801328598_15083-16504-0-1417",
+            "text": "History of the Great Wall of China\nHistory of the Great Wall of China\nThe walls , known as Changcheng ( 長城 ) -- literally `` long walls '' , but often translated as `` Great Wall '' -- were mostly constructed of tamped earth , with some parts built with stones . Where natural barriers like ravines and rivers sufficed for defence , the walls were erected sparingly , but long fortified lines were laid where such advantageous terrains did not exist . Often in addition to the wall , the defensive system included garrisons and beacon towers inside the wall , and watchtowers outside at regular intervals . In terms of defence , the walls were generally effective at countering cavalry shock tactics , but there are doubts as to whether these early walls were actually defensive in nature . Nicola Di Cosmo points out that the northern frontier walls were built far to the north and included traditionally nomadic lands , and so rather than being defensive , the walls indicate the northward expansions of the three northern states and their desire to safeguard their recent territorial acquisitions . This theory is supported by the archeological discovery of nomadic artifacts within the walls , suggesting the presence of pre-existing or conquered barbarian societies . It is entirely possible , as Western scholars like di Cosmo and Lattimore suggest , that nomadic aggression against the Chinese in the coming centuries was partly caused by Chinese expansionism during this period ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Explanation"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "4",
+      "task_id": "95a0893567c7519c090ecbcdd14daccd<::>4",
+      "question": "What is Qin Shi Huang known for?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "what is the great wall of China built out of"
+        },
+        {
+          "role": "assistant",
+          "content": "The Great Wall of China was built using various materials over different periods. Originally, it was mainly constructed from rammed earth, stones, and wood. During the Ming Dynasty (1368--1644), bricks became heavily used, along with materials such as tiles, lime, and stone. The bricks were easier to work with, could bear more weight, and endured better than rammed earth."
+        },
+        {
+          "role": "user",
+          "content": "How long is the Wall?"
+        },
+        {
+          "role": "assistant",
+          "content": "The frontier walls built by different dynasties have multiple courses. Collectively, they stretch from Dandong in the east to Lop Lake in the west, from present - day Sino - Russian border in the north to Qinghai in the south. The walls built by the Ming dynasty measure 8,850 km. Faced with the threat of the Göktürks from the north, the Qi built up to 3,000 li about 1,600 kilometers. The Xuan - Da portion of the Great Wall totaled about 850 kilometers of wall, with some sections being doubled - up with two lines of wall, some tripled or even quadrupled. Chancellor Wanyan Xiang convinced the emperor to build an extensive systems of walls, which consisted of a 700 kilometers outer wall from Heilongjiang to Mongolia and a 1,000 kilometers network of inner walls, north and northeast of Beijing. Together, they formed a roughly elliptical web of fortifications 1,400 kilometers in length."
+        },
+        {
+          "role": "user",
+          "content": "Who was the enemy?"
+        },
+        {
+          "role": "assistant",
+          "content": "Many scholars have operated under the belief that the Great Wall continually defended China 's border against the raids and invasions of the various nomadic groups of the Eurasian Steppe with an eye to expansion. Towards the end of the Ming, the Great Wall helped defend the empire against the Manchu invasions that began around 1600. The usefulness of the Great Wall as a defense line against northern nomads became questionable under the Qing dynasty, since China proper, Manchuria, and Mongolia were all under Qing control. So instead, the Great Wall became the means to limit Han Chinese movement into the steppes. Rather than being defensive, the walls indicate the northward expansions of the three northern states and their desire to safeguard their recent territorial acquisitions."
+        }
+      ],
+      "retrieval": {
+        "query": "What is Qin Shi Huang known for?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "827357703_30805-31336-0-530",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Chinese Buddhism During the Ming Dynasty , Hanshan Deqing was one of the great reformers of Chinese Buddhism . Like many of his contemporaries , he advocated the dual practice of the Chán and Pure Land methods , and advocated the use of the nianfo ( `` Mindfulness of the Buddha '' ) technique to purify the mind for the attainment of self - realization . He also directed practitioners in the use of mantras as well as scripture reading . He was also renowned as a lecturer and commentator , and admired for his strict adherence to the precepts .",
+            "title": "Chinese Buddhism"
+          },
+          {
+            "rank": 2,
+            "doc_id": "827357703_34669-34961-0-292",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Chinese Buddhism Master Sheng Yen ( 1930 -- 2009 ) was the founder of the Dharma Drum Mountain , a Buddhist organization based in Taiwan . During his time in Taiwan , Sheng Yen was well known as one of the progressive Buddhist teachers who sought to teach Buddhism in a modern and Western - influenced world .",
+            "title": "Chinese Buddhism"
+          },
+          {
+            "rank": 3,
+            "doc_id": "828863731_1434-1720-0-286",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Theatre of China The Tang Dynasty is sometimes known as `` The Age of 1000 Entertainments '' . During this era , Ming Huang formed an acting school known as The Pear Garden to produce a form of drama that was primarily musical . That is why actors are commonly called `` Children of the Pear Garden . ''",
+            "title": "Theatre of China"
+          },
+          {
+            "rank": 4,
+            "doc_id": "827357703_34962-35216-0-254",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Chinese Buddhism Master Wei Chueh was born in 1928 in Sichuan , mainland China , and ordained in Taiwan . In 1982 , he founded Lin Quan Temple in Taipei County and became known for his teaching on Ch'an practices by offering many lectures and seven - day Ch'an retreats .",
+            "title": "Chinese Buddhism"
+          },
+          {
+            "rank": 5,
+            "doc_id": "827357703_33218-33698-0-475",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Chinese Buddhism Under influence of the western culture , attempts were being made to revitalize Chinese Buddhism . Most notable were the Humanistic Buddhism of Taixu , and the revival of Chinese Chán by Hsu Yun . Hsu Yun is generally regarded as one of the most influential Buddhist teachers of the 19th and 20th centuries . Other influential teachers in the early 20th century included Pure land Buddhist Yin Guang ( 印 光 ) and artist Hong Yi . Layman Zhao Puchu worked much on the revival .",
+            "title": "Chinese Buddhism"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "827357703_30805-31336-0-530",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Chinese Buddhism During the Ming Dynasty , Hanshan Deqing was one of the great reformers of Chinese Buddhism . Like many of his contemporaries , he advocated the dual practice of the Chán and Pure Land methods , and advocated the use of the nianfo ( `` Mindfulness of the Buddha '' ) technique to purify the mind for the attainment of self - realization . He also directed practitioners in the use of mantras as well as scripture reading . He was also renowned as a lecturer and commentator , and admired for his strict adherence to the precepts .",
+            "title": "Chinese Buddhism"
+          },
+          {
+            "rank": 2,
+            "doc_id": "827357703_34669-34961-0-292",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Chinese Buddhism Master Sheng Yen ( 1930 -- 2009 ) was the founder of the Dharma Drum Mountain , a Buddhist organization based in Taiwan . During his time in Taiwan , Sheng Yen was well known as one of the progressive Buddhist teachers who sought to teach Buddhism in a modern and Western - influenced world .",
+            "title": "Chinese Buddhism"
+          },
+          {
+            "rank": 3,
+            "doc_id": "828863731_1434-1720-0-286",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Theatre of China The Tang Dynasty is sometimes known as `` The Age of 1000 Entertainments '' . During this era , Ming Huang formed an acting school known as The Pear Garden to produce a form of drama that was primarily musical . That is why actors are commonly called `` Children of the Pear Garden . ''",
+            "title": "Theatre of China"
+          },
+          {
+            "rank": 4,
+            "doc_id": "827357703_34962-35216-0-254",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Chinese Buddhism Master Wei Chueh was born in 1928 in Sichuan , mainland China , and ordained in Taiwan . In 1982 , he founded Lin Quan Temple in Taipei County and became known for his teaching on Ch'an practices by offering many lectures and seven - day Ch'an retreats .",
+            "title": "Chinese Buddhism"
+          },
+          {
+            "rank": 5,
+            "doc_id": "827357703_33218-33698-0-475",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Chinese Buddhism Under influence of the western culture , attempts were being made to revitalize Chinese Buddhism . Most notable were the Humanistic Buddhism of Taixu , and the revival of Chinese Chán by Hsu Yun . Hsu Yun is generally regarded as one of the most influential Buddhist teachers of the 19th and 20th centuries . Other influential teachers in the early 20th century included Pure land Buddhist Yin Guang ( 印 光 ) and artist Hong Yi . Layman Zhao Puchu worked much on the revival .",
+            "title": "Chinese Buddhism"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "He is also known for his role in unifying core China and establishing the first  dynasty of Imperial China.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "827357703_30805-31336-0-530",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Chinese Buddhism During the Ming Dynasty , Hanshan Deqing was one of the great reformers of Chinese Buddhism . Like many of his contemporaries , he advocated the dual practice of the Chán and Pure Land methods , and advocated the use of the nianfo ( `` Mindfulness of the Buddha '' ) technique to purify the mind for the attainment of self - realization . He also directed practitioners in the use of mantras as well as scripture reading . He was also renowned as a lecturer and commentator , and admired for his strict adherence to the precepts .",
+          "title": "Chinese Buddhism"
+        },
+        {
+          "rank": 2,
+          "doc_id": "827357703_34669-34961-0-292",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Chinese Buddhism Master Sheng Yen ( 1930 -- 2009 ) was the founder of the Dharma Drum Mountain , a Buddhist organization based in Taiwan . During his time in Taiwan , Sheng Yen was well known as one of the progressive Buddhist teachers who sought to teach Buddhism in a modern and Western - influenced world .",
+          "title": "Chinese Buddhism"
+        },
+        {
+          "rank": 3,
+          "doc_id": "828863731_1434-1720-0-286",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Theatre of China The Tang Dynasty is sometimes known as `` The Age of 1000 Entertainments '' . During this era , Ming Huang formed an acting school known as The Pear Garden to produce a form of drama that was primarily musical . That is why actors are commonly called `` Children of the Pear Garden . ''",
+          "title": "Theatre of China"
+        },
+        {
+          "rank": 4,
+          "doc_id": "827357703_34962-35216-0-254",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Chinese Buddhism Master Wei Chueh was born in 1928 in Sichuan , mainland China , and ordained in Taiwan . In 1982 , he founded Lin Quan Temple in Taipei County and became known for his teaching on Ch'an practices by offering many lectures and seven - day Ch'an retreats .",
+          "title": "Chinese Buddhism"
+        },
+        {
+          "rank": 5,
+          "doc_id": "827357703_33218-33698-0-475",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Chinese Buddhism Under influence of the western culture , attempts were being made to revitalize Chinese Buddhism . Most notable were the Humanistic Buddhism of Taixu , and the revival of Chinese Chán by Hsu Yun . Hsu Yun is generally regarded as one of the most influential Buddhist teachers of the 19th and 20th centuries . Other influential teachers in the early 20th century included Pure land Buddhist Yin Guang ( 印 光 ) and artist Hong Yi . Layman Zhao Puchu worked much on the revival .",
+          "title": "Chinese Buddhism"
+        }
+      ],
+      "reference": {
+        "answer": "In 221 BC , the state of Qin completed its conquest over the other Warring States and united China under Qin Shi Huang , the first emperor of China. Intending to impose centralized rule and prevent the resurgence of feudal lords , he ordered the destruction of the sections of the walls that divided his empire. Contrary to the building of the outer walls, which were built to stabilize the newly united China, the inner walls threatened the unity of the empire. In the north, the state of Wei and the Yiqu built walls to protect themselves from Qin aggression, but were still unable to stop Qin from eating into their territories. The settlement of the north continued up to Qin Shi Huang 's death in 210 BC.",
+        "evidence_ids": [
+          "801328598_16571-17855-0-1284",
+          "846282869_7770-9663-0-1893",
+          "801328598_20509-20945-0-436",
+          "801328598_13594-15082-0-1488",
+          "801328598_17856-18820-0-960"
+        ],
+        "evidence": [
+          {
+            "doc_id": "801328598_16571-17855-0-1284",
+            "text": "History of the Great Wall of China\nHistory of the Great Wall of China\nIn 221 BC , the state of Qin completed its conquest over the other Warring States and united China under Qin Shi Huang , the first emperor of China . These conquests , combined with the Legalist reforms started by Shang Yang in the 4th century BC , transformed China from a loose confederation of feudal states to an authoritarian empire . With the transformation , Qin became able to command a far greater assembly of labourers to be used in public works than the prior feudal kingdoms . Also , once unification was achieved , Qin found itself in possession of a large professional army with no more internal enemies to fight and thus had to find a new use for them . Soon after the conquests , in the year 215 BC , the emperor sent the famed general Meng Tian to the Ordos region to drive out the Xiongnu nomads settled there , who had risen from beyond the fallen marginal states along the northern frontier . Qin 's campaign against the Xiongnu was preemptive in nature , since there was no pressing nomadic menace to be faced at the time ; its aim was to annexe the ambiguous territories of the Ordos and to clearly define the Qin 's northern borders . Once the Xiongnu were chased away , Meng Tian introduced 30,000 settler families to colonize the newly conquered territories ."
+          },
+          {
+            "doc_id": "846282869_7770-9663-0-1893",
+            "text": "Great Wall of China\nGreat Wall of China\nKing Zheng of Qin conquered the last of his opponents and unified China as the First Emperor of the Qin dynasty ( `` Qin Shi Huang '' ) in 221 BC . Intending to impose centralized rule and prevent the resurgence of feudal lords , he ordered the destruction of the sections of the walls that divided his empire among the former states . To position the empire against the Xiongnu people from the north , however , he ordered the building of new walls to connect the remaining fortifications along the empire 's northern frontier . `` Build and move on '' was a central guiding principle in constructing the wall , implying that the Chinese were not erecting a permanently fixed border . Transporting the large quantity of materials required for construction was difficult , so builders always tried to use local resources . Stones from the mountains were used over mountain ranges , while rammed earth was used for construction in the plains . There are no surviving historical records indicating the exact length and course of the Qin walls . Most of the ancient walls have eroded away over the centuries , and very few sections remain today . The human cost of the construction is unknown , but it has been estimated by some authors that hundreds of thousands , if not up to a million , workers died building the Qin wall . Later , the Han , the Sui , and the Northern dynasties all repaired , rebuilt , or expanded sections of the Great Wall at great cost to defend themselves against northern invaders . The Tang and Song dynasties did not undertake any significant effort in the region . The Liao , Jin , and Yuan dynasties , who ruled Northern China throughout most of the 10th -- 13th centuries , constructed defensive walls in the 12th century but those were located much to the north of the Great Wall as we know it , within China 's province of Inner Mongolia and in Mongolia itself ."
+          },
+          {
+            "doc_id": "801328598_20509-20945-0-436",
+            "text": "History of the Great Wall of China\nHistory of the Great Wall of China\nThe settlement of the north continued up to Qin Shi Huang 's death in 210 BC , upon which Meng Tian was ordered to commit suicide in a succession conspiracy . Before killing himself , Meng Tian expressed regret for his walls : `` Beginning at Lintao and reaching to Liaodong , I built walls and dug moats for more than ten thousand li ; was it not inevitable that I broke the earth 's veins along the way ? This then was my offense . ''"
+          },
+          {
+            "doc_id": "801328598_13594-15082-0-1488",
+            "text": "History of the Great Wall of China\nHistory of the Great Wall of China\nQin was originally a state on the western fringe of the Chinese political sphere , but it grew into a formidable power in the later parts of the Warring States period when it aggressively expanded in all directions . In the north , the state of Wei and the Yiqu built walls to protect themselves from Qin aggression , but were still unable to stop Qin from eating into their territories . The Qin reformist Shang Yang forced the Wei out of their walled area west of the Yellow River in 340 BC , and King Huiwen of Qin ( r . 338 -- 311 BC ) took 25 Yiqu forts in a northern offensive . When King Huiwen died , his widow the Queen Dowager Xuan acted as regent because the succeeding sons were deemed too young to govern . During the reign of King Zhaoxiang ( r . 306 -- 251 BC ) , the queen dowager apparently entered illicit relations with the Yiqu king and gave birth to two of his sons , but later tricked and killed the Yiqu king . Following that coup , the Qin army marched into Yiqu territory at the queen dowager 's orders ; the Qin annihilated the Yiqu remnants and thus came to possess the Ordos region . At this point the Qin built a wall around their new territories to defend against the true nomads even further north , incorporating the Wei walls . As a result , an estimated total of 1,775 kilometres ( 1,103 mi ) of Qin walls ( including spurts ) extended from southern Gansu to the bank of the Yellow River in the Jungar Banner , close to the border with Zhao at the time ."
+          },
+          {
+            "doc_id": "801328598_17856-18820-0-960",
+            "text": "History of the Great Wall of China\nHistory of the Great Wall of China\nWall configurations were changed to reflect the new borders under the Qin . General Meng Tian erected walls beyond the northern loop of the Yellow River , effectively linking the border walls of Qin , Zhao , and Yan . Concurrent to the building of the frontier wall was the destruction of the walls within China that used to divide one warring state from another -- contrary to the outer walls , which were built to stabilize the newly united China , the inner walls threatened the unity of the empire . In the following year , 214 BC , Qin Shi Huang ordered new fortifications to be built along the Yellow River to the west of the Ordos while work continued in the north . This work was completed probably by 212 BC , signalled by Qin Shi Huang 's imperial tour of inspection and the construction of the Direct Road ( 直道 ) connecting the capital Xianyang with the Ordos . The result was a series of long walls running from Gansu to the seacoast in Manchuria ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Explanation"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "5",
+      "task_id": "95a0893567c7519c090ecbcdd14daccd<::>5",
+      "question": "What did Meng Tian do?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "what is the great wall of China built out of"
+        },
+        {
+          "role": "assistant",
+          "content": "The Great Wall of China was built using various materials over different periods. Originally, it was mainly constructed from rammed earth, stones, and wood. During the Ming Dynasty (1368--1644), bricks became heavily used, along with materials such as tiles, lime, and stone. The bricks were easier to work with, could bear more weight, and endured better than rammed earth."
+        },
+        {
+          "role": "user",
+          "content": "How long is the Wall?"
+        },
+        {
+          "role": "assistant",
+          "content": "The frontier walls built by different dynasties have multiple courses. Collectively, they stretch from Dandong in the east to Lop Lake in the west, from present - day Sino - Russian border in the north to Qinghai in the south. The walls built by the Ming dynasty measure 8,850 km. Faced with the threat of the Göktürks from the north, the Qi built up to 3,000 li about 1,600 kilometers. The Xuan - Da portion of the Great Wall totaled about 850 kilometers of wall, with some sections being doubled - up with two lines of wall, some tripled or even quadrupled. Chancellor Wanyan Xiang convinced the emperor to build an extensive systems of walls, which consisted of a 700 kilometers outer wall from Heilongjiang to Mongolia and a 1,000 kilometers network of inner walls, north and northeast of Beijing. Together, they formed a roughly elliptical web of fortifications 1,400 kilometers in length."
+        },
+        {
+          "role": "user",
+          "content": "Who was the enemy?"
+        },
+        {
+          "role": "assistant",
+          "content": "Many scholars have operated under the belief that the Great Wall continually defended China 's border against the raids and invasions of the various nomadic groups of the Eurasian Steppe with an eye to expansion. Towards the end of the Ming, the Great Wall helped defend the empire against the Manchu invasions that began around 1600. The usefulness of the Great Wall as a defense line against northern nomads became questionable under the Qing dynasty, since China proper, Manchuria, and Mongolia were all under Qing control. So instead, the Great Wall became the means to limit Han Chinese movement into the steppes. Rather than being defensive, the walls indicate the northward expansions of the three northern states and their desire to safeguard their recent territorial acquisitions."
+        },
+        {
+          "role": "user",
+          "content": "What is Qin Shi Huang known for?"
+        },
+        {
+          "role": "assistant",
+          "content": "In 221 BC , the state of Qin completed its conquest over the other Warring States and united China under Qin Shi Huang , the first emperor of China. Intending to impose centralized rule and prevent the resurgence of feudal lords , he ordered the destruction of the sections of the walls that divided his empire. Contrary to the building of the outer walls, which were built to stabilize the newly united China, the inner walls threatened the unity of the empire. In the north, the state of Wei and the Yiqu built walls to protect themselves from Qin aggression, but were still unable to stop Qin from eating into their territories. The settlement of the north continued up to Qin Shi Huang 's death in 210 BC."
+        }
+      ],
+      "retrieval": {
+        "query": "What did Meng Tian do?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "801328598_20509-20945-0-436",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of the Great Wall of China The settlement of the north continued up to Qin Shi Huang 's death in 210 BC , upon which Meng Tian was ordered to commit suicide in a succession conspiracy . Before killing himself , Meng Tian expressed regret for his walls : `` Beginning at Lintao and reaching to Liaodong , I built walls and dug moats for more than ten thousand li ; was it not inevitable that I broke the earth 's veins along the way ? This then was my offense . ''",
+            "title": "History of the Great Wall of China"
+          },
+          {
+            "rank": 2,
+            "doc_id": "811374371_21062-21621-0-559",
+            "score": null,
+            "score_type": "contriever",
+            "text": "End of the Han dynasty Only after Liu Bei 's defeat did Yuan Shao start implementing his plan to attack Cao Cao , but this time Tian Feng opposed his decision , saying that their opportunity had passed . Yuan Shao became annoyed with Tian Feng and had Tian imprisoned , after which he led his army south to attack Cao Cao . At the Battle of Boma , Yuan Shao 's general Yan Liang was slain by Guan Yu while another of Yuan 's generals , Wen Chou , was killed in action against Cao Cao 's forces . The morale of Yuan Shao 's army was greatly affected by the loss of the two generals .",
+            "title": "End of the Han dynasty"
+          },
+          {
+            "rank": 3,
+            "doc_id": "847310442_3800-4576-0-747",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Chinese food therapy Sun Simiao 's disciple Meng Shen ( 孟 诜 ; 孟 詵 ; 621 -- 713 ) compiled the first work entirely devoted to the therapeutic value of food : the Materia Dietetica ( 食疗 本草 ; 食療 本草 ; Shíliáo běncǎo ; `` food therapy materia medica '' ) . This work has not survived , but it was quoted in later texts -- like the 10th - century Japanese text Ishinpō -- and a fragment of it has been found among the Dunhuang manuscripts . Surviving excerpts show that Meng gave less importance to dietary prohibitions than Sun , and that he provided information on how to prepare foodstuffs rather than just describe their properties . The works of Sun Simiao and Meng Shen established the genre of materia dietetica and shaped its development in the following centuries .",
+            "title": "Chinese food therapy"
+          },
+          {
+            "rank": 4,
+            "doc_id": "801328598_16571-17855-0-1284",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of the Great Wall of China In 221 BC , the state of Qin completed its conquest over the other Warring States and united China under Qin Shi Huang , the first emperor of China . These conquests , combined with the Legalist reforms started by Shang Yang in the 4th century BC , transformed China from a loose confederation of feudal states to an authoritarian empire . With the transformation , Qin became able to command a far greater assembly of labourers to be used in public works than the prior feudal kingdoms . Also , once unification was achieved , Qin found itself in possession of a large professional army with no more internal enemies to fight and thus had to find a new use for them . Soon after the conquests , in the year 215 BC , the emperor sent the famed general Meng Tian to the Ordos region to drive out the Xiongnu nomads settled there , who had risen from beyond the fallen marginal states along the northern frontier . Qin 's campaign against the Xiongnu was preemptive in nature , since there was no pressing nomadic menace to be faced at the time ; its aim was to annexe the ambiguous territories of the Ordos and to clearly define the Qin 's northern borders . Once the Xiongnu were chased away , Meng Tian introduced 30,000 settler families to colonize the newly conquered territories .",
+            "title": "History of the Great Wall of China"
+          },
+          {
+            "rank": 5,
+            "doc_id": "801328598_20946-21419-0-473",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of the Great Wall of China Meng Tian 's settlements in the north were abandoned , and the Xiongnu nomads moved back into the Ordos Loop as the Qin empire became consumed by widespread rebellion due to public discontent . Owen Lattimore concluded that the whole project relied upon military power to enforce agriculture on a land more suited for herding , resulting in `` the anti-historical paradox of attempting two mutually exclusive forms of development simultaneously '' that was doomed to fail .",
+            "title": "History of the Great Wall of China"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "801328598_20509-20945-0-436",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of the Great Wall of China The settlement of the north continued up to Qin Shi Huang 's death in 210 BC , upon which Meng Tian was ordered to commit suicide in a succession conspiracy . Before killing himself , Meng Tian expressed regret for his walls : `` Beginning at Lintao and reaching to Liaodong , I built walls and dug moats for more than ten thousand li ; was it not inevitable that I broke the earth 's veins along the way ? This then was my offense . ''",
+            "title": "History of the Great Wall of China"
+          },
+          {
+            "rank": 2,
+            "doc_id": "811374371_21062-21621-0-559",
+            "score": null,
+            "score_type": "contriever",
+            "text": "End of the Han dynasty Only after Liu Bei 's defeat did Yuan Shao start implementing his plan to attack Cao Cao , but this time Tian Feng opposed his decision , saying that their opportunity had passed . Yuan Shao became annoyed with Tian Feng and had Tian imprisoned , after which he led his army south to attack Cao Cao . At the Battle of Boma , Yuan Shao 's general Yan Liang was slain by Guan Yu while another of Yuan 's generals , Wen Chou , was killed in action against Cao Cao 's forces . The morale of Yuan Shao 's army was greatly affected by the loss of the two generals .",
+            "title": "End of the Han dynasty"
+          },
+          {
+            "rank": 3,
+            "doc_id": "847310442_3800-4576-0-747",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Chinese food therapy Sun Simiao 's disciple Meng Shen ( 孟 诜 ; 孟 詵 ; 621 -- 713 ) compiled the first work entirely devoted to the therapeutic value of food : the Materia Dietetica ( 食疗 本草 ; 食療 本草 ; Shíliáo běncǎo ; `` food therapy materia medica '' ) . This work has not survived , but it was quoted in later texts -- like the 10th - century Japanese text Ishinpō -- and a fragment of it has been found among the Dunhuang manuscripts . Surviving excerpts show that Meng gave less importance to dietary prohibitions than Sun , and that he provided information on how to prepare foodstuffs rather than just describe their properties . The works of Sun Simiao and Meng Shen established the genre of materia dietetica and shaped its development in the following centuries .",
+            "title": "Chinese food therapy"
+          },
+          {
+            "rank": 4,
+            "doc_id": "801328598_16571-17855-0-1284",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of the Great Wall of China In 221 BC , the state of Qin completed its conquest over the other Warring States and united China under Qin Shi Huang , the first emperor of China . These conquests , combined with the Legalist reforms started by Shang Yang in the 4th century BC , transformed China from a loose confederation of feudal states to an authoritarian empire . With the transformation , Qin became able to command a far greater assembly of labourers to be used in public works than the prior feudal kingdoms . Also , once unification was achieved , Qin found itself in possession of a large professional army with no more internal enemies to fight and thus had to find a new use for them . Soon after the conquests , in the year 215 BC , the emperor sent the famed general Meng Tian to the Ordos region to drive out the Xiongnu nomads settled there , who had risen from beyond the fallen marginal states along the northern frontier . Qin 's campaign against the Xiongnu was preemptive in nature , since there was no pressing nomadic menace to be faced at the time ; its aim was to annexe the ambiguous territories of the Ordos and to clearly define the Qin 's northern borders . Once the Xiongnu were chased away , Meng Tian introduced 30,000 settler families to colonize the newly conquered territories .",
+            "title": "History of the Great Wall of China"
+          },
+          {
+            "rank": 5,
+            "doc_id": "801328598_20946-21419-0-473",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of the Great Wall of China Meng Tian 's settlements in the north were abandoned , and the Xiongnu nomads moved back into the Ordos Loop as the Qin empire became consumed by widespread rebellion due to public discontent . Owen Lattimore concluded that the whole project relied upon military power to enforce agriculture on a land more suited for herding , resulting in `` the anti-historical paradox of attempting two mutually exclusive forms of development simultaneously '' that was doomed to fail .",
+            "title": "History of the Great Wall of China"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Meng Tian was sent to the Ordos region to drive out the Xiongnu nomads settled there, who had risen from beyond the fallen marginal states along the northern frontier.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "801328598_20509-20945-0-436",
+          "score": null,
+          "score_type": "contriever",
+          "text": "History of the Great Wall of China The settlement of the north continued up to Qin Shi Huang 's death in 210 BC , upon which Meng Tian was ordered to commit suicide in a succession conspiracy . Before killing himself , Meng Tian expressed regret for his walls : `` Beginning at Lintao and reaching to Liaodong , I built walls and dug moats for more than ten thousand li ; was it not inevitable that I broke the earth 's veins along the way ? This then was my offense . ''",
+          "title": "History of the Great Wall of China"
+        },
+        {
+          "rank": 2,
+          "doc_id": "811374371_21062-21621-0-559",
+          "score": null,
+          "score_type": "contriever",
+          "text": "End of the Han dynasty Only after Liu Bei 's defeat did Yuan Shao start implementing his plan to attack Cao Cao , but this time Tian Feng opposed his decision , saying that their opportunity had passed . Yuan Shao became annoyed with Tian Feng and had Tian imprisoned , after which he led his army south to attack Cao Cao . At the Battle of Boma , Yuan Shao 's general Yan Liang was slain by Guan Yu while another of Yuan 's generals , Wen Chou , was killed in action against Cao Cao 's forces . The morale of Yuan Shao 's army was greatly affected by the loss of the two generals .",
+          "title": "End of the Han dynasty"
+        },
+        {
+          "rank": 3,
+          "doc_id": "847310442_3800-4576-0-747",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Chinese food therapy Sun Simiao 's disciple Meng Shen ( 孟 诜 ; 孟 詵 ; 621 -- 713 ) compiled the first work entirely devoted to the therapeutic value of food : the Materia Dietetica ( 食疗 本草 ; 食療 本草 ; Shíliáo běncǎo ; `` food therapy materia medica '' ) . This work has not survived , but it was quoted in later texts -- like the 10th - century Japanese text Ishinpō -- and a fragment of it has been found among the Dunhuang manuscripts . Surviving excerpts show that Meng gave less importance to dietary prohibitions than Sun , and that he provided information on how to prepare foodstuffs rather than just describe their properties . The works of Sun Simiao and Meng Shen established the genre of materia dietetica and shaped its development in the following centuries .",
+          "title": "Chinese food therapy"
+        },
+        {
+          "rank": 4,
+          "doc_id": "801328598_16571-17855-0-1284",
+          "score": null,
+          "score_type": "contriever",
+          "text": "History of the Great Wall of China In 221 BC , the state of Qin completed its conquest over the other Warring States and united China under Qin Shi Huang , the first emperor of China . These conquests , combined with the Legalist reforms started by Shang Yang in the 4th century BC , transformed China from a loose confederation of feudal states to an authoritarian empire . With the transformation , Qin became able to command a far greater assembly of labourers to be used in public works than the prior feudal kingdoms . Also , once unification was achieved , Qin found itself in possession of a large professional army with no more internal enemies to fight and thus had to find a new use for them . Soon after the conquests , in the year 215 BC , the emperor sent the famed general Meng Tian to the Ordos region to drive out the Xiongnu nomads settled there , who had risen from beyond the fallen marginal states along the northern frontier . Qin 's campaign against the Xiongnu was preemptive in nature , since there was no pressing nomadic menace to be faced at the time ; its aim was to annexe the ambiguous territories of the Ordos and to clearly define the Qin 's northern borders . Once the Xiongnu were chased away , Meng Tian introduced 30,000 settler families to colonize the newly conquered territories .",
+          "title": "History of the Great Wall of China"
+        },
+        {
+          "rank": 5,
+          "doc_id": "801328598_20946-21419-0-473",
+          "score": null,
+          "score_type": "contriever",
+          "text": "History of the Great Wall of China Meng Tian 's settlements in the north were abandoned , and the Xiongnu nomads moved back into the Ordos Loop as the Qin empire became consumed by widespread rebellion due to public discontent . Owen Lattimore concluded that the whole project relied upon military power to enforce agriculture on a land more suited for herding , resulting in `` the anti-historical paradox of attempting two mutually exclusive forms of development simultaneously '' that was doomed to fail .",
+          "title": "History of the Great Wall of China"
+        }
+      ],
+      "reference": {
+        "answer": "Meng Tian was a Chinese general and politician who served under Emperor Qin Shi Huang during the Qin Dynasty. He is best known for leading the northern expedition against the Xiongnu people. Meng Tian was responsible for building and extending the Great Wall of China along the empire's northern border. Meng Tian introduced 30,000 settler families to colonize the newly conquered territories. When Meng Tian's settlements in the north were abandoned, the Xiongnu nomads moved back into the Ordos Loop as the Qin empire became consumed by widespread rebellion. Upon Qin Shi Huang's death in 210 BC, Meng Tian was ordered to commit suicide in a succession conspiracy.",
+        "evidence_ids": [
+          "801328598_20509-20945-0-436",
+          "801328598_20946-21419-0-473",
+          "801328598_16571-17855-0-1284"
+        ],
+        "evidence": [
+          {
+            "doc_id": "801328598_20509-20945-0-436",
+            "text": "History of the Great Wall of China\nHistory of the Great Wall of China\nThe settlement of the north continued up to Qin Shi Huang 's death in 210 BC , upon which Meng Tian was ordered to commit suicide in a succession conspiracy . Before killing himself , Meng Tian expressed regret for his walls : `` Beginning at Lintao and reaching to Liaodong , I built walls and dug moats for more than ten thousand li ; was it not inevitable that I broke the earth 's veins along the way ? This then was my offense . ''"
+          },
+          {
+            "doc_id": "801328598_20946-21419-0-473",
+            "text": "History of the Great Wall of China\nHistory of the Great Wall of China\nMeng Tian 's settlements in the north were abandoned , and the Xiongnu nomads moved back into the Ordos Loop as the Qin empire became consumed by widespread rebellion due to public discontent . Owen Lattimore concluded that the whole project relied upon military power to enforce agriculture on a land more suited for herding , resulting in `` the anti-historical paradox of attempting two mutually exclusive forms of development simultaneously '' that was doomed to fail ."
+          },
+          {
+            "doc_id": "801328598_16571-17855-0-1284",
+            "text": "History of the Great Wall of China\nHistory of the Great Wall of China\nIn 221 BC , the state of Qin completed its conquest over the other Warring States and united China under Qin Shi Huang , the first emperor of China . These conquests , combined with the Legalist reforms started by Shang Yang in the 4th century BC , transformed China from a loose confederation of feudal states to an authoritarian empire . With the transformation , Qin became able to command a far greater assembly of labourers to be used in public works than the prior feudal kingdoms . Also , once unification was achieved , Qin found itself in possession of a large professional army with no more internal enemies to fight and thus had to find a new use for them . Soon after the conquests , in the year 215 BC , the emperor sent the famed general Meng Tian to the Ordos region to drive out the Xiongnu nomads settled there , who had risen from beyond the fallen marginal states along the northern frontier . Qin 's campaign against the Xiongnu was preemptive in nature , since there was no pressing nomadic menace to be faced at the time ; its aim was to annexe the ambiguous territories of the Ordos and to clearly define the Qin 's northern borders . Once the Xiongnu were chased away , Meng Tian introduced 30,000 settler families to colonize the newly conquered territories ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Explanation"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "6",
+      "task_id": "95a0893567c7519c090ecbcdd14daccd<::>6",
+      "question": "Is the Great Wall of China a tourist destination today?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "what is the great wall of China built out of"
+        },
+        {
+          "role": "assistant",
+          "content": "The Great Wall of China was built using various materials over different periods. Originally, it was mainly constructed from rammed earth, stones, and wood. During the Ming Dynasty (1368--1644), bricks became heavily used, along with materials such as tiles, lime, and stone. The bricks were easier to work with, could bear more weight, and endured better than rammed earth."
+        },
+        {
+          "role": "user",
+          "content": "How long is the Wall?"
+        },
+        {
+          "role": "assistant",
+          "content": "The frontier walls built by different dynasties have multiple courses. Collectively, they stretch from Dandong in the east to Lop Lake in the west, from present - day Sino - Russian border in the north to Qinghai in the south. The walls built by the Ming dynasty measure 8,850 km. Faced with the threat of the Göktürks from the north, the Qi built up to 3,000 li about 1,600 kilometers. The Xuan - Da portion of the Great Wall totaled about 850 kilometers of wall, with some sections being doubled - up with two lines of wall, some tripled or even quadrupled. Chancellor Wanyan Xiang convinced the emperor to build an extensive systems of walls, which consisted of a 700 kilometers outer wall from Heilongjiang to Mongolia and a 1,000 kilometers network of inner walls, north and northeast of Beijing. Together, they formed a roughly elliptical web of fortifications 1,400 kilometers in length."
+        },
+        {
+          "role": "user",
+          "content": "Who was the enemy?"
+        },
+        {
+          "role": "assistant",
+          "content": "Many scholars have operated under the belief that the Great Wall continually defended China 's border against the raids and invasions of the various nomadic groups of the Eurasian Steppe with an eye to expansion. Towards the end of the Ming, the Great Wall helped defend the empire against the Manchu invasions that began around 1600. The usefulness of the Great Wall as a defense line against northern nomads became questionable under the Qing dynasty, since China proper, Manchuria, and Mongolia were all under Qing control. So instead, the Great Wall became the means to limit Han Chinese movement into the steppes. Rather than being defensive, the walls indicate the northward expansions of the three northern states and their desire to safeguard their recent territorial acquisitions."
+        },
+        {
+          "role": "user",
+          "content": "What is Qin Shi Huang known for?"
+        },
+        {
+          "role": "assistant",
+          "content": "In 221 BC , the state of Qin completed its conquest over the other Warring States and united China under Qin Shi Huang , the first emperor of China. Intending to impose centralized rule and prevent the resurgence of feudal lords , he ordered the destruction of the sections of the walls that divided his empire. Contrary to the building of the outer walls, which were built to stabilize the newly united China, the inner walls threatened the unity of the empire. In the north, the state of Wei and the Yiqu built walls to protect themselves from Qin aggression, but were still unable to stop Qin from eating into their territories. The settlement of the north continued up to Qin Shi Huang 's death in 210 BC."
+        },
+        {
+          "role": "user",
+          "content": "What did Meng Tian do?"
+        },
+        {
+          "role": "assistant",
+          "content": "Meng Tian was a Chinese general and politician who served under Emperor Qin Shi Huang during the Qin Dynasty. He is best known for leading the northern expedition against the Xiongnu people. Meng Tian was responsible for building and extending the Great Wall of China along the empire's northern border. Meng Tian introduced 30,000 settler families to colonize the newly conquered territories. When Meng Tian's settlements in the north were abandoned, the Xiongnu nomads moved back into the Ordos Loop as the Qin empire became consumed by widespread rebellion. Upon Qin Shi Huang's death in 210 BC, Meng Tian was ordered to commit suicide in a succession conspiracy."
+        }
+      ],
+      "retrieval": {
+        "query": "Is the Great Wall of China a tourist destination today?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "846282869_15228-15651-0-423",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Great Wall of China When China opened its borders to foreign merchants and visitors after its defeat in the First and Second Opium Wars , the Great Wall became a main attraction for tourists . The travelogues of the later 19th century further enhanced the reputation and the mythology of the Great Wall , such that in the 20th century , a persistent misconception exists about the Great Wall of China being visible from the Moon or even Mars .",
+            "title": "Great Wall of China"
+          },
+          {
+            "rank": 2,
+            "doc_id": "846282869_17224-17916-0-692",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Great Wall of China The sections of the Great Wall around Beijing municipality are especially famous : they were frequently renovated and are regularly visited by tourists today . The Badaling Great Wall near Zhangjiakou is the most famous stretch of the Wall , for this is the first section to be opened to the public in the People 's Republic of China , as well as the showpiece stretch for foreign dignitaries . South of Badaling is the Juyong Pass ; when used by the Chinese to protect their land , this section of the wall had many guards to defend China 's capital Beijing . Made of stone and bricks from the hills , this portion of the Great Wall is 7.8 m ( 25 ft 7 in ) high and 5 m ( 16 ft 5 in ) wide .",
+            "title": "Great Wall of China"
+          },
+          {
+            "rank": 3,
+            "doc_id": "801328598_69061-69836-0-759",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of the Great Wall of China As China opened up in the 1980s , reformist leader Deng Xiaoping initiated the `` Love our China and restore our Great Wall '' campaign ( 爱 我 中华 , 修 我 长城 ) to repair and preserve the Great Wall . The Great Wall was designated as a UNESCO World Heritage Site in 1987 . However , while tourism boomed over the years , slipshod restoration methods have left sections of the Great Wall near Beijing `` looking like a Hollywood set '' in the words of the National Geographic News . The less prominent stretches of the Great Wall did not get as much attention . In 2002 the New York - based World Monuments Fund put the Great Wall on its list of the World 's 100 Most Endangered Sites . In 2003 the Chinese government began to enact laws to protect the Great Wall .",
+            "title": "History of the Great Wall of China"
+          },
+          {
+            "rank": 4,
+            "doc_id": "801328598_1731-2271-0-540",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of the Great Wall of China The Great Wall of China visible today largely dates from the Ming dynasty , as they rebuilt much of the wall in stone and brick , often extending its line through challenging terrain . Some sections remain in relatively good condition or have been renovated , while others have been damaged or destroyed for ideological reasons , deconstructed for their building materials , or lost due to the ravages of time . For long an object of fascination for foreigners , the wall is now a revered national symbol and a popular tourist destination .",
+            "title": "History of the Great Wall of China"
+          },
+          {
+            "rank": 5,
+            "doc_id": "801328598_68006-68590-0-584",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of the Great Wall of China In 1952 , the scholar - turned - bureaucrat Guo Moruo laid out the first modern proposal to repair the Great Wall . Five years later , the renovated Badaling became the first section to be opened to the public since the establishment of the PRC . The Badaling Great Wall has since become a staple stop for foreign dignitaries who come to China , beginning with Nepali prime minister Bishweshwar Prasad Koirala in 1960 , and most notably the American president Richard Nixon in his historic 1972 visit to China . To date , Badaling is still the most visited stretch of the Great Wall .",
+            "title": "History of the Great Wall of China"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "846282869_15228-15651-0-423",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Great Wall of China When China opened its borders to foreign merchants and visitors after its defeat in the First and Second Opium Wars , the Great Wall became a main attraction for tourists . The travelogues of the later 19th century further enhanced the reputation and the mythology of the Great Wall , such that in the 20th century , a persistent misconception exists about the Great Wall of China being visible from the Moon or even Mars .",
+            "title": "Great Wall of China"
+          },
+          {
+            "rank": 2,
+            "doc_id": "846282869_17224-17916-0-692",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Great Wall of China The sections of the Great Wall around Beijing municipality are especially famous : they were frequently renovated and are regularly visited by tourists today . The Badaling Great Wall near Zhangjiakou is the most famous stretch of the Wall , for this is the first section to be opened to the public in the People 's Republic of China , as well as the showpiece stretch for foreign dignitaries . South of Badaling is the Juyong Pass ; when used by the Chinese to protect their land , this section of the wall had many guards to defend China 's capital Beijing . Made of stone and bricks from the hills , this portion of the Great Wall is 7.8 m ( 25 ft 7 in ) high and 5 m ( 16 ft 5 in ) wide .",
+            "title": "Great Wall of China"
+          },
+          {
+            "rank": 3,
+            "doc_id": "801328598_69061-69836-0-759",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of the Great Wall of China As China opened up in the 1980s , reformist leader Deng Xiaoping initiated the `` Love our China and restore our Great Wall '' campaign ( 爱 我 中华 , 修 我 长城 ) to repair and preserve the Great Wall . The Great Wall was designated as a UNESCO World Heritage Site in 1987 . However , while tourism boomed over the years , slipshod restoration methods have left sections of the Great Wall near Beijing `` looking like a Hollywood set '' in the words of the National Geographic News . The less prominent stretches of the Great Wall did not get as much attention . In 2002 the New York - based World Monuments Fund put the Great Wall on its list of the World 's 100 Most Endangered Sites . In 2003 the Chinese government began to enact laws to protect the Great Wall .",
+            "title": "History of the Great Wall of China"
+          },
+          {
+            "rank": 4,
+            "doc_id": "801328598_1731-2271-0-540",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of the Great Wall of China The Great Wall of China visible today largely dates from the Ming dynasty , as they rebuilt much of the wall in stone and brick , often extending its line through challenging terrain . Some sections remain in relatively good condition or have been renovated , while others have been damaged or destroyed for ideological reasons , deconstructed for their building materials , or lost due to the ravages of time . For long an object of fascination for foreigners , the wall is now a revered national symbol and a popular tourist destination .",
+            "title": "History of the Great Wall of China"
+          },
+          {
+            "rank": 5,
+            "doc_id": "801328598_68006-68590-0-584",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of the Great Wall of China In 1952 , the scholar - turned - bureaucrat Guo Moruo laid out the first modern proposal to repair the Great Wall . Five years later , the renovated Badaling became the first section to be opened to the public since the establishment of the PRC . The Badaling Great Wall has since become a staple stop for foreign dignitaries who come to China , beginning with Nepali prime minister Bishweshwar Prasad Koirala in 1960 , and most notably the American president Richard Nixon in his historic 1972 visit to China . To date , Badaling is still the most visited stretch of the Great Wall .",
+            "title": "History of the Great Wall of China"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Assistant: The sections of the Great Wall around Beijing municipality are especially famous : they were frequently renovated and are regularly visited by tourists today .",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "846282869_15228-15651-0-423",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Great Wall of China When China opened its borders to foreign merchants and visitors after its defeat in the First and Second Opium Wars , the Great Wall became a main attraction for tourists . The travelogues of the later 19th century further enhanced the reputation and the mythology of the Great Wall , such that in the 20th century , a persistent misconception exists about the Great Wall of China being visible from the Moon or even Mars .",
+          "title": "Great Wall of China"
+        },
+        {
+          "rank": 2,
+          "doc_id": "846282869_17224-17916-0-692",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Great Wall of China The sections of the Great Wall around Beijing municipality are especially famous : they were frequently renovated and are regularly visited by tourists today . The Badaling Great Wall near Zhangjiakou is the most famous stretch of the Wall , for this is the first section to be opened to the public in the People 's Republic of China , as well as the showpiece stretch for foreign dignitaries . South of Badaling is the Juyong Pass ; when used by the Chinese to protect their land , this section of the wall had many guards to defend China 's capital Beijing . Made of stone and bricks from the hills , this portion of the Great Wall is 7.8 m ( 25 ft 7 in ) high and 5 m ( 16 ft 5 in ) wide .",
+          "title": "Great Wall of China"
+        },
+        {
+          "rank": 3,
+          "doc_id": "801328598_69061-69836-0-759",
+          "score": null,
+          "score_type": "contriever",
+          "text": "History of the Great Wall of China As China opened up in the 1980s , reformist leader Deng Xiaoping initiated the `` Love our China and restore our Great Wall '' campaign ( 爱 我 中华 , 修 我 长城 ) to repair and preserve the Great Wall . The Great Wall was designated as a UNESCO World Heritage Site in 1987 . However , while tourism boomed over the years , slipshod restoration methods have left sections of the Great Wall near Beijing `` looking like a Hollywood set '' in the words of the National Geographic News . The less prominent stretches of the Great Wall did not get as much attention . In 2002 the New York - based World Monuments Fund put the Great Wall on its list of the World 's 100 Most Endangered Sites . In 2003 the Chinese government began to enact laws to protect the Great Wall .",
+          "title": "History of the Great Wall of China"
+        },
+        {
+          "rank": 4,
+          "doc_id": "801328598_1731-2271-0-540",
+          "score": null,
+          "score_type": "contriever",
+          "text": "History of the Great Wall of China The Great Wall of China visible today largely dates from the Ming dynasty , as they rebuilt much of the wall in stone and brick , often extending its line through challenging terrain . Some sections remain in relatively good condition or have been renovated , while others have been damaged or destroyed for ideological reasons , deconstructed for their building materials , or lost due to the ravages of time . For long an object of fascination for foreigners , the wall is now a revered national symbol and a popular tourist destination .",
+          "title": "History of the Great Wall of China"
+        },
+        {
+          "rank": 5,
+          "doc_id": "801328598_68006-68590-0-584",
+          "score": null,
+          "score_type": "contriever",
+          "text": "History of the Great Wall of China In 1952 , the scholar - turned - bureaucrat Guo Moruo laid out the first modern proposal to repair the Great Wall . Five years later , the renovated Badaling became the first section to be opened to the public since the establishment of the PRC . The Badaling Great Wall has since become a staple stop for foreign dignitaries who come to China , beginning with Nepali prime minister Bishweshwar Prasad Koirala in 1960 , and most notably the American president Richard Nixon in his historic 1972 visit to China . To date , Badaling is still the most visited stretch of the Great Wall .",
+          "title": "History of the Great Wall of China"
+        }
+      ],
+      "reference": {
+        "answer": "When China opened its borders to foreign merchants and visitors after its defeat in the First and Second Opium Wars, the Great Wall became a main attraction for tourists. The sections of the Great Wall around Beijing municipality are especially famous: they were frequently renovated and are regularly visited by tourists today. In 1952, the scholar - turned - bureaucrat Guo Moruo laid out the first modern proposal to repair the Great Wall. Five years later, the renovated Badaling became the first section to be opened to the public since the establishment of the PRC. The Badaling Great Wall has since become a staple stop for foreign dignitaries.",
+        "evidence_ids": [
+          "846282869_15228-15651-0-423",
+          "846282869_17224-17916-0-692",
+          "801328598_68006-68590-0-584"
+        ],
+        "evidence": [
+          {
+            "doc_id": "846282869_15228-15651-0-423",
+            "text": "Great Wall of China\nGreat Wall of China\nWhen China opened its borders to foreign merchants and visitors after its defeat in the First and Second Opium Wars , the Great Wall became a main attraction for tourists . The travelogues of the later 19th century further enhanced the reputation and the mythology of the Great Wall , such that in the 20th century , a persistent misconception exists about the Great Wall of China being visible from the Moon or even Mars ."
+          },
+          {
+            "doc_id": "846282869_17224-17916-0-692",
+            "text": "Great Wall of China\nGreat Wall of China\nThe sections of the Great Wall around Beijing municipality are especially famous : they were frequently renovated and are regularly visited by tourists today . The Badaling Great Wall near Zhangjiakou is the most famous stretch of the Wall , for this is the first section to be opened to the public in the People 's Republic of China , as well as the showpiece stretch for foreign dignitaries . South of Badaling is the Juyong Pass ; when used by the Chinese to protect their land , this section of the wall had many guards to defend China 's capital Beijing . Made of stone and bricks from the hills , this portion of the Great Wall is 7.8 m ( 25 ft 7 in ) high and 5 m ( 16 ft 5 in ) wide ."
+          },
+          {
+            "doc_id": "801328598_68006-68590-0-584",
+            "text": "History of the Great Wall of China\nHistory of the Great Wall of China\nIn 1952 , the scholar - turned - bureaucrat Guo Moruo laid out the first modern proposal to repair the Great Wall . Five years later , the renovated Badaling became the first section to be opened to the public since the establishment of the PRC . The Badaling Great Wall has since become a staple stop for foreign dignitaries who come to China , beginning with Nepali prime minister Bishweshwar Prasad Koirala in 1960 , and most notably the American president Richard Nixon in his historic 1972 visit to China . To date , Badaling is still the most visited stretch of the Great Wall ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Explanation"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "7",
+      "task_id": "95a0893567c7519c090ecbcdd14daccd<::>7",
+      "question": "Is tourism growing in China.",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "what is the great wall of China built out of"
+        },
+        {
+          "role": "assistant",
+          "content": "The Great Wall of China was built using various materials over different periods. Originally, it was mainly constructed from rammed earth, stones, and wood. During the Ming Dynasty (1368--1644), bricks became heavily used, along with materials such as tiles, lime, and stone. The bricks were easier to work with, could bear more weight, and endured better than rammed earth."
+        },
+        {
+          "role": "user",
+          "content": "How long is the Wall?"
+        },
+        {
+          "role": "assistant",
+          "content": "The frontier walls built by different dynasties have multiple courses. Collectively, they stretch from Dandong in the east to Lop Lake in the west, from present - day Sino - Russian border in the north to Qinghai in the south. The walls built by the Ming dynasty measure 8,850 km. Faced with the threat of the Göktürks from the north, the Qi built up to 3,000 li about 1,600 kilometers. The Xuan - Da portion of the Great Wall totaled about 850 kilometers of wall, with some sections being doubled - up with two lines of wall, some tripled or even quadrupled. Chancellor Wanyan Xiang convinced the emperor to build an extensive systems of walls, which consisted of a 700 kilometers outer wall from Heilongjiang to Mongolia and a 1,000 kilometers network of inner walls, north and northeast of Beijing. Together, they formed a roughly elliptical web of fortifications 1,400 kilometers in length."
+        },
+        {
+          "role": "user",
+          "content": "Who was the enemy?"
+        },
+        {
+          "role": "assistant",
+          "content": "Many scholars have operated under the belief that the Great Wall continually defended China 's border against the raids and invasions of the various nomadic groups of the Eurasian Steppe with an eye to expansion. Towards the end of the Ming, the Great Wall helped defend the empire against the Manchu invasions that began around 1600. The usefulness of the Great Wall as a defense line against northern nomads became questionable under the Qing dynasty, since China proper, Manchuria, and Mongolia were all under Qing control. So instead, the Great Wall became the means to limit Han Chinese movement into the steppes. Rather than being defensive, the walls indicate the northward expansions of the three northern states and their desire to safeguard their recent territorial acquisitions."
+        },
+        {
+          "role": "user",
+          "content": "What is Qin Shi Huang known for?"
+        },
+        {
+          "role": "assistant",
+          "content": "In 221 BC , the state of Qin completed its conquest over the other Warring States and united China under Qin Shi Huang , the first emperor of China. Intending to impose centralized rule and prevent the resurgence of feudal lords , he ordered the destruction of the sections of the walls that divided his empire. Contrary to the building of the outer walls, which were built to stabilize the newly united China, the inner walls threatened the unity of the empire. In the north, the state of Wei and the Yiqu built walls to protect themselves from Qin aggression, but were still unable to stop Qin from eating into their territories. The settlement of the north continued up to Qin Shi Huang 's death in 210 BC."
+        },
+        {
+          "role": "user",
+          "content": "What did Meng Tian do?"
+        },
+        {
+          "role": "assistant",
+          "content": "Meng Tian was a Chinese general and politician who served under Emperor Qin Shi Huang during the Qin Dynasty. He is best known for leading the northern expedition against the Xiongnu people. Meng Tian was responsible for building and extending the Great Wall of China along the empire's northern border. Meng Tian introduced 30,000 settler families to colonize the newly conquered territories. When Meng Tian's settlements in the north were abandoned, the Xiongnu nomads moved back into the Ordos Loop as the Qin empire became consumed by widespread rebellion. Upon Qin Shi Huang's death in 210 BC, Meng Tian was ordered to commit suicide in a succession conspiracy."
+        },
+        {
+          "role": "user",
+          "content": "Is the Great Wall of China a tourist destination today?"
+        },
+        {
+          "role": "assistant",
+          "content": "When China opened its borders to foreign merchants and visitors after its defeat in the First and Second Opium Wars, the Great Wall became a main attraction for tourists. The sections of the Great Wall around Beijing municipality are especially famous: they were frequently renovated and are regularly visited by tourists today. In 1952, the scholar - turned - bureaucrat Guo Moruo laid out the first modern proposal to repair the Great Wall. Five years later, the renovated Badaling became the first section to be opened to the public since the establishment of the PRC. The Badaling Great Wall has since become a staple stop for foreign dignitaries."
+        }
+      ],
+      "retrieval": {
+        "query": "Is tourism growing in China.",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "804663387_71622-72133-0-511",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Philippines The travel and tourism sector is a major contributor to the economy , contributing 7.1 % to the Philippine GDP in 2013 and providing 1,226,500 jobs or 3.2 percent of total employment . 2,433,428 international visitors arrived from January to June 2014 up by 2.22 % in the same period in 2013 . South Korea , China , and Japan accounted for 58.78 % while the Americas accounted for 19.28 % and Europe 10.64 % . The Department of Tourism has responsibility for the management and promotion of the tourism sector .",
+            "title": "Philippines"
+          },
+          {
+            "rank": 2,
+            "doc_id": "843183793_40270-40901-0-631",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Lake District Tourism has now become the park 's major industry , with about 12 million visitors each year , mainly from the UK 's larger settlements , China , Japan , Spain , Germany and the US . Windermere Lake Steamers are Cumbria 's most popular charging tourist attraction with about 1.35 million paying customers each year , and the local economy is dependent upon tourists . The negative impact of tourism has been seen , however . Soil erosion , caused by walking , is now a significant problem , with millions of pounds being spent to protect overused paths . In 2006 , two tourist information centres in the National Park were closed .",
+            "title": "Lake District"
+          },
+          {
+            "rank": 3,
+            "doc_id": "846587463_57497-58637-0-1136",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India The World Travel & Tourism Council calculated that tourism generated ₹ 15.24 lakh crore ( US $230 billion ) or 9.4 % of the nation 's GDP in 2017 and supported 41.622 million jobs , 8 % of its total employment . The sector is predicted to grow at an annual rate of 6.9 % to ₹ 32.05 lakh crore ( US $480 billion ) by 2028 ( 9.9 % of GDP ) . Over 10 million foreign tourists arrived in India in 2017 compared to 8.89 million in 2016 , recording a growth of 15.6 % . India earned $21.07 billion in foreign exchange from tourism receipts in 2015 . International tourism to India has seen a steady growth from 2.37 million arrivals in 1997 to 8.03 million arrivals in 2015 . The United States is the largest source of international tourists to India , while European Union nations and Japan are other major sources of international tourists . Less than 10 % of international tourists visit the Taj Mahal , with the majority visiting other cultural , thematic and holiday circuits . Over 12 million Indian citizens take international trips each year for tourism , while domestic tourism within India adds about 740 million Indian travellers .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 4,
+            "doc_id": "807203428_14662-15590-0-928",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Modern history In China , urbanization increased as the population grew and as the division of labor grew more complex . Large urban centers , such as Nanjing and Beijing , also contributed to the growth of private industry . In particular , small - scale industries grew up , often specializing in paper , silk , cotton , and porcelain goods . For the most part , however , relatively small urban centers with markets proliferated around the country . Town markets mainly traded food , with some necessary manufactures such as pins or oil . Despite the xenophobia and intellectual introspection characteristic of the increasingly popular new school of neo-Confucianism , China under the early Ming dynasty was not isolated . Foreign trade and other contacts with the outside world , particularly Japan , increased considerably . Chinese merchants explored all of the Indian Ocean , reaching East Africa with the treasure voyages of Zheng He .",
+            "title": "Modern history"
+          },
+          {
+            "rank": 5,
+            "doc_id": "837288933_94663-95170-0-507",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Israel Tourism , especially religious tourism , is an important industry in Israel , with the country 's temperate climate , beaches , archaeological , other historical and biblical sites , and unique geography also drawing tourists . Israel 's security problems have taken their toll on the industry , but the number of incoming tourists is on the rebound . In 2017 , a record of 3.6 million tourists visited Israel , yielding a 25 percent growth since 2016 and contributed NIS 20 billion to the Israeli economy .",
+            "title": "Israel"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "804663387_71622-72133-0-511",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Philippines The travel and tourism sector is a major contributor to the economy , contributing 7.1 % to the Philippine GDP in 2013 and providing 1,226,500 jobs or 3.2 percent of total employment . 2,433,428 international visitors arrived from January to June 2014 up by 2.22 % in the same period in 2013 . South Korea , China , and Japan accounted for 58.78 % while the Americas accounted for 19.28 % and Europe 10.64 % . The Department of Tourism has responsibility for the management and promotion of the tourism sector .",
+            "title": "Philippines"
+          },
+          {
+            "rank": 2,
+            "doc_id": "843183793_40270-40901-0-631",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Lake District Tourism has now become the park 's major industry , with about 12 million visitors each year , mainly from the UK 's larger settlements , China , Japan , Spain , Germany and the US . Windermere Lake Steamers are Cumbria 's most popular charging tourist attraction with about 1.35 million paying customers each year , and the local economy is dependent upon tourists . The negative impact of tourism has been seen , however . Soil erosion , caused by walking , is now a significant problem , with millions of pounds being spent to protect overused paths . In 2006 , two tourist information centres in the National Park were closed .",
+            "title": "Lake District"
+          },
+          {
+            "rank": 3,
+            "doc_id": "846587463_57497-58637-0-1136",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Economy of India The World Travel & Tourism Council calculated that tourism generated ₹ 15.24 lakh crore ( US $230 billion ) or 9.4 % of the nation 's GDP in 2017 and supported 41.622 million jobs , 8 % of its total employment . The sector is predicted to grow at an annual rate of 6.9 % to ₹ 32.05 lakh crore ( US $480 billion ) by 2028 ( 9.9 % of GDP ) . Over 10 million foreign tourists arrived in India in 2017 compared to 8.89 million in 2016 , recording a growth of 15.6 % . India earned $21.07 billion in foreign exchange from tourism receipts in 2015 . International tourism to India has seen a steady growth from 2.37 million arrivals in 1997 to 8.03 million arrivals in 2015 . The United States is the largest source of international tourists to India , while European Union nations and Japan are other major sources of international tourists . Less than 10 % of international tourists visit the Taj Mahal , with the majority visiting other cultural , thematic and holiday circuits . Over 12 million Indian citizens take international trips each year for tourism , while domestic tourism within India adds about 740 million Indian travellers .",
+            "title": "Economy of India"
+          },
+          {
+            "rank": 4,
+            "doc_id": "807203428_14662-15590-0-928",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Modern history In China , urbanization increased as the population grew and as the division of labor grew more complex . Large urban centers , such as Nanjing and Beijing , also contributed to the growth of private industry . In particular , small - scale industries grew up , often specializing in paper , silk , cotton , and porcelain goods . For the most part , however , relatively small urban centers with markets proliferated around the country . Town markets mainly traded food , with some necessary manufactures such as pins or oil . Despite the xenophobia and intellectual introspection characteristic of the increasingly popular new school of neo-Confucianism , China under the early Ming dynasty was not isolated . Foreign trade and other contacts with the outside world , particularly Japan , increased considerably . Chinese merchants explored all of the Indian Ocean , reaching East Africa with the treasure voyages of Zheng He .",
+            "title": "Modern history"
+          },
+          {
+            "rank": 5,
+            "doc_id": "837288933_94663-95170-0-507",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Israel Tourism , especially religious tourism , is an important industry in Israel , with the country 's temperate climate , beaches , archaeological , other historical and biblical sites , and unique geography also drawing tourists . Israel 's security problems have taken their toll on the industry , but the number of incoming tourists is on the rebound . In 2017 , a record of 3.6 million tourists visited Israel , yielding a 25 percent growth since 2016 and contributed NIS 20 billion to the Israeli economy .",
+            "title": "Israel"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "According to the World Travel & Tourism Council, tourism in China has grown at an average rate of 10.9% per year from 2010 to 2016, and is expected to continue growing at a rate of 6.5% per year until 2026.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "804663387_71622-72133-0-511",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Philippines The travel and tourism sector is a major contributor to the economy , contributing 7.1 % to the Philippine GDP in 2013 and providing 1,226,500 jobs or 3.2 percent of total employment . 2,433,428 international visitors arrived from January to June 2014 up by 2.22 % in the same period in 2013 . South Korea , China , and Japan accounted for 58.78 % while the Americas accounted for 19.28 % and Europe 10.64 % . The Department of Tourism has responsibility for the management and promotion of the tourism sector .",
+          "title": "Philippines"
+        },
+        {
+          "rank": 2,
+          "doc_id": "843183793_40270-40901-0-631",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Lake District Tourism has now become the park 's major industry , with about 12 million visitors each year , mainly from the UK 's larger settlements , China , Japan , Spain , Germany and the US . Windermere Lake Steamers are Cumbria 's most popular charging tourist attraction with about 1.35 million paying customers each year , and the local economy is dependent upon tourists . The negative impact of tourism has been seen , however . Soil erosion , caused by walking , is now a significant problem , with millions of pounds being spent to protect overused paths . In 2006 , two tourist information centres in the National Park were closed .",
+          "title": "Lake District"
+        },
+        {
+          "rank": 3,
+          "doc_id": "846587463_57497-58637-0-1136",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Economy of India The World Travel & Tourism Council calculated that tourism generated ₹ 15.24 lakh crore ( US $230 billion ) or 9.4 % of the nation 's GDP in 2017 and supported 41.622 million jobs , 8 % of its total employment . The sector is predicted to grow at an annual rate of 6.9 % to ₹ 32.05 lakh crore ( US $480 billion ) by 2028 ( 9.9 % of GDP ) . Over 10 million foreign tourists arrived in India in 2017 compared to 8.89 million in 2016 , recording a growth of 15.6 % . India earned $21.07 billion in foreign exchange from tourism receipts in 2015 . International tourism to India has seen a steady growth from 2.37 million arrivals in 1997 to 8.03 million arrivals in 2015 . The United States is the largest source of international tourists to India , while European Union nations and Japan are other major sources of international tourists . Less than 10 % of international tourists visit the Taj Mahal , with the majority visiting other cultural , thematic and holiday circuits . Over 12 million Indian citizens take international trips each year for tourism , while domestic tourism within India adds about 740 million Indian travellers .",
+          "title": "Economy of India"
+        },
+        {
+          "rank": 4,
+          "doc_id": "807203428_14662-15590-0-928",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Modern history In China , urbanization increased as the population grew and as the division of labor grew more complex . Large urban centers , such as Nanjing and Beijing , also contributed to the growth of private industry . In particular , small - scale industries grew up , often specializing in paper , silk , cotton , and porcelain goods . For the most part , however , relatively small urban centers with markets proliferated around the country . Town markets mainly traded food , with some necessary manufactures such as pins or oil . Despite the xenophobia and intellectual introspection characteristic of the increasingly popular new school of neo-Confucianism , China under the early Ming dynasty was not isolated . Foreign trade and other contacts with the outside world , particularly Japan , increased considerably . Chinese merchants explored all of the Indian Ocean , reaching East Africa with the treasure voyages of Zheng He .",
+          "title": "Modern history"
+        },
+        {
+          "rank": 5,
+          "doc_id": "837288933_94663-95170-0-507",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Israel Tourism , especially religious tourism , is an important industry in Israel , with the country 's temperate climate , beaches , archaeological , other historical and biblical sites , and unique geography also drawing tourists . Israel 's security problems have taken their toll on the industry , but the number of incoming tourists is on the rebound . In 2017 , a record of 3.6 million tourists visited Israel , yielding a 25 percent growth since 2016 and contributed NIS 20 billion to the Israeli economy .",
+          "title": "Israel"
+        }
+      ],
+      "reference": {
+        "answer": "No documents found about tourism in China.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "UNANSWERABLE",
+        "question_type": [
+          "Explanation"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    }
+  ]
+}

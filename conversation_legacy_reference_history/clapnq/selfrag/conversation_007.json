@@ -1,0 +1,1659 @@
+{
+  "conversation_id": "3a07680acfb0f951fc3210a8c1a282c9",
+  "dataset": "clapnq",
+  "collection": "mt-rag-clapnq-elser-512-100-20240503",
+  "rag": "selfrag",
+  "num_turns": 8,
+  "turns": [
+    {
+      "turn_id": "1",
+      "task_id": "3a07680acfb0f951fc3210a8c1a282c9<::>1",
+      "question": "What are the categories of people for which it is especially important to get a flu vaccine? ",
+      "rag_history_before_turn": [],
+      "retrieval": {
+        "query": "What are the categories of people for which it is especially important to get a flu vaccine? ",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "854758282_12079-12511-0-432",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Chickenpox The varicella vaccine is recommended in many countries . Some countries require the varicella vaccination or an exemption before entering elementary school . A second dose is recommended five years after the initial immunization . A vaccinated person is likely to have a milder case of chickenpox if they become infected . Immunization within three days following household contact reduces infection rates and severity in children .",
+            "title": "Chickenpox"
+          },
+          {
+            "rank": 2,
+            "doc_id": "854758282_12512-13147-0-635",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Chickenpox It is part of the routine immunization schedule in the US . Some European countries include it as part of universal vaccinations in children , but not all countries provide the vaccine due to its cost . In the UK as of 2014 , the vaccine is only recommended in people who are particularly vulnerable to chickenpox . In populations that have not been immunized or if immunity is questionable , a clinician may order an enzyme immunoassay . An immunoassay measures the levels of antibodies against the virus that give immunity to a person . If the levels of antibodies are low ( low titer ) or questionable , reimmunization may be done .",
+            "title": "Chickenpox"
+          },
+          {
+            "rank": 3,
+            "doc_id": "843611882_38264-38626-0-362",
+            "score": null,
+            "score_type": "contriever",
+            "text": "World Health Organization In 2007 , the WHO organized work on pandemic influenza vaccine development through clinical trials in collaboration with many experts and health officials . A pandemic involving the H1N1 influenza virus was declared by the then Director - General Margaret Chan in April 2009 . Margret Chan declared in 2010 that the H1N1 has moved into the post-pandemic period .",
+            "title": "World Health Organization"
+          },
+          {
+            "rank": 4,
+            "doc_id": "855533381_55716-57147-0-1431",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Virus Vaccination is a cheap and effective way of preventing infections by viruses . Vaccines were used to prevent viral infections long before the discovery of the actual viruses . Their use has resulted in a dramatic decline in morbidity ( illness ) and mortality ( death ) associated with viral infections such as polio , measles , mumps and rubella . Smallpox infections have been eradicated . Vaccines are available to prevent over thirteen viral infections of humans , and more are used to prevent viral infections of animals . Vaccines can consist of live - attenuated or killed viruses , or viral proteins ( antigens ) . Live vaccines contain weakened forms of the virus , which do not cause the disease but , nonetheless , confer immunity . Such viruses are called attenuated . Live vaccines can be dangerous when given to people with a weak immunity ( who are described as immunocompromised ) , because in these people , the weakened virus can cause the original disease . Biotechnology and genetic engineering techniques are used to produce subunit vaccines . These vaccines use only the capsid proteins of the virus . Hepatitis B vaccine is an example of this type of vaccine . Subunit vaccines are safe for immunocompromised patients because they can not cause the disease . The yellow fever virus vaccine , a live - attenuated strain called 17D , is probably the safest and most effective vaccine ever generated . Antiviral",
+            "title": "Virus"
+          },
+          {
+            "rank": 5,
+            "doc_id": "854758282_2066-2772-0-706",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Chickenpox Since its introduction in 1995 , the varicella vaccine has resulted in a decrease in the number of cases and complications from the disease . It protects about 70 to 90 percent of people from disease with a greater benefit for severe disease . Routine immunization of children is recommended in many countries . Immunization within three days of exposure may improve outcomes in children . Treatment of those infected may include calamine lotion to help with itching , keeping the fingernails short to decrease injury from scratching , and the use of paracetamol ( acetaminophen ) to help with fevers . For those at increased risk of complications , antiviral medication such as aciclovir are recommended .",
+            "title": "Chickenpox"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "854758282_12079-12511-0-432",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Chickenpox The varicella vaccine is recommended in many countries . Some countries require the varicella vaccination or an exemption before entering elementary school . A second dose is recommended five years after the initial immunization . A vaccinated person is likely to have a milder case of chickenpox if they become infected . Immunization within three days following household contact reduces infection rates and severity in children .",
+            "title": "Chickenpox"
+          },
+          {
+            "rank": 2,
+            "doc_id": "854758282_12512-13147-0-635",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Chickenpox It is part of the routine immunization schedule in the US . Some European countries include it as part of universal vaccinations in children , but not all countries provide the vaccine due to its cost . In the UK as of 2014 , the vaccine is only recommended in people who are particularly vulnerable to chickenpox . In populations that have not been immunized or if immunity is questionable , a clinician may order an enzyme immunoassay . An immunoassay measures the levels of antibodies against the virus that give immunity to a person . If the levels of antibodies are low ( low titer ) or questionable , reimmunization may be done .",
+            "title": "Chickenpox"
+          },
+          {
+            "rank": 3,
+            "doc_id": "843611882_38264-38626-0-362",
+            "score": null,
+            "score_type": "contriever",
+            "text": "World Health Organization In 2007 , the WHO organized work on pandemic influenza vaccine development through clinical trials in collaboration with many experts and health officials . A pandemic involving the H1N1 influenza virus was declared by the then Director - General Margaret Chan in April 2009 . Margret Chan declared in 2010 that the H1N1 has moved into the post-pandemic period .",
+            "title": "World Health Organization"
+          },
+          {
+            "rank": 4,
+            "doc_id": "855533381_55716-57147-0-1431",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Virus Vaccination is a cheap and effective way of preventing infections by viruses . Vaccines were used to prevent viral infections long before the discovery of the actual viruses . Their use has resulted in a dramatic decline in morbidity ( illness ) and mortality ( death ) associated with viral infections such as polio , measles , mumps and rubella . Smallpox infections have been eradicated . Vaccines are available to prevent over thirteen viral infections of humans , and more are used to prevent viral infections of animals . Vaccines can consist of live - attenuated or killed viruses , or viral proteins ( antigens ) . Live vaccines contain weakened forms of the virus , which do not cause the disease but , nonetheless , confer immunity . Such viruses are called attenuated . Live vaccines can be dangerous when given to people with a weak immunity ( who are described as immunocompromised ) , because in these people , the weakened virus can cause the original disease . Biotechnology and genetic engineering techniques are used to produce subunit vaccines . These vaccines use only the capsid proteins of the virus . Hepatitis B vaccine is an example of this type of vaccine . Subunit vaccines are safe for immunocompromised patients because they can not cause the disease . The yellow fever virus vaccine , a live - attenuated strain called 17D , is probably the safest and most effective vaccine ever generated . Antiviral",
+            "title": "Virus"
+          },
+          {
+            "rank": 5,
+            "doc_id": "854758282_2066-2772-0-706",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Chickenpox Since its introduction in 1995 , the varicella vaccine has resulted in a decrease in the number of cases and complications from the disease . It protects about 70 to 90 percent of people from disease with a greater benefit for severe disease . Routine immunization of children is recommended in many countries . Immunization within three days of exposure may improve outcomes in children . Treatment of those infected may include calamine lotion to help with itching , keeping the fingernails short to decrease injury from scratching , and the use of paracetamol ( acetaminophen ) to help with fevers . For those at increased risk of complications , antiviral medication such as aciclovir are recommended .",
+            "title": "Chickenpox"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "It is especially important for people in these groups to get a flu vaccine to protect themselves and others in their communities.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "854758282_12079-12511-0-432",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Chickenpox The varicella vaccine is recommended in many countries . Some countries require the varicella vaccination or an exemption before entering elementary school . A second dose is recommended five years after the initial immunization . A vaccinated person is likely to have a milder case of chickenpox if they become infected . Immunization within three days following household contact reduces infection rates and severity in children .",
+          "title": "Chickenpox"
+        },
+        {
+          "rank": 2,
+          "doc_id": "854758282_12512-13147-0-635",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Chickenpox It is part of the routine immunization schedule in the US . Some European countries include it as part of universal vaccinations in children , but not all countries provide the vaccine due to its cost . In the UK as of 2014 , the vaccine is only recommended in people who are particularly vulnerable to chickenpox . In populations that have not been immunized or if immunity is questionable , a clinician may order an enzyme immunoassay . An immunoassay measures the levels of antibodies against the virus that give immunity to a person . If the levels of antibodies are low ( low titer ) or questionable , reimmunization may be done .",
+          "title": "Chickenpox"
+        },
+        {
+          "rank": 3,
+          "doc_id": "843611882_38264-38626-0-362",
+          "score": null,
+          "score_type": "contriever",
+          "text": "World Health Organization In 2007 , the WHO organized work on pandemic influenza vaccine development through clinical trials in collaboration with many experts and health officials . A pandemic involving the H1N1 influenza virus was declared by the then Director - General Margaret Chan in April 2009 . Margret Chan declared in 2010 that the H1N1 has moved into the post-pandemic period .",
+          "title": "World Health Organization"
+        },
+        {
+          "rank": 4,
+          "doc_id": "855533381_55716-57147-0-1431",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Virus Vaccination is a cheap and effective way of preventing infections by viruses . Vaccines were used to prevent viral infections long before the discovery of the actual viruses . Their use has resulted in a dramatic decline in morbidity ( illness ) and mortality ( death ) associated with viral infections such as polio , measles , mumps and rubella . Smallpox infections have been eradicated . Vaccines are available to prevent over thirteen viral infections of humans , and more are used to prevent viral infections of animals . Vaccines can consist of live - attenuated or killed viruses , or viral proteins ( antigens ) . Live vaccines contain weakened forms of the virus , which do not cause the disease but , nonetheless , confer immunity . Such viruses are called attenuated . Live vaccines can be dangerous when given to people with a weak immunity ( who are described as immunocompromised ) , because in these people , the weakened virus can cause the original disease . Biotechnology and genetic engineering techniques are used to produce subunit vaccines . These vaccines use only the capsid proteins of the virus . Hepatitis B vaccine is an example of this type of vaccine . Subunit vaccines are safe for immunocompromised patients because they can not cause the disease . The yellow fever virus vaccine , a live - attenuated strain called 17D , is probably the safest and most effective vaccine ever generated . Antiviral",
+          "title": "Virus"
+        },
+        {
+          "rank": 5,
+          "doc_id": "854758282_2066-2772-0-706",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Chickenpox Since its introduction in 1995 , the varicella vaccine has resulted in a decrease in the number of cases and complications from the disease . It protects about 70 to 90 percent of people from disease with a greater benefit for severe disease . Routine immunization of children is recommended in many countries . Immunization within three days of exposure may improve outcomes in children . Treatment of those infected may include calamine lotion to help with itching , keeping the fingernails short to decrease injury from scratching , and the use of paracetamol ( acetaminophen ) to help with fevers . For those at increased risk of complications , antiviral medication such as aciclovir are recommended .",
+          "title": "Chickenpox"
+        }
+      ],
+      "reference": {
+        "answer": "I do not have specific information about those categories of people that should get a flu vaccine. Nevertheless, vaccination is a cheap and effective way of preventing infections by viruses.  Their use has resulted in a dramatic decline in morbidity ( illness ) and mortality ( death ) associated with viral infections such as polio , measles , mumps and rubella . In fact, vaccines are available to prevent over thirteen viral infections of humans , and more are used to prevent viral infections of animals .                                            ",
+        "evidence_ids": [
+          "855533381_55716-57147-0-1431"
+        ],
+        "evidence": [
+          {
+            "doc_id": "855533381_55716-57147-0-1431",
+            "text": "Virus\nVirus\nVaccination is a cheap and effective way of preventing infections by viruses . Vaccines were used to prevent viral infections long before the discovery of the actual viruses . Their use has resulted in a dramatic decline in morbidity ( illness ) and mortality ( death ) associated with viral infections such as polio , measles , mumps and rubella . Smallpox infections have been eradicated . Vaccines are available to prevent over thirteen viral infections of humans , and more are used to prevent viral infections of animals . Vaccines can consist of live - attenuated or killed viruses , or viral proteins ( antigens ) . Live vaccines contain weakened forms of the virus , which do not cause the disease but , nonetheless , confer immunity . Such viruses are called attenuated . Live vaccines can be dangerous when given to people with a weak immunity ( who are described as immunocompromised ) , because in these people , the weakened virus can cause the original disease . Biotechnology and genetic engineering techniques are used to produce subunit vaccines . These vaccines use only the capsid proteins of the virus . Hepatitis B vaccine is an example of this type of vaccine . Subunit vaccines are safe for immunocompromised patients because they can not cause the disease . The yellow fever virus vaccine , a live - attenuated strain called 17D , is probably the safest and most effective vaccine ever generated . Antiviral"
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "PARTIAL",
+        "question_type": [
+          "Summarization"
+        ],
+        "multi_turn": [
+          "N/A"
+        ]
+      }
+    },
+    {
+      "turn_id": "2",
+      "task_id": "3a07680acfb0f951fc3210a8c1a282c9<::>2",
+      "question": "Can you tell me the greatest pandemics worldwide before  COVID in 2020?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "What are the categories of people for which it is especially important to get a flu vaccine? "
+        },
+        {
+          "role": "assistant",
+          "content": "I do not have specific information about those categories of people that should get a flu vaccine. Nevertheless, vaccination is a cheap and effective way of preventing infections by viruses.  Their use has resulted in a dramatic decline in morbidity ( illness ) and mortality ( death ) associated with viral infections such as polio , measles , mumps and rubella . In fact, vaccines are available to prevent over thirteen viral infections of humans , and more are used to prevent viral infections of animals .                                            "
+        }
+      ],
+      "retrieval": {
+        "query": "Can you tell me the greatest pandemics worldwide before  COVID in 2020?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "843611882_38627-39213-0-586",
+            "score": null,
+            "score_type": "contriever",
+            "text": "World Health Organization By the post-pandemic period critics claimed the WHO had exaggerated the danger , spreading `` fear and confusion '' rather than `` immediate information '' . Industry experts countered that the 2009 pandemic had led to `` unprecedented collaboration between global health authorities , scientists and manufacturers , resulting in the most comprehensive pandemic response ever undertaken , with a number of vaccines approved for use three months after the pandemic declaration . This response was only possible because of the extensive preparations undertaken during the last decade '' .",
+            "title": "World Health Organization"
+          },
+          {
+            "rank": 2,
+            "doc_id": "843611882_38264-38626-0-362",
+            "score": null,
+            "score_type": "contriever",
+            "text": "World Health Organization In 2007 , the WHO organized work on pandemic influenza vaccine development through clinical trials in collaboration with many experts and health officials . A pandemic involving the H1N1 influenza virus was declared by the then Director - General Margaret Chan in April 2009 . Margret Chan declared in 2010 that the H1N1 has moved into the post-pandemic period .",
+            "title": "World Health Organization"
+          },
+          {
+            "rank": 3,
+            "doc_id": "855533381_48345-48891-0-546",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Virus A pandemic is a worldwide epidemic . The 1918 flu pandemic , which lasted until 1919 , was a category 5 influenza pandemic caused by an unusually severe and deadly influenza A virus . The victims were often healthy young adults , in contrast to most influenza outbreaks , which predominantly affect juvenile , elderly , or otherwise - weakened patients . Older estimates say it killed 40 -- 50 million people , while more recent research suggests that it may have killed as many as 100 million people , or 5 % of the world 's population in 1918 .",
+            "title": "Virus"
+          },
+          {
+            "rank": 4,
+            "doc_id": "834145135_106373-106687-0-314",
+            "score": null,
+            "score_type": "contriever",
+            "text": "West African Ebola virus epidemic In May 2015 , Dr Margaret Chan indicated , `` demands on WHO were more than ten times greater than ever experienced in the almost 70 - year history of this Organization '' and on 23 March , she stated that `` the world remains woefully ill - prepared to respond to outbreaks that are both severe and sustained . ''",
+            "title": "West African Ebola virus epidemic"
+          },
+          {
+            "rank": 5,
+            "doc_id": "813042265_15691-17303-0-1609",
+            "score": null,
+            "score_type": "contriever",
+            "text": "CCR5 It is estimated that HIV - 1 entered the human population in Africa in the early 1900s , symptomatic infections were not reported until the 1980s . The HIV - 1 epidemic is therefore far too young to be the source of positive selection that drove the frequency of CCR5 Δ32 from zero to 10 % in 2000 years . In 1998 , Stephens et al. suggested that bubonic plague ( Yersinia pestis ) had exerted positive selective pressure on CCR5 Δ32 . This hypothesis was based on the timing and severity of the Black Death pandemic , which killed 30 % of the European population of all ages between 1346 and 1352 . After the Black Death , there were less severe , intermittent , epidemics . Individual cities experienced high mortality , but overall mortality in Europe was only a few percent . In 1655 - 1656 a second pandemic called the `` Great Plague '' killed 15 - 20 % of Europe 's population . Importantly , the plague epidemics were intermittent . Bubonic plague is a zoonotic disease , primarily infecting rodents and spread by fleas and only occasionally infecting humans . Human - to - human infection of bubonic plague does not occur , though it can occur in pneumonic plague , which infects the lungs . Only when the density of rodents is low are infected fleas forced to feed on alternative hosts such as humans , and under these circumstances a human epidemic may occur . Based on population genetic models , Galvani and Slatkin ( 2003 ) argue that the intermittent nature of plague epidemics did not generate a sufficiently strong selective force to drive the allele frequency of CCR5 Δ32 to 10 % in Europe .",
+            "title": "CCR5"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "843611882_38627-39213-0-586",
+            "score": null,
+            "score_type": "contriever",
+            "text": "World Health Organization By the post-pandemic period critics claimed the WHO had exaggerated the danger , spreading `` fear and confusion '' rather than `` immediate information '' . Industry experts countered that the 2009 pandemic had led to `` unprecedented collaboration between global health authorities , scientists and manufacturers , resulting in the most comprehensive pandemic response ever undertaken , with a number of vaccines approved for use three months after the pandemic declaration . This response was only possible because of the extensive preparations undertaken during the last decade '' .",
+            "title": "World Health Organization"
+          },
+          {
+            "rank": 2,
+            "doc_id": "843611882_38264-38626-0-362",
+            "score": null,
+            "score_type": "contriever",
+            "text": "World Health Organization In 2007 , the WHO organized work on pandemic influenza vaccine development through clinical trials in collaboration with many experts and health officials . A pandemic involving the H1N1 influenza virus was declared by the then Director - General Margaret Chan in April 2009 . Margret Chan declared in 2010 that the H1N1 has moved into the post-pandemic period .",
+            "title": "World Health Organization"
+          },
+          {
+            "rank": 3,
+            "doc_id": "855533381_48345-48891-0-546",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Virus A pandemic is a worldwide epidemic . The 1918 flu pandemic , which lasted until 1919 , was a category 5 influenza pandemic caused by an unusually severe and deadly influenza A virus . The victims were often healthy young adults , in contrast to most influenza outbreaks , which predominantly affect juvenile , elderly , or otherwise - weakened patients . Older estimates say it killed 40 -- 50 million people , while more recent research suggests that it may have killed as many as 100 million people , or 5 % of the world 's population in 1918 .",
+            "title": "Virus"
+          },
+          {
+            "rank": 4,
+            "doc_id": "834145135_106373-106687-0-314",
+            "score": null,
+            "score_type": "contriever",
+            "text": "West African Ebola virus epidemic In May 2015 , Dr Margaret Chan indicated , `` demands on WHO were more than ten times greater than ever experienced in the almost 70 - year history of this Organization '' and on 23 March , she stated that `` the world remains woefully ill - prepared to respond to outbreaks that are both severe and sustained . ''",
+            "title": "West African Ebola virus epidemic"
+          },
+          {
+            "rank": 5,
+            "doc_id": "813042265_15691-17303-0-1609",
+            "score": null,
+            "score_type": "contriever",
+            "text": "CCR5 It is estimated that HIV - 1 entered the human population in Africa in the early 1900s , symptomatic infections were not reported until the 1980s . The HIV - 1 epidemic is therefore far too young to be the source of positive selection that drove the frequency of CCR5 Δ32 from zero to 10 % in 2000 years . In 1998 , Stephens et al. suggested that bubonic plague ( Yersinia pestis ) had exerted positive selective pressure on CCR5 Δ32 . This hypothesis was based on the timing and severity of the Black Death pandemic , which killed 30 % of the European population of all ages between 1346 and 1352 . After the Black Death , there were less severe , intermittent , epidemics . Individual cities experienced high mortality , but overall mortality in Europe was only a few percent . In 1655 - 1656 a second pandemic called the `` Great Plague '' killed 15 - 20 % of Europe 's population . Importantly , the plague epidemics were intermittent . Bubonic plague is a zoonotic disease , primarily infecting rodents and spread by fleas and only occasionally infecting humans . Human - to - human infection of bubonic plague does not occur , though it can occur in pneumonic plague , which infects the lungs . Only when the density of rodents is low are infected fleas forced to feed on alternative hosts such as humans , and under these circumstances a human epidemic may occur . Based on population genetic models , Galvani and Slatkin ( 2003 ) argue that the intermittent nature of plague epidemics did not generate a sufficiently strong selective force to drive the allele frequency of CCR5 Δ32 to 10 % in Europe .",
+            "title": "CCR5"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "The 1918 flu pandemic was a category 5 influenza pandemic that lasted until 1919.It was caused by an unusually severe and deadly influenza A virus.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "843611882_38627-39213-0-586",
+          "score": null,
+          "score_type": "contriever",
+          "text": "World Health Organization By the post-pandemic period critics claimed the WHO had exaggerated the danger , spreading `` fear and confusion '' rather than `` immediate information '' . Industry experts countered that the 2009 pandemic had led to `` unprecedented collaboration between global health authorities , scientists and manufacturers , resulting in the most comprehensive pandemic response ever undertaken , with a number of vaccines approved for use three months after the pandemic declaration . This response was only possible because of the extensive preparations undertaken during the last decade '' .",
+          "title": "World Health Organization"
+        },
+        {
+          "rank": 2,
+          "doc_id": "843611882_38264-38626-0-362",
+          "score": null,
+          "score_type": "contriever",
+          "text": "World Health Organization In 2007 , the WHO organized work on pandemic influenza vaccine development through clinical trials in collaboration with many experts and health officials . A pandemic involving the H1N1 influenza virus was declared by the then Director - General Margaret Chan in April 2009 . Margret Chan declared in 2010 that the H1N1 has moved into the post-pandemic period .",
+          "title": "World Health Organization"
+        },
+        {
+          "rank": 3,
+          "doc_id": "855533381_48345-48891-0-546",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Virus A pandemic is a worldwide epidemic . The 1918 flu pandemic , which lasted until 1919 , was a category 5 influenza pandemic caused by an unusually severe and deadly influenza A virus . The victims were often healthy young adults , in contrast to most influenza outbreaks , which predominantly affect juvenile , elderly , or otherwise - weakened patients . Older estimates say it killed 40 -- 50 million people , while more recent research suggests that it may have killed as many as 100 million people , or 5 % of the world 's population in 1918 .",
+          "title": "Virus"
+        },
+        {
+          "rank": 4,
+          "doc_id": "834145135_106373-106687-0-314",
+          "score": null,
+          "score_type": "contriever",
+          "text": "West African Ebola virus epidemic In May 2015 , Dr Margaret Chan indicated , `` demands on WHO were more than ten times greater than ever experienced in the almost 70 - year history of this Organization '' and on 23 March , she stated that `` the world remains woefully ill - prepared to respond to outbreaks that are both severe and sustained . ''",
+          "title": "West African Ebola virus epidemic"
+        },
+        {
+          "rank": 5,
+          "doc_id": "813042265_15691-17303-0-1609",
+          "score": null,
+          "score_type": "contriever",
+          "text": "CCR5 It is estimated that HIV - 1 entered the human population in Africa in the early 1900s , symptomatic infections were not reported until the 1980s . The HIV - 1 epidemic is therefore far too young to be the source of positive selection that drove the frequency of CCR5 Δ32 from zero to 10 % in 2000 years . In 1998 , Stephens et al. suggested that bubonic plague ( Yersinia pestis ) had exerted positive selective pressure on CCR5 Δ32 . This hypothesis was based on the timing and severity of the Black Death pandemic , which killed 30 % of the European population of all ages between 1346 and 1352 . After the Black Death , there were less severe , intermittent , epidemics . Individual cities experienced high mortality , but overall mortality in Europe was only a few percent . In 1655 - 1656 a second pandemic called the `` Great Plague '' killed 15 - 20 % of Europe 's population . Importantly , the plague epidemics were intermittent . Bubonic plague is a zoonotic disease , primarily infecting rodents and spread by fleas and only occasionally infecting humans . Human - to - human infection of bubonic plague does not occur , though it can occur in pneumonic plague , which infects the lungs . Only when the density of rodents is low are infected fleas forced to feed on alternative hosts such as humans , and under these circumstances a human epidemic may occur . Based on population genetic models , Galvani and Slatkin ( 2003 ) argue that the intermittent nature of plague epidemics did not generate a sufficiently strong selective force to drive the allele frequency of CCR5 Δ32 to 10 % in Europe .",
+          "title": "CCR5"
+        }
+      ],
+      "reference": {
+        "answer": "Yes, a number of pandemics have affected the world before COVID. The 1918 flu pandemic , which lasted until 1919, was a category 5 influenza pandemic caused by an unusually severe and deadly influenza A virus . The victims were healthy young adults , in contrast to most influenza outbreaks , which predominantly affect juvenile , elderly , or otherwise - weakened patients . Older estimates say it killed 40 -- 50 million people , while more recent research suggests that it may have killed as many as 100 million people , or 5 % of the world 's population in 1918. The third bubonic plague pandemic, also known as the modern pandemic, spread the bubonic plague disease to port cities throughout the world in the second half of the 19th century and early 20th century via shipping routes . The bubonic plague affected people in Chinatown in San Francisco from 1900 - 1904, and the people of Oakland and east bay again from 1907 - 1909. In 1994, Zimbabwe suffered outbreaks of acute diseases like plague. In 2014, West African had the Ebola virus epidemic. In 2001 the Bubonic plague affected Zambia , India , Malawi , Algeria , China , Peru , and the Democratic Republic of the Congo .   2009 saw a pandemic involving the H1N1 influenza virus (swine flu). These are just some examples of other modern-day pandemics.               ",
+        "evidence_ids": [
+          "843611882_38264-38626-0-362",
+          "855533381_48345-48891-0-546",
+          "822116215_11603-12886-0-1283",
+          "822116215_12887-13311-0-424",
+          "819529415_89507-90159-0-652",
+          "834145135_104852-105568-0-716"
+        ],
+        "evidence": [
+          {
+            "doc_id": "843611882_38264-38626-0-362",
+            "text": "World Health Organization\nWorld Health Organization\nIn 2007 , the WHO organized work on pandemic influenza vaccine development through clinical trials in collaboration with many experts and health officials . A pandemic involving the H1N1 influenza virus was declared by the then Director - General Margaret Chan in April 2009 . Margret Chan declared in 2010 that the H1N1 has moved into the post-pandemic period ."
+          },
+          {
+            "doc_id": "855533381_48345-48891-0-546",
+            "text": "Virus\nVirus\nA pandemic is a worldwide epidemic . The 1918 flu pandemic , which lasted until 1919 , was a category 5 influenza pandemic caused by an unusually severe and deadly influenza A virus . The victims were often healthy young adults , in contrast to most influenza outbreaks , which predominantly affect juvenile , elderly , or otherwise - weakened patients . Older estimates say it killed 40 -- 50 million people , while more recent research suggests that it may have killed as many as 100 million people , or 5 % of the world 's population in 1918 ."
+          },
+          {
+            "doc_id": "822116215_11603-12886-0-1283",
+            "text": "Bubonic plague\nBubonic plague\nAlso known as the modern pandemic , the third pandemic spread the disease to port cities throughout the world in the second half of the 19th century and early 20th century via shipping routes . The plague inflicted people in Chinatown in San Francisco from 1900 - 1904 , and the people of Oakland and east bay again from 1907 - 1909 . During the outbreak from 1900 - 1904 in San Francisco is when authorities made permanent the Chinese Exclusion Act . This law was originally signed into existence by President Chester A. Arthur in 1882 . The Chinese Exclusion Act was supposed to last for ten years but was renewed in 1892 with the Geary Act and subsequently made permanent in 1902 during the outbreak of plague in Chinatown , San Francisco . The last major outbreak in the United States occurred in Los Angeles in 1924 , though the disease is still present in wild rodents , and can be passed to humans that come in contact with them . According to the World Health Organization , the pandemic was considered active until 1959 , when worldwide casualties dropped to 200 per year . In 1994 , a plague outbreak in five Indian states caused an estimated 700 infections ( including 52 deaths ) and triggered a large migration of Indians within India as they tried to avoid the plague ."
+          },
+          {
+            "doc_id": "822116215_12887-13311-0-424",
+            "text": "Bubonic plague\nBubonic plague\nFor over a decade since 2001 , Zambia , India , Malawi , Algeria , China , Peru , and the Democratic Republic of the Congo had the most plague cases with over 1,100 cases in the Democratic Republic of the Congo alone . From 1,000 to 2,000 cases are conservatively reported per year to the WHO . From 2012 and to 2017 and reflecting political unrest and poor hygienic conditions , Madagascar began to host regular epidemics ."
+          },
+          {
+            "doc_id": "819529415_89507-90159-0-652",
+            "text": "Zimbabwe\nZimbabwe\nZimbabwe suffered occasional outbreaks of acute diseases ( such as plague in 1994 ) . The gains on the national health were eroded by structural adjustment in the 1990s , the impact of the HIV / AIDS pandemic and the economic crisis since the year 2000 . In 2006 , Zimbabwe had one of the lowest life expectancies in the world according to UN figure -- 44 for men and 43 for women , down from 60 in 1990 , but recovered to 60 in 2015 . The rapid drop was ascribed mainly to the HIV / AIDS pandemic . Infant mortality rose from 6 % in the late 1990s to 12.3 % by 2004 . By 2016 HIV / AIDS prevalence had been reduced to 13.5 % compared to 40 % in 1998 ."
+          },
+          {
+            "doc_id": "834145135_104852-105568-0-716",
+            "text": "West African Ebola virus epidemic\nWest African Ebola virus epidemic\nIn July 2014 , the WHO convened an emergency meeting of health ministers from eleven countries and announced collaboration on a strategy to co-ordinate technical support to combat the epidemic . In August they published a roadmap to guide and coordinate the international response to the outbreak , aiming to stop ongoing Ebola transmission worldwide within 6 -- 9 months , and formally designated the outbreak as a Public Health Emergency of International Concern . This is a legal designation used only twice before ( for the 2009 H1N1 ( swine flu ) pandemic and the 2014 resurgence of polio ) that invokes legal measures on disease prevention , surveillance , control , and response , by 194 signatory countries ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid",
+          "Summarization"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "3",
+      "task_id": "3a07680acfb0f951fc3210a8c1a282c9<::>3",
+      "question": "What about HIV pandemic? did it kill many people?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "What are the categories of people for which it is especially important to get a flu vaccine? "
+        },
+        {
+          "role": "assistant",
+          "content": "I do not have specific information about those categories of people that should get a flu vaccine. Nevertheless, vaccination is a cheap and effective way of preventing infections by viruses.  Their use has resulted in a dramatic decline in morbidity ( illness ) and mortality ( death ) associated with viral infections such as polio , measles , mumps and rubella . In fact, vaccines are available to prevent over thirteen viral infections of humans , and more are used to prevent viral infections of animals .                                            "
+        },
+        {
+          "role": "user",
+          "content": "Can you tell me the greatest pandemics worldwide before  COVID in 2020?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, a number of pandemics have affected the world before COVID. The 1918 flu pandemic , which lasted until 1919, was a category 5 influenza pandemic caused by an unusually severe and deadly influenza A virus . The victims were healthy young adults , in contrast to most influenza outbreaks , which predominantly affect juvenile , elderly , or otherwise - weakened patients . Older estimates say it killed 40 -- 50 million people , while more recent research suggests that it may have killed as many as 100 million people , or 5 % of the world 's population in 1918. The third bubonic plague pandemic, also known as the modern pandemic, spread the bubonic plague disease to port cities throughout the world in the second half of the 19th century and early 20th century via shipping routes . The bubonic plague affected people in Chinatown in San Francisco from 1900 - 1904, and the people of Oakland and east bay again from 1907 - 1909. In 1994, Zimbabwe suffered outbreaks of acute diseases like plague. In 2014, West African had the Ebola virus epidemic. In 2001 the Bubonic plague affected Zambia , India , Malawi , Algeria , China , Peru , and the Democratic Republic of the Congo .   2009 saw a pandemic involving the H1N1 influenza virus (swine flu). These are just some examples of other modern-day pandemics.               "
+        }
+      ],
+      "retrieval": {
+        "query": "What about HIV pandemic? did it kill many people?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "855533381_48892-49455-0-563",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Virus Most researchers believe that HIV originated in sub-Saharan Africa during the 20th century ; it is now a pandemic , with an estimated 38.6 million people now living with the disease worldwide . The Joint United Nations Programme on HIV / AIDS ( UNAIDS ) and the World Health Organization ( WHO ) estimate that AIDS has killed more than 25 million people since it was first recognised on 5 June 1981 , making it one of the most destructive epidemics in recorded history . In 2007 there were 2.7 million new HIV infections and 2 million HIV - related deaths . Ebola",
+            "title": "Virus"
+          },
+          {
+            "rank": 2,
+            "doc_id": "855533381_48345-48891-0-546",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Virus A pandemic is a worldwide epidemic . The 1918 flu pandemic , which lasted until 1919 , was a category 5 influenza pandemic caused by an unusually severe and deadly influenza A virus . The victims were often healthy young adults , in contrast to most influenza outbreaks , which predominantly affect juvenile , elderly , or otherwise - weakened patients . Older estimates say it killed 40 -- 50 million people , while more recent research suggests that it may have killed as many as 100 million people , or 5 % of the world 's population in 1918 .",
+            "title": "Virus"
+          },
+          {
+            "rank": 3,
+            "doc_id": "843611882_36370-37068-0-698",
+            "score": null,
+            "score_type": "contriever",
+            "text": "World Health Organization In 2003 , the WHO denounced the Roman Curia 's health department 's opposition to the use of condoms , saying : `` These incorrect statements about condoms and HIV are dangerous when we are facing a global pandemic which has already killed more than 20 million people , and currently affects at least 42 million . '' As of 2009 , the Catholic Church remains opposed to increasing the use of contraception to combat HIV / AIDS . At the time , the World Health Assembly President , Guyana 's Health Minister Leslie Ramsammy , condemned Pope Benedict 's opposition to contraception , saying he was trying to `` create confusion '' and `` impede '' proven strategies in the battle against the disease .",
+            "title": "World Health Organization"
+          },
+          {
+            "rank": 4,
+            "doc_id": "813042265_15691-17303-0-1609",
+            "score": null,
+            "score_type": "contriever",
+            "text": "CCR5 It is estimated that HIV - 1 entered the human population in Africa in the early 1900s , symptomatic infections were not reported until the 1980s . The HIV - 1 epidemic is therefore far too young to be the source of positive selection that drove the frequency of CCR5 Δ32 from zero to 10 % in 2000 years . In 1998 , Stephens et al. suggested that bubonic plague ( Yersinia pestis ) had exerted positive selective pressure on CCR5 Δ32 . This hypothesis was based on the timing and severity of the Black Death pandemic , which killed 30 % of the European population of all ages between 1346 and 1352 . After the Black Death , there were less severe , intermittent , epidemics . Individual cities experienced high mortality , but overall mortality in Europe was only a few percent . In 1655 - 1656 a second pandemic called the `` Great Plague '' killed 15 - 20 % of Europe 's population . Importantly , the plague epidemics were intermittent . Bubonic plague is a zoonotic disease , primarily infecting rodents and spread by fleas and only occasionally infecting humans . Human - to - human infection of bubonic plague does not occur , though it can occur in pneumonic plague , which infects the lungs . Only when the density of rodents is low are infected fleas forced to feed on alternative hosts such as humans , and under these circumstances a human epidemic may occur . Based on population genetic models , Galvani and Slatkin ( 2003 ) argue that the intermittent nature of plague epidemics did not generate a sufficiently strong selective force to drive the allele frequency of CCR5 Δ32 to 10 % in Europe .",
+            "title": "CCR5"
+          },
+          {
+            "rank": 5,
+            "doc_id": "838463580_45054-45761-0-707",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Rwandan genocide Many of the survivors became infected with HIV from the HIV - infected men recruited by the genocidaires . During the conflict , Hutu extremists released hundreds of patients suffering from AIDS from hospitals , and formed them into `` rape squads . '' The intent was to infect and cause a `` slow , inexorable death '' for their future Tutsi rape victims . Tutsi women were also targeted with the intent of destroying their reproductive capabilities . Sexual mutilation sometimes occurred after the rape and included mutilation of the vagina with machetes , knives , sharpened sticks , boiling water , and acid . Men were also the victims of sexual violation , including public mutilation of the genitals .",
+            "title": "Rwandan genocide"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "855533381_48892-49455-0-563",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Virus Most researchers believe that HIV originated in sub-Saharan Africa during the 20th century ; it is now a pandemic , with an estimated 38.6 million people now living with the disease worldwide . The Joint United Nations Programme on HIV / AIDS ( UNAIDS ) and the World Health Organization ( WHO ) estimate that AIDS has killed more than 25 million people since it was first recognised on 5 June 1981 , making it one of the most destructive epidemics in recorded history . In 2007 there were 2.7 million new HIV infections and 2 million HIV - related deaths . Ebola",
+            "title": "Virus"
+          },
+          {
+            "rank": 2,
+            "doc_id": "855533381_48345-48891-0-546",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Virus A pandemic is a worldwide epidemic . The 1918 flu pandemic , which lasted until 1919 , was a category 5 influenza pandemic caused by an unusually severe and deadly influenza A virus . The victims were often healthy young adults , in contrast to most influenza outbreaks , which predominantly affect juvenile , elderly , or otherwise - weakened patients . Older estimates say it killed 40 -- 50 million people , while more recent research suggests that it may have killed as many as 100 million people , or 5 % of the world 's population in 1918 .",
+            "title": "Virus"
+          },
+          {
+            "rank": 3,
+            "doc_id": "843611882_36370-37068-0-698",
+            "score": null,
+            "score_type": "contriever",
+            "text": "World Health Organization In 2003 , the WHO denounced the Roman Curia 's health department 's opposition to the use of condoms , saying : `` These incorrect statements about condoms and HIV are dangerous when we are facing a global pandemic which has already killed more than 20 million people , and currently affects at least 42 million . '' As of 2009 , the Catholic Church remains opposed to increasing the use of contraception to combat HIV / AIDS . At the time , the World Health Assembly President , Guyana 's Health Minister Leslie Ramsammy , condemned Pope Benedict 's opposition to contraception , saying he was trying to `` create confusion '' and `` impede '' proven strategies in the battle against the disease .",
+            "title": "World Health Organization"
+          },
+          {
+            "rank": 4,
+            "doc_id": "813042265_15691-17303-0-1609",
+            "score": null,
+            "score_type": "contriever",
+            "text": "CCR5 It is estimated that HIV - 1 entered the human population in Africa in the early 1900s , symptomatic infections were not reported until the 1980s . The HIV - 1 epidemic is therefore far too young to be the source of positive selection that drove the frequency of CCR5 Δ32 from zero to 10 % in 2000 years . In 1998 , Stephens et al. suggested that bubonic plague ( Yersinia pestis ) had exerted positive selective pressure on CCR5 Δ32 . This hypothesis was based on the timing and severity of the Black Death pandemic , which killed 30 % of the European population of all ages between 1346 and 1352 . After the Black Death , there were less severe , intermittent , epidemics . Individual cities experienced high mortality , but overall mortality in Europe was only a few percent . In 1655 - 1656 a second pandemic called the `` Great Plague '' killed 15 - 20 % of Europe 's population . Importantly , the plague epidemics were intermittent . Bubonic plague is a zoonotic disease , primarily infecting rodents and spread by fleas and only occasionally infecting humans . Human - to - human infection of bubonic plague does not occur , though it can occur in pneumonic plague , which infects the lungs . Only when the density of rodents is low are infected fleas forced to feed on alternative hosts such as humans , and under these circumstances a human epidemic may occur . Based on population genetic models , Galvani and Slatkin ( 2003 ) argue that the intermittent nature of plague epidemics did not generate a sufficiently strong selective force to drive the allele frequency of CCR5 Δ32 to 10 % in Europe .",
+            "title": "CCR5"
+          },
+          {
+            "rank": 5,
+            "doc_id": "838463580_45054-45761-0-707",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Rwandan genocide Many of the survivors became infected with HIV from the HIV - infected men recruited by the genocidaires . During the conflict , Hutu extremists released hundreds of patients suffering from AIDS from hospitals , and formed them into `` rape squads . '' The intent was to infect and cause a `` slow , inexorable death '' for their future Tutsi rape victims . Tutsi women were also targeted with the intent of destroying their reproductive capabilities . Sexual mutilation sometimes occurred after the rape and included mutilation of the vagina with machetes , knives , sharpened sticks , boiling water , and acid . Men were also the victims of sexual violation , including public mutilation of the genitals .",
+            "title": "Rwandan genocide"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Yes, the HIV pandemic has killed many people.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "855533381_48892-49455-0-563",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Virus Most researchers believe that HIV originated in sub-Saharan Africa during the 20th century ; it is now a pandemic , with an estimated 38.6 million people now living with the disease worldwide . The Joint United Nations Programme on HIV / AIDS ( UNAIDS ) and the World Health Organization ( WHO ) estimate that AIDS has killed more than 25 million people since it was first recognised on 5 June 1981 , making it one of the most destructive epidemics in recorded history . In 2007 there were 2.7 million new HIV infections and 2 million HIV - related deaths . Ebola",
+          "title": "Virus"
+        },
+        {
+          "rank": 2,
+          "doc_id": "855533381_48345-48891-0-546",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Virus A pandemic is a worldwide epidemic . The 1918 flu pandemic , which lasted until 1919 , was a category 5 influenza pandemic caused by an unusually severe and deadly influenza A virus . The victims were often healthy young adults , in contrast to most influenza outbreaks , which predominantly affect juvenile , elderly , or otherwise - weakened patients . Older estimates say it killed 40 -- 50 million people , while more recent research suggests that it may have killed as many as 100 million people , or 5 % of the world 's population in 1918 .",
+          "title": "Virus"
+        },
+        {
+          "rank": 3,
+          "doc_id": "843611882_36370-37068-0-698",
+          "score": null,
+          "score_type": "contriever",
+          "text": "World Health Organization In 2003 , the WHO denounced the Roman Curia 's health department 's opposition to the use of condoms , saying : `` These incorrect statements about condoms and HIV are dangerous when we are facing a global pandemic which has already killed more than 20 million people , and currently affects at least 42 million . '' As of 2009 , the Catholic Church remains opposed to increasing the use of contraception to combat HIV / AIDS . At the time , the World Health Assembly President , Guyana 's Health Minister Leslie Ramsammy , condemned Pope Benedict 's opposition to contraception , saying he was trying to `` create confusion '' and `` impede '' proven strategies in the battle against the disease .",
+          "title": "World Health Organization"
+        },
+        {
+          "rank": 4,
+          "doc_id": "813042265_15691-17303-0-1609",
+          "score": null,
+          "score_type": "contriever",
+          "text": "CCR5 It is estimated that HIV - 1 entered the human population in Africa in the early 1900s , symptomatic infections were not reported until the 1980s . The HIV - 1 epidemic is therefore far too young to be the source of positive selection that drove the frequency of CCR5 Δ32 from zero to 10 % in 2000 years . In 1998 , Stephens et al. suggested that bubonic plague ( Yersinia pestis ) had exerted positive selective pressure on CCR5 Δ32 . This hypothesis was based on the timing and severity of the Black Death pandemic , which killed 30 % of the European population of all ages between 1346 and 1352 . After the Black Death , there were less severe , intermittent , epidemics . Individual cities experienced high mortality , but overall mortality in Europe was only a few percent . In 1655 - 1656 a second pandemic called the `` Great Plague '' killed 15 - 20 % of Europe 's population . Importantly , the plague epidemics were intermittent . Bubonic plague is a zoonotic disease , primarily infecting rodents and spread by fleas and only occasionally infecting humans . Human - to - human infection of bubonic plague does not occur , though it can occur in pneumonic plague , which infects the lungs . Only when the density of rodents is low are infected fleas forced to feed on alternative hosts such as humans , and under these circumstances a human epidemic may occur . Based on population genetic models , Galvani and Slatkin ( 2003 ) argue that the intermittent nature of plague epidemics did not generate a sufficiently strong selective force to drive the allele frequency of CCR5 Δ32 to 10 % in Europe .",
+          "title": "CCR5"
+        },
+        {
+          "rank": 5,
+          "doc_id": "838463580_45054-45761-0-707",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Rwandan genocide Many of the survivors became infected with HIV from the HIV - infected men recruited by the genocidaires . During the conflict , Hutu extremists released hundreds of patients suffering from AIDS from hospitals , and formed them into `` rape squads . '' The intent was to infect and cause a `` slow , inexorable death '' for their future Tutsi rape victims . Tutsi women were also targeted with the intent of destroying their reproductive capabilities . Sexual mutilation sometimes occurred after the rape and included mutilation of the vagina with machetes , knives , sharpened sticks , boiling water , and acid . Men were also the victims of sexual violation , including public mutilation of the genitals .",
+          "title": "Rwandan genocide"
+        }
+      ],
+      "reference": {
+        "answer": "Yes, the HIV pandemic has also had a significant global impact. Approximately 38.6 million people are living with HIV worldwide, and there have been around 25 million deaths caused by AIDS since it was first recognized on 5 June 1981 , making it one of the most destructive epidemics in recorded history . It is estimated that in  the Democratic Republic of the Congo  about 1.1 % of adults aged 15 -- 49 were living with HIV / AIDS .   According to the 2015 UNAIDS Report , South Africa has an estimated 7 million people living with HIV -- more than any other country in the world . A 2008 study revealed that HIV / AIDS infection in South Africa is distinctly divided along racial lines : 13.6 % of blacks are HIV - positive , whereas only 0.3 % of whites have the disease . Most deaths are experienced by economically active individuals , resulting in many AIDS orphans who in many cases depend on the state for care and financial support                                     ",
+        "evidence_ids": [
+          "855533381_48892-49455-0-563",
+          "866270473_67126-67283-0-157",
+          "842051688_78692-79265-0-573"
+        ],
+        "evidence": [
+          {
+            "doc_id": "855533381_48892-49455-0-563",
+            "text": "Virus\nVirus\nMost researchers believe that HIV originated in sub-Saharan Africa during the 20th century ; it is now a pandemic , with an estimated 38.6 million people now living with the disease worldwide . The Joint United Nations Programme on HIV / AIDS ( UNAIDS ) and the World Health Organization ( WHO ) estimate that AIDS has killed more than 25 million people since it was first recognised on 5 June 1981 , making it one of the most destructive epidemics in recorded history . In 2007 there were 2.7 million new HIV infections and 2 million HIV - related deaths . Ebola"
+          },
+          {
+            "doc_id": "866270473_67126-67283-0-157",
+            "text": "Democratic Republic of the Congo\nDemocratic Republic of the Congo\nIn 2012 , it was estimated that about 1.1 % of adults aged 15 -- 49 were living with HIV / AIDS . Malaria is also a problem . Yellow fever also affects DRC ."
+          },
+          {
+            "doc_id": "842051688_78692-79265-0-573",
+            "text": "South Africa\nSouth Africa\nAccording to the 2015 UNAIDS Report , South Africa has an estimated 7 million people living with HIV -- more than any other country in the world . A 2008 study revealed that HIV / AIDS infection in South Africa is distinctly divided along racial lines : 13.6 % of blacks are HIV - positive , whereas only 0.3 % of whites have the disease . Most deaths are experienced by economically active individuals , resulting in many AIDS orphans who in many cases depend on the state for care and financial support . It is estimated that there are 1,200,000 orphans in South Africa ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Composite",
+          "Factoid",
+          "Summarization"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "4",
+      "task_id": "3a07680acfb0f951fc3210a8c1a282c9<::>4",
+      "question": "How did  HIV originated and where did start the first cases?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "What are the categories of people for which it is especially important to get a flu vaccine? "
+        },
+        {
+          "role": "assistant",
+          "content": "I do not have specific information about those categories of people that should get a flu vaccine. Nevertheless, vaccination is a cheap and effective way of preventing infections by viruses.  Their use has resulted in a dramatic decline in morbidity ( illness ) and mortality ( death ) associated with viral infections such as polio , measles , mumps and rubella . In fact, vaccines are available to prevent over thirteen viral infections of humans , and more are used to prevent viral infections of animals .                                            "
+        },
+        {
+          "role": "user",
+          "content": "Can you tell me the greatest pandemics worldwide before  COVID in 2020?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, a number of pandemics have affected the world before COVID. The 1918 flu pandemic , which lasted until 1919, was a category 5 influenza pandemic caused by an unusually severe and deadly influenza A virus . The victims were healthy young adults , in contrast to most influenza outbreaks , which predominantly affect juvenile , elderly , or otherwise - weakened patients . Older estimates say it killed 40 -- 50 million people , while more recent research suggests that it may have killed as many as 100 million people , or 5 % of the world 's population in 1918. The third bubonic plague pandemic, also known as the modern pandemic, spread the bubonic plague disease to port cities throughout the world in the second half of the 19th century and early 20th century via shipping routes . The bubonic plague affected people in Chinatown in San Francisco from 1900 - 1904, and the people of Oakland and east bay again from 1907 - 1909. In 1994, Zimbabwe suffered outbreaks of acute diseases like plague. In 2014, West African had the Ebola virus epidemic. In 2001 the Bubonic plague affected Zambia , India , Malawi , Algeria , China , Peru , and the Democratic Republic of the Congo .   2009 saw a pandemic involving the H1N1 influenza virus (swine flu). These are just some examples of other modern-day pandemics.               "
+        },
+        {
+          "role": "user",
+          "content": "What about HIV pandemic? did it kill many people?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, the HIV pandemic has also had a significant global impact. Approximately 38.6 million people are living with HIV worldwide, and there have been around 25 million deaths caused by AIDS since it was first recognized on 5 June 1981 , making it one of the most destructive epidemics in recorded history . It is estimated that in  the Democratic Republic of the Congo  about 1.1 % of adults aged 15 -- 49 were living with HIV / AIDS .   According to the 2015 UNAIDS Report , South Africa has an estimated 7 million people living with HIV -- more than any other country in the world . A 2008 study revealed that HIV / AIDS infection in South Africa is distinctly divided along racial lines : 13.6 % of blacks are HIV - positive , whereas only 0.3 % of whites have the disease . Most deaths are experienced by economically active individuals , resulting in many AIDS orphans who in many cases depend on the state for care and financial support                                     "
+        }
+      ],
+      "retrieval": {
+        "query": "How did  HIV originated and where did start the first cases?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "855533381_48892-49455-0-563",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Virus Most researchers believe that HIV originated in sub-Saharan Africa during the 20th century ; it is now a pandemic , with an estimated 38.6 million people now living with the disease worldwide . The Joint United Nations Programme on HIV / AIDS ( UNAIDS ) and the World Health Organization ( WHO ) estimate that AIDS has killed more than 25 million people since it was first recognised on 5 June 1981 , making it one of the most destructive epidemics in recorded history . In 2007 there were 2.7 million new HIV infections and 2 million HIV - related deaths . Ebola",
+            "title": "Virus"
+          },
+          {
+            "rank": 2,
+            "doc_id": "836809496_58066-58887-0-821",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of West Africa AIDS was at first considered a disease of gay men and drug addicts , but in Africa it took off among the general population . As a result , those involved in the fight against HIV began to emphasize aspects such as preventing transmission from mother to child , or the relationship between HIV and poverty , inequality of the sexes , and so on , rather than emphasizing the need to prevent transmission by unsafe sexual practices or drug injection . This change in emphasis resulted in more funding , but was not effective in preventing a drastic rise in HIV prevalence . The global response to HIV and AIDS has improved considerably in recent years . Funding comes from many sources , the largest of which are the Global Fund to Fight AIDS , Tuberculosis and Malaria and the President 's Emergency Plan for AIDS Relief .",
+            "title": "History of West Africa"
+          },
+          {
+            "rank": 3,
+            "doc_id": "836809496_57770-58065-0-293",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of West Africa In the 1990s , AIDS became a significant problem for the region , particularly in Côte d'Ivoire , Liberia , and Nigeria . The onset of the HIV epidemic in the region began in 1985 with reported cases in Benin and Nigeri , and in nearby countries , such as Côte d'Ivoire , in subsequent years .",
+            "title": "History of West Africa"
+          },
+          {
+            "rank": 4,
+            "doc_id": "813042265_12741-13865-0-1122",
+            "score": null,
+            "score_type": "contriever",
+            "text": "CCR5 HIV - 1 was initially transmitted from chimpanzees ( Pan troglodytes ) to humans in the early 1900s in Southeast Cameroon , Africa , through exposure to infected blood and body fluids while butchering bushmeat . However , HIV - 1 was effectively absent from Europe until the late 1980s . Therefore , given the average age of roughly 1000 years for the CCR5 - Δ32 allele , it can be established that HIV - 1 did not exert selection pressure on the human population for long enough to achieve the current frequencies . Hence , other pathogens have been suggested agents of positive selection for CCR5 Δ32 . The first major one being bubonic plague ( Yersinia pestis ) , and later , smallpox ( Variola major ) . Other data suggest that the allele frequency resulted as a negative selection pressure as a result of pathogens that became more widespread during Roman expansion . The idea that negative selection played a role in its low frequency is also supported by experiments using knockout mice and Influenza A , which demonstrated that the presence of the CCR5 receptor is important for efficient response to a pathogen .",
+            "title": "CCR5"
+          },
+          {
+            "rank": 5,
+            "doc_id": "855533381_10785-11590-0-805",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Virus The second half of the 20th century was the golden age of virus discovery and most of the over 2,000 recognised species of animal , plant , and bacterial viruses were discovered during these years . In 1957 , equine arterivirus and the cause of Bovine virus diarrhoea ( a pestivirus ) were discovered . In 1963 , the hepatitis B virus was discovered by Baruch Blumberg , and in 1965 , Howard Temin described the first retrovirus . Reverse transcriptase , the enzyme that retroviruses use to make DNA copies of their RNA , was first described in 1970 , independently by Howard Martin Temin and David Baltimore . In 1983 Luc Montagnier 's team at the Pasteur Institute in France , first isolated the retrovirus now called HIV . In 1989 Michael Houghton 's team at Chiron Corporation discovered Hepatitis C .",
+            "title": "Virus"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "855533381_48892-49455-0-563",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Virus Most researchers believe that HIV originated in sub-Saharan Africa during the 20th century ; it is now a pandemic , with an estimated 38.6 million people now living with the disease worldwide . The Joint United Nations Programme on HIV / AIDS ( UNAIDS ) and the World Health Organization ( WHO ) estimate that AIDS has killed more than 25 million people since it was first recognised on 5 June 1981 , making it one of the most destructive epidemics in recorded history . In 2007 there were 2.7 million new HIV infections and 2 million HIV - related deaths . Ebola",
+            "title": "Virus"
+          },
+          {
+            "rank": 2,
+            "doc_id": "836809496_58066-58887-0-821",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of West Africa AIDS was at first considered a disease of gay men and drug addicts , but in Africa it took off among the general population . As a result , those involved in the fight against HIV began to emphasize aspects such as preventing transmission from mother to child , or the relationship between HIV and poverty , inequality of the sexes , and so on , rather than emphasizing the need to prevent transmission by unsafe sexual practices or drug injection . This change in emphasis resulted in more funding , but was not effective in preventing a drastic rise in HIV prevalence . The global response to HIV and AIDS has improved considerably in recent years . Funding comes from many sources , the largest of which are the Global Fund to Fight AIDS , Tuberculosis and Malaria and the President 's Emergency Plan for AIDS Relief .",
+            "title": "History of West Africa"
+          },
+          {
+            "rank": 3,
+            "doc_id": "836809496_57770-58065-0-293",
+            "score": null,
+            "score_type": "contriever",
+            "text": "History of West Africa In the 1990s , AIDS became a significant problem for the region , particularly in Côte d'Ivoire , Liberia , and Nigeria . The onset of the HIV epidemic in the region began in 1985 with reported cases in Benin and Nigeri , and in nearby countries , such as Côte d'Ivoire , in subsequent years .",
+            "title": "History of West Africa"
+          },
+          {
+            "rank": 4,
+            "doc_id": "813042265_12741-13865-0-1122",
+            "score": null,
+            "score_type": "contriever",
+            "text": "CCR5 HIV - 1 was initially transmitted from chimpanzees ( Pan troglodytes ) to humans in the early 1900s in Southeast Cameroon , Africa , through exposure to infected blood and body fluids while butchering bushmeat . However , HIV - 1 was effectively absent from Europe until the late 1980s . Therefore , given the average age of roughly 1000 years for the CCR5 - Δ32 allele , it can be established that HIV - 1 did not exert selection pressure on the human population for long enough to achieve the current frequencies . Hence , other pathogens have been suggested agents of positive selection for CCR5 Δ32 . The first major one being bubonic plague ( Yersinia pestis ) , and later , smallpox ( Variola major ) . Other data suggest that the allele frequency resulted as a negative selection pressure as a result of pathogens that became more widespread during Roman expansion . The idea that negative selection played a role in its low frequency is also supported by experiments using knockout mice and Influenza A , which demonstrated that the presence of the CCR5 receptor is important for efficient response to a pathogen .",
+            "title": "CCR5"
+          },
+          {
+            "rank": 5,
+            "doc_id": "855533381_10785-11590-0-805",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Virus The second half of the 20th century was the golden age of virus discovery and most of the over 2,000 recognised species of animal , plant , and bacterial viruses were discovered during these years . In 1957 , equine arterivirus and the cause of Bovine virus diarrhoea ( a pestivirus ) were discovered . In 1963 , the hepatitis B virus was discovered by Baruch Blumberg , and in 1965 , Howard Temin described the first retrovirus . Reverse transcriptase , the enzyme that retroviruses use to make DNA copies of their RNA , was first described in 1970 , independently by Howard Martin Temin and David Baltimore . In 1983 Luc Montagnier 's team at the Pasteur Institute in France , first isolated the retrovirus now called HIV . In 1989 Michael Houghton 's team at Chiron Corporation discovered Hepatitis C .",
+            "title": "Virus"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "HIV is believed to have originated in sub-Saharan Africa during the 20th century.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "855533381_48892-49455-0-563",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Virus Most researchers believe that HIV originated in sub-Saharan Africa during the 20th century ; it is now a pandemic , with an estimated 38.6 million people now living with the disease worldwide . The Joint United Nations Programme on HIV / AIDS ( UNAIDS ) and the World Health Organization ( WHO ) estimate that AIDS has killed more than 25 million people since it was first recognised on 5 June 1981 , making it one of the most destructive epidemics in recorded history . In 2007 there were 2.7 million new HIV infections and 2 million HIV - related deaths . Ebola",
+          "title": "Virus"
+        },
+        {
+          "rank": 2,
+          "doc_id": "836809496_58066-58887-0-821",
+          "score": null,
+          "score_type": "contriever",
+          "text": "History of West Africa AIDS was at first considered a disease of gay men and drug addicts , but in Africa it took off among the general population . As a result , those involved in the fight against HIV began to emphasize aspects such as preventing transmission from mother to child , or the relationship between HIV and poverty , inequality of the sexes , and so on , rather than emphasizing the need to prevent transmission by unsafe sexual practices or drug injection . This change in emphasis resulted in more funding , but was not effective in preventing a drastic rise in HIV prevalence . The global response to HIV and AIDS has improved considerably in recent years . Funding comes from many sources , the largest of which are the Global Fund to Fight AIDS , Tuberculosis and Malaria and the President 's Emergency Plan for AIDS Relief .",
+          "title": "History of West Africa"
+        },
+        {
+          "rank": 3,
+          "doc_id": "836809496_57770-58065-0-293",
+          "score": null,
+          "score_type": "contriever",
+          "text": "History of West Africa In the 1990s , AIDS became a significant problem for the region , particularly in Côte d'Ivoire , Liberia , and Nigeria . The onset of the HIV epidemic in the region began in 1985 with reported cases in Benin and Nigeri , and in nearby countries , such as Côte d'Ivoire , in subsequent years .",
+          "title": "History of West Africa"
+        },
+        {
+          "rank": 4,
+          "doc_id": "813042265_12741-13865-0-1122",
+          "score": null,
+          "score_type": "contriever",
+          "text": "CCR5 HIV - 1 was initially transmitted from chimpanzees ( Pan troglodytes ) to humans in the early 1900s in Southeast Cameroon , Africa , through exposure to infected blood and body fluids while butchering bushmeat . However , HIV - 1 was effectively absent from Europe until the late 1980s . Therefore , given the average age of roughly 1000 years for the CCR5 - Δ32 allele , it can be established that HIV - 1 did not exert selection pressure on the human population for long enough to achieve the current frequencies . Hence , other pathogens have been suggested agents of positive selection for CCR5 Δ32 . The first major one being bubonic plague ( Yersinia pestis ) , and later , smallpox ( Variola major ) . Other data suggest that the allele frequency resulted as a negative selection pressure as a result of pathogens that became more widespread during Roman expansion . The idea that negative selection played a role in its low frequency is also supported by experiments using knockout mice and Influenza A , which demonstrated that the presence of the CCR5 receptor is important for efficient response to a pathogen .",
+          "title": "CCR5"
+        },
+        {
+          "rank": 5,
+          "doc_id": "855533381_10785-11590-0-805",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Virus The second half of the 20th century was the golden age of virus discovery and most of the over 2,000 recognised species of animal , plant , and bacterial viruses were discovered during these years . In 1957 , equine arterivirus and the cause of Bovine virus diarrhoea ( a pestivirus ) were discovered . In 1963 , the hepatitis B virus was discovered by Baruch Blumberg , and in 1965 , Howard Temin described the first retrovirus . Reverse transcriptase , the enzyme that retroviruses use to make DNA copies of their RNA , was first described in 1970 , independently by Howard Martin Temin and David Baltimore . In 1983 Luc Montagnier 's team at the Pasteur Institute in France , first isolated the retrovirus now called HIV . In 1989 Michael Houghton 's team at Chiron Corporation discovered Hepatitis C .",
+          "title": "Virus"
+        }
+      ],
+      "reference": {
+        "answer": "The origin of HIV is still a matter of debate among scientists, but it is believed originated in sub-Saharan Africa (Southeast Cameroon) through exposure to infected blood and body fluids while butchering bushmeat during the 20th century , although  symptomatic infections were not reported until the 1980s. AIDS was at first considered a disease of gay men and drug addicts but then in Africa it took off among the general population . AIDS became a significant problem for the region , particularly in Côte d'Ivoire , Liberia , and Nigeria . The onset of the HIV epidemic in the region began in 1985 with reported cases in Benin and Nigeri , and in nearby countries, such as Côte d'Ivoire, in subsequent years .",
+        "evidence_ids": [
+          "855533381_48892-49455-0-563",
+          "813042265_12741-13865-0-1122",
+          "813042265_15691-17303-0-1609",
+          "836809496_58066-58887-0-821",
+          "842051688_79266-79850-0-584",
+          "836809496_57770-58065-0-293"
+        ],
+        "evidence": [
+          {
+            "doc_id": "855533381_48892-49455-0-563",
+            "text": "Virus\nVirus\nMost researchers believe that HIV originated in sub-Saharan Africa during the 20th century ; it is now a pandemic , with an estimated 38.6 million people now living with the disease worldwide . The Joint United Nations Programme on HIV / AIDS ( UNAIDS ) and the World Health Organization ( WHO ) estimate that AIDS has killed more than 25 million people since it was first recognised on 5 June 1981 , making it one of the most destructive epidemics in recorded history . In 2007 there were 2.7 million new HIV infections and 2 million HIV - related deaths . Ebola"
+          },
+          {
+            "doc_id": "813042265_12741-13865-0-1122",
+            "text": "CCR5\nCCR5\nHIV - 1 was initially transmitted from chimpanzees ( Pan troglodytes ) to humans in the early 1900s in Southeast Cameroon , Africa , through exposure to infected blood and body fluids while butchering bushmeat . However , HIV - 1 was effectively absent from Europe until the late 1980s . Therefore , given the average age of roughly 1000 years for the CCR5 - Δ32 allele , it can be established that HIV - 1 did not exert selection pressure on the human population for long enough to achieve the current frequencies . Hence , other pathogens have been suggested agents of positive selection for CCR5 Δ32 . The first major one being bubonic plague ( Yersinia pestis ) , and later , smallpox ( Variola major ) . Other data suggest that the allele frequency resulted as a negative selection pressure as a result of pathogens that became more widespread during Roman expansion . The idea that negative selection played a role in its low frequency is also supported by experiments using knockout mice and Influenza A , which demonstrated that the presence of the CCR5 receptor is important for efficient response to a pathogen ."
+          },
+          {
+            "doc_id": "813042265_15691-17303-0-1609",
+            "text": "CCR5\nCCR5\nIt is estimated that HIV - 1 entered the human population in Africa in the early 1900s , symptomatic infections were not reported until the 1980s . The HIV - 1 epidemic is therefore far too young to be the source of positive selection that drove the frequency of CCR5 Δ32 from zero to 10 % in 2000 years . In 1998 , Stephens et al. suggested that bubonic plague ( Yersinia pestis ) had exerted positive selective pressure on CCR5 Δ32 . This hypothesis was based on the timing and severity of the Black Death pandemic , which killed 30 % of the European population of all ages between 1346 and 1352 . After the Black Death , there were less severe , intermittent , epidemics . Individual cities experienced high mortality , but overall mortality in Europe was only a few percent . In 1655 - 1656 a second pandemic called the `` Great Plague '' killed 15 - 20 % of Europe 's population . Importantly , the plague epidemics were intermittent . Bubonic plague is a zoonotic disease , primarily infecting rodents and spread by fleas and only occasionally infecting humans . Human - to - human infection of bubonic plague does not occur , though it can occur in pneumonic plague , which infects the lungs . Only when the density of rodents is low are infected fleas forced to feed on alternative hosts such as humans , and under these circumstances a human epidemic may occur . Based on population genetic models , Galvani and Slatkin ( 2003 ) argue that the intermittent nature of plague epidemics did not generate a sufficiently strong selective force to drive the allele frequency of CCR5 Δ32 to 10 % in Europe ."
+          },
+          {
+            "doc_id": "836809496_58066-58887-0-821",
+            "text": "History of West Africa\nHistory of West Africa\nAIDS was at first considered a disease of gay men and drug addicts , but in Africa it took off among the general population . As a result , those involved in the fight against HIV began to emphasize aspects such as preventing transmission from mother to child , or the relationship between HIV and poverty , inequality of the sexes , and so on , rather than emphasizing the need to prevent transmission by unsafe sexual practices or drug injection . This change in emphasis resulted in more funding , but was not effective in preventing a drastic rise in HIV prevalence . The global response to HIV and AIDS has improved considerably in recent years . Funding comes from many sources , the largest of which are the Global Fund to Fight AIDS , Tuberculosis and Malaria and the President 's Emergency Plan for AIDS Relief ."
+          },
+          {
+            "doc_id": "842051688_79266-79850-0-584",
+            "text": "South Africa\nSouth Africa\nThe link between HIV , a virus spread primarily by sexual contact , and AIDS was long denied by prior president Thabo Mbeki and then health minister Manto Tshabalala - Msimang , who insisted that the many deaths in the country are due to malnutrition , and hence poverty , and not HIV . In 2007 , in response to international pressure , the government made efforts to fight AIDS . After the 2009 General Elections , President Jacob Zuma appointed Dr Aaron Motsoaledi as the new minister and committed his government to increasing funding for and widening the scope of AIDS treatment ."
+          },
+          {
+            "doc_id": "836809496_57770-58065-0-293",
+            "text": "History of West Africa\nHistory of West Africa\nIn the 1990s , AIDS became a significant problem for the region , particularly in Côte d'Ivoire , Liberia , and Nigeria . The onset of the HIV epidemic in the region began in 1985 with reported cases in Benin and Nigeri , and in nearby countries , such as Côte d'Ivoire , in subsequent years ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid",
+          "Summarization"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "5",
+      "task_id": "3a07680acfb0f951fc3210a8c1a282c9<::>5",
+      "question": "Is there a cure for HIV?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "What are the categories of people for which it is especially important to get a flu vaccine? "
+        },
+        {
+          "role": "assistant",
+          "content": "I do not have specific information about those categories of people that should get a flu vaccine. Nevertheless, vaccination is a cheap and effective way of preventing infections by viruses.  Their use has resulted in a dramatic decline in morbidity ( illness ) and mortality ( death ) associated with viral infections such as polio , measles , mumps and rubella . In fact, vaccines are available to prevent over thirteen viral infections of humans , and more are used to prevent viral infections of animals .                                            "
+        },
+        {
+          "role": "user",
+          "content": "Can you tell me the greatest pandemics worldwide before  COVID in 2020?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, a number of pandemics have affected the world before COVID. The 1918 flu pandemic , which lasted until 1919, was a category 5 influenza pandemic caused by an unusually severe and deadly influenza A virus . The victims were healthy young adults , in contrast to most influenza outbreaks , which predominantly affect juvenile , elderly , or otherwise - weakened patients . Older estimates say it killed 40 -- 50 million people , while more recent research suggests that it may have killed as many as 100 million people , or 5 % of the world 's population in 1918. The third bubonic plague pandemic, also known as the modern pandemic, spread the bubonic plague disease to port cities throughout the world in the second half of the 19th century and early 20th century via shipping routes . The bubonic plague affected people in Chinatown in San Francisco from 1900 - 1904, and the people of Oakland and east bay again from 1907 - 1909. In 1994, Zimbabwe suffered outbreaks of acute diseases like plague. In 2014, West African had the Ebola virus epidemic. In 2001 the Bubonic plague affected Zambia , India , Malawi , Algeria , China , Peru , and the Democratic Republic of the Congo .   2009 saw a pandemic involving the H1N1 influenza virus (swine flu). These are just some examples of other modern-day pandemics.               "
+        },
+        {
+          "role": "user",
+          "content": "What about HIV pandemic? did it kill many people?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, the HIV pandemic has also had a significant global impact. Approximately 38.6 million people are living with HIV worldwide, and there have been around 25 million deaths caused by AIDS since it was first recognized on 5 June 1981 , making it one of the most destructive epidemics in recorded history . It is estimated that in  the Democratic Republic of the Congo  about 1.1 % of adults aged 15 -- 49 were living with HIV / AIDS .   According to the 2015 UNAIDS Report , South Africa has an estimated 7 million people living with HIV -- more than any other country in the world . A 2008 study revealed that HIV / AIDS infection in South Africa is distinctly divided along racial lines : 13.6 % of blacks are HIV - positive , whereas only 0.3 % of whites have the disease . Most deaths are experienced by economically active individuals , resulting in many AIDS orphans who in many cases depend on the state for care and financial support                                     "
+        },
+        {
+          "role": "user",
+          "content": "How did  HIV originated and where did start the first cases?"
+        },
+        {
+          "role": "assistant",
+          "content": "The origin of HIV is still a matter of debate among scientists, but it is believed originated in sub-Saharan Africa (Southeast Cameroon) through exposure to infected blood and body fluids while butchering bushmeat during the 20th century , although  symptomatic infections were not reported until the 1980s. AIDS was at first considered a disease of gay men and drug addicts but then in Africa it took off among the general population . AIDS became a significant problem for the region , particularly in Côte d'Ivoire , Liberia , and Nigeria . The onset of the HIV epidemic in the region began in 1985 with reported cases in Benin and Nigeri , and in nearby countries, such as Côte d'Ivoire, in subsequent years ."
+        }
+      ],
+      "retrieval": {
+        "query": "Is there a cure for HIV?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "825171915_12749-13209-0-460",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Bone marrow Bone marrow stem cells can be induced to become neural cells to treat neurological illnesses , and can also potentially be used for the treatment of other illnesses , such as inflammatory bowel disease . In 2013 , following a clinical trial , scientists proposed that bone marrow transplantation could be used to treat HIV in conjunction with antiretroviral drugs ; however , it was later found that HIV remained in the bodies of the test subjects . Harvesting",
+            "title": "Bone marrow"
+          },
+          {
+            "rank": 2,
+            "doc_id": "813042265_21771-22843-0-1070",
+            "score": null,
+            "score_type": "contriever",
+            "text": "CCR5 This hypothesis was tested in an AIDS patient who had also developed myeloid leukemia , and was treated with chemotherapy to suppress the cancer . A bone marrow transplant containing stem cells from a matched donor was then used to restore the immune system . However , the transplant was performed from a donor with 2 copies of CCR5 - Δ32 mutation gene . After 600 days , the patient was healthy and had undetectable levels of HIV in the blood and in examined brain and rectal tissues . Before the transplant , low levels of HIV X4 , which does not use the CCR5 receptor , were also detected . Following the transplant , however , this type of HIV was not detected either , further baffling doctors . However , this is consistent with the observation that cells expressing the CCR5 - Δ32 variant protein lack both the CCR5 and CXCR4 receptors on their surfaces , thereby conferring resistance to a broad range of HIV variants including HIV X4 . After over six years , the patient has maintained the resistance to HIV and has been pronounced cured of the HIV infection .",
+            "title": "CCR5"
+          },
+          {
+            "rank": 3,
+            "doc_id": "834145135_86599-87161-0-562",
+            "score": null,
+            "score_type": "contriever",
+            "text": "West African Ebola virus epidemic There is as yet no known confirmed medication or treatment for Ebola virus disease . The director of the US National Institute of Allergy and Infectious Diseases has stated that the scientific community is still in the early stages of understanding how infection with the Ebola virus can be treated and prevented . A number of experimental treatments are undergoing clinical trials . During the epidemic some patients received experimental blood transfusions from Ebola survivors , but a later study found that the treatment did not provide significant benefit .",
+            "title": "West African Ebola virus epidemic"
+          },
+          {
+            "rank": 4,
+            "doc_id": "824547656_16563-16728-0-165",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Herpes simplex In October 2011 , the anti-HIV drug tenofovir , when used topically in a microbicidal vaginal gel , was reported to reduce herpes virus sexual transmission by 51 % .",
+            "title": "Herpes simplex"
+          },
+          {
+            "rank": 5,
+            "doc_id": "813042265_23146-23387-0-241",
+            "score": null,
+            "score_type": "contriever",
+            "text": "CCR5 Inspired by the first person ever to be cured of HIV , The Berlin Patient , StemCyte began collaborations with Cord blood banks worldwide to systematically screen Umbilical cord blood samples for the CCR5 mutation beginning in 2011 . Further",
+            "title": "CCR5"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "825171915_12749-13209-0-460",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Bone marrow Bone marrow stem cells can be induced to become neural cells to treat neurological illnesses , and can also potentially be used for the treatment of other illnesses , such as inflammatory bowel disease . In 2013 , following a clinical trial , scientists proposed that bone marrow transplantation could be used to treat HIV in conjunction with antiretroviral drugs ; however , it was later found that HIV remained in the bodies of the test subjects . Harvesting",
+            "title": "Bone marrow"
+          },
+          {
+            "rank": 2,
+            "doc_id": "813042265_21771-22843-0-1070",
+            "score": null,
+            "score_type": "contriever",
+            "text": "CCR5 This hypothesis was tested in an AIDS patient who had also developed myeloid leukemia , and was treated with chemotherapy to suppress the cancer . A bone marrow transplant containing stem cells from a matched donor was then used to restore the immune system . However , the transplant was performed from a donor with 2 copies of CCR5 - Δ32 mutation gene . After 600 days , the patient was healthy and had undetectable levels of HIV in the blood and in examined brain and rectal tissues . Before the transplant , low levels of HIV X4 , which does not use the CCR5 receptor , were also detected . Following the transplant , however , this type of HIV was not detected either , further baffling doctors . However , this is consistent with the observation that cells expressing the CCR5 - Δ32 variant protein lack both the CCR5 and CXCR4 receptors on their surfaces , thereby conferring resistance to a broad range of HIV variants including HIV X4 . After over six years , the patient has maintained the resistance to HIV and has been pronounced cured of the HIV infection .",
+            "title": "CCR5"
+          },
+          {
+            "rank": 3,
+            "doc_id": "834145135_86599-87161-0-562",
+            "score": null,
+            "score_type": "contriever",
+            "text": "West African Ebola virus epidemic There is as yet no known confirmed medication or treatment for Ebola virus disease . The director of the US National Institute of Allergy and Infectious Diseases has stated that the scientific community is still in the early stages of understanding how infection with the Ebola virus can be treated and prevented . A number of experimental treatments are undergoing clinical trials . During the epidemic some patients received experimental blood transfusions from Ebola survivors , but a later study found that the treatment did not provide significant benefit .",
+            "title": "West African Ebola virus epidemic"
+          },
+          {
+            "rank": 4,
+            "doc_id": "824547656_16563-16728-0-165",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Herpes simplex In October 2011 , the anti-HIV drug tenofovir , when used topically in a microbicidal vaginal gel , was reported to reduce herpes virus sexual transmission by 51 % .",
+            "title": "Herpes simplex"
+          },
+          {
+            "rank": 5,
+            "doc_id": "813042265_23146-23387-0-241",
+            "score": null,
+            "score_type": "contriever",
+            "text": "CCR5 Inspired by the first person ever to be cured of HIV , The Berlin Patient , StemCyte began collaborations with Cord blood banks worldwide to systematically screen Umbilical cord blood samples for the CCR5 mutation beginning in 2011 . Further",
+            "title": "CCR5"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "There is no cure for HIV, but there are treatments that can help people with HIV live longer, healthier lives and reduce the risk of transmitting HIV to others.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "825171915_12749-13209-0-460",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Bone marrow Bone marrow stem cells can be induced to become neural cells to treat neurological illnesses , and can also potentially be used for the treatment of other illnesses , such as inflammatory bowel disease . In 2013 , following a clinical trial , scientists proposed that bone marrow transplantation could be used to treat HIV in conjunction with antiretroviral drugs ; however , it was later found that HIV remained in the bodies of the test subjects . Harvesting",
+          "title": "Bone marrow"
+        },
+        {
+          "rank": 2,
+          "doc_id": "813042265_21771-22843-0-1070",
+          "score": null,
+          "score_type": "contriever",
+          "text": "CCR5 This hypothesis was tested in an AIDS patient who had also developed myeloid leukemia , and was treated with chemotherapy to suppress the cancer . A bone marrow transplant containing stem cells from a matched donor was then used to restore the immune system . However , the transplant was performed from a donor with 2 copies of CCR5 - Δ32 mutation gene . After 600 days , the patient was healthy and had undetectable levels of HIV in the blood and in examined brain and rectal tissues . Before the transplant , low levels of HIV X4 , which does not use the CCR5 receptor , were also detected . Following the transplant , however , this type of HIV was not detected either , further baffling doctors . However , this is consistent with the observation that cells expressing the CCR5 - Δ32 variant protein lack both the CCR5 and CXCR4 receptors on their surfaces , thereby conferring resistance to a broad range of HIV variants including HIV X4 . After over six years , the patient has maintained the resistance to HIV and has been pronounced cured of the HIV infection .",
+          "title": "CCR5"
+        },
+        {
+          "rank": 3,
+          "doc_id": "834145135_86599-87161-0-562",
+          "score": null,
+          "score_type": "contriever",
+          "text": "West African Ebola virus epidemic There is as yet no known confirmed medication or treatment for Ebola virus disease . The director of the US National Institute of Allergy and Infectious Diseases has stated that the scientific community is still in the early stages of understanding how infection with the Ebola virus can be treated and prevented . A number of experimental treatments are undergoing clinical trials . During the epidemic some patients received experimental blood transfusions from Ebola survivors , but a later study found that the treatment did not provide significant benefit .",
+          "title": "West African Ebola virus epidemic"
+        },
+        {
+          "rank": 4,
+          "doc_id": "824547656_16563-16728-0-165",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Herpes simplex In October 2011 , the anti-HIV drug tenofovir , when used topically in a microbicidal vaginal gel , was reported to reduce herpes virus sexual transmission by 51 % .",
+          "title": "Herpes simplex"
+        },
+        {
+          "rank": 5,
+          "doc_id": "813042265_23146-23387-0-241",
+          "score": null,
+          "score_type": "contriever",
+          "text": "CCR5 Inspired by the first person ever to be cured of HIV , The Berlin Patient , StemCyte began collaborations with Cord blood banks worldwide to systematically screen Umbilical cord blood samples for the CCR5 mutation beginning in 2011 . Further",
+          "title": "CCR5"
+        }
+      ],
+      "reference": {
+        "answer": "With proper medical care, HIV can be controlled. It was reported in  October 2011 that  the anti-HIV drug tenofovir , when used topically in a microbicidal vaginal gel  reduce herpes virus sexual transmission by 51 % . Also  a genetic approach involving intrabodies that block CCR5 expression has been proposed as a treatment for HIV - 1 infected individuals . Some good results were reported in 2014 when enrollment of HIV - positive patients in a clinical trial was started in 2009 in which the patients ' cells were genetically modified with a zinc finger nuclease to carry the CCR5 - Δ32 trait and then reintroduced into the body as a potential HIV treatment .",
+        "evidence_ids": [
+          "824547656_16563-16728-0-165",
+          "813042265_21242-21770-0-528",
+          "813042265_22844-23145-0-300"
+        ],
+        "evidence": [
+          {
+            "doc_id": "824547656_16563-16728-0-165",
+            "text": "Herpes simplex\nHerpes simplex\nIn October 2011 , the anti-HIV drug tenofovir , when used topically in a microbicidal vaginal gel , was reported to reduce herpes virus sexual transmission by 51 % ."
+          },
+          {
+            "doc_id": "813042265_21242-21770-0-528",
+            "text": "CCR5\nCCR5\nA genetic approach involving intrabodies that block CCR5 expression has been proposed as a treatment for HIV - 1 infected individuals . When T - cells modified so they no longer express CCR5 were mixed with unmodified T - cells expressing CCR5 and then challenged by infection with HIV - 1 , the modified T - cells that do not express CCR5 eventually take over the culture , as HIV - 1 kills the non-modified T - cells . This same method might be used in vivo to establish a virus - resistant cell pool in infected individuals ."
+          },
+          {
+            "doc_id": "813042265_22844-23145-0-300",
+            "text": "CCR5\nCCR5\nEnrollment of HIV - positive patients in a clinical trial was started in 2009 in which the patients ' cells were genetically modified with a zinc finger nuclease to carry the CCR5 - Δ32 trait and then reintroduced into the body as a potential HIV treatment . Results reported in 2014 were promising ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Summarization"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "6",
+      "task_id": "3a07680acfb0f951fc3210a8c1a282c9<::>6",
+      "question": "Is Herpes a lethal disease and how is it transmitted?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "What are the categories of people for which it is especially important to get a flu vaccine? "
+        },
+        {
+          "role": "assistant",
+          "content": "I do not have specific information about those categories of people that should get a flu vaccine. Nevertheless, vaccination is a cheap and effective way of preventing infections by viruses.  Their use has resulted in a dramatic decline in morbidity ( illness ) and mortality ( death ) associated with viral infections such as polio , measles , mumps and rubella . In fact, vaccines are available to prevent over thirteen viral infections of humans , and more are used to prevent viral infections of animals .                                            "
+        },
+        {
+          "role": "user",
+          "content": "Can you tell me the greatest pandemics worldwide before  COVID in 2020?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, a number of pandemics have affected the world before COVID. The 1918 flu pandemic , which lasted until 1919, was a category 5 influenza pandemic caused by an unusually severe and deadly influenza A virus . The victims were healthy young adults , in contrast to most influenza outbreaks , which predominantly affect juvenile , elderly , or otherwise - weakened patients . Older estimates say it killed 40 -- 50 million people , while more recent research suggests that it may have killed as many as 100 million people , or 5 % of the world 's population in 1918. The third bubonic plague pandemic, also known as the modern pandemic, spread the bubonic plague disease to port cities throughout the world in the second half of the 19th century and early 20th century via shipping routes . The bubonic plague affected people in Chinatown in San Francisco from 1900 - 1904, and the people of Oakland and east bay again from 1907 - 1909. In 1994, Zimbabwe suffered outbreaks of acute diseases like plague. In 2014, West African had the Ebola virus epidemic. In 2001 the Bubonic plague affected Zambia , India , Malawi , Algeria , China , Peru , and the Democratic Republic of the Congo .   2009 saw a pandemic involving the H1N1 influenza virus (swine flu). These are just some examples of other modern-day pandemics.               "
+        },
+        {
+          "role": "user",
+          "content": "What about HIV pandemic? did it kill many people?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, the HIV pandemic has also had a significant global impact. Approximately 38.6 million people are living with HIV worldwide, and there have been around 25 million deaths caused by AIDS since it was first recognized on 5 June 1981 , making it one of the most destructive epidemics in recorded history . It is estimated that in  the Democratic Republic of the Congo  about 1.1 % of adults aged 15 -- 49 were living with HIV / AIDS .   According to the 2015 UNAIDS Report , South Africa has an estimated 7 million people living with HIV -- more than any other country in the world . A 2008 study revealed that HIV / AIDS infection in South Africa is distinctly divided along racial lines : 13.6 % of blacks are HIV - positive , whereas only 0.3 % of whites have the disease . Most deaths are experienced by economically active individuals , resulting in many AIDS orphans who in many cases depend on the state for care and financial support                                     "
+        },
+        {
+          "role": "user",
+          "content": "How did  HIV originated and where did start the first cases?"
+        },
+        {
+          "role": "assistant",
+          "content": "The origin of HIV is still a matter of debate among scientists, but it is believed originated in sub-Saharan Africa (Southeast Cameroon) through exposure to infected blood and body fluids while butchering bushmeat during the 20th century , although  symptomatic infections were not reported until the 1980s. AIDS was at first considered a disease of gay men and drug addicts but then in Africa it took off among the general population . AIDS became a significant problem for the region , particularly in Côte d'Ivoire , Liberia , and Nigeria . The onset of the HIV epidemic in the region began in 1985 with reported cases in Benin and Nigeri , and in nearby countries, such as Côte d'Ivoire, in subsequent years ."
+        },
+        {
+          "role": "user",
+          "content": "Is there a cure for HIV?"
+        },
+        {
+          "role": "assistant",
+          "content": "With proper medical care, HIV can be controlled. It was reported in  October 2011 that  the anti-HIV drug tenofovir , when used topically in a microbicidal vaginal gel  reduce herpes virus sexual transmission by 51 % . Also  a genetic approach involving intrabodies that block CCR5 expression has been proposed as a treatment for HIV - 1 infected individuals . Some good results were reported in 2014 when enrollment of HIV - positive patients in a clinical trial was started in 2009 in which the patients ' cells were genetically modified with a zinc finger nuclease to carry the CCR5 - Δ32 trait and then reintroduced into the body as a potential HIV treatment ."
+        }
+      ],
+      "retrieval": {
+        "query": "Is Herpes a lethal disease and how is it transmitted?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "824547656_10452-11170-0-718",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Herpes simplex Herpes is contracted through direct contact with an active lesion or body fluid of an infected person . Herpes transmission occurs between discordant partners ; a person with a history of infection ( HSV seropositive ) can pass the virus to an HSV seronegative person . Herpes simplex virus 2 is typically contracted through direct skin - to - skin contact with an infected individual , but can also be contracted by exposure to infected saliva , semen , vaginal fluid , or the fluid from herpetic blisters . To infect a new individual , HSV travels through tiny breaks in the skin or mucous membranes in the mouth or genital areas . Even microscopic abrasions on mucous membranes are sufficient to allow viral entry .",
+            "title": "Herpes simplex"
+          },
+          {
+            "rank": 2,
+            "doc_id": "824547656_860-1907-0-1047",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Herpes simplex Herpes simplex is a viral disease caused by the herpes simplex virus . Infections are categorized based on the part of the body infected . Oral herpes involves the face or mouth . It may result in small blisters in groups often called cold sores or fever blisters or may just cause a sore throat . Genital herpes , often simply known as herpes , may have minimal symptoms or form blisters that break open and result in small ulcers . These typically heal over two to four weeks . Tingling or shooting pains may occur before the blisters appear . Herpes cycles between periods of active disease followed by periods without symptoms . The first episode is often more severe and may be associated with fever , muscle pains , swollen lymph nodes and headaches . Over time , episodes of active disease decrease in frequency and severity . Other disorders caused by herpes simplex include : herpetic whitlow when it involves the fingers , herpes of the eye , herpes infection of the brain , and neonatal herpes when it affects a newborn , among others .",
+            "title": "Herpes simplex"
+          },
+          {
+            "rank": 3,
+            "doc_id": "824547656_16163-16562-0-399",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Herpes simplex However , asymptomatic carriers of the HSV - 2 virus are still contagious . In many infections , the first symptom people will have of their own infections is the horizontal transmission to a sexual partner or the vertical transmission of neonatal herpes to a newborn at term . Since most asymptomatic individuals are unaware of their infection , they are considered at high risk for spreading HSV .",
+            "title": "Herpes simplex"
+          },
+          {
+            "rank": 4,
+            "doc_id": "824547656_4822-5573-0-751",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Herpes simplex HSV infection causes several distinct medical disorders . Common infection of the skin or mucosa may affect the face and mouth ( orofacial herpes ) , genitalia ( genital herpes ) , or hands ( herpetic whitlow ) . More serious disorders occur when the virus infects and damages the eye ( herpes keratitis ) , or invades the central nervous system , damaging the brain ( herpes encephalitis ) . People with immature or suppressed immune systems , such as newborns , transplant recipients , or people with AIDS , are prone to severe complications from HSV infections . HSV infection has also been associated with cognitive deficits of bipolar disorder , and Alzheimer 's disease , although this is often dependent on the genetics of the infected person .",
+            "title": "Herpes simplex"
+          },
+          {
+            "rank": 5,
+            "doc_id": "824547656_15099-16162-0-1063",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Herpes simplex As with almost all sexually transmitted infections , women are more susceptible to acquiring genital HSV - 2 than men . On an annual basis , without the use of antivirals or condoms , the transmission risk of HSV - 2 from infected male to female is about 8 -- 11 % . This is believed to be due to the increased exposure of mucosal tissue to potential infection sites . Transmission risk from infected female to male is around 4 -- 5 % annually . Suppressive antiviral therapy reduces these risks by 50 % . Antivirals also help prevent the development of symptomatic HSV in infection scenarios , meaning the infected partner will be seropositive but symptom - free by about 50 % . Condom use also reduces the transmission risk significantly . Condom use is much more effective at preventing male - to - female transmission than vice versa . Previous HSV - 1 infection may reduce the risk for acquisition of HSV - 2 infection among women by a factor of three , although the one study that states this has a small sample size of 14 transmissions out of 214 couples .",
+            "title": "Herpes simplex"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "824547656_10452-11170-0-718",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Herpes simplex Herpes is contracted through direct contact with an active lesion or body fluid of an infected person . Herpes transmission occurs between discordant partners ; a person with a history of infection ( HSV seropositive ) can pass the virus to an HSV seronegative person . Herpes simplex virus 2 is typically contracted through direct skin - to - skin contact with an infected individual , but can also be contracted by exposure to infected saliva , semen , vaginal fluid , or the fluid from herpetic blisters . To infect a new individual , HSV travels through tiny breaks in the skin or mucous membranes in the mouth or genital areas . Even microscopic abrasions on mucous membranes are sufficient to allow viral entry .",
+            "title": "Herpes simplex"
+          },
+          {
+            "rank": 2,
+            "doc_id": "824547656_860-1907-0-1047",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Herpes simplex Herpes simplex is a viral disease caused by the herpes simplex virus . Infections are categorized based on the part of the body infected . Oral herpes involves the face or mouth . It may result in small blisters in groups often called cold sores or fever blisters or may just cause a sore throat . Genital herpes , often simply known as herpes , may have minimal symptoms or form blisters that break open and result in small ulcers . These typically heal over two to four weeks . Tingling or shooting pains may occur before the blisters appear . Herpes cycles between periods of active disease followed by periods without symptoms . The first episode is often more severe and may be associated with fever , muscle pains , swollen lymph nodes and headaches . Over time , episodes of active disease decrease in frequency and severity . Other disorders caused by herpes simplex include : herpetic whitlow when it involves the fingers , herpes of the eye , herpes infection of the brain , and neonatal herpes when it affects a newborn , among others .",
+            "title": "Herpes simplex"
+          },
+          {
+            "rank": 3,
+            "doc_id": "824547656_16163-16562-0-399",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Herpes simplex However , asymptomatic carriers of the HSV - 2 virus are still contagious . In many infections , the first symptom people will have of their own infections is the horizontal transmission to a sexual partner or the vertical transmission of neonatal herpes to a newborn at term . Since most asymptomatic individuals are unaware of their infection , they are considered at high risk for spreading HSV .",
+            "title": "Herpes simplex"
+          },
+          {
+            "rank": 4,
+            "doc_id": "824547656_4822-5573-0-751",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Herpes simplex HSV infection causes several distinct medical disorders . Common infection of the skin or mucosa may affect the face and mouth ( orofacial herpes ) , genitalia ( genital herpes ) , or hands ( herpetic whitlow ) . More serious disorders occur when the virus infects and damages the eye ( herpes keratitis ) , or invades the central nervous system , damaging the brain ( herpes encephalitis ) . People with immature or suppressed immune systems , such as newborns , transplant recipients , or people with AIDS , are prone to severe complications from HSV infections . HSV infection has also been associated with cognitive deficits of bipolar disorder , and Alzheimer 's disease , although this is often dependent on the genetics of the infected person .",
+            "title": "Herpes simplex"
+          },
+          {
+            "rank": 5,
+            "doc_id": "824547656_15099-16162-0-1063",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Herpes simplex As with almost all sexually transmitted infections , women are more susceptible to acquiring genital HSV - 2 than men . On an annual basis , without the use of antivirals or condoms , the transmission risk of HSV - 2 from infected male to female is about 8 -- 11 % . This is believed to be due to the increased exposure of mucosal tissue to potential infection sites . Transmission risk from infected female to male is around 4 -- 5 % annually . Suppressive antiviral therapy reduces these risks by 50 % . Antivirals also help prevent the development of symptomatic HSV in infection scenarios , meaning the infected partner will be seropositive but symptom - free by about 50 % . Condom use also reduces the transmission risk significantly . Condom use is much more effective at preventing male - to - female transmission than vice versa . Previous HSV - 1 infection may reduce the risk for acquisition of HSV - 2 infection among women by a factor of three , although the one study that states this has a small sample size of 14 transmissions out of 214 couples .",
+            "title": "Herpes simplex"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Herpes is a sexually transmitted infection ( STI ) caused by the herpes simplex virus ( HSV ).It is usually contracted through direct skin-to-skin contact with an infected person.The virus can be transmitted even when an infected person does not have visible symptoms.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "824547656_10452-11170-0-718",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Herpes simplex Herpes is contracted through direct contact with an active lesion or body fluid of an infected person . Herpes transmission occurs between discordant partners ; a person with a history of infection ( HSV seropositive ) can pass the virus to an HSV seronegative person . Herpes simplex virus 2 is typically contracted through direct skin - to - skin contact with an infected individual , but can also be contracted by exposure to infected saliva , semen , vaginal fluid , or the fluid from herpetic blisters . To infect a new individual , HSV travels through tiny breaks in the skin or mucous membranes in the mouth or genital areas . Even microscopic abrasions on mucous membranes are sufficient to allow viral entry .",
+          "title": "Herpes simplex"
+        },
+        {
+          "rank": 2,
+          "doc_id": "824547656_860-1907-0-1047",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Herpes simplex Herpes simplex is a viral disease caused by the herpes simplex virus . Infections are categorized based on the part of the body infected . Oral herpes involves the face or mouth . It may result in small blisters in groups often called cold sores or fever blisters or may just cause a sore throat . Genital herpes , often simply known as herpes , may have minimal symptoms or form blisters that break open and result in small ulcers . These typically heal over two to four weeks . Tingling or shooting pains may occur before the blisters appear . Herpes cycles between periods of active disease followed by periods without symptoms . The first episode is often more severe and may be associated with fever , muscle pains , swollen lymph nodes and headaches . Over time , episodes of active disease decrease in frequency and severity . Other disorders caused by herpes simplex include : herpetic whitlow when it involves the fingers , herpes of the eye , herpes infection of the brain , and neonatal herpes when it affects a newborn , among others .",
+          "title": "Herpes simplex"
+        },
+        {
+          "rank": 3,
+          "doc_id": "824547656_16163-16562-0-399",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Herpes simplex However , asymptomatic carriers of the HSV - 2 virus are still contagious . In many infections , the first symptom people will have of their own infections is the horizontal transmission to a sexual partner or the vertical transmission of neonatal herpes to a newborn at term . Since most asymptomatic individuals are unaware of their infection , they are considered at high risk for spreading HSV .",
+          "title": "Herpes simplex"
+        },
+        {
+          "rank": 4,
+          "doc_id": "824547656_4822-5573-0-751",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Herpes simplex HSV infection causes several distinct medical disorders . Common infection of the skin or mucosa may affect the face and mouth ( orofacial herpes ) , genitalia ( genital herpes ) , or hands ( herpetic whitlow ) . More serious disorders occur when the virus infects and damages the eye ( herpes keratitis ) , or invades the central nervous system , damaging the brain ( herpes encephalitis ) . People with immature or suppressed immune systems , such as newborns , transplant recipients , or people with AIDS , are prone to severe complications from HSV infections . HSV infection has also been associated with cognitive deficits of bipolar disorder , and Alzheimer 's disease , although this is often dependent on the genetics of the infected person .",
+          "title": "Herpes simplex"
+        },
+        {
+          "rank": 5,
+          "doc_id": "824547656_15099-16162-0-1063",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Herpes simplex As with almost all sexually transmitted infections , women are more susceptible to acquiring genital HSV - 2 than men . On an annual basis , without the use of antivirals or condoms , the transmission risk of HSV - 2 from infected male to female is about 8 -- 11 % . This is believed to be due to the increased exposure of mucosal tissue to potential infection sites . Transmission risk from infected female to male is around 4 -- 5 % annually . Suppressive antiviral therapy reduces these risks by 50 % . Antivirals also help prevent the development of symptomatic HSV in infection scenarios , meaning the infected partner will be seropositive but symptom - free by about 50 % . Condom use also reduces the transmission risk significantly . Condom use is much more effective at preventing male - to - female transmission than vice versa . Previous HSV - 1 infection may reduce the risk for acquisition of HSV - 2 infection among women by a factor of three , although the one study that states this has a small sample size of 14 transmissions out of 214 couples .",
+          "title": "Herpes simplex"
+        }
+      ],
+      "reference": {
+        "answer": "Herpes is not generally considered a lethal disease .There are two types of herpes simplex virus , type 1 ( HSV - 1 ) and type 2 ( HSV - 2 ) . HSV - 1 more commonly causes infections around the mouth while HSV - 2 more commonly causes genital infections.Herpes is contracted through direct contact with an active lesion or body fluid of an infected person . Herpes transmission occurs between discordant partners; a person with a history of infection ( HSV seropositive ) can pass the virus to an HSV seronegative person . Herpes simplex virus type 2 is typically contracted through direct skin - to - skin contact with an infected individual , but can also be contracted by exposure to infected saliva , semen , vaginal fluid , or the fluid from herpetic blisters. However , asymptomatic carriers of the HSV - 2 virus are still contagious . In many infections , the first symptom people will have of their own infections is the horizontal transmission to a sexual partner or the vertical transmission of neonatal herpes to a newborn at term . Since most asymptomatic individuals are unaware of their infection , they are considered at high risk for spreading HSV .",
+        "evidence_ids": [
+          "824547656_1908-2904-0-996",
+          "824547656_10452-11170-0-718",
+          "824547656_16163-16562-0-399"
+        ],
+        "evidence": [
+          {
+            "doc_id": "824547656_1908-2904-0-996",
+            "text": "Herpes simplex\nHerpes simplex\nThere are two types of herpes simplex virus , type 1 ( HSV - 1 ) and type 2 ( HSV - 2 ) . HSV - 1 more commonly causes infections around the mouth while HSV - 2 more commonly causes genital infections . They are transmitted by direct contact with body fluids or lesions of an infected individual . Transmission may still occur when symptoms are not present . Genital herpes is classified as a sexually transmitted infection . It may be spread to an infant during childbirth . After infection , the viruses are transported along sensory nerves to the nerve cell bodies , where they reside lifelong . Causes of recurrence may include : decreased immune function , stress , and sunlight exposure . Oral and genital herpes is usually diagnosed based on the presenting symptoms . The diagnosis may be confirmed by viral culture or detecting herpes DNA in fluid from blisters . Testing the blood for antibodies against the virus can confirm a previous infection but will be negative in new infections ."
+          },
+          {
+            "doc_id": "824547656_10452-11170-0-718",
+            "text": "Herpes simplex\nHerpes simplex\nHerpes is contracted through direct contact with an active lesion or body fluid of an infected person . Herpes transmission occurs between discordant partners ; a person with a history of infection ( HSV seropositive ) can pass the virus to an HSV seronegative person . Herpes simplex virus 2 is typically contracted through direct skin - to - skin contact with an infected individual , but can also be contracted by exposure to infected saliva , semen , vaginal fluid , or the fluid from herpetic blisters . To infect a new individual , HSV travels through tiny breaks in the skin or mucous membranes in the mouth or genital areas . Even microscopic abrasions on mucous membranes are sufficient to allow viral entry ."
+          },
+          {
+            "doc_id": "824547656_16163-16562-0-399",
+            "text": "Herpes simplex\nHerpes simplex\nHowever , asymptomatic carriers of the HSV - 2 virus are still contagious . In many infections , the first symptom people will have of their own infections is the horizontal transmission to a sexual partner or the vertical transmission of neonatal herpes to a newborn at term . Since most asymptomatic individuals are unaware of their infection , they are considered at high risk for spreading HSV ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Composite",
+          "Explanation"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "7",
+      "task_id": "3a07680acfb0f951fc3210a8c1a282c9<::>7",
+      "question": "Is there a vaccine for Herper, how can it be prevent?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "What are the categories of people for which it is especially important to get a flu vaccine? "
+        },
+        {
+          "role": "assistant",
+          "content": "I do not have specific information about those categories of people that should get a flu vaccine. Nevertheless, vaccination is a cheap and effective way of preventing infections by viruses.  Their use has resulted in a dramatic decline in morbidity ( illness ) and mortality ( death ) associated with viral infections such as polio , measles , mumps and rubella . In fact, vaccines are available to prevent over thirteen viral infections of humans , and more are used to prevent viral infections of animals .                                            "
+        },
+        {
+          "role": "user",
+          "content": "Can you tell me the greatest pandemics worldwide before  COVID in 2020?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, a number of pandemics have affected the world before COVID. The 1918 flu pandemic , which lasted until 1919, was a category 5 influenza pandemic caused by an unusually severe and deadly influenza A virus . The victims were healthy young adults , in contrast to most influenza outbreaks , which predominantly affect juvenile , elderly , or otherwise - weakened patients . Older estimates say it killed 40 -- 50 million people , while more recent research suggests that it may have killed as many as 100 million people , or 5 % of the world 's population in 1918. The third bubonic plague pandemic, also known as the modern pandemic, spread the bubonic plague disease to port cities throughout the world in the second half of the 19th century and early 20th century via shipping routes . The bubonic plague affected people in Chinatown in San Francisco from 1900 - 1904, and the people of Oakland and east bay again from 1907 - 1909. In 1994, Zimbabwe suffered outbreaks of acute diseases like plague. In 2014, West African had the Ebola virus epidemic. In 2001 the Bubonic plague affected Zambia , India , Malawi , Algeria , China , Peru , and the Democratic Republic of the Congo .   2009 saw a pandemic involving the H1N1 influenza virus (swine flu). These are just some examples of other modern-day pandemics.               "
+        },
+        {
+          "role": "user",
+          "content": "What about HIV pandemic? did it kill many people?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, the HIV pandemic has also had a significant global impact. Approximately 38.6 million people are living with HIV worldwide, and there have been around 25 million deaths caused by AIDS since it was first recognized on 5 June 1981 , making it one of the most destructive epidemics in recorded history . It is estimated that in  the Democratic Republic of the Congo  about 1.1 % of adults aged 15 -- 49 were living with HIV / AIDS .   According to the 2015 UNAIDS Report , South Africa has an estimated 7 million people living with HIV -- more than any other country in the world . A 2008 study revealed that HIV / AIDS infection in South Africa is distinctly divided along racial lines : 13.6 % of blacks are HIV - positive , whereas only 0.3 % of whites have the disease . Most deaths are experienced by economically active individuals , resulting in many AIDS orphans who in many cases depend on the state for care and financial support                                     "
+        },
+        {
+          "role": "user",
+          "content": "How did  HIV originated and where did start the first cases?"
+        },
+        {
+          "role": "assistant",
+          "content": "The origin of HIV is still a matter of debate among scientists, but it is believed originated in sub-Saharan Africa (Southeast Cameroon) through exposure to infected blood and body fluids while butchering bushmeat during the 20th century , although  symptomatic infections were not reported until the 1980s. AIDS was at first considered a disease of gay men and drug addicts but then in Africa it took off among the general population . AIDS became a significant problem for the region , particularly in Côte d'Ivoire , Liberia , and Nigeria . The onset of the HIV epidemic in the region began in 1985 with reported cases in Benin and Nigeri , and in nearby countries, such as Côte d'Ivoire, in subsequent years ."
+        },
+        {
+          "role": "user",
+          "content": "Is there a cure for HIV?"
+        },
+        {
+          "role": "assistant",
+          "content": "With proper medical care, HIV can be controlled. It was reported in  October 2011 that  the anti-HIV drug tenofovir , when used topically in a microbicidal vaginal gel  reduce herpes virus sexual transmission by 51 % . Also  a genetic approach involving intrabodies that block CCR5 expression has been proposed as a treatment for HIV - 1 infected individuals . Some good results were reported in 2014 when enrollment of HIV - positive patients in a clinical trial was started in 2009 in which the patients ' cells were genetically modified with a zinc finger nuclease to carry the CCR5 - Δ32 trait and then reintroduced into the body as a potential HIV treatment ."
+        },
+        {
+          "role": "user",
+          "content": "Is Herpes a lethal disease and how is it transmitted?"
+        },
+        {
+          "role": "assistant",
+          "content": "Herpes is not generally considered a lethal disease .There are two types of herpes simplex virus , type 1 ( HSV - 1 ) and type 2 ( HSV - 2 ) . HSV - 1 more commonly causes infections around the mouth while HSV - 2 more commonly causes genital infections.Herpes is contracted through direct contact with an active lesion or body fluid of an infected person . Herpes transmission occurs between discordant partners; a person with a history of infection ( HSV seropositive ) can pass the virus to an HSV seronegative person . Herpes simplex virus type 2 is typically contracted through direct skin - to - skin contact with an infected individual , but can also be contracted by exposure to infected saliva , semen , vaginal fluid , or the fluid from herpetic blisters. However , asymptomatic carriers of the HSV - 2 virus are still contagious . In many infections , the first symptom people will have of their own infections is the horizontal transmission to a sexual partner or the vertical transmission of neonatal herpes to a newborn at term . Since most asymptomatic individuals are unaware of their infection , they are considered at high risk for spreading HSV ."
+        }
+      ],
+      "retrieval": {
+        "query": "Is there a vaccine for Herper, how can it be prevent?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "824547656_2905-3422-0-517",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Herpes simplex The most effective method of avoiding genital infections is by avoiding vaginal , oral , and anal sex . Condom use decreases the risk somewhat . Daily antiviral medication taken by someone who has the infection can also reduce spread . There is no available vaccine and once infected , there is no cure . Paracetamol ( acetaminophen ) and topical lidocaine may be used to help with the symptoms . Treatments with antiviral medication such as aciclovir or valaciclovir can lessen the severity of symptomatic episodes .",
+            "title": "Herpes simplex"
+          },
+          {
+            "rank": 2,
+            "doc_id": "824547656_18559-19911-0-1352",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Herpes simplex The risk of transmission from mother to baby is highest if the mother becomes infected around the time of delivery ( 30 % to 60 % ) , since insufficient time will have occurred for the generation and transfer of protective maternal antibodies before the birth of the child . In contrast , the risk falls to 3 % if the infection is recurrent , and is 1 -- 3 % if the woman is seropositive for both HSV - 1 and HSV - 2 , and is less than 1 % if no lesions are visible . Women seropositive for only one type of HSV are only half as likely to transmit HSV as infected seronegative mothers . To prevent neonatal infections , seronegative women are recommended to avoid unprotected oral - genital contact with an HSV - 1 - seropositive partner and conventional sex with a partner having a genital infection during the last trimester of pregnancy . Mothers infected with HSV are advised to avoid procedures that would cause trauma to the infant during birth ( e.g. fetal scalp electrodes , forceps , and vacuum extractors ) and , should lesions be present , to elect caesarean section to reduce exposure of the child to infected secretions in the birth canal . The use of antiviral treatments , such as acyclovir , given from the 36th week of pregnancy , limits HSV recurrence and shedding during childbirth , thereby reducing the need for caesarean section .",
+            "title": "Herpes simplex"
+          },
+          {
+            "rank": 3,
+            "doc_id": "824547656_33603-33984-0-381",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Herpes simplex Research has gone into vaccines for both prevention and treatment of herpes infections . Unsuccessful clinical trials have been conducted for some glycoprotein subunit vaccines . As of 2017 , the future pipeline includes several promising replication - incompetent vaccine proposals while two replication - competent ( live - attenuated ) HSV vaccine are undergoing human testing .",
+            "title": "Herpes simplex"
+          },
+          {
+            "rank": 4,
+            "doc_id": "824547656_16745-18303-0-1558",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Herpes simplex Condoms offer moderate protection against HSV - 2 in both men and women , with consistent condom users having a 30 % - lower risk of HSV - 2 acquisition compared with those who never use condoms . A female condom can provide greater protection than the male condom , as it covers the labia . The virus can not pass through a synthetic condom , but a male condom 's effectiveness is limited because herpes ulcers may appear on areas not covered by it . Neither type of condom prevents contact with the scrotum , anus , buttocks , or upper thighs , areas that may come in contact with ulcers or genital secretions during sexual activity . Protection against herpes simplex depends on the site of the ulcer ; therefore , if ulcers appear on areas not covered by condoms , abstaining from sexual activity until the ulcers are fully healed is one way to limit risk of transmission . The risk is not eliminated , however , as viral shedding capable of transmitting infection may still occur while the infected partner is asymptomatic . The use of condoms or dental dams also limits the transmission of herpes from the genitals of one partner to the mouth of the other ( or vice versa ) during oral sex . When one partner has a herpes simplex infection and the other does not , the use of antiviral medication , such as valaciclovir , in conjunction with a condom , further decreases the chances of transmission to the uninfected partner . Topical microbicides that contain chemicals that directly inactivate the virus and block viral entry are being investigated .",
+            "title": "Herpes simplex"
+          },
+          {
+            "rank": 5,
+            "doc_id": "824547656_19912-20154-0-242",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Herpes simplex Acyclovir is the recommended antiviral for herpes suppressive therapy during the last months of pregnancy . The use of valaciclovir and famciclovir , while potentially improving compliance , have less - well - determined safety in pregnancy .",
+            "title": "Herpes simplex"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "824547656_2905-3422-0-517",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Herpes simplex The most effective method of avoiding genital infections is by avoiding vaginal , oral , and anal sex . Condom use decreases the risk somewhat . Daily antiviral medication taken by someone who has the infection can also reduce spread . There is no available vaccine and once infected , there is no cure . Paracetamol ( acetaminophen ) and topical lidocaine may be used to help with the symptoms . Treatments with antiviral medication such as aciclovir or valaciclovir can lessen the severity of symptomatic episodes .",
+            "title": "Herpes simplex"
+          },
+          {
+            "rank": 2,
+            "doc_id": "824547656_18559-19911-0-1352",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Herpes simplex The risk of transmission from mother to baby is highest if the mother becomes infected around the time of delivery ( 30 % to 60 % ) , since insufficient time will have occurred for the generation and transfer of protective maternal antibodies before the birth of the child . In contrast , the risk falls to 3 % if the infection is recurrent , and is 1 -- 3 % if the woman is seropositive for both HSV - 1 and HSV - 2 , and is less than 1 % if no lesions are visible . Women seropositive for only one type of HSV are only half as likely to transmit HSV as infected seronegative mothers . To prevent neonatal infections , seronegative women are recommended to avoid unprotected oral - genital contact with an HSV - 1 - seropositive partner and conventional sex with a partner having a genital infection during the last trimester of pregnancy . Mothers infected with HSV are advised to avoid procedures that would cause trauma to the infant during birth ( e.g. fetal scalp electrodes , forceps , and vacuum extractors ) and , should lesions be present , to elect caesarean section to reduce exposure of the child to infected secretions in the birth canal . The use of antiviral treatments , such as acyclovir , given from the 36th week of pregnancy , limits HSV recurrence and shedding during childbirth , thereby reducing the need for caesarean section .",
+            "title": "Herpes simplex"
+          },
+          {
+            "rank": 3,
+            "doc_id": "824547656_33603-33984-0-381",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Herpes simplex Research has gone into vaccines for both prevention and treatment of herpes infections . Unsuccessful clinical trials have been conducted for some glycoprotein subunit vaccines . As of 2017 , the future pipeline includes several promising replication - incompetent vaccine proposals while two replication - competent ( live - attenuated ) HSV vaccine are undergoing human testing .",
+            "title": "Herpes simplex"
+          },
+          {
+            "rank": 4,
+            "doc_id": "824547656_16745-18303-0-1558",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Herpes simplex Condoms offer moderate protection against HSV - 2 in both men and women , with consistent condom users having a 30 % - lower risk of HSV - 2 acquisition compared with those who never use condoms . A female condom can provide greater protection than the male condom , as it covers the labia . The virus can not pass through a synthetic condom , but a male condom 's effectiveness is limited because herpes ulcers may appear on areas not covered by it . Neither type of condom prevents contact with the scrotum , anus , buttocks , or upper thighs , areas that may come in contact with ulcers or genital secretions during sexual activity . Protection against herpes simplex depends on the site of the ulcer ; therefore , if ulcers appear on areas not covered by condoms , abstaining from sexual activity until the ulcers are fully healed is one way to limit risk of transmission . The risk is not eliminated , however , as viral shedding capable of transmitting infection may still occur while the infected partner is asymptomatic . The use of condoms or dental dams also limits the transmission of herpes from the genitals of one partner to the mouth of the other ( or vice versa ) during oral sex . When one partner has a herpes simplex infection and the other does not , the use of antiviral medication , such as valaciclovir , in conjunction with a condom , further decreases the chances of transmission to the uninfected partner . Topical microbicides that contain chemicals that directly inactivate the virus and block viral entry are being investigated .",
+            "title": "Herpes simplex"
+          },
+          {
+            "rank": 5,
+            "doc_id": "824547656_19912-20154-0-242",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Herpes simplex Acyclovir is the recommended antiviral for herpes suppressive therapy during the last months of pregnancy . The use of valaciclovir and famciclovir , while potentially improving compliance , have less - well - determined safety in pregnancy .",
+            "title": "Herpes simplex"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "There is no available vaccine and once infected , there is no cure .",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "824547656_2905-3422-0-517",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Herpes simplex The most effective method of avoiding genital infections is by avoiding vaginal , oral , and anal sex . Condom use decreases the risk somewhat . Daily antiviral medication taken by someone who has the infection can also reduce spread . There is no available vaccine and once infected , there is no cure . Paracetamol ( acetaminophen ) and topical lidocaine may be used to help with the symptoms . Treatments with antiviral medication such as aciclovir or valaciclovir can lessen the severity of symptomatic episodes .",
+          "title": "Herpes simplex"
+        },
+        {
+          "rank": 2,
+          "doc_id": "824547656_18559-19911-0-1352",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Herpes simplex The risk of transmission from mother to baby is highest if the mother becomes infected around the time of delivery ( 30 % to 60 % ) , since insufficient time will have occurred for the generation and transfer of protective maternal antibodies before the birth of the child . In contrast , the risk falls to 3 % if the infection is recurrent , and is 1 -- 3 % if the woman is seropositive for both HSV - 1 and HSV - 2 , and is less than 1 % if no lesions are visible . Women seropositive for only one type of HSV are only half as likely to transmit HSV as infected seronegative mothers . To prevent neonatal infections , seronegative women are recommended to avoid unprotected oral - genital contact with an HSV - 1 - seropositive partner and conventional sex with a partner having a genital infection during the last trimester of pregnancy . Mothers infected with HSV are advised to avoid procedures that would cause trauma to the infant during birth ( e.g. fetal scalp electrodes , forceps , and vacuum extractors ) and , should lesions be present , to elect caesarean section to reduce exposure of the child to infected secretions in the birth canal . The use of antiviral treatments , such as acyclovir , given from the 36th week of pregnancy , limits HSV recurrence and shedding during childbirth , thereby reducing the need for caesarean section .",
+          "title": "Herpes simplex"
+        },
+        {
+          "rank": 3,
+          "doc_id": "824547656_33603-33984-0-381",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Herpes simplex Research has gone into vaccines for both prevention and treatment of herpes infections . Unsuccessful clinical trials have been conducted for some glycoprotein subunit vaccines . As of 2017 , the future pipeline includes several promising replication - incompetent vaccine proposals while two replication - competent ( live - attenuated ) HSV vaccine are undergoing human testing .",
+          "title": "Herpes simplex"
+        },
+        {
+          "rank": 4,
+          "doc_id": "824547656_16745-18303-0-1558",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Herpes simplex Condoms offer moderate protection against HSV - 2 in both men and women , with consistent condom users having a 30 % - lower risk of HSV - 2 acquisition compared with those who never use condoms . A female condom can provide greater protection than the male condom , as it covers the labia . The virus can not pass through a synthetic condom , but a male condom 's effectiveness is limited because herpes ulcers may appear on areas not covered by it . Neither type of condom prevents contact with the scrotum , anus , buttocks , or upper thighs , areas that may come in contact with ulcers or genital secretions during sexual activity . Protection against herpes simplex depends on the site of the ulcer ; therefore , if ulcers appear on areas not covered by condoms , abstaining from sexual activity until the ulcers are fully healed is one way to limit risk of transmission . The risk is not eliminated , however , as viral shedding capable of transmitting infection may still occur while the infected partner is asymptomatic . The use of condoms or dental dams also limits the transmission of herpes from the genitals of one partner to the mouth of the other ( or vice versa ) during oral sex . When one partner has a herpes simplex infection and the other does not , the use of antiviral medication , such as valaciclovir , in conjunction with a condom , further decreases the chances of transmission to the uninfected partner . Topical microbicides that contain chemicals that directly inactivate the virus and block viral entry are being investigated .",
+          "title": "Herpes simplex"
+        },
+        {
+          "rank": 5,
+          "doc_id": "824547656_19912-20154-0-242",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Herpes simplex Acyclovir is the recommended antiviral for herpes suppressive therapy during the last months of pregnancy . The use of valaciclovir and famciclovir , while potentially improving compliance , have less - well - determined safety in pregnancy .",
+          "title": "Herpes simplex"
+        }
+      ],
+      "reference": {
+        "answer": "Currently, there is no available vaccine  and there is no cure  for Herpes simplex virus (HSV) but Herpes simplex research has gone into vaccines for both prevention and treatment of herpes infections . Nevertheless the most effective method to avoid to get Herpes simplex  is  avoiding vaginal , oral , and anal sex . The use of condoms  decreases the risk somewhat . Daily antiviral medication taken by someone who has the infection can also reduce spread. ",
+        "evidence_ids": [
+          "824547656_33603-33984-0-381",
+          "824547656_2905-3422-0-517"
+        ],
+        "evidence": [
+          {
+            "doc_id": "824547656_33603-33984-0-381",
+            "text": "Herpes simplex\nHerpes simplex\nResearch has gone into vaccines for both prevention and treatment of herpes infections . Unsuccessful clinical trials have been conducted for some glycoprotein subunit vaccines . As of 2017 , the future pipeline includes several promising replication - incompetent vaccine proposals while two replication - competent ( live - attenuated ) HSV vaccine are undergoing human testing ."
+          },
+          {
+            "doc_id": "824547656_2905-3422-0-517",
+            "text": "Herpes simplex\nHerpes simplex\nThe most effective method of avoiding genital infections is by avoiding vaginal , oral , and anal sex . Condom use decreases the risk somewhat . Daily antiviral medication taken by someone who has the infection can also reduce spread . There is no available vaccine and once infected , there is no cure . Paracetamol ( acetaminophen ) and topical lidocaine may be used to help with the symptoms . Treatments with antiviral medication such as aciclovir or valaciclovir can lessen the severity of symptomatic episodes ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Composite",
+          "How-To"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "8",
+      "task_id": "3a07680acfb0f951fc3210a8c1a282c9<::>8",
+      "question": "Speaking about vaccines, how are they made?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "What are the categories of people for which it is especially important to get a flu vaccine? "
+        },
+        {
+          "role": "assistant",
+          "content": "I do not have specific information about those categories of people that should get a flu vaccine. Nevertheless, vaccination is a cheap and effective way of preventing infections by viruses.  Their use has resulted in a dramatic decline in morbidity ( illness ) and mortality ( death ) associated with viral infections such as polio , measles , mumps and rubella . In fact, vaccines are available to prevent over thirteen viral infections of humans , and more are used to prevent viral infections of animals .                                            "
+        },
+        {
+          "role": "user",
+          "content": "Can you tell me the greatest pandemics worldwide before  COVID in 2020?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, a number of pandemics have affected the world before COVID. The 1918 flu pandemic , which lasted until 1919, was a category 5 influenza pandemic caused by an unusually severe and deadly influenza A virus . The victims were healthy young adults , in contrast to most influenza outbreaks , which predominantly affect juvenile , elderly , or otherwise - weakened patients . Older estimates say it killed 40 -- 50 million people , while more recent research suggests that it may have killed as many as 100 million people , or 5 % of the world 's population in 1918. The third bubonic plague pandemic, also known as the modern pandemic, spread the bubonic plague disease to port cities throughout the world in the second half of the 19th century and early 20th century via shipping routes . The bubonic plague affected people in Chinatown in San Francisco from 1900 - 1904, and the people of Oakland and east bay again from 1907 - 1909. In 1994, Zimbabwe suffered outbreaks of acute diseases like plague. In 2014, West African had the Ebola virus epidemic. In 2001 the Bubonic plague affected Zambia , India , Malawi , Algeria , China , Peru , and the Democratic Republic of the Congo .   2009 saw a pandemic involving the H1N1 influenza virus (swine flu). These are just some examples of other modern-day pandemics.               "
+        },
+        {
+          "role": "user",
+          "content": "What about HIV pandemic? did it kill many people?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, the HIV pandemic has also had a significant global impact. Approximately 38.6 million people are living with HIV worldwide, and there have been around 25 million deaths caused by AIDS since it was first recognized on 5 June 1981 , making it one of the most destructive epidemics in recorded history . It is estimated that in  the Democratic Republic of the Congo  about 1.1 % of adults aged 15 -- 49 were living with HIV / AIDS .   According to the 2015 UNAIDS Report , South Africa has an estimated 7 million people living with HIV -- more than any other country in the world . A 2008 study revealed that HIV / AIDS infection in South Africa is distinctly divided along racial lines : 13.6 % of blacks are HIV - positive , whereas only 0.3 % of whites have the disease . Most deaths are experienced by economically active individuals , resulting in many AIDS orphans who in many cases depend on the state for care and financial support                                     "
+        },
+        {
+          "role": "user",
+          "content": "How did  HIV originated and where did start the first cases?"
+        },
+        {
+          "role": "assistant",
+          "content": "The origin of HIV is still a matter of debate among scientists, but it is believed originated in sub-Saharan Africa (Southeast Cameroon) through exposure to infected blood and body fluids while butchering bushmeat during the 20th century , although  symptomatic infections were not reported until the 1980s. AIDS was at first considered a disease of gay men and drug addicts but then in Africa it took off among the general population . AIDS became a significant problem for the region , particularly in Côte d'Ivoire , Liberia , and Nigeria . The onset of the HIV epidemic in the region began in 1985 with reported cases in Benin and Nigeri , and in nearby countries, such as Côte d'Ivoire, in subsequent years ."
+        },
+        {
+          "role": "user",
+          "content": "Is there a cure for HIV?"
+        },
+        {
+          "role": "assistant",
+          "content": "With proper medical care, HIV can be controlled. It was reported in  October 2011 that  the anti-HIV drug tenofovir , when used topically in a microbicidal vaginal gel  reduce herpes virus sexual transmission by 51 % . Also  a genetic approach involving intrabodies that block CCR5 expression has been proposed as a treatment for HIV - 1 infected individuals . Some good results were reported in 2014 when enrollment of HIV - positive patients in a clinical trial was started in 2009 in which the patients ' cells were genetically modified with a zinc finger nuclease to carry the CCR5 - Δ32 trait and then reintroduced into the body as a potential HIV treatment ."
+        },
+        {
+          "role": "user",
+          "content": "Is Herpes a lethal disease and how is it transmitted?"
+        },
+        {
+          "role": "assistant",
+          "content": "Herpes is not generally considered a lethal disease .There are two types of herpes simplex virus , type 1 ( HSV - 1 ) and type 2 ( HSV - 2 ) . HSV - 1 more commonly causes infections around the mouth while HSV - 2 more commonly causes genital infections.Herpes is contracted through direct contact with an active lesion or body fluid of an infected person . Herpes transmission occurs between discordant partners; a person with a history of infection ( HSV seropositive ) can pass the virus to an HSV seronegative person . Herpes simplex virus type 2 is typically contracted through direct skin - to - skin contact with an infected individual , but can also be contracted by exposure to infected saliva , semen , vaginal fluid , or the fluid from herpetic blisters. However , asymptomatic carriers of the HSV - 2 virus are still contagious . In many infections , the first symptom people will have of their own infections is the horizontal transmission to a sexual partner or the vertical transmission of neonatal herpes to a newborn at term . Since most asymptomatic individuals are unaware of their infection , they are considered at high risk for spreading HSV ."
+        },
+        {
+          "role": "user",
+          "content": "Is there a vaccine for Herper, how can it be prevent?"
+        },
+        {
+          "role": "assistant",
+          "content": "Currently, there is no available vaccine  and there is no cure  for Herpes simplex virus (HSV) but Herpes simplex research has gone into vaccines for both prevention and treatment of herpes infections . Nevertheless the most effective method to avoid to get Herpes simplex  is  avoiding vaginal , oral , and anal sex . The use of condoms  decreases the risk somewhat . Daily antiviral medication taken by someone who has the infection can also reduce spread. "
+        }
+      ],
+      "retrieval": {
+        "query": "Speaking about vaccines, how are they made?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "855533381_55716-57147-0-1431",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Virus Vaccination is a cheap and effective way of preventing infections by viruses . Vaccines were used to prevent viral infections long before the discovery of the actual viruses . Their use has resulted in a dramatic decline in morbidity ( illness ) and mortality ( death ) associated with viral infections such as polio , measles , mumps and rubella . Smallpox infections have been eradicated . Vaccines are available to prevent over thirteen viral infections of humans , and more are used to prevent viral infections of animals . Vaccines can consist of live - attenuated or killed viruses , or viral proteins ( antigens ) . Live vaccines contain weakened forms of the virus , which do not cause the disease but , nonetheless , confer immunity . Such viruses are called attenuated . Live vaccines can be dangerous when given to people with a weak immunity ( who are described as immunocompromised ) , because in these people , the weakened virus can cause the original disease . Biotechnology and genetic engineering techniques are used to produce subunit vaccines . These vaccines use only the capsid proteins of the virus . Hepatitis B vaccine is an example of this type of vaccine . Subunit vaccines are safe for immunocompromised patients because they can not cause the disease . The yellow fever virus vaccine , a live - attenuated strain called 17D , is probably the safest and most effective vaccine ever generated . Antiviral",
+            "title": "Virus"
+          },
+          {
+            "rank": 2,
+            "doc_id": "809803788_29781-30263-0-482",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Smallpox vaccine In May 2007 , the Vaccines and Related Biological Products Advisory Committee of the FDA voted unanimously that a new live virus vaccine produced by Acambis , ACAM2000 , is both safe and effective for use in persons at high risk of exposure to smallpox virus . However , due to the high rate of serious adverse effects , the vaccine will only be made available to the CDC ( a part of the United States Department of Health and Human Services ) for the Strategic National Stockpile .",
+            "title": "Smallpox vaccine"
+          },
+          {
+            "rank": 3,
+            "doc_id": "809803788_24439-25514-0-1075",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Smallpox vaccine A major contribution to smallpox vaccination was made in the 1960s by Benjamin Rubin , an American microbiologist working for Wyeth Laboratories . Based on initial tests with textile needles with the eyes cut off transversely half - way he developed the bifurcated needle . This was a sharpened two - prong fork designed to hold one dose of reconstituted freeze - dried vaccine by capillarity . Easy to use with minimum training , cheap to produce ( $5 per 1000 ) , using 4 times less vaccine than other methods , and repeatedly re-usable after flame sterilization , it was used globally in the WHO Smallpox Eradication Campaign from 1968 . Rubin estimated that it was used to do 200 million vaccinations per year during the last years of the campaign . Those closely involved in the campaign were awarded the `` Order of the Bifurcated Needle '' . This , a personal initiative by Donald Henderson , was a lapel badge , designed and made by his daughter , formed from the needle shaped to form an `` O '' . This represented `` Target Zero '' , the objective of the campaign .",
+            "title": "Smallpox vaccine"
+          },
+          {
+            "rank": 4,
+            "doc_id": "809803788_24157-24438-0-281",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Smallpox vaccine Smallpox vaccine was inoculated by scratches into the superficial layers of the skin and a wide variety of instruments was used to achieve this . They ranged from simple needles to multi-pointed and multi-bladed spring - operated instruments specifically designed for the purpose .",
+            "title": "Smallpox vaccine"
+          },
+          {
+            "rank": 5,
+            "doc_id": "809803788_20980-22719-0-1739",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Smallpox vaccine Vaccine produced by Copeman 's method was the only type issued free to public vaccinators by the English Government Vaccine Establishment from 1899 . At the same time the 1898 Vaccination Act banned arm - to - arm vaccination , thus preventing transmission of syphilis by this vaccine . However , private practitioners had to purchase vaccine from commercial producers . Although proper use of glycerine reduced bacterial contamination considerably the crude starting material , scraped from the skin of infected calves , was always heavily contaminated and no vaccine was totally free from bacteria . A survey of vaccines in 1900 found wide variations in bacterial contamination . Vaccine issued by the Government Vaccine Establishment contained 5,000 bacteria per gram , while commercial vaccines contained up to 100,000 per gram . The level of bacterial contamination remained unregulated until the Therapeutic Substances Act , 1925 set an upper limit of 5,000 per gram , and rejected any batch of vaccine found to contain the causative organisms of erysipelas or wound infections . Unfortunately glycerolated vaccine soon lost its potency at ambient temperatures which restricted its use in tropical climates . However , it remained in use into the 1970s where a satisfactory cold chain was available . Animals continued to be widely used by vaccine producers during the Smallpox Eradication Campaign . A WHO survey of 59 producers , some of whom used more than one source of vaccine , found that 39 used calves , 12 used sheep and 6 used water buffalo , whilst only 3 made vaccine in cell culture and 3 in embryonated hens ' eggs . English vaccine was occasionally made in sheep during World War I but from 1946 only sheep were used .",
+            "title": "Smallpox vaccine"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "855533381_55716-57147-0-1431",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Virus Vaccination is a cheap and effective way of preventing infections by viruses . Vaccines were used to prevent viral infections long before the discovery of the actual viruses . Their use has resulted in a dramatic decline in morbidity ( illness ) and mortality ( death ) associated with viral infections such as polio , measles , mumps and rubella . Smallpox infections have been eradicated . Vaccines are available to prevent over thirteen viral infections of humans , and more are used to prevent viral infections of animals . Vaccines can consist of live - attenuated or killed viruses , or viral proteins ( antigens ) . Live vaccines contain weakened forms of the virus , which do not cause the disease but , nonetheless , confer immunity . Such viruses are called attenuated . Live vaccines can be dangerous when given to people with a weak immunity ( who are described as immunocompromised ) , because in these people , the weakened virus can cause the original disease . Biotechnology and genetic engineering techniques are used to produce subunit vaccines . These vaccines use only the capsid proteins of the virus . Hepatitis B vaccine is an example of this type of vaccine . Subunit vaccines are safe for immunocompromised patients because they can not cause the disease . The yellow fever virus vaccine , a live - attenuated strain called 17D , is probably the safest and most effective vaccine ever generated . Antiviral",
+            "title": "Virus"
+          },
+          {
+            "rank": 2,
+            "doc_id": "809803788_29781-30263-0-482",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Smallpox vaccine In May 2007 , the Vaccines and Related Biological Products Advisory Committee of the FDA voted unanimously that a new live virus vaccine produced by Acambis , ACAM2000 , is both safe and effective for use in persons at high risk of exposure to smallpox virus . However , due to the high rate of serious adverse effects , the vaccine will only be made available to the CDC ( a part of the United States Department of Health and Human Services ) for the Strategic National Stockpile .",
+            "title": "Smallpox vaccine"
+          },
+          {
+            "rank": 3,
+            "doc_id": "809803788_24439-25514-0-1075",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Smallpox vaccine A major contribution to smallpox vaccination was made in the 1960s by Benjamin Rubin , an American microbiologist working for Wyeth Laboratories . Based on initial tests with textile needles with the eyes cut off transversely half - way he developed the bifurcated needle . This was a sharpened two - prong fork designed to hold one dose of reconstituted freeze - dried vaccine by capillarity . Easy to use with minimum training , cheap to produce ( $5 per 1000 ) , using 4 times less vaccine than other methods , and repeatedly re-usable after flame sterilization , it was used globally in the WHO Smallpox Eradication Campaign from 1968 . Rubin estimated that it was used to do 200 million vaccinations per year during the last years of the campaign . Those closely involved in the campaign were awarded the `` Order of the Bifurcated Needle '' . This , a personal initiative by Donald Henderson , was a lapel badge , designed and made by his daughter , formed from the needle shaped to form an `` O '' . This represented `` Target Zero '' , the objective of the campaign .",
+            "title": "Smallpox vaccine"
+          },
+          {
+            "rank": 4,
+            "doc_id": "809803788_24157-24438-0-281",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Smallpox vaccine Smallpox vaccine was inoculated by scratches into the superficial layers of the skin and a wide variety of instruments was used to achieve this . They ranged from simple needles to multi-pointed and multi-bladed spring - operated instruments specifically designed for the purpose .",
+            "title": "Smallpox vaccine"
+          },
+          {
+            "rank": 5,
+            "doc_id": "809803788_20980-22719-0-1739",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Smallpox vaccine Vaccine produced by Copeman 's method was the only type issued free to public vaccinators by the English Government Vaccine Establishment from 1899 . At the same time the 1898 Vaccination Act banned arm - to - arm vaccination , thus preventing transmission of syphilis by this vaccine . However , private practitioners had to purchase vaccine from commercial producers . Although proper use of glycerine reduced bacterial contamination considerably the crude starting material , scraped from the skin of infected calves , was always heavily contaminated and no vaccine was totally free from bacteria . A survey of vaccines in 1900 found wide variations in bacterial contamination . Vaccine issued by the Government Vaccine Establishment contained 5,000 bacteria per gram , while commercial vaccines contained up to 100,000 per gram . The level of bacterial contamination remained unregulated until the Therapeutic Substances Act , 1925 set an upper limit of 5,000 per gram , and rejected any batch of vaccine found to contain the causative organisms of erysipelas or wound infections . Unfortunately glycerolated vaccine soon lost its potency at ambient temperatures which restricted its use in tropical climates . However , it remained in use into the 1970s where a satisfactory cold chain was available . Animals continued to be widely used by vaccine producers during the Smallpox Eradication Campaign . A WHO survey of 59 producers , some of whom used more than one source of vaccine , found that 39 used calves , 12 used sheep and 6 used water buffalo , whilst only 3 made vaccine in cell culture and 3 in embryonated hens ' eggs . English vaccine was occasionally made in sheep during World War I but from 1946 only sheep were used .",
+            "title": "Smallpox vaccine"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Assistant: Vaccines are important in protecting against a wide range of diseases.Vaccines are made from a variety of different methods.One of the most common ways is to use a weakened or killed form of the virus.This allows the body to build up an immune response without actually getting the disease.Another way is to use a part of the virus, such as a protein or an antigen, to create an immune response.This is called a subunit vaccine.There are also vaccines that use a person's own immune system to create a response.This is called a recombinant vaccine.Finally, there are vaccines that use a person's own cells to create a response.This is called a cell-based vaccine.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "855533381_55716-57147-0-1431",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Virus Vaccination is a cheap and effective way of preventing infections by viruses . Vaccines were used to prevent viral infections long before the discovery of the actual viruses . Their use has resulted in a dramatic decline in morbidity ( illness ) and mortality ( death ) associated with viral infections such as polio , measles , mumps and rubella . Smallpox infections have been eradicated . Vaccines are available to prevent over thirteen viral infections of humans , and more are used to prevent viral infections of animals . Vaccines can consist of live - attenuated or killed viruses , or viral proteins ( antigens ) . Live vaccines contain weakened forms of the virus , which do not cause the disease but , nonetheless , confer immunity . Such viruses are called attenuated . Live vaccines can be dangerous when given to people with a weak immunity ( who are described as immunocompromised ) , because in these people , the weakened virus can cause the original disease . Biotechnology and genetic engineering techniques are used to produce subunit vaccines . These vaccines use only the capsid proteins of the virus . Hepatitis B vaccine is an example of this type of vaccine . Subunit vaccines are safe for immunocompromised patients because they can not cause the disease . The yellow fever virus vaccine , a live - attenuated strain called 17D , is probably the safest and most effective vaccine ever generated . Antiviral",
+          "title": "Virus"
+        },
+        {
+          "rank": 2,
+          "doc_id": "809803788_29781-30263-0-482",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Smallpox vaccine In May 2007 , the Vaccines and Related Biological Products Advisory Committee of the FDA voted unanimously that a new live virus vaccine produced by Acambis , ACAM2000 , is both safe and effective for use in persons at high risk of exposure to smallpox virus . However , due to the high rate of serious adverse effects , the vaccine will only be made available to the CDC ( a part of the United States Department of Health and Human Services ) for the Strategic National Stockpile .",
+          "title": "Smallpox vaccine"
+        },
+        {
+          "rank": 3,
+          "doc_id": "809803788_24439-25514-0-1075",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Smallpox vaccine A major contribution to smallpox vaccination was made in the 1960s by Benjamin Rubin , an American microbiologist working for Wyeth Laboratories . Based on initial tests with textile needles with the eyes cut off transversely half - way he developed the bifurcated needle . This was a sharpened two - prong fork designed to hold one dose of reconstituted freeze - dried vaccine by capillarity . Easy to use with minimum training , cheap to produce ( $5 per 1000 ) , using 4 times less vaccine than other methods , and repeatedly re-usable after flame sterilization , it was used globally in the WHO Smallpox Eradication Campaign from 1968 . Rubin estimated that it was used to do 200 million vaccinations per year during the last years of the campaign . Those closely involved in the campaign were awarded the `` Order of the Bifurcated Needle '' . This , a personal initiative by Donald Henderson , was a lapel badge , designed and made by his daughter , formed from the needle shaped to form an `` O '' . This represented `` Target Zero '' , the objective of the campaign .",
+          "title": "Smallpox vaccine"
+        },
+        {
+          "rank": 4,
+          "doc_id": "809803788_24157-24438-0-281",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Smallpox vaccine Smallpox vaccine was inoculated by scratches into the superficial layers of the skin and a wide variety of instruments was used to achieve this . They ranged from simple needles to multi-pointed and multi-bladed spring - operated instruments specifically designed for the purpose .",
+          "title": "Smallpox vaccine"
+        },
+        {
+          "rank": 5,
+          "doc_id": "809803788_20980-22719-0-1739",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Smallpox vaccine Vaccine produced by Copeman 's method was the only type issued free to public vaccinators by the English Government Vaccine Establishment from 1899 . At the same time the 1898 Vaccination Act banned arm - to - arm vaccination , thus preventing transmission of syphilis by this vaccine . However , private practitioners had to purchase vaccine from commercial producers . Although proper use of glycerine reduced bacterial contamination considerably the crude starting material , scraped from the skin of infected calves , was always heavily contaminated and no vaccine was totally free from bacteria . A survey of vaccines in 1900 found wide variations in bacterial contamination . Vaccine issued by the Government Vaccine Establishment contained 5,000 bacteria per gram , while commercial vaccines contained up to 100,000 per gram . The level of bacterial contamination remained unregulated until the Therapeutic Substances Act , 1925 set an upper limit of 5,000 per gram , and rejected any batch of vaccine found to contain the causative organisms of erysipelas or wound infections . Unfortunately glycerolated vaccine soon lost its potency at ambient temperatures which restricted its use in tropical climates . However , it remained in use into the 1970s where a satisfactory cold chain was available . Animals continued to be widely used by vaccine producers during the Smallpox Eradication Campaign . A WHO survey of 59 producers , some of whom used more than one source of vaccine , found that 39 used calves , 12 used sheep and 6 used water buffalo , whilst only 3 made vaccine in cell culture and 3 in embryonated hens ' eggs . English vaccine was occasionally made in sheep during World War I but from 1946 only sheep were used .",
+          "title": "Smallpox vaccine"
+        }
+      ],
+      "reference": {
+        "answer": "Vaccines can consist of live - attenuated or killed viruses , or viral proteins ( antigens ) . Live vaccines contain weakened forms of the virus , which do not cause the disease but, nonetheless , confer immunity . Such viruses are called attenuated . Live vaccines can be dangerous when given to people with a weak immunity ( who are described as immunocompromised ) , because in these people , the weakened virus can cause the original disease . Biotechnology and genetic engineering techniques are used to produce subunit vaccines . These vaccines use only the capsid proteins of the virus . Hepatitis B vaccine is an example of this type of vaccine . Subunit vaccines are safe for immunocompromised patients because they can not cause the disease. ",
+        "evidence_ids": [
+          "855533381_55716-57147-0-1431"
+        ],
+        "evidence": [
+          {
+            "doc_id": "855533381_55716-57147-0-1431",
+            "text": "Virus\nVirus\nVaccination is a cheap and effective way of preventing infections by viruses . Vaccines were used to prevent viral infections long before the discovery of the actual viruses . Their use has resulted in a dramatic decline in morbidity ( illness ) and mortality ( death ) associated with viral infections such as polio , measles , mumps and rubella . Smallpox infections have been eradicated . Vaccines are available to prevent over thirteen viral infections of humans , and more are used to prevent viral infections of animals . Vaccines can consist of live - attenuated or killed viruses , or viral proteins ( antigens ) . Live vaccines contain weakened forms of the virus , which do not cause the disease but , nonetheless , confer immunity . Such viruses are called attenuated . Live vaccines can be dangerous when given to people with a weak immunity ( who are described as immunocompromised ) , because in these people , the weakened virus can cause the original disease . Biotechnology and genetic engineering techniques are used to produce subunit vaccines . These vaccines use only the capsid proteins of the virus . Hepatitis B vaccine is an example of this type of vaccine . Subunit vaccines are safe for immunocompromised patients because they can not cause the disease . The yellow fever virus vaccine , a live - attenuated strain called 17D , is probably the safest and most effective vaccine ever generated . Antiviral"
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "How-To"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    }
+  ]
+}

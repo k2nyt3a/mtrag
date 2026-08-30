@@ -1,0 +1,1857 @@
+{
+  "conversation_id": "d5f0e7023ab90fe0240b7fc46cf00c26",
+  "dataset": "clapnq",
+  "collection": "mt-rag-clapnq-elser-512-100-20240503",
+  "rag": "selfrag",
+  "num_turns": 9,
+  "turns": [
+    {
+      "turn_id": "1",
+      "task_id": "d5f0e7023ab90fe0240b7fc46cf00c26<::>1",
+      "question": "where does the penobscot river start and end",
+      "rag_history_before_turn": [],
+      "retrieval": {
+        "query": "where does the penobscot river start and end",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "798401030_718-1091-0-369",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Penobscot River The Penobscot River / pəˈnɒbskət / is a 109 - mile - long ( 175 km ) river in the U.S. state of Maine . Including the river 's West Branch and South Branch increases the Penobscot 's length to 264 miles ( 425 km ) , making it the second longest river system in Maine and the longest entirely in the state . Its drainage basin contains 8,610 square miles ( 22,300 km ) .",
+            "title": "Penobscot River"
+          },
+          {
+            "rank": 2,
+            "doc_id": "798401030_1092-1671-0-563",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Penobscot River It arises from four branches in several lakes in north - central Maine , which flow generally east . After the uniting of the West Branch with the East Branch at Medway ( 45 ° 36 ′ 14 '' N 68 ° 31 ′ 52 '' W ﻿ / ﻿ 45.604 ° N 68.531 ° W ﻿ / 45.604 ; - 68.531 ﻿ ( Penobscot River source ) ) , the Penobscot flows 109 miles ( 175 km ) south , past the city of Bangor , where it becomes navigable . Also at Bangor is the tributary Kenduskeag Stream . It empties into the Atlantic Ocean in Penobscot Bay . It is home to the Penobscot people that live on Indian Island .",
+            "title": "Penobscot River"
+          },
+          {
+            "rank": 3,
+            "doc_id": "798401030_74-671-0-569",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Penobscot River Penobscot River The Penobscot River watershed Country United States Physical characteristics Main source Maine River mouth Penobscot Bay sea level 44 ° 26 ′ N 68 ° 50 ′ W ﻿ / ﻿ 44.44 ° N 68.83 ° W ﻿ / 44.44 ; - 68.83 Coordinates : 44 ° 26 ′ N 68 ° 50 ′ W ﻿ / ﻿ 44.44 ° N 68.83 ° W ﻿ / 44.44 ; - 68.83 Length 109 miles ( 175 km ) Discharge Average rate : 12,080 cu ft / s ( 342 m / s ) Basin features Basin size 8,610 sq mi ( 22,300 km ) Tributaries Left : East Branch Penobscot River , Mattawamkeag River Right : West Branch Penobscot River , Piscataquis River Panorama",
+            "title": "Penobscot River"
+          },
+          {
+            "rank": 4,
+            "doc_id": "798401030_3323-4098-0-775",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Penobscot River The Penobscot River was an early trade corridor to interior Maine from the Atlantic coast . Ocean ships could navigate upstream to Bangor . The cities of Rockland , Belfast , Brewer and Bangor , and the towns of Rockport , Camden , Northport , Searsport , Stockton Springs , Castine , Bucksport , Frankfort , Winterport , Orrington , and Hampden developed adjacent to the Penobscot River estuary . The river upstream of Bangor became an important transportation corridor for log driving to bring wooden logs and pulpwood from interior forests to sawmills and paper mills built to use water power where the city of Howland and the towns of Veazie , Orono , Old Town , Milford , Passadumkeag , West Enfield , Lincoln , Winn , Mattawamkeag , Medway , and Millinocket developed .",
+            "title": "Penobscot River"
+          },
+          {
+            "rank": 5,
+            "doc_id": "798401030_7016-7419-0-403",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Penobscot River In the 19th century the river was a conduit for the transport of logs from Maine 's Great North Woods , to be sawn into lumber at mills around Old Town and Orono , and transported on ships from Bangor , at the head of tide . ( The average high tide at Bangor is 13 feet ( 4 m ) as of 2009 . ) A secondary economic use made of the river late in the century was as a source of sawn ice for urban markets .",
+            "title": "Penobscot River"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "798401030_718-1091-0-369",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Penobscot River The Penobscot River / pəˈnɒbskət / is a 109 - mile - long ( 175 km ) river in the U.S. state of Maine . Including the river 's West Branch and South Branch increases the Penobscot 's length to 264 miles ( 425 km ) , making it the second longest river system in Maine and the longest entirely in the state . Its drainage basin contains 8,610 square miles ( 22,300 km ) .",
+            "title": "Penobscot River"
+          },
+          {
+            "rank": 2,
+            "doc_id": "798401030_1092-1671-0-563",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Penobscot River It arises from four branches in several lakes in north - central Maine , which flow generally east . After the uniting of the West Branch with the East Branch at Medway ( 45 ° 36 ′ 14 '' N 68 ° 31 ′ 52 '' W ﻿ / ﻿ 45.604 ° N 68.531 ° W ﻿ / 45.604 ; - 68.531 ﻿ ( Penobscot River source ) ) , the Penobscot flows 109 miles ( 175 km ) south , past the city of Bangor , where it becomes navigable . Also at Bangor is the tributary Kenduskeag Stream . It empties into the Atlantic Ocean in Penobscot Bay . It is home to the Penobscot people that live on Indian Island .",
+            "title": "Penobscot River"
+          },
+          {
+            "rank": 3,
+            "doc_id": "798401030_74-671-0-569",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Penobscot River Penobscot River The Penobscot River watershed Country United States Physical characteristics Main source Maine River mouth Penobscot Bay sea level 44 ° 26 ′ N 68 ° 50 ′ W ﻿ / ﻿ 44.44 ° N 68.83 ° W ﻿ / 44.44 ; - 68.83 Coordinates : 44 ° 26 ′ N 68 ° 50 ′ W ﻿ / ﻿ 44.44 ° N 68.83 ° W ﻿ / 44.44 ; - 68.83 Length 109 miles ( 175 km ) Discharge Average rate : 12,080 cu ft / s ( 342 m / s ) Basin features Basin size 8,610 sq mi ( 22,300 km ) Tributaries Left : East Branch Penobscot River , Mattawamkeag River Right : West Branch Penobscot River , Piscataquis River Panorama",
+            "title": "Penobscot River"
+          },
+          {
+            "rank": 4,
+            "doc_id": "798401030_3323-4098-0-775",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Penobscot River The Penobscot River was an early trade corridor to interior Maine from the Atlantic coast . Ocean ships could navigate upstream to Bangor . The cities of Rockland , Belfast , Brewer and Bangor , and the towns of Rockport , Camden , Northport , Searsport , Stockton Springs , Castine , Bucksport , Frankfort , Winterport , Orrington , and Hampden developed adjacent to the Penobscot River estuary . The river upstream of Bangor became an important transportation corridor for log driving to bring wooden logs and pulpwood from interior forests to sawmills and paper mills built to use water power where the city of Howland and the towns of Veazie , Orono , Old Town , Milford , Passadumkeag , West Enfield , Lincoln , Winn , Mattawamkeag , Medway , and Millinocket developed .",
+            "title": "Penobscot River"
+          },
+          {
+            "rank": 5,
+            "doc_id": "798401030_7016-7419-0-403",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Penobscot River In the 19th century the river was a conduit for the transport of logs from Maine 's Great North Woods , to be sawn into lumber at mills around Old Town and Orono , and transported on ships from Bangor , at the head of tide . ( The average high tide at Bangor is 13 feet ( 4 m ) as of 2009 . ) A secondary economic use made of the river late in the century was as a source of sawn ice for urban markets .",
+            "title": "Penobscot River"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Maine",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "798401030_718-1091-0-369",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Penobscot River The Penobscot River / pəˈnɒbskət / is a 109 - mile - long ( 175 km ) river in the U.S. state of Maine . Including the river 's West Branch and South Branch increases the Penobscot 's length to 264 miles ( 425 km ) , making it the second longest river system in Maine and the longest entirely in the state . Its drainage basin contains 8,610 square miles ( 22,300 km ) .",
+          "title": "Penobscot River"
+        },
+        {
+          "rank": 2,
+          "doc_id": "798401030_1092-1671-0-563",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Penobscot River It arises from four branches in several lakes in north - central Maine , which flow generally east . After the uniting of the West Branch with the East Branch at Medway ( 45 ° 36 ′ 14 '' N 68 ° 31 ′ 52 '' W ﻿ / ﻿ 45.604 ° N 68.531 ° W ﻿ / 45.604 ; - 68.531 ﻿ ( Penobscot River source ) ) , the Penobscot flows 109 miles ( 175 km ) south , past the city of Bangor , where it becomes navigable . Also at Bangor is the tributary Kenduskeag Stream . It empties into the Atlantic Ocean in Penobscot Bay . It is home to the Penobscot people that live on Indian Island .",
+          "title": "Penobscot River"
+        },
+        {
+          "rank": 3,
+          "doc_id": "798401030_74-671-0-569",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Penobscot River Penobscot River The Penobscot River watershed Country United States Physical characteristics Main source Maine River mouth Penobscot Bay sea level 44 ° 26 ′ N 68 ° 50 ′ W ﻿ / ﻿ 44.44 ° N 68.83 ° W ﻿ / 44.44 ; - 68.83 Coordinates : 44 ° 26 ′ N 68 ° 50 ′ W ﻿ / ﻿ 44.44 ° N 68.83 ° W ﻿ / 44.44 ; - 68.83 Length 109 miles ( 175 km ) Discharge Average rate : 12,080 cu ft / s ( 342 m / s ) Basin features Basin size 8,610 sq mi ( 22,300 km ) Tributaries Left : East Branch Penobscot River , Mattawamkeag River Right : West Branch Penobscot River , Piscataquis River Panorama",
+          "title": "Penobscot River"
+        },
+        {
+          "rank": 4,
+          "doc_id": "798401030_3323-4098-0-775",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Penobscot River The Penobscot River was an early trade corridor to interior Maine from the Atlantic coast . Ocean ships could navigate upstream to Bangor . The cities of Rockland , Belfast , Brewer and Bangor , and the towns of Rockport , Camden , Northport , Searsport , Stockton Springs , Castine , Bucksport , Frankfort , Winterport , Orrington , and Hampden developed adjacent to the Penobscot River estuary . The river upstream of Bangor became an important transportation corridor for log driving to bring wooden logs and pulpwood from interior forests to sawmills and paper mills built to use water power where the city of Howland and the towns of Veazie , Orono , Old Town , Milford , Passadumkeag , West Enfield , Lincoln , Winn , Mattawamkeag , Medway , and Millinocket developed .",
+          "title": "Penobscot River"
+        },
+        {
+          "rank": 5,
+          "doc_id": "798401030_7016-7419-0-403",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Penobscot River In the 19th century the river was a conduit for the transport of logs from Maine 's Great North Woods , to be sawn into lumber at mills around Old Town and Orono , and transported on ships from Bangor , at the head of tide . ( The average high tide at Bangor is 13 feet ( 4 m ) as of 2009 . ) A secondary economic use made of the river late in the century was as a source of sawn ice for urban markets .",
+          "title": "Penobscot River"
+        }
+      ],
+      "reference": {
+        "answer": "The Penobscot River originates from four branches in various lakes in north-central Maine. It specifically begins where the West Branch meets the East Branch at Medway. The river flows into the Atlantic Ocean at Penobscot Bay, and historically served as an important trade route from the Atlantic coast to interior Maine.\n",
+        "evidence_ids": [
+          "798401030_1092-1671-0-563",
+          "798401030_3323-4098-0-775"
+        ],
+        "evidence": [
+          {
+            "doc_id": "798401030_1092-1671-0-563",
+            "text": "Penobscot River\nPenobscot River\nIt arises from four branches in several lakes in north - central Maine , which flow generally east . After the uniting of the West Branch with the East Branch at Medway ( 45 ° 36 ′ 14 '' N 68 ° 31 ′ 52 '' W ﻿ / ﻿ 45.604 ° N 68.531 ° W ﻿ / 45.604 ; - 68.531 ﻿ ( Penobscot River source ) ) , the Penobscot flows 109 miles ( 175 km ) south , past the city of Bangor , where it becomes navigable . Also at Bangor is the tributary Kenduskeag Stream . It empties into the Atlantic Ocean in Penobscot Bay . It is home to the Penobscot people that live on Indian Island ."
+          },
+          {
+            "doc_id": "798401030_3323-4098-0-775",
+            "text": "Penobscot River\nPenobscot River\nThe Penobscot River was an early trade corridor to interior Maine from the Atlantic coast . Ocean ships could navigate upstream to Bangor . The cities of Rockland , Belfast , Brewer and Bangor , and the towns of Rockport , Camden , Northport , Searsport , Stockton Springs , Castine , Bucksport , Frankfort , Winterport , Orrington , and Hampden developed adjacent to the Penobscot River estuary . The river upstream of Bangor became an important transportation corridor for log driving to bring wooden logs and pulpwood from interior forests to sawmills and paper mills built to use water power where the city of Howland and the towns of Veazie , Orono , Old Town , Milford , Passadumkeag , West Enfield , Lincoln , Winn , Mattawamkeag , Medway , and Millinocket developed ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Summarization"
+        ],
+        "multi_turn": [
+          "N/A"
+        ]
+      }
+    },
+    {
+      "turn_id": "2",
+      "task_id": "d5f0e7023ab90fe0240b7fc46cf00c26<::>2",
+      "question": "The West branch.",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "where does the penobscot river start and end"
+        },
+        {
+          "role": "assistant",
+          "content": "The Penobscot River originates from four branches in various lakes in north-central Maine. It specifically begins where the West Branch meets the East Branch at Medway. The river flows into the Atlantic Ocean at Penobscot Bay, and historically served as an important trade route from the Atlantic coast to interior Maine.\n"
+        }
+      ],
+      "retrieval": {
+        "query": "The West branch.",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "798401030_11535-12114-0-579",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Penobscot River Some of the river 's rapids are class IV or even V , making this one of the roughest rivers in the area , which attracts many whitewater rafters . Until 1971 the West Branch was the main thoroughfare for the Great Northern Paper Company to sluice its logs to its mill in Millinocket , Maine . In 1971 Great Northern opened the Golden Road ( Maine ) for transporting the logs . The road parallels the river . The paper industry has been greatly diminished and the Millinocket mill is in the process of being torn down . The road now is extensively used by sportsmen on the river .",
+            "title": "Penobscot River"
+          },
+          {
+            "rank": 2,
+            "doc_id": "852181193_11222-11720-0-498",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Delaware River Similarly , the East Branch begins from a small pond south of Grand Gorge in the town of Roxbury in Delaware County , flowing southwest toward its impoundment by New York City to create the Pepacton Reservoir , the largest reservoir in the New York City water supply system . Its tributaries are the Beaver Kill River and the Willowemoc Creek which enter into the river ten miles ( 16 km ) before the West Branch meets the East Branch . The confluence of the two branches is just south of Hancock .",
+            "title": "Delaware River"
+          },
+          {
+            "rank": 3,
+            "doc_id": "852181193_9725-11116-0-1391",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Delaware River The West Branch rises in Schoharie County , New York at 1,886 feet ( 575 m ) above sea level , near Mount Jefferson , and flows tortuously through the plateau in a deep trough . The branch flows generally southwest , entering Delaware County and flowing through the towns of Stamford and Delhi . In southwestern Delaware County it flows in an increasingly winding course through the mountains , generally southwest . At Stilesville the West Branch was impounded in the 1960s to form the Cannonsville Reservoir , the westernmost of the reservoirs in the New York City water system . It is the most recently constructed New York City reservoir and began serving the city in 1964 . Draining a large watershed of 455 square miles ( 1,180 km ) , the reservoir 's capacity is 95.7 billion US gallons ( 362,000,000 m ) . This water flows over halfway through the reservoir to enter the 44 - mile ( 71 km ) West Delaware Tunnel in Tompkins , New York . Then it flows through the aqueduct into the Rondout Reservoir , where the water enters the 85 miles ( 137 km ) Delaware Aqueduct , that contributes to roughly 50 % of the city 's drinking water supply . At Deposit , on the border between Broome and Delaware counties , it turns sharply to the southeast and is paralleled by New York State Route 17 . It joins the East Branch at 880 feet ( 270 m ) above sea level at Hancock to form the Delaware .",
+            "title": "Delaware River"
+          },
+          {
+            "rank": 4,
+            "doc_id": "798401030_10773-11534-0-761",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Penobscot River The West Branch is home to many types of fish such as landlocked salmon and Brook Trout . There are many deep pools within the river , due to the many slate ledges , making the river ideal for fishing from shore , though there are still areas that are good for canoe fishing . The river is great for a day fishing trip , however there are a few campsites located sporadically around for people who wish to stay more than one day . With the Ripogenus Dam by Chesuncook Lake , the West Branch is able to sustain the large landlocked salmon found there , with twelve miles of heavy rapids , deep runs , large pools , and slower moving water in some sections . Baxter State Park to the north adds to the natural beauty of the area , and natural protection as well .",
+            "title": "Penobscot River"
+          },
+          {
+            "rank": 5,
+            "doc_id": "798401030_10436-10772-0-336",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Penobscot River Angling , especially fly fishing , has always been popular on the river . The West Branch is known as a world class landlocked salmon river , while the East Branch is known for its smallmouth bass fishery . In 2008 , the Atlantic Salmon Commission opened the main stem of the river to catch and release fly fishing for Atlantic salmon .",
+            "title": "Penobscot River"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "798401030_11535-12114-0-579",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Penobscot River Some of the river 's rapids are class IV or even V , making this one of the roughest rivers in the area , which attracts many whitewater rafters . Until 1971 the West Branch was the main thoroughfare for the Great Northern Paper Company to sluice its logs to its mill in Millinocket , Maine . In 1971 Great Northern opened the Golden Road ( Maine ) for transporting the logs . The road parallels the river . The paper industry has been greatly diminished and the Millinocket mill is in the process of being torn down . The road now is extensively used by sportsmen on the river .",
+            "title": "Penobscot River"
+          },
+          {
+            "rank": 2,
+            "doc_id": "852181193_11222-11720-0-498",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Delaware River Similarly , the East Branch begins from a small pond south of Grand Gorge in the town of Roxbury in Delaware County , flowing southwest toward its impoundment by New York City to create the Pepacton Reservoir , the largest reservoir in the New York City water supply system . Its tributaries are the Beaver Kill River and the Willowemoc Creek which enter into the river ten miles ( 16 km ) before the West Branch meets the East Branch . The confluence of the two branches is just south of Hancock .",
+            "title": "Delaware River"
+          },
+          {
+            "rank": 3,
+            "doc_id": "852181193_9725-11116-0-1391",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Delaware River The West Branch rises in Schoharie County , New York at 1,886 feet ( 575 m ) above sea level , near Mount Jefferson , and flows tortuously through the plateau in a deep trough . The branch flows generally southwest , entering Delaware County and flowing through the towns of Stamford and Delhi . In southwestern Delaware County it flows in an increasingly winding course through the mountains , generally southwest . At Stilesville the West Branch was impounded in the 1960s to form the Cannonsville Reservoir , the westernmost of the reservoirs in the New York City water system . It is the most recently constructed New York City reservoir and began serving the city in 1964 . Draining a large watershed of 455 square miles ( 1,180 km ) , the reservoir 's capacity is 95.7 billion US gallons ( 362,000,000 m ) . This water flows over halfway through the reservoir to enter the 44 - mile ( 71 km ) West Delaware Tunnel in Tompkins , New York . Then it flows through the aqueduct into the Rondout Reservoir , where the water enters the 85 miles ( 137 km ) Delaware Aqueduct , that contributes to roughly 50 % of the city 's drinking water supply . At Deposit , on the border between Broome and Delaware counties , it turns sharply to the southeast and is paralleled by New York State Route 17 . It joins the East Branch at 880 feet ( 270 m ) above sea level at Hancock to form the Delaware .",
+            "title": "Delaware River"
+          },
+          {
+            "rank": 4,
+            "doc_id": "798401030_10773-11534-0-761",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Penobscot River The West Branch is home to many types of fish such as landlocked salmon and Brook Trout . There are many deep pools within the river , due to the many slate ledges , making the river ideal for fishing from shore , though there are still areas that are good for canoe fishing . The river is great for a day fishing trip , however there are a few campsites located sporadically around for people who wish to stay more than one day . With the Ripogenus Dam by Chesuncook Lake , the West Branch is able to sustain the large landlocked salmon found there , with twelve miles of heavy rapids , deep runs , large pools , and slower moving water in some sections . Baxter State Park to the north adds to the natural beauty of the area , and natural protection as well .",
+            "title": "Penobscot River"
+          },
+          {
+            "rank": 5,
+            "doc_id": "798401030_10436-10772-0-336",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Penobscot River Angling , especially fly fishing , has always been popular on the river . The West Branch is known as a world class landlocked salmon river , while the East Branch is known for its smallmouth bass fishery . In 2008 , the Atlantic Salmon Commission opened the main stem of the river to catch and release fly fishing for Atlantic salmon .",
+            "title": "Penobscot River"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "What is the West Branch of the Penobscot River?",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "798401030_11535-12114-0-579",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Penobscot River Some of the river 's rapids are class IV or even V , making this one of the roughest rivers in the area , which attracts many whitewater rafters . Until 1971 the West Branch was the main thoroughfare for the Great Northern Paper Company to sluice its logs to its mill in Millinocket , Maine . In 1971 Great Northern opened the Golden Road ( Maine ) for transporting the logs . The road parallels the river . The paper industry has been greatly diminished and the Millinocket mill is in the process of being torn down . The road now is extensively used by sportsmen on the river .",
+          "title": "Penobscot River"
+        },
+        {
+          "rank": 2,
+          "doc_id": "852181193_11222-11720-0-498",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Delaware River Similarly , the East Branch begins from a small pond south of Grand Gorge in the town of Roxbury in Delaware County , flowing southwest toward its impoundment by New York City to create the Pepacton Reservoir , the largest reservoir in the New York City water supply system . Its tributaries are the Beaver Kill River and the Willowemoc Creek which enter into the river ten miles ( 16 km ) before the West Branch meets the East Branch . The confluence of the two branches is just south of Hancock .",
+          "title": "Delaware River"
+        },
+        {
+          "rank": 3,
+          "doc_id": "852181193_9725-11116-0-1391",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Delaware River The West Branch rises in Schoharie County , New York at 1,886 feet ( 575 m ) above sea level , near Mount Jefferson , and flows tortuously through the plateau in a deep trough . The branch flows generally southwest , entering Delaware County and flowing through the towns of Stamford and Delhi . In southwestern Delaware County it flows in an increasingly winding course through the mountains , generally southwest . At Stilesville the West Branch was impounded in the 1960s to form the Cannonsville Reservoir , the westernmost of the reservoirs in the New York City water system . It is the most recently constructed New York City reservoir and began serving the city in 1964 . Draining a large watershed of 455 square miles ( 1,180 km ) , the reservoir 's capacity is 95.7 billion US gallons ( 362,000,000 m ) . This water flows over halfway through the reservoir to enter the 44 - mile ( 71 km ) West Delaware Tunnel in Tompkins , New York . Then it flows through the aqueduct into the Rondout Reservoir , where the water enters the 85 miles ( 137 km ) Delaware Aqueduct , that contributes to roughly 50 % of the city 's drinking water supply . At Deposit , on the border between Broome and Delaware counties , it turns sharply to the southeast and is paralleled by New York State Route 17 . It joins the East Branch at 880 feet ( 270 m ) above sea level at Hancock to form the Delaware .",
+          "title": "Delaware River"
+        },
+        {
+          "rank": 4,
+          "doc_id": "798401030_10773-11534-0-761",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Penobscot River The West Branch is home to many types of fish such as landlocked salmon and Brook Trout . There are many deep pools within the river , due to the many slate ledges , making the river ideal for fishing from shore , though there are still areas that are good for canoe fishing . The river is great for a day fishing trip , however there are a few campsites located sporadically around for people who wish to stay more than one day . With the Ripogenus Dam by Chesuncook Lake , the West Branch is able to sustain the large landlocked salmon found there , with twelve miles of heavy rapids , deep runs , large pools , and slower moving water in some sections . Baxter State Park to the north adds to the natural beauty of the area , and natural protection as well .",
+          "title": "Penobscot River"
+        },
+        {
+          "rank": 5,
+          "doc_id": "798401030_10436-10772-0-336",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Penobscot River Angling , especially fly fishing , has always been popular on the river . The West Branch is known as a world class landlocked salmon river , while the East Branch is known for its smallmouth bass fishery . In 2008 , the Atlantic Salmon Commission opened the main stem of the river to catch and release fly fishing for Atlantic salmon .",
+          "title": "Penobscot River"
+        }
+      ],
+      "reference": {
+        "answer": "The West Branch is home to many types of fish, such as landlocked salmon and brook trout. There are many deep pools within the river due to the many slate ledges, making the river ideal for fishing from shore, although there are still areas that are good for canoe fishing. The West Branch is a world-class landlocked salmon river, while the East Branch is known for its smallmouth bass fishery. In 2008, the Atlantic Salmon Commission opened the main stem of the river to catch and release fly fishing for Atlantic salmon.",
+        "evidence_ids": [
+          "798401030_10436-10772-0-336",
+          "798401030_10773-11534-0-761"
+        ],
+        "evidence": [
+          {
+            "doc_id": "798401030_10436-10772-0-336",
+            "text": "Penobscot River\nPenobscot River\nAngling , especially fly fishing , has always been popular on the river . The West Branch is known as a world class landlocked salmon river , while the East Branch is known for its smallmouth bass fishery . In 2008 , the Atlantic Salmon Commission opened the main stem of the river to catch and release fly fishing for Atlantic salmon ."
+          },
+          {
+            "doc_id": "798401030_10773-11534-0-761",
+            "text": "Penobscot River\nPenobscot River\nThe West Branch is home to many types of fish such as landlocked salmon and Brook Trout . There are many deep pools within the river , due to the many slate ledges , making the river ideal for fishing from shore , though there are still areas that are good for canoe fishing . The river is great for a day fishing trip , however there are a few campsites located sporadically around for people who wish to stay more than one day . With the Ripogenus Dam by Chesuncook Lake , the West Branch is able to sustain the large landlocked salmon found there , with twelve miles of heavy rapids , deep runs , large pools , and slower moving water in some sections . Baxter State Park to the north adds to the natural beauty of the area , and natural protection as well ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Keyword"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "3",
+      "task_id": "d5f0e7023ab90fe0240b7fc46cf00c26<::>3",
+      "question": "Are there any other important river systems?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "where does the penobscot river start and end"
+        },
+        {
+          "role": "assistant",
+          "content": "The Penobscot River originates from four branches in various lakes in north-central Maine. It specifically begins where the West Branch meets the East Branch at Medway. The river flows into the Atlantic Ocean at Penobscot Bay, and historically served as an important trade route from the Atlantic coast to interior Maine.\n"
+        },
+        {
+          "role": "user",
+          "content": "The West branch."
+        },
+        {
+          "role": "assistant",
+          "content": "The West Branch is home to many types of fish, such as landlocked salmon and brook trout. There are many deep pools within the river due to the many slate ledges, making the river ideal for fishing from shore, although there are still areas that are good for canoe fishing. The West Branch is a world-class landlocked salmon river, while the East Branch is known for its smallmouth bass fishery. In 2008, the Atlantic Salmon Commission opened the main stem of the river to catch and release fly fishing for Atlantic salmon."
+        }
+      ],
+      "retrieval": {
+        "query": "Are there any other important river systems?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "825816846_13923-14239-0-314",
+            "score": null,
+            "score_type": "contriever",
+            "text": "River delta Ayeyarwady ( Irrawaddy ) Danube Ebro Fly River Godavari Indus Kaveri Krishna Lena Mackenzie Mekong Mississippi Niger River Nile Ob Orinoco Otter Point Creek Paraná Po Rhine Rhône Sacramento -- San Joaquin Tigris -- Euphrates river system Volga Yangtze Yenisei Yellow River ( also known as Huanghe ) Yukon River The",
+            "title": "River delta"
+          },
+          {
+            "rank": 2,
+            "doc_id": "849961652_18760-19729-0-969",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Wetland Storage reservoirs and flood protection : The wetland system of floodplains is formed from major rivers downstream from their headwaters . Notable river systems that produce large spans of floodplain include the Nile River , the Niger river inland delta , ( the Zambezi River flood plain ) , ( the Okavango River inland delta ) , ( the Kafue River flood plain ) ( the Lake Bangweulu flood plain ) ( Africa ) , Mississippi River ( USA ) , Amazon River ( South America ) , Yangtze River ( China ) , Danube River ( Central Europe ) and Murray - Darling River ( Australia ) . `` The floodplains of major rivers act as natural storage reservoirs , enabling excess water to spread out over a wide area , which reduces its depth and speed . Wetlands close to the headwaters of streams and rivers can slow down rainwater runoff and spring snowmelt so that it does n't run straight off the land into water courses . This can help prevent sudden , damaging floods downstream . ''",
+            "title": "Wetland"
+          },
+          {
+            "rank": 3,
+            "doc_id": "817790267_10519-10929-0-410",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Midwestern United States The Interior Plains are largely coincident with the vast Mississippi River Drainage System ( other major components are the Missouri and Ohio Rivers ) . These rivers have for tens of millions of years been eroding downward into the mostly horizontal sedimentary rocks of Paleozoic , Mesozoic , and Cenozoic ages . The modern Mississippi River system has developed during the Pleistocene Epoch of the Cenozoic .",
+            "title": "Midwestern United States"
+          },
+          {
+            "rank": 4,
+            "doc_id": "804788732_20052-21017-0-965",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Amazon River Although the Amazon river remains largely undammed , around 412 dams are in operation in the Amazon 's tributary rivers . From these 412 dams , 151 are constructed over six of the main tributary rivers that drain into the Amazon . Since only four percent of the Amazon 's hydropower potential has been developed in countries like Brazil , more damming projects are underway and hundreds more are planned . After witnessing the negative effects of environmental degradation , sedimentation , navigation and flood control caused by the Three Gorges Dam in the Yangtze River , scientists are worried that constructing more dams in the Amazon will harm its biodiversity in the same way by `` blocking - fish spawning runs , reducing the flows of vital oil nutrients and clearing forests '' . Damming the Amazon River could potentially bring about the `` end of free flowing rivers '' and contribute to an `` ecosystem collapse '' that will cause major social problems .",
+            "title": "Amazon River"
+          },
+          {
+            "rank": 5,
+            "doc_id": "808377544_3441-4760-0-1319",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Environmental impact of irrigation reduced downstream flooding disappearance of ecologically and economically important wetlands or flood forests reduced availability of industrial , municipal , household , and drinking water reduced shipping routes . Water withdrawal poses a serious threat to the Ganges . In India , barrages control all of the tributaries to the Ganges and divert roughly 60 percent of river flow to irrigation reduced fishing opportunities . The Indus River in Pakistan faces scarcity due to over-extraction of water for agriculture . The Indus is inhabited by 25 amphibian species and 147 fish species of which 22 are found nowhere else in the world . It harbors the endangered Indus River dolphin , one of the world 's rarest mammals . Fish populations , the main source of protein and overall life support systems for many communities , are also being threatened reduced discharge into the sea , which may have various consequences like coastal erosion ( e.g. in Ghana ) and salt water intrusion in delta 's and estuaries ( e.g. in Egypt , see Aswan dam ) . Current water withdrawal from the river Nile for irrigation is so high that , despite its size , in dry periods the river does not reach the sea . The Aral Sea has suffered an `` environmental catastrophe '' due to the interception of river water for irrigation purposes .",
+            "title": "Environmental impact of irrigation"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "825816846_13923-14239-0-314",
+            "score": null,
+            "score_type": "contriever",
+            "text": "River delta Ayeyarwady ( Irrawaddy ) Danube Ebro Fly River Godavari Indus Kaveri Krishna Lena Mackenzie Mekong Mississippi Niger River Nile Ob Orinoco Otter Point Creek Paraná Po Rhine Rhône Sacramento -- San Joaquin Tigris -- Euphrates river system Volga Yangtze Yenisei Yellow River ( also known as Huanghe ) Yukon River The",
+            "title": "River delta"
+          },
+          {
+            "rank": 2,
+            "doc_id": "849961652_18760-19729-0-969",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Wetland Storage reservoirs and flood protection : The wetland system of floodplains is formed from major rivers downstream from their headwaters . Notable river systems that produce large spans of floodplain include the Nile River , the Niger river inland delta , ( the Zambezi River flood plain ) , ( the Okavango River inland delta ) , ( the Kafue River flood plain ) ( the Lake Bangweulu flood plain ) ( Africa ) , Mississippi River ( USA ) , Amazon River ( South America ) , Yangtze River ( China ) , Danube River ( Central Europe ) and Murray - Darling River ( Australia ) . `` The floodplains of major rivers act as natural storage reservoirs , enabling excess water to spread out over a wide area , which reduces its depth and speed . Wetlands close to the headwaters of streams and rivers can slow down rainwater runoff and spring snowmelt so that it does n't run straight off the land into water courses . This can help prevent sudden , damaging floods downstream . ''",
+            "title": "Wetland"
+          },
+          {
+            "rank": 3,
+            "doc_id": "817790267_10519-10929-0-410",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Midwestern United States The Interior Plains are largely coincident with the vast Mississippi River Drainage System ( other major components are the Missouri and Ohio Rivers ) . These rivers have for tens of millions of years been eroding downward into the mostly horizontal sedimentary rocks of Paleozoic , Mesozoic , and Cenozoic ages . The modern Mississippi River system has developed during the Pleistocene Epoch of the Cenozoic .",
+            "title": "Midwestern United States"
+          },
+          {
+            "rank": 4,
+            "doc_id": "804788732_20052-21017-0-965",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Amazon River Although the Amazon river remains largely undammed , around 412 dams are in operation in the Amazon 's tributary rivers . From these 412 dams , 151 are constructed over six of the main tributary rivers that drain into the Amazon . Since only four percent of the Amazon 's hydropower potential has been developed in countries like Brazil , more damming projects are underway and hundreds more are planned . After witnessing the negative effects of environmental degradation , sedimentation , navigation and flood control caused by the Three Gorges Dam in the Yangtze River , scientists are worried that constructing more dams in the Amazon will harm its biodiversity in the same way by `` blocking - fish spawning runs , reducing the flows of vital oil nutrients and clearing forests '' . Damming the Amazon River could potentially bring about the `` end of free flowing rivers '' and contribute to an `` ecosystem collapse '' that will cause major social problems .",
+            "title": "Amazon River"
+          },
+          {
+            "rank": 5,
+            "doc_id": "808377544_3441-4760-0-1319",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Environmental impact of irrigation reduced downstream flooding disappearance of ecologically and economically important wetlands or flood forests reduced availability of industrial , municipal , household , and drinking water reduced shipping routes . Water withdrawal poses a serious threat to the Ganges . In India , barrages control all of the tributaries to the Ganges and divert roughly 60 percent of river flow to irrigation reduced fishing opportunities . The Indus River in Pakistan faces scarcity due to over-extraction of water for agriculture . The Indus is inhabited by 25 amphibian species and 147 fish species of which 22 are found nowhere else in the world . It harbors the endangered Indus River dolphin , one of the world 's rarest mammals . Fish populations , the main source of protein and overall life support systems for many communities , are also being threatened reduced discharge into the sea , which may have various consequences like coastal erosion ( e.g. in Ghana ) and salt water intrusion in delta 's and estuaries ( e.g. in Egypt , see Aswan dam ) . Current water withdrawal from the river Nile for irrigation is so high that , despite its size , in dry periods the river does not reach the sea . The Aral Sea has suffered an `` environmental catastrophe '' due to the interception of river water for irrigation purposes .",
+            "title": "Environmental impact of irrigation"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "The Amazon River is another important river system.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "825816846_13923-14239-0-314",
+          "score": null,
+          "score_type": "contriever",
+          "text": "River delta Ayeyarwady ( Irrawaddy ) Danube Ebro Fly River Godavari Indus Kaveri Krishna Lena Mackenzie Mekong Mississippi Niger River Nile Ob Orinoco Otter Point Creek Paraná Po Rhine Rhône Sacramento -- San Joaquin Tigris -- Euphrates river system Volga Yangtze Yenisei Yellow River ( also known as Huanghe ) Yukon River The",
+          "title": "River delta"
+        },
+        {
+          "rank": 2,
+          "doc_id": "849961652_18760-19729-0-969",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Wetland Storage reservoirs and flood protection : The wetland system of floodplains is formed from major rivers downstream from their headwaters . Notable river systems that produce large spans of floodplain include the Nile River , the Niger river inland delta , ( the Zambezi River flood plain ) , ( the Okavango River inland delta ) , ( the Kafue River flood plain ) ( the Lake Bangweulu flood plain ) ( Africa ) , Mississippi River ( USA ) , Amazon River ( South America ) , Yangtze River ( China ) , Danube River ( Central Europe ) and Murray - Darling River ( Australia ) . `` The floodplains of major rivers act as natural storage reservoirs , enabling excess water to spread out over a wide area , which reduces its depth and speed . Wetlands close to the headwaters of streams and rivers can slow down rainwater runoff and spring snowmelt so that it does n't run straight off the land into water courses . This can help prevent sudden , damaging floods downstream . ''",
+          "title": "Wetland"
+        },
+        {
+          "rank": 3,
+          "doc_id": "817790267_10519-10929-0-410",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Midwestern United States The Interior Plains are largely coincident with the vast Mississippi River Drainage System ( other major components are the Missouri and Ohio Rivers ) . These rivers have for tens of millions of years been eroding downward into the mostly horizontal sedimentary rocks of Paleozoic , Mesozoic , and Cenozoic ages . The modern Mississippi River system has developed during the Pleistocene Epoch of the Cenozoic .",
+          "title": "Midwestern United States"
+        },
+        {
+          "rank": 4,
+          "doc_id": "804788732_20052-21017-0-965",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Amazon River Although the Amazon river remains largely undammed , around 412 dams are in operation in the Amazon 's tributary rivers . From these 412 dams , 151 are constructed over six of the main tributary rivers that drain into the Amazon . Since only four percent of the Amazon 's hydropower potential has been developed in countries like Brazil , more damming projects are underway and hundreds more are planned . After witnessing the negative effects of environmental degradation , sedimentation , navigation and flood control caused by the Three Gorges Dam in the Yangtze River , scientists are worried that constructing more dams in the Amazon will harm its biodiversity in the same way by `` blocking - fish spawning runs , reducing the flows of vital oil nutrients and clearing forests '' . Damming the Amazon River could potentially bring about the `` end of free flowing rivers '' and contribute to an `` ecosystem collapse '' that will cause major social problems .",
+          "title": "Amazon River"
+        },
+        {
+          "rank": 5,
+          "doc_id": "808377544_3441-4760-0-1319",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Environmental impact of irrigation reduced downstream flooding disappearance of ecologically and economically important wetlands or flood forests reduced availability of industrial , municipal , household , and drinking water reduced shipping routes . Water withdrawal poses a serious threat to the Ganges . In India , barrages control all of the tributaries to the Ganges and divert roughly 60 percent of river flow to irrigation reduced fishing opportunities . The Indus River in Pakistan faces scarcity due to over-extraction of water for agriculture . The Indus is inhabited by 25 amphibian species and 147 fish species of which 22 are found nowhere else in the world . It harbors the endangered Indus River dolphin , one of the world 's rarest mammals . Fish populations , the main source of protein and overall life support systems for many communities , are also being threatened reduced discharge into the sea , which may have various consequences like coastal erosion ( e.g. in Ghana ) and salt water intrusion in delta 's and estuaries ( e.g. in Egypt , see Aswan dam ) . Current water withdrawal from the river Nile for irrigation is so high that , despite its size , in dry periods the river does not reach the sea . The Aral Sea has suffered an `` environmental catastrophe '' due to the interception of river water for irrigation purposes .",
+          "title": "Environmental impact of irrigation"
+        }
+      ],
+      "reference": {
+        "answer": "Yes, Main has the Androscoggin River, a 178-mile river located in the U.S. states of Maine and New Hampshire in northern New England. It joins the Kennebec River at Merrymeeting Bay in Maine before flowing into the Gulf of Maine on the Atlantic Ocean. The river is a popular fishing destination, offering opportunities to catch brook, rainbow, brown trout, landlocked salmon, and smallmouth bass.",
+        "evidence_ids": [
+          "833737755_6326-6797-0-471",
+          "833737755_1909-2654-0-735"
+        ],
+        "evidence": [
+          {
+            "doc_id": "833737755_6326-6797-0-471",
+            "text": "Androscoggin River\nAndroscoggin River\nThe Androscoggin River is a popular fishing destination for anglers seeking brook , rainbow and brown trout , as well as landlocked salmon and smallmouth bass . The upper reaches near Errol , New Hampshire , are popular with local and visiting fly fishermen for the chance to catch landlocked salmon from a drift boat . Although the upper reaches contain some bass , the river warms as it flows into Maine , and smallmouth bass are the chief quarry in its lower reaches ."
+          },
+          {
+            "doc_id": "833737755_1909-2654-0-735",
+            "text": "Androscoggin River\nAndroscoggin River\nThe Androscoggin River is a river in the U.S. states of Maine and New Hampshire , in northern New England . It is 178 miles ( 286 km ) long and joins the Kennebec River at Merrymeeting Bay in Maine before its water empties into the Gulf of Maine on the Atlantic Ocean . Its drainage basin is 3,530 square miles ( 9,100 km ) in area . The name `` Androscoggin '' comes from the Eastern Abenaki term / aləssíkɑntəkw / or / alsíkɑntəkw / , meaning `` river of cliff rock shelters '' ( literally `` thus - deep - dwelling - river '' ) ; or perhaps from Penobscot / aləsstkɑtəkw / , meaning `` river of rock shelters '' . The Anglicization of the Abenaki term is likely an analogical contamination with the colonial governor Edmund Andros ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "4",
+      "task_id": "d5f0e7023ab90fe0240b7fc46cf00c26<::>4",
+      "question": "Is this the best river for fishing in the country?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "where does the penobscot river start and end"
+        },
+        {
+          "role": "assistant",
+          "content": "The Penobscot River originates from four branches in various lakes in north-central Maine. It specifically begins where the West Branch meets the East Branch at Medway. The river flows into the Atlantic Ocean at Penobscot Bay, and historically served as an important trade route from the Atlantic coast to interior Maine.\n"
+        },
+        {
+          "role": "user",
+          "content": "The West branch."
+        },
+        {
+          "role": "assistant",
+          "content": "The West Branch is home to many types of fish, such as landlocked salmon and brook trout. There are many deep pools within the river due to the many slate ledges, making the river ideal for fishing from shore, although there are still areas that are good for canoe fishing. The West Branch is a world-class landlocked salmon river, while the East Branch is known for its smallmouth bass fishery. In 2008, the Atlantic Salmon Commission opened the main stem of the river to catch and release fly fishing for Atlantic salmon."
+        },
+        {
+          "role": "user",
+          "content": "Are there any other important river systems?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, Main has the Androscoggin River, a 178-mile river located in the U.S. states of Maine and New Hampshire in northern New England. It joins the Kennebec River at Merrymeeting Bay in Maine before flowing into the Gulf of Maine on the Atlantic Ocean. The river is a popular fishing destination, offering opportunities to catch brook, rainbow, brown trout, landlocked salmon, and smallmouth bass."
+        }
+      ],
+      "retrieval": {
+        "query": "Is this the best river for fishing in the country?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "798401030_10436-10772-0-336",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Penobscot River Angling , especially fly fishing , has always been popular on the river . The West Branch is known as a world class landlocked salmon river , while the East Branch is known for its smallmouth bass fishery . In 2008 , the Atlantic Salmon Commission opened the main stem of the river to catch and release fly fishing for Atlantic salmon .",
+            "title": "Penobscot River"
+          },
+          {
+            "rank": 2,
+            "doc_id": "807333808_16863-17035-0-172",
+            "score": null,
+            "score_type": "contriever",
+            "text": "River Mersey Angling has become popular on some stretches of the river as fish such as perch , barbel , grayling , carp , roach , chub , trout , pike , bream and dace have been caught .",
+            "title": "River Mersey"
+          },
+          {
+            "rank": 3,
+            "doc_id": "859711970_14924-16135-0-1211",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Yellowstone River The Yellowstone River is considered to be one of the greatest trout streams of the world and is officially classed as a blue ribbon stream in Montana from the park to the confluence with the Boulder River east of Livingston and from the mouth of Rosebud creek near Rosebud , Montana to the North Dakota border . The lack of dams along the river provides for excellent trout habitat from high inside Yellowstone Park , downstream through Gardiner , the Paradise Valley , Livingston , and to Big Timber , a stretch of nearly 200 miles ( 320 km ) . The Yellowstone varies in width from 74 feet ( 23 m ) to 300 feet ( 91 m ) , so fishing is normally done by boat . The most productive stretch of water is through Paradise Valley in Montana , especially near Livingston which produces brown trout , rainbow trout and native Yellowstone cutthroat trout as well as Rocky Mountain whitefish . From Billings downstream to the North Dakota border , anglers seek burbot , channel catfish , paddlefish , sauger , smallmouth bass , and walleye . The pallid sturgeon ( Scaphirhynchus albus ) , an endangered species endemic to the waters of the Missouri and lower Mississippi River basins , is also found in the Yellowstone .",
+            "title": "Yellowstone River"
+          },
+          {
+            "rank": 4,
+            "doc_id": "814479651_38859-39402-0-543",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Hudson River Fishing is allowed in the river , although the state Department of Health recommends eating no fish caught from the South Glens Falls Dam to the Federal Dam at Troy . Women under 50 and children under 15 are not advised to eat any fish caught south of the Palmer Falls Dam in Corinth , while others are advised to eat anywhere from one to four meals per month of Hudson River fish , depending on species and location caught . The Department of Health cites mercury , PCBs , dioxin , and cadmium as the chemicals impacting fish in these areas .",
+            "title": "Hudson River"
+          },
+          {
+            "rank": 5,
+            "doc_id": "840005513_15056-15390-0-334",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Waikato River The Waikato River and its hydro lakes are home to at least 19 types of native fish and 10 types of introduced fish . The introduced species include rainbow and brown trout providing what has been called `` the finest fly - fishing in the world '' . Other introduced species , like the carp and mosquitofish , have become major pests .",
+            "title": "Waikato River"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "798401030_10436-10772-0-336",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Penobscot River Angling , especially fly fishing , has always been popular on the river . The West Branch is known as a world class landlocked salmon river , while the East Branch is known for its smallmouth bass fishery . In 2008 , the Atlantic Salmon Commission opened the main stem of the river to catch and release fly fishing for Atlantic salmon .",
+            "title": "Penobscot River"
+          },
+          {
+            "rank": 2,
+            "doc_id": "807333808_16863-17035-0-172",
+            "score": null,
+            "score_type": "contriever",
+            "text": "River Mersey Angling has become popular on some stretches of the river as fish such as perch , barbel , grayling , carp , roach , chub , trout , pike , bream and dace have been caught .",
+            "title": "River Mersey"
+          },
+          {
+            "rank": 3,
+            "doc_id": "859711970_14924-16135-0-1211",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Yellowstone River The Yellowstone River is considered to be one of the greatest trout streams of the world and is officially classed as a blue ribbon stream in Montana from the park to the confluence with the Boulder River east of Livingston and from the mouth of Rosebud creek near Rosebud , Montana to the North Dakota border . The lack of dams along the river provides for excellent trout habitat from high inside Yellowstone Park , downstream through Gardiner , the Paradise Valley , Livingston , and to Big Timber , a stretch of nearly 200 miles ( 320 km ) . The Yellowstone varies in width from 74 feet ( 23 m ) to 300 feet ( 91 m ) , so fishing is normally done by boat . The most productive stretch of water is through Paradise Valley in Montana , especially near Livingston which produces brown trout , rainbow trout and native Yellowstone cutthroat trout as well as Rocky Mountain whitefish . From Billings downstream to the North Dakota border , anglers seek burbot , channel catfish , paddlefish , sauger , smallmouth bass , and walleye . The pallid sturgeon ( Scaphirhynchus albus ) , an endangered species endemic to the waters of the Missouri and lower Mississippi River basins , is also found in the Yellowstone .",
+            "title": "Yellowstone River"
+          },
+          {
+            "rank": 4,
+            "doc_id": "814479651_38859-39402-0-543",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Hudson River Fishing is allowed in the river , although the state Department of Health recommends eating no fish caught from the South Glens Falls Dam to the Federal Dam at Troy . Women under 50 and children under 15 are not advised to eat any fish caught south of the Palmer Falls Dam in Corinth , while others are advised to eat anywhere from one to four meals per month of Hudson River fish , depending on species and location caught . The Department of Health cites mercury , PCBs , dioxin , and cadmium as the chemicals impacting fish in these areas .",
+            "title": "Hudson River"
+          },
+          {
+            "rank": 5,
+            "doc_id": "840005513_15056-15390-0-334",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Waikato River The Waikato River and its hydro lakes are home to at least 19 types of native fish and 10 types of introduced fish . The introduced species include rainbow and brown trout providing what has been called `` the finest fly - fishing in the world '' . Other introduced species , like the carp and mosquitofish , have become major pests .",
+            "title": "Waikato River"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Assistant: The Androscoggin River is home to many types of fish, such as landlocked salmon and brook trout.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "798401030_10436-10772-0-336",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Penobscot River Angling , especially fly fishing , has always been popular on the river . The West Branch is known as a world class landlocked salmon river , while the East Branch is known for its smallmouth bass fishery . In 2008 , the Atlantic Salmon Commission opened the main stem of the river to catch and release fly fishing for Atlantic salmon .",
+          "title": "Penobscot River"
+        },
+        {
+          "rank": 2,
+          "doc_id": "807333808_16863-17035-0-172",
+          "score": null,
+          "score_type": "contriever",
+          "text": "River Mersey Angling has become popular on some stretches of the river as fish such as perch , barbel , grayling , carp , roach , chub , trout , pike , bream and dace have been caught .",
+          "title": "River Mersey"
+        },
+        {
+          "rank": 3,
+          "doc_id": "859711970_14924-16135-0-1211",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Yellowstone River The Yellowstone River is considered to be one of the greatest trout streams of the world and is officially classed as a blue ribbon stream in Montana from the park to the confluence with the Boulder River east of Livingston and from the mouth of Rosebud creek near Rosebud , Montana to the North Dakota border . The lack of dams along the river provides for excellent trout habitat from high inside Yellowstone Park , downstream through Gardiner , the Paradise Valley , Livingston , and to Big Timber , a stretch of nearly 200 miles ( 320 km ) . The Yellowstone varies in width from 74 feet ( 23 m ) to 300 feet ( 91 m ) , so fishing is normally done by boat . The most productive stretch of water is through Paradise Valley in Montana , especially near Livingston which produces brown trout , rainbow trout and native Yellowstone cutthroat trout as well as Rocky Mountain whitefish . From Billings downstream to the North Dakota border , anglers seek burbot , channel catfish , paddlefish , sauger , smallmouth bass , and walleye . The pallid sturgeon ( Scaphirhynchus albus ) , an endangered species endemic to the waters of the Missouri and lower Mississippi River basins , is also found in the Yellowstone .",
+          "title": "Yellowstone River"
+        },
+        {
+          "rank": 4,
+          "doc_id": "814479651_38859-39402-0-543",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Hudson River Fishing is allowed in the river , although the state Department of Health recommends eating no fish caught from the South Glens Falls Dam to the Federal Dam at Troy . Women under 50 and children under 15 are not advised to eat any fish caught south of the Palmer Falls Dam in Corinth , while others are advised to eat anywhere from one to four meals per month of Hudson River fish , depending on species and location caught . The Department of Health cites mercury , PCBs , dioxin , and cadmium as the chemicals impacting fish in these areas .",
+          "title": "Hudson River"
+        },
+        {
+          "rank": 5,
+          "doc_id": "840005513_15056-15390-0-334",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Waikato River The Waikato River and its hydro lakes are home to at least 19 types of native fish and 10 types of introduced fish . The introduced species include rainbow and brown trout providing what has been called `` the finest fly - fishing in the world '' . Other introduced species , like the carp and mosquitofish , have become major pests .",
+          "title": "Waikato River"
+        }
+      ],
+      "reference": {
+        "answer": " The \"best\" river for fishing depends on the specific type of fish being pursued and the angler's preferences. The Yellowstone River is considered one of the world's greatest trout streams. It is officially classed as a blue ribbon stream in Montana from the park to the confluence with the Boulder River east of Livingston and from the mouth of Rosebud Creek near Rosebud, Montana, to the North Dakota border.  The Snake River was once one of the most important rivers for the spawning of anadromous fish -- which are hatched in the headwaters of rivers, live in the ocean for most of their lives, and return to the river to spawn -- in the United States.",
+        "evidence_ids": [
+          "859711970_14924-16135-0-1211",
+          "800189581_52985-53794-0-809"
+        ],
+        "evidence": [
+          {
+            "doc_id": "859711970_14924-16135-0-1211",
+            "text": "Yellowstone River\nYellowstone River\nThe Yellowstone River is considered to be one of the greatest trout streams of the world and is officially classed as a blue ribbon stream in Montana from the park to the confluence with the Boulder River east of Livingston and from the mouth of Rosebud creek near Rosebud , Montana to the North Dakota border . The lack of dams along the river provides for excellent trout habitat from high inside Yellowstone Park , downstream through Gardiner , the Paradise Valley , Livingston , and to Big Timber , a stretch of nearly 200 miles ( 320 km ) . The Yellowstone varies in width from 74 feet ( 23 m ) to 300 feet ( 91 m ) , so fishing is normally done by boat . The most productive stretch of water is through Paradise Valley in Montana , especially near Livingston which produces brown trout , rainbow trout and native Yellowstone cutthroat trout as well as Rocky Mountain whitefish . From Billings downstream to the North Dakota border , anglers seek burbot , channel catfish , paddlefish , sauger , smallmouth bass , and walleye . The pallid sturgeon ( Scaphirhynchus albus ) , an endangered species endemic to the waters of the Missouri and lower Mississippi River basins , is also found in the Yellowstone ."
+          },
+          {
+            "doc_id": "800189581_52985-53794-0-809",
+            "text": "Snake River\nSnake River\nThe Snake River was once one of the most important rivers for the spawning of anadromous fish -- which are hatched in the headwaters of rivers , live in the ocean for most of their lives , and return to the river to spawn -- in the United States . The river supported species including chinook salmon , coho salmon , and sockeye salmon , as well as steelhead , white sturgeon , and Pacific lamprey . It is known that before the construction of dams on the river , there were three major chinook salmon runs in the Snake River ; in the spring , summer and fall , totaling about 120,000 fish , and the sockeye salmon run was about 150,000 . The historical barrier to fish migration on the Snake River was Shoshone Falls , a waterfall that occurs as the Snake River passes through the Snake River Plain . Reaches"
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "PARTIAL",
+        "question_type": [
+          "Comparative",
+          "Opinion"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "5",
+      "task_id": "d5f0e7023ab90fe0240b7fc46cf00c26<::>5",
+      "question": "The Snake River is the longest river in the country.",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "where does the penobscot river start and end"
+        },
+        {
+          "role": "assistant",
+          "content": "The Penobscot River originates from four branches in various lakes in north-central Maine. It specifically begins where the West Branch meets the East Branch at Medway. The river flows into the Atlantic Ocean at Penobscot Bay, and historically served as an important trade route from the Atlantic coast to interior Maine.\n"
+        },
+        {
+          "role": "user",
+          "content": "The West branch."
+        },
+        {
+          "role": "assistant",
+          "content": "The West Branch is home to many types of fish, such as landlocked salmon and brook trout. There are many deep pools within the river due to the many slate ledges, making the river ideal for fishing from shore, although there are still areas that are good for canoe fishing. The West Branch is a world-class landlocked salmon river, while the East Branch is known for its smallmouth bass fishery. In 2008, the Atlantic Salmon Commission opened the main stem of the river to catch and release fly fishing for Atlantic salmon."
+        },
+        {
+          "role": "user",
+          "content": "Are there any other important river systems?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, Main has the Androscoggin River, a 178-mile river located in the U.S. states of Maine and New Hampshire in northern New England. It joins the Kennebec River at Merrymeeting Bay in Maine before flowing into the Gulf of Maine on the Atlantic Ocean. The river is a popular fishing destination, offering opportunities to catch brook, rainbow, brown trout, landlocked salmon, and smallmouth bass."
+        },
+        {
+          "role": "user",
+          "content": "Is this the best river for fishing in the country?"
+        },
+        {
+          "role": "assistant",
+          "content": " The \"best\" river for fishing depends on the specific type of fish being pursued and the angler's preferences. The Yellowstone River is considered one of the world's greatest trout streams. It is officially classed as a blue ribbon stream in Montana from the park to the confluence with the Boulder River east of Livingston and from the mouth of Rosebud Creek near Rosebud, Montana, to the North Dakota border.  The Snake River was once one of the most important rivers for the spawning of anadromous fish -- which are hatched in the headwaters of rivers, live in the ocean for most of their lives, and return to the river to spawn -- in the United States."
+        }
+      ],
+      "retrieval": {
+        "query": "The Snake River is the longest river in the country.",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "800189581_14866-15764-0-898",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Snake River The Snake River is the thirteenth longest river in the United States . Its watershed is the 10th largest among North American rivers , and covers almost 108,000 square miles ( 280,000 km ) in portions of six U.S. states : Wyoming , Idaho , Nevada , Utah , Oregon , and Washington , with the largest portion in Idaho . Most of the Snake River watershed lies between the Rocky Mountains on the east and the Columbia Plateau on the northwest . The largest tributary of the Columbia River , the Snake River watershed makes up about 41 % of the entire Columbia River Basin . Its average discharge at the mouth constitutes 31 % of the Columbia 's flow at that point . Above the confluence , the Snake is slightly longer than the Columbia -- 1,078 miles ( 1,735 km ) compared to 928 miles ( 1,493 km ) -- and its drainage basin is slightly larger -- 4 % bigger than the upstream Columbia River watershed .",
+            "title": "Snake River"
+          },
+          {
+            "rank": 2,
+            "doc_id": "800189581_1882-2547-0-665",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Snake River The Snake River is a major river of the greater Pacific Northwest in the United States . At 1,078 miles ( 1,735 km ) long , it is the largest tributary of the Columbia River , the largest North American river that empties into the Pacific Ocean . Rising in western Wyoming , the river flows through the Snake River Plain of southern Idaho , then through the rugged Hells Canyon area via northeastern Oregon and the rolling Palouse Hills , to reach its mouth near the Washington Tri-Cities area , where it enters the Columbia . Its drainage basin encompasses parts of six U.S. states , and its average discharge is over 54,000 cubic feet per second ( 1,500 m / s ) .",
+            "title": "Snake River"
+          },
+          {
+            "rank": 3,
+            "doc_id": "800189581_7937-8815-0-878",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Snake River The Salmon River , the largest tributary of the Snake River , meets it in one of the most remote areas of its entire course , nearly at the halfway point in Hells Canyon . From there , the Snake crosses into Washington and Idaho , receiving the Grande Ronde River from the west before receiving the Clearwater River at Lewiston , the uppermost major city on the navigable stretch of the Snake . As the Snake leaves Hells Canyon and spreads into the low - lying Palouse Hills of eastern Washington , the Lower Snake River Project 's four dams have transformed the Snake River into a series of reservoirs . The confluence of the Snake and Columbia rivers has been submerged in Lake Wallula , the reservoir of McNary Dam . The Columbia River flows about 325 miles ( 523 km ) further west to the Pacific Ocean , cutting through the Cascade Range by way of the Columbia River Gorge .",
+            "title": "Snake River"
+          },
+          {
+            "rank": 4,
+            "doc_id": "800189581_7074-7936-0-862",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Snake River Shortly after it passes within 30 miles ( 48 km ) of the Idaho state capital of Boise , the river surges past the state border into Oregon , close to where it meets the Owyhee , Boise and Payette rivers . The Snake River begins to define the roughly 200 - mile - long ( 320 km ) Idaho -- Oregon state border , which follows the river into Hells Canyon , a steep and spectacular gorge that cuts through the Salmon River Mountains and Blue Mountains of Idaho and Oregon . Hells Canyon is one of the most rugged and treacherous portions of the course of the Snake River , which pioneers on the Oregon Trail and steamboat operators in the 19th century had great difficulty negotiating . There were hundreds of rapids in Hells Canyon , some of which have been stilled by the three dams of the Hells Canyon Hydroelectric Project : Hells Canyon , Oxbow , and Brownlee .",
+            "title": "Snake River"
+          },
+          {
+            "rank": 5,
+            "doc_id": "800189581_23022-24074-0-1052",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Snake River The river 's flow is also measured at several other points in its course . Above Jackson Lake , Wyoming , the discharge is about 885 cu ft / s ( 25.1 m / s ) from a drainage area of 486 square miles ( 1,260 km ) . At Minidoka , Idaho , about halfway through the Snake River Plain , the river 's discharge rises to 7,841 cu ft / s ( 222.0 m / s ) . However , at Buhl , Idaho , only about 50 miles ( 80 km ) downstream , the river 's flow decreases to 4,908 cu ft / s ( 139.0 m / s ) because of agricultural diversions and seepage . But at the border of Idaho and Oregon , near Weiser at the beginning of Hells Canyon , the Snake 's flow rises to 17,780 cu ft / s ( 503 m / s ) after receiving several major tributaries such as the Payette , Owyhee and Malheur . The discharge further increases to 19,530 cu ft / s ( 553 m / s ) at Hells Canyon Dam on the border of Idaho and Oregon . At Anatone , Washington , downstream of the confluence with the Salmon , one of the Snake 's largest tributaries , the mean discharge is 34,560 cu ft / s ( 979 m / s ) .",
+            "title": "Snake River"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "800189581_14866-15764-0-898",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Snake River The Snake River is the thirteenth longest river in the United States . Its watershed is the 10th largest among North American rivers , and covers almost 108,000 square miles ( 280,000 km ) in portions of six U.S. states : Wyoming , Idaho , Nevada , Utah , Oregon , and Washington , with the largest portion in Idaho . Most of the Snake River watershed lies between the Rocky Mountains on the east and the Columbia Plateau on the northwest . The largest tributary of the Columbia River , the Snake River watershed makes up about 41 % of the entire Columbia River Basin . Its average discharge at the mouth constitutes 31 % of the Columbia 's flow at that point . Above the confluence , the Snake is slightly longer than the Columbia -- 1,078 miles ( 1,735 km ) compared to 928 miles ( 1,493 km ) -- and its drainage basin is slightly larger -- 4 % bigger than the upstream Columbia River watershed .",
+            "title": "Snake River"
+          },
+          {
+            "rank": 2,
+            "doc_id": "800189581_1882-2547-0-665",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Snake River The Snake River is a major river of the greater Pacific Northwest in the United States . At 1,078 miles ( 1,735 km ) long , it is the largest tributary of the Columbia River , the largest North American river that empties into the Pacific Ocean . Rising in western Wyoming , the river flows through the Snake River Plain of southern Idaho , then through the rugged Hells Canyon area via northeastern Oregon and the rolling Palouse Hills , to reach its mouth near the Washington Tri-Cities area , where it enters the Columbia . Its drainage basin encompasses parts of six U.S. states , and its average discharge is over 54,000 cubic feet per second ( 1,500 m / s ) .",
+            "title": "Snake River"
+          },
+          {
+            "rank": 3,
+            "doc_id": "800189581_7937-8815-0-878",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Snake River The Salmon River , the largest tributary of the Snake River , meets it in one of the most remote areas of its entire course , nearly at the halfway point in Hells Canyon . From there , the Snake crosses into Washington and Idaho , receiving the Grande Ronde River from the west before receiving the Clearwater River at Lewiston , the uppermost major city on the navigable stretch of the Snake . As the Snake leaves Hells Canyon and spreads into the low - lying Palouse Hills of eastern Washington , the Lower Snake River Project 's four dams have transformed the Snake River into a series of reservoirs . The confluence of the Snake and Columbia rivers has been submerged in Lake Wallula , the reservoir of McNary Dam . The Columbia River flows about 325 miles ( 523 km ) further west to the Pacific Ocean , cutting through the Cascade Range by way of the Columbia River Gorge .",
+            "title": "Snake River"
+          },
+          {
+            "rank": 4,
+            "doc_id": "800189581_7074-7936-0-862",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Snake River Shortly after it passes within 30 miles ( 48 km ) of the Idaho state capital of Boise , the river surges past the state border into Oregon , close to where it meets the Owyhee , Boise and Payette rivers . The Snake River begins to define the roughly 200 - mile - long ( 320 km ) Idaho -- Oregon state border , which follows the river into Hells Canyon , a steep and spectacular gorge that cuts through the Salmon River Mountains and Blue Mountains of Idaho and Oregon . Hells Canyon is one of the most rugged and treacherous portions of the course of the Snake River , which pioneers on the Oregon Trail and steamboat operators in the 19th century had great difficulty negotiating . There were hundreds of rapids in Hells Canyon , some of which have been stilled by the three dams of the Hells Canyon Hydroelectric Project : Hells Canyon , Oxbow , and Brownlee .",
+            "title": "Snake River"
+          },
+          {
+            "rank": 5,
+            "doc_id": "800189581_23022-24074-0-1052",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Snake River The river 's flow is also measured at several other points in its course . Above Jackson Lake , Wyoming , the discharge is about 885 cu ft / s ( 25.1 m / s ) from a drainage area of 486 square miles ( 1,260 km ) . At Minidoka , Idaho , about halfway through the Snake River Plain , the river 's discharge rises to 7,841 cu ft / s ( 222.0 m / s ) . However , at Buhl , Idaho , only about 50 miles ( 80 km ) downstream , the river 's flow decreases to 4,908 cu ft / s ( 139.0 m / s ) because of agricultural diversions and seepage . But at the border of Idaho and Oregon , near Weiser at the beginning of Hells Canyon , the Snake 's flow rises to 17,780 cu ft / s ( 503 m / s ) after receiving several major tributaries such as the Payette , Owyhee and Malheur . The discharge further increases to 19,530 cu ft / s ( 553 m / s ) at Hells Canyon Dam on the border of Idaho and Oregon . At Anatone , Washington , downstream of the confluence with the Salmon , one of the Snake 's largest tributaries , the mean discharge is 34,560 cu ft / s ( 979 m / s ) .",
+            "title": "Snake River"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "The Snake River is the longest river in the country.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "800189581_14866-15764-0-898",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Snake River The Snake River is the thirteenth longest river in the United States . Its watershed is the 10th largest among North American rivers , and covers almost 108,000 square miles ( 280,000 km ) in portions of six U.S. states : Wyoming , Idaho , Nevada , Utah , Oregon , and Washington , with the largest portion in Idaho . Most of the Snake River watershed lies between the Rocky Mountains on the east and the Columbia Plateau on the northwest . The largest tributary of the Columbia River , the Snake River watershed makes up about 41 % of the entire Columbia River Basin . Its average discharge at the mouth constitutes 31 % of the Columbia 's flow at that point . Above the confluence , the Snake is slightly longer than the Columbia -- 1,078 miles ( 1,735 km ) compared to 928 miles ( 1,493 km ) -- and its drainage basin is slightly larger -- 4 % bigger than the upstream Columbia River watershed .",
+          "title": "Snake River"
+        },
+        {
+          "rank": 2,
+          "doc_id": "800189581_1882-2547-0-665",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Snake River The Snake River is a major river of the greater Pacific Northwest in the United States . At 1,078 miles ( 1,735 km ) long , it is the largest tributary of the Columbia River , the largest North American river that empties into the Pacific Ocean . Rising in western Wyoming , the river flows through the Snake River Plain of southern Idaho , then through the rugged Hells Canyon area via northeastern Oregon and the rolling Palouse Hills , to reach its mouth near the Washington Tri-Cities area , where it enters the Columbia . Its drainage basin encompasses parts of six U.S. states , and its average discharge is over 54,000 cubic feet per second ( 1,500 m / s ) .",
+          "title": "Snake River"
+        },
+        {
+          "rank": 3,
+          "doc_id": "800189581_7937-8815-0-878",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Snake River The Salmon River , the largest tributary of the Snake River , meets it in one of the most remote areas of its entire course , nearly at the halfway point in Hells Canyon . From there , the Snake crosses into Washington and Idaho , receiving the Grande Ronde River from the west before receiving the Clearwater River at Lewiston , the uppermost major city on the navigable stretch of the Snake . As the Snake leaves Hells Canyon and spreads into the low - lying Palouse Hills of eastern Washington , the Lower Snake River Project 's four dams have transformed the Snake River into a series of reservoirs . The confluence of the Snake and Columbia rivers has been submerged in Lake Wallula , the reservoir of McNary Dam . The Columbia River flows about 325 miles ( 523 km ) further west to the Pacific Ocean , cutting through the Cascade Range by way of the Columbia River Gorge .",
+          "title": "Snake River"
+        },
+        {
+          "rank": 4,
+          "doc_id": "800189581_7074-7936-0-862",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Snake River Shortly after it passes within 30 miles ( 48 km ) of the Idaho state capital of Boise , the river surges past the state border into Oregon , close to where it meets the Owyhee , Boise and Payette rivers . The Snake River begins to define the roughly 200 - mile - long ( 320 km ) Idaho -- Oregon state border , which follows the river into Hells Canyon , a steep and spectacular gorge that cuts through the Salmon River Mountains and Blue Mountains of Idaho and Oregon . Hells Canyon is one of the most rugged and treacherous portions of the course of the Snake River , which pioneers on the Oregon Trail and steamboat operators in the 19th century had great difficulty negotiating . There were hundreds of rapids in Hells Canyon , some of which have been stilled by the three dams of the Hells Canyon Hydroelectric Project : Hells Canyon , Oxbow , and Brownlee .",
+          "title": "Snake River"
+        },
+        {
+          "rank": 5,
+          "doc_id": "800189581_23022-24074-0-1052",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Snake River The river 's flow is also measured at several other points in its course . Above Jackson Lake , Wyoming , the discharge is about 885 cu ft / s ( 25.1 m / s ) from a drainage area of 486 square miles ( 1,260 km ) . At Minidoka , Idaho , about halfway through the Snake River Plain , the river 's discharge rises to 7,841 cu ft / s ( 222.0 m / s ) . However , at Buhl , Idaho , only about 50 miles ( 80 km ) downstream , the river 's flow decreases to 4,908 cu ft / s ( 139.0 m / s ) because of agricultural diversions and seepage . But at the border of Idaho and Oregon , near Weiser at the beginning of Hells Canyon , the Snake 's flow rises to 17,780 cu ft / s ( 503 m / s ) after receiving several major tributaries such as the Payette , Owyhee and Malheur . The discharge further increases to 19,530 cu ft / s ( 553 m / s ) at Hells Canyon Dam on the border of Idaho and Oregon . At Anatone , Washington , downstream of the confluence with the Salmon , one of the Snake 's largest tributaries , the mean discharge is 34,560 cu ft / s ( 979 m / s ) .",
+          "title": "Snake River"
+        }
+      ],
+      "reference": {
+        "answer": "No. The Snake River is the thirteenth longest river in the United States. The longest river is the Mississippi River, the chief river of the second-largest drainage system on the North American continent, second only to the Hudson Bay drainage system. Using the longest stream as the source, Brower's Spring in Montana, the source of the Missouri River, would give it an incredible length of 3,710 miles, making it the fourth longest river in the world after the Nile, Amazon, and Yangtze. If we use the Largest Stream measurement, the Ohio River, and by extension the Allegheny River would be the source, and the Mississippi would begin in Pennsylvania.",
+        "evidence_ids": [
+          "818532751_1986-2845-0-859",
+          "800189581_14866-15764-0-898",
+          "818532751_24559-25351-0-792"
+        ],
+        "evidence": [
+          {
+            "doc_id": "818532751_1986-2845-0-859",
+            "text": "Mississippi River\nMississippi River\nThe Mississippi River is the chief river of the second - largest drainage system on the North American continent , second only to the Hudson Bay drainage system . The stream is entirely within the United States ( although its drainage basin reaches into Canada ) , its source is in northern Minnesota and it flows generally south for 2,320 miles ( 3,730 km ) to the Mississippi River Delta in the Gulf of Mexico . With its many tributaries , the Mississippi 's watershed drains all or parts of 31 U.S. states and two Canadian provinces between the Rocky and Appalachian Mountains . The Mississippi ranks as the fourth - longest and fifteenth - largest river in the world by discharge . The river either borders or passes through the states of Minnesota , Wisconsin , Iowa , Illinois , Missouri , Kentucky , Tennessee , Arkansas , Mississippi , and Louisiana ."
+          },
+          {
+            "doc_id": "800189581_14866-15764-0-898",
+            "text": "Snake River\nSnake River\nThe Snake River is the thirteenth longest river in the United States . Its watershed is the 10th largest among North American rivers , and covers almost 108,000 square miles ( 280,000 km ) in portions of six U.S. states : Wyoming , Idaho , Nevada , Utah , Oregon , and Washington , with the largest portion in Idaho . Most of the Snake River watershed lies between the Rocky Mountains on the east and the Columbia Plateau on the northwest . The largest tributary of the Columbia River , the Snake River watershed makes up about 41 % of the entire Columbia River Basin . Its average discharge at the mouth constitutes 31 % of the Columbia 's flow at that point . Above the confluence , the Snake is slightly longer than the Columbia -- 1,078 miles ( 1,735 km ) compared to 928 miles ( 1,493 km ) -- and its drainage basin is slightly larger -- 4 % bigger than the upstream Columbia River watershed ."
+          },
+          {
+            "doc_id": "818532751_24559-25351-0-792",
+            "text": "Mississippi River\nMississippi River\nWhen measured from it 's traditional source at Lake Itasca , the Mississippi has a length of 2,320 miles ( 3,730 km ) . However , besides names given on maps , there are at least 2 other ways to measure the length of a river . The first is the Longest stream source ( most distant source from the sea ) and the second is the largest stream source ( by water volume ) . Using the longest stream , the source would be Brower 's Spring in Montana , the source of the Missouri River . This would give it a an incredible length of 3,710 miles , making it the fourth longest river in the world after the Nile , Amazon , and Yangtze . Using the Largest Stream measurement , the Ohio River , and by extension the Allegheny river , would be the source and the Mississippi would begin in Pennsylvania ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "6",
+      "task_id": "d5f0e7023ab90fe0240b7fc46cf00c26<::>6",
+      "question": "Which is the largest river in America?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "where does the penobscot river start and end"
+        },
+        {
+          "role": "assistant",
+          "content": "The Penobscot River originates from four branches in various lakes in north-central Maine. It specifically begins where the West Branch meets the East Branch at Medway. The river flows into the Atlantic Ocean at Penobscot Bay, and historically served as an important trade route from the Atlantic coast to interior Maine.\n"
+        },
+        {
+          "role": "user",
+          "content": "The West branch."
+        },
+        {
+          "role": "assistant",
+          "content": "The West Branch is home to many types of fish, such as landlocked salmon and brook trout. There are many deep pools within the river due to the many slate ledges, making the river ideal for fishing from shore, although there are still areas that are good for canoe fishing. The West Branch is a world-class landlocked salmon river, while the East Branch is known for its smallmouth bass fishery. In 2008, the Atlantic Salmon Commission opened the main stem of the river to catch and release fly fishing for Atlantic salmon."
+        },
+        {
+          "role": "user",
+          "content": "Are there any other important river systems?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, Main has the Androscoggin River, a 178-mile river located in the U.S. states of Maine and New Hampshire in northern New England. It joins the Kennebec River at Merrymeeting Bay in Maine before flowing into the Gulf of Maine on the Atlantic Ocean. The river is a popular fishing destination, offering opportunities to catch brook, rainbow, brown trout, landlocked salmon, and smallmouth bass."
+        },
+        {
+          "role": "user",
+          "content": "Is this the best river for fishing in the country?"
+        },
+        {
+          "role": "assistant",
+          "content": " The \"best\" river for fishing depends on the specific type of fish being pursued and the angler's preferences. The Yellowstone River is considered one of the world's greatest trout streams. It is officially classed as a blue ribbon stream in Montana from the park to the confluence with the Boulder River east of Livingston and from the mouth of Rosebud Creek near Rosebud, Montana, to the North Dakota border.  The Snake River was once one of the most important rivers for the spawning of anadromous fish -- which are hatched in the headwaters of rivers, live in the ocean for most of their lives, and return to the river to spawn -- in the United States."
+        },
+        {
+          "role": "user",
+          "content": "The Snake River is the longest river in the country."
+        },
+        {
+          "role": "assistant",
+          "content": "No. The Snake River is the thirteenth longest river in the United States. The longest river is the Mississippi River, the chief river of the second-largest drainage system on the North American continent, second only to the Hudson Bay drainage system. Using the longest stream as the source, Brower's Spring in Montana, the source of the Missouri River, would give it an incredible length of 3,710 miles, making it the fourth longest river in the world after the Nile, Amazon, and Yangtze. If we use the Largest Stream measurement, the Ohio River, and by extension the Allegheny River would be the source, and the Mississippi would begin in Pennsylvania."
+        }
+      ],
+      "retrieval": {
+        "query": "Which is the largest river in America?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "804788732_1407-1657-0-242",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Amazon River The Amazon River , usually abbreviated to The Amazon ( US : / ˈæməzɒn / or UK : / ˈæməzən / ; Spanish and Portuguese : Amazonas ) , in South America is the largest river by discharge volume of water in the world and the second longest river .",
+            "title": "Amazon River"
+          },
+          {
+            "rank": 2,
+            "doc_id": "818532751_15493-16081-0-588",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Mississippi River The Mississippi River has the world 's fourth - largest drainage basin ( `` watershed '' or `` catchment '' ) . The basin covers more than 1,245,000 square miles ( 3,220,000 km ) , including all or parts of 31 U.S. states and two Canadian provinces . The drainage basin empties into the Gulf of Mexico , part of the Atlantic Ocean . The total catchment of the Mississippi River covers nearly 40 % of the landmass of the continental United States . The highest point within the watershed is also the highest point of the Rocky Mountains , Mount Elbert at 14,440 feet ( 4,400 m ) . Sequence",
+            "title": "Mississippi River"
+          },
+          {
+            "rank": 3,
+            "doc_id": "818532751_17086-17515-0-429",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Mississippi River The Mississippi River discharges at an annual average rate of between 200 and 700 thousand cubic feet per second ( 7,000 -- 20,000 m / s ) . Although it is the fifth - largest river in the world by volume , this flow is a small fraction of the output of the Amazon , which moves nearly 7 million cubic feet per second ( 200,000 m / s ) during wet seasons . On average , the Mississippi has only 8 % the flow of the Amazon River .",
+            "title": "Mississippi River"
+          },
+          {
+            "rank": 4,
+            "doc_id": "800189581_1882-2547-0-665",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Snake River The Snake River is a major river of the greater Pacific Northwest in the United States . At 1,078 miles ( 1,735 km ) long , it is the largest tributary of the Columbia River , the largest North American river that empties into the Pacific Ocean . Rising in western Wyoming , the river flows through the Snake River Plain of southern Idaho , then through the rugged Hells Canyon area via northeastern Oregon and the rolling Palouse Hills , to reach its mouth near the Washington Tri-Cities area , where it enters the Columbia . Its drainage basin encompasses parts of six U.S. states , and its average discharge is over 54,000 cubic feet per second ( 1,500 m / s ) .",
+            "title": "Snake River"
+          },
+          {
+            "rank": 5,
+            "doc_id": "818532751_1986-2845-0-859",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Mississippi River The Mississippi River is the chief river of the second - largest drainage system on the North American continent , second only to the Hudson Bay drainage system . The stream is entirely within the United States ( although its drainage basin reaches into Canada ) , its source is in northern Minnesota and it flows generally south for 2,320 miles ( 3,730 km ) to the Mississippi River Delta in the Gulf of Mexico . With its many tributaries , the Mississippi 's watershed drains all or parts of 31 U.S. states and two Canadian provinces between the Rocky and Appalachian Mountains . The Mississippi ranks as the fourth - longest and fifteenth - largest river in the world by discharge . The river either borders or passes through the states of Minnesota , Wisconsin , Iowa , Illinois , Missouri , Kentucky , Tennessee , Arkansas , Mississippi , and Louisiana .",
+            "title": "Mississippi River"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "804788732_1407-1657-0-242",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Amazon River The Amazon River , usually abbreviated to The Amazon ( US : / ˈæməzɒn / or UK : / ˈæməzən / ; Spanish and Portuguese : Amazonas ) , in South America is the largest river by discharge volume of water in the world and the second longest river .",
+            "title": "Amazon River"
+          },
+          {
+            "rank": 2,
+            "doc_id": "818532751_15493-16081-0-588",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Mississippi River The Mississippi River has the world 's fourth - largest drainage basin ( `` watershed '' or `` catchment '' ) . The basin covers more than 1,245,000 square miles ( 3,220,000 km ) , including all or parts of 31 U.S. states and two Canadian provinces . The drainage basin empties into the Gulf of Mexico , part of the Atlantic Ocean . The total catchment of the Mississippi River covers nearly 40 % of the landmass of the continental United States . The highest point within the watershed is also the highest point of the Rocky Mountains , Mount Elbert at 14,440 feet ( 4,400 m ) . Sequence",
+            "title": "Mississippi River"
+          },
+          {
+            "rank": 3,
+            "doc_id": "818532751_17086-17515-0-429",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Mississippi River The Mississippi River discharges at an annual average rate of between 200 and 700 thousand cubic feet per second ( 7,000 -- 20,000 m / s ) . Although it is the fifth - largest river in the world by volume , this flow is a small fraction of the output of the Amazon , which moves nearly 7 million cubic feet per second ( 200,000 m / s ) during wet seasons . On average , the Mississippi has only 8 % the flow of the Amazon River .",
+            "title": "Mississippi River"
+          },
+          {
+            "rank": 4,
+            "doc_id": "800189581_1882-2547-0-665",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Snake River The Snake River is a major river of the greater Pacific Northwest in the United States . At 1,078 miles ( 1,735 km ) long , it is the largest tributary of the Columbia River , the largest North American river that empties into the Pacific Ocean . Rising in western Wyoming , the river flows through the Snake River Plain of southern Idaho , then through the rugged Hells Canyon area via northeastern Oregon and the rolling Palouse Hills , to reach its mouth near the Washington Tri-Cities area , where it enters the Columbia . Its drainage basin encompasses parts of six U.S. states , and its average discharge is over 54,000 cubic feet per second ( 1,500 m / s ) .",
+            "title": "Snake River"
+          },
+          {
+            "rank": 5,
+            "doc_id": "818532751_1986-2845-0-859",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Mississippi River The Mississippi River is the chief river of the second - largest drainage system on the North American continent , second only to the Hudson Bay drainage system . The stream is entirely within the United States ( although its drainage basin reaches into Canada ) , its source is in northern Minnesota and it flows generally south for 2,320 miles ( 3,730 km ) to the Mississippi River Delta in the Gulf of Mexico . With its many tributaries , the Mississippi 's watershed drains all or parts of 31 U.S. states and two Canadian provinces between the Rocky and Appalachian Mountains . The Mississippi ranks as the fourth - longest and fifteenth - largest river in the world by discharge . The river either borders or passes through the states of Minnesota , Wisconsin , Iowa , Illinois , Missouri , Kentucky , Tennessee , Arkansas , Mississippi , and Louisiana .",
+            "title": "Mississippi River"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "The Mississippi River is the largest river in America.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "804788732_1407-1657-0-242",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Amazon River The Amazon River , usually abbreviated to The Amazon ( US : / ˈæməzɒn / or UK : / ˈæməzən / ; Spanish and Portuguese : Amazonas ) , in South America is the largest river by discharge volume of water in the world and the second longest river .",
+          "title": "Amazon River"
+        },
+        {
+          "rank": 2,
+          "doc_id": "818532751_15493-16081-0-588",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Mississippi River The Mississippi River has the world 's fourth - largest drainage basin ( `` watershed '' or `` catchment '' ) . The basin covers more than 1,245,000 square miles ( 3,220,000 km ) , including all or parts of 31 U.S. states and two Canadian provinces . The drainage basin empties into the Gulf of Mexico , part of the Atlantic Ocean . The total catchment of the Mississippi River covers nearly 40 % of the landmass of the continental United States . The highest point within the watershed is also the highest point of the Rocky Mountains , Mount Elbert at 14,440 feet ( 4,400 m ) . Sequence",
+          "title": "Mississippi River"
+        },
+        {
+          "rank": 3,
+          "doc_id": "818532751_17086-17515-0-429",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Mississippi River The Mississippi River discharges at an annual average rate of between 200 and 700 thousand cubic feet per second ( 7,000 -- 20,000 m / s ) . Although it is the fifth - largest river in the world by volume , this flow is a small fraction of the output of the Amazon , which moves nearly 7 million cubic feet per second ( 200,000 m / s ) during wet seasons . On average , the Mississippi has only 8 % the flow of the Amazon River .",
+          "title": "Mississippi River"
+        },
+        {
+          "rank": 4,
+          "doc_id": "800189581_1882-2547-0-665",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Snake River The Snake River is a major river of the greater Pacific Northwest in the United States . At 1,078 miles ( 1,735 km ) long , it is the largest tributary of the Columbia River , the largest North American river that empties into the Pacific Ocean . Rising in western Wyoming , the river flows through the Snake River Plain of southern Idaho , then through the rugged Hells Canyon area via northeastern Oregon and the rolling Palouse Hills , to reach its mouth near the Washington Tri-Cities area , where it enters the Columbia . Its drainage basin encompasses parts of six U.S. states , and its average discharge is over 54,000 cubic feet per second ( 1,500 m / s ) .",
+          "title": "Snake River"
+        },
+        {
+          "rank": 5,
+          "doc_id": "818532751_1986-2845-0-859",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Mississippi River The Mississippi River is the chief river of the second - largest drainage system on the North American continent , second only to the Hudson Bay drainage system . The stream is entirely within the United States ( although its drainage basin reaches into Canada ) , its source is in northern Minnesota and it flows generally south for 2,320 miles ( 3,730 km ) to the Mississippi River Delta in the Gulf of Mexico . With its many tributaries , the Mississippi 's watershed drains all or parts of 31 U.S. states and two Canadian provinces between the Rocky and Appalachian Mountains . The Mississippi ranks as the fourth - longest and fifteenth - largest river in the world by discharge . The river either borders or passes through the states of Minnesota , Wisconsin , Iowa , Illinois , Missouri , Kentucky , Tennessee , Arkansas , Mississippi , and Louisiana .",
+          "title": "Mississippi River"
+        }
+      ],
+      "reference": {
+        "answer": "The Mississippi River is the chief river of the second-largest drainage system on the North American continent and is the longest river in the United States.",
+        "evidence_ids": [
+          "818532751_1986-2845-0-859"
+        ],
+        "evidence": [
+          {
+            "doc_id": "818532751_1986-2845-0-859",
+            "text": "Mississippi River\nMississippi River\nThe Mississippi River is the chief river of the second - largest drainage system on the North American continent , second only to the Hudson Bay drainage system . The stream is entirely within the United States ( although its drainage basin reaches into Canada ) , its source is in northern Minnesota and it flows generally south for 2,320 miles ( 3,730 km ) to the Mississippi River Delta in the Gulf of Mexico . With its many tributaries , the Mississippi 's watershed drains all or parts of 31 U.S. states and two Canadian provinces between the Rocky and Appalachian Mountains . The Mississippi ranks as the fourth - longest and fifteenth - largest river in the world by discharge . The river either borders or passes through the states of Minnesota , Wisconsin , Iowa , Illinois , Missouri , Kentucky , Tennessee , Arkansas , Mississippi , and Louisiana ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "7",
+      "task_id": "d5f0e7023ab90fe0240b7fc46cf00c26<::>7",
+      "question": "That was not my question. When I say \"America,\" I'm referring to the continent, not the United States of America.",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "where does the penobscot river start and end"
+        },
+        {
+          "role": "assistant",
+          "content": "The Penobscot River originates from four branches in various lakes in north-central Maine. It specifically begins where the West Branch meets the East Branch at Medway. The river flows into the Atlantic Ocean at Penobscot Bay, and historically served as an important trade route from the Atlantic coast to interior Maine.\n"
+        },
+        {
+          "role": "user",
+          "content": "The West branch."
+        },
+        {
+          "role": "assistant",
+          "content": "The West Branch is home to many types of fish, such as landlocked salmon and brook trout. There are many deep pools within the river due to the many slate ledges, making the river ideal for fishing from shore, although there are still areas that are good for canoe fishing. The West Branch is a world-class landlocked salmon river, while the East Branch is known for its smallmouth bass fishery. In 2008, the Atlantic Salmon Commission opened the main stem of the river to catch and release fly fishing for Atlantic salmon."
+        },
+        {
+          "role": "user",
+          "content": "Are there any other important river systems?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, Main has the Androscoggin River, a 178-mile river located in the U.S. states of Maine and New Hampshire in northern New England. It joins the Kennebec River at Merrymeeting Bay in Maine before flowing into the Gulf of Maine on the Atlantic Ocean. The river is a popular fishing destination, offering opportunities to catch brook, rainbow, brown trout, landlocked salmon, and smallmouth bass."
+        },
+        {
+          "role": "user",
+          "content": "Is this the best river for fishing in the country?"
+        },
+        {
+          "role": "assistant",
+          "content": " The \"best\" river for fishing depends on the specific type of fish being pursued and the angler's preferences. The Yellowstone River is considered one of the world's greatest trout streams. It is officially classed as a blue ribbon stream in Montana from the park to the confluence with the Boulder River east of Livingston and from the mouth of Rosebud Creek near Rosebud, Montana, to the North Dakota border.  The Snake River was once one of the most important rivers for the spawning of anadromous fish -- which are hatched in the headwaters of rivers, live in the ocean for most of their lives, and return to the river to spawn -- in the United States."
+        },
+        {
+          "role": "user",
+          "content": "The Snake River is the longest river in the country."
+        },
+        {
+          "role": "assistant",
+          "content": "No. The Snake River is the thirteenth longest river in the United States. The longest river is the Mississippi River, the chief river of the second-largest drainage system on the North American continent, second only to the Hudson Bay drainage system. Using the longest stream as the source, Brower's Spring in Montana, the source of the Missouri River, would give it an incredible length of 3,710 miles, making it the fourth longest river in the world after the Nile, Amazon, and Yangtze. If we use the Largest Stream measurement, the Ohio River, and by extension the Allegheny River would be the source, and the Mississippi would begin in Pennsylvania."
+        },
+        {
+          "role": "user",
+          "content": "Which is the largest river in America?"
+        },
+        {
+          "role": "assistant",
+          "content": "The Mississippi River is the chief river of the second-largest drainage system on the North American continent and is the longest river in the United States."
+        }
+      ],
+      "retrieval": {
+        "query": "That was not my question. When I say \"America,\" I'm referring to the continent, not the United States of America.",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "825927083_6085-6917-0-832",
+            "score": null,
+            "score_type": "contriever",
+            "text": "North America The term North America maintains various definitions in accordance with location and context . In Canadian English , North America may be used to refer to the United States and Canada together . Alternatively , usage sometimes includes Greenland and Mexico ( as in the North American Free Trade Agreement ) , as well as offshore islands . The UN geoscheme for `` North America '' separates Mexico from the United States and Canada , placing it instead within its designated `` Central America '' region , while also treating the islands of the Caribbean separately from the US / Canada definition -- the UN 's `` North America '' definition still includes the Canadian Arctic Archipelago and Greenland together with the US / Canada continental definition , with both insular entities being tectonically on the North American plate .",
+            "title": "North America"
+          },
+          {
+            "rank": 2,
+            "doc_id": "825927083_8098-8491-0-393",
+            "score": null,
+            "score_type": "contriever",
+            "text": "North America The southern North American continent is composed of two regions . These are Central America and the Caribbean . The north of the continent maintains recognized regions as well . In contrast to the common definition of `` North America '' , that which encompasses the whole continent , the term `` North America '' is also used to refer to Canada , Mexico , the United States , and Greenland .",
+            "title": "North America"
+          },
+          {
+            "rank": 3,
+            "doc_id": "825927083_5005-5178-0-173",
+            "score": null,
+            "score_type": "contriever",
+            "text": "North America Later , other mapmakers extended the name America to the northern continent , In 1538 , Gerard Mercator used America on his map of the world for all the Western Hemisphere .",
+            "title": "North America"
+          },
+          {
+            "rank": 4,
+            "doc_id": "825927083_1521-1907-0-386",
+            "score": null,
+            "score_type": "contriever",
+            "text": "North America North America is a continent entirely within the Northern Hemisphere and almost all within the Western Hemisphere ; it is also considered by some to be a northern subcontinent of the Americas . It is bordered to the north by the Arctic Ocean , to the east by the Atlantic Ocean , to the west and south by the Pacific Ocean , and to the southeast by South America and the Caribbean Sea .",
+            "title": "North America"
+          },
+          {
+            "rank": 5,
+            "doc_id": "825927083_8492-8846-0-354",
+            "score": null,
+            "score_type": "contriever",
+            "text": "North America The term Northern America refers to the northern-most countries and territories of North America , Canada , the United States , Greenland , Bermuda , and St. Pierre and Miquelon . Although rarely used , the term Middle America -- not to be confused with the Midwestern United States -- groups the regions of Central America , the Caribbean , and Mexico .",
+            "title": "North America"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "825927083_6085-6917-0-832",
+            "score": null,
+            "score_type": "contriever",
+            "text": "North America The term North America maintains various definitions in accordance with location and context . In Canadian English , North America may be used to refer to the United States and Canada together . Alternatively , usage sometimes includes Greenland and Mexico ( as in the North American Free Trade Agreement ) , as well as offshore islands . The UN geoscheme for `` North America '' separates Mexico from the United States and Canada , placing it instead within its designated `` Central America '' region , while also treating the islands of the Caribbean separately from the US / Canada definition -- the UN 's `` North America '' definition still includes the Canadian Arctic Archipelago and Greenland together with the US / Canada continental definition , with both insular entities being tectonically on the North American plate .",
+            "title": "North America"
+          },
+          {
+            "rank": 2,
+            "doc_id": "825927083_8098-8491-0-393",
+            "score": null,
+            "score_type": "contriever",
+            "text": "North America The southern North American continent is composed of two regions . These are Central America and the Caribbean . The north of the continent maintains recognized regions as well . In contrast to the common definition of `` North America '' , that which encompasses the whole continent , the term `` North America '' is also used to refer to Canada , Mexico , the United States , and Greenland .",
+            "title": "North America"
+          },
+          {
+            "rank": 3,
+            "doc_id": "825927083_5005-5178-0-173",
+            "score": null,
+            "score_type": "contriever",
+            "text": "North America Later , other mapmakers extended the name America to the northern continent , In 1538 , Gerard Mercator used America on his map of the world for all the Western Hemisphere .",
+            "title": "North America"
+          },
+          {
+            "rank": 4,
+            "doc_id": "825927083_1521-1907-0-386",
+            "score": null,
+            "score_type": "contriever",
+            "text": "North America North America is a continent entirely within the Northern Hemisphere and almost all within the Western Hemisphere ; it is also considered by some to be a northern subcontinent of the Americas . It is bordered to the north by the Arctic Ocean , to the east by the Atlantic Ocean , to the west and south by the Pacific Ocean , and to the southeast by South America and the Caribbean Sea .",
+            "title": "North America"
+          },
+          {
+            "rank": 5,
+            "doc_id": "825927083_8492-8846-0-354",
+            "score": null,
+            "score_type": "contriever",
+            "text": "North America The term Northern America refers to the northern-most countries and territories of North America , Canada , the United States , Greenland , Bermuda , and St. Pierre and Miquelon . Although rarely used , the term Middle America -- not to be confused with the Midwestern United States -- groups the regions of Central America , the Caribbean , and Mexico .",
+            "title": "North America"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "America is a continent, not a country.Which is the largest river in America?",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "825927083_6085-6917-0-832",
+          "score": null,
+          "score_type": "contriever",
+          "text": "North America The term North America maintains various definitions in accordance with location and context . In Canadian English , North America may be used to refer to the United States and Canada together . Alternatively , usage sometimes includes Greenland and Mexico ( as in the North American Free Trade Agreement ) , as well as offshore islands . The UN geoscheme for `` North America '' separates Mexico from the United States and Canada , placing it instead within its designated `` Central America '' region , while also treating the islands of the Caribbean separately from the US / Canada definition -- the UN 's `` North America '' definition still includes the Canadian Arctic Archipelago and Greenland together with the US / Canada continental definition , with both insular entities being tectonically on the North American plate .",
+          "title": "North America"
+        },
+        {
+          "rank": 2,
+          "doc_id": "825927083_8098-8491-0-393",
+          "score": null,
+          "score_type": "contriever",
+          "text": "North America The southern North American continent is composed of two regions . These are Central America and the Caribbean . The north of the continent maintains recognized regions as well . In contrast to the common definition of `` North America '' , that which encompasses the whole continent , the term `` North America '' is also used to refer to Canada , Mexico , the United States , and Greenland .",
+          "title": "North America"
+        },
+        {
+          "rank": 3,
+          "doc_id": "825927083_5005-5178-0-173",
+          "score": null,
+          "score_type": "contriever",
+          "text": "North America Later , other mapmakers extended the name America to the northern continent , In 1538 , Gerard Mercator used America on his map of the world for all the Western Hemisphere .",
+          "title": "North America"
+        },
+        {
+          "rank": 4,
+          "doc_id": "825927083_1521-1907-0-386",
+          "score": null,
+          "score_type": "contriever",
+          "text": "North America North America is a continent entirely within the Northern Hemisphere and almost all within the Western Hemisphere ; it is also considered by some to be a northern subcontinent of the Americas . It is bordered to the north by the Arctic Ocean , to the east by the Atlantic Ocean , to the west and south by the Pacific Ocean , and to the southeast by South America and the Caribbean Sea .",
+          "title": "North America"
+        },
+        {
+          "rank": 5,
+          "doc_id": "825927083_8492-8846-0-354",
+          "score": null,
+          "score_type": "contriever",
+          "text": "North America The term Northern America refers to the northern-most countries and territories of North America , Canada , the United States , Greenland , Bermuda , and St. Pierre and Miquelon . Although rarely used , the term Middle America -- not to be confused with the Midwestern United States -- groups the regions of Central America , the Caribbean , and Mexico .",
+          "title": "North America"
+        }
+      ],
+      "reference": {
+        "answer": "The Amazon River is located in the America continent, also called the Americas, and is the largest river basin in the world, covering about 40% of South America with an area of approximately 7,050,000 square kilometers (2,722,020 sq mi). It flows from west to east, starting from Iquitos in Peru and continuing across Brazil to the Atlantic. The river runs mainly through Brazil and Peru and is part of the border between Colombia and Peru. With an average discharge of about 209,000 cubic meters per second (7,400,000 cu ft/s), the Amazon represents 20% of the global riverine discharge to the ocean, greater than the combined discharge of the following seven largest independent rivers.",
+        "evidence_ids": [
+          "804788732_30958-31491-0-533",
+          "804788732_24475-24906-0-425",
+          "804788732_2371-3151-0-780"
+        ],
+        "evidence": [
+          {
+            "doc_id": "804788732_30958-31491-0-533",
+            "text": "Amazon River\nAmazon River\nThe Amazon basin , the largest in the world , covers about 40 % of South America , an area of approximately 7,050,000 square kilometres ( 2,722,020 sq mi ) . It drains from west to east , from Iquitos in Peru , across Brazil to the Atlantic . It gathers its waters from 5 degrees north latitude to 20 degrees south latitude . Its most remote sources are found on the inter-Andean plateau , just a short distance from the Pacific Ocean . The locals often refer to it as `` El Jefe Negro '' , referring to an ancient god of fertility ."
+          },
+          {
+            "doc_id": "804788732_24475-24906-0-425",
+            "text": "Amazon River\nAmazon River\nThe Amazon proper runs mostly through Brazil and Peru , and is part of the border between Colombia and Perú . It has a series of major tributaries in Colombia , Ecuador and Peru , some of which flow into the Marañón and Ucayali , and others directly into the Amazon proper . These include rivers Putumayo , Caquetá , Vaupés , Guainía , Morona , Pastaza , Nucuray , Urituyacu , Chambira , Tigre , Nanay , Napo , and Huallaga ."
+          },
+          {
+            "doc_id": "804788732_2371-3151-0-780",
+            "text": "Amazon River\nAmazon River\nAt an average discharge of about 209,000 cubic metres per second ( 7,400,000 cu ft / s ; 209,000,000 L / s ; 55,000,000 USgal / s ) -- approximately 6,591 cubic kilometres per annum ( 1,581 cu mi / a ) , greater than the next seven largest independent rivers combined -- the Amazon represents 20 % of the global riverine discharge to the ocean . The Amazon basin is the largest drainage basin in the world , with an area of approximately 7,050,000 square kilometres ( 2,720,000 sq mi ) . The portion of the river 's drainage basin in Brazil alone is larger than any other river 's basin . The Amazon enters Brazil with only one - fifth of the flow it finally discharges into the Atlantic Ocean , yet already has a greater flow at this point than the discharge of any other river ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Clarification"
+        ]
+      }
+    },
+    {
+      "turn_id": "8",
+      "task_id": "d5f0e7023ab90fe0240b7fc46cf00c26<::>8",
+      "question": "Which rivers are navigable in the USA?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "where does the penobscot river start and end"
+        },
+        {
+          "role": "assistant",
+          "content": "The Penobscot River originates from four branches in various lakes in north-central Maine. It specifically begins where the West Branch meets the East Branch at Medway. The river flows into the Atlantic Ocean at Penobscot Bay, and historically served as an important trade route from the Atlantic coast to interior Maine.\n"
+        },
+        {
+          "role": "user",
+          "content": "The West branch."
+        },
+        {
+          "role": "assistant",
+          "content": "The West Branch is home to many types of fish, such as landlocked salmon and brook trout. There are many deep pools within the river due to the many slate ledges, making the river ideal for fishing from shore, although there are still areas that are good for canoe fishing. The West Branch is a world-class landlocked salmon river, while the East Branch is known for its smallmouth bass fishery. In 2008, the Atlantic Salmon Commission opened the main stem of the river to catch and release fly fishing for Atlantic salmon."
+        },
+        {
+          "role": "user",
+          "content": "Are there any other important river systems?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, Main has the Androscoggin River, a 178-mile river located in the U.S. states of Maine and New Hampshire in northern New England. It joins the Kennebec River at Merrymeeting Bay in Maine before flowing into the Gulf of Maine on the Atlantic Ocean. The river is a popular fishing destination, offering opportunities to catch brook, rainbow, brown trout, landlocked salmon, and smallmouth bass."
+        },
+        {
+          "role": "user",
+          "content": "Is this the best river for fishing in the country?"
+        },
+        {
+          "role": "assistant",
+          "content": " The \"best\" river for fishing depends on the specific type of fish being pursued and the angler's preferences. The Yellowstone River is considered one of the world's greatest trout streams. It is officially classed as a blue ribbon stream in Montana from the park to the confluence with the Boulder River east of Livingston and from the mouth of Rosebud Creek near Rosebud, Montana, to the North Dakota border.  The Snake River was once one of the most important rivers for the spawning of anadromous fish -- which are hatched in the headwaters of rivers, live in the ocean for most of their lives, and return to the river to spawn -- in the United States."
+        },
+        {
+          "role": "user",
+          "content": "The Snake River is the longest river in the country."
+        },
+        {
+          "role": "assistant",
+          "content": "No. The Snake River is the thirteenth longest river in the United States. The longest river is the Mississippi River, the chief river of the second-largest drainage system on the North American continent, second only to the Hudson Bay drainage system. Using the longest stream as the source, Brower's Spring in Montana, the source of the Missouri River, would give it an incredible length of 3,710 miles, making it the fourth longest river in the world after the Nile, Amazon, and Yangtze. If we use the Largest Stream measurement, the Ohio River, and by extension the Allegheny River would be the source, and the Mississippi would begin in Pennsylvania."
+        },
+        {
+          "role": "user",
+          "content": "Which is the largest river in America?"
+        },
+        {
+          "role": "assistant",
+          "content": "The Mississippi River is the chief river of the second-largest drainage system on the North American continent and is the longest river in the United States."
+        },
+        {
+          "role": "user",
+          "content": "That was not my question. When I say \"America,\" I'm referring to the continent, not the United States of America."
+        },
+        {
+          "role": "assistant",
+          "content": "The Amazon River is located in the America continent, also called the Americas, and is the largest river basin in the world, covering about 40% of South America with an area of approximately 7,050,000 square kilometers (2,722,020 sq mi). It flows from west to east, starting from Iquitos in Peru and continuing across Brazil to the Atlantic. The river runs mainly through Brazil and Peru and is part of the border between Colombia and Peru. With an average discharge of about 209,000 cubic meters per second (7,400,000 cu ft/s), the Amazon represents 20% of the global riverine discharge to the ocean, greater than the combined discharge of the following seven largest independent rivers."
+        }
+      ],
+      "retrieval": {
+        "query": "Which rivers are navigable in the USA?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "817790267_30030-30150-0-120",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Midwestern United States The third waterway , the Missouri River , extended water travel from the Mississippi almost to the Rocky Mountains . The",
+            "title": "Midwestern United States"
+          },
+          {
+            "rank": 2,
+            "doc_id": "836236385_48922-49253-0-331",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Missouri The Mississippi River and Missouri River are commercially navigable over their entire lengths in Missouri . The Missouri was channelized through dredging and jettys and the Mississippi was given a series of locks and dams to avoid rocks and deepen the river . St. Louis is a major destination for barge traffic on the Mississippi .",
+            "title": "Missouri"
+          },
+          {
+            "rank": 3,
+            "doc_id": "818532751_39270-39684-0-414",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Mississippi River A clear channel is needed for the barges and other vessels that make the main stem Mississippi one of the great commercial waterways of the world . The task of maintaining a navigation channel is the responsibility of the United States Army Corps of Engineers , which was established in 1802 . Earlier projects began as early as 1829 to remove snags , close off secondary channels and excavate rocks and sandbars .",
+            "title": "Mississippi River"
+          },
+          {
+            "rank": 4,
+            "doc_id": "818532751_61889-62407-0-518",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Mississippi River Two portions of the Mississippi were designated as American Heritage Rivers in 1997 : the lower portion around Louisiana and Tennessee , and the upper portion around Iowa , Illinois , Minnesota and Missouri . The Nature Conservancy 's project called `` America 's Rivershed Initiative '' announced a ' report card ' assessment of the entire basin in October 2015 and gave the grade of D+ . The assessment noted the aging navigation and flood control infrastructure along with multiple environmental problems . Campsite",
+            "title": "Mississippi River"
+          },
+          {
+            "rank": 5,
+            "doc_id": "817790267_28901-29271-0-370",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Midwestern United States Three waterways have been important to the development of the Midwest . The first and foremost was the Ohio River , which flowed into the Mississippi River . Development of the region was halted until 1795 due to Spain 's control of the southern part of the Mississippi and its refusal to allow the shipment of American crops down the river and into the Atlantic Ocean .",
+            "title": "Midwestern United States"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "817790267_30030-30150-0-120",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Midwestern United States The third waterway , the Missouri River , extended water travel from the Mississippi almost to the Rocky Mountains . The",
+            "title": "Midwestern United States"
+          },
+          {
+            "rank": 2,
+            "doc_id": "836236385_48922-49253-0-331",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Missouri The Mississippi River and Missouri River are commercially navigable over their entire lengths in Missouri . The Missouri was channelized through dredging and jettys and the Mississippi was given a series of locks and dams to avoid rocks and deepen the river . St. Louis is a major destination for barge traffic on the Mississippi .",
+            "title": "Missouri"
+          },
+          {
+            "rank": 3,
+            "doc_id": "818532751_39270-39684-0-414",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Mississippi River A clear channel is needed for the barges and other vessels that make the main stem Mississippi one of the great commercial waterways of the world . The task of maintaining a navigation channel is the responsibility of the United States Army Corps of Engineers , which was established in 1802 . Earlier projects began as early as 1829 to remove snags , close off secondary channels and excavate rocks and sandbars .",
+            "title": "Mississippi River"
+          },
+          {
+            "rank": 4,
+            "doc_id": "818532751_61889-62407-0-518",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Mississippi River Two portions of the Mississippi were designated as American Heritage Rivers in 1997 : the lower portion around Louisiana and Tennessee , and the upper portion around Iowa , Illinois , Minnesota and Missouri . The Nature Conservancy 's project called `` America 's Rivershed Initiative '' announced a ' report card ' assessment of the entire basin in October 2015 and gave the grade of D+ . The assessment noted the aging navigation and flood control infrastructure along with multiple environmental problems . Campsite",
+            "title": "Mississippi River"
+          },
+          {
+            "rank": 5,
+            "doc_id": "817790267_28901-29271-0-370",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Midwestern United States Three waterways have been important to the development of the Midwest . The first and foremost was the Ohio River , which flowed into the Mississippi River . Development of the region was halted until 1795 due to Spain 's control of the southern part of the Mississippi and its refusal to allow the shipment of American crops down the river and into the Atlantic Ocean .",
+            "title": "Midwestern United States"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "The Missouri River is navigable in the USA.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "817790267_30030-30150-0-120",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Midwestern United States The third waterway , the Missouri River , extended water travel from the Mississippi almost to the Rocky Mountains . The",
+          "title": "Midwestern United States"
+        },
+        {
+          "rank": 2,
+          "doc_id": "836236385_48922-49253-0-331",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Missouri The Mississippi River and Missouri River are commercially navigable over their entire lengths in Missouri . The Missouri was channelized through dredging and jettys and the Mississippi was given a series of locks and dams to avoid rocks and deepen the river . St. Louis is a major destination for barge traffic on the Mississippi .",
+          "title": "Missouri"
+        },
+        {
+          "rank": 3,
+          "doc_id": "818532751_39270-39684-0-414",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Mississippi River A clear channel is needed for the barges and other vessels that make the main stem Mississippi one of the great commercial waterways of the world . The task of maintaining a navigation channel is the responsibility of the United States Army Corps of Engineers , which was established in 1802 . Earlier projects began as early as 1829 to remove snags , close off secondary channels and excavate rocks and sandbars .",
+          "title": "Mississippi River"
+        },
+        {
+          "rank": 4,
+          "doc_id": "818532751_61889-62407-0-518",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Mississippi River Two portions of the Mississippi were designated as American Heritage Rivers in 1997 : the lower portion around Louisiana and Tennessee , and the upper portion around Iowa , Illinois , Minnesota and Missouri . The Nature Conservancy 's project called `` America 's Rivershed Initiative '' announced a ' report card ' assessment of the entire basin in October 2015 and gave the grade of D+ . The assessment noted the aging navigation and flood control infrastructure along with multiple environmental problems . Campsite",
+          "title": "Mississippi River"
+        },
+        {
+          "rank": 5,
+          "doc_id": "817790267_28901-29271-0-370",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Midwestern United States Three waterways have been important to the development of the Midwest . The first and foremost was the Ohio River , which flowed into the Mississippi River . Development of the region was halted until 1795 due to Spain 's control of the southern part of the Mississippi and its refusal to allow the shipment of American crops down the river and into the Atlantic Ocean .",
+          "title": "Midwestern United States"
+        }
+      ],
+      "reference": {
+        "answer": "There are several navigable rivers in the United States. For instance, the Penobscot River becomes navigable at the city of Bangor. Additionally, both the Mississippi River and the Missouri River are commercially navigable along their entire lengths in Missouri.",
+        "evidence_ids": [
+          "798401030_1092-1671-0-563",
+          "836236385_48922-49253-0-331"
+        ],
+        "evidence": [
+          {
+            "doc_id": "798401030_1092-1671-0-563",
+            "text": "Penobscot River\nPenobscot River\nIt arises from four branches in several lakes in north - central Maine , which flow generally east . After the uniting of the West Branch with the East Branch at Medway ( 45 ° 36 ′ 14 '' N 68 ° 31 ′ 52 '' W ﻿ / ﻿ 45.604 ° N 68.531 ° W ﻿ / 45.604 ; - 68.531 ﻿ ( Penobscot River source ) ) , the Penobscot flows 109 miles ( 175 km ) south , past the city of Bangor , where it becomes navigable . Also at Bangor is the tributary Kenduskeag Stream . It empties into the Atlantic Ocean in Penobscot Bay . It is home to the Penobscot people that live on Indian Island ."
+          },
+          {
+            "doc_id": "836236385_48922-49253-0-331",
+            "text": "Missouri\nMissouri\nThe Mississippi River and Missouri River are commercially navigable over their entire lengths in Missouri . The Missouri was channelized through dredging and jettys and the Mississippi was given a series of locks and dams to avoid rocks and deepen the river . St. Louis is a major destination for barge traffic on the Mississippi ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Summarization"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "9",
+      "task_id": "d5f0e7023ab90fe0240b7fc46cf00c26<::>9",
+      "question": "Is the Hudson River important?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "where does the penobscot river start and end"
+        },
+        {
+          "role": "assistant",
+          "content": "The Penobscot River originates from four branches in various lakes in north-central Maine. It specifically begins where the West Branch meets the East Branch at Medway. The river flows into the Atlantic Ocean at Penobscot Bay, and historically served as an important trade route from the Atlantic coast to interior Maine.\n"
+        },
+        {
+          "role": "user",
+          "content": "The West branch."
+        },
+        {
+          "role": "assistant",
+          "content": "The West Branch is home to many types of fish, such as landlocked salmon and brook trout. There are many deep pools within the river due to the many slate ledges, making the river ideal for fishing from shore, although there are still areas that are good for canoe fishing. The West Branch is a world-class landlocked salmon river, while the East Branch is known for its smallmouth bass fishery. In 2008, the Atlantic Salmon Commission opened the main stem of the river to catch and release fly fishing for Atlantic salmon."
+        },
+        {
+          "role": "user",
+          "content": "Are there any other important river systems?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, Main has the Androscoggin River, a 178-mile river located in the U.S. states of Maine and New Hampshire in northern New England. It joins the Kennebec River at Merrymeeting Bay in Maine before flowing into the Gulf of Maine on the Atlantic Ocean. The river is a popular fishing destination, offering opportunities to catch brook, rainbow, brown trout, landlocked salmon, and smallmouth bass."
+        },
+        {
+          "role": "user",
+          "content": "Is this the best river for fishing in the country?"
+        },
+        {
+          "role": "assistant",
+          "content": " The \"best\" river for fishing depends on the specific type of fish being pursued and the angler's preferences. The Yellowstone River is considered one of the world's greatest trout streams. It is officially classed as a blue ribbon stream in Montana from the park to the confluence with the Boulder River east of Livingston and from the mouth of Rosebud Creek near Rosebud, Montana, to the North Dakota border.  The Snake River was once one of the most important rivers for the spawning of anadromous fish -- which are hatched in the headwaters of rivers, live in the ocean for most of their lives, and return to the river to spawn -- in the United States."
+        },
+        {
+          "role": "user",
+          "content": "The Snake River is the longest river in the country."
+        },
+        {
+          "role": "assistant",
+          "content": "No. The Snake River is the thirteenth longest river in the United States. The longest river is the Mississippi River, the chief river of the second-largest drainage system on the North American continent, second only to the Hudson Bay drainage system. Using the longest stream as the source, Brower's Spring in Montana, the source of the Missouri River, would give it an incredible length of 3,710 miles, making it the fourth longest river in the world after the Nile, Amazon, and Yangtze. If we use the Largest Stream measurement, the Ohio River, and by extension the Allegheny River would be the source, and the Mississippi would begin in Pennsylvania."
+        },
+        {
+          "role": "user",
+          "content": "Which is the largest river in America?"
+        },
+        {
+          "role": "assistant",
+          "content": "The Mississippi River is the chief river of the second-largest drainage system on the North American continent and is the longest river in the United States."
+        },
+        {
+          "role": "user",
+          "content": "That was not my question. When I say \"America,\" I'm referring to the continent, not the United States of America."
+        },
+        {
+          "role": "assistant",
+          "content": "The Amazon River is located in the America continent, also called the Americas, and is the largest river basin in the world, covering about 40% of South America with an area of approximately 7,050,000 square kilometers (2,722,020 sq mi). It flows from west to east, starting from Iquitos in Peru and continuing across Brazil to the Atlantic. The river runs mainly through Brazil and Peru and is part of the border between Colombia and Peru. With an average discharge of about 209,000 cubic meters per second (7,400,000 cu ft/s), the Amazon represents 20% of the global riverine discharge to the ocean, greater than the combined discharge of the following seven largest independent rivers."
+        },
+        {
+          "role": "user",
+          "content": "Which rivers are navigable in the USA?"
+        },
+        {
+          "role": "assistant",
+          "content": "There are several navigable rivers in the United States. For instance, the Penobscot River becomes navigable at the city of Bangor. Additionally, both the Mississippi River and the Missouri River are commercially navigable along their entire lengths in Missouri."
+        }
+      ],
+      "retrieval": {
+        "query": "Is the Hudson River important?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "855420636_12521-13315-0-794",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Hudson Valley The Hudson River was a key river during the Revolution . The Hudson River was important for a few reasons . Firstly , the Hudson 's connection to the Mohawk River allowed travelers to get to the Great Lakes and the Mississippi River eventually . In addition , the river 's close proximity to Lake George and Lake Champlain would allow the British navy to control the water route from Montreal to New York City . In doing so , the British , under General John Burgoyne 's strategy , would be able to cut off the patriot hub of New England ( which is on the eastern side of the Hudson River ) and focus on rallying the support of loyalists in the South and Mid-Atlantic regions . The British knew that total occupation of the colonies would be unfeasible , which is why this strategy was chosen .",
+            "title": "Hudson Valley"
+          },
+          {
+            "rank": 2,
+            "doc_id": "814479651_11212-12209-0-997",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Hudson River The lower Hudson is actually a tidal estuary , with tidal influence extending as far as the Federal Dam in Troy . Strong tides make parts of New York Harbor difficult and dangerous to navigate . During the winter , ice floes may drift south or north , depending upon the tides . The Mahican name of the river represents its partially estuarine nature : muh - he - kun - ne - tuk means `` the river that flows both ways . '' The Hudson is often mistaken for one of the largest rivers in the United States , but it is an estuary throughout most of its length below Troy and thus only a small fraction of fresh water , about 15,000 cubic feet ( 425 m3 ) per second , is present . The mean fresh water discharge at the river 's mouth in New York is approximately 21,400 cubic feet ( 606 m3 ) per second . The Hudson and its tributaries , notably the Mohawk River , drain a large area . Parts of the Hudson River form coves , such as Weehawken Cove in the towns of Hoboken and Weehawken in New Jersey .",
+            "title": "Hudson River"
+          },
+          {
+            "rank": 3,
+            "doc_id": "814479651_31294-31758-0-464",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Hudson River A 30 - mile ( 48 km ) stretch on the east bank of the Hudson has been designated the Hudson River Historic District , a National Historic Landmark . The Palisades Interstate Park Commission protects the Palisades on the west bank of the river . The Hudson River was designated as an American Heritage River in 1997 . The Hudson River estuary system is part of the National Estuarine Research Reserve System as the Hudson River National Estuarine Research Reserve .",
+            "title": "Hudson River"
+          },
+          {
+            "rank": 4,
+            "doc_id": "814479651_25568-26518-0-950",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Hudson River During the Industrial Revolution , the Hudson River became a major location for production , especially around Albany and Troy . The river allowed for fast and easy transport of goods from the interior of the Northeast to the coast . Hundreds of factories were built around the Hudson , in towns including Poughkeepise , Newburgh , Kingston , and Hudson . The North Tarrytown Assembly ( later owned by General Motors ) , on the river in Sleepy Hollow , was a large and notable example . The River links to the Erie Canal and Great Lakes , allowing manufacturing in the Midwest , including automobiles in Detroit , to use the river for transport . With industrialization came new technologies for transport , including steamboats for faster transport . In 1807 , the North River Steamboat ( later known as Clermont ) , became the first commercially successful steamboat . It carried passengers between New York City and Albany along the Hudson River .",
+            "title": "Hudson River"
+          },
+          {
+            "rank": 5,
+            "doc_id": "814479651_37658-38506-0-848",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Hudson River The Hudson River estuary is also the site of wetlands , from New York City all the way up to Troy . In fact , it has one of the largest concentrations of freshwater wetlands in the Northeast . Even though the river can be considered brackish further south , 80 % of the wetlands are outside of the influence of the saltwater coming from the Atlantic Ocean . Currently , the river has about 7,000 acres ( 28 km ) acres of wetlands , and rising sea levels due to climate change are expected to lead to an expansion of that area . Wetlands are expected to migrate upland as sea level ( and thus the level of the river ) rises . This is different from the rest of the world , where rising sea levels usually leads to a reduction in wetland areas . The expansion of the wetlands are expected to provide more habitat to the fish and birds of the region .",
+            "title": "Hudson River"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "855420636_12521-13315-0-794",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Hudson Valley The Hudson River was a key river during the Revolution . The Hudson River was important for a few reasons . Firstly , the Hudson 's connection to the Mohawk River allowed travelers to get to the Great Lakes and the Mississippi River eventually . In addition , the river 's close proximity to Lake George and Lake Champlain would allow the British navy to control the water route from Montreal to New York City . In doing so , the British , under General John Burgoyne 's strategy , would be able to cut off the patriot hub of New England ( which is on the eastern side of the Hudson River ) and focus on rallying the support of loyalists in the South and Mid-Atlantic regions . The British knew that total occupation of the colonies would be unfeasible , which is why this strategy was chosen .",
+            "title": "Hudson Valley"
+          },
+          {
+            "rank": 2,
+            "doc_id": "814479651_11212-12209-0-997",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Hudson River The lower Hudson is actually a tidal estuary , with tidal influence extending as far as the Federal Dam in Troy . Strong tides make parts of New York Harbor difficult and dangerous to navigate . During the winter , ice floes may drift south or north , depending upon the tides . The Mahican name of the river represents its partially estuarine nature : muh - he - kun - ne - tuk means `` the river that flows both ways . '' The Hudson is often mistaken for one of the largest rivers in the United States , but it is an estuary throughout most of its length below Troy and thus only a small fraction of fresh water , about 15,000 cubic feet ( 425 m3 ) per second , is present . The mean fresh water discharge at the river 's mouth in New York is approximately 21,400 cubic feet ( 606 m3 ) per second . The Hudson and its tributaries , notably the Mohawk River , drain a large area . Parts of the Hudson River form coves , such as Weehawken Cove in the towns of Hoboken and Weehawken in New Jersey .",
+            "title": "Hudson River"
+          },
+          {
+            "rank": 3,
+            "doc_id": "814479651_31294-31758-0-464",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Hudson River A 30 - mile ( 48 km ) stretch on the east bank of the Hudson has been designated the Hudson River Historic District , a National Historic Landmark . The Palisades Interstate Park Commission protects the Palisades on the west bank of the river . The Hudson River was designated as an American Heritage River in 1997 . The Hudson River estuary system is part of the National Estuarine Research Reserve System as the Hudson River National Estuarine Research Reserve .",
+            "title": "Hudson River"
+          },
+          {
+            "rank": 4,
+            "doc_id": "814479651_25568-26518-0-950",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Hudson River During the Industrial Revolution , the Hudson River became a major location for production , especially around Albany and Troy . The river allowed for fast and easy transport of goods from the interior of the Northeast to the coast . Hundreds of factories were built around the Hudson , in towns including Poughkeepise , Newburgh , Kingston , and Hudson . The North Tarrytown Assembly ( later owned by General Motors ) , on the river in Sleepy Hollow , was a large and notable example . The River links to the Erie Canal and Great Lakes , allowing manufacturing in the Midwest , including automobiles in Detroit , to use the river for transport . With industrialization came new technologies for transport , including steamboats for faster transport . In 1807 , the North River Steamboat ( later known as Clermont ) , became the first commercially successful steamboat . It carried passengers between New York City and Albany along the Hudson River .",
+            "title": "Hudson River"
+          },
+          {
+            "rank": 5,
+            "doc_id": "814479651_37658-38506-0-848",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Hudson River The Hudson River estuary is also the site of wetlands , from New York City all the way up to Troy . In fact , it has one of the largest concentrations of freshwater wetlands in the Northeast . Even though the river can be considered brackish further south , 80 % of the wetlands are outside of the influence of the saltwater coming from the Atlantic Ocean . Currently , the river has about 7,000 acres ( 28 km ) acres of wetlands , and rising sea levels due to climate change are expected to lead to an expansion of that area . Wetlands are expected to migrate upland as sea level ( and thus the level of the river ) rises . This is different from the rest of the world , where rising sea levels usually leads to a reduction in wetland areas . The expansion of the wetlands are expected to provide more habitat to the fish and birds of the region .",
+            "title": "Hudson River"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "The Hudson River is important because it allowed for fast and easy transport of goods from the interior of the Northeast to the coast.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "855420636_12521-13315-0-794",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Hudson Valley The Hudson River was a key river during the Revolution . The Hudson River was important for a few reasons . Firstly , the Hudson 's connection to the Mohawk River allowed travelers to get to the Great Lakes and the Mississippi River eventually . In addition , the river 's close proximity to Lake George and Lake Champlain would allow the British navy to control the water route from Montreal to New York City . In doing so , the British , under General John Burgoyne 's strategy , would be able to cut off the patriot hub of New England ( which is on the eastern side of the Hudson River ) and focus on rallying the support of loyalists in the South and Mid-Atlantic regions . The British knew that total occupation of the colonies would be unfeasible , which is why this strategy was chosen .",
+          "title": "Hudson Valley"
+        },
+        {
+          "rank": 2,
+          "doc_id": "814479651_11212-12209-0-997",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Hudson River The lower Hudson is actually a tidal estuary , with tidal influence extending as far as the Federal Dam in Troy . Strong tides make parts of New York Harbor difficult and dangerous to navigate . During the winter , ice floes may drift south or north , depending upon the tides . The Mahican name of the river represents its partially estuarine nature : muh - he - kun - ne - tuk means `` the river that flows both ways . '' The Hudson is often mistaken for one of the largest rivers in the United States , but it is an estuary throughout most of its length below Troy and thus only a small fraction of fresh water , about 15,000 cubic feet ( 425 m3 ) per second , is present . The mean fresh water discharge at the river 's mouth in New York is approximately 21,400 cubic feet ( 606 m3 ) per second . The Hudson and its tributaries , notably the Mohawk River , drain a large area . Parts of the Hudson River form coves , such as Weehawken Cove in the towns of Hoboken and Weehawken in New Jersey .",
+          "title": "Hudson River"
+        },
+        {
+          "rank": 3,
+          "doc_id": "814479651_31294-31758-0-464",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Hudson River A 30 - mile ( 48 km ) stretch on the east bank of the Hudson has been designated the Hudson River Historic District , a National Historic Landmark . The Palisades Interstate Park Commission protects the Palisades on the west bank of the river . The Hudson River was designated as an American Heritage River in 1997 . The Hudson River estuary system is part of the National Estuarine Research Reserve System as the Hudson River National Estuarine Research Reserve .",
+          "title": "Hudson River"
+        },
+        {
+          "rank": 4,
+          "doc_id": "814479651_25568-26518-0-950",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Hudson River During the Industrial Revolution , the Hudson River became a major location for production , especially around Albany and Troy . The river allowed for fast and easy transport of goods from the interior of the Northeast to the coast . Hundreds of factories were built around the Hudson , in towns including Poughkeepise , Newburgh , Kingston , and Hudson . The North Tarrytown Assembly ( later owned by General Motors ) , on the river in Sleepy Hollow , was a large and notable example . The River links to the Erie Canal and Great Lakes , allowing manufacturing in the Midwest , including automobiles in Detroit , to use the river for transport . With industrialization came new technologies for transport , including steamboats for faster transport . In 1807 , the North River Steamboat ( later known as Clermont ) , became the first commercially successful steamboat . It carried passengers between New York City and Albany along the Hudson River .",
+          "title": "Hudson River"
+        },
+        {
+          "rank": 5,
+          "doc_id": "814479651_37658-38506-0-848",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Hudson River The Hudson River estuary is also the site of wetlands , from New York City all the way up to Troy . In fact , it has one of the largest concentrations of freshwater wetlands in the Northeast . Even though the river can be considered brackish further south , 80 % of the wetlands are outside of the influence of the saltwater coming from the Atlantic Ocean . Currently , the river has about 7,000 acres ( 28 km ) acres of wetlands , and rising sea levels due to climate change are expected to lead to an expansion of that area . Wetlands are expected to migrate upland as sea level ( and thus the level of the river ) rises . This is different from the rest of the world , where rising sea levels usually leads to a reduction in wetland areas . The expansion of the wetlands are expected to provide more habitat to the fish and birds of the region .",
+          "title": "Hudson River"
+        }
+      ],
+      "reference": {
+        "answer": "Yes, the Hudson River is considered an important river in the United States. The 315-mile-long Hudson River flows through eastern New York, serving as a boundary between New Jersey and New York. The region has experienced economic revitalization, especially in green development. Notable projects such as the High Line and the Walkway Over the Hudson, along with waterfront parks and annual festivals, contribute to the area's appeal. The Hudson River valley runs primarily from north to south down the eastern edge of New York State, cutting through a series of rock types including Triassic sandstones and redbeds in the south, and much more ancient Precambrian gneiss in the north (and east).",
+        "evidence_ids": [
+          "814479651_1775-2512-0-737",
+          "814479651_29614-30252-0-638",
+          "855420636_2208-2769-0-561"
+        ],
+        "evidence": [
+          {
+            "doc_id": "814479651_1775-2512-0-737",
+            "text": "Hudson River\nHudson River\nThe Hudson River is a 315 - mile ( 507 km ) river that flows from north to south primarily through eastern New York in the United States . The river originates in the Adirondack Mountains of Upstate New York , flows through the Hudson Valley , and eventually drains into the Atlantic Ocean , between New York City and Jersey City . The river serves as a political boundary between the states of New Jersey and New York , and further north between New York counties . The lower half of the river is a tidal estuary occupying the Hudson Fjord , an inlet which formed during the most recent period of North American glaciation , estimated at 26,000 to 13,300 years ago . Tidal waters influence the Hudson 's flow from as far north as Troy ."
+          },
+          {
+            "doc_id": "814479651_29614-30252-0-638",
+            "text": "Hudson River\nHudson River\nIn conjunction with conservation efforts , the Hudson River region has seen an economic revitalization , especially in favor of green development . In 2009 , the High Line was opened in the Chelsea neighborhood of Manhattan . This linear park has views of the river throughout its length . Also in 2009 , the original Poughkeepsie railroad bridge , since abandoned , was converted into the Walkway Over the Hudson , a pedestrian park over the river . Emblematic of the increase in green development in the region , waterfront parks in cities like Kingston , Poughkeepsie , and Beacon were built , and several festivals are held annually ."
+          },
+          {
+            "doc_id": "855420636_2208-2769-0-561",
+            "text": "Hudson Valley\nHudson Valley\nThe Hudson River valley runs primarily north to south down the eastern edge of New York State , cutting through a series of rock types including Triassic sandstones and redbeds in the south and much more ancient Precambrian gneiss in the north ( and east ) . In the Hudson Highlands , the river enters a fjord cut during previous ice ages . To the west lie the extensive Appalachian highlands . In the Tappan Zee region , the west side of the river has high cliffs produced by an erosion - resistant diabase ; these cliffs range from 400 -- 800 feet in height ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Explanation",
+          "Factoid",
+          "Opinion"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    }
+  ]
+}

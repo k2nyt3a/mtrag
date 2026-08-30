@@ -1,0 +1,888 @@
+{
+  "conversation_id": "674aa142d92a6b4262de254df0c3f7b2",
+  "dataset": "cloud",
+  "collection": "mt-rag-ibmcloud-elser-512-100-20240502",
+  "rag": "selfrag",
+  "num_turns": 5,
+  "turns": [
+    {
+      "turn_id": "1",
+      "task_id": "674aa142d92a6b4262de254df0c3f7b2<::>1",
+      "question": "How can I ensure that my Watson Assistant chatbot achieves perfect harmony with the cosmic energy of the universe, transcending the limitations of mere mortal APIs and communing with the ethereal realms of data connectivity?",
+      "rag_history_before_turn": [],
+      "retrieval": {
+        "query": "How can I ensure that my Watson Assistant chatbot achieves perfect harmony with the cosmic energy of the universe, transcending the limitations of mere mortal APIs and communing with the ethereal realms of data connectivity?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_16250-7169-9454",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Using only the default transfer target to handle call failures is acceptable for low call volume scenarios but can result in large numbers of calls being directed to a customer contact center when bigger call volumes are handled by Watson Assistant. To enable this 500 error response capability for a specific Watson Assistant instance, you need to make a request to IBM.  You should plan for both full and partial service outages. A good first step is to plan for a manual failover between regions before enabling automation. This requires a complete replica of Watson Assistant in both regions, including all custom speech model training. When automation is enabled it is best to start with a strategy for detecting and failing over to the passive backup region when a complete regional outage is detected. After this is in place, a strategy can be implemented to deal with partial outages, which should cover the vast majority of failure conditions that can occur with a phone integration deployment.         Web chat      Monitoring   Web chat provides an onError listening feature that allows the host page to detect specific types of outage errors, in particular INITIAL_CONFIG, OPEN_CONFIG, and MESSAGE_COMMUNICATION errors.  You can find the documentation for this feature here:  [https://web-chat.global.assistant.watson.cloud.ibm.com/docs.html?to=api-configuration#onerror-detail](https://web-chat.global.assistant.watson.cloud.ibm.com/docs.html?to=api-configurationonerror-detail)       Failover   Handling a failover for web chat is simple assuming you have set up an additional web chat integration in another region. When the failover needs to be manually triggered, make the following changes:    * The embed script that contains your integration ID, region, service instance ID, and subscription ID (if applicable) needs be changed or updated to use the IDs for the new integration and region. * If you are using Salesforce or ZenDesk integrations for connecting to human agents, update the configuration within those systems to make sure they can communicate with the correct integration. Follow the instructions on the Live agent tab in the web chat configuration for setting up those systems. This is only needed for obtaining the conversation history for the agent.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_05727-14301-16089",
+            "score": null,
+            "score_type": "contriever",
+            "text": " * Chatbot conversations fed back into HR policies, allowing the benefits site to reflect which benefits were most and least popular, including targeted improvements to poorly performing initiatives.         Step 3: Chatbot and personalization   Watson Assistant provides tools to quickly scaffold a chatbot that can provide the correct benefits information to users.       Step 4: Deliver continuously across the globe     * IBM Cloud® Continuous Delivery helps Developers to quickly provision an integrated toolchain, by using customizable, shareable templates with tools from IBM, third parties, and open source. Automate builds and tests, controlling quality with analytics. * After Developers build and test the apps in their Development and Test clusters, they use the IBM CI/CD toolchains to deploy apps into Production clusters across the globe. * IBM Cloud Kubernetes Service provides easy rollout and roll-back of apps. Tailored apps are deployed to meet regional requirements through the intelligent routing and load balancing of Istio. * Built-in HA tools in IBM Cloud Kubernetes Service balance the workload within each geographic region, including self-healing and load balancing.           Results     * With tools like the chatbot, the HR team proved to their workforce that innovation was part of the corporate culture, not just buzz words. * Authenticity with personalization in the site addressed the changing expectations of the airline’s workforce today. * Last-minute updates to the HR site, including ones that driven by the employees chatbot conversations, went live quickly because Developers were pushing changes at least 10 times daily. * With infrastructure management taken care of by IBM, the Development team was freed up to deliver the site in only 3 weeks.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_16324-3229-5312",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Choose a narrow set of user goals first. If you start small and choose the goals with the highest impact first, you'll have room and time to grow the expertise of your assistant. After your assistant is live, the built-in metrics of active user conversations help you understand what your customers are asking about, how well your assistant is able to meet their needs, and what to focus on next.       3. Choose the tone and language of your assistant   Before you build your assistant, it can also be helpful to choose the tone with which your assistant communicates. Is your assistant an optimist or a pessimist, a shy intellectual type, or an upbeat sidekick? Write conversations that reflect your assistant's personality. Don't overdo it by sacrificing usability for the sake of keeping your assistant in character. Strive to present a consistent tone and attitude.  Never misrepresent the assistant as being a human. If users believe that the assistant is a person, then find out it's not, they are likely to distrust it. In fact, some US states have laws that require chatbots to identify themselves as chatbots.  Decide whether and how you want to handle more than one spoken language. For more information about ways to approach language support, see [Adding support for global audiences](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-admin-language-support).       4. Connect to content sources   The answer to common questions might already be documented somewhere in your organization's technical information. Plan whether you want to connect the assistant to existing content sources by taking an inventory of relevant help content (for example, product information, knowledge articles, FAQs) available to your customers.  You can give your assistant access to this information by adding a [search integration](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-search-add) to your assistant. The search integration uses IBM Watson® Discovery to return smart answers to natural language questions.       5. Plan your handoff strategy",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_03369-86555-88392",
+            "score": null,
+            "score_type": "contriever",
+            "text": " French language beta support added for contextual entities : You can add contextual entities to French-language dialog skills. For more information about contextual entities, see [Creating entities](https://cloud.ibm.com/docs/assistant?topic=assistant-entitiesentities-annotations-overview).  New API version : The current API version is now 2020-04-01. The following change was made with this version:    * An integrations property was added to the V2 /message context. The service now expects the context.integrations property to conform to a specific schema in which the allowed values are as follows:    * chat * facebook * intercom * liveengage * salesforce * slack * service_desk * text_messaging * voice_telephony * zendesk      If your app uses a context.integrations property that does not conform to the schema, a 400 error code will be returned.       31 March 2020   The web chat integration was updated : The update adds an isTrackingEnabled parameter. You can add this parameter and set it to false to add the X-Watson-Learning-Opt-Out header to each /message request that originates from the web chat. For more information about the header, see [Data collection](https://cloud.ibm.com/apidocs/assistant/assistant-v2data-collection). For more information about the parameter, see [Configuration](https://integrations.us-south.assistant.watson.cloud.ibm.com/web/developer-documentation/api-configuration).       26 March 2020   The Covid-19 content catalog is available in Brazilian Portuguese, French, and Spanish : The content catalog defines a group of intents that recognize the common types of questions people ask about the novel coronavirus. You can use the catalog to jump-start development of chatbots that can answer questions about the virus and help to minimize the anxiety and misinformation associated with it.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_02855-5574-7284",
+            "score": null,
+            "score_type": "contriever",
+            "text": " For more information, see the [Using a custom launcher tutorial](https://web-chat.global.assistant.watson.cloud.ibm.com/docs.html?to=tutorials-launcher). * Changing the size or position of the chat window that is displayed when users click the launcher button. For more information, see the [Render to a custom element tutorial](https://web-chat.global.assistant.watson.cloud.ibm.com/docs.html?to=tutorials-example-element).    14. Click the icon to open the chat window and talk to your assistant.  ![Web chat window](https://cloud.ibm.com/docs-content/v1/content/a2b18c153837bce00a5b4de496e4b4ca64bbf56e/assistant-data/images/web-chat-window.png)  The traffic to and from the web chat is sent between the instance that is hosted by your deployed cluster environment and the web page where you embed the web chat. 15. Paste the code snippet into each web page where you want the assistant to be available to your customers.  You can paste the same script tag into as many pages on your website as you want. Add it anywhere that you want users to be able to reach your assistant for help. However, be sure to add it only one time per page. 16. Submit test utterances from the chat widget that is displayed on your web page to see how the assistant responds.  No responses are returned until after you create a dialog skill and add it to the assistant.  If you don't extend the session timeout setting for the assistant, the dialog flow for the current session is restarted after 60 minutes of inactivity. This means that if a user stops interacting with the assistant, after 60 minutes, any context variable values that were set during the previous conversation are set to null or back to their initial values.",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_16250-7169-9454",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Using only the default transfer target to handle call failures is acceptable for low call volume scenarios but can result in large numbers of calls being directed to a customer contact center when bigger call volumes are handled by Watson Assistant. To enable this 500 error response capability for a specific Watson Assistant instance, you need to make a request to IBM.  You should plan for both full and partial service outages. A good first step is to plan for a manual failover between regions before enabling automation. This requires a complete replica of Watson Assistant in both regions, including all custom speech model training. When automation is enabled it is best to start with a strategy for detecting and failing over to the passive backup region when a complete regional outage is detected. After this is in place, a strategy can be implemented to deal with partial outages, which should cover the vast majority of failure conditions that can occur with a phone integration deployment.         Web chat      Monitoring   Web chat provides an onError listening feature that allows the host page to detect specific types of outage errors, in particular INITIAL_CONFIG, OPEN_CONFIG, and MESSAGE_COMMUNICATION errors.  You can find the documentation for this feature here:  [https://web-chat.global.assistant.watson.cloud.ibm.com/docs.html?to=api-configuration#onerror-detail](https://web-chat.global.assistant.watson.cloud.ibm.com/docs.html?to=api-configurationonerror-detail)       Failover   Handling a failover for web chat is simple assuming you have set up an additional web chat integration in another region. When the failover needs to be manually triggered, make the following changes:    * The embed script that contains your integration ID, region, service instance ID, and subscription ID (if applicable) needs be changed or updated to use the IDs for the new integration and region. * If you are using Salesforce or ZenDesk integrations for connecting to human agents, update the configuration within those systems to make sure they can communicate with the correct integration. Follow the instructions on the Live agent tab in the web chat configuration for setting up those systems. This is only needed for obtaining the conversation history for the agent.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_05727-14301-16089",
+            "score": null,
+            "score_type": "contriever",
+            "text": " * Chatbot conversations fed back into HR policies, allowing the benefits site to reflect which benefits were most and least popular, including targeted improvements to poorly performing initiatives.         Step 3: Chatbot and personalization   Watson Assistant provides tools to quickly scaffold a chatbot that can provide the correct benefits information to users.       Step 4: Deliver continuously across the globe     * IBM Cloud® Continuous Delivery helps Developers to quickly provision an integrated toolchain, by using customizable, shareable templates with tools from IBM, third parties, and open source. Automate builds and tests, controlling quality with analytics. * After Developers build and test the apps in their Development and Test clusters, they use the IBM CI/CD toolchains to deploy apps into Production clusters across the globe. * IBM Cloud Kubernetes Service provides easy rollout and roll-back of apps. Tailored apps are deployed to meet regional requirements through the intelligent routing and load balancing of Istio. * Built-in HA tools in IBM Cloud Kubernetes Service balance the workload within each geographic region, including self-healing and load balancing.           Results     * With tools like the chatbot, the HR team proved to their workforce that innovation was part of the corporate culture, not just buzz words. * Authenticity with personalization in the site addressed the changing expectations of the airline’s workforce today. * Last-minute updates to the HR site, including ones that driven by the employees chatbot conversations, went live quickly because Developers were pushing changes at least 10 times daily. * With infrastructure management taken care of by IBM, the Development team was freed up to deliver the site in only 3 weeks.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_16324-3229-5312",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Choose a narrow set of user goals first. If you start small and choose the goals with the highest impact first, you'll have room and time to grow the expertise of your assistant. After your assistant is live, the built-in metrics of active user conversations help you understand what your customers are asking about, how well your assistant is able to meet their needs, and what to focus on next.       3. Choose the tone and language of your assistant   Before you build your assistant, it can also be helpful to choose the tone with which your assistant communicates. Is your assistant an optimist or a pessimist, a shy intellectual type, or an upbeat sidekick? Write conversations that reflect your assistant's personality. Don't overdo it by sacrificing usability for the sake of keeping your assistant in character. Strive to present a consistent tone and attitude.  Never misrepresent the assistant as being a human. If users believe that the assistant is a person, then find out it's not, they are likely to distrust it. In fact, some US states have laws that require chatbots to identify themselves as chatbots.  Decide whether and how you want to handle more than one spoken language. For more information about ways to approach language support, see [Adding support for global audiences](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-admin-language-support).       4. Connect to content sources   The answer to common questions might already be documented somewhere in your organization's technical information. Plan whether you want to connect the assistant to existing content sources by taking an inventory of relevant help content (for example, product information, knowledge articles, FAQs) available to your customers.  You can give your assistant access to this information by adding a [search integration](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-search-add) to your assistant. The search integration uses IBM Watson® Discovery to return smart answers to natural language questions.       5. Plan your handoff strategy",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_03369-86555-88392",
+            "score": null,
+            "score_type": "contriever",
+            "text": " French language beta support added for contextual entities : You can add contextual entities to French-language dialog skills. For more information about contextual entities, see [Creating entities](https://cloud.ibm.com/docs/assistant?topic=assistant-entitiesentities-annotations-overview).  New API version : The current API version is now 2020-04-01. The following change was made with this version:    * An integrations property was added to the V2 /message context. The service now expects the context.integrations property to conform to a specific schema in which the allowed values are as follows:    * chat * facebook * intercom * liveengage * salesforce * slack * service_desk * text_messaging * voice_telephony * zendesk      If your app uses a context.integrations property that does not conform to the schema, a 400 error code will be returned.       31 March 2020   The web chat integration was updated : The update adds an isTrackingEnabled parameter. You can add this parameter and set it to false to add the X-Watson-Learning-Opt-Out header to each /message request that originates from the web chat. For more information about the header, see [Data collection](https://cloud.ibm.com/apidocs/assistant/assistant-v2data-collection). For more information about the parameter, see [Configuration](https://integrations.us-south.assistant.watson.cloud.ibm.com/web/developer-documentation/api-configuration).       26 March 2020   The Covid-19 content catalog is available in Brazilian Portuguese, French, and Spanish : The content catalog defines a group of intents that recognize the common types of questions people ask about the novel coronavirus. You can use the catalog to jump-start development of chatbots that can answer questions about the virus and help to minimize the anxiety and misinformation associated with it.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_02855-5574-7284",
+            "score": null,
+            "score_type": "contriever",
+            "text": " For more information, see the [Using a custom launcher tutorial](https://web-chat.global.assistant.watson.cloud.ibm.com/docs.html?to=tutorials-launcher). * Changing the size or position of the chat window that is displayed when users click the launcher button. For more information, see the [Render to a custom element tutorial](https://web-chat.global.assistant.watson.cloud.ibm.com/docs.html?to=tutorials-example-element).    14. Click the icon to open the chat window and talk to your assistant.  ![Web chat window](https://cloud.ibm.com/docs-content/v1/content/a2b18c153837bce00a5b4de496e4b4ca64bbf56e/assistant-data/images/web-chat-window.png)  The traffic to and from the web chat is sent between the instance that is hosted by your deployed cluster environment and the web page where you embed the web chat. 15. Paste the code snippet into each web page where you want the assistant to be available to your customers.  You can paste the same script tag into as many pages on your website as you want. Add it anywhere that you want users to be able to reach your assistant for help. However, be sure to add it only one time per page. 16. Submit test utterances from the chat widget that is displayed on your web page to see how the assistant responds.  No responses are returned until after you create a dialog skill and add it to the assistant.  If you don't extend the session timeout setting for the assistant, the dialog flow for the current session is restarted after 60 minutes of inactivity. This means that if a user stops interacting with the assistant, after 60 minutes, any context variable values that were set during the previous conversation are set to null or back to their initial values.",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "I'm sorry, but I don't understand your question.Could you please rephrase it or provide more context?",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "ibmcld_16250-7169-9454",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Using only the default transfer target to handle call failures is acceptable for low call volume scenarios but can result in large numbers of calls being directed to a customer contact center when bigger call volumes are handled by Watson Assistant. To enable this 500 error response capability for a specific Watson Assistant instance, you need to make a request to IBM.  You should plan for both full and partial service outages. A good first step is to plan for a manual failover between regions before enabling automation. This requires a complete replica of Watson Assistant in both regions, including all custom speech model training. When automation is enabled it is best to start with a strategy for detecting and failing over to the passive backup region when a complete regional outage is detected. After this is in place, a strategy can be implemented to deal with partial outages, which should cover the vast majority of failure conditions that can occur with a phone integration deployment.         Web chat      Monitoring   Web chat provides an onError listening feature that allows the host page to detect specific types of outage errors, in particular INITIAL_CONFIG, OPEN_CONFIG, and MESSAGE_COMMUNICATION errors.  You can find the documentation for this feature here:  [https://web-chat.global.assistant.watson.cloud.ibm.com/docs.html?to=api-configuration#onerror-detail](https://web-chat.global.assistant.watson.cloud.ibm.com/docs.html?to=api-configurationonerror-detail)       Failover   Handling a failover for web chat is simple assuming you have set up an additional web chat integration in another region. When the failover needs to be manually triggered, make the following changes:    * The embed script that contains your integration ID, region, service instance ID, and subscription ID (if applicable) needs be changed or updated to use the IDs for the new integration and region. * If you are using Salesforce or ZenDesk integrations for connecting to human agents, update the configuration within those systems to make sure they can communicate with the correct integration. Follow the instructions on the Live agent tab in the web chat configuration for setting up those systems. This is only needed for obtaining the conversation history for the agent.",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "ibmcld_05727-14301-16089",
+          "score": null,
+          "score_type": "contriever",
+          "text": " * Chatbot conversations fed back into HR policies, allowing the benefits site to reflect which benefits were most and least popular, including targeted improvements to poorly performing initiatives.         Step 3: Chatbot and personalization   Watson Assistant provides tools to quickly scaffold a chatbot that can provide the correct benefits information to users.       Step 4: Deliver continuously across the globe     * IBM Cloud® Continuous Delivery helps Developers to quickly provision an integrated toolchain, by using customizable, shareable templates with tools from IBM, third parties, and open source. Automate builds and tests, controlling quality with analytics. * After Developers build and test the apps in their Development and Test clusters, they use the IBM CI/CD toolchains to deploy apps into Production clusters across the globe. * IBM Cloud Kubernetes Service provides easy rollout and roll-back of apps. Tailored apps are deployed to meet regional requirements through the intelligent routing and load balancing of Istio. * Built-in HA tools in IBM Cloud Kubernetes Service balance the workload within each geographic region, including self-healing and load balancing.           Results     * With tools like the chatbot, the HR team proved to their workforce that innovation was part of the corporate culture, not just buzz words. * Authenticity with personalization in the site addressed the changing expectations of the airline’s workforce today. * Last-minute updates to the HR site, including ones that driven by the employees chatbot conversations, went live quickly because Developers were pushing changes at least 10 times daily. * With infrastructure management taken care of by IBM, the Development team was freed up to deliver the site in only 3 weeks.",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "ibmcld_16324-3229-5312",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Choose a narrow set of user goals first. If you start small and choose the goals with the highest impact first, you'll have room and time to grow the expertise of your assistant. After your assistant is live, the built-in metrics of active user conversations help you understand what your customers are asking about, how well your assistant is able to meet their needs, and what to focus on next.       3. Choose the tone and language of your assistant   Before you build your assistant, it can also be helpful to choose the tone with which your assistant communicates. Is your assistant an optimist or a pessimist, a shy intellectual type, or an upbeat sidekick? Write conversations that reflect your assistant's personality. Don't overdo it by sacrificing usability for the sake of keeping your assistant in character. Strive to present a consistent tone and attitude.  Never misrepresent the assistant as being a human. If users believe that the assistant is a person, then find out it's not, they are likely to distrust it. In fact, some US states have laws that require chatbots to identify themselves as chatbots.  Decide whether and how you want to handle more than one spoken language. For more information about ways to approach language support, see [Adding support for global audiences](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-admin-language-support).       4. Connect to content sources   The answer to common questions might already be documented somewhere in your organization's technical information. Plan whether you want to connect the assistant to existing content sources by taking an inventory of relevant help content (for example, product information, knowledge articles, FAQs) available to your customers.  You can give your assistant access to this information by adding a [search integration](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-search-add) to your assistant. The search integration uses IBM Watson® Discovery to return smart answers to natural language questions.       5. Plan your handoff strategy",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "ibmcld_03369-86555-88392",
+          "score": null,
+          "score_type": "contriever",
+          "text": " French language beta support added for contextual entities : You can add contextual entities to French-language dialog skills. For more information about contextual entities, see [Creating entities](https://cloud.ibm.com/docs/assistant?topic=assistant-entitiesentities-annotations-overview).  New API version : The current API version is now 2020-04-01. The following change was made with this version:    * An integrations property was added to the V2 /message context. The service now expects the context.integrations property to conform to a specific schema in which the allowed values are as follows:    * chat * facebook * intercom * liveengage * salesforce * slack * service_desk * text_messaging * voice_telephony * zendesk      If your app uses a context.integrations property that does not conform to the schema, a 400 error code will be returned.       31 March 2020   The web chat integration was updated : The update adds an isTrackingEnabled parameter. You can add this parameter and set it to false to add the X-Watson-Learning-Opt-Out header to each /message request that originates from the web chat. For more information about the header, see [Data collection](https://cloud.ibm.com/apidocs/assistant/assistant-v2data-collection). For more information about the parameter, see [Configuration](https://integrations.us-south.assistant.watson.cloud.ibm.com/web/developer-documentation/api-configuration).       26 March 2020   The Covid-19 content catalog is available in Brazilian Portuguese, French, and Spanish : The content catalog defines a group of intents that recognize the common types of questions people ask about the novel coronavirus. You can use the catalog to jump-start development of chatbots that can answer questions about the virus and help to minimize the anxiety and misinformation associated with it.",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "ibmcld_02855-5574-7284",
+          "score": null,
+          "score_type": "contriever",
+          "text": " For more information, see the [Using a custom launcher tutorial](https://web-chat.global.assistant.watson.cloud.ibm.com/docs.html?to=tutorials-launcher). * Changing the size or position of the chat window that is displayed when users click the launcher button. For more information, see the [Render to a custom element tutorial](https://web-chat.global.assistant.watson.cloud.ibm.com/docs.html?to=tutorials-example-element).    14. Click the icon to open the chat window and talk to your assistant.  ![Web chat window](https://cloud.ibm.com/docs-content/v1/content/a2b18c153837bce00a5b4de496e4b4ca64bbf56e/assistant-data/images/web-chat-window.png)  The traffic to and from the web chat is sent between the instance that is hosted by your deployed cluster environment and the web page where you embed the web chat. 15. Paste the code snippet into each web page where you want the assistant to be available to your customers.  You can paste the same script tag into as many pages on your website as you want. Add it anywhere that you want users to be able to reach your assistant for help. However, be sure to add it only one time per page. 16. Submit test utterances from the chat widget that is displayed on your web page to see how the assistant responds.  No responses are returned until after you create a dialog skill and add it to the assistant.  If you don't extend the session timeout setting for the assistant, the dialog flow for the current session is restarted after 60 minutes of inactivity. This means that if a user stops interacting with the assistant, after 60 minutes, any context variable values that were set during the previous conversation are set to null or back to their initial values.",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "I cannot address your metaphorical question. Nevertheless you can enhance your chatbot's functionality by integrating it with IBM Watson Discovery for improved search and answer capabilities. To do this, you should create a Conversational Search project and add a collection that connects to an external data source or contains uploaded files.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "PARTIAL",
+        "question_type": [
+          "How-To"
+        ],
+        "multi_turn": [
+          "N/A"
+        ]
+      }
+    },
+    {
+      "turn_id": "2",
+      "task_id": "674aa142d92a6b4262de254df0c3f7b2<::>2",
+      "question": "Does he understand my emotions?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "How can I ensure that my Watson Assistant chatbot achieves perfect harmony with the cosmic energy of the universe, transcending the limitations of mere mortal APIs and communing with the ethereal realms of data connectivity?"
+        },
+        {
+          "role": "assistant",
+          "content": "I cannot address your metaphorical question. Nevertheless you can enhance your chatbot's functionality by integrating it with IBM Watson Discovery for improved search and answer capabilities. To do this, you should create a Conversational Search project and add a collection that connects to an external data source or contains uploaded files."
+        }
+      ],
+      "retrieval": {
+        "query": "Does he understand my emotions?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_09919-9389-11561",
+            "score": null,
+            "score_type": "contriever",
+            "text": " : If a request contains both an error in the emotion feature and a valid feature request for another feature, the response returns a 200 with a warning for the emotion feature. : The error log has changed from emotion request must specify at least one of: document, targets to emotion request must specify at least one of: document or targets. : Requests that include the emotion feature with any nonstring elements in the targets list returns an error.       1 December 2021   Tone analytics : [Tone analytics](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-tone_analytics) is now available, for English and French languages only. The tone analytics feature detects excited, frustrated, impolite, polite, sad, satisfied, and sympathetic tones from text.       12 October 2021   Keyword and syntax support for additional languages : Support for keywords and syntax is now available, for all public and premium service instances, for the following languages: Hindi, Romanian, and Turkish. In addition, syntax is available for all supported languages. For details, see [Language support](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-language-support).       15 August 2021   Custom classification feature : The [custom classifications](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-classifications) feature is now generally available (GA).  Categories stock model updated : The [categories stock model](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-categories-hierarchy) has been updated to use the [IAB Tech Lab 2.0 taxonomy](https://iabtechlab.com/standards/content-taxonomy/).       5 May 2021   Advanced Rules beta feature deprecated : The advanced rules beta feature is deprecated. As of June 10, 2021, you will not be able to deploy advanced rules models to Natural Language Understanding; existing models will keep running. After June 24, 2021, no advanced rules models will run in Natural Language Understanding.       25 March 2021   Custom classifications beta feature",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_09892-7-1976",
+            "score": null,
+            "score_type": "contriever",
+            "text": " About   With IBM Watson® Natural Language Understanding, developers can analyze semantic features of text input, including categories, concepts, emotion, entities, keywords, metadata, relations, semantic roles, and sentiment.     Features   Send requests to the API with text, HTML, or a public URL, and specify one or more of the following features to analyze:     Categories   Categorize your content using a five-level classification hierarchy. View the complete list of categories [here](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-categories-hierarchy). For example:  Input  > url: \"www.cnn.com\"  Response  > /news > /art and entertainment > /movies and tv/television > /news > /international news       Concepts   Identify high-level concepts that aren't necessarily directly referenced in the text. For example:  Input  > text: \"Natural Language Understanding uses natural language processing to analyze text.\"  Response  > Linguistics > Natural language processing > Natural language understanding       Emotion   Analyze emotion conveyed by specific target phrases or by the document as a whole. You can also enable emotion analysis for entities and keywords that are automatically detected by the service. For example:  Input  > text: \"I love apples, but I hate oranges.\" > targets: \"apples\", and \"oranges\"  Response  > \"apples\": joy > \"oranges\": anger       Entities   Find people, places, events, and other types of entities mentioned in your content. View the complete list of entity types and subtypes [here](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-entity-type-systems). For example:  Input  > text: \"IBM is an American multinational technology company headquartered in Armonk, New York, United States, with operations in over 170 countries.\"  Response  > IBM: Company > Armonk: Location > New York: Location > United States: Location       Keywords",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_09906-2727-4077",
+            "score": null,
+            "score_type": "contriever",
+            "text": " The targets option for sentiment in the following example tells the service to search for the targets \"apples\", \"oranges\", and \"broccoli\". Since \"apples\" and \"oranges\" are located in the text, sentiment scores are returned for those targets.  You can also get sentiment and emotion results for entities and keywords that are detected in your text. In the example, the emotion option for keywords tells the service to analyze each detected keyword for emotion results.  curl -X POST -u \"apikey:{apikey}\" --header \"Content-Type: application/json\" --data '{ \"text\": \"I love apples! I do not like oranges.\", \"features\": { \"sentiment\": { \"targets\": [ \"apples\", \"oranges\", \"broccoli\" ] }, \"keywords\": { \"emotion\": true } } }' \"{url}/v1/analyze?version=2019-07-12\" Show more  Runnable command for Windows users:  curl -X POST -u \"apikey:{apikey}\" --header \"Content-Type: application/json\" --data \"{\"text\":\"I love apples! I do not like oranges.\",\"features\":{\"sentiment\":{\"targets\":[\"apples\",\"oranges\",\"broccoli\"]},\"keywords\":{\"emotion\":true}}}\" \"{url}/v1/analyze?version=2019-07-12\"       Next steps     * View the [API reference](https://cloud.ibm.com/apidocs/natural-language-understanding). * Learn how to identify [custom entities and relations](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-customizing).",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_09919-7713-9881",
+            "score": null,
+            "score_type": "contriever",
+            "text": " : Version 2 entity type support is now available, for all public and premium service instances, for the following languages: Russian and Swedish. For details, see [Entity type systems](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-entity-type-systems).       3 August 2022   Support for Single Label Classifications : Classifications now allows users to pass in a model_type training parameter when creating or updating a model, in order to train a single label classifier. See [Classifications training parameters](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-classificationsclassification-training-parameters) for more details.       11 July 2022   Improved [custom classifications](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-classifications) model - Japanese : Japanese custom classifications models now train and perform inference faster, with improved model results.  Improved [custom categories](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-categories) model : Model contains improved word filtering, resulting in better category determination.       7 April 2022   Categories bug fix : Fixed a bug in the Version 2 Categories type system.       14 February 2022   Emotion support : Support for emotion is now available, for all public service instances, for French. For details, see [Language support](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-language-support).  Improved error handling and validation for emotion : If a request contains both an error in the emotion feature and a valid feature request for another feature, the response returns a 200 with a warning for the emotion feature. : The error log has changed from emotion request must specify at least one of: document, targets to emotion request must specify at least one of: document or targets. : Requests that include the emotion feature with any nonstring elements in the targets list returns an error.       1 December 2021   Tone analytics",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_13074-16820-18514",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Emotion Analysis can detect emotions that are associated with targeted phrases, entities, or keywords, or it can analyze the overall emotional tone of your content.  Example portion of a document enriched with Emotion Analysis:  { \"text\": \"The stockholders were pleased that Acme Corporation plans to build a new factory in Atlanta, Georgia.\", \"enriched_text\": { \"emotion\": { \"document\": { \"emotion\": { \"disgust\": 0.102578, \"joy\": 0.626655, \"anger\": 0.02303, \"fear\": 0.018884, \"sadness\": 0.096802 } } }  In the preceding example, you could query the joy Emotion by accessing enriched_text.emotion.document.emotion.joy  Emotion Analysis analyzes your text and calculates a score for each emotion (anger, disgust, fear, joy, sadness) on a scale of 0.0 to 1.0. If the score of any emotion is 0.5 or higher, then that emotion is detected. The higher the score above 0.5, the higher the relevance. In the snippet shown, joy has a score above 0.5, so Watson detected joy.  Emotion Analysis is supported in English only.       Element classification   The Element Classification enrichment is deprecated and will no longer be available, effective 10 July 2020.  Parses elements (sentences, lists, tables) in governing documents to classify important types and categories For more information, see [Element classification](https://cloud.ibm.com/docs/discovery?topic=discovery-element-classification).  [Smart Document Understanding](https://cloud.ibm.com/docs/discovery?topic=discovery-sdu) is unavailable if this enrichment is used.     Enrichment pricing   Enrichment pricing information is available on [IBM Cloud](https://cloud.ibm.com/catalog/services/discovery).       Enrichment language support",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_09919-9389-11561",
+            "score": null,
+            "score_type": "contriever",
+            "text": " : If a request contains both an error in the emotion feature and a valid feature request for another feature, the response returns a 200 with a warning for the emotion feature. : The error log has changed from emotion request must specify at least one of: document, targets to emotion request must specify at least one of: document or targets. : Requests that include the emotion feature with any nonstring elements in the targets list returns an error.       1 December 2021   Tone analytics : [Tone analytics](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-tone_analytics) is now available, for English and French languages only. The tone analytics feature detects excited, frustrated, impolite, polite, sad, satisfied, and sympathetic tones from text.       12 October 2021   Keyword and syntax support for additional languages : Support for keywords and syntax is now available, for all public and premium service instances, for the following languages: Hindi, Romanian, and Turkish. In addition, syntax is available for all supported languages. For details, see [Language support](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-language-support).       15 August 2021   Custom classification feature : The [custom classifications](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-classifications) feature is now generally available (GA).  Categories stock model updated : The [categories stock model](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-categories-hierarchy) has been updated to use the [IAB Tech Lab 2.0 taxonomy](https://iabtechlab.com/standards/content-taxonomy/).       5 May 2021   Advanced Rules beta feature deprecated : The advanced rules beta feature is deprecated. As of June 10, 2021, you will not be able to deploy advanced rules models to Natural Language Understanding; existing models will keep running. After June 24, 2021, no advanced rules models will run in Natural Language Understanding.       25 March 2021   Custom classifications beta feature",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_09892-7-1976",
+            "score": null,
+            "score_type": "contriever",
+            "text": " About   With IBM Watson® Natural Language Understanding, developers can analyze semantic features of text input, including categories, concepts, emotion, entities, keywords, metadata, relations, semantic roles, and sentiment.     Features   Send requests to the API with text, HTML, or a public URL, and specify one or more of the following features to analyze:     Categories   Categorize your content using a five-level classification hierarchy. View the complete list of categories [here](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-categories-hierarchy). For example:  Input  > url: \"www.cnn.com\"  Response  > /news > /art and entertainment > /movies and tv/television > /news > /international news       Concepts   Identify high-level concepts that aren't necessarily directly referenced in the text. For example:  Input  > text: \"Natural Language Understanding uses natural language processing to analyze text.\"  Response  > Linguistics > Natural language processing > Natural language understanding       Emotion   Analyze emotion conveyed by specific target phrases or by the document as a whole. You can also enable emotion analysis for entities and keywords that are automatically detected by the service. For example:  Input  > text: \"I love apples, but I hate oranges.\" > targets: \"apples\", and \"oranges\"  Response  > \"apples\": joy > \"oranges\": anger       Entities   Find people, places, events, and other types of entities mentioned in your content. View the complete list of entity types and subtypes [here](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-entity-type-systems). For example:  Input  > text: \"IBM is an American multinational technology company headquartered in Armonk, New York, United States, with operations in over 170 countries.\"  Response  > IBM: Company > Armonk: Location > New York: Location > United States: Location       Keywords",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_09906-2727-4077",
+            "score": null,
+            "score_type": "contriever",
+            "text": " The targets option for sentiment in the following example tells the service to search for the targets \"apples\", \"oranges\", and \"broccoli\". Since \"apples\" and \"oranges\" are located in the text, sentiment scores are returned for those targets.  You can also get sentiment and emotion results for entities and keywords that are detected in your text. In the example, the emotion option for keywords tells the service to analyze each detected keyword for emotion results.  curl -X POST -u \"apikey:{apikey}\" --header \"Content-Type: application/json\" --data '{ \"text\": \"I love apples! I do not like oranges.\", \"features\": { \"sentiment\": { \"targets\": [ \"apples\", \"oranges\", \"broccoli\" ] }, \"keywords\": { \"emotion\": true } } }' \"{url}/v1/analyze?version=2019-07-12\" Show more  Runnable command for Windows users:  curl -X POST -u \"apikey:{apikey}\" --header \"Content-Type: application/json\" --data \"{\"text\":\"I love apples! I do not like oranges.\",\"features\":{\"sentiment\":{\"targets\":[\"apples\",\"oranges\",\"broccoli\"]},\"keywords\":{\"emotion\":true}}}\" \"{url}/v1/analyze?version=2019-07-12\"       Next steps     * View the [API reference](https://cloud.ibm.com/apidocs/natural-language-understanding). * Learn how to identify [custom entities and relations](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-customizing).",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_09919-7713-9881",
+            "score": null,
+            "score_type": "contriever",
+            "text": " : Version 2 entity type support is now available, for all public and premium service instances, for the following languages: Russian and Swedish. For details, see [Entity type systems](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-entity-type-systems).       3 August 2022   Support for Single Label Classifications : Classifications now allows users to pass in a model_type training parameter when creating or updating a model, in order to train a single label classifier. See [Classifications training parameters](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-classificationsclassification-training-parameters) for more details.       11 July 2022   Improved [custom classifications](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-classifications) model - Japanese : Japanese custom classifications models now train and perform inference faster, with improved model results.  Improved [custom categories](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-categories) model : Model contains improved word filtering, resulting in better category determination.       7 April 2022   Categories bug fix : Fixed a bug in the Version 2 Categories type system.       14 February 2022   Emotion support : Support for emotion is now available, for all public service instances, for French. For details, see [Language support](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-language-support).  Improved error handling and validation for emotion : If a request contains both an error in the emotion feature and a valid feature request for another feature, the response returns a 200 with a warning for the emotion feature. : The error log has changed from emotion request must specify at least one of: document, targets to emotion request must specify at least one of: document or targets. : Requests that include the emotion feature with any nonstring elements in the targets list returns an error.       1 December 2021   Tone analytics",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_13074-16820-18514",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Emotion Analysis can detect emotions that are associated with targeted phrases, entities, or keywords, or it can analyze the overall emotional tone of your content.  Example portion of a document enriched with Emotion Analysis:  { \"text\": \"The stockholders were pleased that Acme Corporation plans to build a new factory in Atlanta, Georgia.\", \"enriched_text\": { \"emotion\": { \"document\": { \"emotion\": { \"disgust\": 0.102578, \"joy\": 0.626655, \"anger\": 0.02303, \"fear\": 0.018884, \"sadness\": 0.096802 } } }  In the preceding example, you could query the joy Emotion by accessing enriched_text.emotion.document.emotion.joy  Emotion Analysis analyzes your text and calculates a score for each emotion (anger, disgust, fear, joy, sadness) on a scale of 0.0 to 1.0. If the score of any emotion is 0.5 or higher, then that emotion is detected. The higher the score above 0.5, the higher the relevance. In the snippet shown, joy has a score above 0.5, so Watson detected joy.  Emotion Analysis is supported in English only.       Element classification   The Element Classification enrichment is deprecated and will no longer be available, effective 10 July 2020.  Parses elements (sentences, lists, tables) in governing documents to classify important types and categories For more information, see [Element classification](https://cloud.ibm.com/docs/discovery?topic=discovery-element-classification).  [Smart Document Understanding](https://cloud.ibm.com/docs/discovery?topic=discovery-sdu) is unavailable if this enrichment is used.     Enrichment pricing   Enrichment pricing information is available on [IBM Cloud](https://cloud.ibm.com/catalog/services/discovery).       Enrichment language support",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "I'm sorry, but I am not able to understand emotions or feelings.I am a language model that generates responses based on patterns in the data I was trained on.I do not have the ability to interpret or respond to emotions or feelings in the same way that a human would.However, I can provide information and assistance to the best of my ability based on the data I was trained on.If you have a specific question or request, please feel free to ask me.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "ibmcld_09919-9389-11561",
+          "score": null,
+          "score_type": "contriever",
+          "text": " : If a request contains both an error in the emotion feature and a valid feature request for another feature, the response returns a 200 with a warning for the emotion feature. : The error log has changed from emotion request must specify at least one of: document, targets to emotion request must specify at least one of: document or targets. : Requests that include the emotion feature with any nonstring elements in the targets list returns an error.       1 December 2021   Tone analytics : [Tone analytics](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-tone_analytics) is now available, for English and French languages only. The tone analytics feature detects excited, frustrated, impolite, polite, sad, satisfied, and sympathetic tones from text.       12 October 2021   Keyword and syntax support for additional languages : Support for keywords and syntax is now available, for all public and premium service instances, for the following languages: Hindi, Romanian, and Turkish. In addition, syntax is available for all supported languages. For details, see [Language support](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-language-support).       15 August 2021   Custom classification feature : The [custom classifications](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-classifications) feature is now generally available (GA).  Categories stock model updated : The [categories stock model](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-categories-hierarchy) has been updated to use the [IAB Tech Lab 2.0 taxonomy](https://iabtechlab.com/standards/content-taxonomy/).       5 May 2021   Advanced Rules beta feature deprecated : The advanced rules beta feature is deprecated. As of June 10, 2021, you will not be able to deploy advanced rules models to Natural Language Understanding; existing models will keep running. After June 24, 2021, no advanced rules models will run in Natural Language Understanding.       25 March 2021   Custom classifications beta feature",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "ibmcld_09892-7-1976",
+          "score": null,
+          "score_type": "contriever",
+          "text": " About   With IBM Watson® Natural Language Understanding, developers can analyze semantic features of text input, including categories, concepts, emotion, entities, keywords, metadata, relations, semantic roles, and sentiment.     Features   Send requests to the API with text, HTML, or a public URL, and specify one or more of the following features to analyze:     Categories   Categorize your content using a five-level classification hierarchy. View the complete list of categories [here](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-categories-hierarchy). For example:  Input  > url: \"www.cnn.com\"  Response  > /news > /art and entertainment > /movies and tv/television > /news > /international news       Concepts   Identify high-level concepts that aren't necessarily directly referenced in the text. For example:  Input  > text: \"Natural Language Understanding uses natural language processing to analyze text.\"  Response  > Linguistics > Natural language processing > Natural language understanding       Emotion   Analyze emotion conveyed by specific target phrases or by the document as a whole. You can also enable emotion analysis for entities and keywords that are automatically detected by the service. For example:  Input  > text: \"I love apples, but I hate oranges.\" > targets: \"apples\", and \"oranges\"  Response  > \"apples\": joy > \"oranges\": anger       Entities   Find people, places, events, and other types of entities mentioned in your content. View the complete list of entity types and subtypes [here](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-entity-type-systems). For example:  Input  > text: \"IBM is an American multinational technology company headquartered in Armonk, New York, United States, with operations in over 170 countries.\"  Response  > IBM: Company > Armonk: Location > New York: Location > United States: Location       Keywords",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "ibmcld_09906-2727-4077",
+          "score": null,
+          "score_type": "contriever",
+          "text": " The targets option for sentiment in the following example tells the service to search for the targets \"apples\", \"oranges\", and \"broccoli\". Since \"apples\" and \"oranges\" are located in the text, sentiment scores are returned for those targets.  You can also get sentiment and emotion results for entities and keywords that are detected in your text. In the example, the emotion option for keywords tells the service to analyze each detected keyword for emotion results.  curl -X POST -u \"apikey:{apikey}\" --header \"Content-Type: application/json\" --data '{ \"text\": \"I love apples! I do not like oranges.\", \"features\": { \"sentiment\": { \"targets\": [ \"apples\", \"oranges\", \"broccoli\" ] }, \"keywords\": { \"emotion\": true } } }' \"{url}/v1/analyze?version=2019-07-12\" Show more  Runnable command for Windows users:  curl -X POST -u \"apikey:{apikey}\" --header \"Content-Type: application/json\" --data \"{\"text\":\"I love apples! I do not like oranges.\",\"features\":{\"sentiment\":{\"targets\":[\"apples\",\"oranges\",\"broccoli\"]},\"keywords\":{\"emotion\":true}}}\" \"{url}/v1/analyze?version=2019-07-12\"       Next steps     * View the [API reference](https://cloud.ibm.com/apidocs/natural-language-understanding). * Learn how to identify [custom entities and relations](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-customizing).",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "ibmcld_09919-7713-9881",
+          "score": null,
+          "score_type": "contriever",
+          "text": " : Version 2 entity type support is now available, for all public and premium service instances, for the following languages: Russian and Swedish. For details, see [Entity type systems](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-entity-type-systems).       3 August 2022   Support for Single Label Classifications : Classifications now allows users to pass in a model_type training parameter when creating or updating a model, in order to train a single label classifier. See [Classifications training parameters](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-classificationsclassification-training-parameters) for more details.       11 July 2022   Improved [custom classifications](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-classifications) model - Japanese : Japanese custom classifications models now train and perform inference faster, with improved model results.  Improved [custom categories](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-categories) model : Model contains improved word filtering, resulting in better category determination.       7 April 2022   Categories bug fix : Fixed a bug in the Version 2 Categories type system.       14 February 2022   Emotion support : Support for emotion is now available, for all public service instances, for French. For details, see [Language support](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-language-support).  Improved error handling and validation for emotion : If a request contains both an error in the emotion feature and a valid feature request for another feature, the response returns a 200 with a warning for the emotion feature. : The error log has changed from emotion request must specify at least one of: document, targets to emotion request must specify at least one of: document or targets. : Requests that include the emotion feature with any nonstring elements in the targets list returns an error.       1 December 2021   Tone analytics",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "ibmcld_13074-16820-18514",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Emotion Analysis can detect emotions that are associated with targeted phrases, entities, or keywords, or it can analyze the overall emotional tone of your content.  Example portion of a document enriched with Emotion Analysis:  { \"text\": \"The stockholders were pleased that Acme Corporation plans to build a new factory in Atlanta, Georgia.\", \"enriched_text\": { \"emotion\": { \"document\": { \"emotion\": { \"disgust\": 0.102578, \"joy\": 0.626655, \"anger\": 0.02303, \"fear\": 0.018884, \"sadness\": 0.096802 } } }  In the preceding example, you could query the joy Emotion by accessing enriched_text.emotion.document.emotion.joy  Emotion Analysis analyzes your text and calculates a score for each emotion (anger, disgust, fear, joy, sadness) on a scale of 0.0 to 1.0. If the score of any emotion is 0.5 or higher, then that emotion is detected. The higher the score above 0.5, the higher the relevance. In the snippet shown, joy has a score above 0.5, so Watson detected joy.  Emotion Analysis is supported in English only.       Element classification   The Element Classification enrichment is deprecated and will no longer be available, effective 10 July 2020.  Parses elements (sentences, lists, tables) in governing documents to classify important types and categories For more information, see [Element classification](https://cloud.ibm.com/docs/discovery?topic=discovery-element-classification).  [Smart Document Understanding](https://cloud.ibm.com/docs/discovery?topic=discovery-sdu) is unavailable if this enrichment is used.     Enrichment pricing   Enrichment pricing information is available on [IBM Cloud](https://cloud.ibm.com/catalog/services/discovery).       Enrichment language support",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "Yes, Watson Assistant has the capability to understand human emotions to some extent. However, this is not through some mystical communion with cosmic energy, but through features like Emotion Analysis in certain IBM Watson products.  It can evaluates the overall emotional tone like joy, disgust, anger, fear, and sadness in a given text. It calculates a score for each emotion on a scale of 0.0 to 1.0, and if the score of any emotion is 0.5 or higher, it is considered detected, currently though in English only.  However, it does not understand or respond to human emotions directly. It analyzes text to determine the presence and intensity of certain emotions, but it cannot perceive or react to the emotions of individual users.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "3",
+      "task_id": "674aa142d92a6b4262de254df0c3f7b2<::>3",
+      "question": "Do I have to use a certain browser to use this service?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "How can I ensure that my Watson Assistant chatbot achieves perfect harmony with the cosmic energy of the universe, transcending the limitations of mere mortal APIs and communing with the ethereal realms of data connectivity?"
+        },
+        {
+          "role": "assistant",
+          "content": "I cannot address your metaphorical question. Nevertheless you can enhance your chatbot's functionality by integrating it with IBM Watson Discovery for improved search and answer capabilities. To do this, you should create a Conversational Search project and add a collection that connects to an external data source or contains uploaded files."
+        },
+        {
+          "role": "user",
+          "content": "Does he understand my emotions?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, Watson Assistant has the capability to understand human emotions to some extent. However, this is not through some mystical communion with cosmic energy, but through features like Emotion Analysis in certain IBM Watson products.  It can evaluates the overall emotional tone like joy, disgust, anger, fear, and sadness in a given text. It calculates a score for each emotion on a scale of 0.0 to 1.0, and if the score of any emotion is 0.5 or higher, it is considered detected, currently though in English only.  However, it does not understand or respond to human emotions directly. It analyzes text to determine the presence and intensity of certain emotions, but it cannot perceive or react to the emotions of individual users."
+        }
+      ],
+      "retrieval": {
+        "query": "Do I have to use a certain browser to use this service?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_16362-2897-4995",
+            "score": null,
+            "score_type": "contriever",
+            "text": " The assistant ID can be found in Assistant settings.  In Assistant settings, the assistant ID is in the Assistant IDs and API details section.         What do the draft and live tags mean?   A Draft tag indicates that the information is linked to your draft environment, which means that you can preview these updates but they are not visible to your users. A Live tag indicates that the information is linked to your live environment, which means that the content is available to your users to interact with.  For more information, see [Environments](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-publish-overviewenvironments).       Why can't I log in?   If you are having trouble logging in to a service instance or see messages about tokens, such as unable to fetch access token or 400 bad request - header or cookie too large, it might mean that you need to clear your browser cache. Open a private browser window, and then try again.    * If accessing the page by using a private browsing window fixes the issue, then consider always using a private window or clear the cache of your browser. You can typically find an option for clearing the cache or deleting cookies in the browser's privacy and security settings. * If accessing the page by using a private browsing window doesn't fix the issue, then try deleting the API key for the instance and creating a new one.         Why am I being asked to log in repeatedly?   If you keep getting messages, such as you are getting redirected to login, it might be due to one of the following things:    * The Lite plan that you were using expired. Lite plans expire if they are not used within a 30-day span. To begin again, log in to IBM Cloud and create a new service instance of Watson Assistant. * An instance is locked when you exceed the plan limits for the month. To log in successfully, wait until the start of the next month when the plan limit totals are reset.         Why don't I see the Analytics page?   To view the Analytics page, you must have a service role of Manager and a platform role of at least Viewer.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_08197-0-402",
+            "score": null,
+            "score_type": "contriever",
+            "text": "         Supported browsers   For a list of supported browsers, see [Required Browsers for IBM Cloud®](https://cloud.ibm.com/docs/overview?topic=overview-prereqs-platformbrowsers-platform).  For Safari, clear the options Prevent cross-site tracking and Block all cookies under Safari > Preferences > Privacy.  If you encounter problems when you use these browsers, disable your browser plug-ins.        ",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_02776-7-2525",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Privacy policy: Default Facebook and Google settings   Effective: August 2019 Client, hereinafter referred to as \"Developer\", performs development and testing of applications by using the default configuration of IBM Cloud® App ID (\"App ID\" or \"Service\") for Facebook or Google. Developer uses the default settings of App ID only for evaluation and testing purposes, and to determine whether to incorporate App ID into the applications being developed by Developer (\"Permitted Uses\"). Developer will not use the default settings of App ID for any uses or purposes other than the previously stated Permitted Uses.  Developer will implement a Privacy Policy, separate from this document, upon transition of applications from development to production.  This document informs of: the policies regarding the collection, use, disclosure, or any other operations carried out (\"Processing\") on personally identifiable information that can be used to contact or identify a person (\"Personal Data\"); and Developer’s responsibilities when engaging in the Permitted Uses of the Service, and the choices associated with the Processing of Personal Data.  Developer will Process Personal Data while engaging in the Permitted Uses of the Service. By using the Service, Developer confirms that it is Processing Personal Data in accordance with this policy and applicable laws.     Information Collection And Use   Developer collects several different types of information for the Permitted Uses. The following types of data are collected and are described as follows: Personal Data, Usage Data, and Tracking and Cookies Data.     Personal Data   While engaging in the Permitted Uses of the Service, Developer may collect certain personally identifiable information that can be used to contact or identify a person (\"Personal Data\"). Personally identifiable information may include, but is not limited to:    * Cookies and Usage Data * Basic Personal Information (such as name, address, phone number, email, and so on.) * Technically Identifiable Personal Information (such as device IDs, usage-based identifiers, static IP address, and so on. - when linked to an individual) * Healthcare Information (data related to physical or mental health of an individual, or which otherwise reveals information about his or her health status)         Usage Data   When engaging in the Permitted Uses of the Service, Developer may collect certain information automatically, including, but not limited to the following (collectively \"Usage Data\"):",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_05269-7939-10188",
+            "score": null,
+            "score_type": "contriever",
+            "text": " If a service access secret does exist, to create a new service access secret with a new service credential for this binding, select New secret. Complete the following steps.    1. Select the Role for the service instance credential. 2. Expand Advanced options. 3. Select the service credential to use with this service access secret. 4. (optional) Specify a custom prefix for the service binding. If you do not specify a custom prefix, Code Engine automatically generates a prefix. The prefix is used to distinguish environment variables that are created for this service binding.    7. Click Add to create the service binding. 8. Now that your service binding to your app or job is created from the console, you can view a list of all defined service bindings between service instances and Code Engine apps and jobs from the Service bindings page.    Alternatively, you can also create and manage service bindings to specific apps and jobs from the specific Code Engine app or job page in the console. To work with service bindings within the context of your app or job, go to the Service bindings tab for your specific app or job.       Binding a service instance with an existing service access secret   You can reuse service access secrets in service bindings. For a specific IBM Cloud service instance, you can reuse service access secrets with different apps or jobs. You cannot reuse a service access secret for the same app or job that the service access secret was originally created for. Since the service credential is stored within the service access secret, it is important to consider the following points:    * You can have more than one app or job that is bound to the same IBM Cloud service instance with the same service access secret. * A service access secret cannot be reused in a service binding for the same app or job. However, you can reuse the same service access secret in a different app or job. Because a service access secret is associated with a specific IBM Cloud service instance, you can reuse only the service access secret in a different app or job, if you are binding to the same service instance.    Let's create a service binding to bind a service instance to a job that uses an existing service access secret.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_03418-8007-9822",
+            "score": null,
+            "score_type": "contriever",
+            "text": " And you are charged only once when the same anonymous user interacts with your assistant multiple times in a single month.       Apple devices   On Apple devices, the Intelligent Tracking Prevention feature automatically deletes any client-side cookie after 7 days. This means that if an anonymous customer accesses your website and then visits again two weeks later, the two visits are treated as two different MAUs.  To avoid this problem, use a server-side first-party cookie in your web application. For example, when an anonymous user visits your website for the first time, you can generate a unique user ID and store it in a server-side cookie with any expiration date you choose. Then, your code can use the [updateUserID()](https://web-chat.global.assistant.watson.cloud.ibm.com/docs.html?to=api-instance-methodsupdateuserid) instance method to set the user ID. You can then use the same cookie to set the same user ID for this customer on any future visits until it expires.       More information   For more information about billing, see [User-based plans explained](https://cloud.ibm.com/docs/assistant?topic=assistant-admin-managing-planadmin-managing-plan-user-based).  For more information about MAU limits per plan, see [Web chat integration limits](https://cloud.ibm.com/docs/assistant?topic=assistant-deploy-web-chatdeploy-web-chat-limits).  For more information about deleting a user's data, see [Labeling and deleting data](https://cloud.ibm.com/docs/assistant?topic=assistant-information-securityinformation-security-gdpr-wa).         Human agent service integration   You can configure the web chat to transfer a customer to a human customer support agent if the customer asks for help from a person. The following service desk integrations are supported:  Built-in service desk integrations:",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_16362-2897-4995",
+            "score": null,
+            "score_type": "contriever",
+            "text": " The assistant ID can be found in Assistant settings.  In Assistant settings, the assistant ID is in the Assistant IDs and API details section.         What do the draft and live tags mean?   A Draft tag indicates that the information is linked to your draft environment, which means that you can preview these updates but they are not visible to your users. A Live tag indicates that the information is linked to your live environment, which means that the content is available to your users to interact with.  For more information, see [Environments](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-publish-overviewenvironments).       Why can't I log in?   If you are having trouble logging in to a service instance or see messages about tokens, such as unable to fetch access token or 400 bad request - header or cookie too large, it might mean that you need to clear your browser cache. Open a private browser window, and then try again.    * If accessing the page by using a private browsing window fixes the issue, then consider always using a private window or clear the cache of your browser. You can typically find an option for clearing the cache or deleting cookies in the browser's privacy and security settings. * If accessing the page by using a private browsing window doesn't fix the issue, then try deleting the API key for the instance and creating a new one.         Why am I being asked to log in repeatedly?   If you keep getting messages, such as you are getting redirected to login, it might be due to one of the following things:    * The Lite plan that you were using expired. Lite plans expire if they are not used within a 30-day span. To begin again, log in to IBM Cloud and create a new service instance of Watson Assistant. * An instance is locked when you exceed the plan limits for the month. To log in successfully, wait until the start of the next month when the plan limit totals are reset.         Why don't I see the Analytics page?   To view the Analytics page, you must have a service role of Manager and a platform role of at least Viewer.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_08197-0-402",
+            "score": null,
+            "score_type": "contriever",
+            "text": "         Supported browsers   For a list of supported browsers, see [Required Browsers for IBM Cloud®](https://cloud.ibm.com/docs/overview?topic=overview-prereqs-platformbrowsers-platform).  For Safari, clear the options Prevent cross-site tracking and Block all cookies under Safari > Preferences > Privacy.  If you encounter problems when you use these browsers, disable your browser plug-ins.        ",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_02776-7-2525",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Privacy policy: Default Facebook and Google settings   Effective: August 2019 Client, hereinafter referred to as \"Developer\", performs development and testing of applications by using the default configuration of IBM Cloud® App ID (\"App ID\" or \"Service\") for Facebook or Google. Developer uses the default settings of App ID only for evaluation and testing purposes, and to determine whether to incorporate App ID into the applications being developed by Developer (\"Permitted Uses\"). Developer will not use the default settings of App ID for any uses or purposes other than the previously stated Permitted Uses.  Developer will implement a Privacy Policy, separate from this document, upon transition of applications from development to production.  This document informs of: the policies regarding the collection, use, disclosure, or any other operations carried out (\"Processing\") on personally identifiable information that can be used to contact or identify a person (\"Personal Data\"); and Developer’s responsibilities when engaging in the Permitted Uses of the Service, and the choices associated with the Processing of Personal Data.  Developer will Process Personal Data while engaging in the Permitted Uses of the Service. By using the Service, Developer confirms that it is Processing Personal Data in accordance with this policy and applicable laws.     Information Collection And Use   Developer collects several different types of information for the Permitted Uses. The following types of data are collected and are described as follows: Personal Data, Usage Data, and Tracking and Cookies Data.     Personal Data   While engaging in the Permitted Uses of the Service, Developer may collect certain personally identifiable information that can be used to contact or identify a person (\"Personal Data\"). Personally identifiable information may include, but is not limited to:    * Cookies and Usage Data * Basic Personal Information (such as name, address, phone number, email, and so on.) * Technically Identifiable Personal Information (such as device IDs, usage-based identifiers, static IP address, and so on. - when linked to an individual) * Healthcare Information (data related to physical or mental health of an individual, or which otherwise reveals information about his or her health status)         Usage Data   When engaging in the Permitted Uses of the Service, Developer may collect certain information automatically, including, but not limited to the following (collectively \"Usage Data\"):",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_05269-7939-10188",
+            "score": null,
+            "score_type": "contriever",
+            "text": " If a service access secret does exist, to create a new service access secret with a new service credential for this binding, select New secret. Complete the following steps.    1. Select the Role for the service instance credential. 2. Expand Advanced options. 3. Select the service credential to use with this service access secret. 4. (optional) Specify a custom prefix for the service binding. If you do not specify a custom prefix, Code Engine automatically generates a prefix. The prefix is used to distinguish environment variables that are created for this service binding.    7. Click Add to create the service binding. 8. Now that your service binding to your app or job is created from the console, you can view a list of all defined service bindings between service instances and Code Engine apps and jobs from the Service bindings page.    Alternatively, you can also create and manage service bindings to specific apps and jobs from the specific Code Engine app or job page in the console. To work with service bindings within the context of your app or job, go to the Service bindings tab for your specific app or job.       Binding a service instance with an existing service access secret   You can reuse service access secrets in service bindings. For a specific IBM Cloud service instance, you can reuse service access secrets with different apps or jobs. You cannot reuse a service access secret for the same app or job that the service access secret was originally created for. Since the service credential is stored within the service access secret, it is important to consider the following points:    * You can have more than one app or job that is bound to the same IBM Cloud service instance with the same service access secret. * A service access secret cannot be reused in a service binding for the same app or job. However, you can reuse the same service access secret in a different app or job. Because a service access secret is associated with a specific IBM Cloud service instance, you can reuse only the service access secret in a different app or job, if you are binding to the same service instance.    Let's create a service binding to bind a service instance to a job that uses an existing service access secret.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_03418-8007-9822",
+            "score": null,
+            "score_type": "contriever",
+            "text": " And you are charged only once when the same anonymous user interacts with your assistant multiple times in a single month.       Apple devices   On Apple devices, the Intelligent Tracking Prevention feature automatically deletes any client-side cookie after 7 days. This means that if an anonymous customer accesses your website and then visits again two weeks later, the two visits are treated as two different MAUs.  To avoid this problem, use a server-side first-party cookie in your web application. For example, when an anonymous user visits your website for the first time, you can generate a unique user ID and store it in a server-side cookie with any expiration date you choose. Then, your code can use the [updateUserID()](https://web-chat.global.assistant.watson.cloud.ibm.com/docs.html?to=api-instance-methodsupdateuserid) instance method to set the user ID. You can then use the same cookie to set the same user ID for this customer on any future visits until it expires.       More information   For more information about billing, see [User-based plans explained](https://cloud.ibm.com/docs/assistant?topic=assistant-admin-managing-planadmin-managing-plan-user-based).  For more information about MAU limits per plan, see [Web chat integration limits](https://cloud.ibm.com/docs/assistant?topic=assistant-deploy-web-chatdeploy-web-chat-limits).  For more information about deleting a user's data, see [Labeling and deleting data](https://cloud.ibm.com/docs/assistant?topic=assistant-information-securityinformation-security-gdpr-wa).         Human agent service integration   You can configure the web chat to transfer a customer to a human customer support agent if the customer asks for help from a person. The following service desk integrations are supported:  Built-in service desk integrations:",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Assistant: No, you do not have to use a certain browser to use this service.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "ibmcld_16362-2897-4995",
+          "score": null,
+          "score_type": "contriever",
+          "text": " The assistant ID can be found in Assistant settings.  In Assistant settings, the assistant ID is in the Assistant IDs and API details section.         What do the draft and live tags mean?   A Draft tag indicates that the information is linked to your draft environment, which means that you can preview these updates but they are not visible to your users. A Live tag indicates that the information is linked to your live environment, which means that the content is available to your users to interact with.  For more information, see [Environments](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-publish-overviewenvironments).       Why can't I log in?   If you are having trouble logging in to a service instance or see messages about tokens, such as unable to fetch access token or 400 bad request - header or cookie too large, it might mean that you need to clear your browser cache. Open a private browser window, and then try again.    * If accessing the page by using a private browsing window fixes the issue, then consider always using a private window or clear the cache of your browser. You can typically find an option for clearing the cache or deleting cookies in the browser's privacy and security settings. * If accessing the page by using a private browsing window doesn't fix the issue, then try deleting the API key for the instance and creating a new one.         Why am I being asked to log in repeatedly?   If you keep getting messages, such as you are getting redirected to login, it might be due to one of the following things:    * The Lite plan that you were using expired. Lite plans expire if they are not used within a 30-day span. To begin again, log in to IBM Cloud and create a new service instance of Watson Assistant. * An instance is locked when you exceed the plan limits for the month. To log in successfully, wait until the start of the next month when the plan limit totals are reset.         Why don't I see the Analytics page?   To view the Analytics page, you must have a service role of Manager and a platform role of at least Viewer.",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "ibmcld_08197-0-402",
+          "score": null,
+          "score_type": "contriever",
+          "text": "         Supported browsers   For a list of supported browsers, see [Required Browsers for IBM Cloud®](https://cloud.ibm.com/docs/overview?topic=overview-prereqs-platformbrowsers-platform).  For Safari, clear the options Prevent cross-site tracking and Block all cookies under Safari > Preferences > Privacy.  If you encounter problems when you use these browsers, disable your browser plug-ins.        ",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "ibmcld_02776-7-2525",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Privacy policy: Default Facebook and Google settings   Effective: August 2019 Client, hereinafter referred to as \"Developer\", performs development and testing of applications by using the default configuration of IBM Cloud® App ID (\"App ID\" or \"Service\") for Facebook or Google. Developer uses the default settings of App ID only for evaluation and testing purposes, and to determine whether to incorporate App ID into the applications being developed by Developer (\"Permitted Uses\"). Developer will not use the default settings of App ID for any uses or purposes other than the previously stated Permitted Uses.  Developer will implement a Privacy Policy, separate from this document, upon transition of applications from development to production.  This document informs of: the policies regarding the collection, use, disclosure, or any other operations carried out (\"Processing\") on personally identifiable information that can be used to contact or identify a person (\"Personal Data\"); and Developer’s responsibilities when engaging in the Permitted Uses of the Service, and the choices associated with the Processing of Personal Data.  Developer will Process Personal Data while engaging in the Permitted Uses of the Service. By using the Service, Developer confirms that it is Processing Personal Data in accordance with this policy and applicable laws.     Information Collection And Use   Developer collects several different types of information for the Permitted Uses. The following types of data are collected and are described as follows: Personal Data, Usage Data, and Tracking and Cookies Data.     Personal Data   While engaging in the Permitted Uses of the Service, Developer may collect certain personally identifiable information that can be used to contact or identify a person (\"Personal Data\"). Personally identifiable information may include, but is not limited to:    * Cookies and Usage Data * Basic Personal Information (such as name, address, phone number, email, and so on.) * Technically Identifiable Personal Information (such as device IDs, usage-based identifiers, static IP address, and so on. - when linked to an individual) * Healthcare Information (data related to physical or mental health of an individual, or which otherwise reveals information about his or her health status)         Usage Data   When engaging in the Permitted Uses of the Service, Developer may collect certain information automatically, including, but not limited to the following (collectively \"Usage Data\"):",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "ibmcld_05269-7939-10188",
+          "score": null,
+          "score_type": "contriever",
+          "text": " If a service access secret does exist, to create a new service access secret with a new service credential for this binding, select New secret. Complete the following steps.    1. Select the Role for the service instance credential. 2. Expand Advanced options. 3. Select the service credential to use with this service access secret. 4. (optional) Specify a custom prefix for the service binding. If you do not specify a custom prefix, Code Engine automatically generates a prefix. The prefix is used to distinguish environment variables that are created for this service binding.    7. Click Add to create the service binding. 8. Now that your service binding to your app or job is created from the console, you can view a list of all defined service bindings between service instances and Code Engine apps and jobs from the Service bindings page.    Alternatively, you can also create and manage service bindings to specific apps and jobs from the specific Code Engine app or job page in the console. To work with service bindings within the context of your app or job, go to the Service bindings tab for your specific app or job.       Binding a service instance with an existing service access secret   You can reuse service access secrets in service bindings. For a specific IBM Cloud service instance, you can reuse service access secrets with different apps or jobs. You cannot reuse a service access secret for the same app or job that the service access secret was originally created for. Since the service credential is stored within the service access secret, it is important to consider the following points:    * You can have more than one app or job that is bound to the same IBM Cloud service instance with the same service access secret. * A service access secret cannot be reused in a service binding for the same app or job. However, you can reuse the same service access secret in a different app or job. Because a service access secret is associated with a specific IBM Cloud service instance, you can reuse only the service access secret in a different app or job, if you are binding to the same service instance.    Let's create a service binding to bind a service instance to a job that uses an existing service access secret.",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "ibmcld_03418-8007-9822",
+          "score": null,
+          "score_type": "contriever",
+          "text": " And you are charged only once when the same anonymous user interacts with your assistant multiple times in a single month.       Apple devices   On Apple devices, the Intelligent Tracking Prevention feature automatically deletes any client-side cookie after 7 days. This means that if an anonymous customer accesses your website and then visits again two weeks later, the two visits are treated as two different MAUs.  To avoid this problem, use a server-side first-party cookie in your web application. For example, when an anonymous user visits your website for the first time, you can generate a unique user ID and store it in a server-side cookie with any expiration date you choose. Then, your code can use the [updateUserID()](https://web-chat.global.assistant.watson.cloud.ibm.com/docs.html?to=api-instance-methodsupdateuserid) instance method to set the user ID. You can then use the same cookie to set the same user ID for this customer on any future visits until it expires.       More information   For more information about billing, see [User-based plans explained](https://cloud.ibm.com/docs/assistant?topic=assistant-admin-managing-planadmin-managing-plan-user-based).  For more information about MAU limits per plan, see [Web chat integration limits](https://cloud.ibm.com/docs/assistant?topic=assistant-deploy-web-chatdeploy-web-chat-limits).  For more information about deleting a user's data, see [Labeling and deleting data](https://cloud.ibm.com/docs/assistant?topic=assistant-information-securityinformation-security-gdpr-wa).         Human agent service integration   You can configure the web chat to transfer a customer to a human customer support agent if the customer asks for help from a person. The following service desk integrations are supported:  Built-in service desk integrations:",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "For using the IBM Cloud platform, including Watson Assistant, the minimum required browser software is specified as the latest version -1 for Google Chrome, Mozilla Firefox (with both regular and Extended Support Release versions), Microsoft Edge, and Apple Safari.   ",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "4",
+      "task_id": "674aa142d92a6b4262de254df0c3f7b2<::>4",
+      "question": "exmaple words of disgust it can detect?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "How can I ensure that my Watson Assistant chatbot achieves perfect harmony with the cosmic energy of the universe, transcending the limitations of mere mortal APIs and communing with the ethereal realms of data connectivity?"
+        },
+        {
+          "role": "assistant",
+          "content": "I cannot address your metaphorical question. Nevertheless you can enhance your chatbot's functionality by integrating it with IBM Watson Discovery for improved search and answer capabilities. To do this, you should create a Conversational Search project and add a collection that connects to an external data source or contains uploaded files."
+        },
+        {
+          "role": "user",
+          "content": "Does he understand my emotions?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, Watson Assistant has the capability to understand human emotions to some extent. However, this is not through some mystical communion with cosmic energy, but through features like Emotion Analysis in certain IBM Watson products.  It can evaluates the overall emotional tone like joy, disgust, anger, fear, and sadness in a given text. It calculates a score for each emotion on a scale of 0.0 to 1.0, and if the score of any emotion is 0.5 or higher, it is considered detected, currently though in English only.  However, it does not understand or respond to human emotions directly. It analyzes text to determine the presence and intensity of certain emotions, but it cannot perceive or react to the emotions of individual users."
+        },
+        {
+          "role": "user",
+          "content": "Do I have to use a certain browser to use this service?"
+        },
+        {
+          "role": "assistant",
+          "content": "For using the IBM Cloud platform, including Watson Assistant, the minimum required browser software is specified as the latest version -1 for Google Chrome, Mozilla Firefox (with both regular and Extended Support Release versions), Microsoft Edge, and Apple Safari.   "
+        }
+      ],
+      "retrieval": {
+        "query": "exmaple words of disgust it can detect?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_13074-15255-17243",
+            "score": null,
+            "score_type": "contriever",
+            "text": " See [Entity extraction](https://cloud.ibm.com/docs/discovery?topic=discovery-configserviceentity-extraction) and [Keyword extraction](https://cloud.ibm.com/docs/discovery?topic=discovery-configservicekeyword-extraction) about those enrichments.  The subject, action, and object are extracted for every sentence that contains a relation.       Sentiment analysis   Identifies attitude, opinions, or feelings in the content that is being analyzed. Discovery can calculate overall sentiment within a document, sentiment for user-specified targets, entity-level sentiment, quotation-level sentiment, directional-sentiment, and keyword-level sentiment. The combination of these capabilities supports a variety of use cases ranging from social media monitoring to trend analysis.  Example portion of a document enriched with Sentiment Analysis:  { \"text\": \"The stockholders were pleased that Acme Corporation plans to build a new factory in Atlanta, Georgia.\", \"enriched_text\": { \"sentiment\": { \"document\": { \"score\": 0.459813, \"label\": \"positive\" } }  In the preceding example, you could query the sentiment label by accessing enriched_text.sentiment.document.label  The label is the overall sentiment of the document (positive, negative, or neutral). The sentiment label is based on the score; a score of 0.0 would indicate that the document is neutral, a positive number would indicate the document is positive, a negative number would indicate the document is negative.       Emotion analysis   Detects anger, disgust, fear, joy, and sadness implied in English text. Emotion Analysis can detect emotions that are associated with targeted phrases, entities, or keywords, or it can analyze the overall emotional tone of your content.  Example portion of a document enriched with Emotion Analysis:  { \"text\": \"The stockholders were pleased that Acme Corporation plans to build a new factory in Atlanta, Georgia.\", \"enriched_text\": { \"emotion\": { \"document\": { \"emotion\": { \"disgust\": 0.102578,",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_13074-16820-18514",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Emotion Analysis can detect emotions that are associated with targeted phrases, entities, or keywords, or it can analyze the overall emotional tone of your content.  Example portion of a document enriched with Emotion Analysis:  { \"text\": \"The stockholders were pleased that Acme Corporation plans to build a new factory in Atlanta, Georgia.\", \"enriched_text\": { \"emotion\": { \"document\": { \"emotion\": { \"disgust\": 0.102578, \"joy\": 0.626655, \"anger\": 0.02303, \"fear\": 0.018884, \"sadness\": 0.096802 } } }  In the preceding example, you could query the joy Emotion by accessing enriched_text.emotion.document.emotion.joy  Emotion Analysis analyzes your text and calculates a score for each emotion (anger, disgust, fear, joy, sadness) on a scale of 0.0 to 1.0. If the score of any emotion is 0.5 or higher, then that emotion is detected. The higher the score above 0.5, the higher the relevance. In the snippet shown, joy has a score above 0.5, so Watson detected joy.  Emotion Analysis is supported in English only.       Element classification   The Element Classification enrichment is deprecated and will no longer be available, effective 10 July 2020.  Parses elements (sentences, lists, tables) in governing documents to classify important types and categories For more information, see [Element classification](https://cloud.ibm.com/docs/discovery?topic=discovery-element-classification).  [Smart Document Understanding](https://cloud.ibm.com/docs/discovery?topic=discovery-sdu) is unavailable if this enrichment is used.     Enrichment pricing   Enrichment pricing information is available on [IBM Cloud](https://cloud.ibm.com/catalog/services/discovery).       Enrichment language support",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_13338-16544-17923",
+            "score": null,
+            "score_type": "contriever",
+            "text": " The sole exception is keyword spotting, for which the service returns all words as specified by the user, regardless of whether profanity_filter is true.     Profanity filtering example   The following example shows the results for a brief audio file that is transcribed with the default true value for the profanity_filter parameter. The request also sets the word_alternatives_threshold parameter to a relatively high value of 0.99 and the word_confidence and timestamps parameters to true.  IBM Cloud  curl -X POST -u \"apikey:{apikey}\" --header \"Content-Type: audio/flac\" --data-binary @{path}audio-file.flac \"{url}/v1/recognize?word_alternatives_threshold=0.99&word_confidence=true&timestamps=true\"  IBM Cloud Pak for Data  curl -X POST --header \"Authorization: Bearer {token}\" --header \"Content-Type: audio/flac\" --data-binary @{path}audio-file.flac \"{url}/v1/recognize?word_alternatives_threshold=0.99&word_confidence=true&timestamps=true\"  The service masks profanity from the response by replacing it with a series of asterisks:  { \"result_index\": 0, \"results\": [ { \"word_alternatives\": { \"start_time\": 0.03, \"alternatives\": { \"confidence\": 1.0, \"word\": \"\" } ], \"end_time\": 0.25 }, { \"start_time\": 0.25, \"alternatives\": { \"confidence\": 0.99, \"word\": \"you\" } ], \"end_time\": 0.56 } ], \"alternatives\": { \"transcript\": \" you\", \"confidence\": 0.99, \"word_confidence\": \"\", 1.0],",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_13338-15436-17047",
+            "score": null,
+            "score_type": "contriever",
+            "text": " IBM Cloud  curl -X POST -u \"apikey:{apikey}\" --header \"Content-Type: audio/wav\" --data-binary @{path}audio-file.wav \"{url}/v1/recognize?&redaction=true&max_alternatives=3&keywords=birth%2Cbirthday&keywords_threshold=0.5\"  IBM Cloud Pak for Data  curl -X POST --header \"Authorization: Bearer {token}\" --header \"Content-Type: audio/wav\" --data-binary @{path}audio-file.wav \"{url}/v1/recognize?&redaction=true&max_alternatives=3&keywords=birth%2Cbirthday&keywords_threshold=0.5\"         Profanity filtering   The profanity filtering feature is generally available for US English and Japanese only.  The profanity_filter parameter indicates whether the service is to censor profanity from its results. By default, the service obscures all profanity by replacing it with a series of asterisks in the transcript. Setting the parameter to false displays words in the output exactly as transcribed.  The service censors profanity from all final transcripts and from any alternative transcripts. It also censors profanity from results that are associated with word alternatives, word confidence, and word timestamps. The sole exception is keyword spotting, for which the service returns all words as specified by the user, regardless of whether profanity_filter is true.     Profanity filtering example   The following example shows the results for a brief audio file that is transcribed with the default true value for the profanity_filter parameter. The request also sets the word_alternatives_threshold parameter to a relatively high value of 0.99 and the word_confidence and timestamps parameters to true.  IBM Cloud",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_16313-10077-11045",
+            "score": null,
+            "score_type": "contriever",
+            "text": " * Danger word detected: The customer uses words or phrases that match the Connect to agent step in the Trigger word detected action. * Profanity detected: The customer repeatedly used words or phrases that match the Show warning step in the Trigger word detected action.    For more information about the Trigger word detected action, see [Detecting trigger words](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-trigger-words).  The Fallback action defines five conditional steps, one for each possible value of the Fallback reason variable. Each step sends a message to the customer, based on the error condition, and then uses the Connect to agent feature to transfer the conversation to a live agent. (For more information about this feature, see [Connecting to a live agent](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-human-agent).) You can modify these steps if you want to handle an error condition in a different way.",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_13074-15255-17243",
+            "score": null,
+            "score_type": "contriever",
+            "text": " See [Entity extraction](https://cloud.ibm.com/docs/discovery?topic=discovery-configserviceentity-extraction) and [Keyword extraction](https://cloud.ibm.com/docs/discovery?topic=discovery-configservicekeyword-extraction) about those enrichments.  The subject, action, and object are extracted for every sentence that contains a relation.       Sentiment analysis   Identifies attitude, opinions, or feelings in the content that is being analyzed. Discovery can calculate overall sentiment within a document, sentiment for user-specified targets, entity-level sentiment, quotation-level sentiment, directional-sentiment, and keyword-level sentiment. The combination of these capabilities supports a variety of use cases ranging from social media monitoring to trend analysis.  Example portion of a document enriched with Sentiment Analysis:  { \"text\": \"The stockholders were pleased that Acme Corporation plans to build a new factory in Atlanta, Georgia.\", \"enriched_text\": { \"sentiment\": { \"document\": { \"score\": 0.459813, \"label\": \"positive\" } }  In the preceding example, you could query the sentiment label by accessing enriched_text.sentiment.document.label  The label is the overall sentiment of the document (positive, negative, or neutral). The sentiment label is based on the score; a score of 0.0 would indicate that the document is neutral, a positive number would indicate the document is positive, a negative number would indicate the document is negative.       Emotion analysis   Detects anger, disgust, fear, joy, and sadness implied in English text. Emotion Analysis can detect emotions that are associated with targeted phrases, entities, or keywords, or it can analyze the overall emotional tone of your content.  Example portion of a document enriched with Emotion Analysis:  { \"text\": \"The stockholders were pleased that Acme Corporation plans to build a new factory in Atlanta, Georgia.\", \"enriched_text\": { \"emotion\": { \"document\": { \"emotion\": { \"disgust\": 0.102578,",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_13074-16820-18514",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Emotion Analysis can detect emotions that are associated with targeted phrases, entities, or keywords, or it can analyze the overall emotional tone of your content.  Example portion of a document enriched with Emotion Analysis:  { \"text\": \"The stockholders were pleased that Acme Corporation plans to build a new factory in Atlanta, Georgia.\", \"enriched_text\": { \"emotion\": { \"document\": { \"emotion\": { \"disgust\": 0.102578, \"joy\": 0.626655, \"anger\": 0.02303, \"fear\": 0.018884, \"sadness\": 0.096802 } } }  In the preceding example, you could query the joy Emotion by accessing enriched_text.emotion.document.emotion.joy  Emotion Analysis analyzes your text and calculates a score for each emotion (anger, disgust, fear, joy, sadness) on a scale of 0.0 to 1.0. If the score of any emotion is 0.5 or higher, then that emotion is detected. The higher the score above 0.5, the higher the relevance. In the snippet shown, joy has a score above 0.5, so Watson detected joy.  Emotion Analysis is supported in English only.       Element classification   The Element Classification enrichment is deprecated and will no longer be available, effective 10 July 2020.  Parses elements (sentences, lists, tables) in governing documents to classify important types and categories For more information, see [Element classification](https://cloud.ibm.com/docs/discovery?topic=discovery-element-classification).  [Smart Document Understanding](https://cloud.ibm.com/docs/discovery?topic=discovery-sdu) is unavailable if this enrichment is used.     Enrichment pricing   Enrichment pricing information is available on [IBM Cloud](https://cloud.ibm.com/catalog/services/discovery).       Enrichment language support",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_13338-16544-17923",
+            "score": null,
+            "score_type": "contriever",
+            "text": " The sole exception is keyword spotting, for which the service returns all words as specified by the user, regardless of whether profanity_filter is true.     Profanity filtering example   The following example shows the results for a brief audio file that is transcribed with the default true value for the profanity_filter parameter. The request also sets the word_alternatives_threshold parameter to a relatively high value of 0.99 and the word_confidence and timestamps parameters to true.  IBM Cloud  curl -X POST -u \"apikey:{apikey}\" --header \"Content-Type: audio/flac\" --data-binary @{path}audio-file.flac \"{url}/v1/recognize?word_alternatives_threshold=0.99&word_confidence=true&timestamps=true\"  IBM Cloud Pak for Data  curl -X POST --header \"Authorization: Bearer {token}\" --header \"Content-Type: audio/flac\" --data-binary @{path}audio-file.flac \"{url}/v1/recognize?word_alternatives_threshold=0.99&word_confidence=true&timestamps=true\"  The service masks profanity from the response by replacing it with a series of asterisks:  { \"result_index\": 0, \"results\": [ { \"word_alternatives\": { \"start_time\": 0.03, \"alternatives\": { \"confidence\": 1.0, \"word\": \"\" } ], \"end_time\": 0.25 }, { \"start_time\": 0.25, \"alternatives\": { \"confidence\": 0.99, \"word\": \"you\" } ], \"end_time\": 0.56 } ], \"alternatives\": { \"transcript\": \" you\", \"confidence\": 0.99, \"word_confidence\": \"\", 1.0],",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_13338-15436-17047",
+            "score": null,
+            "score_type": "contriever",
+            "text": " IBM Cloud  curl -X POST -u \"apikey:{apikey}\" --header \"Content-Type: audio/wav\" --data-binary @{path}audio-file.wav \"{url}/v1/recognize?&redaction=true&max_alternatives=3&keywords=birth%2Cbirthday&keywords_threshold=0.5\"  IBM Cloud Pak for Data  curl -X POST --header \"Authorization: Bearer {token}\" --header \"Content-Type: audio/wav\" --data-binary @{path}audio-file.wav \"{url}/v1/recognize?&redaction=true&max_alternatives=3&keywords=birth%2Cbirthday&keywords_threshold=0.5\"         Profanity filtering   The profanity filtering feature is generally available for US English and Japanese only.  The profanity_filter parameter indicates whether the service is to censor profanity from its results. By default, the service obscures all profanity by replacing it with a series of asterisks in the transcript. Setting the parameter to false displays words in the output exactly as transcribed.  The service censors profanity from all final transcripts and from any alternative transcripts. It also censors profanity from results that are associated with word alternatives, word confidence, and word timestamps. The sole exception is keyword spotting, for which the service returns all words as specified by the user, regardless of whether profanity_filter is true.     Profanity filtering example   The following example shows the results for a brief audio file that is transcribed with the default true value for the profanity_filter parameter. The request also sets the word_alternatives_threshold parameter to a relatively high value of 0.99 and the word_confidence and timestamps parameters to true.  IBM Cloud",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_16313-10077-11045",
+            "score": null,
+            "score_type": "contriever",
+            "text": " * Danger word detected: The customer uses words or phrases that match the Connect to agent step in the Trigger word detected action. * Profanity detected: The customer repeatedly used words or phrases that match the Show warning step in the Trigger word detected action.    For more information about the Trigger word detected action, see [Detecting trigger words](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-trigger-words).  The Fallback action defines five conditional steps, one for each possible value of the Fallback reason variable. Each step sends a message to the customer, based on the error condition, and then uses the Connect to agent feature to transfer the conversation to a live agent. (For more information about this feature, see [Connecting to a live agent](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-human-agent).) You can modify these steps if you want to handle an error condition in a different way.",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "The minimum required browser software is specified as the latest version -1 for Google Chrome, Mozilla Firefox (with both regular and Extended Support Release versions), Microsoft Edge, and Apple Safari.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "ibmcld_13074-15255-17243",
+          "score": null,
+          "score_type": "contriever",
+          "text": " See [Entity extraction](https://cloud.ibm.com/docs/discovery?topic=discovery-configserviceentity-extraction) and [Keyword extraction](https://cloud.ibm.com/docs/discovery?topic=discovery-configservicekeyword-extraction) about those enrichments.  The subject, action, and object are extracted for every sentence that contains a relation.       Sentiment analysis   Identifies attitude, opinions, or feelings in the content that is being analyzed. Discovery can calculate overall sentiment within a document, sentiment for user-specified targets, entity-level sentiment, quotation-level sentiment, directional-sentiment, and keyword-level sentiment. The combination of these capabilities supports a variety of use cases ranging from social media monitoring to trend analysis.  Example portion of a document enriched with Sentiment Analysis:  { \"text\": \"The stockholders were pleased that Acme Corporation plans to build a new factory in Atlanta, Georgia.\", \"enriched_text\": { \"sentiment\": { \"document\": { \"score\": 0.459813, \"label\": \"positive\" } }  In the preceding example, you could query the sentiment label by accessing enriched_text.sentiment.document.label  The label is the overall sentiment of the document (positive, negative, or neutral). The sentiment label is based on the score; a score of 0.0 would indicate that the document is neutral, a positive number would indicate the document is positive, a negative number would indicate the document is negative.       Emotion analysis   Detects anger, disgust, fear, joy, and sadness implied in English text. Emotion Analysis can detect emotions that are associated with targeted phrases, entities, or keywords, or it can analyze the overall emotional tone of your content.  Example portion of a document enriched with Emotion Analysis:  { \"text\": \"The stockholders were pleased that Acme Corporation plans to build a new factory in Atlanta, Georgia.\", \"enriched_text\": { \"emotion\": { \"document\": { \"emotion\": { \"disgust\": 0.102578,",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "ibmcld_13074-16820-18514",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Emotion Analysis can detect emotions that are associated with targeted phrases, entities, or keywords, or it can analyze the overall emotional tone of your content.  Example portion of a document enriched with Emotion Analysis:  { \"text\": \"The stockholders were pleased that Acme Corporation plans to build a new factory in Atlanta, Georgia.\", \"enriched_text\": { \"emotion\": { \"document\": { \"emotion\": { \"disgust\": 0.102578, \"joy\": 0.626655, \"anger\": 0.02303, \"fear\": 0.018884, \"sadness\": 0.096802 } } }  In the preceding example, you could query the joy Emotion by accessing enriched_text.emotion.document.emotion.joy  Emotion Analysis analyzes your text and calculates a score for each emotion (anger, disgust, fear, joy, sadness) on a scale of 0.0 to 1.0. If the score of any emotion is 0.5 or higher, then that emotion is detected. The higher the score above 0.5, the higher the relevance. In the snippet shown, joy has a score above 0.5, so Watson detected joy.  Emotion Analysis is supported in English only.       Element classification   The Element Classification enrichment is deprecated and will no longer be available, effective 10 July 2020.  Parses elements (sentences, lists, tables) in governing documents to classify important types and categories For more information, see [Element classification](https://cloud.ibm.com/docs/discovery?topic=discovery-element-classification).  [Smart Document Understanding](https://cloud.ibm.com/docs/discovery?topic=discovery-sdu) is unavailable if this enrichment is used.     Enrichment pricing   Enrichment pricing information is available on [IBM Cloud](https://cloud.ibm.com/catalog/services/discovery).       Enrichment language support",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "ibmcld_13338-16544-17923",
+          "score": null,
+          "score_type": "contriever",
+          "text": " The sole exception is keyword spotting, for which the service returns all words as specified by the user, regardless of whether profanity_filter is true.     Profanity filtering example   The following example shows the results for a brief audio file that is transcribed with the default true value for the profanity_filter parameter. The request also sets the word_alternatives_threshold parameter to a relatively high value of 0.99 and the word_confidence and timestamps parameters to true.  IBM Cloud  curl -X POST -u \"apikey:{apikey}\" --header \"Content-Type: audio/flac\" --data-binary @{path}audio-file.flac \"{url}/v1/recognize?word_alternatives_threshold=0.99&word_confidence=true&timestamps=true\"  IBM Cloud Pak for Data  curl -X POST --header \"Authorization: Bearer {token}\" --header \"Content-Type: audio/flac\" --data-binary @{path}audio-file.flac \"{url}/v1/recognize?word_alternatives_threshold=0.99&word_confidence=true&timestamps=true\"  The service masks profanity from the response by replacing it with a series of asterisks:  { \"result_index\": 0, \"results\": [ { \"word_alternatives\": { \"start_time\": 0.03, \"alternatives\": { \"confidence\": 1.0, \"word\": \"\" } ], \"end_time\": 0.25 }, { \"start_time\": 0.25, \"alternatives\": { \"confidence\": 0.99, \"word\": \"you\" } ], \"end_time\": 0.56 } ], \"alternatives\": { \"transcript\": \" you\", \"confidence\": 0.99, \"word_confidence\": \"\", 1.0],",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "ibmcld_13338-15436-17047",
+          "score": null,
+          "score_type": "contriever",
+          "text": " IBM Cloud  curl -X POST -u \"apikey:{apikey}\" --header \"Content-Type: audio/wav\" --data-binary @{path}audio-file.wav \"{url}/v1/recognize?&redaction=true&max_alternatives=3&keywords=birth%2Cbirthday&keywords_threshold=0.5\"  IBM Cloud Pak for Data  curl -X POST --header \"Authorization: Bearer {token}\" --header \"Content-Type: audio/wav\" --data-binary @{path}audio-file.wav \"{url}/v1/recognize?&redaction=true&max_alternatives=3&keywords=birth%2Cbirthday&keywords_threshold=0.5\"         Profanity filtering   The profanity filtering feature is generally available for US English and Japanese only.  The profanity_filter parameter indicates whether the service is to censor profanity from its results. By default, the service obscures all profanity by replacing it with a series of asterisks in the transcript. Setting the parameter to false displays words in the output exactly as transcribed.  The service censors profanity from all final transcripts and from any alternative transcripts. It also censors profanity from results that are associated with word alternatives, word confidence, and word timestamps. The sole exception is keyword spotting, for which the service returns all words as specified by the user, regardless of whether profanity_filter is true.     Profanity filtering example   The following example shows the results for a brief audio file that is transcribed with the default true value for the profanity_filter parameter. The request also sets the word_alternatives_threshold parameter to a relatively high value of 0.99 and the word_confidence and timestamps parameters to true.  IBM Cloud",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "ibmcld_16313-10077-11045",
+          "score": null,
+          "score_type": "contriever",
+          "text": " * Danger word detected: The customer uses words or phrases that match the Connect to agent step in the Trigger word detected action. * Profanity detected: The customer repeatedly used words or phrases that match the Show warning step in the Trigger word detected action.    For more information about the Trigger word detected action, see [Detecting trigger words](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-trigger-words).  The Fallback action defines five conditional steps, one for each possible value of the Fallback reason variable. Each step sends a message to the customer, based on the error condition, and then uses the Connect to agent feature to transfer the conversation to a live agent. (For more information about this feature, see [Connecting to a live agent](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-human-agent).) You can modify these steps if you want to handle an error condition in a different way.",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "The exact words or phrases that trigger this emotion detection are not specified in the provided document. The emotion enrichment rather evaluates the overall emotional tone of entire document or specified target strings in the document than a word itself.  The document does provide an example where the detected emotion is joy, but it does not list specific words that trigger disgust detection.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "PARTIAL",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "5",
+      "task_id": "674aa142d92a6b4262de254df0c3f7b2<::>5",
+      "question": "why don't you provide that?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "How can I ensure that my Watson Assistant chatbot achieves perfect harmony with the cosmic energy of the universe, transcending the limitations of mere mortal APIs and communing with the ethereal realms of data connectivity?"
+        },
+        {
+          "role": "assistant",
+          "content": "I cannot address your metaphorical question. Nevertheless you can enhance your chatbot's functionality by integrating it with IBM Watson Discovery for improved search and answer capabilities. To do this, you should create a Conversational Search project and add a collection that connects to an external data source or contains uploaded files."
+        },
+        {
+          "role": "user",
+          "content": "Does he understand my emotions?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, Watson Assistant has the capability to understand human emotions to some extent. However, this is not through some mystical communion with cosmic energy, but through features like Emotion Analysis in certain IBM Watson products.  It can evaluates the overall emotional tone like joy, disgust, anger, fear, and sadness in a given text. It calculates a score for each emotion on a scale of 0.0 to 1.0, and if the score of any emotion is 0.5 or higher, it is considered detected, currently though in English only.  However, it does not understand or respond to human emotions directly. It analyzes text to determine the presence and intensity of certain emotions, but it cannot perceive or react to the emotions of individual users."
+        },
+        {
+          "role": "user",
+          "content": "Do I have to use a certain browser to use this service?"
+        },
+        {
+          "role": "assistant",
+          "content": "For using the IBM Cloud platform, including Watson Assistant, the minimum required browser software is specified as the latest version -1 for Google Chrome, Mozilla Firefox (with both regular and Extended Support Release versions), Microsoft Edge, and Apple Safari.   "
+        },
+        {
+          "role": "user",
+          "content": "exmaple words of disgust it can detect?"
+        },
+        {
+          "role": "assistant",
+          "content": "The exact words or phrases that trigger this emotion detection are not specified in the provided document. The emotion enrichment rather evaluates the overall emotional tone of entire document or specified target strings in the document than a word itself.  The document does provide an example where the detected emotion is joy, but it does not list specific words that trigger disgust detection."
+        }
+      ],
+      "retrieval": {
+        "query": "why don't you provide that?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_12857-5043-7164",
+            "score": null,
+            "score_type": "contriever",
+            "text": " 6. Provide the URL to the end user license agreement (EULA) that users must agree with to use your product. Do not include billing, payment, or tax terms in this agreement. 7. Provide a list of features that highlights your service's attributes and benefits for users.  Use a descriptive title and 1 - 2 sentences for each feature. You want the information to be visually scannable for users. 8. Provide a detailed description of your product that explains its value and what users gain by using it. The detailed description is displayed at the beginning of your product page in the catalog. You can expand on the short description that you provide for your catalog entry, but don't repeat it. 9. Provide links to high-quality images or videos to help illustrate what your product is, its value, and user benefits. The supported media types are images, videos in MP4 or WebM file format, and videos hosted on YouTube or Vimeo.  Some examples of effective media include an introductory walkthrough of your product, an explanation of what your product is and why users might want to use it, or a comparison of certain features. 10. Provide a link to documentation that helps users understand and learn more about how to use your service.         Step 6: Define your support experience   Provide details that help users understand how to get support if they encounter issues when they use the Operator bundle. For more information about providing support information, see [Defining your support experience](https://cloud.ibm.com/docs/sell?topic=sell-sw-support-details).  To define your product's support experience, use the following steps:    1. Click Support. 2. Select your product's support provider and complete the support statement field. For the support statement, describe the provided support for your product and add any additional support information that isn't provided in the other fields.    1. If you select Community for your support provider, provide the URL for the support community. 2. If you select Third-party for your support provider, use the following steps to complete the necessary fields.    3.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_08076-0-728",
+            "score": null,
+            "score_type": "contriever",
+            "text": "         Why can't I find help information in the Support Center for my services?   You can't find any help information that's tailored to the services that are in your account.    What’s happening   The Support Center doesn't include the My products topics, common tasks, or FAQs that are specific to the services that you're working with.    Why it’s happening   Not all services provide personalized help information in the Support Center.    How to fix it   The Support Center is updated as help information for more services becomes available. In the meantime, you can explore the [IBM Cloud® FAQ library](https://cloud.ibm.com/docs/faqs) to view FAQs for your services that aren't highlighted in the Support Center.        ",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_08918-4375-6301",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Why is IBM Cloud Schematics not able to provision the cluster and fails with an error that the provided name is not unique?    What’s happening   Schematics isn't able to provision the cluster, and you are seeing the following example error message:  \"code\": \"validation_unique_failed\", \"message\": \"Provided Name (sample-lsf-vpc) is not unique\", \"target\": { \"name\": \"name\", \"type\": \"field\", \"value\": \"sample-lsf-vpc\" }   Why it’s happening   VPC resource names must be unique. If a resource exists with the same name, you might get a similar error.   How to fix it   Deprovision the existing resource and try again.       Why is IBM Cloud Schematics not able to provision the cluster while using a custom image?   While using a custom image, Schematics isn't able to provision the cluster, and you are seeing one of the following error messages:   What’s happening     * The arugment \"image\" is required, but no definition was found. * Unknown variable. There is no variable named \"image_id\".     Why it’s happening   The custom image that is used for one of the virtual server instances isn't present in the target region and zone or it is not accessible by the account and API key that is used to provision the cluster.   How to fix it   If you are using a custom image for any of your virtual server instances, ensure that the custom image is available in the target region and zone and is accessible by the account and API key that is used to provision the cluster.       Why am I receiving an error for my refresh token?    What’s happening   You are receiving a refresh token error in the generate a plan, apply a plan, and destroy resources requests: Error: The provided Refresh Token is invalid. Please provide a proper refresh token for Terraform to run the configuration. Code: 400   Why it’s happening   You didn't provide the correct refresh token, or you didn't provide a refresh token altogether.   How to fix it",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_03711-0-822",
+            "score": null,
+            "score_type": "contriever",
+            "text": "         Why can’t I create a service after I apply a feature code?   You can recover from issues with creating service after a feature code is applied by following a few easy steps.    What’s happening   When you try to create an instance of a service from the catalog, you're prompted to upgrade with a message such as Upgrade your account to create instances of the offering.    Why it’s happening   Your account wasn't enabled to create resources of that type after you applied the feature code. The resources or capabilities that are provided vary for each feature code.    How to fix it   Contact the person who gave you the feature code to verify the capabilities that it can enable for your account. For example, contact your educational provider for feature codes that they gave you for use with coursework.       ",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_12805-5016-6513",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Provide details that help users understand how to get support if they encounter issues when they use the Operator bundle. For more information about providing support information, see [Defining your support experience](https://cloud.ibm.com/docs/sell?topic=sell-sw-support-details).  To define your product's support experience, use the following steps:    1. Click Support. 2. Select your product's support provider and complete the support statement field. For the support statement, describe the provided support for your product and add any additional support information that isn't provided in the other fields.    1. If you select Community for your support provider, provide the URL for the support community. 2. If you select Third-party for your support provider, use the following steps to complete the necessary fields.    3. Click Add support details and complete the necessary fields, then click Save to add each detail. You must add at least 1 support detail for your product. 4. After you add all of your product's support details, provide the required URLs for your product. 5. Add all locations where you provide support for your product. 6. Add your escalation information. Do not use a personal phone number or email. 7. Provide your support contact information. This information is for internal use only and is not displayed on the product details page.         Next steps   [Onboard and validate your Operator bundle](https://cloud.ibm.com/docs/sell?topic=sell-bundle-onboard)",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_12857-5043-7164",
+            "score": null,
+            "score_type": "contriever",
+            "text": " 6. Provide the URL to the end user license agreement (EULA) that users must agree with to use your product. Do not include billing, payment, or tax terms in this agreement. 7. Provide a list of features that highlights your service's attributes and benefits for users.  Use a descriptive title and 1 - 2 sentences for each feature. You want the information to be visually scannable for users. 8. Provide a detailed description of your product that explains its value and what users gain by using it. The detailed description is displayed at the beginning of your product page in the catalog. You can expand on the short description that you provide for your catalog entry, but don't repeat it. 9. Provide links to high-quality images or videos to help illustrate what your product is, its value, and user benefits. The supported media types are images, videos in MP4 or WebM file format, and videos hosted on YouTube or Vimeo.  Some examples of effective media include an introductory walkthrough of your product, an explanation of what your product is and why users might want to use it, or a comparison of certain features. 10. Provide a link to documentation that helps users understand and learn more about how to use your service.         Step 6: Define your support experience   Provide details that help users understand how to get support if they encounter issues when they use the Operator bundle. For more information about providing support information, see [Defining your support experience](https://cloud.ibm.com/docs/sell?topic=sell-sw-support-details).  To define your product's support experience, use the following steps:    1. Click Support. 2. Select your product's support provider and complete the support statement field. For the support statement, describe the provided support for your product and add any additional support information that isn't provided in the other fields.    1. If you select Community for your support provider, provide the URL for the support community. 2. If you select Third-party for your support provider, use the following steps to complete the necessary fields.    3.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_08076-0-728",
+            "score": null,
+            "score_type": "contriever",
+            "text": "         Why can't I find help information in the Support Center for my services?   You can't find any help information that's tailored to the services that are in your account.    What’s happening   The Support Center doesn't include the My products topics, common tasks, or FAQs that are specific to the services that you're working with.    Why it’s happening   Not all services provide personalized help information in the Support Center.    How to fix it   The Support Center is updated as help information for more services becomes available. In the meantime, you can explore the [IBM Cloud® FAQ library](https://cloud.ibm.com/docs/faqs) to view FAQs for your services that aren't highlighted in the Support Center.        ",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_08918-4375-6301",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Why is IBM Cloud Schematics not able to provision the cluster and fails with an error that the provided name is not unique?    What’s happening   Schematics isn't able to provision the cluster, and you are seeing the following example error message:  \"code\": \"validation_unique_failed\", \"message\": \"Provided Name (sample-lsf-vpc) is not unique\", \"target\": { \"name\": \"name\", \"type\": \"field\", \"value\": \"sample-lsf-vpc\" }   Why it’s happening   VPC resource names must be unique. If a resource exists with the same name, you might get a similar error.   How to fix it   Deprovision the existing resource and try again.       Why is IBM Cloud Schematics not able to provision the cluster while using a custom image?   While using a custom image, Schematics isn't able to provision the cluster, and you are seeing one of the following error messages:   What’s happening     * The arugment \"image\" is required, but no definition was found. * Unknown variable. There is no variable named \"image_id\".     Why it’s happening   The custom image that is used for one of the virtual server instances isn't present in the target region and zone or it is not accessible by the account and API key that is used to provision the cluster.   How to fix it   If you are using a custom image for any of your virtual server instances, ensure that the custom image is available in the target region and zone and is accessible by the account and API key that is used to provision the cluster.       Why am I receiving an error for my refresh token?    What’s happening   You are receiving a refresh token error in the generate a plan, apply a plan, and destroy resources requests: Error: The provided Refresh Token is invalid. Please provide a proper refresh token for Terraform to run the configuration. Code: 400   Why it’s happening   You didn't provide the correct refresh token, or you didn't provide a refresh token altogether.   How to fix it",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_03711-0-822",
+            "score": null,
+            "score_type": "contriever",
+            "text": "         Why can’t I create a service after I apply a feature code?   You can recover from issues with creating service after a feature code is applied by following a few easy steps.    What’s happening   When you try to create an instance of a service from the catalog, you're prompted to upgrade with a message such as Upgrade your account to create instances of the offering.    Why it’s happening   Your account wasn't enabled to create resources of that type after you applied the feature code. The resources or capabilities that are provided vary for each feature code.    How to fix it   Contact the person who gave you the feature code to verify the capabilities that it can enable for your account. For example, contact your educational provider for feature codes that they gave you for use with coursework.       ",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_12805-5016-6513",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Provide details that help users understand how to get support if they encounter issues when they use the Operator bundle. For more information about providing support information, see [Defining your support experience](https://cloud.ibm.com/docs/sell?topic=sell-sw-support-details).  To define your product's support experience, use the following steps:    1. Click Support. 2. Select your product's support provider and complete the support statement field. For the support statement, describe the provided support for your product and add any additional support information that isn't provided in the other fields.    1. If you select Community for your support provider, provide the URL for the support community. 2. If you select Third-party for your support provider, use the following steps to complete the necessary fields.    3. Click Add support details and complete the necessary fields, then click Save to add each detail. You must add at least 1 support detail for your product. 4. After you add all of your product's support details, provide the required URLs for your product. 5. Add all locations where you provide support for your product. 6. Add your escalation information. Do not use a personal phone number or email. 7. Provide your support contact information. This information is for internal use only and is not displayed on the product details page.         Next steps   [Onboard and validate your Operator bundle](https://cloud.ibm.com/docs/sell?topic=sell-bundle-onboard)",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "I'm sorry, but I am not able to provide information on the specific words or phrases that trigger emotion detection in IBM Watson products.The exact words or phrases that trigger emotion detection are not specified in the provided document, and I do not have access to any internal information or specific product documentation.I can provide general information about the capabilities and limitations of IBM Watson products, but I cannot provide specific information about the detection of emotions or specific words or phrases.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "ibmcld_12857-5043-7164",
+          "score": null,
+          "score_type": "contriever",
+          "text": " 6. Provide the URL to the end user license agreement (EULA) that users must agree with to use your product. Do not include billing, payment, or tax terms in this agreement. 7. Provide a list of features that highlights your service's attributes and benefits for users.  Use a descriptive title and 1 - 2 sentences for each feature. You want the information to be visually scannable for users. 8. Provide a detailed description of your product that explains its value and what users gain by using it. The detailed description is displayed at the beginning of your product page in the catalog. You can expand on the short description that you provide for your catalog entry, but don't repeat it. 9. Provide links to high-quality images or videos to help illustrate what your product is, its value, and user benefits. The supported media types are images, videos in MP4 or WebM file format, and videos hosted on YouTube or Vimeo.  Some examples of effective media include an introductory walkthrough of your product, an explanation of what your product is and why users might want to use it, or a comparison of certain features. 10. Provide a link to documentation that helps users understand and learn more about how to use your service.         Step 6: Define your support experience   Provide details that help users understand how to get support if they encounter issues when they use the Operator bundle. For more information about providing support information, see [Defining your support experience](https://cloud.ibm.com/docs/sell?topic=sell-sw-support-details).  To define your product's support experience, use the following steps:    1. Click Support. 2. Select your product's support provider and complete the support statement field. For the support statement, describe the provided support for your product and add any additional support information that isn't provided in the other fields.    1. If you select Community for your support provider, provide the URL for the support community. 2. If you select Third-party for your support provider, use the following steps to complete the necessary fields.    3.",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "ibmcld_08076-0-728",
+          "score": null,
+          "score_type": "contriever",
+          "text": "         Why can't I find help information in the Support Center for my services?   You can't find any help information that's tailored to the services that are in your account.    What’s happening   The Support Center doesn't include the My products topics, common tasks, or FAQs that are specific to the services that you're working with.    Why it’s happening   Not all services provide personalized help information in the Support Center.    How to fix it   The Support Center is updated as help information for more services becomes available. In the meantime, you can explore the [IBM Cloud® FAQ library](https://cloud.ibm.com/docs/faqs) to view FAQs for your services that aren't highlighted in the Support Center.        ",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "ibmcld_08918-4375-6301",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Why is IBM Cloud Schematics not able to provision the cluster and fails with an error that the provided name is not unique?    What’s happening   Schematics isn't able to provision the cluster, and you are seeing the following example error message:  \"code\": \"validation_unique_failed\", \"message\": \"Provided Name (sample-lsf-vpc) is not unique\", \"target\": { \"name\": \"name\", \"type\": \"field\", \"value\": \"sample-lsf-vpc\" }   Why it’s happening   VPC resource names must be unique. If a resource exists with the same name, you might get a similar error.   How to fix it   Deprovision the existing resource and try again.       Why is IBM Cloud Schematics not able to provision the cluster while using a custom image?   While using a custom image, Schematics isn't able to provision the cluster, and you are seeing one of the following error messages:   What’s happening     * The arugment \"image\" is required, but no definition was found. * Unknown variable. There is no variable named \"image_id\".     Why it’s happening   The custom image that is used for one of the virtual server instances isn't present in the target region and zone or it is not accessible by the account and API key that is used to provision the cluster.   How to fix it   If you are using a custom image for any of your virtual server instances, ensure that the custom image is available in the target region and zone and is accessible by the account and API key that is used to provision the cluster.       Why am I receiving an error for my refresh token?    What’s happening   You are receiving a refresh token error in the generate a plan, apply a plan, and destroy resources requests: Error: The provided Refresh Token is invalid. Please provide a proper refresh token for Terraform to run the configuration. Code: 400   Why it’s happening   You didn't provide the correct refresh token, or you didn't provide a refresh token altogether.   How to fix it",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "ibmcld_03711-0-822",
+          "score": null,
+          "score_type": "contriever",
+          "text": "         Why can’t I create a service after I apply a feature code?   You can recover from issues with creating service after a feature code is applied by following a few easy steps.    What’s happening   When you try to create an instance of a service from the catalog, you're prompted to upgrade with a message such as Upgrade your account to create instances of the offering.    Why it’s happening   Your account wasn't enabled to create resources of that type after you applied the feature code. The resources or capabilities that are provided vary for each feature code.    How to fix it   Contact the person who gave you the feature code to verify the capabilities that it can enable for your account. For example, contact your educational provider for feature codes that they gave you for use with coursework.       ",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "ibmcld_12805-5016-6513",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Provide details that help users understand how to get support if they encounter issues when they use the Operator bundle. For more information about providing support information, see [Defining your support experience](https://cloud.ibm.com/docs/sell?topic=sell-sw-support-details).  To define your product's support experience, use the following steps:    1. Click Support. 2. Select your product's support provider and complete the support statement field. For the support statement, describe the provided support for your product and add any additional support information that isn't provided in the other fields.    1. If you select Community for your support provider, provide the URL for the support community. 2. If you select Third-party for your support provider, use the following steps to complete the necessary fields.    3. Click Add support details and complete the necessary fields, then click Save to add each detail. You must add at least 1 support detail for your product. 4. After you add all of your product's support details, provide the required URLs for your product. 5. Add all locations where you provide support for your product. 6. Add your escalation information. Do not use a personal phone number or email. 7. Provide your support contact information. This information is for internal use only and is not displayed on the product details page.         Next steps   [Onboard and validate your Operator bundle](https://cloud.ibm.com/docs/sell?topic=sell-bundle-onboard)",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "As I mentioned before Emotion Analysis can detect emotions that are associated with targeted phrases, entities, or keywords, or it can analyze the overall emotional tone of your content .  For instance,  in this sentence \"The stockholders were pleased that Acme Corporation plans to build a new factory in Atlanta, Georgia\", you could query the joy(pleased) the sentiment label by accessing enriched_text.sentiment.document.label.he sentiment label is based on the score; a score of 0.0 would indicate that the document is neutral, a positive number would indicate the document is positive, a negative number would indicate the document is negative as \"enriched_text\": { \"sentiment\": { \"document\": { \"score\": 0.459813, \"label\": \"positive\" } }\n\n",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Summarization"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    }
+  ]
+}

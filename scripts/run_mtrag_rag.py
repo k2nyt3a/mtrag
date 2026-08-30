@@ -69,6 +69,16 @@ def _write_json(path, obj):
     os.replace(tmp, path)
 
 
+def _write_split(out_dir, results):
+    """Write one conversation_NNN.json per conversation (legacy per-file layout).
+
+    conversation_%03d.json[i] == conversations.json[i] (1-based, order preserved),
+    so the array file and the split files stay byte-for-byte the same content.
+    """
+    for i, conv in enumerate(results, start=1):
+        _write_json(os.path.join(out_dir, f"conversation_{i:03d}.json"), conv)
+
+
 def list_availability(dataset, k):
     print(f"RAG availability for dataset={dataset}:")
     for name in RAG_NAMES:
@@ -180,6 +190,9 @@ def main():
                     "parameters": gen.get("parameters", {}),
                 },
                 "rag_answer": answer,
+                # top-level alias of the generation context (legacy schema);
+                # kept identical to retrieval.final_context_documents.
+                "documents_used": gen.get("final_context_documents", []),
                 "reference": {
                     "answer": t.reference_answer,
                     "evidence_ids": t.reference_evidence_ids,
@@ -206,6 +219,7 @@ def main():
             "turns": turn_records,
         })
         _write_json(out_conv, results)           # incremental / resumable checkpoint
+        _write_split(out_dir, results)           # per-conversation files (legacy layout)
         print(f"  {dataset}/{rag_name}: conv {conv.conversation_id} "
               f"({len(turn_records)} turns) done", flush=True)
 

@@ -1,0 +1,696 @@
+{
+  "conversation_id": "2f94b6fb4c6f941decd0609eb126610b",
+  "dataset": "fiqa",
+  "collection": "mt-rag-fiqa-beir-elser-512-100-20240501",
+  "rag": "selfrag",
+  "num_turns": 4,
+  "turns": [
+    {
+      "turn_id": "1",
+      "task_id": "2f94b6fb4c6f941decd0609eb126610b<::>1",
+      "question": "how to balance 401k?",
+      "rag_history_before_turn": [],
+      "retrieval": {
+        "query": "how to balance 401k?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "420727-0-1980",
+            "score": null,
+            "score_type": "contriever",
+            "text": " One way to analyze the opportunity cost of using a 401K loan would be to calculate your net worth after using a 401K loan.  If your net worth increases then the 401K loan would be advisable.  Note that the calculations provided below do not take into account tax considerations. A net worth calculation is where you add all your assets and then subtract all your liabilities.  The resulting number is your net worth. First, calculate the net worth of not taking the loan and simply paying the credit card interest.  This means you only pay the interest on the credit card.  In addition to the parameters identified in your question, two additional parameters will need to be considered: Cash and the market rate of return on the 401K. Scenario 1 (only pay credit card interest): After 12 months all you have paid is the interest on the credit card.  The 401K balance is untouched so it will hopefully grow.  The balance on the credit card remains at the end of 12 months. Scenario 2 (use 401K loan to pay credit card balance): You borrow $5,000 from your 401K to pay the credit card balance.  You will have to pay $5,000 plus the 401K interest rate back into your 401K account. Use the following equation to determine when Scenario 2 increases your net worth more than scenario 1: Thus, if your credit card interest rate is greater than the rate you can earn on your 401K then use the 401K loan to pay off the credit card balance. Another scenario that should be considered: borrow money from somewhere else to pay off the credit card balance. Scenario 3 (external loan to pay credit card balance): You borrow $5,000 from somewhere besides your 401K to pay off the credit card balance. The following is used to determine if you should use an external loan over the 401K loan: This means you should use an external loan if you can obtain an interest rate less than the rate of return you can earn on your 401K.  The same methodology can be used to compare Scenario 3 to Scenario 1.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "232049-0-504",
+            "score": null,
+            "score_type": "contriever",
+            "text": " No. Few reasons.   1) You'll pay a penalty (tax) if you liquidate your 401k. 2) Instead of using your 401k, adjust your monthly budget and live frugal for some time. 3) Look for 0% balance transfer offers and transfer debt to that so you'll be able to reduce interest accumulation.  4) 401k is your savings, one of many I hope, keep that as is and don't touch it. 5) Sell things that you don't need and pay it towards the credit card  6) Do an analysis of your spending and figure out how you got to 21k.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "340131-0-547",
+            "score": null,
+            "score_type": "contriever",
+            "text": " You may want to move money between your investments within the plan, rebalancing money to maintain your diversification. You don't have to deal with the details if selling and buying, just tell them how much to move where. Many plans offer investments that automatically rebalance for you such as Target Date accounts. You may be able to select one of those and just ignore the 401k until retirement, or at most rebalance even less often. Look at what's offered, look at what it costs as fees, run the numbers and decide whether you can do better.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "497780-0-420",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Try to avoid actually pulling money out of your retirement savings. Not only are you paying that stiff penalty today, but you're actually stealing form your future. Many 457 plans allow you to borrow against the balance, usually up to 50% of the plan balance. I'd roll the 401k into the 457 and borrow against it if you really need the money. Borrow a little extra to help you make the first few payments if you need to.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "151045-0-337",
+            "score": null,
+            "score_type": "contriever",
+            "text": " The numbers aside (I'd not assume 12%/yr) there is no limit to the balance. There are 401(k) accounts that have great matching and profit sharing deposits putting the per year limit closer to $45k, combine that with company stock in, say, Apple which has risen 60 fold this past decade, and balances in the tens of millions are possible.",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "420727-0-1980",
+            "score": null,
+            "score_type": "contriever",
+            "text": " One way to analyze the opportunity cost of using a 401K loan would be to calculate your net worth after using a 401K loan.  If your net worth increases then the 401K loan would be advisable.  Note that the calculations provided below do not take into account tax considerations. A net worth calculation is where you add all your assets and then subtract all your liabilities.  The resulting number is your net worth. First, calculate the net worth of not taking the loan and simply paying the credit card interest.  This means you only pay the interest on the credit card.  In addition to the parameters identified in your question, two additional parameters will need to be considered: Cash and the market rate of return on the 401K. Scenario 1 (only pay credit card interest): After 12 months all you have paid is the interest on the credit card.  The 401K balance is untouched so it will hopefully grow.  The balance on the credit card remains at the end of 12 months. Scenario 2 (use 401K loan to pay credit card balance): You borrow $5,000 from your 401K to pay the credit card balance.  You will have to pay $5,000 plus the 401K interest rate back into your 401K account. Use the following equation to determine when Scenario 2 increases your net worth more than scenario 1: Thus, if your credit card interest rate is greater than the rate you can earn on your 401K then use the 401K loan to pay off the credit card balance. Another scenario that should be considered: borrow money from somewhere else to pay off the credit card balance. Scenario 3 (external loan to pay credit card balance): You borrow $5,000 from somewhere besides your 401K to pay off the credit card balance. The following is used to determine if you should use an external loan over the 401K loan: This means you should use an external loan if you can obtain an interest rate less than the rate of return you can earn on your 401K.  The same methodology can be used to compare Scenario 3 to Scenario 1.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "232049-0-504",
+            "score": null,
+            "score_type": "contriever",
+            "text": " No. Few reasons.   1) You'll pay a penalty (tax) if you liquidate your 401k. 2) Instead of using your 401k, adjust your monthly budget and live frugal for some time. 3) Look for 0% balance transfer offers and transfer debt to that so you'll be able to reduce interest accumulation.  4) 401k is your savings, one of many I hope, keep that as is and don't touch it. 5) Sell things that you don't need and pay it towards the credit card  6) Do an analysis of your spending and figure out how you got to 21k.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "340131-0-547",
+            "score": null,
+            "score_type": "contriever",
+            "text": " You may want to move money between your investments within the plan, rebalancing money to maintain your diversification. You don't have to deal with the details if selling and buying, just tell them how much to move where. Many plans offer investments that automatically rebalance for you such as Target Date accounts. You may be able to select one of those and just ignore the 401k until retirement, or at most rebalance even less often. Look at what's offered, look at what it costs as fees, run the numbers and decide whether you can do better.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "497780-0-420",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Try to avoid actually pulling money out of your retirement savings. Not only are you paying that stiff penalty today, but you're actually stealing form your future. Many 457 plans allow you to borrow against the balance, usually up to 50% of the plan balance. I'd roll the 401k into the 457 and borrow against it if you really need the money. Borrow a little extra to help you make the first few payments if you need to.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "151045-0-337",
+            "score": null,
+            "score_type": "contriever",
+            "text": " The numbers aside (I'd not assume 12%/yr) there is no limit to the balance. There are 401(k) accounts that have great matching and profit sharing deposits putting the per year limit closer to $45k, combine that with company stock in, say, Apple which has risen 60 fold this past decade, and balances in the tens of millions are possible.",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "You can also consider investing in a target-date fund, which is a professionally managed investment that automatically adjusts its asset allocation over time as you approach retirement.It's important to carefully consider your investment options and consult with a financial advisor if you have any questions or concerns.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "420727-0-1980",
+          "score": null,
+          "score_type": "contriever",
+          "text": " One way to analyze the opportunity cost of using a 401K loan would be to calculate your net worth after using a 401K loan.  If your net worth increases then the 401K loan would be advisable.  Note that the calculations provided below do not take into account tax considerations. A net worth calculation is where you add all your assets and then subtract all your liabilities.  The resulting number is your net worth. First, calculate the net worth of not taking the loan and simply paying the credit card interest.  This means you only pay the interest on the credit card.  In addition to the parameters identified in your question, two additional parameters will need to be considered: Cash and the market rate of return on the 401K. Scenario 1 (only pay credit card interest): After 12 months all you have paid is the interest on the credit card.  The 401K balance is untouched so it will hopefully grow.  The balance on the credit card remains at the end of 12 months. Scenario 2 (use 401K loan to pay credit card balance): You borrow $5,000 from your 401K to pay the credit card balance.  You will have to pay $5,000 plus the 401K interest rate back into your 401K account. Use the following equation to determine when Scenario 2 increases your net worth more than scenario 1: Thus, if your credit card interest rate is greater than the rate you can earn on your 401K then use the 401K loan to pay off the credit card balance. Another scenario that should be considered: borrow money from somewhere else to pay off the credit card balance. Scenario 3 (external loan to pay credit card balance): You borrow $5,000 from somewhere besides your 401K to pay off the credit card balance. The following is used to determine if you should use an external loan over the 401K loan: This means you should use an external loan if you can obtain an interest rate less than the rate of return you can earn on your 401K.  The same methodology can be used to compare Scenario 3 to Scenario 1.",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "232049-0-504",
+          "score": null,
+          "score_type": "contriever",
+          "text": " No. Few reasons.   1) You'll pay a penalty (tax) if you liquidate your 401k. 2) Instead of using your 401k, adjust your monthly budget and live frugal for some time. 3) Look for 0% balance transfer offers and transfer debt to that so you'll be able to reduce interest accumulation.  4) 401k is your savings, one of many I hope, keep that as is and don't touch it. 5) Sell things that you don't need and pay it towards the credit card  6) Do an analysis of your spending and figure out how you got to 21k.",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "340131-0-547",
+          "score": null,
+          "score_type": "contriever",
+          "text": " You may want to move money between your investments within the plan, rebalancing money to maintain your diversification. You don't have to deal with the details if selling and buying, just tell them how much to move where. Many plans offer investments that automatically rebalance for you such as Target Date accounts. You may be able to select one of those and just ignore the 401k until retirement, or at most rebalance even less often. Look at what's offered, look at what it costs as fees, run the numbers and decide whether you can do better.",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "497780-0-420",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Try to avoid actually pulling money out of your retirement savings. Not only are you paying that stiff penalty today, but you're actually stealing form your future. Many 457 plans allow you to borrow against the balance, usually up to 50% of the plan balance. I'd roll the 401k into the 457 and borrow against it if you really need the money. Borrow a little extra to help you make the first few payments if you need to.",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "151045-0-337",
+          "score": null,
+          "score_type": "contriever",
+          "text": " The numbers aside (I'd not assume 12%/yr) there is no limit to the balance. There are 401(k) accounts that have great matching and profit sharing deposits putting the per year limit closer to $45k, combine that with company stock in, say, Apple which has risen 60 fold this past decade, and balances in the tens of millions are possible.",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "Balancing a 401k involves reallocating and rebalancing the investments within the account. You should determine the overall allocation between bonds, stocks, international, REIT, etc. This will depend on your risk tolerances and the total money in your 401k and IRA.  Once you figure out the allocation, map the available funds in your 401k according to this allocation. It is important to rebalance your 401k every year to maintain your desired asset allocation. Additionally you should review your allocation in a few years or after a life event such as a change of job, getting married, having kids, or buying a house. You can move from investment X to investment Y within your 401k without tax consequences. ",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Summarization"
+        ],
+        "multi_turn": [
+          "N/A"
+        ]
+      }
+    },
+    {
+      "turn_id": "2",
+      "task_id": "2f94b6fb4c6f941decd0609eb126610b<::>2",
+      "question": "How is 401k account taxed?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "how to balance 401k?"
+        },
+        {
+          "role": "assistant",
+          "content": "Balancing a 401k involves reallocating and rebalancing the investments within the account. You should determine the overall allocation between bonds, stocks, international, REIT, etc. This will depend on your risk tolerances and the total money in your 401k and IRA.  Once you figure out the allocation, map the available funds in your 401k according to this allocation. It is important to rebalance your 401k every year to maintain your desired asset allocation. Additionally you should review your allocation in a few years or after a life event such as a change of job, getting married, having kids, or buying a house. You can move from investment X to investment Y within your 401k without tax consequences. "
+        }
+      ],
+      "retrieval": {
+        "query": "How is 401k account taxed?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "15728-0-509",
+            "score": null,
+            "score_type": "contriever",
+            "text": " I trust the 401(k) was a traditional, pre tax account. There was no tax paid, and any withdrawals would be taxable. The account could go to zero, and there's no write off, sorry. I have to ask - were there any withdrawals along the way? What was it invested in that lost 90% of its value?  Edit - I'm sorry the OP came and went. It would be great to have closure on some of these issues. Here, I'm thinking as Duff said, malpractice, or perhaps a 401(k) that was 100% in company stock. Seems we'll never know.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "534331-0-437",
+            "score": null,
+            "score_type": "contriever",
+            "text": " &gt; I would dare say that in most cases, people end up paying more in taxes, because they pay it as regular income rather than LTCG.  That's not how it works.  There's no LTCG tax on Roth accounts.  And on regular investment accounts you're taxed twice.  You first pay regular income tax and then pay LTCG tax on any gains.  The main advantage of 401ks is that you don't ever pay capital gains tax.  You're only taxed once on the money.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "265099-0-1417",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Tax-advantaged accounts mean you pay less tax. You fundamentally pay less tax on IRAs and 401ks than other accounts. That's their benefit. You keep more money at the expense of the government. It makes sense for the government to limit it. If you don't understand why you pay less tax, you must consider the time value of money -- the principal now is the same value of money as the principal + earnings later. With IRAs and 401ks, you only pay income tax once: with Roth IRAs and 401ks, you pay tax on the entire amount of money once when you earn it; with pre-tax Traditional IRAs and 401ks, you pay tax on the entire amount of money once when withdraw it. However, with outside accounts, you have to pay tax more than once: you pay once when you earn it, and pay tax again on the earnings later, earnings that grew from money that was already taxed (which, when considering time value, means that the earnings have already been taxed), but is taxed again. For things like savings in a bank, it's even worse: interest (which grew from money already taxed) is taxed every year, which means some money you pay tax on n times, if you have it in there n years. If you don't understand the above, you can see with an example. We start with $1000 pre-tax wages and for simplicity will assume a flat 25% income tax rate, and a growth rate of 10% per year, and get the cash (assume it's a qualified withdrawal) in 10 years.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "277125-0-1069",
+            "score": null,
+            "score_type": "contriever",
+            "text": " The math works out so that the 401k is still a better deal in the long term over a taxable account because of the tax-deferred growth. Let's assume you invest in an S&P 500 index fund in either a taxable investment account or a 401k and the difference in fees is .5%. I used an online calculator and a hypothetical 1k/year investment over 30 years with 4.5% tax-deferred growth vs 5% taxable and a 25% tax bracket. After 30 years the tax-deferred 401k account will have $67k and the taxable account will have $58k. The math isn't perfect -- I'm sure I'm missing some intricacies with dividends/capital gains distributions and that you'll then pay income tax on the 401k upon retirement as you drawn down, but it still seems pretty clear that the 401k will win in the long run, especially if you invest more than the 1k/year used in my example. But yeah, .84% expenses on an index fund is robbery. Can you bring that to the attention of the HR department? Maybe they'll want to look for a lower-fee provider and it's in their best interest too, if they also participate.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "51356-0-426",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Assuming your only income is withdrawals from the 401k, the thing that determines the tax rate on your 401k withdrawals is how much money you draw out of the 401k in a single tax year.  The money counts as income when you take it out.  If you withdraw $100,000 from the 401k in a single year, you'll be in a higher tax bracket than if you withdraw only $30,000 in that year, but your earnings in previous years are irrelevant.",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "15728-0-509",
+            "score": null,
+            "score_type": "contriever",
+            "text": " I trust the 401(k) was a traditional, pre tax account. There was no tax paid, and any withdrawals would be taxable. The account could go to zero, and there's no write off, sorry. I have to ask - were there any withdrawals along the way? What was it invested in that lost 90% of its value?  Edit - I'm sorry the OP came and went. It would be great to have closure on some of these issues. Here, I'm thinking as Duff said, malpractice, or perhaps a 401(k) that was 100% in company stock. Seems we'll never know.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "534331-0-437",
+            "score": null,
+            "score_type": "contriever",
+            "text": " &gt; I would dare say that in most cases, people end up paying more in taxes, because they pay it as regular income rather than LTCG.  That's not how it works.  There's no LTCG tax on Roth accounts.  And on regular investment accounts you're taxed twice.  You first pay regular income tax and then pay LTCG tax on any gains.  The main advantage of 401ks is that you don't ever pay capital gains tax.  You're only taxed once on the money.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "265099-0-1417",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Tax-advantaged accounts mean you pay less tax. You fundamentally pay less tax on IRAs and 401ks than other accounts. That's their benefit. You keep more money at the expense of the government. It makes sense for the government to limit it. If you don't understand why you pay less tax, you must consider the time value of money -- the principal now is the same value of money as the principal + earnings later. With IRAs and 401ks, you only pay income tax once: with Roth IRAs and 401ks, you pay tax on the entire amount of money once when you earn it; with pre-tax Traditional IRAs and 401ks, you pay tax on the entire amount of money once when withdraw it. However, with outside accounts, you have to pay tax more than once: you pay once when you earn it, and pay tax again on the earnings later, earnings that grew from money that was already taxed (which, when considering time value, means that the earnings have already been taxed), but is taxed again. For things like savings in a bank, it's even worse: interest (which grew from money already taxed) is taxed every year, which means some money you pay tax on n times, if you have it in there n years. If you don't understand the above, you can see with an example. We start with $1000 pre-tax wages and for simplicity will assume a flat 25% income tax rate, and a growth rate of 10% per year, and get the cash (assume it's a qualified withdrawal) in 10 years.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "277125-0-1069",
+            "score": null,
+            "score_type": "contriever",
+            "text": " The math works out so that the 401k is still a better deal in the long term over a taxable account because of the tax-deferred growth. Let's assume you invest in an S&P 500 index fund in either a taxable investment account or a 401k and the difference in fees is .5%. I used an online calculator and a hypothetical 1k/year investment over 30 years with 4.5% tax-deferred growth vs 5% taxable and a 25% tax bracket. After 30 years the tax-deferred 401k account will have $67k and the taxable account will have $58k. The math isn't perfect -- I'm sure I'm missing some intricacies with dividends/capital gains distributions and that you'll then pay income tax on the 401k upon retirement as you drawn down, but it still seems pretty clear that the 401k will win in the long run, especially if you invest more than the 1k/year used in my example. But yeah, .84% expenses on an index fund is robbery. Can you bring that to the attention of the HR department? Maybe they'll want to look for a lower-fee provider and it's in their best interest too, if they also participate.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "51356-0-426",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Assuming your only income is withdrawals from the 401k, the thing that determines the tax rate on your 401k withdrawals is how much money you draw out of the 401k in a single tax year.  The money counts as income when you take it out.  If you withdraw $100,000 from the 401k in a single year, you'll be in a higher tax bracket than if you withdraw only $30,000 in that year, but your earnings in previous years are irrelevant.",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Withdrawals from a 401k account are subject to income taxes.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "15728-0-509",
+          "score": null,
+          "score_type": "contriever",
+          "text": " I trust the 401(k) was a traditional, pre tax account. There was no tax paid, and any withdrawals would be taxable. The account could go to zero, and there's no write off, sorry. I have to ask - were there any withdrawals along the way? What was it invested in that lost 90% of its value?  Edit - I'm sorry the OP came and went. It would be great to have closure on some of these issues. Here, I'm thinking as Duff said, malpractice, or perhaps a 401(k) that was 100% in company stock. Seems we'll never know.",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "534331-0-437",
+          "score": null,
+          "score_type": "contriever",
+          "text": " &gt; I would dare say that in most cases, people end up paying more in taxes, because they pay it as regular income rather than LTCG.  That's not how it works.  There's no LTCG tax on Roth accounts.  And on regular investment accounts you're taxed twice.  You first pay regular income tax and then pay LTCG tax on any gains.  The main advantage of 401ks is that you don't ever pay capital gains tax.  You're only taxed once on the money.",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "265099-0-1417",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Tax-advantaged accounts mean you pay less tax. You fundamentally pay less tax on IRAs and 401ks than other accounts. That's their benefit. You keep more money at the expense of the government. It makes sense for the government to limit it. If you don't understand why you pay less tax, you must consider the time value of money -- the principal now is the same value of money as the principal + earnings later. With IRAs and 401ks, you only pay income tax once: with Roth IRAs and 401ks, you pay tax on the entire amount of money once when you earn it; with pre-tax Traditional IRAs and 401ks, you pay tax on the entire amount of money once when withdraw it. However, with outside accounts, you have to pay tax more than once: you pay once when you earn it, and pay tax again on the earnings later, earnings that grew from money that was already taxed (which, when considering time value, means that the earnings have already been taxed), but is taxed again. For things like savings in a bank, it's even worse: interest (which grew from money already taxed) is taxed every year, which means some money you pay tax on n times, if you have it in there n years. If you don't understand the above, you can see with an example. We start with $1000 pre-tax wages and for simplicity will assume a flat 25% income tax rate, and a growth rate of 10% per year, and get the cash (assume it's a qualified withdrawal) in 10 years.",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "277125-0-1069",
+          "score": null,
+          "score_type": "contriever",
+          "text": " The math works out so that the 401k is still a better deal in the long term over a taxable account because of the tax-deferred growth. Let's assume you invest in an S&P 500 index fund in either a taxable investment account or a 401k and the difference in fees is .5%. I used an online calculator and a hypothetical 1k/year investment over 30 years with 4.5% tax-deferred growth vs 5% taxable and a 25% tax bracket. After 30 years the tax-deferred 401k account will have $67k and the taxable account will have $58k. The math isn't perfect -- I'm sure I'm missing some intricacies with dividends/capital gains distributions and that you'll then pay income tax on the 401k upon retirement as you drawn down, but it still seems pretty clear that the 401k will win in the long run, especially if you invest more than the 1k/year used in my example. But yeah, .84% expenses on an index fund is robbery. Can you bring that to the attention of the HR department? Maybe they'll want to look for a lower-fee provider and it's in their best interest too, if they also participate.",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "51356-0-426",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Assuming your only income is withdrawals from the 401k, the thing that determines the tax rate on your 401k withdrawals is how much money you draw out of the 401k in a single tax year.  The money counts as income when you take it out.  If you withdraw $100,000 from the 401k in a single year, you'll be in a higher tax bracket than if you withdraw only $30,000 in that year, but your earnings in previous years are irrelevant.",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "401(k) contributions are pre-tax dollars. A 401k account is taxed when you withdraw the money upon retirement. This is similar to how an IRA is taxed. The idea behind this is that you will likely be in a lower tax bracket at the time of retirement. It's important to note that 401k contributions reduce your taxable income for each paycheck, but they do not impact the level of your social security and medicare taxes. Also, the employer match is considered free money.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "3",
+      "task_id": "2f94b6fb4c6f941decd0609eb126610b<::>3",
+      "question": "What do you mean by IRA?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "how to balance 401k?"
+        },
+        {
+          "role": "assistant",
+          "content": "Balancing a 401k involves reallocating and rebalancing the investments within the account. You should determine the overall allocation between bonds, stocks, international, REIT, etc. This will depend on your risk tolerances and the total money in your 401k and IRA.  Once you figure out the allocation, map the available funds in your 401k according to this allocation. It is important to rebalance your 401k every year to maintain your desired asset allocation. Additionally you should review your allocation in a few years or after a life event such as a change of job, getting married, having kids, or buying a house. You can move from investment X to investment Y within your 401k without tax consequences. "
+        },
+        {
+          "role": "user",
+          "content": "How is 401k account taxed?"
+        },
+        {
+          "role": "assistant",
+          "content": "401(k) contributions are pre-tax dollars. A 401k account is taxed when you withdraw the money upon retirement. This is similar to how an IRA is taxed. The idea behind this is that you will likely be in a lower tax bracket at the time of retirement. It's important to note that 401k contributions reduce your taxable income for each paycheck, but they do not impact the level of your social security and medicare taxes. Also, the employer match is considered free money."
+        }
+      ],
+      "retrieval": {
+        "query": "What do you mean by IRA?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "109305-0-904",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"IRA is a tax-deferred account. I.e.: you're not paying any taxes on the income within the account (as long as you don't withdraw it) and you can deduct the investment (with certain limitation on how much, depending on your total AGI). It is taxed when you withdraw it - at ordinary rates for the \"\"traditional\"\" IRA and with 0% rate for ROTH, as long as the withdrawal is qualified (if not qualified - you pay ordinary rate tax for ROTH and additional 10% tax for both on the taxable amounts). The details are a bit complicated (there's deductible IRA, non-deductible IRA, roll-overs, etc etc), but that's the basic. Regular investment accounts are taxed currently on any income, but you get the \"\"better\"\" capital gains rates on many things. So which one is better depends how long your investment is going to be, what is your tax situation now, and what you anticipate it to be later when you retire.\"",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "114912-0-501",
+            "score": null,
+            "score_type": "contriever",
+            "text": " The simplest explanation is that a traditional IRA is a method of deferring taxes. That is, normally you pay taxes on money you earn at the ordinary rate then invest the rest and only pay the capital gains rate.  However, with a traditional IRA you don't pay taxes on the money when you earn it, you defer the payment of those taxes until you retire. So in the end it ends up being treated the same. That said, if you are strategic about it you can wind up paying less taxes with this type of account.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "514876-0-156",
+            "score": null,
+            "score_type": "contriever",
+            "text": " IRAs were invented to help individuals save for retirement. 401(k)s were invented to help corporations provide more compensation to highly valued employees.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "292937-0-438",
+            "score": null,
+            "score_type": "contriever",
+            "text": " A rollover IRA is a traditional IRA.  Your rollover contributions are not taxed and rollover or counted against your annual limit, which is income dependent. A Roth IRA is one where your contributions will be taxed going into the IRA.  Note that there are adjusted gross income maximums for contribution to a Roth IRA (see here), and as far as I can tell those income maximums also determine whether or not you can rollover to a Roth IRA.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "591495-0-582",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"Your 401K (and IRA) is a legally distinct entity from yourself. In fact, it is a \"\"trust,\"\" and your Administrator is a \"\"trustee,\"\" while you are both creator and benefactor. This fact, and the 10% early withdrawal penalty, makes it immune from most judgments. The IRS can \"\"levy\"\" your 401K or IRA for back taxes, but must waive the 10% penalty (under the 1997 Tax Reform law). That gives them the power to do what most others can't. A \"\"tricky\"\" banker may persuade you to take money out of your 401K to pay the bank. If you do, s/he has won. But s/he can't go after your 401k.\"",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "109305-0-904",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"IRA is a tax-deferred account. I.e.: you're not paying any taxes on the income within the account (as long as you don't withdraw it) and you can deduct the investment (with certain limitation on how much, depending on your total AGI). It is taxed when you withdraw it - at ordinary rates for the \"\"traditional\"\" IRA and with 0% rate for ROTH, as long as the withdrawal is qualified (if not qualified - you pay ordinary rate tax for ROTH and additional 10% tax for both on the taxable amounts). The details are a bit complicated (there's deductible IRA, non-deductible IRA, roll-overs, etc etc), but that's the basic. Regular investment accounts are taxed currently on any income, but you get the \"\"better\"\" capital gains rates on many things. So which one is better depends how long your investment is going to be, what is your tax situation now, and what you anticipate it to be later when you retire.\"",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "114912-0-501",
+            "score": null,
+            "score_type": "contriever",
+            "text": " The simplest explanation is that a traditional IRA is a method of deferring taxes. That is, normally you pay taxes on money you earn at the ordinary rate then invest the rest and only pay the capital gains rate.  However, with a traditional IRA you don't pay taxes on the money when you earn it, you defer the payment of those taxes until you retire. So in the end it ends up being treated the same. That said, if you are strategic about it you can wind up paying less taxes with this type of account.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "514876-0-156",
+            "score": null,
+            "score_type": "contriever",
+            "text": " IRAs were invented to help individuals save for retirement. 401(k)s were invented to help corporations provide more compensation to highly valued employees.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "292937-0-438",
+            "score": null,
+            "score_type": "contriever",
+            "text": " A rollover IRA is a traditional IRA.  Your rollover contributions are not taxed and rollover or counted against your annual limit, which is income dependent. A Roth IRA is one where your contributions will be taxed going into the IRA.  Note that there are adjusted gross income maximums for contribution to a Roth IRA (see here), and as far as I can tell those income maximums also determine whether or not you can rollover to a Roth IRA.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "591495-0-582",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"Your 401K (and IRA) is a legally distinct entity from yourself. In fact, it is a \"\"trust,\"\" and your Administrator is a \"\"trustee,\"\" while you are both creator and benefactor. This fact, and the 10% early withdrawal penalty, makes it immune from most judgments. The IRS can \"\"levy\"\" your 401K or IRA for back taxes, but must waive the 10% penalty (under the 1997 Tax Reform law). That gives them the power to do what most others can't. A \"\"tricky\"\" banker may persuade you to take money out of your 401K to pay the bank. If you do, s/he has won. But s/he can't go after your 401k.\"",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "IRA stands for Individual Retirement Account.It is a type of account that allows you to save for retirement and receive tax benefits.There are two main types of IRAs: traditional and Roth.Contributions to a traditional IRA are generally tax-deductible, while contributions to a Roth IRA are not.However, withdrawals from a traditional IRA are taxed as ordinary income, while withdrawals from a Roth IRA are tax-free as long as the account has been open for at least five years and the owner is at least 59.5 years old.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "109305-0-904",
+          "score": null,
+          "score_type": "contriever",
+          "text": " \"IRA is a tax-deferred account. I.e.: you're not paying any taxes on the income within the account (as long as you don't withdraw it) and you can deduct the investment (with certain limitation on how much, depending on your total AGI). It is taxed when you withdraw it - at ordinary rates for the \"\"traditional\"\" IRA and with 0% rate for ROTH, as long as the withdrawal is qualified (if not qualified - you pay ordinary rate tax for ROTH and additional 10% tax for both on the taxable amounts). The details are a bit complicated (there's deductible IRA, non-deductible IRA, roll-overs, etc etc), but that's the basic. Regular investment accounts are taxed currently on any income, but you get the \"\"better\"\" capital gains rates on many things. So which one is better depends how long your investment is going to be, what is your tax situation now, and what you anticipate it to be later when you retire.\"",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "114912-0-501",
+          "score": null,
+          "score_type": "contriever",
+          "text": " The simplest explanation is that a traditional IRA is a method of deferring taxes. That is, normally you pay taxes on money you earn at the ordinary rate then invest the rest and only pay the capital gains rate.  However, with a traditional IRA you don't pay taxes on the money when you earn it, you defer the payment of those taxes until you retire. So in the end it ends up being treated the same. That said, if you are strategic about it you can wind up paying less taxes with this type of account.",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "514876-0-156",
+          "score": null,
+          "score_type": "contriever",
+          "text": " IRAs were invented to help individuals save for retirement. 401(k)s were invented to help corporations provide more compensation to highly valued employees.",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "292937-0-438",
+          "score": null,
+          "score_type": "contriever",
+          "text": " A rollover IRA is a traditional IRA.  Your rollover contributions are not taxed and rollover or counted against your annual limit, which is income dependent. A Roth IRA is one where your contributions will be taxed going into the IRA.  Note that there are adjusted gross income maximums for contribution to a Roth IRA (see here), and as far as I can tell those income maximums also determine whether or not you can rollover to a Roth IRA.",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "591495-0-582",
+          "score": null,
+          "score_type": "contriever",
+          "text": " \"Your 401K (and IRA) is a legally distinct entity from yourself. In fact, it is a \"\"trust,\"\" and your Administrator is a \"\"trustee,\"\" while you are both creator and benefactor. This fact, and the 10% early withdrawal penalty, makes it immune from most judgments. The IRS can \"\"levy\"\" your 401K or IRA for back taxes, but must waive the 10% penalty (under the 1997 Tax Reform law). That gives them the power to do what most others can't. A \"\"tricky\"\" banker may persuade you to take money out of your 401K to pay the bank. If you do, s/he has won. But s/he can't go after your 401k.\"",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "IRA stands for Individual Retirement Account. It's a type of retirement account where you can delay paying taxes now on your deposits or avoid paying taxes on your earnings later. You can set up a personal IRA for yourself, but not for employees. The investments within an IRA can vary - you can invest in certificates of deposit, stocks, bonds, mutual funds, or any mix of these. The taxation of an IRA is similar to a 401k, where contributions are made with pre-tax dollars and withdrawals are taxed upon retirement.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Clarification"
+        ]
+      }
+    },
+    {
+      "turn_id": "4",
+      "task_id": "2f94b6fb4c6f941decd0609eb126610b<::>4",
+      "question": "Got it. Can I change my 401k contribution mid-year, in case my financial state changed for some reason?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "how to balance 401k?"
+        },
+        {
+          "role": "assistant",
+          "content": "Balancing a 401k involves reallocating and rebalancing the investments within the account. You should determine the overall allocation between bonds, stocks, international, REIT, etc. This will depend on your risk tolerances and the total money in your 401k and IRA.  Once you figure out the allocation, map the available funds in your 401k according to this allocation. It is important to rebalance your 401k every year to maintain your desired asset allocation. Additionally you should review your allocation in a few years or after a life event such as a change of job, getting married, having kids, or buying a house. You can move from investment X to investment Y within your 401k without tax consequences. "
+        },
+        {
+          "role": "user",
+          "content": "How is 401k account taxed?"
+        },
+        {
+          "role": "assistant",
+          "content": "401(k) contributions are pre-tax dollars. A 401k account is taxed when you withdraw the money upon retirement. This is similar to how an IRA is taxed. The idea behind this is that you will likely be in a lower tax bracket at the time of retirement. It's important to note that 401k contributions reduce your taxable income for each paycheck, but they do not impact the level of your social security and medicare taxes. Also, the employer match is considered free money."
+        },
+        {
+          "role": "user",
+          "content": "What do you mean by IRA?"
+        },
+        {
+          "role": "assistant",
+          "content": "IRA stands for Individual Retirement Account. It's a type of retirement account where you can delay paying taxes now on your deposits or avoid paying taxes on your earnings later. You can set up a personal IRA for yourself, but not for employees. The investments within an IRA can vary - you can invest in certificates of deposit, stocks, bonds, mutual funds, or any mix of these. The taxation of an IRA is similar to a 401k, where contributions are made with pre-tax dollars and withdrawals are taxed upon retirement."
+        }
+      ],
+      "retrieval": {
+        "query": "Got it. Can I change my 401k contribution mid-year, in case my financial state changed for some reason?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "3104-0-1918",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"To answer the first part of your question: yes, I've done that! I did even a bit more. I once had a job that I wasn't sure I'd keep and the economy wasn't great either. In case my next employer wouldn't let me contribute to a 401(k) from day one, and because I didn't want to underfund my retirement and be stuck with a higher tax bill - I \"\"front-loaded\"\" my 401(k) contributions to be maxed out before the end of the year. (The contribution limits were lower than $16,500/year back then :-)) As for the reduced cash flow - you need of course a \"\"buffer\"\" account containing several months worth of living expenses to afford maxing out or \"\"front-loading\"\" 401(k) contributions. You should be paying your bills out of such buffer account and not out of each paycheck. As for the reduced cash flow - I think large-scale 401(k)/IRA contributions can crowd out other long-term saving priorities such as saving for a house down payment and the trade-off between them is a real concern. (If they're crowding out basic and discretionary consumer expenses, that's a totally different kind of problem, which you don't seem to have, which is great :-)) So about the trade-off between large-scale 401(k) contributions and saving for the down payment. I'd say maxing out 401(k) can foster the savings culture that will eventually pay its dividends. If, after several years of maxing out your 401(k) you decide that saving for the house is the top priority, you'll see money flow to the money-market account marked for the down payment at a substantial monthly rate, thanks to that savings culture. As for the increasing future earnings - no. Most people I've known for a long time, if they saved 20% when they made $20K/year, they continued to save 20% or more when they later made $100K/year. People who spent the entire paycheck while making $50K/year, always say, if only I got a raise to $60K/year, I'd save a few thousand.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "417388-0-1927",
+            "score": null,
+            "score_type": "contriever",
+            "text": " The 401(k) contribution is Federal tax free, when you make the contribution, and most likely State too. I believe that is true for California, specifically. There was a court case some years ago about people making 401(k) or IRA contributions in New York, avoiding the New York state income tax. Then they moved to Florida (no income tax), and took the money out. New York sued, saying they had to pay the New York income tax that had been deferred, but the court said no. So you should be able to avoid California state income tax, and then later if you were to move to, for example, Texas (no income tax), have no state income tax liability. At the Federal level, you will have different problems. You won't have the money; it will be held by the 401(k) trustee. When you try to access the money (cash the account out), you will have to pay the deferred taxes. Effectively, when you remove the money it becomes income in the year it is removed. You can take the money out at any time, but if you are less than 59 1/2 at the time that you take it, there is a 10% penalty. The agreement is that the Feds let you defer paying the tax because it is going to finance your retirement, and they will tax it later. If you take it out before 59 1/2, they figure you are not retired yet, and are breaking your part of the agreement. Of course you can generally leave the money in the 401(k) plan with your old employer and let it grow until you are 59.5, or roll it over into another 401(k) with a new employer (if they let you), or into an IRA. But if you have returned to your own country, having an account in the U.S. would introduce both investment risk and currency risk. If you are in another country when you want the money, the question would be where your U.S. residence would be. If you live in California, then go to, say France, your U.S. residence would still be California, and you would still owe California income tax.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "2103-0-1299",
+            "score": null,
+            "score_type": "contriever",
+            "text": " My perspective is from the US. Many employers offer 401(k)s and you can always contribute to an IRA for either tax deferred or tax free investment growth. If you're company offers a 401(k) match you should always contribute the maximum amount they max or you're leaving money on the table.    Companies can't always support pensions and it isn't the best idea to rely on one entirely for retirement unless your pension is from the federal government.   Even states such as Illinois are going through extreme financial difficulties due to pension funding issues. It's only going to get worse and if you think pension benefit accrual isn't going to be cut eventually you'll have another thing coming. I'd be worried if I was a state employee in the middle of my career with no retirement savings outside of my pension.   Ranting: Employees pushed hard for some pretty absurd commitments and public officials let the public down by giving in. It seems a little crazy to me that someone can work for the state until they're in their 50's and then earn 70% of their 6 figure salary for the rest of their life. Something needs to be done but I'd be surprised if anyone has the political will to make tough choices now before thee options get much much worse and these states are forced to make a decision.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "120394-0-928",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"Some 401k plans allow you to make \"\"supplemental post-tax contributions\"\". basically, once you hit the pre-tax contribution limit (17.5k$ in 2014), you are then allowed to contribute funds on a post-tax basis. Because of this timing, they are sometimes called \"\"spillover\"\" contributions. Usually, this option is advertised as a way of continuing to get company match even if you accidentally hit the pre-tax limit.  But if you actually pay attention to your finances, it is instead a handy way to put away additional tax-advantaged money.  That said, you would only want to use this option if you already maxed out your pre-tax and Roth options since you don't get the traditional tax break on contributions or the Roth tax break on the earnings. However, when you leave the company, you can transfer the post-tax money directly into a Roth IRA when you transfer the pre-tax money, match, and earnings into a traditional IRA.\"",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "253391-0-168",
+            "score": null,
+            "score_type": "contriever",
+            "text": " 401(k) contributions are pre-tax dollars, but at the cost of locking the money up.  So you wouldn't have to pay taxes on it, but the funds wouldn't be available either.",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "3104-0-1918",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"To answer the first part of your question: yes, I've done that! I did even a bit more. I once had a job that I wasn't sure I'd keep and the economy wasn't great either. In case my next employer wouldn't let me contribute to a 401(k) from day one, and because I didn't want to underfund my retirement and be stuck with a higher tax bill - I \"\"front-loaded\"\" my 401(k) contributions to be maxed out before the end of the year. (The contribution limits were lower than $16,500/year back then :-)) As for the reduced cash flow - you need of course a \"\"buffer\"\" account containing several months worth of living expenses to afford maxing out or \"\"front-loading\"\" 401(k) contributions. You should be paying your bills out of such buffer account and not out of each paycheck. As for the reduced cash flow - I think large-scale 401(k)/IRA contributions can crowd out other long-term saving priorities such as saving for a house down payment and the trade-off between them is a real concern. (If they're crowding out basic and discretionary consumer expenses, that's a totally different kind of problem, which you don't seem to have, which is great :-)) So about the trade-off between large-scale 401(k) contributions and saving for the down payment. I'd say maxing out 401(k) can foster the savings culture that will eventually pay its dividends. If, after several years of maxing out your 401(k) you decide that saving for the house is the top priority, you'll see money flow to the money-market account marked for the down payment at a substantial monthly rate, thanks to that savings culture. As for the increasing future earnings - no. Most people I've known for a long time, if they saved 20% when they made $20K/year, they continued to save 20% or more when they later made $100K/year. People who spent the entire paycheck while making $50K/year, always say, if only I got a raise to $60K/year, I'd save a few thousand.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "417388-0-1927",
+            "score": null,
+            "score_type": "contriever",
+            "text": " The 401(k) contribution is Federal tax free, when you make the contribution, and most likely State too. I believe that is true for California, specifically. There was a court case some years ago about people making 401(k) or IRA contributions in New York, avoiding the New York state income tax. Then they moved to Florida (no income tax), and took the money out. New York sued, saying they had to pay the New York income tax that had been deferred, but the court said no. So you should be able to avoid California state income tax, and then later if you were to move to, for example, Texas (no income tax), have no state income tax liability. At the Federal level, you will have different problems. You won't have the money; it will be held by the 401(k) trustee. When you try to access the money (cash the account out), you will have to pay the deferred taxes. Effectively, when you remove the money it becomes income in the year it is removed. You can take the money out at any time, but if you are less than 59 1/2 at the time that you take it, there is a 10% penalty. The agreement is that the Feds let you defer paying the tax because it is going to finance your retirement, and they will tax it later. If you take it out before 59 1/2, they figure you are not retired yet, and are breaking your part of the agreement. Of course you can generally leave the money in the 401(k) plan with your old employer and let it grow until you are 59.5, or roll it over into another 401(k) with a new employer (if they let you), or into an IRA. But if you have returned to your own country, having an account in the U.S. would introduce both investment risk and currency risk. If you are in another country when you want the money, the question would be where your U.S. residence would be. If you live in California, then go to, say France, your U.S. residence would still be California, and you would still owe California income tax.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "2103-0-1299",
+            "score": null,
+            "score_type": "contriever",
+            "text": " My perspective is from the US. Many employers offer 401(k)s and you can always contribute to an IRA for either tax deferred or tax free investment growth. If you're company offers a 401(k) match you should always contribute the maximum amount they max or you're leaving money on the table.    Companies can't always support pensions and it isn't the best idea to rely on one entirely for retirement unless your pension is from the federal government.   Even states such as Illinois are going through extreme financial difficulties due to pension funding issues. It's only going to get worse and if you think pension benefit accrual isn't going to be cut eventually you'll have another thing coming. I'd be worried if I was a state employee in the middle of my career with no retirement savings outside of my pension.   Ranting: Employees pushed hard for some pretty absurd commitments and public officials let the public down by giving in. It seems a little crazy to me that someone can work for the state until they're in their 50's and then earn 70% of their 6 figure salary for the rest of their life. Something needs to be done but I'd be surprised if anyone has the political will to make tough choices now before thee options get much much worse and these states are forced to make a decision.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "120394-0-928",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"Some 401k plans allow you to make \"\"supplemental post-tax contributions\"\". basically, once you hit the pre-tax contribution limit (17.5k$ in 2014), you are then allowed to contribute funds on a post-tax basis. Because of this timing, they are sometimes called \"\"spillover\"\" contributions. Usually, this option is advertised as a way of continuing to get company match even if you accidentally hit the pre-tax limit.  But if you actually pay attention to your finances, it is instead a handy way to put away additional tax-advantaged money.  That said, you would only want to use this option if you already maxed out your pre-tax and Roth options since you don't get the traditional tax break on contributions or the Roth tax break on the earnings. However, when you leave the company, you can transfer the post-tax money directly into a Roth IRA when you transfer the pre-tax money, match, and earnings into a traditional IRA.\"",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "253391-0-168",
+            "score": null,
+            "score_type": "contriever",
+            "text": " 401(k) contributions are pre-tax dollars, but at the cost of locking the money up.  So you wouldn't have to pay taxes on it, but the funds wouldn't be available either.",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Assistant: Yes, you can change your 401k contribution mid-year.You can increase or decrease your contribution amount at any time during the year.However, you should carefully consider the impact on your retirement savings before making any changes.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "3104-0-1918",
+          "score": null,
+          "score_type": "contriever",
+          "text": " \"To answer the first part of your question: yes, I've done that! I did even a bit more. I once had a job that I wasn't sure I'd keep and the economy wasn't great either. In case my next employer wouldn't let me contribute to a 401(k) from day one, and because I didn't want to underfund my retirement and be stuck with a higher tax bill - I \"\"front-loaded\"\" my 401(k) contributions to be maxed out before the end of the year. (The contribution limits were lower than $16,500/year back then :-)) As for the reduced cash flow - you need of course a \"\"buffer\"\" account containing several months worth of living expenses to afford maxing out or \"\"front-loading\"\" 401(k) contributions. You should be paying your bills out of such buffer account and not out of each paycheck. As for the reduced cash flow - I think large-scale 401(k)/IRA contributions can crowd out other long-term saving priorities such as saving for a house down payment and the trade-off between them is a real concern. (If they're crowding out basic and discretionary consumer expenses, that's a totally different kind of problem, which you don't seem to have, which is great :-)) So about the trade-off between large-scale 401(k) contributions and saving for the down payment. I'd say maxing out 401(k) can foster the savings culture that will eventually pay its dividends. If, after several years of maxing out your 401(k) you decide that saving for the house is the top priority, you'll see money flow to the money-market account marked for the down payment at a substantial monthly rate, thanks to that savings culture. As for the increasing future earnings - no. Most people I've known for a long time, if they saved 20% when they made $20K/year, they continued to save 20% or more when they later made $100K/year. People who spent the entire paycheck while making $50K/year, always say, if only I got a raise to $60K/year, I'd save a few thousand.",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "417388-0-1927",
+          "score": null,
+          "score_type": "contriever",
+          "text": " The 401(k) contribution is Federal tax free, when you make the contribution, and most likely State too. I believe that is true for California, specifically. There was a court case some years ago about people making 401(k) or IRA contributions in New York, avoiding the New York state income tax. Then they moved to Florida (no income tax), and took the money out. New York sued, saying they had to pay the New York income tax that had been deferred, but the court said no. So you should be able to avoid California state income tax, and then later if you were to move to, for example, Texas (no income tax), have no state income tax liability. At the Federal level, you will have different problems. You won't have the money; it will be held by the 401(k) trustee. When you try to access the money (cash the account out), you will have to pay the deferred taxes. Effectively, when you remove the money it becomes income in the year it is removed. You can take the money out at any time, but if you are less than 59 1/2 at the time that you take it, there is a 10% penalty. The agreement is that the Feds let you defer paying the tax because it is going to finance your retirement, and they will tax it later. If you take it out before 59 1/2, they figure you are not retired yet, and are breaking your part of the agreement. Of course you can generally leave the money in the 401(k) plan with your old employer and let it grow until you are 59.5, or roll it over into another 401(k) with a new employer (if they let you), or into an IRA. But if you have returned to your own country, having an account in the U.S. would introduce both investment risk and currency risk. If you are in another country when you want the money, the question would be where your U.S. residence would be. If you live in California, then go to, say France, your U.S. residence would still be California, and you would still owe California income tax.",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "2103-0-1299",
+          "score": null,
+          "score_type": "contriever",
+          "text": " My perspective is from the US. Many employers offer 401(k)s and you can always contribute to an IRA for either tax deferred or tax free investment growth. If you're company offers a 401(k) match you should always contribute the maximum amount they max or you're leaving money on the table.    Companies can't always support pensions and it isn't the best idea to rely on one entirely for retirement unless your pension is from the federal government.   Even states such as Illinois are going through extreme financial difficulties due to pension funding issues. It's only going to get worse and if you think pension benefit accrual isn't going to be cut eventually you'll have another thing coming. I'd be worried if I was a state employee in the middle of my career with no retirement savings outside of my pension.   Ranting: Employees pushed hard for some pretty absurd commitments and public officials let the public down by giving in. It seems a little crazy to me that someone can work for the state until they're in their 50's and then earn 70% of their 6 figure salary for the rest of their life. Something needs to be done but I'd be surprised if anyone has the political will to make tough choices now before thee options get much much worse and these states are forced to make a decision.",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "120394-0-928",
+          "score": null,
+          "score_type": "contriever",
+          "text": " \"Some 401k plans allow you to make \"\"supplemental post-tax contributions\"\". basically, once you hit the pre-tax contribution limit (17.5k$ in 2014), you are then allowed to contribute funds on a post-tax basis. Because of this timing, they are sometimes called \"\"spillover\"\" contributions. Usually, this option is advertised as a way of continuing to get company match even if you accidentally hit the pre-tax limit.  But if you actually pay attention to your finances, it is instead a handy way to put away additional tax-advantaged money.  That said, you would only want to use this option if you already maxed out your pre-tax and Roth options since you don't get the traditional tax break on contributions or the Roth tax break on the earnings. However, when you leave the company, you can transfer the post-tax money directly into a Roth IRA when you transfer the pre-tax money, match, and earnings into a traditional IRA.\"",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "253391-0-168",
+          "score": null,
+          "score_type": "contriever",
+          "text": " 401(k) contributions are pre-tax dollars, but at the cost of locking the money up.  So you wouldn't have to pay taxes on it, but the funds wouldn't be available either.",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "I'm sorry, but I don't have information on whether you can change the contribution mid-year. ",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "UNANSWERABLE",
+        "question_type": [
+          "How-To"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    }
+  ]
+}

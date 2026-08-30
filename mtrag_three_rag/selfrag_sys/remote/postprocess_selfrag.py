@@ -13,6 +13,7 @@ import argparse, json, os, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, ".."))          # -> mtrag_three_rag
 from common.mtrag_io import load_turns, load_qrels, load_corpus, make_log_record, to_mtrag_eval_record  # noqa
+from selfrag_sys.extract import extract_selfrag_answer  # noqa
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--turns", required=True)
@@ -41,18 +42,23 @@ os.makedirs(os.path.dirname(a.out_eval) or ".", exist_ok=True)
 flog = open(a.out_log, "w", encoding="utf-8")
 feval = open(a.out_eval, "w", encoding="utf-8")
 n = 0
-for row, ans in zip(sin, preds):
+for row, raw_ans in zip(sin, preds):
     tid = row["id"]
     turn = turns.get(tid)
     if turn is None:
         continue
+    # Conservative extraction: strip role tags / echoed question / dialogue
+    # continuations / Self-RAG reflection tokens. Semantic content (incl. genuine
+    # mistakes) is preserved verbatim.
+    ans = extract_selfrag_answer(raw_ans, question=row.get("question"))
     retrieved = [{"rank": i + 1, "doc_id": c.get("id"), "score": c.get("score"),
                   "score_type": "contriever", "text": c.get("text", ""),
                   "title": c.get("title", "")} for i, c in enumerate(row.get("ctxs", []))]
     gold_ids = list(qrels.get(tid, {}).keys())
     gold_passages = [id2text.get(g, "") for g in gold_ids]
     flog.write(json.dumps(make_log_record(turn, "selfrag", retrieved, ans,
-                                          gold_ids, gold_passages), ensure_ascii=False) + "\n")
+                                          gold_ids, gold_passages,
+                                          extra={"rag_answer_raw": raw_ans}), ensure_ascii=False) + "\n")
     feval.write(json.dumps(to_mtrag_eval_record(turn, retrieved, ans), ensure_ascii=False) + "\n")
     n += 1
 flog.close(); feval.close()

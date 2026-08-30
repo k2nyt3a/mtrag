@@ -4,14 +4,20 @@
 Full-corpus build + run + eval for one system on one MTRAG domain.
 
   python run_full.py <hipporag|raptor> <domain> [openie_workers]
+  # pilot (3 selected conversations, separate output dir, no overwrite):
+  python run_full.py hipporag fiqa --conversation-ids <cid1> <cid2> <cid3> \
+      --out-dir outputs_pilot/hipporag
 
 Builds the OFFICIAL index over the FULL domain corpus (the correct BEIR retrieval
 universe — verified: e.g. clapnq = all 183,408 passages), runs every domain turn
 (retrieval query = official Last-Turn text; top-10 for metrics, top-5 for
 generation), writes the per-turn log + MTRAG eval jsonl, and prints official-style
 retrieval metrics (Recall@/nDCG@ 1,3,5,10). Resumable at both stages (index caches
-+ log skip-set).
++ log skip-set). When --conversation-ids / --num-conversations are given, only those
+whole conversations run (boundaries preserved); index building is unchanged and, if
+the cache already exists, loads without rebuilding (no OpenIE/embedding cost).
 """
+import argparse
 import os
 import sys
 import time
@@ -22,9 +28,26 @@ from common.mtrag_io import load_env_openai_key, load_corpus          # noqa: E4
 from common.runner import run_domain                                   # noqa: E402
 from common.eval_retrieval import metrics_from_log                     # noqa: E402
 
-system = sys.argv[1]
-domain = sys.argv[2]
-workers = int(sys.argv[3]) if len(sys.argv) > 3 else 32
+ap = argparse.ArgumentParser(description=__doc__)
+ap.add_argument("system", choices=["hipporag", "raptor"])
+ap.add_argument("domain")
+ap.add_argument("workers", nargs="?", type=int, default=32,
+                help="OpenIE workers (HippoRAG build); positional, backward-compatible")
+ap.add_argument("--conversation-ids", nargs="*", default=None,
+                help="run only these conversation_ids (pilot); whole conversations only")
+ap.add_argument("--num-conversations", type=int, default=None,
+                help="run only the first N conversations in load order (pilot)")
+ap.add_argument("--out-dir", default=None,
+                help="override flat-log output dir (default outputs/<system>); use a "
+                     "separate dir for pilots so full runs are never overwritten")
+ap.add_argument("--conv-out-dir", default=None,
+                help="also emit corrected conversation_NNN.json schema here "
+                     "(conversations.json + per-conversation files)")
+args = ap.parse_args()
+
+system = args.system
+domain = args.domain
+workers = args.workers
 
 load_env_openai_key()
 from openai import OpenAI                                              # noqa: E402
@@ -52,10 +75,14 @@ else:
     raise SystemExit(f"unknown system: {system}")
 print(f"[build] done in {time.time()-t0:.0f}s", flush=True)
 
-out_log = os.path.join(HERE, "outputs", system, f"{domain}.log.jsonl")
-out_eval = os.path.join(HERE, "outputs", system, f"{domain}.mtrag_eval.jsonl")
+out_base = args.out_dir or os.path.join(HERE, "outputs", system)
+out_log = os.path.join(out_base, f"{domain}.log.jsonl")
+out_eval = os.path.join(out_base, f"{domain}.mtrag_eval.jsonl")
 print(f"[run] turns -> {out_log}", flush=True)
-n = run_domain(rag, domain, client, out_log, out_eval, k_retrieve=10, k_gen=5)
+n = run_domain(rag, domain, client, out_log, out_eval, k_retrieve=10, k_gen=5,
+               conversation_ids=args.conversation_ids,
+               num_conversations=args.num_conversations,
+               out_conv_dir=args.conv_out_dir)
 print(f"[run] {n} new turns processed", flush=True)
 
 m = metrics_from_log(out_log, domain)
