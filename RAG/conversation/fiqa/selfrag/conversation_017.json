@@ -1,0 +1,1739 @@
+{
+  "conversation_id": "af5e45e59e1254e0b7869cb477674d02",
+  "dataset": "fiqa",
+  "collection": "mt-rag-fiqa-beir-elser-512-100-20240501",
+  "rag": "selfrag",
+  "num_turns": 9,
+  "turns": [
+    {
+      "turn_id": "1",
+      "task_id": "af5e45e59e1254e0b7869cb477674d02<::>1",
+      "question": "what system does the sec require companies to use when preparing financial statements",
+      "rag_history_before_turn": [],
+      "retrieval": {
+        "query": "what system does the sec require companies to use when preparing financial statements",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "391291-0-1627",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Yes it is true. The US based companies have to meet the requirements placed on them by the US government. The agency with all these reports is the Security and Exchange Commission. They run the EDGAR system to hold all those required reports The SEC’s EDGAR database provides free public access to corporate   information, allowing you to quickly research a company’s financial   information and operations by reviewing registration statements,   prospectuses and periodic reports filed on Forms 10-K and 10-Q. You   also can find information about recent corporate events reported on   Form 8-K but that a company does not have to disclose to investors. EDGAR also provides access to comment and response letters relating to   disclosure filings made after August 1, 2004, and reviewed by either   the Division of Corporation Finance or the Division of Investment   Management. On May 22, 2006, the staffs of the Divisions of   Corporation Finance and Investment Management began to use the EDGAR   system to issue notifications of effectiveness for Securities Act   registration statements and post-effective amendments, other than   those that become effective automatically by law. These notifications   will be posted to the EDGAR system the morning after a filing is   determined to be effective. As pointed out by Grade 'Eh' Bacon: Other countries may require different types of information to be reported to the public, in particular, financial statements. To find the financial statements released for a particular company, you can go to the appropriate stock exchange, or often simply the company's corporate website.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "516379-0-398",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Trading data can be had cheaply from:  http://eoddata.com/products/historicaldata.aspx  The SEC will give you machine readable financial statements for American companies for free, but that only goes back 3 or 4 years.  Beyond that, you will have to pay for a rather expensive service like CapitalIQ or CRSP or whatever.  Note that you will need considerable programming knowledge to pull this off.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "146076-0-441",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"Publicly traded companies files 10-Ks with the SEC, searchable on the EDGAR system.  If you want basic financial statement info then look for 10-Ks that are marked \"\"Interactive Data\"\", as for those the SEC has  broken everything out by statement into standard formats.  You could also use marketwatch which puts everything in financial statements into the same or as similar of categories as it can to make it easier to compare companies.\"",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "31516-0-252",
+            "score": null,
+            "score_type": "contriever",
+            "text": " You can take a look at EDGAR (Electronic Data Gathering, Analysis, and Retrieval), a big database run by the SEC where  all companies, foreign and domestic, are required to file registration statements, periodic reports, and other forms electronically.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "251303-0-530",
+            "score": null,
+            "score_type": "contriever",
+            "text": " You can avoid companies that might go bankrupt by not buying the stock of companies with debt. Every quarter, a public company must file financials with the EDGAR system called a 10-Q. This filing includes unaudited financial statements and provides a continuing view of the company's financial position during the year. Any debt the company has acquired will appear on this filing and their annual report. If servicing the debt is costing the company a substantial fraction of their income, then the company is a bankruptcy risk.",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "391291-0-1627",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Yes it is true. The US based companies have to meet the requirements placed on them by the US government. The agency with all these reports is the Security and Exchange Commission. They run the EDGAR system to hold all those required reports The SEC’s EDGAR database provides free public access to corporate   information, allowing you to quickly research a company’s financial   information and operations by reviewing registration statements,   prospectuses and periodic reports filed on Forms 10-K and 10-Q. You   also can find information about recent corporate events reported on   Form 8-K but that a company does not have to disclose to investors. EDGAR also provides access to comment and response letters relating to   disclosure filings made after August 1, 2004, and reviewed by either   the Division of Corporation Finance or the Division of Investment   Management. On May 22, 2006, the staffs of the Divisions of   Corporation Finance and Investment Management began to use the EDGAR   system to issue notifications of effectiveness for Securities Act   registration statements and post-effective amendments, other than   those that become effective automatically by law. These notifications   will be posted to the EDGAR system the morning after a filing is   determined to be effective. As pointed out by Grade 'Eh' Bacon: Other countries may require different types of information to be reported to the public, in particular, financial statements. To find the financial statements released for a particular company, you can go to the appropriate stock exchange, or often simply the company's corporate website.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "516379-0-398",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Trading data can be had cheaply from:  http://eoddata.com/products/historicaldata.aspx  The SEC will give you machine readable financial statements for American companies for free, but that only goes back 3 or 4 years.  Beyond that, you will have to pay for a rather expensive service like CapitalIQ or CRSP or whatever.  Note that you will need considerable programming knowledge to pull this off.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "146076-0-441",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"Publicly traded companies files 10-Ks with the SEC, searchable on the EDGAR system.  If you want basic financial statement info then look for 10-Ks that are marked \"\"Interactive Data\"\", as for those the SEC has  broken everything out by statement into standard formats.  You could also use marketwatch which puts everything in financial statements into the same or as similar of categories as it can to make it easier to compare companies.\"",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "31516-0-252",
+            "score": null,
+            "score_type": "contriever",
+            "text": " You can take a look at EDGAR (Electronic Data Gathering, Analysis, and Retrieval), a big database run by the SEC where  all companies, foreign and domestic, are required to file registration statements, periodic reports, and other forms electronically.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "251303-0-530",
+            "score": null,
+            "score_type": "contriever",
+            "text": " You can avoid companies that might go bankrupt by not buying the stock of companies with debt. Every quarter, a public company must file financials with the EDGAR system called a 10-Q. This filing includes unaudited financial statements and provides a continuing view of the company's financial position during the year. Any debt the company has acquired will appear on this filing and their annual report. If servicing the debt is costing the company a substantial fraction of their income, then the company is a bankruptcy risk.",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "EDGAR",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "391291-0-1627",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Yes it is true. The US based companies have to meet the requirements placed on them by the US government. The agency with all these reports is the Security and Exchange Commission. They run the EDGAR system to hold all those required reports The SEC’s EDGAR database provides free public access to corporate   information, allowing you to quickly research a company’s financial   information and operations by reviewing registration statements,   prospectuses and periodic reports filed on Forms 10-K and 10-Q. You   also can find information about recent corporate events reported on   Form 8-K but that a company does not have to disclose to investors. EDGAR also provides access to comment and response letters relating to   disclosure filings made after August 1, 2004, and reviewed by either   the Division of Corporation Finance or the Division of Investment   Management. On May 22, 2006, the staffs of the Divisions of   Corporation Finance and Investment Management began to use the EDGAR   system to issue notifications of effectiveness for Securities Act   registration statements and post-effective amendments, other than   those that become effective automatically by law. These notifications   will be posted to the EDGAR system the morning after a filing is   determined to be effective. As pointed out by Grade 'Eh' Bacon: Other countries may require different types of information to be reported to the public, in particular, financial statements. To find the financial statements released for a particular company, you can go to the appropriate stock exchange, or often simply the company's corporate website.",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "516379-0-398",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Trading data can be had cheaply from:  http://eoddata.com/products/historicaldata.aspx  The SEC will give you machine readable financial statements for American companies for free, but that only goes back 3 or 4 years.  Beyond that, you will have to pay for a rather expensive service like CapitalIQ or CRSP or whatever.  Note that you will need considerable programming knowledge to pull this off.",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "146076-0-441",
+          "score": null,
+          "score_type": "contriever",
+          "text": " \"Publicly traded companies files 10-Ks with the SEC, searchable on the EDGAR system.  If you want basic financial statement info then look for 10-Ks that are marked \"\"Interactive Data\"\", as for those the SEC has  broken everything out by statement into standard formats.  You could also use marketwatch which puts everything in financial statements into the same or as similar of categories as it can to make it easier to compare companies.\"",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "31516-0-252",
+          "score": null,
+          "score_type": "contriever",
+          "text": " You can take a look at EDGAR (Electronic Data Gathering, Analysis, and Retrieval), a big database run by the SEC where  all companies, foreign and domestic, are required to file registration statements, periodic reports, and other forms electronically.",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "251303-0-530",
+          "score": null,
+          "score_type": "contriever",
+          "text": " You can avoid companies that might go bankrupt by not buying the stock of companies with debt. Every quarter, a public company must file financials with the EDGAR system called a 10-Q. This filing includes unaudited financial statements and provides a continuing view of the company's financial position during the year. Any debt the company has acquired will appear on this filing and their annual report. If servicing the debt is costing the company a substantial fraction of their income, then the company is a bankruptcy risk.",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "I have no specific information about the system required by the SEC for preparing financial statements.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "UNANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "N/A"
+        ]
+      }
+    },
+    {
+      "turn_id": "2",
+      "task_id": "af5e45e59e1254e0b7869cb477674d02<::>2",
+      "question": "Do US-based companies need to comply with SEC regulations?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "what system does the sec require companies to use when preparing financial statements"
+        },
+        {
+          "role": "assistant",
+          "content": "I have no specific information about the system required by the SEC for preparing financial statements."
+        }
+      ],
+      "retrieval": {
+        "query": "Do US-based companies need to comply with SEC regulations?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "309199-0-386",
+            "score": null,
+            "score_type": "contriever",
+            "text": " It is very important to note the strength and reputation of the country's regulatory agency. You cannot assume the standards of say the SEC (US Securities and Exchange Commission) apply in other countries (even well-developed ones). These regulations force companies to disclose certain information to inform and protect investors. The standards for such practices vary internationally.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "506070-0-615",
+            "score": null,
+            "score_type": "contriever",
+            "text": " It varies highly on industry, regulations and locale. Say you are a US based manufacturer of industrial products in Pennsylvania (as an example), you may only have 500 employees, but to be compliant with EVERYTHING, you might need 12 HR people to track everything, actually do all the required training, followup on the failures, file all the required paperwork for all the various regulatory and legal bodies they are beholden to, etc...  If you are service company out of Alabama that is the same size, you might have a LOT less to worry about and could outsource the entire thing for less than the cost of a FTH.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "69017-0-376",
+            "score": null,
+            "score_type": "contriever",
+            "text": " The SEC requires that they register with the SEC due to having more than 500 shareholders.  With that comes public reporting and all kinds of regulatory compliance.  At that point it is more of a practical necessity to follow through with an IPO, even though it is not a legal one.  http://dealbook.nytimes.com/2011/11/29/facebook-may-be-forced-to-go-public-amid-market-gloom/",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "213524-0-692",
+            "score": null,
+            "score_type": "contriever",
+            "text": " &gt; I'm not so sure the current agency is all that interested in actually holding executives accountable for breaking the law.  After all the talk about less of a focus on regulation and more emphasis on enforcement?  I wouldn't be so sure. Especially when you have these three geniuses, a company whose PR people are saying 'they didn't know' while their investor relations people are emphatically telling shareholders that the board was notified of the breach immediately and took action.  I mean, you don't often find that juicy a poster child to show America that, yes, you *were* serious about the SEC needing to focus less on the rule making and more on enforcing existing regulations.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "514736-0-747",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Absolutely. In fact, all stock purchases of more than 5% of a company's stock must be reported to the SEC, so assuming A and B are publicly traded companies in the US, the purchase would likely be a matter of public record.  There are probably special cases where this could cause problems, however; any case where A's purchase of B's stock (or vice versa) runs afoul of regulation would be one such case. For example, if company A wants to own a controlling interest in company B and appoint members of its board of directors and both companies were in the same heavily-concentrated market, regulators may frown on the potential for decreased competition. Such regulations may apply to any purchase of a controlling interest in a company, though.",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "309199-0-386",
+            "score": null,
+            "score_type": "contriever",
+            "text": " It is very important to note the strength and reputation of the country's regulatory agency. You cannot assume the standards of say the SEC (US Securities and Exchange Commission) apply in other countries (even well-developed ones). These regulations force companies to disclose certain information to inform and protect investors. The standards for such practices vary internationally.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "506070-0-615",
+            "score": null,
+            "score_type": "contriever",
+            "text": " It varies highly on industry, regulations and locale. Say you are a US based manufacturer of industrial products in Pennsylvania (as an example), you may only have 500 employees, but to be compliant with EVERYTHING, you might need 12 HR people to track everything, actually do all the required training, followup on the failures, file all the required paperwork for all the various regulatory and legal bodies they are beholden to, etc...  If you are service company out of Alabama that is the same size, you might have a LOT less to worry about and could outsource the entire thing for less than the cost of a FTH.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "69017-0-376",
+            "score": null,
+            "score_type": "contriever",
+            "text": " The SEC requires that they register with the SEC due to having more than 500 shareholders.  With that comes public reporting and all kinds of regulatory compliance.  At that point it is more of a practical necessity to follow through with an IPO, even though it is not a legal one.  http://dealbook.nytimes.com/2011/11/29/facebook-may-be-forced-to-go-public-amid-market-gloom/",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "213524-0-692",
+            "score": null,
+            "score_type": "contriever",
+            "text": " &gt; I'm not so sure the current agency is all that interested in actually holding executives accountable for breaking the law.  After all the talk about less of a focus on regulation and more emphasis on enforcement?  I wouldn't be so sure. Especially when you have these three geniuses, a company whose PR people are saying 'they didn't know' while their investor relations people are emphatically telling shareholders that the board was notified of the breach immediately and took action.  I mean, you don't often find that juicy a poster child to show America that, yes, you *were* serious about the SEC needing to focus less on the rule making and more on enforcing existing regulations.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "514736-0-747",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Absolutely. In fact, all stock purchases of more than 5% of a company's stock must be reported to the SEC, so assuming A and B are publicly traded companies in the US, the purchase would likely be a matter of public record.  There are probably special cases where this could cause problems, however; any case where A's purchase of B's stock (or vice versa) runs afoul of regulation would be one such case. For example, if company A wants to own a controlling interest in company B and appoint members of its board of directors and both companies were in the same heavily-concentrated market, regulators may frown on the potential for decreased competition. Such regulations may apply to any purchase of a controlling interest in a company, though.",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Yes, US-based companies that are publicly traded or have publicly traded debt must comply with SEC regulations.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "309199-0-386",
+          "score": null,
+          "score_type": "contriever",
+          "text": " It is very important to note the strength and reputation of the country's regulatory agency. You cannot assume the standards of say the SEC (US Securities and Exchange Commission) apply in other countries (even well-developed ones). These regulations force companies to disclose certain information to inform and protect investors. The standards for such practices vary internationally.",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "506070-0-615",
+          "score": null,
+          "score_type": "contriever",
+          "text": " It varies highly on industry, regulations and locale. Say you are a US based manufacturer of industrial products in Pennsylvania (as an example), you may only have 500 employees, but to be compliant with EVERYTHING, you might need 12 HR people to track everything, actually do all the required training, followup on the failures, file all the required paperwork for all the various regulatory and legal bodies they are beholden to, etc...  If you are service company out of Alabama that is the same size, you might have a LOT less to worry about and could outsource the entire thing for less than the cost of a FTH.",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "69017-0-376",
+          "score": null,
+          "score_type": "contriever",
+          "text": " The SEC requires that they register with the SEC due to having more than 500 shareholders.  With that comes public reporting and all kinds of regulatory compliance.  At that point it is more of a practical necessity to follow through with an IPO, even though it is not a legal one.  http://dealbook.nytimes.com/2011/11/29/facebook-may-be-forced-to-go-public-amid-market-gloom/",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "213524-0-692",
+          "score": null,
+          "score_type": "contriever",
+          "text": " &gt; I'm not so sure the current agency is all that interested in actually holding executives accountable for breaking the law.  After all the talk about less of a focus on regulation and more emphasis on enforcement?  I wouldn't be so sure. Especially when you have these three geniuses, a company whose PR people are saying 'they didn't know' while their investor relations people are emphatically telling shareholders that the board was notified of the breach immediately and took action.  I mean, you don't often find that juicy a poster child to show America that, yes, you *were* serious about the SEC needing to focus less on the rule making and more on enforcing existing regulations.",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "514736-0-747",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Absolutely. In fact, all stock purchases of more than 5% of a company's stock must be reported to the SEC, so assuming A and B are publicly traded companies in the US, the purchase would likely be a matter of public record.  There are probably special cases where this could cause problems, however; any case where A's purchase of B's stock (or vice versa) runs afoul of regulation would be one such case. For example, if company A wants to own a controlling interest in company B and appoint members of its board of directors and both companies were in the same heavily-concentrated market, regulators may frown on the potential for decreased competition. Such regulations may apply to any purchase of a controlling interest in a company, though.",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "Yes, US-based companies are obligated to adhere to the regulations mandated by the US government, which are supervised by the Securities and Exchange Commission (SEC). The SEC's EDGAR system contains all the necessary reports. Both foreign and domestic companies must electronically submit registration statements, periodic reports, and other forms to the SEC's EDGAR database. \n",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Explanation",
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "3",
+      "task_id": "af5e45e59e1254e0b7869cb477674d02<::>3",
+      "question": "What are the requirements? ",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "what system does the sec require companies to use when preparing financial statements"
+        },
+        {
+          "role": "assistant",
+          "content": "I have no specific information about the system required by the SEC for preparing financial statements."
+        },
+        {
+          "role": "user",
+          "content": "Do US-based companies need to comply with SEC regulations?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, US-based companies are obligated to adhere to the regulations mandated by the US government, which are supervised by the Securities and Exchange Commission (SEC). The SEC's EDGAR system contains all the necessary reports. Both foreign and domestic companies must electronically submit registration statements, periodic reports, and other forms to the SEC's EDGAR database. \n"
+        }
+      ],
+      "retrieval": {
+        "query": "What are the requirements? ",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "583345-0-91",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Do you satisfy the necessary criteria listed there? Then why not?... It sounds like you do.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "500661-0-291",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Well I'm a candidate so hopefully not. I see it as becoming like accountancy qualifications in most countries, becoming a mandatory requirement to be considered a professional in asset management. The universities are already making an effort to align their curriculums with the CFA program.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "430365-0-285",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Some requirements needed for availing loans are FICA documents, a certain percentage of equity of the purchase price and A signed Offer to Purchase/Deed of Sale etc. A single loan can be availed that will include both the purchase and construction components of the investor’s project.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "396271-0-252",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Link only answers aren't good, but the list is pretty long. It's a moving target, the requirement change based on a number of criteria. It usually jumps to force you to sell when you hold a losing position, or when your commodity is about to skyrocket.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "387573-0-199",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Many of the Financial intermediaries in the business, have extraordinary high requirements for opening an account. For example to open an account in Credit Suisse  one will need 1 million US dollars.",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "583345-0-91",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Do you satisfy the necessary criteria listed there? Then why not?... It sounds like you do.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "500661-0-291",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Well I'm a candidate so hopefully not. I see it as becoming like accountancy qualifications in most countries, becoming a mandatory requirement to be considered a professional in asset management. The universities are already making an effort to align their curriculums with the CFA program.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "430365-0-285",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Some requirements needed for availing loans are FICA documents, a certain percentage of equity of the purchase price and A signed Offer to Purchase/Deed of Sale etc. A single loan can be availed that will include both the purchase and construction components of the investor’s project.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "396271-0-252",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Link only answers aren't good, but the list is pretty long. It's a moving target, the requirement change based on a number of criteria. It usually jumps to force you to sell when you hold a losing position, or when your commodity is about to skyrocket.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "387573-0-199",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Many of the Financial intermediaries in the business, have extraordinary high requirements for opening an account. For example to open an account in Credit Suisse  one will need 1 million US dollars.",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Assistant: The SEC requires companies to submit their financial statements electronically using the EDGAR system.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "583345-0-91",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Do you satisfy the necessary criteria listed there? Then why not?... It sounds like you do.",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "500661-0-291",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Well I'm a candidate so hopefully not. I see it as becoming like accountancy qualifications in most countries, becoming a mandatory requirement to be considered a professional in asset management. The universities are already making an effort to align their curriculums with the CFA program.",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "430365-0-285",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Some requirements needed for availing loans are FICA documents, a certain percentage of equity of the purchase price and A signed Offer to Purchase/Deed of Sale etc. A single loan can be availed that will include both the purchase and construction components of the investor’s project.",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "396271-0-252",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Link only answers aren't good, but the list is pretty long. It's a moving target, the requirement change based on a number of criteria. It usually jumps to force you to sell when you hold a losing position, or when your commodity is about to skyrocket.",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "387573-0-199",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Many of the Financial intermediaries in the business, have extraordinary high requirements for opening an account. For example to open an account in Credit Suisse  one will need 1 million US dollars.",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "The SEC defines an accredited investor as a variety of entities, including financial institutions, employee benefit plans with over $5 million in assets, certain charitable organizations, and individuals meeting specific income or net worth thresholds. There are no citizenship or residency requirements to qualify.\nIf a company has more than 500 shareholders, it must register with the SEC as an Investment Company. This registration brings about public reporting and additional regulatory compliance. This often leads to the practical necessity of going public with an IPO, even if it's not a legal requirement.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Explanation",
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "4",
+      "task_id": "af5e45e59e1254e0b7869cb477674d02<::>4",
+      "question": "What is the filing requirement for them?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "what system does the sec require companies to use when preparing financial statements"
+        },
+        {
+          "role": "assistant",
+          "content": "I have no specific information about the system required by the SEC for preparing financial statements."
+        },
+        {
+          "role": "user",
+          "content": "Do US-based companies need to comply with SEC regulations?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, US-based companies are obligated to adhere to the regulations mandated by the US government, which are supervised by the Securities and Exchange Commission (SEC). The SEC's EDGAR system contains all the necessary reports. Both foreign and domestic companies must electronically submit registration statements, periodic reports, and other forms to the SEC's EDGAR database. \n"
+        },
+        {
+          "role": "user",
+          "content": "What are the requirements? "
+        },
+        {
+          "role": "assistant",
+          "content": "The SEC defines an accredited investor as a variety of entities, including financial institutions, employee benefit plans with over $5 million in assets, certain charitable organizations, and individuals meeting specific income or net worth thresholds. There are no citizenship or residency requirements to qualify.\nIf a company has more than 500 shareholders, it must register with the SEC as an Investment Company. This registration brings about public reporting and additional regulatory compliance. This often leads to the practical necessity of going public with an IPO, even if it's not a legal requirement."
+        }
+      ],
+      "retrieval": {
+        "query": "What is the filing requirement for them?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "11654-0-563",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"You will need to file  a US income tax return, and declare all income world-wide.  Whether this results in any tax owed depends on your particular circumstances, and the effect of any tax treaties between the US and India. There are additional requirements for the filing of information on the amounts in foreign accounts held by \"\"US tax persons\"\".  Depending on the nature of these accounts, the complexity of the forms, and the penalties for non-compliance can be quite high... Short version:  Consult a professional well-qualified in US/India tax matters...\"",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "349181-0-172",
+            "score": null,
+            "score_type": "contriever",
+            "text": " The most important filings are: Form 10-K, which is the annual report required by the U.S. Securities and Exchange Commission (SEC) and Form 10-Q, for the interim quarters.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "242027-0-121",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Yes, I'd say you do. This is similar to reporting a brokerage account. Also, don't forget the requirements for form 8938.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "413438-1605-2271",
+            "score": null,
+            "score_type": "contriever",
+            "text": " As Publication 17 says in Chapter 36, qualified persons must File a tax return, even if you: (a) Do not owe any tax, (b) Did not earn enough money to file a return, or (c) Did not have income taxes withheld from your pay. in order to claim the credit. In short, read Publication 17 for yourself, and decide whether you are required to file an income tax return, and if you are not, whether it is worth your while to file the tax return anyway. Note to readers preparing to down-vote: this answer is prolix and says things that are far too \"\"well-known to everybody\"\" (and especially to you), but please remember that they might not be quite so well-known to the OP.\"",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "441197-0-251",
+            "score": null,
+            "score_type": "contriever",
+            "text": " You need to file foreign qualification in any State you have physical presence in (warehouses, offices, etc). Including the State from which you personally operate (if it is not Nevada). You don't need to register in States to which you ship products.",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "11654-0-563",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"You will need to file  a US income tax return, and declare all income world-wide.  Whether this results in any tax owed depends on your particular circumstances, and the effect of any tax treaties between the US and India. There are additional requirements for the filing of information on the amounts in foreign accounts held by \"\"US tax persons\"\".  Depending on the nature of these accounts, the complexity of the forms, and the penalties for non-compliance can be quite high... Short version:  Consult a professional well-qualified in US/India tax matters...\"",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "349181-0-172",
+            "score": null,
+            "score_type": "contriever",
+            "text": " The most important filings are: Form 10-K, which is the annual report required by the U.S. Securities and Exchange Commission (SEC) and Form 10-Q, for the interim quarters.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "242027-0-121",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Yes, I'd say you do. This is similar to reporting a brokerage account. Also, don't forget the requirements for form 8938.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "413438-1605-2271",
+            "score": null,
+            "score_type": "contriever",
+            "text": " As Publication 17 says in Chapter 36, qualified persons must File a tax return, even if you: (a) Do not owe any tax, (b) Did not earn enough money to file a return, or (c) Did not have income taxes withheld from your pay. in order to claim the credit. In short, read Publication 17 for yourself, and decide whether you are required to file an income tax return, and if you are not, whether it is worth your while to file the tax return anyway. Note to readers preparing to down-vote: this answer is prolix and says things that are far too \"\"well-known to everybody\"\" (and especially to you), but please remember that they might not be quite so well-known to the OP.\"",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "441197-0-251",
+            "score": null,
+            "score_type": "contriever",
+            "text": " You need to file foreign qualification in any State you have physical presence in (warehouses, offices, etc). Including the State from which you personally operate (if it is not Nevada). You don't need to register in States to which you ship products.",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "The SEC requires companies to file annual and quarterly reports, as well as other forms, with the EDGAR database.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "11654-0-563",
+          "score": null,
+          "score_type": "contriever",
+          "text": " \"You will need to file  a US income tax return, and declare all income world-wide.  Whether this results in any tax owed depends on your particular circumstances, and the effect of any tax treaties between the US and India. There are additional requirements for the filing of information on the amounts in foreign accounts held by \"\"US tax persons\"\".  Depending on the nature of these accounts, the complexity of the forms, and the penalties for non-compliance can be quite high... Short version:  Consult a professional well-qualified in US/India tax matters...\"",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "349181-0-172",
+          "score": null,
+          "score_type": "contriever",
+          "text": " The most important filings are: Form 10-K, which is the annual report required by the U.S. Securities and Exchange Commission (SEC) and Form 10-Q, for the interim quarters.",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "242027-0-121",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Yes, I'd say you do. This is similar to reporting a brokerage account. Also, don't forget the requirements for form 8938.",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "413438-1605-2271",
+          "score": null,
+          "score_type": "contriever",
+          "text": " As Publication 17 says in Chapter 36, qualified persons must File a tax return, even if you: (a) Do not owe any tax, (b) Did not earn enough money to file a return, or (c) Did not have income taxes withheld from your pay. in order to claim the credit. In short, read Publication 17 for yourself, and decide whether you are required to file an income tax return, and if you are not, whether it is worth your while to file the tax return anyway. Note to readers preparing to down-vote: this answer is prolix and says things that are far too \"\"well-known to everybody\"\" (and especially to you), but please remember that they might not be quite so well-known to the OP.\"",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "441197-0-251",
+          "score": null,
+          "score_type": "contriever",
+          "text": " You need to file foreign qualification in any State you have physical presence in (warehouses, offices, etc). Including the State from which you personally operate (if it is not Nevada). You don't need to register in States to which you ship products.",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "There are many different kinds of SEC filings with different purposes.  Prior to going public, a company has to file financial documents with the SEC. These filings are available to the public at www.sec.gov on the Edgar database. There are various types of filings, some specific to publicly traded companies and others applicable to registered corporations in general. You can find more information on different types of filings at http://reportstream.io/explore/has-form.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Summarization"
+        ],
+        "multi_turn": [
+          "Clarification"
+        ]
+      }
+    },
+    {
+      "turn_id": "5",
+      "task_id": "af5e45e59e1254e0b7869cb477674d02<::>5",
+      "question": "Is there one that is more important than the others?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "what system does the sec require companies to use when preparing financial statements"
+        },
+        {
+          "role": "assistant",
+          "content": "I have no specific information about the system required by the SEC for preparing financial statements."
+        },
+        {
+          "role": "user",
+          "content": "Do US-based companies need to comply with SEC regulations?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, US-based companies are obligated to adhere to the regulations mandated by the US government, which are supervised by the Securities and Exchange Commission (SEC). The SEC's EDGAR system contains all the necessary reports. Both foreign and domestic companies must electronically submit registration statements, periodic reports, and other forms to the SEC's EDGAR database. \n"
+        },
+        {
+          "role": "user",
+          "content": "What are the requirements? "
+        },
+        {
+          "role": "assistant",
+          "content": "The SEC defines an accredited investor as a variety of entities, including financial institutions, employee benefit plans with over $5 million in assets, certain charitable organizations, and individuals meeting specific income or net worth thresholds. There are no citizenship or residency requirements to qualify.\nIf a company has more than 500 shareholders, it must register with the SEC as an Investment Company. This registration brings about public reporting and additional regulatory compliance. This often leads to the practical necessity of going public with an IPO, even if it's not a legal requirement."
+        },
+        {
+          "role": "user",
+          "content": "What is the filing requirement for them?"
+        },
+        {
+          "role": "assistant",
+          "content": "There are many different kinds of SEC filings with different purposes.  Prior to going public, a company has to file financial documents with the SEC. These filings are available to the public at www.sec.gov on the Edgar database. There are various types of filings, some specific to publicly traded companies and others applicable to registered corporations in general. You can find more information on different types of filings at http://reportstream.io/explore/has-form."
+        }
+      ],
+      "retrieval": {
+        "query": "Is there one that is more important than the others?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "126096-0-49",
+            "score": null,
+            "score_type": "contriever",
+            "text": " I think there are three important considerations:",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "520894-0-334",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Why is one person more succesfull than another?  At the end of the day I think it simply comes down to personal choices, some people will choose to invest their time in profitable indevours and some will not.   This of course assumes people have a reasonable access to a mean of improvement (free education, vocational training, etc.)",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "77771-0-482",
+            "score": null,
+            "score_type": "contriever",
+            "text": " There's no downplaying the importance of something as simple as that.  But I think that Future covers it:  &gt; Employees care about your business… but only when you prove you care about them first.  Managers have the most immediate influence over the comfort of their employees while on the job. Comfortable office furniture, equipment that doesn't suck, amenities to make being at work more of a pleasure - all means of showing employees they're treated as valuable professionals.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "45187-0-298",
+            "score": null,
+            "score_type": "contriever",
+            "text": " So is that a yes or 'yes', I'm confused by the quotes.   There are very real differences among races. Why are they important? Because one race has found themselves to develop third world impoverished nations while other races have thrived. I feel like that is well worth exploring both why and how.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "449554-0-966",
+            "score": null,
+            "score_type": "contriever",
+            "text": " &gt; ive read that consumer spending stimulates an economy more than investment somewhere  Investment is necessary for an economy to grow, as is consumer spending. Neither is more important. If you lack one of those, stimulating it will do more than stimulating the other.  It's like a racing team saying the driver is more important than the car. In situations where everyone's cars are as good as they'll get, improving the driver is more important. In situations where the quality of cars differs, improving the car becomes more important.  &gt;Also, youhave the theory that decreasing the income gap helps society in many other ways  There is strong speculation that that is the case. However, it's _100% fact_ that increasing everyone's wealth helps society much more. It's why you'd rather live today than in any more egalitarian point in our past. If tinkering with income inequality gets in the way of overall wealth creation, it will do more harm than good.",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "126096-0-49",
+            "score": null,
+            "score_type": "contriever",
+            "text": " I think there are three important considerations:",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "520894-0-334",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Why is one person more succesfull than another?  At the end of the day I think it simply comes down to personal choices, some people will choose to invest their time in profitable indevours and some will not.   This of course assumes people have a reasonable access to a mean of improvement (free education, vocational training, etc.)",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "77771-0-482",
+            "score": null,
+            "score_type": "contriever",
+            "text": " There's no downplaying the importance of something as simple as that.  But I think that Future covers it:  &gt; Employees care about your business… but only when you prove you care about them first.  Managers have the most immediate influence over the comfort of their employees while on the job. Comfortable office furniture, equipment that doesn't suck, amenities to make being at work more of a pleasure - all means of showing employees they're treated as valuable professionals.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "45187-0-298",
+            "score": null,
+            "score_type": "contriever",
+            "text": " So is that a yes or 'yes', I'm confused by the quotes.   There are very real differences among races. Why are they important? Because one race has found themselves to develop third world impoverished nations while other races have thrived. I feel like that is well worth exploring both why and how.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "449554-0-966",
+            "score": null,
+            "score_type": "contriever",
+            "text": " &gt; ive read that consumer spending stimulates an economy more than investment somewhere  Investment is necessary for an economy to grow, as is consumer spending. Neither is more important. If you lack one of those, stimulating it will do more than stimulating the other.  It's like a racing team saying the driver is more important than the car. In situations where everyone's cars are as good as they'll get, improving the driver is more important. In situations where the quality of cars differs, improving the car becomes more important.  &gt;Also, youhave the theory that decreasing the income gap helps society in many other ways  There is strong speculation that that is the case. However, it's _100% fact_ that increasing everyone's wealth helps society much more. It's why you'd rather live today than in any more egalitarian point in our past. If tinkering with income inequality gets in the way of overall wealth creation, it will do more harm than good.",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Assistant: The SEC defines an accredited investor as a variety of entities, including financial institutions, employee benefit plans with over $5 million in assets, certain charitable organizations, and individuals meeting specific income or net worth thresholds.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "126096-0-49",
+          "score": null,
+          "score_type": "contriever",
+          "text": " I think there are three important considerations:",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "520894-0-334",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Why is one person more succesfull than another?  At the end of the day I think it simply comes down to personal choices, some people will choose to invest their time in profitable indevours and some will not.   This of course assumes people have a reasonable access to a mean of improvement (free education, vocational training, etc.)",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "77771-0-482",
+          "score": null,
+          "score_type": "contriever",
+          "text": " There's no downplaying the importance of something as simple as that.  But I think that Future covers it:  &gt; Employees care about your business… but only when you prove you care about them first.  Managers have the most immediate influence over the comfort of their employees while on the job. Comfortable office furniture, equipment that doesn't suck, amenities to make being at work more of a pleasure - all means of showing employees they're treated as valuable professionals.",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "45187-0-298",
+          "score": null,
+          "score_type": "contriever",
+          "text": " So is that a yes or 'yes', I'm confused by the quotes.   There are very real differences among races. Why are they important? Because one race has found themselves to develop third world impoverished nations while other races have thrived. I feel like that is well worth exploring both why and how.",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "449554-0-966",
+          "score": null,
+          "score_type": "contriever",
+          "text": " &gt; ive read that consumer spending stimulates an economy more than investment somewhere  Investment is necessary for an economy to grow, as is consumer spending. Neither is more important. If you lack one of those, stimulating it will do more than stimulating the other.  It's like a racing team saying the driver is more important than the car. In situations where everyone's cars are as good as they'll get, improving the driver is more important. In situations where the quality of cars differs, improving the car becomes more important.  &gt;Also, youhave the theory that decreasing the income gap helps society in many other ways  There is strong speculation that that is the case. However, it's _100% fact_ that increasing everyone's wealth helps society much more. It's why you'd rather live today than in any more egalitarian point in our past. If tinkering with income inequality gets in the way of overall wealth creation, it will do more harm than good.",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "Yes. Some SEC filings are more important than others. The most crucial filings include Form 10-K, which is the annual report required by the U.S. Securities and Exchange Commission (SEC), and Form 10-Q for the interim quarters. One of the most commonly discussed filings is the 10-K, which, as Wikipedia describes, is \"a comprehensive summary of a company's financial performance\". This includes information such as earnings and executive pay. A form that some people believe has potential utility for investors is Form 4, which discloses \"insider trading\". People with a privileged stake in a company, such as executives, directors, and major shareholders, cannot legally buy or sell shares without disclosing it by filing a Form 4.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Comparative"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "6",
+      "task_id": "af5e45e59e1254e0b7869cb477674d02<::>6",
+      "question": "I believe it is the 13F",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "what system does the sec require companies to use when preparing financial statements"
+        },
+        {
+          "role": "assistant",
+          "content": "I have no specific information about the system required by the SEC for preparing financial statements."
+        },
+        {
+          "role": "user",
+          "content": "Do US-based companies need to comply with SEC regulations?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, US-based companies are obligated to adhere to the regulations mandated by the US government, which are supervised by the Securities and Exchange Commission (SEC). The SEC's EDGAR system contains all the necessary reports. Both foreign and domestic companies must electronically submit registration statements, periodic reports, and other forms to the SEC's EDGAR database. \n"
+        },
+        {
+          "role": "user",
+          "content": "What are the requirements? "
+        },
+        {
+          "role": "assistant",
+          "content": "The SEC defines an accredited investor as a variety of entities, including financial institutions, employee benefit plans with over $5 million in assets, certain charitable organizations, and individuals meeting specific income or net worth thresholds. There are no citizenship or residency requirements to qualify.\nIf a company has more than 500 shareholders, it must register with the SEC as an Investment Company. This registration brings about public reporting and additional regulatory compliance. This often leads to the practical necessity of going public with an IPO, even if it's not a legal requirement."
+        },
+        {
+          "role": "user",
+          "content": "What is the filing requirement for them?"
+        },
+        {
+          "role": "assistant",
+          "content": "There are many different kinds of SEC filings with different purposes.  Prior to going public, a company has to file financial documents with the SEC. These filings are available to the public at www.sec.gov on the Edgar database. There are various types of filings, some specific to publicly traded companies and others applicable to registered corporations in general. You can find more information on different types of filings at http://reportstream.io/explore/has-form."
+        },
+        {
+          "role": "user",
+          "content": "Is there one that is more important than the others?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes. Some SEC filings are more important than others. The most crucial filings include Form 10-K, which is the annual report required by the U.S. Securities and Exchange Commission (SEC), and Form 10-Q for the interim quarters. One of the most commonly discussed filings is the 10-K, which, as Wikipedia describes, is \"a comprehensive summary of a company's financial performance\". This includes information such as earnings and executive pay. A form that some people believe has potential utility for investors is Form 4, which discloses \"insider trading\". People with a privileged stake in a company, such as executives, directors, and major shareholders, cannot legally buy or sell shares without disclosing it by filing a Form 4."
+        }
+      ],
+      "retrieval": {
+        "query": "I believe it is the 13F",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "242243-0-485",
+            "score": null,
+            "score_type": "contriever",
+            "text": " I feel sort of conflicted here... literally every pair of shoes I own is a size 13, and they all fit perfectly.  Every pair of shoes I've owned for the past 15 years has been a size 13... I've seen nothing but consistency in this.  Is there a difference perhaps in womens sizing, or what gives?  My own life experiences just dont match what you're saying at all :/  At least as far as length goes... maybe everyones just varying levels of fat and its a width issue for them ¯\\\\\\_(ツ)_/¯",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "568868-0-324",
+            "score": null,
+            "score_type": "contriever",
+            "text": " I have a weird size. It's somewhere between 11 add 12. To add to that I have wide feet (No Puma for me). So, I never know what size will fit me - 11, 11.5, 12 or their wide variant. 12 W is generally too big and 11 D too tight, but anything in between is a possibility. It could also be that I'm very finicky with shoe size.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "429681-0-367",
+            "score": null,
+            "score_type": "contriever",
+            "text": " I'm not sure what you are trying to say. I just saw the following statement in your reply which is inaccurate:  &gt;Bjartr mentioned the heat index being 102°F. This would mean you'd have to get your skin temp higher than 102°F which would mean your core temp is even higher (dangerously high).  Not sure if you momentarily confused heat index with dew point or what.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "369424-0-676",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"The official source is the most recent Form 13F that Berkshire Hathaway, which is  filed with the Securities & Exchange Commission on a quarterly basis .  You can find it through the SEC filing search engine, using BRKA as the ticker symbol. and then looking for the filings marked 13-FR or 13-FR/A (the \"\"/A\"\" indicates an amended filing).   As you can see by looking at the 13-F filed for the quarter ending September 30  , the document isn't pretty or necessarily easy to read, hence the popularity of sites such as those that Chad linked to. It is, though, the truly official source from which websites tracking the Berkshire Hathaway portfolio derive their information.\"",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "479200-0-22",
+            "score": null,
+            "score_type": "contriever",
+            "text": " I believe the reasons:",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "242243-0-485",
+            "score": null,
+            "score_type": "contriever",
+            "text": " I feel sort of conflicted here... literally every pair of shoes I own is a size 13, and they all fit perfectly.  Every pair of shoes I've owned for the past 15 years has been a size 13... I've seen nothing but consistency in this.  Is there a difference perhaps in womens sizing, or what gives?  My own life experiences just dont match what you're saying at all :/  At least as far as length goes... maybe everyones just varying levels of fat and its a width issue for them ¯\\\\\\_(ツ)_/¯",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "568868-0-324",
+            "score": null,
+            "score_type": "contriever",
+            "text": " I have a weird size. It's somewhere between 11 add 12. To add to that I have wide feet (No Puma for me). So, I never know what size will fit me - 11, 11.5, 12 or their wide variant. 12 W is generally too big and 11 D too tight, but anything in between is a possibility. It could also be that I'm very finicky with shoe size.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "429681-0-367",
+            "score": null,
+            "score_type": "contriever",
+            "text": " I'm not sure what you are trying to say. I just saw the following statement in your reply which is inaccurate:  &gt;Bjartr mentioned the heat index being 102°F. This would mean you'd have to get your skin temp higher than 102°F which would mean your core temp is even higher (dangerously high).  Not sure if you momentarily confused heat index with dew point or what.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "369424-0-676",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"The official source is the most recent Form 13F that Berkshire Hathaway, which is  filed with the Securities & Exchange Commission on a quarterly basis .  You can find it through the SEC filing search engine, using BRKA as the ticker symbol. and then looking for the filings marked 13-FR or 13-FR/A (the \"\"/A\"\" indicates an amended filing).   As you can see by looking at the 13-F filed for the quarter ending September 30  , the document isn't pretty or necessarily easy to read, hence the popularity of sites such as those that Chad linked to. It is, though, the truly official source from which websites tracking the Berkshire Hathaway portfolio derive their information.\"",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "479200-0-22",
+            "score": null,
+            "score_type": "contriever",
+            "text": " I believe the reasons:",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Assistant: The 13F is a quarterly filing that is required by investment managers with more than $100 million in assets under management.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "242243-0-485",
+          "score": null,
+          "score_type": "contriever",
+          "text": " I feel sort of conflicted here... literally every pair of shoes I own is a size 13, and they all fit perfectly.  Every pair of shoes I've owned for the past 15 years has been a size 13... I've seen nothing but consistency in this.  Is there a difference perhaps in womens sizing, or what gives?  My own life experiences just dont match what you're saying at all :/  At least as far as length goes... maybe everyones just varying levels of fat and its a width issue for them ¯\\\\\\_(ツ)_/¯",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "568868-0-324",
+          "score": null,
+          "score_type": "contriever",
+          "text": " I have a weird size. It's somewhere between 11 add 12. To add to that I have wide feet (No Puma for me). So, I never know what size will fit me - 11, 11.5, 12 or their wide variant. 12 W is generally too big and 11 D too tight, but anything in between is a possibility. It could also be that I'm very finicky with shoe size.",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "429681-0-367",
+          "score": null,
+          "score_type": "contriever",
+          "text": " I'm not sure what you are trying to say. I just saw the following statement in your reply which is inaccurate:  &gt;Bjartr mentioned the heat index being 102°F. This would mean you'd have to get your skin temp higher than 102°F which would mean your core temp is even higher (dangerously high).  Not sure if you momentarily confused heat index with dew point or what.",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "369424-0-676",
+          "score": null,
+          "score_type": "contriever",
+          "text": " \"The official source is the most recent Form 13F that Berkshire Hathaway, which is  filed with the Securities & Exchange Commission on a quarterly basis .  You can find it through the SEC filing search engine, using BRKA as the ticker symbol. and then looking for the filings marked 13-FR or 13-FR/A (the \"\"/A\"\" indicates an amended filing).   As you can see by looking at the 13-F filed for the quarter ending September 30  , the document isn't pretty or necessarily easy to read, hence the popularity of sites such as those that Chad linked to. It is, though, the truly official source from which websites tracking the Berkshire Hathaway portfolio derive their information.\"",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "479200-0-22",
+          "score": null,
+          "score_type": "contriever",
+          "text": " I believe the reasons:",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "No. The most important filings are Form 10-K, the annual report, and Form 10-Q for the interim quarters. Ownership is reported on Form 3/4 and in 10-Q/Ks. Non-individual legal entities such as companies (for example, a hedge fund) must disclose any ownership exceeding 10% by filing Form 13-F.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Non-Question",
+          "Opinion"
+        ],
+        "multi_turn": [
+          "Clarification"
+        ]
+      }
+    },
+    {
+      "turn_id": "7",
+      "task_id": "af5e45e59e1254e0b7869cb477674d02<::>7",
+      "question": "What is considered a violation?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "what system does the sec require companies to use when preparing financial statements"
+        },
+        {
+          "role": "assistant",
+          "content": "I have no specific information about the system required by the SEC for preparing financial statements."
+        },
+        {
+          "role": "user",
+          "content": "Do US-based companies need to comply with SEC regulations?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, US-based companies are obligated to adhere to the regulations mandated by the US government, which are supervised by the Securities and Exchange Commission (SEC). The SEC's EDGAR system contains all the necessary reports. Both foreign and domestic companies must electronically submit registration statements, periodic reports, and other forms to the SEC's EDGAR database. \n"
+        },
+        {
+          "role": "user",
+          "content": "What are the requirements? "
+        },
+        {
+          "role": "assistant",
+          "content": "The SEC defines an accredited investor as a variety of entities, including financial institutions, employee benefit plans with over $5 million in assets, certain charitable organizations, and individuals meeting specific income or net worth thresholds. There are no citizenship or residency requirements to qualify.\nIf a company has more than 500 shareholders, it must register with the SEC as an Investment Company. This registration brings about public reporting and additional regulatory compliance. This often leads to the practical necessity of going public with an IPO, even if it's not a legal requirement."
+        },
+        {
+          "role": "user",
+          "content": "What is the filing requirement for them?"
+        },
+        {
+          "role": "assistant",
+          "content": "There are many different kinds of SEC filings with different purposes.  Prior to going public, a company has to file financial documents with the SEC. These filings are available to the public at www.sec.gov on the Edgar database. There are various types of filings, some specific to publicly traded companies and others applicable to registered corporations in general. You can find more information on different types of filings at http://reportstream.io/explore/has-form."
+        },
+        {
+          "role": "user",
+          "content": "Is there one that is more important than the others?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes. Some SEC filings are more important than others. The most crucial filings include Form 10-K, which is the annual report required by the U.S. Securities and Exchange Commission (SEC), and Form 10-Q for the interim quarters. One of the most commonly discussed filings is the 10-K, which, as Wikipedia describes, is \"a comprehensive summary of a company's financial performance\". This includes information such as earnings and executive pay. A form that some people believe has potential utility for investors is Form 4, which discloses \"insider trading\". People with a privileged stake in a company, such as executives, directors, and major shareholders, cannot legally buy or sell shares without disclosing it by filing a Form 4."
+        },
+        {
+          "role": "user",
+          "content": "I believe it is the 13F"
+        },
+        {
+          "role": "assistant",
+          "content": "No. The most important filings are Form 10-K, the annual report, and Form 10-Q for the interim quarters. Ownership is reported on Form 3/4 and in 10-Q/Ks. Non-individual legal entities such as companies (for example, a hedge fund) must disclose any ownership exceeding 10% by filing Form 13-F."
+        }
+      ],
+      "retrieval": {
+        "query": "What is considered a violation?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "210292-0-603",
+            "score": null,
+            "score_type": "contriever",
+            "text": " To get the company to change their behavior for future people?  To help foster an environment in which companies in general won't behave like this?  Presumably also to compensate the guy for not getting the job when he should have been qualified to get it had they not acted illegally?  From another direction... what's the point of making something illegal is there is no enforcement?  Why would anyone sue a company for not hiring black people if they that was just going to lead to a hostile work environment?  Because it is meant to change things, not perfectly resolve that one particular incident.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "146409-0-252",
+            "score": null,
+            "score_type": "contriever",
+            "text": " How did they violate the law if he hasn't been declared legally incompetent? I'm not saying they didn't I just don't personally know and I'm sure if she can state exactly HOW it was illegal to the dealership they would be more likely to just refund it.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "147092-0-385",
+            "score": null,
+            "score_type": "contriever",
+            "text": " All the comments seem to accept the slap on the wrist and move along. The law obviously exists for a reason. If we are allowing it, then why the law? What makes them exempt?   First few times, get fined. Anything after,  LARGE fines (6+ figures). If you do it again, obviously you don't know how to follow the rules. Lose your license.    Honestly, why condone this and other behavior?",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "266062-0-683",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"Why would you ask \"\"is the money yours\"\", when you know it isn't?   When we were young children we were told \"\"two wrongs don't make a right\"\". As an adult we know that breaking the law \"\"to get back at\"\" someone we perceive as breaking the law is illegal.  In sports and in real life, the retaliator often receives a worse punishment than the initial rule violator.   In the case mentioned, the second part of the \"\"scam\"\" would proceed if you participated or not.  The person would go to their bank and indicate a mistaken deposit and have such refunded to their account.  By the correct amount yours would be debited.  Woe to the person that spent this money prior to the debit.\"",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "547333-1396-3433",
+            "score": null,
+            "score_type": "contriever",
+            "text": " &gt; &gt; &gt; By choosing to occupy the territory ruled by your state, despite being fully informed about the implications of doing so, and having been made informed well before you had an obligation to start paying. &gt; &gt; That's not an agreement. &gt; Let's say I walk into a shop, say \"\"I'll have a medium coke please,\"\" they hand me one, I walk out of the building. Am I stealing? Well, I didn't specifically agree to pay for it, did I? But that argument wouldn't hold much weight in an actual legal dispute, because obviously I understand that when you ask for an item in a shop you're implicitly agreeing to pay for it at some point. &gt; &gt; But what about some less \"\"obvious\"\" cases? If a shopowner put a small sign near the entryway that said \"\"entry fee ten dollars, entering the store constitutes agreement to pay,\"\" you could reasonably argue this is invalid because you walked into the store without noticing the sign and the practice is quite unusual. But if instead of a shop it were a theater performance you walked into, maybe that argument wouldn't hold up, because you should be expected to understand there's an entry fee at a theater. And maybe if you were from a country that doesn't have theaters and you were thus genuinely unaware of this particular social custom they would make an exception and you'd get away with it. This is the kind of problem a judicial system exists for, to take social context into account. &gt; &gt; The point is, whether something constitutes agreement or not, and thus what are the legal repercussions to your actions, is a matter of opinion, and in this case I don't see any particular reason to think that your opinion about the government ought to overrule that of the rest of society. Your actions are interpreted as indicating consent for the system you're acting in, and this being so if you took the government to court on the charge that it's stealing from you you would obviously lose. So how is it an argument to just say \"\"but that's not an agreement in my opinion\"\"?",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "210292-0-603",
+            "score": null,
+            "score_type": "contriever",
+            "text": " To get the company to change their behavior for future people?  To help foster an environment in which companies in general won't behave like this?  Presumably also to compensate the guy for not getting the job when he should have been qualified to get it had they not acted illegally?  From another direction... what's the point of making something illegal is there is no enforcement?  Why would anyone sue a company for not hiring black people if they that was just going to lead to a hostile work environment?  Because it is meant to change things, not perfectly resolve that one particular incident.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "146409-0-252",
+            "score": null,
+            "score_type": "contriever",
+            "text": " How did they violate the law if he hasn't been declared legally incompetent? I'm not saying they didn't I just don't personally know and I'm sure if she can state exactly HOW it was illegal to the dealership they would be more likely to just refund it.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "147092-0-385",
+            "score": null,
+            "score_type": "contriever",
+            "text": " All the comments seem to accept the slap on the wrist and move along. The law obviously exists for a reason. If we are allowing it, then why the law? What makes them exempt?   First few times, get fined. Anything after,  LARGE fines (6+ figures). If you do it again, obviously you don't know how to follow the rules. Lose your license.    Honestly, why condone this and other behavior?",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "266062-0-683",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"Why would you ask \"\"is the money yours\"\", when you know it isn't?   When we were young children we were told \"\"two wrongs don't make a right\"\". As an adult we know that breaking the law \"\"to get back at\"\" someone we perceive as breaking the law is illegal.  In sports and in real life, the retaliator often receives a worse punishment than the initial rule violator.   In the case mentioned, the second part of the \"\"scam\"\" would proceed if you participated or not.  The person would go to their bank and indicate a mistaken deposit and have such refunded to their account.  By the correct amount yours would be debited.  Woe to the person that spent this money prior to the debit.\"",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "547333-1396-3433",
+            "score": null,
+            "score_type": "contriever",
+            "text": " &gt; &gt; &gt; By choosing to occupy the territory ruled by your state, despite being fully informed about the implications of doing so, and having been made informed well before you had an obligation to start paying. &gt; &gt; That's not an agreement. &gt; Let's say I walk into a shop, say \"\"I'll have a medium coke please,\"\" they hand me one, I walk out of the building. Am I stealing? Well, I didn't specifically agree to pay for it, did I? But that argument wouldn't hold much weight in an actual legal dispute, because obviously I understand that when you ask for an item in a shop you're implicitly agreeing to pay for it at some point. &gt; &gt; But what about some less \"\"obvious\"\" cases? If a shopowner put a small sign near the entryway that said \"\"entry fee ten dollars, entering the store constitutes agreement to pay,\"\" you could reasonably argue this is invalid because you walked into the store without noticing the sign and the practice is quite unusual. But if instead of a shop it were a theater performance you walked into, maybe that argument wouldn't hold up, because you should be expected to understand there's an entry fee at a theater. And maybe if you were from a country that doesn't have theaters and you were thus genuinely unaware of this particular social custom they would make an exception and you'd get away with it. This is the kind of problem a judicial system exists for, to take social context into account. &gt; &gt; The point is, whether something constitutes agreement or not, and thus what are the legal repercussions to your actions, is a matter of opinion, and in this case I don't see any particular reason to think that your opinion about the government ought to overrule that of the rest of society. Your actions are interpreted as indicating consent for the system you're acting in, and this being so if you took the government to court on the charge that it's stealing from you you would obviously lose. So how is it an argument to just say \"\"but that's not an agreement in my opinion\"\"?",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Assistant: A violation is a breach of a law, rule, or regulation.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "210292-0-603",
+          "score": null,
+          "score_type": "contriever",
+          "text": " To get the company to change their behavior for future people?  To help foster an environment in which companies in general won't behave like this?  Presumably also to compensate the guy for not getting the job when he should have been qualified to get it had they not acted illegally?  From another direction... what's the point of making something illegal is there is no enforcement?  Why would anyone sue a company for not hiring black people if they that was just going to lead to a hostile work environment?  Because it is meant to change things, not perfectly resolve that one particular incident.",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "146409-0-252",
+          "score": null,
+          "score_type": "contriever",
+          "text": " How did they violate the law if he hasn't been declared legally incompetent? I'm not saying they didn't I just don't personally know and I'm sure if she can state exactly HOW it was illegal to the dealership they would be more likely to just refund it.",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "147092-0-385",
+          "score": null,
+          "score_type": "contriever",
+          "text": " All the comments seem to accept the slap on the wrist and move along. The law obviously exists for a reason. If we are allowing it, then why the law? What makes them exempt?   First few times, get fined. Anything after,  LARGE fines (6+ figures). If you do it again, obviously you don't know how to follow the rules. Lose your license.    Honestly, why condone this and other behavior?",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "266062-0-683",
+          "score": null,
+          "score_type": "contriever",
+          "text": " \"Why would you ask \"\"is the money yours\"\", when you know it isn't?   When we were young children we were told \"\"two wrongs don't make a right\"\". As an adult we know that breaking the law \"\"to get back at\"\" someone we perceive as breaking the law is illegal.  In sports and in real life, the retaliator often receives a worse punishment than the initial rule violator.   In the case mentioned, the second part of the \"\"scam\"\" would proceed if you participated or not.  The person would go to their bank and indicate a mistaken deposit and have such refunded to their account.  By the correct amount yours would be debited.  Woe to the person that spent this money prior to the debit.\"",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "547333-1396-3433",
+          "score": null,
+          "score_type": "contriever",
+          "text": " &gt; &gt; &gt; By choosing to occupy the territory ruled by your state, despite being fully informed about the implications of doing so, and having been made informed well before you had an obligation to start paying. &gt; &gt; That's not an agreement. &gt; Let's say I walk into a shop, say \"\"I'll have a medium coke please,\"\" they hand me one, I walk out of the building. Am I stealing? Well, I didn't specifically agree to pay for it, did I? But that argument wouldn't hold much weight in an actual legal dispute, because obviously I understand that when you ask for an item in a shop you're implicitly agreeing to pay for it at some point. &gt; &gt; But what about some less \"\"obvious\"\" cases? If a shopowner put a small sign near the entryway that said \"\"entry fee ten dollars, entering the store constitutes agreement to pay,\"\" you could reasonably argue this is invalid because you walked into the store without noticing the sign and the practice is quite unusual. But if instead of a shop it were a theater performance you walked into, maybe that argument wouldn't hold up, because you should be expected to understand there's an entry fee at a theater. And maybe if you were from a country that doesn't have theaters and you were thus genuinely unaware of this particular social custom they would make an exception and you'd get away with it. This is the kind of problem a judicial system exists for, to take social context into account. &gt; &gt; The point is, whether something constitutes agreement or not, and thus what are the legal repercussions to your actions, is a matter of opinion, and in this case I don't see any particular reason to think that your opinion about the government ought to overrule that of the rest of society. Your actions are interpreted as indicating consent for the system you're acting in, and this being so if you took the government to court on the charge that it's stealing from you you would obviously lose. So how is it an argument to just say \"\"but that's not an agreement in my opinion\"\"?",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "In the United States vs. O'Hagan case, the Supreme Court set a precedent for interpreting SEC Rule 10(b) by using the \"misappropriation theory.\" This theory states that misappropriating confidential information for securities trading purposes, in breach of a duty owed to the source of that information, requires disclosure or abstention. From a legal perspective, the rules are anything but clear outside of company insiders. However, your own admission is consistent with what anyone in the securities industry knows is true - if you trade on material non-public information, you risk being charged. It's possible to commit normal fraud all day long, and the SEC won't lift a finger, but as soon as you get within a hundred miles of an insider trading deal, they'll come down on you like a ton of bricks. It's an easy case to prove; there is no question about its illegality (even the janitor is expected to take a class on it), and the SEC was specifically set up to stop it after the Great Depression.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Explanation"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "8",
+      "task_id": "af5e45e59e1254e0b7869cb477674d02<::>8",
+      "question": "International equity. ",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "what system does the sec require companies to use when preparing financial statements"
+        },
+        {
+          "role": "assistant",
+          "content": "I have no specific information about the system required by the SEC for preparing financial statements."
+        },
+        {
+          "role": "user",
+          "content": "Do US-based companies need to comply with SEC regulations?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, US-based companies are obligated to adhere to the regulations mandated by the US government, which are supervised by the Securities and Exchange Commission (SEC). The SEC's EDGAR system contains all the necessary reports. Both foreign and domestic companies must electronically submit registration statements, periodic reports, and other forms to the SEC's EDGAR database. \n"
+        },
+        {
+          "role": "user",
+          "content": "What are the requirements? "
+        },
+        {
+          "role": "assistant",
+          "content": "The SEC defines an accredited investor as a variety of entities, including financial institutions, employee benefit plans with over $5 million in assets, certain charitable organizations, and individuals meeting specific income or net worth thresholds. There are no citizenship or residency requirements to qualify.\nIf a company has more than 500 shareholders, it must register with the SEC as an Investment Company. This registration brings about public reporting and additional regulatory compliance. This often leads to the practical necessity of going public with an IPO, even if it's not a legal requirement."
+        },
+        {
+          "role": "user",
+          "content": "What is the filing requirement for them?"
+        },
+        {
+          "role": "assistant",
+          "content": "There are many different kinds of SEC filings with different purposes.  Prior to going public, a company has to file financial documents with the SEC. These filings are available to the public at www.sec.gov on the Edgar database. There are various types of filings, some specific to publicly traded companies and others applicable to registered corporations in general. You can find more information on different types of filings at http://reportstream.io/explore/has-form."
+        },
+        {
+          "role": "user",
+          "content": "Is there one that is more important than the others?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes. Some SEC filings are more important than others. The most crucial filings include Form 10-K, which is the annual report required by the U.S. Securities and Exchange Commission (SEC), and Form 10-Q for the interim quarters. One of the most commonly discussed filings is the 10-K, which, as Wikipedia describes, is \"a comprehensive summary of a company's financial performance\". This includes information such as earnings and executive pay. A form that some people believe has potential utility for investors is Form 4, which discloses \"insider trading\". People with a privileged stake in a company, such as executives, directors, and major shareholders, cannot legally buy or sell shares without disclosing it by filing a Form 4."
+        },
+        {
+          "role": "user",
+          "content": "I believe it is the 13F"
+        },
+        {
+          "role": "assistant",
+          "content": "No. The most important filings are Form 10-K, the annual report, and Form 10-Q for the interim quarters. Ownership is reported on Form 3/4 and in 10-Q/Ks. Non-individual legal entities such as companies (for example, a hedge fund) must disclose any ownership exceeding 10% by filing Form 13-F."
+        },
+        {
+          "role": "user",
+          "content": "What is considered a violation?"
+        },
+        {
+          "role": "assistant",
+          "content": "In the United States vs. O'Hagan case, the Supreme Court set a precedent for interpreting SEC Rule 10(b) by using the \"misappropriation theory.\" This theory states that misappropriating confidential information for securities trading purposes, in breach of a duty owed to the source of that information, requires disclosure or abstention. From a legal perspective, the rules are anything but clear outside of company insiders. However, your own admission is consistent with what anyone in the securities industry knows is true - if you trade on material non-public information, you risk being charged. It's possible to commit normal fraud all day long, and the SEC won't lift a finger, but as soon as you get within a hundred miles of an insider trading deal, they'll come down on you like a ton of bricks. It's an easy case to prove; there is no question about its illegality (even the janitor is expected to take a class on it), and the SEC was specifically set up to stop it after the Great Depression."
+        }
+      ],
+      "retrieval": {
+        "query": "International equity. ",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "175389-0-373",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Assuming you're in the United States, then International Equity is an equity from a different country.  These stocks or stock funds (which reside in a foreign country) are broken out seperately becuase they are typically influenced by a different set of factors than equities in the United States: foreign currency swings, regional events and politics of various countries.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "589507-0-307",
+            "score": null,
+            "score_type": "contriever",
+            "text": " International equity are considered shares of companies, which are headquartered outside the United States, for instance Research in Motion (Canada), BMW (Germany), UBS (Switzerland). Some investors argue that adding international equities to a portfolio can reduce its risk due to regional diversification.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "599293-0-218",
+            "score": null,
+            "score_type": "contriever",
+            "text": " International means from all over the world. In the U.S. A Foreign Equity fund would be non-US stocks.  There's an odd third choice I'm aware of, a fund of US companies that derive their sales from overseas, primarily.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "70185-0-752",
+            "score": null,
+            "score_type": "contriever",
+            "text": " I found a possible data source. It offers fundamentals i.e. the accounting ratios you listed (P/E, dividend yield, price/book) for international stock indexes. International equity indices based on EAFE definitions are  maintained by Professor French of French-Fama fame, at Dartmouth's Tuck Business School website. Specifics of methodology, and countries covered is available here. MSCI is the data source. Historical time interval for most countries is from 1975 onward. (Singapore was one of the countries included). Obtaining historical ratios for international stock indices is not easily found for free. Your question didn't specify free though. If that is not a constraint, you may wish to check the MSCI Barra international stock indices also.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "386173-0-542",
+            "score": null,
+            "score_type": "contriever",
+            "text": " It isn't just ETFs, you have normal mutual funds in India which invest internationally. This could be convenient if you don't already have a depository account and a stockbroker.  Here's a list of such funds, along with some performance data: Value Research - Equity: International: Long-term Performance. However, you should also be aware that in India, domestic equity and equity fund investing is tax-free in the long-term (longer than one year), but this exemption doesn't apply to international investments. Ref: Invest Around the World.",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "175389-0-373",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Assuming you're in the United States, then International Equity is an equity from a different country.  These stocks or stock funds (which reside in a foreign country) are broken out seperately becuase they are typically influenced by a different set of factors than equities in the United States: foreign currency swings, regional events and politics of various countries.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "589507-0-307",
+            "score": null,
+            "score_type": "contriever",
+            "text": " International equity are considered shares of companies, which are headquartered outside the United States, for instance Research in Motion (Canada), BMW (Germany), UBS (Switzerland). Some investors argue that adding international equities to a portfolio can reduce its risk due to regional diversification.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "599293-0-218",
+            "score": null,
+            "score_type": "contriever",
+            "text": " International means from all over the world. In the U.S. A Foreign Equity fund would be non-US stocks.  There's an odd third choice I'm aware of, a fund of US companies that derive their sales from overseas, primarily.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "70185-0-752",
+            "score": null,
+            "score_type": "contriever",
+            "text": " I found a possible data source. It offers fundamentals i.e. the accounting ratios you listed (P/E, dividend yield, price/book) for international stock indexes. International equity indices based on EAFE definitions are  maintained by Professor French of French-Fama fame, at Dartmouth's Tuck Business School website. Specifics of methodology, and countries covered is available here. MSCI is the data source. Historical time interval for most countries is from 1975 onward. (Singapore was one of the countries included). Obtaining historical ratios for international stock indices is not easily found for free. Your question didn't specify free though. If that is not a constraint, you may wish to check the MSCI Barra international stock indices also.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "386173-0-542",
+            "score": null,
+            "score_type": "contriever",
+            "text": " It isn't just ETFs, you have normal mutual funds in India which invest internationally. This could be convenient if you don't already have a depository account and a stockbroker.  Here's a list of such funds, along with some performance data: Value Research - Equity: International: Long-term Performance. However, you should also be aware that in India, domestic equity and equity fund investing is tax-free in the long-term (longer than one year), but this exemption doesn't apply to international investments. Ref: Invest Around the World.",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "What are the risks of investing in international equity?",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "175389-0-373",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Assuming you're in the United States, then International Equity is an equity from a different country.  These stocks or stock funds (which reside in a foreign country) are broken out seperately becuase they are typically influenced by a different set of factors than equities in the United States: foreign currency swings, regional events and politics of various countries.",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "589507-0-307",
+          "score": null,
+          "score_type": "contriever",
+          "text": " International equity are considered shares of companies, which are headquartered outside the United States, for instance Research in Motion (Canada), BMW (Germany), UBS (Switzerland). Some investors argue that adding international equities to a portfolio can reduce its risk due to regional diversification.",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "599293-0-218",
+          "score": null,
+          "score_type": "contriever",
+          "text": " International means from all over the world. In the U.S. A Foreign Equity fund would be non-US stocks.  There's an odd third choice I'm aware of, a fund of US companies that derive their sales from overseas, primarily.",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "70185-0-752",
+          "score": null,
+          "score_type": "contriever",
+          "text": " I found a possible data source. It offers fundamentals i.e. the accounting ratios you listed (P/E, dividend yield, price/book) for international stock indexes. International equity indices based on EAFE definitions are  maintained by Professor French of French-Fama fame, at Dartmouth's Tuck Business School website. Specifics of methodology, and countries covered is available here. MSCI is the data source. Historical time interval for most countries is from 1975 onward. (Singapore was one of the countries included). Obtaining historical ratios for international stock indices is not easily found for free. Your question didn't specify free though. If that is not a constraint, you may wish to check the MSCI Barra international stock indices also.",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "386173-0-542",
+          "score": null,
+          "score_type": "contriever",
+          "text": " It isn't just ETFs, you have normal mutual funds in India which invest internationally. This could be convenient if you don't already have a depository account and a stockbroker.  Here's a list of such funds, along with some performance data: Value Research - Equity: International: Long-term Performance. However, you should also be aware that in India, domestic equity and equity fund investing is tax-free in the long-term (longer than one year), but this exemption doesn't apply to international investments. Ref: Invest Around the World.",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "International equity refers to shares of companies headquartered outside the United States. Stocks or stock funds in foreign countries are treated separately because they are usually affected by different factors compared to US equities. These factors include foreign currency fluctuations, regional events, and political situations in other countries.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Keyword"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "9",
+      "task_id": "af5e45e59e1254e0b7869cb477674d02<::>9",
+      "question": "What about securities?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "what system does the sec require companies to use when preparing financial statements"
+        },
+        {
+          "role": "assistant",
+          "content": "I have no specific information about the system required by the SEC for preparing financial statements."
+        },
+        {
+          "role": "user",
+          "content": "Do US-based companies need to comply with SEC regulations?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, US-based companies are obligated to adhere to the regulations mandated by the US government, which are supervised by the Securities and Exchange Commission (SEC). The SEC's EDGAR system contains all the necessary reports. Both foreign and domestic companies must electronically submit registration statements, periodic reports, and other forms to the SEC's EDGAR database. \n"
+        },
+        {
+          "role": "user",
+          "content": "What are the requirements? "
+        },
+        {
+          "role": "assistant",
+          "content": "The SEC defines an accredited investor as a variety of entities, including financial institutions, employee benefit plans with over $5 million in assets, certain charitable organizations, and individuals meeting specific income or net worth thresholds. There are no citizenship or residency requirements to qualify.\nIf a company has more than 500 shareholders, it must register with the SEC as an Investment Company. This registration brings about public reporting and additional regulatory compliance. This often leads to the practical necessity of going public with an IPO, even if it's not a legal requirement."
+        },
+        {
+          "role": "user",
+          "content": "What is the filing requirement for them?"
+        },
+        {
+          "role": "assistant",
+          "content": "There are many different kinds of SEC filings with different purposes.  Prior to going public, a company has to file financial documents with the SEC. These filings are available to the public at www.sec.gov on the Edgar database. There are various types of filings, some specific to publicly traded companies and others applicable to registered corporations in general. You can find more information on different types of filings at http://reportstream.io/explore/has-form."
+        },
+        {
+          "role": "user",
+          "content": "Is there one that is more important than the others?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes. Some SEC filings are more important than others. The most crucial filings include Form 10-K, which is the annual report required by the U.S. Securities and Exchange Commission (SEC), and Form 10-Q for the interim quarters. One of the most commonly discussed filings is the 10-K, which, as Wikipedia describes, is \"a comprehensive summary of a company's financial performance\". This includes information such as earnings and executive pay. A form that some people believe has potential utility for investors is Form 4, which discloses \"insider trading\". People with a privileged stake in a company, such as executives, directors, and major shareholders, cannot legally buy or sell shares without disclosing it by filing a Form 4."
+        },
+        {
+          "role": "user",
+          "content": "I believe it is the 13F"
+        },
+        {
+          "role": "assistant",
+          "content": "No. The most important filings are Form 10-K, the annual report, and Form 10-Q for the interim quarters. Ownership is reported on Form 3/4 and in 10-Q/Ks. Non-individual legal entities such as companies (for example, a hedge fund) must disclose any ownership exceeding 10% by filing Form 13-F."
+        },
+        {
+          "role": "user",
+          "content": "What is considered a violation?"
+        },
+        {
+          "role": "assistant",
+          "content": "In the United States vs. O'Hagan case, the Supreme Court set a precedent for interpreting SEC Rule 10(b) by using the \"misappropriation theory.\" This theory states that misappropriating confidential information for securities trading purposes, in breach of a duty owed to the source of that information, requires disclosure or abstention. From a legal perspective, the rules are anything but clear outside of company insiders. However, your own admission is consistent with what anyone in the securities industry knows is true - if you trade on material non-public information, you risk being charged. It's possible to commit normal fraud all day long, and the SEC won't lift a finger, but as soon as you get within a hundred miles of an insider trading deal, they'll come down on you like a ton of bricks. It's an easy case to prove; there is no question about its illegality (even the janitor is expected to take a class on it), and the SEC was specifically set up to stop it after the Great Depression."
+        },
+        {
+          "role": "user",
+          "content": "International equity. "
+        },
+        {
+          "role": "assistant",
+          "content": "International equity refers to shares of companies headquartered outside the United States. Stocks or stock funds in foreign countries are treated separately because they are usually affected by different factors compared to US equities. These factors include foreign currency fluctuations, regional events, and political situations in other countries."
+        }
+      ],
+      "retrieval": {
+        "query": "What about securities?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "324879-0-595",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"A good reference to what encompasses \"\"securities\"\" are detailed in the Securities Act of 1933, which was enacted by the United States federal government. One main exception, which I would still consider securities for your purposes, would be \"\"commercial paper\"\". These are exempt from the securities act because they mature in 270 days of less, but they function much like bonds or promissory notes Therefore though, it would not encompass currencies and commodities. It really comes down to the structure of the agreement for transferring or holding the particular kind of underlying asset.\"",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "574820-0-1834",
+            "score": null,
+            "score_type": "contriever",
+            "text": " All securities must be registered with the SEC. Securities are defined as (1) The term “security” means any note, stock, treasury stock,   security future, security-based swap, bond, debenture, evidence of   indebtedness, certificate of interest or participation in any   profit-sharing agreement, collateral-trust certificate,   preorganization certificate or subscription, transferable share,   investment contract, voting-trust certificate, certificate of deposit   for a security, fractional undivided interest in oil, gas, or other   mineral rights, any put, call, straddle, option, or privilege on any   security, certificate of deposit, or group or index of securities   (including any interest therein or based on the value thereof), or any   put, call, straddle, option, or privilege entered into on a national   securities exchange relating to foreign currency, or, in general, any   interest or instrument commonly known as a “security”, or any   certificate of interest or participation in, temporary or interim   certificate for, receipt for, guarantee of, or warrant or right to   subscribe to or purchase, any of the foregoing. thus currencies are not defined as securities. While OTC transactions of securities is not outright forbidden, there are numerous regulations issued by the SEC as a result of the 1943 Exchange Act and others that make this difficult and/or costly. Many other securities are exempted from registration thus trade in a way that could be called OTC. Different countries have variances upon US law but are very similar. Any security could be traded OTC, but law prohibits it expressly or in such a way to make it relatively expensive; further, stock options are so tightly regulated that expiration dates, expiration intervals, strike intervals, and minimum ticks are all set by the authorities.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "172783-0-346",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Lending of securities is done by institutional investors and mutual funds. The costs of dealing with thousands of individual investors, small share blocks and the various screw-ups and drama associated with each individual are too high. Like many exotic financial transactions, if you have to ask about it, you're probably not qualified to do it.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "375368-0-951",
+            "score": null,
+            "score_type": "contriever",
+            "text": " First, realize that Wikipedia is written by individuals, just like this board has thousands of members. The two definition were written and edited by different people, most likely.  Think Venn diagram.  The definition for financial instruments claims that it's the larger set, and securities is contained in a subset.  Comparing the two, it seems pretty consistent.  Yes, Securities include derivatives.  Transferable is close to tradable, although to me tradable implies a market as compared to private transfers.  I don't believe there's an opposite, per se, but there's 'other stuff.' My house has value, but is not a security. My coffee cup has no value. Back to the concept of Venn. There aren't really opposites, just items falling outside the set we're discussing.  I'd caution, this is a semantic exercise. If you know what you're buying, a stock, a bond, a gold bar, etc, whether it's a financial instrument or security doesn't matter to you.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "594990-0-339",
+            "score": null,
+            "score_type": "contriever",
+            "text": " If you're talking about TRUPS (Trust Preferred securities) these are all but banned for new issuance under Dodd-Frank and other regulations. Although some companies still have outstanding TRUPS most have either matured, defaulted or been refinanced into some other form of debt. Its not really an available form of capital raising anymore.",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "324879-0-595",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"A good reference to what encompasses \"\"securities\"\" are detailed in the Securities Act of 1933, which was enacted by the United States federal government. One main exception, which I would still consider securities for your purposes, would be \"\"commercial paper\"\". These are exempt from the securities act because they mature in 270 days of less, but they function much like bonds or promissory notes Therefore though, it would not encompass currencies and commodities. It really comes down to the structure of the agreement for transferring or holding the particular kind of underlying asset.\"",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "574820-0-1834",
+            "score": null,
+            "score_type": "contriever",
+            "text": " All securities must be registered with the SEC. Securities are defined as (1) The term “security” means any note, stock, treasury stock,   security future, security-based swap, bond, debenture, evidence of   indebtedness, certificate of interest or participation in any   profit-sharing agreement, collateral-trust certificate,   preorganization certificate or subscription, transferable share,   investment contract, voting-trust certificate, certificate of deposit   for a security, fractional undivided interest in oil, gas, or other   mineral rights, any put, call, straddle, option, or privilege on any   security, certificate of deposit, or group or index of securities   (including any interest therein or based on the value thereof), or any   put, call, straddle, option, or privilege entered into on a national   securities exchange relating to foreign currency, or, in general, any   interest or instrument commonly known as a “security”, or any   certificate of interest or participation in, temporary or interim   certificate for, receipt for, guarantee of, or warrant or right to   subscribe to or purchase, any of the foregoing. thus currencies are not defined as securities. While OTC transactions of securities is not outright forbidden, there are numerous regulations issued by the SEC as a result of the 1943 Exchange Act and others that make this difficult and/or costly. Many other securities are exempted from registration thus trade in a way that could be called OTC. Different countries have variances upon US law but are very similar. Any security could be traded OTC, but law prohibits it expressly or in such a way to make it relatively expensive; further, stock options are so tightly regulated that expiration dates, expiration intervals, strike intervals, and minimum ticks are all set by the authorities.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "172783-0-346",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Lending of securities is done by institutional investors and mutual funds. The costs of dealing with thousands of individual investors, small share blocks and the various screw-ups and drama associated with each individual are too high. Like many exotic financial transactions, if you have to ask about it, you're probably not qualified to do it.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "375368-0-951",
+            "score": null,
+            "score_type": "contriever",
+            "text": " First, realize that Wikipedia is written by individuals, just like this board has thousands of members. The two definition were written and edited by different people, most likely.  Think Venn diagram.  The definition for financial instruments claims that it's the larger set, and securities is contained in a subset.  Comparing the two, it seems pretty consistent.  Yes, Securities include derivatives.  Transferable is close to tradable, although to me tradable implies a market as compared to private transfers.  I don't believe there's an opposite, per se, but there's 'other stuff.' My house has value, but is not a security. My coffee cup has no value. Back to the concept of Venn. There aren't really opposites, just items falling outside the set we're discussing.  I'd caution, this is a semantic exercise. If you know what you're buying, a stock, a bond, a gold bar, etc, whether it's a financial instrument or security doesn't matter to you.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "594990-0-339",
+            "score": null,
+            "score_type": "contriever",
+            "text": " If you're talking about TRUPS (Trust Preferred securities) these are all but banned for new issuance under Dodd-Frank and other regulations. Although some companies still have outstanding TRUPS most have either matured, defaulted or been refinanced into some other form of debt. Its not really an available form of capital raising anymore.",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Assistant: Securities are financial instruments that represent an ownership interest in a company or an entity.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "324879-0-595",
+          "score": null,
+          "score_type": "contriever",
+          "text": " \"A good reference to what encompasses \"\"securities\"\" are detailed in the Securities Act of 1933, which was enacted by the United States federal government. One main exception, which I would still consider securities for your purposes, would be \"\"commercial paper\"\". These are exempt from the securities act because they mature in 270 days of less, but they function much like bonds or promissory notes Therefore though, it would not encompass currencies and commodities. It really comes down to the structure of the agreement for transferring or holding the particular kind of underlying asset.\"",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "574820-0-1834",
+          "score": null,
+          "score_type": "contriever",
+          "text": " All securities must be registered with the SEC. Securities are defined as (1) The term “security” means any note, stock, treasury stock,   security future, security-based swap, bond, debenture, evidence of   indebtedness, certificate of interest or participation in any   profit-sharing agreement, collateral-trust certificate,   preorganization certificate or subscription, transferable share,   investment contract, voting-trust certificate, certificate of deposit   for a security, fractional undivided interest in oil, gas, or other   mineral rights, any put, call, straddle, option, or privilege on any   security, certificate of deposit, or group or index of securities   (including any interest therein or based on the value thereof), or any   put, call, straddle, option, or privilege entered into on a national   securities exchange relating to foreign currency, or, in general, any   interest or instrument commonly known as a “security”, or any   certificate of interest or participation in, temporary or interim   certificate for, receipt for, guarantee of, or warrant or right to   subscribe to or purchase, any of the foregoing. thus currencies are not defined as securities. While OTC transactions of securities is not outright forbidden, there are numerous regulations issued by the SEC as a result of the 1943 Exchange Act and others that make this difficult and/or costly. Many other securities are exempted from registration thus trade in a way that could be called OTC. Different countries have variances upon US law but are very similar. Any security could be traded OTC, but law prohibits it expressly or in such a way to make it relatively expensive; further, stock options are so tightly regulated that expiration dates, expiration intervals, strike intervals, and minimum ticks are all set by the authorities.",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "172783-0-346",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Lending of securities is done by institutional investors and mutual funds. The costs of dealing with thousands of individual investors, small share blocks and the various screw-ups and drama associated with each individual are too high. Like many exotic financial transactions, if you have to ask about it, you're probably not qualified to do it.",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "375368-0-951",
+          "score": null,
+          "score_type": "contriever",
+          "text": " First, realize that Wikipedia is written by individuals, just like this board has thousands of members. The two definition were written and edited by different people, most likely.  Think Venn diagram.  The definition for financial instruments claims that it's the larger set, and securities is contained in a subset.  Comparing the two, it seems pretty consistent.  Yes, Securities include derivatives.  Transferable is close to tradable, although to me tradable implies a market as compared to private transfers.  I don't believe there's an opposite, per se, but there's 'other stuff.' My house has value, but is not a security. My coffee cup has no value. Back to the concept of Venn. There aren't really opposites, just items falling outside the set we're discussing.  I'd caution, this is a semantic exercise. If you know what you're buying, a stock, a bond, a gold bar, etc, whether it's a financial instrument or security doesn't matter to you.",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "594990-0-339",
+          "score": null,
+          "score_type": "contriever",
+          "text": " If you're talking about TRUPS (Trust Preferred securities) these are all but banned for new issuance under Dodd-Frank and other regulations. Although some companies still have outstanding TRUPS most have either matured, defaulted or been refinanced into some other form of debt. Its not really an available form of capital raising anymore.",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "The term “security” in finance means any note, stock, treasury stock, security future, security-based swap, bond, debenture, among others. \n",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Summarization"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    }
+  ]
+}

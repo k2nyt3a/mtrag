@@ -1,0 +1,2529 @@
+{
+  "conversation_id": "e9dd465e8dd63a80dda8f3ce9cba6848",
+  "dataset": "fiqa",
+  "collection": "mt-rag-fiqa-beir-elser-512-100-20240501",
+  "rag": "raptor",
+  "num_turns": 7,
+  "turns": [
+    {
+      "turn_id": "1",
+      "task_id": "e9dd465e8dd63a80dda8f3ce9cba6848<::>1",
+      "question": " What's the difference between Market Cap and NAV?",
+      "rag_history_before_turn": [],
+      "retrieval": {
+        "query": " What's the difference between Market Cap and NAV?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": " What's the difference between Market Cap and NAV?",
+        "k": 10,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "raptor_summary_70955",
+            "score": 0.713461,
+            "score_type": "cosine",
+            "text": "Net Asset Value (NAV) represents the total value of a company's assets minus liabilities, divided by the number of shares, and is akin to book value. Market capitalization (market cap) is calculated by multiplying share price by the number of shares, reflecting what investors believe the company is worth, which can differ significantly from NAV due to future expectations. For instance, Amazon has a NAV of $22 per share but a market price of $290, resulting in a price-to-book (P/B) ratio",
+            "raptor_node_id": 70955,
+            "raptor_node_level": 1,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "247021-0-611",
+              "178-0-1083",
+              "414940-0-474",
+              "412584-0-1271",
+              "416727-0-1356",
+              "471123-0-798"
+            ]
+          },
+          {
+            "rank": 2,
+            "doc_id": "178-0-1083",
+            "score": 0.710377,
+            "score_type": "cosine",
+            "text": "\n\"At any given moment, one can tally the numbers used for NAV. It's math, and little more. The Market Cap, which as you understand is a result of share value. Share value (stock price) is what the market will pay today for the shares. It's not only based on NAV today, but on future expectations. And expectations aren't the same for each of us. Which is why there are always sellers for the buyers of a stock, and vice-versa.  From your question, we agree that NAV can be measured, it's the result of adding up things that are all known. (For now, let's ignore things such as \"\"goodwill.\"\") Rarely is a stock price simply equal to the NAV divided by the number of shares. Often, it's quite higher. The simplest way to look at it is that the stock price not only reflects the NAV, but investors' expectations looking into the future.  If you look for two companies with identical NAV per share but quite different share prices, you'll see that the companies differ in that one might be a high growth company, the other, a solid one but with a market that's not in such a growth mode.\"",
+            "raptor_node_id": 6092,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "178-0-1083"
+            ]
+          },
+          {
+            "rank": 3,
+            "doc_id": "471123-0-798",
+            "score": 0.706729,
+            "score_type": "cosine",
+            "text": "\n\"Market caps is just the share price, multiplied by the number of shares. It doesn't represent any value (if people decide to pay more or less for the shares, the market cap goes up or down). It does represent what people think the company is worth.  NAV sounds very much like book value. It basically says \"\"how much cash would we end up with if we sold everything the company owns, paid back all the debt, and closed down the business? \"\" Since closing down the business is rarely a good idea, this underestimates the value of the business enormously. Take a hairdresser who owns nothing but a pair of scissors, but has a huge number of repeat customers, charges $200 for a haircut, and makes tons of money every year. The business has a huge value, but NAV = price of one pair of used scissors.\"",
+            "raptor_node_id": 47327,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "471123-0-798"
+            ]
+          },
+          {
+            "rank": 4,
+            "doc_id": "416727-0-1356",
+            "score": 0.649397,
+            "score_type": "cosine",
+            "text": "\n\"I think the key concept here is future value.  The NAV is essentially a book-keeping exercise- you add up all the assets and remove all the liabilities.  For a public company this is spelled out in the balance sheet, and is generally listed at the bottom.  I pulled a recent one from Cisco Systems (because I used to work there and know the numbers  ;-) and you can see it here: roughly $56 billion... https://finance.yahoo.com/q/bs?s=CSCO+Balance+Sheet&annual  Another way to think about it: In theory (and we know about this, right?) the NAV is what you would get if you liquidated the company instantaneously.  A definition I like to use for market cap is \"\"the current assets, plus the perceived present value of all future earnings for the company\"\"... so let's dissect that a little.  The term \"\"present value\"\" is really important, because a million dollars today is worth more than a million dollars next year.  A company expected to make a lot of money soon will be worth more (i.e. a higher market cap) than a company expected to make the same amount of money, but later.  The \"\"all future earnings\"\" part is exactly what it sounds like.  So again, following our cisco example, the current market cap is ~142 billion, which means that \"\"the market\"\" thinks they will earn about $85 billion over the life of the company (in present day dollars).\"",
+            "raptor_node_id": 52797,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "416727-0-1356"
+            ]
+          },
+          {
+            "rank": 5,
+            "doc_id": "414940-0-474",
+            "score": 0.620064,
+            "score_type": "cosine",
+            "text": "\nNAV is  how much is the stuff of the company worth divided by the number of shares. This total is also called book value. The market cap is share price times number of shares. For Amazon  today people are willing to pay 290 a share for a company with a NAV of 22 a share. If of nav and price were equal the P/B (price to book ratio) would be 1, but for Amazon it is 13.  Why? Because investors believe Amazon is worth a lot more than a money losing company with a NAV of 22.",
+            "raptor_node_id": 52351,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "414940-0-474"
+            ]
+          },
+          {
+            "rank": 6,
+            "doc_id": "343120-0-248",
+            "score": 0.593704,
+            "score_type": "cosine",
+            "text": "\nThe difference between the two numbers is that the market size of a particular product is expressed as an annual number ($10 million per year, in your example).  The market cap of a stock, on the other hand, is a long-term valuation of the company.",
+            "raptor_node_id": 34689,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "343120-0-248"
+            ]
+          },
+          {
+            "rank": 7,
+            "doc_id": "93354-0-514",
+            "score": 0.569652,
+            "score_type": "cosine",
+            "text": "\n\"Market cap is the current value of a company's equity and is defined as the current share price multiplied by the number of shares. Please check also \"\"enterprise value\"\" for another definition of a company`s total value (enterprise value = market cap adjusted for net nebt). Regarding the second part of your question: Issuing new shares usually does not affect market cap in a significant way because the newly issued shares often result in lower share prices and dilution of the existing share holders shares.\"",
+            "raptor_node_id": 9817,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "93354-0-514"
+            ]
+          },
+          {
+            "rank": 8,
+            "doc_id": "495066-0-1802",
+            "score": 0.555174,
+            "score_type": "cosine",
+            "text": "\n\"Market Capitalization is the value the market attributes to the company shares calculated by multiplying the current trading price of these shares by the total amount of shares outstanding. So a company with 100 shares trading at $10 has a market cap of $1000. It is technically not the same as the value of a company (in the sense of how much someone would need to pay to acquire the company), Enterprise value is what you want to determine the net value of a company which is calculated as the market capitalization + company debt (as the acquirer has to take on this debt) - company cash (as the acquirer can pocket this for itself). The exact boundary for when a company belongs to a certain \"\"cap\"\" is up for debate. For a \"\"large cap\"\"  a market capitalization of $10 billion+ is usually considered the cutoff (with $100+ billion behemoths being called \"\"mega caps\"\"). Anything between $10 billion and ~$1 billion is considered \"\"mid cap\"\", from ~$1billion to ~$200 million it's called a \"\"small cap\"\" and below $200 million is \"\"nano cap\"\".  Worth noting that these boundaries change quite dramatically over time as the overall average market capitalization increases as companies grow, for example in the 80s a company with a market cap of $1 billion would be considered \"\"large cap\"\". The market \"\"determines\"\" what the market cap of company should be based (usually but certainly not always!) on the historical and expected profit a company makes, for a simple example let's say that our $1000 market cap company makes $100 a year,  this means that this company's earnings per share is $1. If the company grows to make $200 a year you can reasonably expect the share price to rise from $10 to ~$20 with the corresponding increase in market cap. (this is all extremely simplified of course).\"",
+            "raptor_node_id": 51794,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "495066-0-1802"
+            ]
+          },
+          {
+            "rank": 9,
+            "doc_id": "232932-0-938",
+            "score": 0.555138,
+            "score_type": "cosine",
+            "text": "\n\"In the case of mutual funds, Net Asset Value (NAV) is the price used to buy and sell shares. NAV is just the value of the underlying assets (which are in turn valued by their underlying holdings and future earnings). So if a fund hands out a billion dollars, it stands to reason their NAV*shares (market cap?) is a billion dollars less. Shareholder's net worth is equal in either scenario, but after the dividend is paid they are more liquid. For people who need investment income to live on, dividends are a cheap way to hold stocks and get regular payments, versus having to sell part of your portfolio every month.  But for people who want to hold their investment in the market for a long long time, dividends only increase the rate at which you have to buy. For mutual funds this isn't a problem: you buy the funds and tell them to reinvest for free. So because of that, it's a prohibited practice to \"\"sell\"\" dividends to clients.\"",
+            "raptor_node_id": 23748,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "232932-0-938"
+            ]
+          },
+          {
+            "rank": 10,
+            "doc_id": "raptor_summary_70969",
+            "score": 0.55511,
+            "score_type": "cosine",
+            "text": "Net Asset Value (NAV) for mutual funds represents the price for buying and selling shares, calculated based on the value of underlying assets. When a fund distributes dividends, its NAV decreases by the amount paid out, but shareholders' net worth remains unchanged, with dividends providing liquidity. For long-term investors, reinvesting dividends is preferable, as selling shares for income can diminish their investment.\n\nShareholders own a portion of a company's assets, and in liquidation, they receive a share of the net value (assets",
+            "raptor_node_id": 70969,
+            "raptor_node_level": 1,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "323244-0-1004",
+              "336742-0-420",
+              "232932-0-938",
+              "566205-4726-5923",
+              "481978-0-1131",
+              "574696-0-683"
+            ]
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "raptor_summary_70955",
+            "score": 0.713461,
+            "score_type": "cosine",
+            "text": "Net Asset Value (NAV) represents the total value of a company's assets minus liabilities, divided by the number of shares, and is akin to book value. Market capitalization (market cap) is calculated by multiplying share price by the number of shares, reflecting what investors believe the company is worth, which can differ significantly from NAV due to future expectations. For instance, Amazon has a NAV of $22 per share but a market price of $290, resulting in a price-to-book (P/B) ratio",
+            "raptor_node_id": 70955,
+            "raptor_node_level": 1,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "247021-0-611",
+              "178-0-1083",
+              "414940-0-474",
+              "412584-0-1271",
+              "416727-0-1356",
+              "471123-0-798"
+            ]
+          },
+          {
+            "rank": 2,
+            "doc_id": "178-0-1083",
+            "score": 0.710377,
+            "score_type": "cosine",
+            "text": "\n\"At any given moment, one can tally the numbers used for NAV. It's math, and little more. The Market Cap, which as you understand is a result of share value. Share value (stock price) is what the market will pay today for the shares. It's not only based on NAV today, but on future expectations. And expectations aren't the same for each of us. Which is why there are always sellers for the buyers of a stock, and vice-versa.  From your question, we agree that NAV can be measured, it's the result of adding up things that are all known. (For now, let's ignore things such as \"\"goodwill.\"\") Rarely is a stock price simply equal to the NAV divided by the number of shares. Often, it's quite higher. The simplest way to look at it is that the stock price not only reflects the NAV, but investors' expectations looking into the future.  If you look for two companies with identical NAV per share but quite different share prices, you'll see that the companies differ in that one might be a high growth company, the other, a solid one but with a market that's not in such a growth mode.\"",
+            "raptor_node_id": 6092,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "178-0-1083"
+            ]
+          },
+          {
+            "rank": 3,
+            "doc_id": "471123-0-798",
+            "score": 0.706729,
+            "score_type": "cosine",
+            "text": "\n\"Market caps is just the share price, multiplied by the number of shares. It doesn't represent any value (if people decide to pay more or less for the shares, the market cap goes up or down). It does represent what people think the company is worth.  NAV sounds very much like book value. It basically says \"\"how much cash would we end up with if we sold everything the company owns, paid back all the debt, and closed down the business? \"\" Since closing down the business is rarely a good idea, this underestimates the value of the business enormously. Take a hairdresser who owns nothing but a pair of scissors, but has a huge number of repeat customers, charges $200 for a haircut, and makes tons of money every year. The business has a huge value, but NAV = price of one pair of used scissors.\"",
+            "raptor_node_id": 47327,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "471123-0-798"
+            ]
+          },
+          {
+            "rank": 4,
+            "doc_id": "416727-0-1356",
+            "score": 0.649397,
+            "score_type": "cosine",
+            "text": "\n\"I think the key concept here is future value.  The NAV is essentially a book-keeping exercise- you add up all the assets and remove all the liabilities.  For a public company this is spelled out in the balance sheet, and is generally listed at the bottom.  I pulled a recent one from Cisco Systems (because I used to work there and know the numbers  ;-) and you can see it here: roughly $56 billion... https://finance.yahoo.com/q/bs?s=CSCO+Balance+Sheet&annual  Another way to think about it: In theory (and we know about this, right?) the NAV is what you would get if you liquidated the company instantaneously.  A definition I like to use for market cap is \"\"the current assets, plus the perceived present value of all future earnings for the company\"\"... so let's dissect that a little.  The term \"\"present value\"\" is really important, because a million dollars today is worth more than a million dollars next year.  A company expected to make a lot of money soon will be worth more (i.e. a higher market cap) than a company expected to make the same amount of money, but later.  The \"\"all future earnings\"\" part is exactly what it sounds like.  So again, following our cisco example, the current market cap is ~142 billion, which means that \"\"the market\"\" thinks they will earn about $85 billion over the life of the company (in present day dollars).\"",
+            "raptor_node_id": 52797,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "416727-0-1356"
+            ]
+          },
+          {
+            "rank": 5,
+            "doc_id": "414940-0-474",
+            "score": 0.620064,
+            "score_type": "cosine",
+            "text": "\nNAV is  how much is the stuff of the company worth divided by the number of shares. This total is also called book value. The market cap is share price times number of shares. For Amazon  today people are willing to pay 290 a share for a company with a NAV of 22 a share. If of nav and price were equal the P/B (price to book ratio) would be 1, but for Amazon it is 13.  Why? Because investors believe Amazon is worth a lot more than a money losing company with a NAV of 22.",
+            "raptor_node_id": 52351,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "414940-0-474"
+            ]
+          }
+        ]
+      },
+      "generation": {
+        "model": "gpt-4o-mini",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Market Cap (market capitalization) and NAV (Net Asset Value) are two different financial metrics used to assess a company's value.\n\n1. **Market Cap**: This is calculated by multiplying the current share price by the total number of shares outstanding. It reflects what investors are willing to pay for the company's shares in the market, which can be influenced by future expectations and perceptions about the company's growth potential. Market Cap does not represent the intrinsic value of the company's assets but rather the market's valuation of the company.\n\n2. **NAV**: This represents the total value of a company's assets minus its liabilities, divided by the number of shares. It is akin to the book value of the company and indicates what shareholders would theoretically receive if the company were liquidated. NAV is based on known values and is more of a bookkeeping exercise.\n\nIn summary, while NAV provides a measure of the company's actual asset value, Market Cap reflects the market's perception of the company's worth, which can differ significantly due to expectations about future performance. For example, a company like Amazon may have a NAV of $22 per share but a market price of $290 per share, resulting in a high price-to-book (P/B) ratio, indicating that investors believe the company is worth much more than its current asset value.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "raptor_summary_70955",
+          "score": 0.713461,
+          "score_type": "cosine",
+          "text": "Net Asset Value (NAV) represents the total value of a company's assets minus liabilities, divided by the number of shares, and is akin to book value. Market capitalization (market cap) is calculated by multiplying share price by the number of shares, reflecting what investors believe the company is worth, which can differ significantly from NAV due to future expectations. For instance, Amazon has a NAV of $22 per share but a market price of $290, resulting in a price-to-book (P/B) ratio",
+          "raptor_node_id": 70955,
+          "raptor_node_level": 1,
+          "raptor_node_type": "summary",
+          "source_document_ids": [
+            "247021-0-611",
+            "178-0-1083",
+            "414940-0-474",
+            "412584-0-1271",
+            "416727-0-1356",
+            "471123-0-798"
+          ]
+        },
+        {
+          "rank": 2,
+          "doc_id": "178-0-1083",
+          "score": 0.710377,
+          "score_type": "cosine",
+          "text": "\n\"At any given moment, one can tally the numbers used for NAV. It's math, and little more. The Market Cap, which as you understand is a result of share value. Share value (stock price) is what the market will pay today for the shares. It's not only based on NAV today, but on future expectations. And expectations aren't the same for each of us. Which is why there are always sellers for the buyers of a stock, and vice-versa.  From your question, we agree that NAV can be measured, it's the result of adding up things that are all known. (For now, let's ignore things such as \"\"goodwill.\"\") Rarely is a stock price simply equal to the NAV divided by the number of shares. Often, it's quite higher. The simplest way to look at it is that the stock price not only reflects the NAV, but investors' expectations looking into the future.  If you look for two companies with identical NAV per share but quite different share prices, you'll see that the companies differ in that one might be a high growth company, the other, a solid one but with a market that's not in such a growth mode.\"",
+          "raptor_node_id": 6092,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "178-0-1083"
+          ]
+        },
+        {
+          "rank": 3,
+          "doc_id": "471123-0-798",
+          "score": 0.706729,
+          "score_type": "cosine",
+          "text": "\n\"Market caps is just the share price, multiplied by the number of shares. It doesn't represent any value (if people decide to pay more or less for the shares, the market cap goes up or down). It does represent what people think the company is worth.  NAV sounds very much like book value. It basically says \"\"how much cash would we end up with if we sold everything the company owns, paid back all the debt, and closed down the business? \"\" Since closing down the business is rarely a good idea, this underestimates the value of the business enormously. Take a hairdresser who owns nothing but a pair of scissors, but has a huge number of repeat customers, charges $200 for a haircut, and makes tons of money every year. The business has a huge value, but NAV = price of one pair of used scissors.\"",
+          "raptor_node_id": 47327,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "471123-0-798"
+          ]
+        },
+        {
+          "rank": 4,
+          "doc_id": "416727-0-1356",
+          "score": 0.649397,
+          "score_type": "cosine",
+          "text": "\n\"I think the key concept here is future value.  The NAV is essentially a book-keeping exercise- you add up all the assets and remove all the liabilities.  For a public company this is spelled out in the balance sheet, and is generally listed at the bottom.  I pulled a recent one from Cisco Systems (because I used to work there and know the numbers  ;-) and you can see it here: roughly $56 billion... https://finance.yahoo.com/q/bs?s=CSCO+Balance+Sheet&annual  Another way to think about it: In theory (and we know about this, right?) the NAV is what you would get if you liquidated the company instantaneously.  A definition I like to use for market cap is \"\"the current assets, plus the perceived present value of all future earnings for the company\"\"... so let's dissect that a little.  The term \"\"present value\"\" is really important, because a million dollars today is worth more than a million dollars next year.  A company expected to make a lot of money soon will be worth more (i.e. a higher market cap) than a company expected to make the same amount of money, but later.  The \"\"all future earnings\"\" part is exactly what it sounds like.  So again, following our cisco example, the current market cap is ~142 billion, which means that \"\"the market\"\" thinks they will earn about $85 billion over the life of the company (in present day dollars).\"",
+          "raptor_node_id": 52797,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "416727-0-1356"
+          ]
+        },
+        {
+          "rank": 5,
+          "doc_id": "414940-0-474",
+          "score": 0.620064,
+          "score_type": "cosine",
+          "text": "\nNAV is  how much is the stuff of the company worth divided by the number of shares. This total is also called book value. The market cap is share price times number of shares. For Amazon  today people are willing to pay 290 a share for a company with a NAV of 22 a share. If of nav and price were equal the P/B (price to book ratio) would be 1, but for Amazon it is 13.  Why? Because investors believe Amazon is worth a lot more than a money losing company with a NAV of 22.",
+          "raptor_node_id": 52351,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "414940-0-474"
+          ]
+        }
+      ],
+      "reference": {
+        "answer": "The market cap is simply the share price multiplied by the number of shares. It doesn't indicate any inherent value; rather, it reflects what people believe the company is worth. NAV, or net asset value, is the total value of the company's assets divided by the number of shares. This is also referred to as the book value. In summary, market cap is calculated by multiplying the share price by the number of shares.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Comparative"
+        ],
+        "multi_turn": [
+          "N/A"
+        ]
+      }
+    },
+    {
+      "turn_id": "2",
+      "task_id": "e9dd465e8dd63a80dda8f3ce9cba6848<::>2",
+      "question": "Which is more important?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": " What's the difference between Market Cap and NAV?"
+        },
+        {
+          "role": "assistant",
+          "content": "The market cap is simply the share price multiplied by the number of shares. It doesn't indicate any inherent value; rather, it reflects what people believe the company is worth. NAV, or net asset value, is the total value of the company's assets divided by the number of shares. This is also referred to as the book value. In summary, market cap is calculated by multiplying the share price by the number of shares."
+        }
+      ],
+      "retrieval": {
+        "query": "Which is more important?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": "Which is more important?",
+        "k": 10,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "449554-0-966",
+            "score": 0.441486,
+            "score_type": "cosine",
+            "text": "\n&gt; ive read that consumer spending stimulates an economy more than investment somewhere  Investment is necessary for an economy to grow, as is consumer spending. Neither is more important. If you lack one of those, stimulating it will do more than stimulating the other.  It's like a racing team saying the driver is more important than the car. In situations where everyone's cars are as good as they'll get, improving the driver is more important. In situations where the quality of cars differs, improving the car becomes more important.  &gt;Also, youhave the theory that decreasing the income gap helps society in many other ways  There is strong speculation that that is the case. However, it's _100% fact_ that increasing everyone's wealth helps society much more. It's why you'd rather live today than in any more egalitarian point in our past. If tinkering with income inequality gets in the way of overall wealth creation, it will do more harm than good.",
+            "raptor_node_id": 48492,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "449554-0-966"
+            ]
+          },
+          {
+            "rank": 2,
+            "doc_id": "445639-0-364",
+            "score": 0.439388,
+            "score_type": "cosine",
+            "text": "\nHighest priority compared to what?  Obviously priorities should be repaying debt in the order of interest percentage. Which means among your debts, the mortgage likely comes last. Trying to get a better mortgage deal however has a huge priority.  And if you have a choice between wasting money and paying off the mortgage, the mortgage should have higher priority.",
+            "raptor_node_id": 50568,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "445639-0-364"
+            ]
+          },
+          {
+            "rank": 3,
+            "doc_id": "168791-0-362",
+            "score": 0.426127,
+            "score_type": "cosine",
+            "text": "\nAsk any successful person, what's more important, time or money, they'll all say the same thing--time. One can always make more money, but you'll never get the time back you invest. Now, would YOU rather invest 40 hours of your time at $13, or 30 hours of your time at $15. Tell me what's asinine. Choosing to give up your time for less dollars per hour or more?",
+            "raptor_node_id": 22758,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "168791-0-362"
+            ]
+          },
+          {
+            "rank": 4,
+            "doc_id": "216781-0-156",
+            "score": 0.42543,
+            "score_type": "cosine",
+            "text": "\nI think it all boils down to which is your priority.   So it all depends. People that want the stock sooOoooo badly will definitely go for the market order.",
+            "raptor_node_id": 17883,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "216781-0-156"
+            ]
+          },
+          {
+            "rank": 5,
+            "doc_id": "105557-0-746",
+            "score": 0.424947,
+            "score_type": "cosine",
+            "text": "\nGreat questions -- the fact that you're thinking about it is what's most important. I think a priority should be maximizing any employer match in your 401(k) because it's free money. Second would be paying off high interest debt because it's a big expense. Everything else is a matter of setting good financial habits so I think the order of importance will vary from person to person. (That's why I ordered the priorities the way I did: employer matching is the easiest way to get more income with no additional work, and paying down high-interest debt is the best way to lower your long-term expenses.) After that, continue to maximize your income and savings, and be frugal with your expenses. Avoid debt. Take a vacation once in a while, too!",
+            "raptor_node_id": 14733,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "105557-0-746"
+            ]
+          },
+          {
+            "rank": 6,
+            "doc_id": "126096-0-49",
+            "score": 0.41978,
+            "score_type": "cosine",
+            "text": "\nI think there are three important considerations:",
+            "raptor_node_id": 11730,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "126096-0-49"
+            ]
+          },
+          {
+            "rank": 7,
+            "doc_id": "331953-0-760",
+            "score": 0.419192,
+            "score_type": "cosine",
+            "text": "\n\"There's numerous articles on how EI (Emotional Intelligence) is a higher-sought trait that IQ. High EI individuals also tend to hold leadership positions which results in higher pay.  IQ is important, but ask yourself \"\"WHY\"\" is it important? Is this intelligence truly being utilized in your role? Is this something people value purely because their parents and society have beated into their head that it's important? If you want to make more money, observe those around you making that money. What do they have that you don't? It's possible that the lower IQ individuals are doing better in life all around. Utilize that high IQ and ask \"\"Why???\"\" - then start looking and asking.  Just because it doesn't make sense doesn't mean it's wrong. Stay curious.\"",
+            "raptor_node_id": 41716,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "331953-0-760"
+            ]
+          },
+          {
+            "rank": 8,
+            "doc_id": "74497-0-341",
+            "score": 0.41668,
+            "score_type": "cosine",
+            "text": "\nYes, one is certainly better than the other. Which one depends on your priorities and the interest and tax rates on your student loan, your savings, and your (future) mortgage plus how much you can afford to save and still enjoy the lifestyle you want as well as how soon you want to move out. Basically, you havn't given enough information.",
+            "raptor_node_id": 1971,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "74497-0-341"
+            ]
+          },
+          {
+            "rank": 9,
+            "doc_id": "308934-0-496",
+            "score": 0.407497,
+            "score_type": "cosine",
+            "text": "\nHonestly, I think what matters a lot more to investors is that there isn't a bifurcated congress &amp; white house. They care a lot more about being able to actually get behind one plan (i.e. not going off the fiscal cliff) than who actually wins.  The president has surprisingly less power than people think when it comes to managing the economy.   Think about this in today's environment, who has more control over the stock market: Obama or Bernanke? That should be nothing short of a toss-up.",
+            "raptor_node_id": 38779,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "308934-0-496"
+            ]
+          },
+          {
+            "rank": 10,
+            "doc_id": "341324-0-247",
+            "score": 0.406393,
+            "score_type": "cosine",
+            "text": "\nMost of us know that accounting is an important business activity. But, how many of you know that it is more crucial to maintain personal finance accounts? Yes, it is rather essential to plan for a successful future. How could this be referred so?",
+            "raptor_node_id": 42002,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "341324-0-247"
+            ]
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "449554-0-966",
+            "score": 0.441486,
+            "score_type": "cosine",
+            "text": "\n&gt; ive read that consumer spending stimulates an economy more than investment somewhere  Investment is necessary for an economy to grow, as is consumer spending. Neither is more important. If you lack one of those, stimulating it will do more than stimulating the other.  It's like a racing team saying the driver is more important than the car. In situations where everyone's cars are as good as they'll get, improving the driver is more important. In situations where the quality of cars differs, improving the car becomes more important.  &gt;Also, youhave the theory that decreasing the income gap helps society in many other ways  There is strong speculation that that is the case. However, it's _100% fact_ that increasing everyone's wealth helps society much more. It's why you'd rather live today than in any more egalitarian point in our past. If tinkering with income inequality gets in the way of overall wealth creation, it will do more harm than good.",
+            "raptor_node_id": 48492,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "449554-0-966"
+            ]
+          },
+          {
+            "rank": 2,
+            "doc_id": "445639-0-364",
+            "score": 0.439388,
+            "score_type": "cosine",
+            "text": "\nHighest priority compared to what?  Obviously priorities should be repaying debt in the order of interest percentage. Which means among your debts, the mortgage likely comes last. Trying to get a better mortgage deal however has a huge priority.  And if you have a choice between wasting money and paying off the mortgage, the mortgage should have higher priority.",
+            "raptor_node_id": 50568,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "445639-0-364"
+            ]
+          },
+          {
+            "rank": 3,
+            "doc_id": "168791-0-362",
+            "score": 0.426127,
+            "score_type": "cosine",
+            "text": "\nAsk any successful person, what's more important, time or money, they'll all say the same thing--time. One can always make more money, but you'll never get the time back you invest. Now, would YOU rather invest 40 hours of your time at $13, or 30 hours of your time at $15. Tell me what's asinine. Choosing to give up your time for less dollars per hour or more?",
+            "raptor_node_id": 22758,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "168791-0-362"
+            ]
+          },
+          {
+            "rank": 4,
+            "doc_id": "216781-0-156",
+            "score": 0.42543,
+            "score_type": "cosine",
+            "text": "\nI think it all boils down to which is your priority.   So it all depends. People that want the stock sooOoooo badly will definitely go for the market order.",
+            "raptor_node_id": 17883,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "216781-0-156"
+            ]
+          },
+          {
+            "rank": 5,
+            "doc_id": "105557-0-746",
+            "score": 0.424947,
+            "score_type": "cosine",
+            "text": "\nGreat questions -- the fact that you're thinking about it is what's most important. I think a priority should be maximizing any employer match in your 401(k) because it's free money. Second would be paying off high interest debt because it's a big expense. Everything else is a matter of setting good financial habits so I think the order of importance will vary from person to person. (That's why I ordered the priorities the way I did: employer matching is the easiest way to get more income with no additional work, and paying down high-interest debt is the best way to lower your long-term expenses.) After that, continue to maximize your income and savings, and be frugal with your expenses. Avoid debt. Take a vacation once in a while, too!",
+            "raptor_node_id": 14733,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "105557-0-746"
+            ]
+          }
+        ]
+      },
+      "generation": {
+        "model": "gpt-4o-mini",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "I do not have specific information.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "449554-0-966",
+          "score": 0.441486,
+          "score_type": "cosine",
+          "text": "\n&gt; ive read that consumer spending stimulates an economy more than investment somewhere  Investment is necessary for an economy to grow, as is consumer spending. Neither is more important. If you lack one of those, stimulating it will do more than stimulating the other.  It's like a racing team saying the driver is more important than the car. In situations where everyone's cars are as good as they'll get, improving the driver is more important. In situations where the quality of cars differs, improving the car becomes more important.  &gt;Also, youhave the theory that decreasing the income gap helps society in many other ways  There is strong speculation that that is the case. However, it's _100% fact_ that increasing everyone's wealth helps society much more. It's why you'd rather live today than in any more egalitarian point in our past. If tinkering with income inequality gets in the way of overall wealth creation, it will do more harm than good.",
+          "raptor_node_id": 48492,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "449554-0-966"
+          ]
+        },
+        {
+          "rank": 2,
+          "doc_id": "445639-0-364",
+          "score": 0.439388,
+          "score_type": "cosine",
+          "text": "\nHighest priority compared to what?  Obviously priorities should be repaying debt in the order of interest percentage. Which means among your debts, the mortgage likely comes last. Trying to get a better mortgage deal however has a huge priority.  And if you have a choice between wasting money and paying off the mortgage, the mortgage should have higher priority.",
+          "raptor_node_id": 50568,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "445639-0-364"
+          ]
+        },
+        {
+          "rank": 3,
+          "doc_id": "168791-0-362",
+          "score": 0.426127,
+          "score_type": "cosine",
+          "text": "\nAsk any successful person, what's more important, time or money, they'll all say the same thing--time. One can always make more money, but you'll never get the time back you invest. Now, would YOU rather invest 40 hours of your time at $13, or 30 hours of your time at $15. Tell me what's asinine. Choosing to give up your time for less dollars per hour or more?",
+          "raptor_node_id": 22758,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "168791-0-362"
+          ]
+        },
+        {
+          "rank": 4,
+          "doc_id": "216781-0-156",
+          "score": 0.42543,
+          "score_type": "cosine",
+          "text": "\nI think it all boils down to which is your priority.   So it all depends. People that want the stock sooOoooo badly will definitely go for the market order.",
+          "raptor_node_id": 17883,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "216781-0-156"
+          ]
+        },
+        {
+          "rank": 5,
+          "doc_id": "105557-0-746",
+          "score": 0.424947,
+          "score_type": "cosine",
+          "text": "\nGreat questions -- the fact that you're thinking about it is what's most important. I think a priority should be maximizing any employer match in your 401(k) because it's free money. Second would be paying off high interest debt because it's a big expense. Everything else is a matter of setting good financial habits so I think the order of importance will vary from person to person. (That's why I ordered the priorities the way I did: employer matching is the easiest way to get more income with no additional work, and paying down high-interest debt is the best way to lower your long-term expenses.) After that, continue to maximize your income and savings, and be frugal with your expenses. Avoid debt. Take a vacation once in a while, too!",
+          "raptor_node_id": 14733,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "105557-0-746"
+          ]
+        }
+      ],
+      "reference": {
+        "answer": "Both market capitalization and net asset value (NAV) provide different perspectives on a company's value. Market cap is basically the amount of money that it would cost to buy all of the company's shares of public stock. On the other hand, NAV adds up all the assets and subtracts all the liabilities, essentially representing a bookkeeping exercise.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Comparative"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "3",
+      "task_id": "e9dd465e8dd63a80dda8f3ce9cba6848<::>3",
+      "question": "enterprise value",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": " What's the difference between Market Cap and NAV?"
+        },
+        {
+          "role": "assistant",
+          "content": "The market cap is simply the share price multiplied by the number of shares. It doesn't indicate any inherent value; rather, it reflects what people believe the company is worth. NAV, or net asset value, is the total value of the company's assets divided by the number of shares. This is also referred to as the book value. In summary, market cap is calculated by multiplying the share price by the number of shares."
+        },
+        {
+          "role": "user",
+          "content": "Which is more important?"
+        },
+        {
+          "role": "assistant",
+          "content": "Both market capitalization and net asset value (NAV) provide different perspectives on a company's value. Market cap is basically the amount of money that it would cost to buy all of the company's shares of public stock. On the other hand, NAV adds up all the assets and subtracts all the liabilities, essentially representing a bookkeeping exercise."
+        }
+      ],
+      "retrieval": {
+        "query": "enterprise value",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": "enterprise value",
+        "k": 10,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "raptor_summary_61404",
+            "score": 0.650463,
+            "score_type": "cosine",
+            "text": "Enterprise Value (EV) represents the value of a firm's operating assets, typically used with unlevered income statement or cash flow ratios (e.g., revenue, EBIT, EBITDA, unlevered FCF). EV is calculated as EV = equity + debt - cash, and is capital structure-neutral, making it useful for comparing companies with different capital structures. Investors use EV/EBITDA to assess risk-adjusted returns, but accurate EV assessment requires market quotations for company debt, as book values may",
+            "raptor_node_id": 61404,
+            "raptor_node_level": 1,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "380851-0-2447",
+              "113693-0-266",
+              "72666-0-609",
+              "486421-0-414",
+              "274358-0-414"
+            ]
+          },
+          {
+            "rank": 2,
+            "doc_id": "192515-0-701",
+            "score": 0.58843,
+            "score_type": "cosine",
+            "text": "\nEnterprise Value is supposed to be the price you would be willing to pay to acquire the company. Typically, companies are delivered debt-free and cash-free, so the cash on the balance sheet at the time of the transaction is distributed to the original owners. So, for instance, a company like Apple would have a lower EV than Market Value because the cash on the balance sheet is not going to be included in an acquisition.  And you are right, there are plenty of instances where you see Enterprise Value lower than Market Value (Cap).   If you are solely looking at equity valuation (equity investing), then use market cap. If you are looking at firm valuation for M&amp;A, then EV is more important.",
+            "raptor_node_id": 20829,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "192515-0-701"
+            ]
+          },
+          {
+            "rank": 3,
+            "doc_id": "72666-0-609",
+            "score": 0.514585,
+            "score_type": "cosine",
+            "text": "\nI think the most concise way to understand EV is the value of the *operating assets* of the firm. It's most generally used when using income statement or cash flow ratios that are unlevered - before applying interest expense (which if the firm is optimally financed, in theory should only impact the equity). Examples include revenue, EBIT, EBITDA, unlevered FCF, etc.  In your hypothetical scenario, you would expect the equity value of the firm to increase linearly as cash builds up. In other words, in some implausible, ceteris paribus formulation of the firm, the enterprise value should remain constant.",
+            "raptor_node_id": 1804,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "72666-0-609"
+            ]
+          },
+          {
+            "rank": 4,
+            "doc_id": "346760-0-445",
+            "score": 0.513422,
+            "score_type": "cosine",
+            "text": "\n\"Read again what I said in my original post.  \"\"Enterprise Value is the sort of \"\"bare bones\"\" total firm value. It doesn't include any cash because you'd basically be paying cash for cash. Also, this makes analysis of transaction multiples more streamlined, as some firms may have a ton of excess cash on their balance sheet, skewing multiples.\"\"  I said that that is WHY we use enterprise value. Because if you didn't it would skew multiples.\"",
+            "raptor_node_id": 27876,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "346760-0-445"
+            ]
+          },
+          {
+            "rank": 5,
+            "doc_id": "98947-0-486",
+            "score": 0.512215,
+            "score_type": "cosine",
+            "text": "\n\"Market cap is synonymous with equity value, which is one way of thinking of a company's \"\"worth.\"\"  The alternative would be enterprise value, which is calculated as follows:  Enterprise Value = Market Value of Equity + Market Value of Debt - Cash and Equivalents - Non-Operating Assets  Enterprise value is essentially \"\"how much is the firm worth to ALL providers of capital.\"\" It can be viewed as \"\"if I wanted to buy the *entire* company, debt and all, what would I have to pay?\"\"\"",
+            "raptor_node_id": 9847,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "98947-0-486"
+            ]
+          },
+          {
+            "rank": 6,
+            "doc_id": "raptor_summary_61405",
+            "score": 0.51156,
+            "score_type": "cosine",
+            "text": "The conversation revolves around the complexities of enterprise value (EV) versus equity value, particularly in the context of public company financials. One participant expresses frustration over the theoretical nature of the discussion, emphasizing the need for practical understanding of how to determine a \"minimum cash\" level from company filings. They note that cash does not factor into the terminal value calculation in a discounted cash flow (DCF) analysis, which significantly impacts EV.\n\nA disagreement arises regarding the performance of an investment, with one party asserting that",
+            "raptor_node_id": 61405,
+            "raptor_node_level": 1,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "220269-0-269",
+              "309045-0-324",
+              "416297-0-399",
+              "105949-0-486",
+              "597661-0-612"
+            ]
+          },
+          {
+            "rank": 7,
+            "doc_id": "407449-0-497",
+            "score": 0.506435,
+            "score_type": "cosine",
+            "text": "\n\"Umm, it depends on the transaction but a lot of transactions get done on a \"\"cash free / debt free\"\" basis.  Meaning, I'll pay you 5x EBITDA (or $500) and you deliver the company without any cash or debt subject to a \"\"standard\"\" amount of working capital.  Ultimately, you're confusing enterprise value and equity value.  The two companies may have different purchase prices (equity values) but they should have very similar enterprise values (given the hypothetical scenario you put together).\"",
+            "raptor_node_id": 33568,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "407449-0-497"
+            ]
+          },
+          {
+            "rank": 8,
+            "doc_id": "raptor_summary_61406",
+            "score": 0.505922,
+            "score_type": "cosine",
+            "text": "The discussion revolves around the calculation of enterprise value (EV) and equity value for a public company. To derive EV, one starts with fully diluted shares multiplied by market price, adds debt, and subtracts cash. The DCF (Discounted Cash Flow) method produces an enterprise value by valuing the firm's operating assets, assuming an operating level of cash, which should not be deducted when calculating equity value. To find equity value from DCF results, net debt (debt minus cash) must",
+            "raptor_node_id": 61406,
+            "raptor_node_level": 1,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "507903-0-592",
+              "346760-0-445",
+              "298779-0-748",
+              "342025-0-1056",
+              "446652-0-536",
+              "141221-0-680",
+              "482884-0-275"
+            ]
+          },
+          {
+            "rank": 9,
+            "doc_id": "raptor_summary_61401",
+            "score": 0.493149,
+            "score_type": "cosine",
+            "text": "To determine if a project increases the market value of equity, consider that the market value of equity may not reflect the NPV of $40M, especially with $50M in debt. The formula for Enterprise Value (EV) is EV = Market Value of Equity + Debt - Cash and Cash Equivalents. Thus, updating the market value of equity with the $40M NPV would adjust EV accordingly.\n\nEV represents the acquisition price of a company, typically calculated as debt-free and cash-free",
+            "raptor_node_id": 61401,
+            "raptor_node_level": 1,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "366249-0-656",
+              "131957-0-543",
+              "192515-0-701",
+              "563732-0-464"
+            ]
+          },
+          {
+            "rank": 10,
+            "doc_id": "486421-0-414",
+            "score": 0.485487,
+            "score_type": "cosine",
+            "text": "\n\"I like this explanation the best.  EV is trying to get at the value of the underlying business, excluding the capital structure you currently have on the company.  If your lemonade stand is worth $100, but the business also comes with $50 in cash lying around (and no debt), then the EV is $100.  But the price you'd pay the owner (the \"\"market cap\"\") is $150, because it's like you get an immediate cash rebate.\"",
+            "raptor_node_id": 51215,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "486421-0-414"
+            ]
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "raptor_summary_61404",
+            "score": 0.650463,
+            "score_type": "cosine",
+            "text": "Enterprise Value (EV) represents the value of a firm's operating assets, typically used with unlevered income statement or cash flow ratios (e.g., revenue, EBIT, EBITDA, unlevered FCF). EV is calculated as EV = equity + debt - cash, and is capital structure-neutral, making it useful for comparing companies with different capital structures. Investors use EV/EBITDA to assess risk-adjusted returns, but accurate EV assessment requires market quotations for company debt, as book values may",
+            "raptor_node_id": 61404,
+            "raptor_node_level": 1,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "380851-0-2447",
+              "113693-0-266",
+              "72666-0-609",
+              "486421-0-414",
+              "274358-0-414"
+            ]
+          },
+          {
+            "rank": 2,
+            "doc_id": "192515-0-701",
+            "score": 0.58843,
+            "score_type": "cosine",
+            "text": "\nEnterprise Value is supposed to be the price you would be willing to pay to acquire the company. Typically, companies are delivered debt-free and cash-free, so the cash on the balance sheet at the time of the transaction is distributed to the original owners. So, for instance, a company like Apple would have a lower EV than Market Value because the cash on the balance sheet is not going to be included in an acquisition.  And you are right, there are plenty of instances where you see Enterprise Value lower than Market Value (Cap).   If you are solely looking at equity valuation (equity investing), then use market cap. If you are looking at firm valuation for M&amp;A, then EV is more important.",
+            "raptor_node_id": 20829,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "192515-0-701"
+            ]
+          },
+          {
+            "rank": 3,
+            "doc_id": "72666-0-609",
+            "score": 0.514585,
+            "score_type": "cosine",
+            "text": "\nI think the most concise way to understand EV is the value of the *operating assets* of the firm. It's most generally used when using income statement or cash flow ratios that are unlevered - before applying interest expense (which if the firm is optimally financed, in theory should only impact the equity). Examples include revenue, EBIT, EBITDA, unlevered FCF, etc.  In your hypothetical scenario, you would expect the equity value of the firm to increase linearly as cash builds up. In other words, in some implausible, ceteris paribus formulation of the firm, the enterprise value should remain constant.",
+            "raptor_node_id": 1804,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "72666-0-609"
+            ]
+          },
+          {
+            "rank": 4,
+            "doc_id": "346760-0-445",
+            "score": 0.513422,
+            "score_type": "cosine",
+            "text": "\n\"Read again what I said in my original post.  \"\"Enterprise Value is the sort of \"\"bare bones\"\" total firm value. It doesn't include any cash because you'd basically be paying cash for cash. Also, this makes analysis of transaction multiples more streamlined, as some firms may have a ton of excess cash on their balance sheet, skewing multiples.\"\"  I said that that is WHY we use enterprise value. Because if you didn't it would skew multiples.\"",
+            "raptor_node_id": 27876,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "346760-0-445"
+            ]
+          },
+          {
+            "rank": 5,
+            "doc_id": "98947-0-486",
+            "score": 0.512215,
+            "score_type": "cosine",
+            "text": "\n\"Market cap is synonymous with equity value, which is one way of thinking of a company's \"\"worth.\"\"  The alternative would be enterprise value, which is calculated as follows:  Enterprise Value = Market Value of Equity + Market Value of Debt - Cash and Equivalents - Non-Operating Assets  Enterprise value is essentially \"\"how much is the firm worth to ALL providers of capital.\"\" It can be viewed as \"\"if I wanted to buy the *entire* company, debt and all, what would I have to pay?\"\"\"",
+            "raptor_node_id": 9847,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "98947-0-486"
+            ]
+          }
+        ]
+      },
+      "generation": {
+        "model": "gpt-4o-mini",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Enterprise Value (EV) represents the total value of a firm's operating assets and is calculated as EV = equity + debt - cash. It is capital structure-neutral, making it useful for comparing companies with different capital structures. EV is particularly important in mergers and acquisitions (M&A) as it reflects the price one would be willing to pay to acquire the entire company, debt and all, while excluding cash on the balance sheet. This makes EV a more accurate measure for assessing the value of a firm compared to market capitalization, especially when considering firms with significant cash reserves or debt.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "raptor_summary_61404",
+          "score": 0.650463,
+          "score_type": "cosine",
+          "text": "Enterprise Value (EV) represents the value of a firm's operating assets, typically used with unlevered income statement or cash flow ratios (e.g., revenue, EBIT, EBITDA, unlevered FCF). EV is calculated as EV = equity + debt - cash, and is capital structure-neutral, making it useful for comparing companies with different capital structures. Investors use EV/EBITDA to assess risk-adjusted returns, but accurate EV assessment requires market quotations for company debt, as book values may",
+          "raptor_node_id": 61404,
+          "raptor_node_level": 1,
+          "raptor_node_type": "summary",
+          "source_document_ids": [
+            "380851-0-2447",
+            "113693-0-266",
+            "72666-0-609",
+            "486421-0-414",
+            "274358-0-414"
+          ]
+        },
+        {
+          "rank": 2,
+          "doc_id": "192515-0-701",
+          "score": 0.58843,
+          "score_type": "cosine",
+          "text": "\nEnterprise Value is supposed to be the price you would be willing to pay to acquire the company. Typically, companies are delivered debt-free and cash-free, so the cash on the balance sheet at the time of the transaction is distributed to the original owners. So, for instance, a company like Apple would have a lower EV than Market Value because the cash on the balance sheet is not going to be included in an acquisition.  And you are right, there are plenty of instances where you see Enterprise Value lower than Market Value (Cap).   If you are solely looking at equity valuation (equity investing), then use market cap. If you are looking at firm valuation for M&amp;A, then EV is more important.",
+          "raptor_node_id": 20829,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "192515-0-701"
+          ]
+        },
+        {
+          "rank": 3,
+          "doc_id": "72666-0-609",
+          "score": 0.514585,
+          "score_type": "cosine",
+          "text": "\nI think the most concise way to understand EV is the value of the *operating assets* of the firm. It's most generally used when using income statement or cash flow ratios that are unlevered - before applying interest expense (which if the firm is optimally financed, in theory should only impact the equity). Examples include revenue, EBIT, EBITDA, unlevered FCF, etc.  In your hypothetical scenario, you would expect the equity value of the firm to increase linearly as cash builds up. In other words, in some implausible, ceteris paribus formulation of the firm, the enterprise value should remain constant.",
+          "raptor_node_id": 1804,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "72666-0-609"
+          ]
+        },
+        {
+          "rank": 4,
+          "doc_id": "346760-0-445",
+          "score": 0.513422,
+          "score_type": "cosine",
+          "text": "\n\"Read again what I said in my original post.  \"\"Enterprise Value is the sort of \"\"bare bones\"\" total firm value. It doesn't include any cash because you'd basically be paying cash for cash. Also, this makes analysis of transaction multiples more streamlined, as some firms may have a ton of excess cash on their balance sheet, skewing multiples.\"\"  I said that that is WHY we use enterprise value. Because if you didn't it would skew multiples.\"",
+          "raptor_node_id": 27876,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "346760-0-445"
+          ]
+        },
+        {
+          "rank": 5,
+          "doc_id": "98947-0-486",
+          "score": 0.512215,
+          "score_type": "cosine",
+          "text": "\n\"Market cap is synonymous with equity value, which is one way of thinking of a company's \"\"worth.\"\"  The alternative would be enterprise value, which is calculated as follows:  Enterprise Value = Market Value of Equity + Market Value of Debt - Cash and Equivalents - Non-Operating Assets  Enterprise value is essentially \"\"how much is the firm worth to ALL providers of capital.\"\" It can be viewed as \"\"if I wanted to buy the *entire* company, debt and all, what would I have to pay?\"\"\"",
+          "raptor_node_id": 9847,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "98947-0-486"
+          ]
+        }
+      ],
+      "reference": {
+        "answer": "Enterprise value is the estimated cost of acquiring a company. Typically, companies are acquired without any debt or cash, so any cash on the balance sheet at the time of the transaction is given to the original owners. The Enterprise Value represents the fundamental total value of the firm. It excludes cash because paying for cash with cash doesn't make sense. This also simplifies the analysis of transaction multiples, as some companies might have a significant amount of extra cash on their balance sheet, which could distort the multiples.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Non-Question"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "4",
+      "task_id": "e9dd465e8dd63a80dda8f3ce9cba6848<::>4",
+      "question": "How is it calculated?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": " What's the difference between Market Cap and NAV?"
+        },
+        {
+          "role": "assistant",
+          "content": "The market cap is simply the share price multiplied by the number of shares. It doesn't indicate any inherent value; rather, it reflects what people believe the company is worth. NAV, or net asset value, is the total value of the company's assets divided by the number of shares. This is also referred to as the book value. In summary, market cap is calculated by multiplying the share price by the number of shares."
+        },
+        {
+          "role": "user",
+          "content": "Which is more important?"
+        },
+        {
+          "role": "assistant",
+          "content": "Both market capitalization and net asset value (NAV) provide different perspectives on a company's value. Market cap is basically the amount of money that it would cost to buy all of the company's shares of public stock. On the other hand, NAV adds up all the assets and subtracts all the liabilities, essentially representing a bookkeeping exercise."
+        },
+        {
+          "role": "user",
+          "content": "enterprise value"
+        },
+        {
+          "role": "assistant",
+          "content": "Enterprise value is the estimated cost of acquiring a company. Typically, companies are acquired without any debt or cash, so any cash on the balance sheet at the time of the transaction is given to the original owners. The Enterprise Value represents the fundamental total value of the firm. It excludes cash because paying for cash with cash doesn't make sense. This also simplifies the analysis of transaction multiples, as some companies might have a significant amount of extra cash on their balance sheet, which could distort the multiples."
+        }
+      ],
+      "retrieval": {
+        "query": "How is it calculated?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": "How is it calculated?",
+        "k": 10,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "215659-0-293",
+            "score": 0.511999,
+            "score_type": "cosine",
+            "text": "\nTo calculate you take the Price and divide it by the Earnings, or by the Sales, or by the Free Cash Flow. Most of these calculations are done for you on a lot of finance sites if the data is available. Such sites as Yahoo Finance and Google Finance as well as my personal favorite: Morningstar",
+            "raptor_node_id": 17772,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "215659-0-293"
+            ]
+          },
+          {
+            "rank": 2,
+            "doc_id": "83587-0-719",
+            "score": 0.500574,
+            "score_type": "cosine",
+            "text": "\nYou are calculating using different methods.  For example, to obtain 6.45% 6.44647 This is effectively the same as the money-weighted return calculation. In arriving at 6.06% you have calculated the true time-weighted return. Both answers are right, but they are different measures. To use time-weighted returns you need to know the value of the investment at the time of every cash flow. Modified Dietz uses a simple approximation to avoid that requirement.  Money-weighted return gives results that are more accurate for back calculating than Modified Dietz, (also without requiring interim valuations), but the calculation is more complex. See How to Calculate your Portfolio's Rate of Return for a decent reference.",
+            "raptor_node_id": 8725,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "83587-0-719"
+            ]
+          },
+          {
+            "rank": 3,
+            "doc_id": "347957-0-543",
+            "score": 0.489361,
+            "score_type": "cosine",
+            "text": "\nIt is a good enough approximation. With a single event you can do it your way and get a better result, but imagine that the $300 are spread over a certain period with $10 contribution each time? Then recalculating and compounding will be a lot of work to do. The original ROI formula is averaging the ROI by definition, so why bother with precise calculations of averages that are imprecise by definition, when you can just adjust the average without losing the level of precision? 11.4 and 11.3 aren't significantly different, its immaterial.",
+            "raptor_node_id": 27979,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "347957-0-543"
+            ]
+          },
+          {
+            "rank": 4,
+            "doc_id": "386131-0-271",
+            "score": 0.481983,
+            "score_type": "cosine",
+            "text": "\nThat's why I said you can do a weighted average and take into account other factors. The initial average calculation is just a simple, high level average to compare betas across different listings. For a more precise calculation you would have to weigh different factors.",
+            "raptor_node_id": 32840,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "386131-0-271"
+            ]
+          },
+          {
+            "rank": 5,
+            "doc_id": "349611-0-390",
+            "score": 0.480106,
+            "score_type": "cosine",
+            "text": "\nI would like to know how they calculated such monthly payment The formula is:  Your values would come out to be: r = (1+3.06/(100*365))^31-1=0.002602 (converting your annual percentage to a monthly rate equivalent of daily compounded interest) PV = 12865.57 n = 48 Inserting your values into the formula: P = [r*(PV)]/[1-(1+r)^(-n)] P = [0.002602*(12865.57)]/[1-(1.002602)^(-48)] P = 285.47",
+            "raptor_node_id": 27117,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "349611-0-390"
+            ]
+          },
+          {
+            "rank": 6,
+            "doc_id": "465059-0-1346",
+            "score": 0.478378,
+            "score_type": "cosine",
+            "text": "\nThe 1.140924% is calculated by taking 13.69%/12 = 1.140924%. Dividing this number by 100 gives you the answer 1.140924 / 100 = .01140924. When dealing with decimals it's important to remember the relationship between a decimal and a percent. 1% = .01 To return .01 to a percent you must multiple that number by 100.  So .01 x 100 = 1% In order to get a decimal from a percent, which is what is used in calculations, you must divide by 100. So, here if we are trying to calculate how much interest you are paying each month we can do this: 9800 * .1369 = $1341.62 (interest you will pay that year IF the principal balance never changed) 1341.62 / 12 = ~111.81 Now, month two 9578.34 * .1369 = 1311.274746 1311.274746 / 12 = 109.28 In order to get your monthly payments (which won't change) for the life of the loan, you can use this formula: Monthly payment = r(PV) / (1-(1+r)^-n) Where:  r= Interest Rate (remember if calculating monthly to do .1369/12) PV= Present Value of loan n=time of loan ( in your case 36 since we are talking monthly and 12*3 = 36) from here we get: [(.1369/12)*9800]/(1-(1+.1369/12)^-36) = $333.467 when rounding is $333.47 As far as actual applied interest rate, I'm not even sure what that number is, but I would like to know once you figure out, since the interest rate you're being charged is most definitely 13.69%.",
+            "raptor_node_id": 48291,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "465059-0-1346"
+            ]
+          },
+          {
+            "rank": 7,
+            "doc_id": "316363-0-1234",
+            "score": 0.476158,
+            "score_type": "cosine",
+            "text": "\nQuestion is, what is this number 0.01140924 13.69/12=0.01140924 In addition, how does one come out with the EIR as 13.69% pa? When calculating payments, PV = 9800, N=36 (months), PMT=333.47, results in a rate of 1.140924% per period, and rate of 13.69%/yr. No idea how they claim 7.5% In Excel, type =RATE(36,333.47,-9800,0,0) And you will get 1.141% as the result.  36 = #payments, 333.47 = payment per period, -9800 is the principal (negative, remember this) And the zeros are to say the payments are month end, second zero is the guess.  Edit - I saw the loan is from a Singapore bank. It appears they have different rules on the rates they quote. As quid's answer showed the math, here's the bank's offer page -  The EIR is the rate that we, not just US, but most board members, are used to. I thought I'd offer an example using a 30 year mortgage.   Yo can see above, a 6% fixed rate somehow morphs into a 3.86% AR. No offense to the Singapore bankers, but I see little value in this number. What surprises me most, is that I've not seen this before.  What's baffling is when I change a 15yr term the AP drops to less than half. It's still a 6% loan and there's nothing about it that's 2 percent-ish, in my opinion.  Now we know.",
+            "raptor_node_id": 38553,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "316363-0-1234"
+            ]
+          },
+          {
+            "rank": 8,
+            "doc_id": "281495-0-841",
+            "score": 0.472951,
+            "score_type": "cosine",
+            "text": "\nLine one shows your 1M, a return with a given rate, and year end withdrawal starting at 25,000.  So Line 2 starts with that balance, applies the rate again, and shows the higher withdrawal, by 3%/yr.  In Column one, I show the cumulative effect of the 3% inflation, and the last number in this column is the final balance (903K) but divided by the cumulative inflation.  To summarize - if you simply get the return of inflation, and start by spending just that amount, you'll find that after 20 years, you have half your real value.  The 1.029 is a trial and error method, as I don't know how a finance calculator would handle such a payment flow. I can load the sheet somewhere if you'd like.  Note: This is not exactly what the OP was looking for. If the concept is useful, I'll let it stand. If not, downvotes are welcome and I'll delete.",
+            "raptor_node_id": 39969,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "281495-0-841"
+            ]
+          },
+          {
+            "rank": 9,
+            "doc_id": "266319-0-694",
+            "score": 0.472398,
+            "score_type": "cosine",
+            "text": "\nThe equation for the payment is  This board does not support Latex (the number formatting code) so the above is an image, the code is M is the payment calculated, n is the number of months or periods to pay off, and i is the rate per period. You can see that with i appearing 3 times in this equation, it's not possible to isolate to the form i=....  so a calculator will 'guess,' and use, say, 10%. It then raises or lowers the rate until the result is within the calculator's tolerance. I've observed that unlike other calculations, when you hit the button to calculate, a noticeable time lag occurs. I hope I haven't read too much into your question, it seemed to me this was what you asked.",
+            "raptor_node_id": 41113,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "266319-0-694"
+            ]
+          },
+          {
+            "rank": 10,
+            "doc_id": "191564-0-944",
+            "score": 0.469907,
+            "score_type": "cosine",
+            "text": "\n\"It means that at the end of each month, the APY, divided by 365 (366 for leap years) is multiplied by your account's ending balance on each day of that month, then those interest amounts are summed up and paid out. It's exactly equivalent to the \"\"Average Daily Balance\"\" method; at the end of each month, the balance of your account on each day is summed, divided by the number of days in the month, then that number is multiplied by the APY / 365 * (number of days in the month). If you write out all these terms and simplify, you'll find the two boil down to exactly the same calculation being performed in different order (possibly with differing potential for rounding error). The only difference between them is whether the daily interest percentage is distributed to each daily balance or applied to the sum, and whether there's an additional redundant pair of steps of dividing and then multiplying by the number of days in the month.\"",
+            "raptor_node_id": 21274,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "191564-0-944"
+            ]
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "215659-0-293",
+            "score": 0.511999,
+            "score_type": "cosine",
+            "text": "\nTo calculate you take the Price and divide it by the Earnings, or by the Sales, or by the Free Cash Flow. Most of these calculations are done for you on a lot of finance sites if the data is available. Such sites as Yahoo Finance and Google Finance as well as my personal favorite: Morningstar",
+            "raptor_node_id": 17772,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "215659-0-293"
+            ]
+          },
+          {
+            "rank": 2,
+            "doc_id": "83587-0-719",
+            "score": 0.500574,
+            "score_type": "cosine",
+            "text": "\nYou are calculating using different methods.  For example, to obtain 6.45% 6.44647 This is effectively the same as the money-weighted return calculation. In arriving at 6.06% you have calculated the true time-weighted return. Both answers are right, but they are different measures. To use time-weighted returns you need to know the value of the investment at the time of every cash flow. Modified Dietz uses a simple approximation to avoid that requirement.  Money-weighted return gives results that are more accurate for back calculating than Modified Dietz, (also without requiring interim valuations), but the calculation is more complex. See How to Calculate your Portfolio's Rate of Return for a decent reference.",
+            "raptor_node_id": 8725,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "83587-0-719"
+            ]
+          },
+          {
+            "rank": 3,
+            "doc_id": "347957-0-543",
+            "score": 0.489361,
+            "score_type": "cosine",
+            "text": "\nIt is a good enough approximation. With a single event you can do it your way and get a better result, but imagine that the $300 are spread over a certain period with $10 contribution each time? Then recalculating and compounding will be a lot of work to do. The original ROI formula is averaging the ROI by definition, so why bother with precise calculations of averages that are imprecise by definition, when you can just adjust the average without losing the level of precision? 11.4 and 11.3 aren't significantly different, its immaterial.",
+            "raptor_node_id": 27979,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "347957-0-543"
+            ]
+          },
+          {
+            "rank": 4,
+            "doc_id": "386131-0-271",
+            "score": 0.481983,
+            "score_type": "cosine",
+            "text": "\nThat's why I said you can do a weighted average and take into account other factors. The initial average calculation is just a simple, high level average to compare betas across different listings. For a more precise calculation you would have to weigh different factors.",
+            "raptor_node_id": 32840,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "386131-0-271"
+            ]
+          },
+          {
+            "rank": 5,
+            "doc_id": "349611-0-390",
+            "score": 0.480106,
+            "score_type": "cosine",
+            "text": "\nI would like to know how they calculated such monthly payment The formula is:  Your values would come out to be: r = (1+3.06/(100*365))^31-1=0.002602 (converting your annual percentage to a monthly rate equivalent of daily compounded interest) PV = 12865.57 n = 48 Inserting your values into the formula: P = [r*(PV)]/[1-(1+r)^(-n)] P = [0.002602*(12865.57)]/[1-(1.002602)^(-48)] P = 285.47",
+            "raptor_node_id": 27117,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "349611-0-390"
+            ]
+          }
+        ]
+      },
+      "generation": {
+        "model": "gpt-4o-mini",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Enterprise value is calculated using the following formula:\n\n\\[ \\text{Enterprise Value} = \\text{Market Capitalization} + \\text{Total Debt} - \\text{Cash and Cash Equivalents} \\]\n\nIn this formula:\n- **Market Capitalization** is the total market value of a company's outstanding shares.\n- **Total Debt** includes all short-term and long-term debt.\n- **Cash and Cash Equivalents** are the liquid assets that can be easily converted to cash.\n\nThis calculation provides a comprehensive view of a company's total value, taking into account its equity, debt, and cash reserves.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "215659-0-293",
+          "score": 0.511999,
+          "score_type": "cosine",
+          "text": "\nTo calculate you take the Price and divide it by the Earnings, or by the Sales, or by the Free Cash Flow. Most of these calculations are done for you on a lot of finance sites if the data is available. Such sites as Yahoo Finance and Google Finance as well as my personal favorite: Morningstar",
+          "raptor_node_id": 17772,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "215659-0-293"
+          ]
+        },
+        {
+          "rank": 2,
+          "doc_id": "83587-0-719",
+          "score": 0.500574,
+          "score_type": "cosine",
+          "text": "\nYou are calculating using different methods.  For example, to obtain 6.45% 6.44647 This is effectively the same as the money-weighted return calculation. In arriving at 6.06% you have calculated the true time-weighted return. Both answers are right, but they are different measures. To use time-weighted returns you need to know the value of the investment at the time of every cash flow. Modified Dietz uses a simple approximation to avoid that requirement.  Money-weighted return gives results that are more accurate for back calculating than Modified Dietz, (also without requiring interim valuations), but the calculation is more complex. See How to Calculate your Portfolio's Rate of Return for a decent reference.",
+          "raptor_node_id": 8725,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "83587-0-719"
+          ]
+        },
+        {
+          "rank": 3,
+          "doc_id": "347957-0-543",
+          "score": 0.489361,
+          "score_type": "cosine",
+          "text": "\nIt is a good enough approximation. With a single event you can do it your way and get a better result, but imagine that the $300 are spread over a certain period with $10 contribution each time? Then recalculating and compounding will be a lot of work to do. The original ROI formula is averaging the ROI by definition, so why bother with precise calculations of averages that are imprecise by definition, when you can just adjust the average without losing the level of precision? 11.4 and 11.3 aren't significantly different, its immaterial.",
+          "raptor_node_id": 27979,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "347957-0-543"
+          ]
+        },
+        {
+          "rank": 4,
+          "doc_id": "386131-0-271",
+          "score": 0.481983,
+          "score_type": "cosine",
+          "text": "\nThat's why I said you can do a weighted average and take into account other factors. The initial average calculation is just a simple, high level average to compare betas across different listings. For a more precise calculation you would have to weigh different factors.",
+          "raptor_node_id": 32840,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "386131-0-271"
+          ]
+        },
+        {
+          "rank": 5,
+          "doc_id": "349611-0-390",
+          "score": 0.480106,
+          "score_type": "cosine",
+          "text": "\nI would like to know how they calculated such monthly payment The formula is:  Your values would come out to be: r = (1+3.06/(100*365))^31-1=0.002602 (converting your annual percentage to a monthly rate equivalent of daily compounded interest) PV = 12865.57 n = 48 Inserting your values into the formula: P = [r*(PV)]/[1-(1+r)^(-n)] P = [0.002602*(12865.57)]/[1-(1.002602)^(-48)] P = 285.47",
+          "raptor_node_id": 27117,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "349611-0-390"
+          ]
+        }
+      ],
+      "reference": {
+        "answer": "Calculating a company's enterprise value requires considering several factors. The equation for enterprise value is as follows: EV = Market Cap + Minority Interest + Preferred Stock + Debt—Cash. Enterprise value represents the total value of a company to all its shareholders, including creditors, preferred stockholders, and common stockholders. It's important to note that taking on debt can either increase or decrease the enterprise value, depending on the company's cash balance.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "How-To"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "5",
+      "task_id": "e9dd465e8dd63a80dda8f3ce9cba6848<::>5",
+      "question": "What is WACC?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": " What's the difference between Market Cap and NAV?"
+        },
+        {
+          "role": "assistant",
+          "content": "The market cap is simply the share price multiplied by the number of shares. It doesn't indicate any inherent value; rather, it reflects what people believe the company is worth. NAV, or net asset value, is the total value of the company's assets divided by the number of shares. This is also referred to as the book value. In summary, market cap is calculated by multiplying the share price by the number of shares."
+        },
+        {
+          "role": "user",
+          "content": "Which is more important?"
+        },
+        {
+          "role": "assistant",
+          "content": "Both market capitalization and net asset value (NAV) provide different perspectives on a company's value. Market cap is basically the amount of money that it would cost to buy all of the company's shares of public stock. On the other hand, NAV adds up all the assets and subtracts all the liabilities, essentially representing a bookkeeping exercise."
+        },
+        {
+          "role": "user",
+          "content": "enterprise value"
+        },
+        {
+          "role": "assistant",
+          "content": "Enterprise value is the estimated cost of acquiring a company. Typically, companies are acquired without any debt or cash, so any cash on the balance sheet at the time of the transaction is given to the original owners. The Enterprise Value represents the fundamental total value of the firm. It excludes cash because paying for cash with cash doesn't make sense. This also simplifies the analysis of transaction multiples, as some companies might have a significant amount of extra cash on their balance sheet, which could distort the multiples."
+        },
+        {
+          "role": "user",
+          "content": "How is it calculated?"
+        },
+        {
+          "role": "assistant",
+          "content": "Calculating a company's enterprise value requires considering several factors. The equation for enterprise value is as follows: EV = Market Cap + Minority Interest + Preferred Stock + Debt—Cash. Enterprise value represents the total value of a company to all its shareholders, including creditors, preferred stockholders, and common stockholders. It's important to note that taking on debt can either increase or decrease the enterprise value, depending on the company's cash balance."
+        }
+      ],
+      "retrieval": {
+        "query": "What is WACC?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": "What is WACC?",
+        "k": 10,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "raptor_summary_73019",
+            "score": 0.651258,
+            "score_type": "cosine",
+            "text": "The discussion emphasizes the significance of estimating the Weighted Average Cost of Capital (WACC) in relation to enterprise value and share price. Key points include:\n\n1. **WACC Estimation**: WACC is essential for linking enterprise value to share price by subtracting debt to find equity value and dividing by shares to determine price.\n2. **Infrastructure Deals**: These involve project financing through a Special Purpose Vehicle (SPV).\n3. **Cost of Debt**: An investor seeks advice on determining",
+            "raptor_node_id": 73019,
+            "raptor_node_level": 2,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "151153-0-213",
+              "293822-0-382",
+              "227019-0-371",
+              "477310-0-1809",
+              "303509-0-1101",
+              "254091-0-2183",
+              "554465-0-780",
+              "406542-0-549",
+              "473599-0-269",
+              "492022-0-374",
+              "282674-0-487",
+              "172590-0-503",
+              "37659-0-483",
+              "217726-0-353",
+              "466107-0-238",
+              "220327-0-819",
+              "503449-0-560",
+              "915-0-986",
+              "162488-0-790"
+            ]
+          },
+          {
+            "rank": 2,
+            "doc_id": "raptor_summary_61310",
+            "score": 0.6508,
+            "score_type": "cosine",
+            "text": "The discussion revolves around calculating the Weighted Average Cost of Capital (WACC) and its implications for valuation. An individual investor seeks guidance on determining the cost of debt for WACC, expressing uncertainty about using average coupon rates from outstanding bonds. Suggestions include reviewing SEC filings prior to conservatorship and comparing peer financials, while noting that for Government-Sponsored Enterprises (GSEs), the cost of capital may align with U.S. Treasury rates.\n\nKey concepts highlighted include the importance of Return on Capital Em",
+            "raptor_node_id": 61310,
+            "raptor_node_level": 1,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "554465-0-780",
+              "406542-0-549",
+              "473599-0-269",
+              "492022-0-374",
+              "282674-0-487",
+              "172590-0-503",
+              "37659-0-483"
+            ]
+          },
+          {
+            "rank": 3,
+            "doc_id": "raptor_summary_61303",
+            "score": 0.642821,
+            "score_type": "cosine",
+            "text": "The discussion focuses on estimating the worth of a situation, emphasizing the importance of understanding the Weighted Average Cost of Capital (WACC) and its relation to enterprise value and share price. Key points include:\n\n1. **WACC Estimation**: It's crucial to introduce WACC and its calculation, linking enterprise value to share price by subtracting debt to derive equity value and dividing by shares for price.\n\n2. **Infrastructure Deals**: These are characterized by:\n   - Project financing through a Special Purpose",
+            "raptor_node_id": 61303,
+            "raptor_node_level": 1,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "151153-0-213",
+              "293822-0-382",
+              "227019-0-371",
+              "477310-0-1809",
+              "303509-0-1101",
+              "254091-0-2183"
+            ]
+          },
+          {
+            "rank": 4,
+            "doc_id": "554465-0-780",
+            "score": 0.642642,
+            "score_type": "cosine",
+            "text": "\nIf you want to see a more academic version of this look up Weighted Average Cost of Capital (WACC).   It's a formula that tells you how much it costs for a company to raise $1 of capital whether it be through issuing bonds or stocks.   One thing you learn is that there are times that if you take on loans (even if you don't need it) you can raise shareholder value and therefore the total company netvalue. The thought process is (as it states in the article above) that a company can issue debt for cheaper than issue shares and it will have extra cash which it can use to get a better return than its net effective interest rate.   I tried to give an example but I only ended up rehashing what it says in the article. Anyhow look up WACC and you'll understand the fundamentals.",
+            "raptor_node_id": 59109,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "554465-0-780"
+            ]
+          },
+          {
+            "rank": 5,
+            "doc_id": "406542-0-549",
+            "score": 0.630483,
+            "score_type": "cosine",
+            "text": "\nOn a company level ROCE over WACC would be more meaningful in my view but the end result should be be pretty much the same. This concept is closely related to value creation. Value can only be created when a company's ROCE is exceeding its cost of funding - WACC. This is also tightly related with the NPV concept. Value is only created when the NPV on a project is &gt;0.  And to directly answer OP. Study in detail WACC. (weighted average cost of capital). Focus on the Modigliani–Miller theorem with taxes and financial distress costs. Good luck.",
+            "raptor_node_id": 33478,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "406542-0-549"
+            ]
+          },
+          {
+            "rank": 6,
+            "doc_id": "raptor_summary_61336",
+            "score": 0.604055,
+            "score_type": "cosine",
+            "text": "The discussion revolves around the calculation of the Weighted Average Cost of Capital (WACC) and its application as a discount rate. The author has set an accounts receivable period of 30 days and calculated the cash not in hand by applying a factor of 30/365 to revenue. They express skepticism about estimating cash flow using only Net Sales and COGS, suggesting that knowledge of average days outstanding, inventory turnover, and vendor terms is necessary for accurate calculations.\n\nThe conversation also touches on the implications",
+            "raptor_node_id": 61336,
+            "raptor_node_level": 1,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "240252-0-343",
+              "244790-0-440",
+              "563264-0-704",
+              "597117-0-1418"
+            ]
+          },
+          {
+            "rank": 7,
+            "doc_id": "492022-0-374",
+            "score": 0.581098,
+            "score_type": "cosine",
+            "text": "\nIf you're taking a Terminal DCF, you shouldn't be using 1-year risk free rates, so the 2.77% is probably much more accurate. That being said, we're in a historically low-rate environment, so even the 2.77% is probably a bit low.   Here's another data point that puts the WACC at 8%:  [http://www.wikiwealth.com/wacc-analysis:mcd](http://www.wikiwealth.com/wacc-analysis:mcd)",
+            "raptor_node_id": 51308,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "492022-0-374"
+            ]
+          },
+          {
+            "rank": 8,
+            "doc_id": "282674-0-487",
+            "score": 0.576574,
+            "score_type": "cosine",
+            "text": "\nHey all,  I have no idea what to do in order to calculate the wacc. It just doesn't make sense to me! And more so, understanding the circumstances in which it would be appropriate to use the company's wacc as the discount rate in the project.   The Australian company tax rate: 27.5%  Applicable date for risk free rates: 28/8/17  10 year rate for risk free: 2.615%  8 year risk free rate- 2.505%  Credit spread for corporate bond: 95bp  I just don;t understand what I am supposed to do!",
+            "raptor_node_id": 39852,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "282674-0-487"
+            ]
+          },
+          {
+            "rank": 9,
+            "doc_id": "467535-0-727",
+            "score": 0.538317,
+            "score_type": "cosine",
+            "text": "\nEach situation is different, but it has to do with assessing what the Company is trying to do. People always talk about WACC, but in reality, WACC is less important than figuring how how much debt a Company can support (determined by leverage and solvency statistics).  Here are a few things to think about:  -How stable are the Company's cash flows? (big difference between a Company that has multi-year contracts locked in place vs. variable/cyclical revenue streams; what type of Capex requirement is there?)  -What is the purpose of raising the capital? (growth vs. recapitalization; where are the proceeds going?)  -What collateral is available for creditors?  -What does working capital look like? (is there seasonality?)",
+            "raptor_node_id": 48193,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "467535-0-727"
+            ]
+          },
+          {
+            "rank": 10,
+            "doc_id": "raptor_summary_67842",
+            "score": 0.528815,
+            "score_type": "cosine",
+            "text": "The author, with limited finance background, discusses investment strategies, emphasizing the Capital Asset Pricing Model (CAPM) as foundational for valuing securities by using a risk-free rate, typically T-bills. For corporate finance, the Weighted Average Cost of Capital (WACC) serves as a discount rate for cash flows in project evaluations. However, both CAPM and WACC are pricing models, not risk models. The author highlights the importance of diversification in investment portfolios and suggests various hedging strategies for different",
+            "raptor_node_id": 67842,
+            "raptor_node_level": 1,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "597850-0-335",
+              "131117-0-1381"
+            ]
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "raptor_summary_73019",
+            "score": 0.651258,
+            "score_type": "cosine",
+            "text": "The discussion emphasizes the significance of estimating the Weighted Average Cost of Capital (WACC) in relation to enterprise value and share price. Key points include:\n\n1. **WACC Estimation**: WACC is essential for linking enterprise value to share price by subtracting debt to find equity value and dividing by shares to determine price.\n2. **Infrastructure Deals**: These involve project financing through a Special Purpose Vehicle (SPV).\n3. **Cost of Debt**: An investor seeks advice on determining",
+            "raptor_node_id": 73019,
+            "raptor_node_level": 2,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "151153-0-213",
+              "293822-0-382",
+              "227019-0-371",
+              "477310-0-1809",
+              "303509-0-1101",
+              "254091-0-2183",
+              "554465-0-780",
+              "406542-0-549",
+              "473599-0-269",
+              "492022-0-374",
+              "282674-0-487",
+              "172590-0-503",
+              "37659-0-483",
+              "217726-0-353",
+              "466107-0-238",
+              "220327-0-819",
+              "503449-0-560",
+              "915-0-986",
+              "162488-0-790"
+            ]
+          },
+          {
+            "rank": 2,
+            "doc_id": "raptor_summary_61310",
+            "score": 0.6508,
+            "score_type": "cosine",
+            "text": "The discussion revolves around calculating the Weighted Average Cost of Capital (WACC) and its implications for valuation. An individual investor seeks guidance on determining the cost of debt for WACC, expressing uncertainty about using average coupon rates from outstanding bonds. Suggestions include reviewing SEC filings prior to conservatorship and comparing peer financials, while noting that for Government-Sponsored Enterprises (GSEs), the cost of capital may align with U.S. Treasury rates.\n\nKey concepts highlighted include the importance of Return on Capital Em",
+            "raptor_node_id": 61310,
+            "raptor_node_level": 1,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "554465-0-780",
+              "406542-0-549",
+              "473599-0-269",
+              "492022-0-374",
+              "282674-0-487",
+              "172590-0-503",
+              "37659-0-483"
+            ]
+          },
+          {
+            "rank": 3,
+            "doc_id": "raptor_summary_61303",
+            "score": 0.642821,
+            "score_type": "cosine",
+            "text": "The discussion focuses on estimating the worth of a situation, emphasizing the importance of understanding the Weighted Average Cost of Capital (WACC) and its relation to enterprise value and share price. Key points include:\n\n1. **WACC Estimation**: It's crucial to introduce WACC and its calculation, linking enterprise value to share price by subtracting debt to derive equity value and dividing by shares for price.\n\n2. **Infrastructure Deals**: These are characterized by:\n   - Project financing through a Special Purpose",
+            "raptor_node_id": 61303,
+            "raptor_node_level": 1,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "151153-0-213",
+              "293822-0-382",
+              "227019-0-371",
+              "477310-0-1809",
+              "303509-0-1101",
+              "254091-0-2183"
+            ]
+          },
+          {
+            "rank": 4,
+            "doc_id": "554465-0-780",
+            "score": 0.642642,
+            "score_type": "cosine",
+            "text": "\nIf you want to see a more academic version of this look up Weighted Average Cost of Capital (WACC).   It's a formula that tells you how much it costs for a company to raise $1 of capital whether it be through issuing bonds or stocks.   One thing you learn is that there are times that if you take on loans (even if you don't need it) you can raise shareholder value and therefore the total company netvalue. The thought process is (as it states in the article above) that a company can issue debt for cheaper than issue shares and it will have extra cash which it can use to get a better return than its net effective interest rate.   I tried to give an example but I only ended up rehashing what it says in the article. Anyhow look up WACC and you'll understand the fundamentals.",
+            "raptor_node_id": 59109,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "554465-0-780"
+            ]
+          },
+          {
+            "rank": 5,
+            "doc_id": "406542-0-549",
+            "score": 0.630483,
+            "score_type": "cosine",
+            "text": "\nOn a company level ROCE over WACC would be more meaningful in my view but the end result should be be pretty much the same. This concept is closely related to value creation. Value can only be created when a company's ROCE is exceeding its cost of funding - WACC. This is also tightly related with the NPV concept. Value is only created when the NPV on a project is &gt;0.  And to directly answer OP. Study in detail WACC. (weighted average cost of capital). Focus on the Modigliani–Miller theorem with taxes and financial distress costs. Good luck.",
+            "raptor_node_id": 33478,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "406542-0-549"
+            ]
+          }
+        ]
+      },
+      "generation": {
+        "model": "gpt-4o-mini",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "WACC, or Weighted Average Cost of Capital, is a financial metric that calculates a company's cost of capital, weighted according to the proportion of each source of capital (equity, debt, etc.) in the company's capital structure. It represents the average rate that a company is expected to pay to finance its assets. WACC is crucial for linking enterprise value to share price, as it helps in assessing investment opportunities and determining the minimum acceptable return on investment. A lower WACC indicates that a company can borrow at a lower cost, which can enhance its value.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "raptor_summary_73019",
+          "score": 0.651258,
+          "score_type": "cosine",
+          "text": "The discussion emphasizes the significance of estimating the Weighted Average Cost of Capital (WACC) in relation to enterprise value and share price. Key points include:\n\n1. **WACC Estimation**: WACC is essential for linking enterprise value to share price by subtracting debt to find equity value and dividing by shares to determine price.\n2. **Infrastructure Deals**: These involve project financing through a Special Purpose Vehicle (SPV).\n3. **Cost of Debt**: An investor seeks advice on determining",
+          "raptor_node_id": 73019,
+          "raptor_node_level": 2,
+          "raptor_node_type": "summary",
+          "source_document_ids": [
+            "151153-0-213",
+            "293822-0-382",
+            "227019-0-371",
+            "477310-0-1809",
+            "303509-0-1101",
+            "254091-0-2183",
+            "554465-0-780",
+            "406542-0-549",
+            "473599-0-269",
+            "492022-0-374",
+            "282674-0-487",
+            "172590-0-503",
+            "37659-0-483",
+            "217726-0-353",
+            "466107-0-238",
+            "220327-0-819",
+            "503449-0-560",
+            "915-0-986",
+            "162488-0-790"
+          ]
+        },
+        {
+          "rank": 2,
+          "doc_id": "raptor_summary_61310",
+          "score": 0.6508,
+          "score_type": "cosine",
+          "text": "The discussion revolves around calculating the Weighted Average Cost of Capital (WACC) and its implications for valuation. An individual investor seeks guidance on determining the cost of debt for WACC, expressing uncertainty about using average coupon rates from outstanding bonds. Suggestions include reviewing SEC filings prior to conservatorship and comparing peer financials, while noting that for Government-Sponsored Enterprises (GSEs), the cost of capital may align with U.S. Treasury rates.\n\nKey concepts highlighted include the importance of Return on Capital Em",
+          "raptor_node_id": 61310,
+          "raptor_node_level": 1,
+          "raptor_node_type": "summary",
+          "source_document_ids": [
+            "554465-0-780",
+            "406542-0-549",
+            "473599-0-269",
+            "492022-0-374",
+            "282674-0-487",
+            "172590-0-503",
+            "37659-0-483"
+          ]
+        },
+        {
+          "rank": 3,
+          "doc_id": "raptor_summary_61303",
+          "score": 0.642821,
+          "score_type": "cosine",
+          "text": "The discussion focuses on estimating the worth of a situation, emphasizing the importance of understanding the Weighted Average Cost of Capital (WACC) and its relation to enterprise value and share price. Key points include:\n\n1. **WACC Estimation**: It's crucial to introduce WACC and its calculation, linking enterprise value to share price by subtracting debt to derive equity value and dividing by shares for price.\n\n2. **Infrastructure Deals**: These are characterized by:\n   - Project financing through a Special Purpose",
+          "raptor_node_id": 61303,
+          "raptor_node_level": 1,
+          "raptor_node_type": "summary",
+          "source_document_ids": [
+            "151153-0-213",
+            "293822-0-382",
+            "227019-0-371",
+            "477310-0-1809",
+            "303509-0-1101",
+            "254091-0-2183"
+          ]
+        },
+        {
+          "rank": 4,
+          "doc_id": "554465-0-780",
+          "score": 0.642642,
+          "score_type": "cosine",
+          "text": "\nIf you want to see a more academic version of this look up Weighted Average Cost of Capital (WACC).   It's a formula that tells you how much it costs for a company to raise $1 of capital whether it be through issuing bonds or stocks.   One thing you learn is that there are times that if you take on loans (even if you don't need it) you can raise shareholder value and therefore the total company netvalue. The thought process is (as it states in the article above) that a company can issue debt for cheaper than issue shares and it will have extra cash which it can use to get a better return than its net effective interest rate.   I tried to give an example but I only ended up rehashing what it says in the article. Anyhow look up WACC and you'll understand the fundamentals.",
+          "raptor_node_id": 59109,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "554465-0-780"
+          ]
+        },
+        {
+          "rank": 5,
+          "doc_id": "406542-0-549",
+          "score": 0.630483,
+          "score_type": "cosine",
+          "text": "\nOn a company level ROCE over WACC would be more meaningful in my view but the end result should be be pretty much the same. This concept is closely related to value creation. Value can only be created when a company's ROCE is exceeding its cost of funding - WACC. This is also tightly related with the NPV concept. Value is only created when the NPV on a project is &gt;0.  And to directly answer OP. Study in detail WACC. (weighted average cost of capital). Focus on the Modigliani–Miller theorem with taxes and financial distress costs. Good luck.",
+          "raptor_node_id": 33478,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "406542-0-549"
+          ]
+        }
+      ],
+      "reference": {
+        "answer": "The Weighted Average Cost of Capital (WACC) is a formula that helps determine the cost for a company to raise $1 of capital, whether through issuing bonds or stocks. It is a standard tool used by finance professionals. Ideally, you would want a WACC similar to other successful companies of your size and industry. Adjusting your WACC involves issuing or repurchasing equity or debt.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Explanation",
+          "Summarization"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "6",
+      "task_id": "e9dd465e8dd63a80dda8f3ce9cba6848<::>6",
+      "question": "Is the WACC formula highly reliable?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": " What's the difference between Market Cap and NAV?"
+        },
+        {
+          "role": "assistant",
+          "content": "The market cap is simply the share price multiplied by the number of shares. It doesn't indicate any inherent value; rather, it reflects what people believe the company is worth. NAV, or net asset value, is the total value of the company's assets divided by the number of shares. This is also referred to as the book value. In summary, market cap is calculated by multiplying the share price by the number of shares."
+        },
+        {
+          "role": "user",
+          "content": "Which is more important?"
+        },
+        {
+          "role": "assistant",
+          "content": "Both market capitalization and net asset value (NAV) provide different perspectives on a company's value. Market cap is basically the amount of money that it would cost to buy all of the company's shares of public stock. On the other hand, NAV adds up all the assets and subtracts all the liabilities, essentially representing a bookkeeping exercise."
+        },
+        {
+          "role": "user",
+          "content": "enterprise value"
+        },
+        {
+          "role": "assistant",
+          "content": "Enterprise value is the estimated cost of acquiring a company. Typically, companies are acquired without any debt or cash, so any cash on the balance sheet at the time of the transaction is given to the original owners. The Enterprise Value represents the fundamental total value of the firm. It excludes cash because paying for cash with cash doesn't make sense. This also simplifies the analysis of transaction multiples, as some companies might have a significant amount of extra cash on their balance sheet, which could distort the multiples."
+        },
+        {
+          "role": "user",
+          "content": "How is it calculated?"
+        },
+        {
+          "role": "assistant",
+          "content": "Calculating a company's enterprise value requires considering several factors. The equation for enterprise value is as follows: EV = Market Cap + Minority Interest + Preferred Stock + Debt—Cash. Enterprise value represents the total value of a company to all its shareholders, including creditors, preferred stockholders, and common stockholders. It's important to note that taking on debt can either increase or decrease the enterprise value, depending on the company's cash balance."
+        },
+        {
+          "role": "user",
+          "content": "What is WACC?"
+        },
+        {
+          "role": "assistant",
+          "content": "The Weighted Average Cost of Capital (WACC) is a formula that helps determine the cost for a company to raise $1 of capital, whether through issuing bonds or stocks. It is a standard tool used by finance professionals. Ideally, you would want a WACC similar to other successful companies of your size and industry. Adjusting your WACC involves issuing or repurchasing equity or debt."
+        }
+      ],
+      "retrieval": {
+        "query": "Is the WACC formula highly reliable?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": "Is the WACC formula highly reliable?",
+        "k": 10,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "492022-0-374",
+            "score": 0.602702,
+            "score_type": "cosine",
+            "text": "\nIf you're taking a Terminal DCF, you shouldn't be using 1-year risk free rates, so the 2.77% is probably much more accurate. That being said, we're in a historically low-rate environment, so even the 2.77% is probably a bit low.   Here's another data point that puts the WACC at 8%:  [http://www.wikiwealth.com/wacc-analysis:mcd](http://www.wikiwealth.com/wacc-analysis:mcd)",
+            "raptor_node_id": 51308,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "492022-0-374"
+            ]
+          },
+          {
+            "rank": 2,
+            "doc_id": "raptor_summary_61310",
+            "score": 0.594604,
+            "score_type": "cosine",
+            "text": "The discussion revolves around calculating the Weighted Average Cost of Capital (WACC) and its implications for valuation. An individual investor seeks guidance on determining the cost of debt for WACC, expressing uncertainty about using average coupon rates from outstanding bonds. Suggestions include reviewing SEC filings prior to conservatorship and comparing peer financials, while noting that for Government-Sponsored Enterprises (GSEs), the cost of capital may align with U.S. Treasury rates.\n\nKey concepts highlighted include the importance of Return on Capital Em",
+            "raptor_node_id": 61310,
+            "raptor_node_level": 1,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "554465-0-780",
+              "406542-0-549",
+              "473599-0-269",
+              "492022-0-374",
+              "282674-0-487",
+              "172590-0-503",
+              "37659-0-483"
+            ]
+          },
+          {
+            "rank": 3,
+            "doc_id": "raptor_summary_61303",
+            "score": 0.584176,
+            "score_type": "cosine",
+            "text": "The discussion focuses on estimating the worth of a situation, emphasizing the importance of understanding the Weighted Average Cost of Capital (WACC) and its relation to enterprise value and share price. Key points include:\n\n1. **WACC Estimation**: It's crucial to introduce WACC and its calculation, linking enterprise value to share price by subtracting debt to derive equity value and dividing by shares for price.\n\n2. **Infrastructure Deals**: These are characterized by:\n   - Project financing through a Special Purpose",
+            "raptor_node_id": 61303,
+            "raptor_node_level": 1,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "151153-0-213",
+              "293822-0-382",
+              "227019-0-371",
+              "477310-0-1809",
+              "303509-0-1101",
+              "254091-0-2183"
+            ]
+          },
+          {
+            "rank": 4,
+            "doc_id": "raptor_summary_73019",
+            "score": 0.583002,
+            "score_type": "cosine",
+            "text": "The discussion emphasizes the significance of estimating the Weighted Average Cost of Capital (WACC) in relation to enterprise value and share price. Key points include:\n\n1. **WACC Estimation**: WACC is essential for linking enterprise value to share price by subtracting debt to find equity value and dividing by shares to determine price.\n2. **Infrastructure Deals**: These involve project financing through a Special Purpose Vehicle (SPV).\n3. **Cost of Debt**: An investor seeks advice on determining",
+            "raptor_node_id": 73019,
+            "raptor_node_level": 2,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "151153-0-213",
+              "293822-0-382",
+              "227019-0-371",
+              "477310-0-1809",
+              "303509-0-1101",
+              "254091-0-2183",
+              "554465-0-780",
+              "406542-0-549",
+              "473599-0-269",
+              "492022-0-374",
+              "282674-0-487",
+              "172590-0-503",
+              "37659-0-483",
+              "217726-0-353",
+              "466107-0-238",
+              "220327-0-819",
+              "503449-0-560",
+              "915-0-986",
+              "162488-0-790"
+            ]
+          },
+          {
+            "rank": 5,
+            "doc_id": "554465-0-780",
+            "score": 0.57564,
+            "score_type": "cosine",
+            "text": "\nIf you want to see a more academic version of this look up Weighted Average Cost of Capital (WACC).   It's a formula that tells you how much it costs for a company to raise $1 of capital whether it be through issuing bonds or stocks.   One thing you learn is that there are times that if you take on loans (even if you don't need it) you can raise shareholder value and therefore the total company netvalue. The thought process is (as it states in the article above) that a company can issue debt for cheaper than issue shares and it will have extra cash which it can use to get a better return than its net effective interest rate.   I tried to give an example but I only ended up rehashing what it says in the article. Anyhow look up WACC and you'll understand the fundamentals.",
+            "raptor_node_id": 59109,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "554465-0-780"
+            ]
+          },
+          {
+            "rank": 6,
+            "doc_id": "406542-0-549",
+            "score": 0.570088,
+            "score_type": "cosine",
+            "text": "\nOn a company level ROCE over WACC would be more meaningful in my view but the end result should be be pretty much the same. This concept is closely related to value creation. Value can only be created when a company's ROCE is exceeding its cost of funding - WACC. This is also tightly related with the NPV concept. Value is only created when the NPV on a project is &gt;0.  And to directly answer OP. Study in detail WACC. (weighted average cost of capital). Focus on the Modigliani–Miller theorem with taxes and financial distress costs. Good luck.",
+            "raptor_node_id": 33478,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "406542-0-549"
+            ]
+          },
+          {
+            "rank": 7,
+            "doc_id": "raptor_summary_61336",
+            "score": 0.568941,
+            "score_type": "cosine",
+            "text": "The discussion revolves around the calculation of the Weighted Average Cost of Capital (WACC) and its application as a discount rate. The author has set an accounts receivable period of 30 days and calculated the cash not in hand by applying a factor of 30/365 to revenue. They express skepticism about estimating cash flow using only Net Sales and COGS, suggesting that knowledge of average days outstanding, inventory turnover, and vendor terms is necessary for accurate calculations.\n\nThe conversation also touches on the implications",
+            "raptor_node_id": 61336,
+            "raptor_node_level": 1,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "240252-0-343",
+              "244790-0-440",
+              "563264-0-704",
+              "597117-0-1418"
+            ]
+          },
+          {
+            "rank": 8,
+            "doc_id": "282674-0-487",
+            "score": 0.568851,
+            "score_type": "cosine",
+            "text": "\nHey all,  I have no idea what to do in order to calculate the wacc. It just doesn't make sense to me! And more so, understanding the circumstances in which it would be appropriate to use the company's wacc as the discount rate in the project.   The Australian company tax rate: 27.5%  Applicable date for risk free rates: 28/8/17  10 year rate for risk free: 2.615%  8 year risk free rate- 2.505%  Credit spread for corporate bond: 95bp  I just don;t understand what I am supposed to do!",
+            "raptor_node_id": 39852,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "282674-0-487"
+            ]
+          },
+          {
+            "rank": 9,
+            "doc_id": "473599-0-269",
+            "score": 0.529252,
+            "score_type": "cosine",
+            "text": "\nWhat's a good proxy for the return of the market when utilizing CAPM for a WACC build up? I know I could rip data from Domadaran, but I'd like to calculate it for myself. Maybe S&amp;P 500 earnings yield plus the 10yr? Also don't like taking the round assumption of 7%.",
+            "raptor_node_id": 43691,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "473599-0-269"
+            ]
+          },
+          {
+            "rank": 10,
+            "doc_id": "467535-0-727",
+            "score": 0.515995,
+            "score_type": "cosine",
+            "text": "\nEach situation is different, but it has to do with assessing what the Company is trying to do. People always talk about WACC, but in reality, WACC is less important than figuring how how much debt a Company can support (determined by leverage and solvency statistics).  Here are a few things to think about:  -How stable are the Company's cash flows? (big difference between a Company that has multi-year contracts locked in place vs. variable/cyclical revenue streams; what type of Capex requirement is there?)  -What is the purpose of raising the capital? (growth vs. recapitalization; where are the proceeds going?)  -What collateral is available for creditors?  -What does working capital look like? (is there seasonality?)",
+            "raptor_node_id": 48193,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "467535-0-727"
+            ]
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "492022-0-374",
+            "score": 0.602702,
+            "score_type": "cosine",
+            "text": "\nIf you're taking a Terminal DCF, you shouldn't be using 1-year risk free rates, so the 2.77% is probably much more accurate. That being said, we're in a historically low-rate environment, so even the 2.77% is probably a bit low.   Here's another data point that puts the WACC at 8%:  [http://www.wikiwealth.com/wacc-analysis:mcd](http://www.wikiwealth.com/wacc-analysis:mcd)",
+            "raptor_node_id": 51308,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "492022-0-374"
+            ]
+          },
+          {
+            "rank": 2,
+            "doc_id": "raptor_summary_61310",
+            "score": 0.594604,
+            "score_type": "cosine",
+            "text": "The discussion revolves around calculating the Weighted Average Cost of Capital (WACC) and its implications for valuation. An individual investor seeks guidance on determining the cost of debt for WACC, expressing uncertainty about using average coupon rates from outstanding bonds. Suggestions include reviewing SEC filings prior to conservatorship and comparing peer financials, while noting that for Government-Sponsored Enterprises (GSEs), the cost of capital may align with U.S. Treasury rates.\n\nKey concepts highlighted include the importance of Return on Capital Em",
+            "raptor_node_id": 61310,
+            "raptor_node_level": 1,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "554465-0-780",
+              "406542-0-549",
+              "473599-0-269",
+              "492022-0-374",
+              "282674-0-487",
+              "172590-0-503",
+              "37659-0-483"
+            ]
+          },
+          {
+            "rank": 3,
+            "doc_id": "raptor_summary_61303",
+            "score": 0.584176,
+            "score_type": "cosine",
+            "text": "The discussion focuses on estimating the worth of a situation, emphasizing the importance of understanding the Weighted Average Cost of Capital (WACC) and its relation to enterprise value and share price. Key points include:\n\n1. **WACC Estimation**: It's crucial to introduce WACC and its calculation, linking enterprise value to share price by subtracting debt to derive equity value and dividing by shares for price.\n\n2. **Infrastructure Deals**: These are characterized by:\n   - Project financing through a Special Purpose",
+            "raptor_node_id": 61303,
+            "raptor_node_level": 1,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "151153-0-213",
+              "293822-0-382",
+              "227019-0-371",
+              "477310-0-1809",
+              "303509-0-1101",
+              "254091-0-2183"
+            ]
+          },
+          {
+            "rank": 4,
+            "doc_id": "raptor_summary_73019",
+            "score": 0.583002,
+            "score_type": "cosine",
+            "text": "The discussion emphasizes the significance of estimating the Weighted Average Cost of Capital (WACC) in relation to enterprise value and share price. Key points include:\n\n1. **WACC Estimation**: WACC is essential for linking enterprise value to share price by subtracting debt to find equity value and dividing by shares to determine price.\n2. **Infrastructure Deals**: These involve project financing through a Special Purpose Vehicle (SPV).\n3. **Cost of Debt**: An investor seeks advice on determining",
+            "raptor_node_id": 73019,
+            "raptor_node_level": 2,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "151153-0-213",
+              "293822-0-382",
+              "227019-0-371",
+              "477310-0-1809",
+              "303509-0-1101",
+              "254091-0-2183",
+              "554465-0-780",
+              "406542-0-549",
+              "473599-0-269",
+              "492022-0-374",
+              "282674-0-487",
+              "172590-0-503",
+              "37659-0-483",
+              "217726-0-353",
+              "466107-0-238",
+              "220327-0-819",
+              "503449-0-560",
+              "915-0-986",
+              "162488-0-790"
+            ]
+          },
+          {
+            "rank": 5,
+            "doc_id": "554465-0-780",
+            "score": 0.57564,
+            "score_type": "cosine",
+            "text": "\nIf you want to see a more academic version of this look up Weighted Average Cost of Capital (WACC).   It's a formula that tells you how much it costs for a company to raise $1 of capital whether it be through issuing bonds or stocks.   One thing you learn is that there are times that if you take on loans (even if you don't need it) you can raise shareholder value and therefore the total company netvalue. The thought process is (as it states in the article above) that a company can issue debt for cheaper than issue shares and it will have extra cash which it can use to get a better return than its net effective interest rate.   I tried to give an example but I only ended up rehashing what it says in the article. Anyhow look up WACC and you'll understand the fundamentals.",
+            "raptor_node_id": 59109,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "554465-0-780"
+            ]
+          }
+        ]
+      },
+      "generation": {
+        "model": "gpt-4o-mini",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "The reliability of the WACC formula can vary based on several factors. While it is a widely used tool for assessing the cost of capital, its accuracy depends on the inputs used in the calculation, such as the cost of equity, cost of debt, and the proportions of debt and equity in the capital structure. In a historically low-rate environment, for instance, the estimates for WACC may be lower than they would be in more typical conditions. Therefore, while WACC is a valuable metric, it should be used with caution and in conjunction with other financial analyses to ensure a comprehensive understanding of a company's valuation.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "492022-0-374",
+          "score": 0.602702,
+          "score_type": "cosine",
+          "text": "\nIf you're taking a Terminal DCF, you shouldn't be using 1-year risk free rates, so the 2.77% is probably much more accurate. That being said, we're in a historically low-rate environment, so even the 2.77% is probably a bit low.   Here's another data point that puts the WACC at 8%:  [http://www.wikiwealth.com/wacc-analysis:mcd](http://www.wikiwealth.com/wacc-analysis:mcd)",
+          "raptor_node_id": 51308,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "492022-0-374"
+          ]
+        },
+        {
+          "rank": 2,
+          "doc_id": "raptor_summary_61310",
+          "score": 0.594604,
+          "score_type": "cosine",
+          "text": "The discussion revolves around calculating the Weighted Average Cost of Capital (WACC) and its implications for valuation. An individual investor seeks guidance on determining the cost of debt for WACC, expressing uncertainty about using average coupon rates from outstanding bonds. Suggestions include reviewing SEC filings prior to conservatorship and comparing peer financials, while noting that for Government-Sponsored Enterprises (GSEs), the cost of capital may align with U.S. Treasury rates.\n\nKey concepts highlighted include the importance of Return on Capital Em",
+          "raptor_node_id": 61310,
+          "raptor_node_level": 1,
+          "raptor_node_type": "summary",
+          "source_document_ids": [
+            "554465-0-780",
+            "406542-0-549",
+            "473599-0-269",
+            "492022-0-374",
+            "282674-0-487",
+            "172590-0-503",
+            "37659-0-483"
+          ]
+        },
+        {
+          "rank": 3,
+          "doc_id": "raptor_summary_61303",
+          "score": 0.584176,
+          "score_type": "cosine",
+          "text": "The discussion focuses on estimating the worth of a situation, emphasizing the importance of understanding the Weighted Average Cost of Capital (WACC) and its relation to enterprise value and share price. Key points include:\n\n1. **WACC Estimation**: It's crucial to introduce WACC and its calculation, linking enterprise value to share price by subtracting debt to derive equity value and dividing by shares for price.\n\n2. **Infrastructure Deals**: These are characterized by:\n   - Project financing through a Special Purpose",
+          "raptor_node_id": 61303,
+          "raptor_node_level": 1,
+          "raptor_node_type": "summary",
+          "source_document_ids": [
+            "151153-0-213",
+            "293822-0-382",
+            "227019-0-371",
+            "477310-0-1809",
+            "303509-0-1101",
+            "254091-0-2183"
+          ]
+        },
+        {
+          "rank": 4,
+          "doc_id": "raptor_summary_73019",
+          "score": 0.583002,
+          "score_type": "cosine",
+          "text": "The discussion emphasizes the significance of estimating the Weighted Average Cost of Capital (WACC) in relation to enterprise value and share price. Key points include:\n\n1. **WACC Estimation**: WACC is essential for linking enterprise value to share price by subtracting debt to find equity value and dividing by shares to determine price.\n2. **Infrastructure Deals**: These involve project financing through a Special Purpose Vehicle (SPV).\n3. **Cost of Debt**: An investor seeks advice on determining",
+          "raptor_node_id": 73019,
+          "raptor_node_level": 2,
+          "raptor_node_type": "summary",
+          "source_document_ids": [
+            "151153-0-213",
+            "293822-0-382",
+            "227019-0-371",
+            "477310-0-1809",
+            "303509-0-1101",
+            "254091-0-2183",
+            "554465-0-780",
+            "406542-0-549",
+            "473599-0-269",
+            "492022-0-374",
+            "282674-0-487",
+            "172590-0-503",
+            "37659-0-483",
+            "217726-0-353",
+            "466107-0-238",
+            "220327-0-819",
+            "503449-0-560",
+            "915-0-986",
+            "162488-0-790"
+          ]
+        },
+        {
+          "rank": 5,
+          "doc_id": "554465-0-780",
+          "score": 0.57564,
+          "score_type": "cosine",
+          "text": "\nIf you want to see a more academic version of this look up Weighted Average Cost of Capital (WACC).   It's a formula that tells you how much it costs for a company to raise $1 of capital whether it be through issuing bonds or stocks.   One thing you learn is that there are times that if you take on loans (even if you don't need it) you can raise shareholder value and therefore the total company netvalue. The thought process is (as it states in the article above) that a company can issue debt for cheaper than issue shares and it will have extra cash which it can use to get a better return than its net effective interest rate.   I tried to give an example but I only ended up rehashing what it says in the article. Anyhow look up WACC and you'll understand the fundamentals.",
+          "raptor_node_id": 59109,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "554465-0-780"
+          ]
+        }
+      ],
+      "reference": {
+        "answer": "Every situation is unique, but it's about evaluating the company's objectives. People often mention WACC, but in truth, it's less crucial than determining the amount of debt a company can handle, which is determined by leverage and solvency statistics. WACC is a pricing model and isn't related to risk modeling.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Explanation",
+          "Opinion"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "7",
+      "task_id": "e9dd465e8dd63a80dda8f3ce9cba6848<::>7",
+      "question": "What is the ideal formula to evaluate a company?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": " What's the difference between Market Cap and NAV?"
+        },
+        {
+          "role": "assistant",
+          "content": "The market cap is simply the share price multiplied by the number of shares. It doesn't indicate any inherent value; rather, it reflects what people believe the company is worth. NAV, or net asset value, is the total value of the company's assets divided by the number of shares. This is also referred to as the book value. In summary, market cap is calculated by multiplying the share price by the number of shares."
+        },
+        {
+          "role": "user",
+          "content": "Which is more important?"
+        },
+        {
+          "role": "assistant",
+          "content": "Both market capitalization and net asset value (NAV) provide different perspectives on a company's value. Market cap is basically the amount of money that it would cost to buy all of the company's shares of public stock. On the other hand, NAV adds up all the assets and subtracts all the liabilities, essentially representing a bookkeeping exercise."
+        },
+        {
+          "role": "user",
+          "content": "enterprise value"
+        },
+        {
+          "role": "assistant",
+          "content": "Enterprise value is the estimated cost of acquiring a company. Typically, companies are acquired without any debt or cash, so any cash on the balance sheet at the time of the transaction is given to the original owners. The Enterprise Value represents the fundamental total value of the firm. It excludes cash because paying for cash with cash doesn't make sense. This also simplifies the analysis of transaction multiples, as some companies might have a significant amount of extra cash on their balance sheet, which could distort the multiples."
+        },
+        {
+          "role": "user",
+          "content": "How is it calculated?"
+        },
+        {
+          "role": "assistant",
+          "content": "Calculating a company's enterprise value requires considering several factors. The equation for enterprise value is as follows: EV = Market Cap + Minority Interest + Preferred Stock + Debt—Cash. Enterprise value represents the total value of a company to all its shareholders, including creditors, preferred stockholders, and common stockholders. It's important to note that taking on debt can either increase or decrease the enterprise value, depending on the company's cash balance."
+        },
+        {
+          "role": "user",
+          "content": "What is WACC?"
+        },
+        {
+          "role": "assistant",
+          "content": "The Weighted Average Cost of Capital (WACC) is a formula that helps determine the cost for a company to raise $1 of capital, whether through issuing bonds or stocks. It is a standard tool used by finance professionals. Ideally, you would want a WACC similar to other successful companies of your size and industry. Adjusting your WACC involves issuing or repurchasing equity or debt."
+        },
+        {
+          "role": "user",
+          "content": "Is the WACC formula highly reliable?"
+        },
+        {
+          "role": "assistant",
+          "content": "Every situation is unique, but it's about evaluating the company's objectives. People often mention WACC, but in truth, it's less crucial than determining the amount of debt a company can handle, which is determined by leverage and solvency statistics. WACC is a pricing model and isn't related to risk modeling."
+        }
+      ],
+      "retrieval": {
+        "query": "What is the ideal formula to evaluate a company?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": "What is the ideal formula to evaluate a company?",
+        "k": 10,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "278369-0-1274",
+            "score": 0.594656,
+            "score_type": "cosine",
+            "text": "\n\"Everything you are doing is fine. Here are a few practical notes in performing this analysis: Find all the primary filing information on EDGAR. For NYSE:MEI, you can use https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000065270&type=10-K&dateb=&owner=exclude&count=40 This is the original 10-K. To evaluate earnings growth you need per share earnings for the past three years and 10,11,12 years ago. You do NOT need diluted earnings (because in the long term share dilution comes out anyway, just like \"\"normalized\"\" earnings). The formula is avg(Y_-1+Y_-2+Y_-3) / is avg(Y_-10+Y_-11+Y_-12) Be careful with the pricing rules you are using, the asset one gets complicated. I recommend NOT using the pricing rules #6 and #7 to select the stock. Instead you can use them to set a maximum price for the stock and then you can compare the current price to your maximum price. I am also working to understand these rules and have cited Graham's rules into a checklist and worksheet to find all companies that meet his criteria. Basically my goal is to bottom feed the deals that Warren Buffett is not interested in. If you are interested to invest time into this project, please see https://docs.google.com/document/d/1vuFmoJDktMYtS64od2HUTV9I351AxvhyjAaC0N3TXrA\"",
+            "raptor_node_id": 40484,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "278369-0-1274"
+            ]
+          },
+          {
+            "rank": 2,
+            "doc_id": "577381-0-551",
+            "score": 0.572946,
+            "score_type": "cosine",
+            "text": "\nThis is a question of how does someone value a business.   Typically, it is some function of how much the company owns, how much the company owes, how risky is the company's business, and how much the company makes in profit. For example if a company (or investment) make $100/year, every year no matter what, how much would you pay for that?   If you pay $1,000 you'll make 10% each year on your investment.  Is that a good enough return?   If you think the risk of the company requires a 20% payoff, you shouldn't pay more than $500 for the company.",
+            "raptor_node_id": 56892,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "577381-0-551"
+            ]
+          },
+          {
+            "rank": 3,
+            "doc_id": "184354-0-1901",
+            "score": 0.564047,
+            "score_type": "cosine",
+            "text": "\nYou're indeed right, this cannot be answered affirmatively. I will try, without going too deep in details, to brush a shallow portrait In its simplest form, a going concern company could be valued by the present value of a growing perpetuity (Cash Flow/(Required return - growth)), assuming compounding perpetual growth. That's a massive assumption for a yet to turn a dime company. That's why comparable transactions are usually used as benchmark. In this case, your PE can be thought as the inverse of a growing perpetuity, and it's size will be determined by the difference between return and growth. So when you're pre-revenue, you're basically trying to value a moonshot with everything to prove, no matter how genius the idea. Considering the high levels of financial risks due to failure, VCs will require biblical levels of returns (50% to 90% is not unheard of). Hence why they usually leave with a good chunk of the company in seed rounds. When you've had a few sales, you got to know your customer and you've tested the markets, your direction gets clearer and your prospects improve. Risks moves down a notch and the next round of financing will be at much lower rates. Your growth rate, still high but nowhere as crazy as before, can be estimated with relatively more precision. Companies turning a recurrent level of profits are the easiest to value (all else being equal). The financial mathematics are more appropriate now, and their value will be derived by current market conditions as well as comparable transactions. With unlimited resources and perfect markets, the value of the company will be the same wether the founder is at the helm or the VCs are in the place. But considering many founders need the VCs' resources to extract the value of their company and markets are imperfect, the value of the company can change significantly depending on the decisions. Hope that helps!",
+            "raptor_node_id": 21844,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "184354-0-1901"
+            ]
+          },
+          {
+            "rank": 4,
+            "doc_id": "123263-1483-3127",
+            "score": 0.562767,
+            "score_type": "cosine",
+            "text": "\n\" Again, this ratio can be \"\"massaged\"\" by the company. Asset values have to be estimated based on current market values (think about trying to determine how much a company's building is worth) unless, of course, mark-to-market is suspended. This involves some estimating. Again, I don't use this value alone in determing whether or not a stock is cheap. I consider a price/book value under 10 a good number. Cash - I look at growth in the cash balance of a company as a way to grade a company's cash flow statement. Is the cash account growing or not? As they say, \"\"Cash is King\"\". This is one measurement that can not be \"\"massaged\"\" which is why I like it. The P/E and Price/Book can be \"\"tuned\"\" but in the end the company cannot hide a shrinking cash balance. Return Ratios - Return on Equity is a measure of the amount of earnings being generated for a given amount of equity (ROE = earnings/(assets - liabilities)). This attempts to measure how effective the company is at generating earnings with a given amount of equity. There is also Return on Assets which measures earnings returns based on the company's assets. I tend to think an ROE over 15% is a good number. These measurements rely on a company accurately reporting its financial condition. Remember, in the US companies are allowed to falsify accounting reports if approved by the government so be careful. There are others who simply don't follow the rules and report whatever numbers they like without penalty. There are many others. These are just a few of the more popular ones. There are many other considerations to take into account as other posters have pointed out.\"",
+            "raptor_node_id": 10515,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "123263-1483-3127"
+            ]
+          },
+          {
+            "rank": 5,
+            "doc_id": "raptor_summary_70968",
+            "score": 0.561654,
+            "score_type": "cosine",
+            "text": "The typical formula for assessing stock value is (Value of shares + Dividends received) / Initial investment, where a result of 1 indicates breakeven. Estimating share price based on revenues is often unreliable, as seen with companies like Facebook, Apple, and Google. Instead, investment strategies may use metrics like discounted cash flow or earnings. A key concept in stock valuation is Net Present Value (NPV), which represents the present value of future cash flows divided by shares outstanding. Div",
+            "raptor_node_id": 70968,
+            "raptor_node_level": 1,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "399875-0-637",
+              "170652-0-724",
+              "319568-0-2028",
+              "249320-0-1725",
+              "319568-1597-2551",
+              "499269-0-409"
+            ]
+          },
+          {
+            "rank": 6,
+            "doc_id": "raptor_summary_61221",
+            "score": 0.55977,
+            "score_type": "cosine",
+            "text": "Valuation of a company is determined by the formula: assets - liabilities + present discounted value of future profits. This calculation is subjective, as key figures are often unknown and influenced by market perceptions. For instance, a company with minimal assets and $50k in profit valued at $1m suggests expectations of significant future profit growth or undervalued assets like intellectual property. \n\nYahoo faces two major valuation challenges: a declining search business losing ground to competitors like Google and Bing, and uncertainty regarding its stake",
+            "raptor_node_id": 61221,
+            "raptor_node_level": 1,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "56642-0-1516",
+              "492371-0-437",
+              "363546-0-1296",
+              "464769-0-943",
+              "20335-0-1401",
+              "374372-0-339"
+            ]
+          },
+          {
+            "rank": 7,
+            "doc_id": "452479-0-560",
+            "score": 0.557344,
+            "score_type": "cosine",
+            "text": "\nThere is no formula for calculating a stock price based on the financials of a company. A stock price is set by the market and always has a component built into it that is based on something outside of the current valuation of a company using its financials. Essentially, the stock price of a company per share is whatever the best price it can get on the open market. If you are looking at how to evaluate if a stock is a good value at the current price, then look at some of the answers, but I wanted to answer this based on the way you phrased the question.",
+            "raptor_node_id": 48719,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "452479-0-560"
+            ]
+          },
+          {
+            "rank": 8,
+            "doc_id": "raptor_summary_61222",
+            "score": 0.55491,
+            "score_type": "cosine",
+            "text": "Valuing a private company is challenging, often relying on subjective assessments of future revenue potential. Venture capital (VC) firms consider various factors, but many rely on intuition, leading to high failure rates—most investments yield losses or merely return the initial capital. Metrics like online subscriber growth, site visitations, and customer retention are crucial indicators of a company's health.\n\nA basic valuation method for a going concern is the present value of a growing perpetuity, but this assumes significant growth, which is risky for",
+            "raptor_node_id": 61222,
+            "raptor_node_level": 1,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "561608-0-1625",
+              "70490-0-544",
+              "279588-0-1375",
+              "184354-0-1901",
+              "50735-0-355",
+              "570285-0-386"
+            ]
+          },
+          {
+            "rank": 9,
+            "doc_id": "495165-1531-3247",
+            "score": 0.551534,
+            "score_type": "cosine",
+            "text": "\nFor example, lets say I'm looking at search providers (i.e. Baidu, Google, Yahoo, etc.) I'd be looking at Cost-Per-Thousand-Clicks (CPTC) and number of clicks on the website. Multiply the two and I get revenue (very simplified version) for clicks business. I might then also forecast other revenue driving segments and try to understand how they are growing/pricing at an individual segment level (i.e. business services or mobile advertising). I'd then break down costs/margins for each segment and forecast those out. I could then get a forward EPS, get a range of multiples I believe it could trade in (i.e. I think the multiple will trade up/down), to get a target price. Also, I would likely do a DCF analysis on forward earnings to get a \"\"fair market value,\"\" and then try to triangulate a price. I would also be looking at stuff like management teams and industry trends, too, but bottom line, I'm pitching a company because I think it is undervalued and will outperform competitors **in the long run**. This type of work tends to be more research oriented and is what most (not all) mutual funds use when analyzing companies. Since mutual funds tend to have longer holding periods (2-10 years), as opposed to short-term, it's harder to justify investing in a company only because it has a short-term catalyst. Anecdotally, it's also easier to present in a written thesis because the numbers tend to be more concrete and easier to forecast than top-down (which have wider target ranges). Your thought process that catalyst + industry context = market beating returns isn't wrong, it's just that every company thinks about investing differently, and it's important to tailor the report to that group's style.\"",
+            "raptor_node_id": 51805,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "495165-1531-3247"
+            ]
+          },
+          {
+            "rank": 10,
+            "doc_id": "319568-0-2028",
+            "score": 0.551014,
+            "score_type": "cosine",
+            "text": "\n\"To know if a stock is undervalued is not something that can be easily assessed (else, everybody would know which stock is undervalued and everybody will buy it until it reaches its \"\"true\"\" value). But there are methods to assess the value of a company, I think that the 3 most known methods are: If the assets of the company were to be sold right now and that all its debts were to be paid back right now, how much will be left? This remaining amount would be the fundamental value of your company. That method could work well on real estate company whose value is more or less the buildings that they own minus of much they borrowed to acquire them. It's not really usefull in the case of Facebook, as most of its business is immaterial. I know the value of several companies of the same sector, so if I want to assess the value of another company of this sector I just have to compare it to the others. For example, you find out that simiral internet companies are being traded at a price that is 15 times their projected dividends (its called a Price Earning Ratio). Then, if you see that Facebook, all else being equal, is trading at 10 times its projected dividends, you could say that buying it would be at a discount. A company is worth as much as the cash flow that it will give me in the future If you think that facebook will give some dividends for a certain period of time, then you compute their present value (this means finding how much you should put in a bank account today to have the same amount in the future, this can be done by dividing the amount by some interest rates). So, if you think that holding a share of a Facebook for a long period of time would give you (at present value) 100 and that the share of the Facebook is being traded at 70, then buy it. There is another well known method, a more quantitative one, this is the Capital Asset Pricing Model. I won't go into the details of this one, but its about looking at how a company should be priced relatively to a benchmark of other companies.",
+            "raptor_node_id": 25876,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "319568-0-2028"
+            ]
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "278369-0-1274",
+            "score": 0.594656,
+            "score_type": "cosine",
+            "text": "\n\"Everything you are doing is fine. Here are a few practical notes in performing this analysis: Find all the primary filing information on EDGAR. For NYSE:MEI, you can use https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000065270&type=10-K&dateb=&owner=exclude&count=40 This is the original 10-K. To evaluate earnings growth you need per share earnings for the past three years and 10,11,12 years ago. You do NOT need diluted earnings (because in the long term share dilution comes out anyway, just like \"\"normalized\"\" earnings). The formula is avg(Y_-1+Y_-2+Y_-3) / is avg(Y_-10+Y_-11+Y_-12) Be careful with the pricing rules you are using, the asset one gets complicated. I recommend NOT using the pricing rules #6 and #7 to select the stock. Instead you can use them to set a maximum price for the stock and then you can compare the current price to your maximum price. I am also working to understand these rules and have cited Graham's rules into a checklist and worksheet to find all companies that meet his criteria. Basically my goal is to bottom feed the deals that Warren Buffett is not interested in. If you are interested to invest time into this project, please see https://docs.google.com/document/d/1vuFmoJDktMYtS64od2HUTV9I351AxvhyjAaC0N3TXrA\"",
+            "raptor_node_id": 40484,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "278369-0-1274"
+            ]
+          },
+          {
+            "rank": 2,
+            "doc_id": "577381-0-551",
+            "score": 0.572946,
+            "score_type": "cosine",
+            "text": "\nThis is a question of how does someone value a business.   Typically, it is some function of how much the company owns, how much the company owes, how risky is the company's business, and how much the company makes in profit. For example if a company (or investment) make $100/year, every year no matter what, how much would you pay for that?   If you pay $1,000 you'll make 10% each year on your investment.  Is that a good enough return?   If you think the risk of the company requires a 20% payoff, you shouldn't pay more than $500 for the company.",
+            "raptor_node_id": 56892,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "577381-0-551"
+            ]
+          },
+          {
+            "rank": 3,
+            "doc_id": "184354-0-1901",
+            "score": 0.564047,
+            "score_type": "cosine",
+            "text": "\nYou're indeed right, this cannot be answered affirmatively. I will try, without going too deep in details, to brush a shallow portrait In its simplest form, a going concern company could be valued by the present value of a growing perpetuity (Cash Flow/(Required return - growth)), assuming compounding perpetual growth. That's a massive assumption for a yet to turn a dime company. That's why comparable transactions are usually used as benchmark. In this case, your PE can be thought as the inverse of a growing perpetuity, and it's size will be determined by the difference between return and growth. So when you're pre-revenue, you're basically trying to value a moonshot with everything to prove, no matter how genius the idea. Considering the high levels of financial risks due to failure, VCs will require biblical levels of returns (50% to 90% is not unheard of). Hence why they usually leave with a good chunk of the company in seed rounds. When you've had a few sales, you got to know your customer and you've tested the markets, your direction gets clearer and your prospects improve. Risks moves down a notch and the next round of financing will be at much lower rates. Your growth rate, still high but nowhere as crazy as before, can be estimated with relatively more precision. Companies turning a recurrent level of profits are the easiest to value (all else being equal). The financial mathematics are more appropriate now, and their value will be derived by current market conditions as well as comparable transactions. With unlimited resources and perfect markets, the value of the company will be the same wether the founder is at the helm or the VCs are in the place. But considering many founders need the VCs' resources to extract the value of their company and markets are imperfect, the value of the company can change significantly depending on the decisions. Hope that helps!",
+            "raptor_node_id": 21844,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "184354-0-1901"
+            ]
+          },
+          {
+            "rank": 4,
+            "doc_id": "123263-1483-3127",
+            "score": 0.562767,
+            "score_type": "cosine",
+            "text": "\n\" Again, this ratio can be \"\"massaged\"\" by the company. Asset values have to be estimated based on current market values (think about trying to determine how much a company's building is worth) unless, of course, mark-to-market is suspended. This involves some estimating. Again, I don't use this value alone in determing whether or not a stock is cheap. I consider a price/book value under 10 a good number. Cash - I look at growth in the cash balance of a company as a way to grade a company's cash flow statement. Is the cash account growing or not? As they say, \"\"Cash is King\"\". This is one measurement that can not be \"\"massaged\"\" which is why I like it. The P/E and Price/Book can be \"\"tuned\"\" but in the end the company cannot hide a shrinking cash balance. Return Ratios - Return on Equity is a measure of the amount of earnings being generated for a given amount of equity (ROE = earnings/(assets - liabilities)). This attempts to measure how effective the company is at generating earnings with a given amount of equity. There is also Return on Assets which measures earnings returns based on the company's assets. I tend to think an ROE over 15% is a good number. These measurements rely on a company accurately reporting its financial condition. Remember, in the US companies are allowed to falsify accounting reports if approved by the government so be careful. There are others who simply don't follow the rules and report whatever numbers they like without penalty. There are many others. These are just a few of the more popular ones. There are many other considerations to take into account as other posters have pointed out.\"",
+            "raptor_node_id": 10515,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "123263-1483-3127"
+            ]
+          },
+          {
+            "rank": 5,
+            "doc_id": "raptor_summary_70968",
+            "score": 0.561654,
+            "score_type": "cosine",
+            "text": "The typical formula for assessing stock value is (Value of shares + Dividends received) / Initial investment, where a result of 1 indicates breakeven. Estimating share price based on revenues is often unreliable, as seen with companies like Facebook, Apple, and Google. Instead, investment strategies may use metrics like discounted cash flow or earnings. A key concept in stock valuation is Net Present Value (NPV), which represents the present value of future cash flows divided by shares outstanding. Div",
+            "raptor_node_id": 70968,
+            "raptor_node_level": 1,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "399875-0-637",
+              "170652-0-724",
+              "319568-0-2028",
+              "249320-0-1725",
+              "319568-1597-2551",
+              "499269-0-409"
+            ]
+          }
+        ]
+      },
+      "generation": {
+        "model": "gpt-4o-mini",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "There isn't a single \"ideal\" formula to evaluate a company, as different methods can be used depending on the context and the specific characteristics of the company. However, a common approach is to use the present value of future cash flows, which can be expressed as:\n\n\\[ \\text{Value} = \\frac{\\text{Cash Flow}}{(\\text{Required Return} - \\text{Growth Rate})} \\]\n\nThis formula assumes a growing perpetuity and is often used in discounted cash flow (DCF) analysis. Additionally, other metrics such as price-to-earnings (P/E) ratio, price-to-book (P/B) ratio, and return on equity (ROE) can also be useful in evaluating a company's performance and value. Ultimately, a comprehensive evaluation may involve using multiple methods and metrics to get a well-rounded view of the company's financial health and potential.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "278369-0-1274",
+          "score": 0.594656,
+          "score_type": "cosine",
+          "text": "\n\"Everything you are doing is fine. Here are a few practical notes in performing this analysis: Find all the primary filing information on EDGAR. For NYSE:MEI, you can use https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000065270&type=10-K&dateb=&owner=exclude&count=40 This is the original 10-K. To evaluate earnings growth you need per share earnings for the past three years and 10,11,12 years ago. You do NOT need diluted earnings (because in the long term share dilution comes out anyway, just like \"\"normalized\"\" earnings). The formula is avg(Y_-1+Y_-2+Y_-3) / is avg(Y_-10+Y_-11+Y_-12) Be careful with the pricing rules you are using, the asset one gets complicated. I recommend NOT using the pricing rules #6 and #7 to select the stock. Instead you can use them to set a maximum price for the stock and then you can compare the current price to your maximum price. I am also working to understand these rules and have cited Graham's rules into a checklist and worksheet to find all companies that meet his criteria. Basically my goal is to bottom feed the deals that Warren Buffett is not interested in. If you are interested to invest time into this project, please see https://docs.google.com/document/d/1vuFmoJDktMYtS64od2HUTV9I351AxvhyjAaC0N3TXrA\"",
+          "raptor_node_id": 40484,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "278369-0-1274"
+          ]
+        },
+        {
+          "rank": 2,
+          "doc_id": "577381-0-551",
+          "score": 0.572946,
+          "score_type": "cosine",
+          "text": "\nThis is a question of how does someone value a business.   Typically, it is some function of how much the company owns, how much the company owes, how risky is the company's business, and how much the company makes in profit. For example if a company (or investment) make $100/year, every year no matter what, how much would you pay for that?   If you pay $1,000 you'll make 10% each year on your investment.  Is that a good enough return?   If you think the risk of the company requires a 20% payoff, you shouldn't pay more than $500 for the company.",
+          "raptor_node_id": 56892,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "577381-0-551"
+          ]
+        },
+        {
+          "rank": 3,
+          "doc_id": "184354-0-1901",
+          "score": 0.564047,
+          "score_type": "cosine",
+          "text": "\nYou're indeed right, this cannot be answered affirmatively. I will try, without going too deep in details, to brush a shallow portrait In its simplest form, a going concern company could be valued by the present value of a growing perpetuity (Cash Flow/(Required return - growth)), assuming compounding perpetual growth. That's a massive assumption for a yet to turn a dime company. That's why comparable transactions are usually used as benchmark. In this case, your PE can be thought as the inverse of a growing perpetuity, and it's size will be determined by the difference between return and growth. So when you're pre-revenue, you're basically trying to value a moonshot with everything to prove, no matter how genius the idea. Considering the high levels of financial risks due to failure, VCs will require biblical levels of returns (50% to 90% is not unheard of). Hence why they usually leave with a good chunk of the company in seed rounds. When you've had a few sales, you got to know your customer and you've tested the markets, your direction gets clearer and your prospects improve. Risks moves down a notch and the next round of financing will be at much lower rates. Your growth rate, still high but nowhere as crazy as before, can be estimated with relatively more precision. Companies turning a recurrent level of profits are the easiest to value (all else being equal). The financial mathematics are more appropriate now, and their value will be derived by current market conditions as well as comparable transactions. With unlimited resources and perfect markets, the value of the company will be the same wether the founder is at the helm or the VCs are in the place. But considering many founders need the VCs' resources to extract the value of their company and markets are imperfect, the value of the company can change significantly depending on the decisions. Hope that helps!",
+          "raptor_node_id": 21844,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "184354-0-1901"
+          ]
+        },
+        {
+          "rank": 4,
+          "doc_id": "123263-1483-3127",
+          "score": 0.562767,
+          "score_type": "cosine",
+          "text": "\n\" Again, this ratio can be \"\"massaged\"\" by the company. Asset values have to be estimated based on current market values (think about trying to determine how much a company's building is worth) unless, of course, mark-to-market is suspended. This involves some estimating. Again, I don't use this value alone in determing whether or not a stock is cheap. I consider a price/book value under 10 a good number. Cash - I look at growth in the cash balance of a company as a way to grade a company's cash flow statement. Is the cash account growing or not? As they say, \"\"Cash is King\"\". This is one measurement that can not be \"\"massaged\"\" which is why I like it. The P/E and Price/Book can be \"\"tuned\"\" but in the end the company cannot hide a shrinking cash balance. Return Ratios - Return on Equity is a measure of the amount of earnings being generated for a given amount of equity (ROE = earnings/(assets - liabilities)). This attempts to measure how effective the company is at generating earnings with a given amount of equity. There is also Return on Assets which measures earnings returns based on the company's assets. I tend to think an ROE over 15% is a good number. These measurements rely on a company accurately reporting its financial condition. Remember, in the US companies are allowed to falsify accounting reports if approved by the government so be careful. There are others who simply don't follow the rules and report whatever numbers they like without penalty. There are many others. These are just a few of the more popular ones. There are many other considerations to take into account as other posters have pointed out.\"",
+          "raptor_node_id": 10515,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "123263-1483-3127"
+          ]
+        },
+        {
+          "rank": 5,
+          "doc_id": "raptor_summary_70968",
+          "score": 0.561654,
+          "score_type": "cosine",
+          "text": "The typical formula for assessing stock value is (Value of shares + Dividends received) / Initial investment, where a result of 1 indicates breakeven. Estimating share price based on revenues is often unreliable, as seen with companies like Facebook, Apple, and Google. Instead, investment strategies may use metrics like discounted cash flow or earnings. A key concept in stock valuation is Net Present Value (NPV), which represents the present value of future cash flows divided by shares outstanding. Div",
+          "raptor_node_id": 70968,
+          "raptor_node_level": 1,
+          "raptor_node_type": "summary",
+          "source_document_ids": [
+            "399875-0-637",
+            "170652-0-724",
+            "319568-0-2028",
+            "249320-0-1725",
+            "319568-1597-2551",
+            "499269-0-409"
+          ]
+        }
+      ],
+      "reference": {
+        "answer": "There isn't a single \"ideal\" formula to evaluate a company, as the appropriate metrics can vary depending on the company's specific circumstances, industry, and objectives. However, three main areas to focus on are the income statement, the balance sheet, and the cash flow statement. The standard measure for evaluating income is the P/E (price-earnings) ratio. The debt-to-equity or debt-to-capital ratio (debt + equity) is important for the balance sheet. When assessing cash generation, the price-to-cash flow or price-to-free cash flow ratios are helpful (the lower the ratio, the better, all other things being equal, for all three ratios). Common financial ratios and metrics to consider include the Price-to-Earnings (P/E) ratio, Price-to-Book (P/B) ratio, Debt-to-Equity (D/E) ratio, and Return on Investment (ROI), among others.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Summarization"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    }
+  ]
+}

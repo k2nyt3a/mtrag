@@ -1,0 +1,1514 @@
+{
+  "conversation_id": "4da5a7f42f3b2dc4d875dcfa2fcdefef",
+  "dataset": "fiqa",
+  "collection": "mt-rag-fiqa-beir-elser-512-100-20240501",
+  "rag": "selfrag",
+  "num_turns": 8,
+  "turns": [
+    {
+      "turn_id": "1",
+      "task_id": "4da5a7f42f3b2dc4d875dcfa2fcdefef<::>1",
+      "question": "‚ÄúInternational credit report‚Äù for French nationals?",
+      "rag_history_before_turn": [],
+      "retrieval": {
+        "query": "‚ÄúInternational credit report‚Äù for French nationals?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "539473-0-302",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"Agree with wrschneider99. Also, since it's a \"\"credit report\"\" it helps to have a history of credit. My wife has been in the U.S. for 14 years and now has a higher credit score than me, a U.S. citizen. When we leased a car we put it in her name. When we took out a mortgage it's under both our names.\"",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "558388-0-548",
+            "score": null,
+            "score_type": "contriever",
+            "text": " As someone who spends a lot of time in France, I learned that many French banks will issue debit cards to US citizens, as an add-on feature to a bank account.  The fees are not low.  Societe Generale charges 8 Euros per month, Credit Agricole charges 30 Euros a year, BNP Paribas charges 12 Euros a month.  I'm sure other banks will issue cards as well.  You need to show 2 items proving US residence, such as a utility bill, plus a passport.  They can open an account immediately, on that basis and it takes about 7-10 days to get your debit card.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "259228-0-508",
+            "score": null,
+            "score_type": "contriever",
+            "text": " If you can set up automatic payments (like direct debits in the UK) and you can be disciplined enough to not spend the money on something else then this can be a good way of building/improving your credit rating. Banks / Lenders like it when they see you have previously taken, and repaid, credit. This can help you get better finance deals etc. in the future. Update: as noted in the comments France had a different financial system and people do not have credit ratings, so this point isn't valid in France",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "413368-0-222",
+            "score": null,
+            "score_type": "contriever",
+            "text": " These cash restrictions are already working in Italy and France. And the reporting of foreign accounts is something that it should have been done a lot of time ago. I'm not sure why the article thinks they are a big deal..",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "245729-0-656",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Credit scores in the U.S. are entirely based on information contained in your credit report.  The details of your credit card transactions, such as where your individual purchases are from, the amount of individual purchases, refunds, chargebacks (successful or failed), etc. do not appear on your credit report.  Therefore, they can have no impact on your credit score. According to creditsavvy.com.au, credit scores in Australia are based on similar information: the information in your credit history, credit profile, and credit applications.  I don't see anything that would suggest that the details of your transactions would affect your credit score.",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "539473-0-302",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"Agree with wrschneider99. Also, since it's a \"\"credit report\"\" it helps to have a history of credit. My wife has been in the U.S. for 14 years and now has a higher credit score than me, a U.S. citizen. When we leased a car we put it in her name. When we took out a mortgage it's under both our names.\"",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "558388-0-548",
+            "score": null,
+            "score_type": "contriever",
+            "text": " As someone who spends a lot of time in France, I learned that many French banks will issue debit cards to US citizens, as an add-on feature to a bank account.  The fees are not low.  Societe Generale charges 8 Euros per month, Credit Agricole charges 30 Euros a year, BNP Paribas charges 12 Euros a month.  I'm sure other banks will issue cards as well.  You need to show 2 items proving US residence, such as a utility bill, plus a passport.  They can open an account immediately, on that basis and it takes about 7-10 days to get your debit card.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "259228-0-508",
+            "score": null,
+            "score_type": "contriever",
+            "text": " If you can set up automatic payments (like direct debits in the UK) and you can be disciplined enough to not spend the money on something else then this can be a good way of building/improving your credit rating. Banks / Lenders like it when they see you have previously taken, and repaid, credit. This can help you get better finance deals etc. in the future. Update: as noted in the comments France had a different financial system and people do not have credit ratings, so this point isn't valid in France",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "413368-0-222",
+            "score": null,
+            "score_type": "contriever",
+            "text": " These cash restrictions are already working in Italy and France. And the reporting of foreign accounts is something that it should have been done a lot of time ago. I'm not sure why the article thinks they are a big deal..",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "245729-0-656",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Credit scores in the U.S. are entirely based on information contained in your credit report.  The details of your credit card transactions, such as where your individual purchases are from, the amount of individual purchases, refunds, chargebacks (successful or failed), etc. do not appear on your credit report.  Therefore, they can have no impact on your credit score. According to creditsavvy.com.au, credit scores in Australia are based on similar information: the information in your credit history, credit profile, and credit applications.  I don't see anything that would suggest that the details of your transactions would affect your credit score.",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "I'm sorry, but I'm not sure what you're asking.Could you please provide more context or clarify your question?",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "539473-0-302",
+          "score": null,
+          "score_type": "contriever",
+          "text": " \"Agree with wrschneider99. Also, since it's a \"\"credit report\"\" it helps to have a history of credit. My wife has been in the U.S. for 14 years and now has a higher credit score than me, a U.S. citizen. When we leased a car we put it in her name. When we took out a mortgage it's under both our names.\"",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "558388-0-548",
+          "score": null,
+          "score_type": "contriever",
+          "text": " As someone who spends a lot of time in France, I learned that many French banks will issue debit cards to US citizens, as an add-on feature to a bank account.  The fees are not low.  Societe Generale charges 8 Euros per month, Credit Agricole charges 30 Euros a year, BNP Paribas charges 12 Euros a month.  I'm sure other banks will issue cards as well.  You need to show 2 items proving US residence, such as a utility bill, plus a passport.  They can open an account immediately, on that basis and it takes about 7-10 days to get your debit card.",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "259228-0-508",
+          "score": null,
+          "score_type": "contriever",
+          "text": " If you can set up automatic payments (like direct debits in the UK) and you can be disciplined enough to not spend the money on something else then this can be a good way of building/improving your credit rating. Banks / Lenders like it when they see you have previously taken, and repaid, credit. This can help you get better finance deals etc. in the future. Update: as noted in the comments France had a different financial system and people do not have credit ratings, so this point isn't valid in France",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "413368-0-222",
+          "score": null,
+          "score_type": "contriever",
+          "text": " These cash restrictions are already working in Italy and France. And the reporting of foreign accounts is something that it should have been done a lot of time ago. I'm not sure why the article thinks they are a big deal..",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "245729-0-656",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Credit scores in the U.S. are entirely based on information contained in your credit report.  The details of your credit card transactions, such as where your individual purchases are from, the amount of individual purchases, refunds, chargebacks (successful or failed), etc. do not appear on your credit report.  Therefore, they can have no impact on your credit score. According to creditsavvy.com.au, credit scores in Australia are based on similar information: the information in your credit history, credit profile, and credit applications.  I don't see anything that would suggest that the details of your transactions would affect your credit score.",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "I don't have information on obtaining an international credit report specifically for French nationals.   A company's ability to report on your credit report is dependent on their membership in Equifax, USA etc., and while most of your credit is country by country, international companies or companies with any relationship in other countries can follow you cross-border.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "PARTIAL",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "N/A"
+        ]
+      }
+    },
+    {
+      "turn_id": "2",
+      "task_id": "4da5a7f42f3b2dc4d875dcfa2fcdefef<::>2",
+      "question": "Do you mean I can get my credit report in US?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "‚ÄúInternational credit report‚Äù for French nationals?"
+        },
+        {
+          "role": "assistant",
+          "content": "I don't have information on obtaining an international credit report specifically for French nationals.   A company's ability to report on your credit report is dependent on their membership in Equifax, USA etc., and while most of your credit is country by country, international companies or companies with any relationship in other countries can follow you cross-border."
+        }
+      ],
+      "retrieval": {
+        "query": "Do you mean I can get my credit report in US?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "498955-0-1812",
+            "score": null,
+            "score_type": "contriever",
+            "text": " You should really talk to a lawyer about criminal concerns. There may be some. Does USA credit score transfer to other countries? The USA doesn't do anything with credit scores. In the USA credit records are maintained by private companies who provide the information to your creditor. There's no legal limitation for the creditors to be within USA, only that you allow access. So bottom line - technically it is possible for foreign creditors to get that information. If you don't have local credit score, it is likely that they will. Will someone come after me? Depends on the loan managers. Civil suite is possible, since you cannot discharge student loans in bankruptcy. How likely is it? Probably not very likely. Could I be extradited? Only if a criminal complaint is filed and the country you're at has an extradition agreement with the US. Would I be arrested if I ever came back to visit a family member? I'm not sure on this. I believe it is possible for a lender to have your passport taken by a court, but I don't think you can be actually arrested unless there's a criminal charge. But as I said - I believe your passport may be taken away from you when you come to the US, to prevent you fleeing without paying the debt. Would someone go after my family to collect the debts? Can they do that? Unless they co-signed, or they have control over your assets - unlikely. Could the USA somehow garnish my pay in another country? Yes, if a court decides so. That would have to be a court in that country though. In addition: The US can freeze your assets abroad if you keep them in a FATCA-compliant institution (which is almost any bank, nowadays). Also, when you die, the US may (and probably will) demand a portion of your estate to pay the debt. Talk to a lawyer about additional issues and concerns.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "539473-0-302",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"Agree with wrschneider99. Also, since it's a \"\"credit report\"\" it helps to have a history of credit. My wife has been in the U.S. for 14 years and now has a higher credit score than me, a U.S. citizen. When we leased a car we put it in her name. When we took out a mortgage it's under both our names.\"",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "288993-0-1488",
+            "score": null,
+            "score_type": "contriever",
+            "text": " To build a US credit record, you need a Social Security Number (SSN), which is now not available for most non-residents.   An alternative is an ITIN number, which is now available to non-residents only if they have US income giving a reason to file a US tax return (do you really want to get into all that...). Assuming you did have a reason to get a ITIN (one reason would be if you sold some ebooks via Amazon US, and need a withholding refund under the tax treaty), then recent reports on Flyertalk give mixed results on whether it's possible to get a credit card with an ITIN, and whether that would build a credit record.  It does sound possible in some cases.   A credit record in any other country would not help.  You would certainly need a US address, and banks are increasingly asking for a physical address, rather than just a mailbox. Regardless, building this history would be of limited benefit to you if you later became a US resident, at that point you would be eligible for a new SSN (different from the ITIN) and have to largely start again. If getting a card is the aim, rather than the credit record, you may find some banks that will offer a secured card (or a debit card), to non-residents, especially in areas with lots of Canadian visitors (border, Florida, Arizona).  You'd find it a lot easier with a US address though, and you'd need to shop around a lot of banks in person until you find one with the right rules.  Most will simply avoid anyone without an SSN.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "66963-0-1507",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Assuming you are asking about a credit score in the United States, the following applies. To find out your FICO score, navigate to AnnualCreditReport, the official site to help consumers receive their credit report from each of the three organizations providing these scores - Equifax, Experian, and TransUnion.  You are - in many states - entitled to a free copy of your credit report from each of these organizations annually.   This copy of your credit report will not contain your credit score from that organization.  It will, however, contain information that goes into your credit score - the lines of credits on file, any delinquencies reported, etc. If you decide you would like to pay for your credit score from each bureau, you will have the option to receive this information while getting your credit report, but you will have to pay a nominal fee for it.  Remember that each of the 3 bureaus gives you a different score.  Averaging your 3 scores should give you a good idea of your FICO score.  Note that your report is far more important than your score - once you know that, you know if you're in a good place or not. These other questions are so close that they might even be considered duplicates, and provide other suggestions for how to check your score. As a warning, don't trust the many ads out there saying you can get your score for free.  Only AnnualCreditReport is considered a safe place for entering the very personal information required to get a score.  The FTC backs this up.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "325371-0-858",
+            "score": null,
+            "score_type": "contriever",
+            "text": " What are the consequences if I ignore the emails? That would depend on how much efforts the collection agency is ready to put in. I got a social security number when I took up on campus jobs at the school and I do have a credit score. Can they get a hold of this and report to the credit bureaus even though I don't live in America? Possibly yes, they may already be doing it. Will they know when I come to America and arrest me at the border or can they take away my passport? For this, they would have to file a civil case in the court and get an injunction to arrest you. Edit: Generally it is unlikely that the court may grant an arrest warrant, unless in specific cases. A lawyer advise would be more appropriate. End Edits It is possible that the visa would also get rejected as you would have to declare previous visits and credit history is not good.",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "498955-0-1812",
+            "score": null,
+            "score_type": "contriever",
+            "text": " You should really talk to a lawyer about criminal concerns. There may be some. Does USA credit score transfer to other countries? The USA doesn't do anything with credit scores. In the USA credit records are maintained by private companies who provide the information to your creditor. There's no legal limitation for the creditors to be within USA, only that you allow access. So bottom line - technically it is possible for foreign creditors to get that information. If you don't have local credit score, it is likely that they will. Will someone come after me? Depends on the loan managers. Civil suite is possible, since you cannot discharge student loans in bankruptcy. How likely is it? Probably not very likely. Could I be extradited? Only if a criminal complaint is filed and the country you're at has an extradition agreement with the US. Would I be arrested if I ever came back to visit a family member? I'm not sure on this. I believe it is possible for a lender to have your passport taken by a court, but I don't think you can be actually arrested unless there's a criminal charge. But as I said - I believe your passport may be taken away from you when you come to the US, to prevent you fleeing without paying the debt. Would someone go after my family to collect the debts? Can they do that? Unless they co-signed, or they have control over your assets - unlikely. Could the USA somehow garnish my pay in another country? Yes, if a court decides so. That would have to be a court in that country though. In addition: The US can freeze your assets abroad if you keep them in a FATCA-compliant institution (which is almost any bank, nowadays). Also, when you die, the US may (and probably will) demand a portion of your estate to pay the debt. Talk to a lawyer about additional issues and concerns.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "539473-0-302",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"Agree with wrschneider99. Also, since it's a \"\"credit report\"\" it helps to have a history of credit. My wife has been in the U.S. for 14 years and now has a higher credit score than me, a U.S. citizen. When we leased a car we put it in her name. When we took out a mortgage it's under both our names.\"",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "288993-0-1488",
+            "score": null,
+            "score_type": "contriever",
+            "text": " To build a US credit record, you need a Social Security Number (SSN), which is now not available for most non-residents.   An alternative is an ITIN number, which is now available to non-residents only if they have US income giving a reason to file a US tax return (do you really want to get into all that...). Assuming you did have a reason to get a ITIN (one reason would be if you sold some ebooks via Amazon US, and need a withholding refund under the tax treaty), then recent reports on Flyertalk give mixed results on whether it's possible to get a credit card with an ITIN, and whether that would build a credit record.  It does sound possible in some cases.   A credit record in any other country would not help.  You would certainly need a US address, and banks are increasingly asking for a physical address, rather than just a mailbox. Regardless, building this history would be of limited benefit to you if you later became a US resident, at that point you would be eligible for a new SSN (different from the ITIN) and have to largely start again. If getting a card is the aim, rather than the credit record, you may find some banks that will offer a secured card (or a debit card), to non-residents, especially in areas with lots of Canadian visitors (border, Florida, Arizona).  You'd find it a lot easier with a US address though, and you'd need to shop around a lot of banks in person until you find one with the right rules.  Most will simply avoid anyone without an SSN.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "66963-0-1507",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Assuming you are asking about a credit score in the United States, the following applies. To find out your FICO score, navigate to AnnualCreditReport, the official site to help consumers receive their credit report from each of the three organizations providing these scores - Equifax, Experian, and TransUnion.  You are - in many states - entitled to a free copy of your credit report from each of these organizations annually.   This copy of your credit report will not contain your credit score from that organization.  It will, however, contain information that goes into your credit score - the lines of credits on file, any delinquencies reported, etc. If you decide you would like to pay for your credit score from each bureau, you will have the option to receive this information while getting your credit report, but you will have to pay a nominal fee for it.  Remember that each of the 3 bureaus gives you a different score.  Averaging your 3 scores should give you a good idea of your FICO score.  Note that your report is far more important than your score - once you know that, you know if you're in a good place or not. These other questions are so close that they might even be considered duplicates, and provide other suggestions for how to check your score. As a warning, don't trust the many ads out there saying you can get your score for free.  Only AnnualCreditReport is considered a safe place for entering the very personal information required to get a score.  The FTC backs this up.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "325371-0-858",
+            "score": null,
+            "score_type": "contriever",
+            "text": " What are the consequences if I ignore the emails? That would depend on how much efforts the collection agency is ready to put in. I got a social security number when I took up on campus jobs at the school and I do have a credit score. Can they get a hold of this and report to the credit bureaus even though I don't live in America? Possibly yes, they may already be doing it. Will they know when I come to America and arrest me at the border or can they take away my passport? For this, they would have to file a civil case in the court and get an injunction to arrest you. Edit: Generally it is unlikely that the court may grant an arrest warrant, unless in specific cases. A lawyer advise would be more appropriate. End Edits It is possible that the visa would also get rejected as you would have to declare previous visits and credit history is not good.",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Assistant: You can get your credit report in US.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "498955-0-1812",
+          "score": null,
+          "score_type": "contriever",
+          "text": " You should really talk to a lawyer about criminal concerns. There may be some. Does USA credit score transfer to other countries? The USA doesn't do anything with credit scores. In the USA credit records are maintained by private companies who provide the information to your creditor. There's no legal limitation for the creditors to be within USA, only that you allow access. So bottom line - technically it is possible for foreign creditors to get that information. If you don't have local credit score, it is likely that they will. Will someone come after me? Depends on the loan managers. Civil suite is possible, since you cannot discharge student loans in bankruptcy. How likely is it? Probably not very likely. Could I be extradited? Only if a criminal complaint is filed and the country you're at has an extradition agreement with the US. Would I be arrested if I ever came back to visit a family member? I'm not sure on this. I believe it is possible for a lender to have your passport taken by a court, but I don't think you can be actually arrested unless there's a criminal charge. But as I said - I believe your passport may be taken away from you when you come to the US, to prevent you fleeing without paying the debt. Would someone go after my family to collect the debts? Can they do that? Unless they co-signed, or they have control over your assets - unlikely. Could the USA somehow garnish my pay in another country? Yes, if a court decides so. That would have to be a court in that country though. In addition: The US can freeze your assets abroad if you keep them in a FATCA-compliant institution (which is almost any bank, nowadays). Also, when you die, the US may (and probably will) demand a portion of your estate to pay the debt. Talk to a lawyer about additional issues and concerns.",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "539473-0-302",
+          "score": null,
+          "score_type": "contriever",
+          "text": " \"Agree with wrschneider99. Also, since it's a \"\"credit report\"\" it helps to have a history of credit. My wife has been in the U.S. for 14 years and now has a higher credit score than me, a U.S. citizen. When we leased a car we put it in her name. When we took out a mortgage it's under both our names.\"",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "288993-0-1488",
+          "score": null,
+          "score_type": "contriever",
+          "text": " To build a US credit record, you need a Social Security Number (SSN), which is now not available for most non-residents.   An alternative is an ITIN number, which is now available to non-residents only if they have US income giving a reason to file a US tax return (do you really want to get into all that...). Assuming you did have a reason to get a ITIN (one reason would be if you sold some ebooks via Amazon US, and need a withholding refund under the tax treaty), then recent reports on Flyertalk give mixed results on whether it's possible to get a credit card with an ITIN, and whether that would build a credit record.  It does sound possible in some cases.   A credit record in any other country would not help.  You would certainly need a US address, and banks are increasingly asking for a physical address, rather than just a mailbox. Regardless, building this history would be of limited benefit to you if you later became a US resident, at that point you would be eligible for a new SSN (different from the ITIN) and have to largely start again. If getting a card is the aim, rather than the credit record, you may find some banks that will offer a secured card (or a debit card), to non-residents, especially in areas with lots of Canadian visitors (border, Florida, Arizona).  You'd find it a lot easier with a US address though, and you'd need to shop around a lot of banks in person until you find one with the right rules.  Most will simply avoid anyone without an SSN.",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "66963-0-1507",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Assuming you are asking about a credit score in the United States, the following applies. To find out your FICO score, navigate to AnnualCreditReport, the official site to help consumers receive their credit report from each of the three organizations providing these scores - Equifax, Experian, and TransUnion.  You are - in many states - entitled to a free copy of your credit report from each of these organizations annually.   This copy of your credit report will not contain your credit score from that organization.  It will, however, contain information that goes into your credit score - the lines of credits on file, any delinquencies reported, etc. If you decide you would like to pay for your credit score from each bureau, you will have the option to receive this information while getting your credit report, but you will have to pay a nominal fee for it.  Remember that each of the 3 bureaus gives you a different score.  Averaging your 3 scores should give you a good idea of your FICO score.  Note that your report is far more important than your score - once you know that, you know if you're in a good place or not. These other questions are so close that they might even be considered duplicates, and provide other suggestions for how to check your score. As a warning, don't trust the many ads out there saying you can get your score for free.  Only AnnualCreditReport is considered a safe place for entering the very personal information required to get a score.  The FTC backs this up.",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "325371-0-858",
+          "score": null,
+          "score_type": "contriever",
+          "text": " What are the consequences if I ignore the emails? That would depend on how much efforts the collection agency is ready to put in. I got a social security number when I took up on campus jobs at the school and I do have a credit score. Can they get a hold of this and report to the credit bureaus even though I don't live in America? Possibly yes, they may already be doing it. Will they know when I come to America and arrest me at the border or can they take away my passport? For this, they would have to file a civil case in the court and get an injunction to arrest you. Edit: Generally it is unlikely that the court may grant an arrest warrant, unless in specific cases. A lawyer advise would be more appropriate. End Edits It is possible that the visa would also get rejected as you would have to declare previous visits and credit history is not good.",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "Yes, as a French national, you can obtain your credit report in the United States. Generally, in the U.S., you can request a free copy of your credit report from each of the three major credit bureaus - Equifax, Experian, and TransUnion - once a year through the AnnualCreditReport website. Your credit report contains information that goes into your credit score, such as the lines of credit on file and any delinquencies reported. To get your actual credit score, you would need to pay a nominal fee.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Clarification"
+        ]
+      }
+    },
+    {
+      "turn_id": "3",
+      "task_id": "4da5a7f42f3b2dc4d875dcfa2fcdefef<::>3",
+      "question": "what would hurt my credit?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "‚ÄúInternational credit report‚Äù for French nationals?"
+        },
+        {
+          "role": "assistant",
+          "content": "I don't have information on obtaining an international credit report specifically for French nationals.   A company's ability to report on your credit report is dependent on their membership in Equifax, USA etc., and while most of your credit is country by country, international companies or companies with any relationship in other countries can follow you cross-border."
+        },
+        {
+          "role": "user",
+          "content": "Do you mean I can get my credit report in US?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, as a French national, you can obtain your credit report in the United States. Generally, in the U.S., you can request a free copy of your credit report from each of the three major credit bureaus - Equifax, Experian, and TransUnion - once a year through the AnnualCreditReport website. Your credit report contains information that goes into your credit score, such as the lines of credit on file and any delinquencies reported. To get your actual credit score, you would need to pay a nominal fee."
+        }
+      ],
+      "retrieval": {
+        "query": "what would hurt my credit?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "336659-0-280",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Except for the fact that canceling credit cards will hurt your credit, either by increasing your utilization ratio or decreasing the length of your credit lines if you cancel the oldest card, which makes it that much harder to get the good interest rates available on other loans.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "533288-0-494",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Closing the card will be fine. The consequences are related to your available credit and actual/potential utilization. If you have less total credit, any credit you actually use will be a greater percentage of your total credit, manipulating your score downwards more greatly. The next consequence will be related to the age of your credit history, which is an average of your credit lines. This seems negligible and also beneficial for you, since your credit history is so young to begin with.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "261273-0-606",
+            "score": null,
+            "score_type": "contriever",
+            "text": " People can and do intentionally hurt other people's credit scores all the time. This is why there are so many services to get your credit report checked, because it is very possibly that somebody did use your social security number to get a mortgage on a house or a car or open credit cards you didn't even know about, or even collections efforts you didn't know about. It is possible that organizations hard pulled your account multiple times and paid for it. The deterrents are inadequate and ultimately leave you with the messed up credit worthiness, regardless if civil or criminal charges were levied.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "470024-0-205",
+            "score": null,
+            "score_type": "contriever",
+            "text": " The biggest reason that they are a bad idea is just because every credit application hurts your credit score, as does having too many cards. In addition, every new card is a greater risk of identity theft.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "414629-0-319",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Short-term it will not help, it will actually hurt your credit score. Long-term, it will help for a couple of reasons: The mix that others refer to is mortgage and auto loans which do not count as revolving credit. A mortgage will help more than a credit card in this case, but may not make sense in your circumstances.",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "336659-0-280",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Except for the fact that canceling credit cards will hurt your credit, either by increasing your utilization ratio or decreasing the length of your credit lines if you cancel the oldest card, which makes it that much harder to get the good interest rates available on other loans.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "533288-0-494",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Closing the card will be fine. The consequences are related to your available credit and actual/potential utilization. If you have less total credit, any credit you actually use will be a greater percentage of your total credit, manipulating your score downwards more greatly. The next consequence will be related to the age of your credit history, which is an average of your credit lines. This seems negligible and also beneficial for you, since your credit history is so young to begin with.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "261273-0-606",
+            "score": null,
+            "score_type": "contriever",
+            "text": " People can and do intentionally hurt other people's credit scores all the time. This is why there are so many services to get your credit report checked, because it is very possibly that somebody did use your social security number to get a mortgage on a house or a car or open credit cards you didn't even know about, or even collections efforts you didn't know about. It is possible that organizations hard pulled your account multiple times and paid for it. The deterrents are inadequate and ultimately leave you with the messed up credit worthiness, regardless if civil or criminal charges were levied.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "470024-0-205",
+            "score": null,
+            "score_type": "contriever",
+            "text": " The biggest reason that they are a bad idea is just because every credit application hurts your credit score, as does having too many cards. In addition, every new card is a greater risk of identity theft.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "414629-0-319",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Short-term it will not help, it will actually hurt your credit score. Long-term, it will help for a couple of reasons: The mix that others refer to is mortgage and auto loans which do not count as revolving credit. A mortgage will help more than a credit card in this case, but may not make sense in your circumstances.",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Additionally, other factors such as late or missed payments, maxed-out credit cards, and bankruptcies can negatively impact your credit score.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "336659-0-280",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Except for the fact that canceling credit cards will hurt your credit, either by increasing your utilization ratio or decreasing the length of your credit lines if you cancel the oldest card, which makes it that much harder to get the good interest rates available on other loans.",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "533288-0-494",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Closing the card will be fine. The consequences are related to your available credit and actual/potential utilization. If you have less total credit, any credit you actually use will be a greater percentage of your total credit, manipulating your score downwards more greatly. The next consequence will be related to the age of your credit history, which is an average of your credit lines. This seems negligible and also beneficial for you, since your credit history is so young to begin with.",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "261273-0-606",
+          "score": null,
+          "score_type": "contriever",
+          "text": " People can and do intentionally hurt other people's credit scores all the time. This is why there are so many services to get your credit report checked, because it is very possibly that somebody did use your social security number to get a mortgage on a house or a car or open credit cards you didn't even know about, or even collections efforts you didn't know about. It is possible that organizations hard pulled your account multiple times and paid for it. The deterrents are inadequate and ultimately leave you with the messed up credit worthiness, regardless if civil or criminal charges were levied.",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "470024-0-205",
+          "score": null,
+          "score_type": "contriever",
+          "text": " The biggest reason that they are a bad idea is just because every credit application hurts your credit score, as does having too many cards. In addition, every new card is a greater risk of identity theft.",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "414629-0-319",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Short-term it will not help, it will actually hurt your credit score. Long-term, it will help for a couple of reasons: The mix that others refer to is mortgage and auto loans which do not count as revolving credit. A mortgage will help more than a credit card in this case, but may not make sense in your circumstances.",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "Several factors could negatively impact your credit score. These include having a high credit utilization rate, which means using more than 50% or 33% of your credit card limit at any given time. This applies even if you charge a large amount and pay it off quickly. Having a large available credit balance could also potentially harm your credit score, as this could indicate to lenders that you might quickly accumulate high credit card debt. Late payments, a large total credit balance outstanding, and making many credit applications in a short period of time can also negatively affect your credit score.   However, opening and closing bank accounts, buying or selling cars without debt, or even buying or selling houses without debt won't affect your credit score.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Summarization"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "4",
+      "task_id": "4da5a7f42f3b2dc4d875dcfa2fcdefef<::>4",
+      "question": "should I live in the US?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "‚ÄúInternational credit report‚Äù for French nationals?"
+        },
+        {
+          "role": "assistant",
+          "content": "I don't have information on obtaining an international credit report specifically for French nationals.   A company's ability to report on your credit report is dependent on their membership in Equifax, USA etc., and while most of your credit is country by country, international companies or companies with any relationship in other countries can follow you cross-border."
+        },
+        {
+          "role": "user",
+          "content": "Do you mean I can get my credit report in US?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, as a French national, you can obtain your credit report in the United States. Generally, in the U.S., you can request a free copy of your credit report from each of the three major credit bureaus - Equifax, Experian, and TransUnion - once a year through the AnnualCreditReport website. Your credit report contains information that goes into your credit score, such as the lines of credit on file and any delinquencies reported. To get your actual credit score, you would need to pay a nominal fee."
+        },
+        {
+          "role": "user",
+          "content": "what would hurt my credit?"
+        },
+        {
+          "role": "assistant",
+          "content": "Several factors could negatively impact your credit score. These include having a high credit utilization rate, which means using more than 50% or 33% of your credit card limit at any given time. This applies even if you charge a large amount and pay it off quickly. Having a large available credit balance could also potentially harm your credit score, as this could indicate to lenders that you might quickly accumulate high credit card debt. Late payments, a large total credit balance outstanding, and making many credit applications in a short period of time can also negatively affect your credit score.   However, opening and closing bank accounts, buying or selling cars without debt, or even buying or selling houses without debt won't affect your credit score."
+        }
+      ],
+      "retrieval": {
+        "query": "should I live in the US?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "508343-0-317",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Because most people aren't willing to sacrifice their ability to live in the US for 100k. Remember that you can't pull this off multiple times easily.   So as a one and done kind of deal, 100k isn't a great trade for the right to live in tthe US or whatever country you have roots in, particularly once you factor in:",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "562753-0-411",
+            "score": null,
+            "score_type": "contriever",
+            "text": " I've worked extensively overseas and I can say America is one of the most miserable places I have lived. But, it isn't even the poor, but the middle and upper middle class who are the most miserable - always thinking they are just about to turn the financial corner, trying to keep up with their in-debt neighbors, and never socializing. I wish it was mandatory for Americans to live overseas for a year or two.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "566807-0-279",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Where do you plan on moving to?  Does your job allow you to work remotely? Or are you quitting and getting a job in the new location?  Seems to me that the US is still the best place to be, although I must confess that you might have a point about the US becoming a police state.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "569738-0-650",
+            "score": null,
+            "score_type": "contriever",
+            "text": " You could easily move to Nashville TN. Enough jobs, low cost of living and high median wages. But no you insist on living in all of these trendy places and complain life is so hard and expensive.   You americans really don't understand how fucking entitled you are. If you have ever endured poverty you'd understand what I'm talking about. But you insist that a life without traveling and smartphones is miserable.   You americans are nothing but a bunch of privileged pigs. The sooner the likes like you die off the better. America should be in the hands of those willing to work and look for opportunities, not for those waiting to get them handed.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "495827-0-1212",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"Its not for US citizens - its for US residents. If the US considers you as a tax resident - you'll be treated the same as a US citizen, regardless of your immigration status. The question is very unclear, since it is not mentioned whether your US sourced income \"\"from the Internet\"\" is sales in the US, sales on-line, services you provide, investments, or what else. All these are treated differently. For some kinds of US-sourced income you should have paid taxes in the US already, regardless of where you physically reside. For others - not. In any case, if you become US tax resident, you'll be taxed on your worldwide income, not only the $10K deposited in the US bank account. ALL of your income, everywhere in the world, must be declared to the US government and will be taxed. You should seek professional advice, before you move to the US, in order to understand your responsibilities, liabilities and rights. I suggest looking for a EA/CPA licensed in California and experienced with taxation of foreigners (look for someone in the SF or LA metropolitan areas). Keep in mind that there may be a tax treaty between the US and your home country that may affect your Federal (but not California) taxes.\"",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "508343-0-317",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Because most people aren't willing to sacrifice their ability to live in the US for 100k. Remember that you can't pull this off multiple times easily.   So as a one and done kind of deal, 100k isn't a great trade for the right to live in tthe US or whatever country you have roots in, particularly once you factor in:",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "562753-0-411",
+            "score": null,
+            "score_type": "contriever",
+            "text": " I've worked extensively overseas and I can say America is one of the most miserable places I have lived. But, it isn't even the poor, but the middle and upper middle class who are the most miserable - always thinking they are just about to turn the financial corner, trying to keep up with their in-debt neighbors, and never socializing. I wish it was mandatory for Americans to live overseas for a year or two.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "566807-0-279",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Where do you plan on moving to?  Does your job allow you to work remotely? Or are you quitting and getting a job in the new location?  Seems to me that the US is still the best place to be, although I must confess that you might have a point about the US becoming a police state.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "569738-0-650",
+            "score": null,
+            "score_type": "contriever",
+            "text": " You could easily move to Nashville TN. Enough jobs, low cost of living and high median wages. But no you insist on living in all of these trendy places and complain life is so hard and expensive.   You americans really don't understand how fucking entitled you are. If you have ever endured poverty you'd understand what I'm talking about. But you insist that a life without traveling and smartphones is miserable.   You americans are nothing but a bunch of privileged pigs. The sooner the likes like you die off the better. America should be in the hands of those willing to work and look for opportunities, not for those waiting to get them handed.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "495827-0-1212",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"Its not for US citizens - its for US residents. If the US considers you as a tax resident - you'll be treated the same as a US citizen, regardless of your immigration status. The question is very unclear, since it is not mentioned whether your US sourced income \"\"from the Internet\"\" is sales in the US, sales on-line, services you provide, investments, or what else. All these are treated differently. For some kinds of US-sourced income you should have paid taxes in the US already, regardless of where you physically reside. For others - not. In any case, if you become US tax resident, you'll be taxed on your worldwide income, not only the $10K deposited in the US bank account. ALL of your income, everywhere in the world, must be declared to the US government and will be taxed. You should seek professional advice, before you move to the US, in order to understand your responsibilities, liabilities and rights. I suggest looking for a EA/CPA licensed in California and experienced with taxation of foreigners (look for someone in the SF or LA metropolitan areas). Keep in mind that there may be a tax treaty between the US and your home country that may affect your Federal (but not California) taxes.\"",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "As an AI language model, I don't have personal opinions or experiences.However, I can provide you with information and answer any questions you may have.If you're considering moving to the United States, there are several factors to consider, such as the cost of living, job opportunities, cultural differences, and personal preferences.It's important to carefully evaluate these factors before making a decision to move to a new country.Additionally, it's important to research the immigration process and requirements for non-US citizens who want to live and work in the United States.It's also important to note that immigration laws and regulations can change, so it's always a good idea to stay up-to-date with the latest information.If you have any specific questions or concerns about moving to the United States, I'd be happy to help you with the best of my abilities.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "508343-0-317",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Because most people aren't willing to sacrifice their ability to live in the US for 100k. Remember that you can't pull this off multiple times easily.   So as a one and done kind of deal, 100k isn't a great trade for the right to live in tthe US or whatever country you have roots in, particularly once you factor in:",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "562753-0-411",
+          "score": null,
+          "score_type": "contriever",
+          "text": " I've worked extensively overseas and I can say America is one of the most miserable places I have lived. But, it isn't even the poor, but the middle and upper middle class who are the most miserable - always thinking they are just about to turn the financial corner, trying to keep up with their in-debt neighbors, and never socializing. I wish it was mandatory for Americans to live overseas for a year or two.",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "566807-0-279",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Where do you plan on moving to?  Does your job allow you to work remotely? Or are you quitting and getting a job in the new location?  Seems to me that the US is still the best place to be, although I must confess that you might have a point about the US becoming a police state.",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "569738-0-650",
+          "score": null,
+          "score_type": "contriever",
+          "text": " You could easily move to Nashville TN. Enough jobs, low cost of living and high median wages. But no you insist on living in all of these trendy places and complain life is so hard and expensive.   You americans really don't understand how fucking entitled you are. If you have ever endured poverty you'd understand what I'm talking about. But you insist that a life without traveling and smartphones is miserable.   You americans are nothing but a bunch of privileged pigs. The sooner the likes like you die off the better. America should be in the hands of those willing to work and look for opportunities, not for those waiting to get them handed.",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "495827-0-1212",
+          "score": null,
+          "score_type": "contriever",
+          "text": " \"Its not for US citizens - its for US residents. If the US considers you as a tax resident - you'll be treated the same as a US citizen, regardless of your immigration status. The question is very unclear, since it is not mentioned whether your US sourced income \"\"from the Internet\"\" is sales in the US, sales on-line, services you provide, investments, or what else. All these are treated differently. For some kinds of US-sourced income you should have paid taxes in the US already, regardless of where you physically reside. For others - not. In any case, if you become US tax resident, you'll be taxed on your worldwide income, not only the $10K deposited in the US bank account. ALL of your income, everywhere in the world, must be declared to the US government and will be taxed. You should seek professional advice, before you move to the US, in order to understand your responsibilities, liabilities and rights. I suggest looking for a EA/CPA licensed in California and experienced with taxation of foreigners (look for someone in the SF or LA metropolitan areas). Keep in mind that there may be a tax treaty between the US and your home country that may affect your Federal (but not California) taxes.\"",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "I have no information that you should live in the US to obtain your credit report. ",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "UNANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "5",
+      "task_id": "4da5a7f42f3b2dc4d875dcfa2fcdefef<::>5",
+      "question": "But I have to have some credit activities in the US, right?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "‚ÄúInternational credit report‚Äù for French nationals?"
+        },
+        {
+          "role": "assistant",
+          "content": "I don't have information on obtaining an international credit report specifically for French nationals.   A company's ability to report on your credit report is dependent on their membership in Equifax, USA etc., and while most of your credit is country by country, international companies or companies with any relationship in other countries can follow you cross-border."
+        },
+        {
+          "role": "user",
+          "content": "Do you mean I can get my credit report in US?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, as a French national, you can obtain your credit report in the United States. Generally, in the U.S., you can request a free copy of your credit report from each of the three major credit bureaus - Equifax, Experian, and TransUnion - once a year through the AnnualCreditReport website. Your credit report contains information that goes into your credit score, such as the lines of credit on file and any delinquencies reported. To get your actual credit score, you would need to pay a nominal fee."
+        },
+        {
+          "role": "user",
+          "content": "what would hurt my credit?"
+        },
+        {
+          "role": "assistant",
+          "content": "Several factors could negatively impact your credit score. These include having a high credit utilization rate, which means using more than 50% or 33% of your credit card limit at any given time. This applies even if you charge a large amount and pay it off quickly. Having a large available credit balance could also potentially harm your credit score, as this could indicate to lenders that you might quickly accumulate high credit card debt. Late payments, a large total credit balance outstanding, and making many credit applications in a short period of time can also negatively affect your credit score.   However, opening and closing bank accounts, buying or selling cars without debt, or even buying or selling houses without debt won't affect your credit score."
+        },
+        {
+          "role": "user",
+          "content": "should I live in the US?"
+        },
+        {
+          "role": "assistant",
+          "content": "I have no information that you should live in the US to obtain your credit report. "
+        }
+      ],
+      "retrieval": {
+        "query": "But I have to have some credit activities in the US, right?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "329713-0-956",
+            "score": null,
+            "score_type": "contriever",
+            "text": " If you are assigned a US Social Security number, you can apply for credit while you are here.  Making small purchases and paying them off will help with your length of credit history, which is a part of FICO, but inactivity will eventually lead to those accounts being closed.   Additionally, many revolving credit companies will charge you annual fees to keep your accounts open, and will require you to maintain a US address, and most want a residential address, not a mail-drop or PO Box. TL;DR: you can do it, but it will likely require an investment of both in time and money that won't make it worth it. Footnote:  If you plan on opening US banking or investment accounts, there are regulations that make it difficult for foreign nationals to maintain accounts due to IRS categorization of US Taxpayers vs Foreign Nationals.  Unless you have a lot to invest or deposit, most firms won't want to bother with Foreign taxpayer certification (see w8ben).",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "346166-0-739",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Currently the credit history are not International but are local. Many countries don't have a concept of credit history yet.   Having said that, if you are moving to US, depending on your history in your country, you can ask the same bank to provide you with a card and then start building history. For example in India I had a card with Citi Bank and when I moved to US for a short period, I was given a card based on my India Card, with equivalent credit in USD. If you are moving often internationally, it would make sense to Bank with a leading bank that provide services in geographies of your interest [Citi, HSBC, etc] and then in a new country approach these institutions to get you some starting credit for you to build a history.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "509739-0-2113",
+            "score": null,
+            "score_type": "contriever",
+            "text": " I came to US as an international student several years ago, and I have also experienced the same situation like most of the international students in finding ways to build credit history. Below I list out some possible approaches you may want to consider: I. Get a student job at campus (recommended) I think the best way is to get a student job in university, say a teaching assistant or student helper. In this case, you can be provided with a social security number and start to build your own credit history. II. Get credit card You can also consider to apply for a credit card. There are indeed some financial institutions that can provide credit cards for international students with no or limited credit scores requirement, say Discover and Bank of America. However, it is relatively hard to get approved, simply because hey may put more restriction in other aspects. For example, you may be required to keep sufficient bank balance above several thousand dollars during a period of time, or you should prove that you have relatives with citizenship in US who can provide your financial aid if needed. III. Apply for a loan (recommended) Getting a loan product is another alternative to get out of this difficult situation, but most of people don’t realize that. There are some FinTech start-ups in United States that specifically focus on international students’ loan financing. One representative example is Westbon (Westbon ), an online lending company that specializes in providing car loan for international students with no SSN or credit history. I once used their loan product to finance a Honda Accord, and Westbon reported my loan transaction records to US credit bureau during my repayment process. Later when I officially got my SSN number, I found my credit history has been automatically synchronized and I don’t have to start from all over again. It never be an easy journey for international students to build credit history in United States. What approach you should make really depends on you own situation. I hope the information above can be useful and good luck for your credit journey!",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "498955-0-1812",
+            "score": null,
+            "score_type": "contriever",
+            "text": " You should really talk to a lawyer about criminal concerns. There may be some. Does USA credit score transfer to other countries? The USA doesn't do anything with credit scores. In the USA credit records are maintained by private companies who provide the information to your creditor. There's no legal limitation for the creditors to be within USA, only that you allow access. So bottom line - technically it is possible for foreign creditors to get that information. If you don't have local credit score, it is likely that they will. Will someone come after me? Depends on the loan managers. Civil suite is possible, since you cannot discharge student loans in bankruptcy. How likely is it? Probably not very likely. Could I be extradited? Only if a criminal complaint is filed and the country you're at has an extradition agreement with the US. Would I be arrested if I ever came back to visit a family member? I'm not sure on this. I believe it is possible for a lender to have your passport taken by a court, but I don't think you can be actually arrested unless there's a criminal charge. But as I said - I believe your passport may be taken away from you when you come to the US, to prevent you fleeing without paying the debt. Would someone go after my family to collect the debts? Can they do that? Unless they co-signed, or they have control over your assets - unlikely. Could the USA somehow garnish my pay in another country? Yes, if a court decides so. That would have to be a court in that country though. In addition: The US can freeze your assets abroad if you keep them in a FATCA-compliant institution (which is almost any bank, nowadays). Also, when you die, the US may (and probably will) demand a portion of your estate to pay the debt. Talk to a lawyer about additional issues and concerns.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "288993-0-1488",
+            "score": null,
+            "score_type": "contriever",
+            "text": " To build a US credit record, you need a Social Security Number (SSN), which is now not available for most non-residents.   An alternative is an ITIN number, which is now available to non-residents only if they have US income giving a reason to file a US tax return (do you really want to get into all that...). Assuming you did have a reason to get a ITIN (one reason would be if you sold some ebooks via Amazon US, and need a withholding refund under the tax treaty), then recent reports on Flyertalk give mixed results on whether it's possible to get a credit card with an ITIN, and whether that would build a credit record.  It does sound possible in some cases.   A credit record in any other country would not help.  You would certainly need a US address, and banks are increasingly asking for a physical address, rather than just a mailbox. Regardless, building this history would be of limited benefit to you if you later became a US resident, at that point you would be eligible for a new SSN (different from the ITIN) and have to largely start again. If getting a card is the aim, rather than the credit record, you may find some banks that will offer a secured card (or a debit card), to non-residents, especially in areas with lots of Canadian visitors (border, Florida, Arizona).  You'd find it a lot easier with a US address though, and you'd need to shop around a lot of banks in person until you find one with the right rules.  Most will simply avoid anyone without an SSN.",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "329713-0-956",
+            "score": null,
+            "score_type": "contriever",
+            "text": " If you are assigned a US Social Security number, you can apply for credit while you are here.  Making small purchases and paying them off will help with your length of credit history, which is a part of FICO, but inactivity will eventually lead to those accounts being closed.   Additionally, many revolving credit companies will charge you annual fees to keep your accounts open, and will require you to maintain a US address, and most want a residential address, not a mail-drop or PO Box. TL;DR: you can do it, but it will likely require an investment of both in time and money that won't make it worth it. Footnote:  If you plan on opening US banking or investment accounts, there are regulations that make it difficult for foreign nationals to maintain accounts due to IRS categorization of US Taxpayers vs Foreign Nationals.  Unless you have a lot to invest or deposit, most firms won't want to bother with Foreign taxpayer certification (see w8ben).",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "346166-0-739",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Currently the credit history are not International but are local. Many countries don't have a concept of credit history yet.   Having said that, if you are moving to US, depending on your history in your country, you can ask the same bank to provide you with a card and then start building history. For example in India I had a card with Citi Bank and when I moved to US for a short period, I was given a card based on my India Card, with equivalent credit in USD. If you are moving often internationally, it would make sense to Bank with a leading bank that provide services in geographies of your interest [Citi, HSBC, etc] and then in a new country approach these institutions to get you some starting credit for you to build a history.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "509739-0-2113",
+            "score": null,
+            "score_type": "contriever",
+            "text": " I came to US as an international student several years ago, and I have also experienced the same situation like most of the international students in finding ways to build credit history. Below I list out some possible approaches you may want to consider: I. Get a student job at campus (recommended) I think the best way is to get a student job in university, say a teaching assistant or student helper. In this case, you can be provided with a social security number and start to build your own credit history. II. Get credit card You can also consider to apply for a credit card. There are indeed some financial institutions that can provide credit cards for international students with no or limited credit scores requirement, say Discover and Bank of America. However, it is relatively hard to get approved, simply because hey may put more restriction in other aspects. For example, you may be required to keep sufficient bank balance above several thousand dollars during a period of time, or you should prove that you have relatives with citizenship in US who can provide your financial aid if needed. III. Apply for a loan (recommended) Getting a loan product is another alternative to get out of this difficult situation, but most of people don’t realize that. There are some FinTech start-ups in United States that specifically focus on international students’ loan financing. One representative example is Westbon (Westbon ), an online lending company that specializes in providing car loan for international students with no SSN or credit history. I once used their loan product to finance a Honda Accord, and Westbon reported my loan transaction records to US credit bureau during my repayment process. Later when I officially got my SSN number, I found my credit history has been automatically synchronized and I don’t have to start from all over again. It never be an easy journey for international students to build credit history in United States. What approach you should make really depends on you own situation. I hope the information above can be useful and good luck for your credit journey!",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "498955-0-1812",
+            "score": null,
+            "score_type": "contriever",
+            "text": " You should really talk to a lawyer about criminal concerns. There may be some. Does USA credit score transfer to other countries? The USA doesn't do anything with credit scores. In the USA credit records are maintained by private companies who provide the information to your creditor. There's no legal limitation for the creditors to be within USA, only that you allow access. So bottom line - technically it is possible for foreign creditors to get that information. If you don't have local credit score, it is likely that they will. Will someone come after me? Depends on the loan managers. Civil suite is possible, since you cannot discharge student loans in bankruptcy. How likely is it? Probably not very likely. Could I be extradited? Only if a criminal complaint is filed and the country you're at has an extradition agreement with the US. Would I be arrested if I ever came back to visit a family member? I'm not sure on this. I believe it is possible for a lender to have your passport taken by a court, but I don't think you can be actually arrested unless there's a criminal charge. But as I said - I believe your passport may be taken away from you when you come to the US, to prevent you fleeing without paying the debt. Would someone go after my family to collect the debts? Can they do that? Unless they co-signed, or they have control over your assets - unlikely. Could the USA somehow garnish my pay in another country? Yes, if a court decides so. That would have to be a court in that country though. In addition: The US can freeze your assets abroad if you keep them in a FATCA-compliant institution (which is almost any bank, nowadays). Also, when you die, the US may (and probably will) demand a portion of your estate to pay the debt. Talk to a lawyer about additional issues and concerns.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "288993-0-1488",
+            "score": null,
+            "score_type": "contriever",
+            "text": " To build a US credit record, you need a Social Security Number (SSN), which is now not available for most non-residents.   An alternative is an ITIN number, which is now available to non-residents only if they have US income giving a reason to file a US tax return (do you really want to get into all that...). Assuming you did have a reason to get a ITIN (one reason would be if you sold some ebooks via Amazon US, and need a withholding refund under the tax treaty), then recent reports on Flyertalk give mixed results on whether it's possible to get a credit card with an ITIN, and whether that would build a credit record.  It does sound possible in some cases.   A credit record in any other country would not help.  You would certainly need a US address, and banks are increasingly asking for a physical address, rather than just a mailbox. Regardless, building this history would be of limited benefit to you if you later became a US resident, at that point you would be eligible for a new SSN (different from the ITIN) and have to largely start again. If getting a card is the aim, rather than the credit record, you may find some banks that will offer a secured card (or a debit card), to non-residents, especially in areas with lots of Canadian visitors (border, Florida, Arizona).  You'd find it a lot easier with a US address though, and you'd need to shop around a lot of banks in person until you find one with the right rules.  Most will simply avoid anyone without an SSN.",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Assistant: You can obtain your credit report in the United States even if you do not have any credit activities in the US.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "329713-0-956",
+          "score": null,
+          "score_type": "contriever",
+          "text": " If you are assigned a US Social Security number, you can apply for credit while you are here.  Making small purchases and paying them off will help with your length of credit history, which is a part of FICO, but inactivity will eventually lead to those accounts being closed.   Additionally, many revolving credit companies will charge you annual fees to keep your accounts open, and will require you to maintain a US address, and most want a residential address, not a mail-drop or PO Box. TL;DR: you can do it, but it will likely require an investment of both in time and money that won't make it worth it. Footnote:  If you plan on opening US banking or investment accounts, there are regulations that make it difficult for foreign nationals to maintain accounts due to IRS categorization of US Taxpayers vs Foreign Nationals.  Unless you have a lot to invest or deposit, most firms won't want to bother with Foreign taxpayer certification (see w8ben).",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "346166-0-739",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Currently the credit history are not International but are local. Many countries don't have a concept of credit history yet.   Having said that, if you are moving to US, depending on your history in your country, you can ask the same bank to provide you with a card and then start building history. For example in India I had a card with Citi Bank and when I moved to US for a short period, I was given a card based on my India Card, with equivalent credit in USD. If you are moving often internationally, it would make sense to Bank with a leading bank that provide services in geographies of your interest [Citi, HSBC, etc] and then in a new country approach these institutions to get you some starting credit for you to build a history.",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "509739-0-2113",
+          "score": null,
+          "score_type": "contriever",
+          "text": " I came to US as an international student several years ago, and I have also experienced the same situation like most of the international students in finding ways to build credit history. Below I list out some possible approaches you may want to consider: I. Get a student job at campus (recommended) I think the best way is to get a student job in university, say a teaching assistant or student helper. In this case, you can be provided with a social security number and start to build your own credit history. II. Get credit card You can also consider to apply for a credit card. There are indeed some financial institutions that can provide credit cards for international students with no or limited credit scores requirement, say Discover and Bank of America. However, it is relatively hard to get approved, simply because hey may put more restriction in other aspects. For example, you may be required to keep sufficient bank balance above several thousand dollars during a period of time, or you should prove that you have relatives with citizenship in US who can provide your financial aid if needed. III. Apply for a loan (recommended) Getting a loan product is another alternative to get out of this difficult situation, but most of people don’t realize that. There are some FinTech start-ups in United States that specifically focus on international students’ loan financing. One representative example is Westbon (Westbon ), an online lending company that specializes in providing car loan for international students with no SSN or credit history. I once used their loan product to finance a Honda Accord, and Westbon reported my loan transaction records to US credit bureau during my repayment process. Later when I officially got my SSN number, I found my credit history has been automatically synchronized and I don’t have to start from all over again. It never be an easy journey for international students to build credit history in United States. What approach you should make really depends on you own situation. I hope the information above can be useful and good luck for your credit journey!",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "498955-0-1812",
+          "score": null,
+          "score_type": "contriever",
+          "text": " You should really talk to a lawyer about criminal concerns. There may be some. Does USA credit score transfer to other countries? The USA doesn't do anything with credit scores. In the USA credit records are maintained by private companies who provide the information to your creditor. There's no legal limitation for the creditors to be within USA, only that you allow access. So bottom line - technically it is possible for foreign creditors to get that information. If you don't have local credit score, it is likely that they will. Will someone come after me? Depends on the loan managers. Civil suite is possible, since you cannot discharge student loans in bankruptcy. How likely is it? Probably not very likely. Could I be extradited? Only if a criminal complaint is filed and the country you're at has an extradition agreement with the US. Would I be arrested if I ever came back to visit a family member? I'm not sure on this. I believe it is possible for a lender to have your passport taken by a court, but I don't think you can be actually arrested unless there's a criminal charge. But as I said - I believe your passport may be taken away from you when you come to the US, to prevent you fleeing without paying the debt. Would someone go after my family to collect the debts? Can they do that? Unless they co-signed, or they have control over your assets - unlikely. Could the USA somehow garnish my pay in another country? Yes, if a court decides so. That would have to be a court in that country though. In addition: The US can freeze your assets abroad if you keep them in a FATCA-compliant institution (which is almost any bank, nowadays). Also, when you die, the US may (and probably will) demand a portion of your estate to pay the debt. Talk to a lawyer about additional issues and concerns.",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "288993-0-1488",
+          "score": null,
+          "score_type": "contriever",
+          "text": " To build a US credit record, you need a Social Security Number (SSN), which is now not available for most non-residents.   An alternative is an ITIN number, which is now available to non-residents only if they have US income giving a reason to file a US tax return (do you really want to get into all that...). Assuming you did have a reason to get a ITIN (one reason would be if you sold some ebooks via Amazon US, and need a withholding refund under the tax treaty), then recent reports on Flyertalk give mixed results on whether it's possible to get a credit card with an ITIN, and whether that would build a credit record.  It does sound possible in some cases.   A credit record in any other country would not help.  You would certainly need a US address, and banks are increasingly asking for a physical address, rather than just a mailbox. Regardless, building this history would be of limited benefit to you if you later became a US resident, at that point you would be eligible for a new SSN (different from the ITIN) and have to largely start again. If getting a card is the aim, rather than the credit record, you may find some banks that will offer a secured card (or a debit card), to non-residents, especially in areas with lots of Canadian visitors (border, Florida, Arizona).  You'd find it a lot easier with a US address though, and you'd need to shop around a lot of banks in person until you find one with the right rules.  Most will simply avoid anyone without an SSN.",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "Yes, credit history is local. To have a credit report in the U.S., you generally need to have credit activities here that are reported to the credit bureaus.  This could include having credit cards, loans, or other types of credit accounts with financial institutions in the U.S. ",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Clarification"
+        ]
+      }
+    },
+    {
+      "turn_id": "6",
+      "task_id": "4da5a7f42f3b2dc4d875dcfa2fcdefef<::>6",
+      "question": "if I am wrongfully reported...",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "‚ÄúInternational credit report‚Äù for French nationals?"
+        },
+        {
+          "role": "assistant",
+          "content": "I don't have information on obtaining an international credit report specifically for French nationals.   A company's ability to report on your credit report is dependent on their membership in Equifax, USA etc., and while most of your credit is country by country, international companies or companies with any relationship in other countries can follow you cross-border."
+        },
+        {
+          "role": "user",
+          "content": "Do you mean I can get my credit report in US?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, as a French national, you can obtain your credit report in the United States. Generally, in the U.S., you can request a free copy of your credit report from each of the three major credit bureaus - Equifax, Experian, and TransUnion - once a year through the AnnualCreditReport website. Your credit report contains information that goes into your credit score, such as the lines of credit on file and any delinquencies reported. To get your actual credit score, you would need to pay a nominal fee."
+        },
+        {
+          "role": "user",
+          "content": "what would hurt my credit?"
+        },
+        {
+          "role": "assistant",
+          "content": "Several factors could negatively impact your credit score. These include having a high credit utilization rate, which means using more than 50% or 33% of your credit card limit at any given time. This applies even if you charge a large amount and pay it off quickly. Having a large available credit balance could also potentially harm your credit score, as this could indicate to lenders that you might quickly accumulate high credit card debt. Late payments, a large total credit balance outstanding, and making many credit applications in a short period of time can also negatively affect your credit score.   However, opening and closing bank accounts, buying or selling cars without debt, or even buying or selling houses without debt won't affect your credit score."
+        },
+        {
+          "role": "user",
+          "content": "should I live in the US?"
+        },
+        {
+          "role": "assistant",
+          "content": "I have no information that you should live in the US to obtain your credit report. "
+        },
+        {
+          "role": "user",
+          "content": "But I have to have some credit activities in the US, right?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, credit history is local. To have a credit report in the U.S., you generally need to have credit activities here that are reported to the credit bureaus.  This could include having credit cards, loans, or other types of credit accounts with financial institutions in the U.S. "
+        }
+      ],
+      "retrieval": {
+        "query": "if I am wrongfully reported...",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "168444-0-1388",
+            "score": null,
+            "score_type": "contriever",
+            "text": " I understand where you're coming from but you're mostly just quoting the plaintiff's attorney. That's not going to be the source of unbiased information. Furthermore, I don't trust general news sources when it comes to complex financial reporting. I don't really even trust business journals as they are mostly filled with j degrees without real experience. Bankruptcy cases can get very complex and unpredictable because judge's have significant leeway; you really need to read the case opinion to see what really went down. I work in finance and deal with bankruptcies on a semi-regular case. I am on the buy side (the side that would be screwed in cases like this) so my inherent bias goes your way against poor management.   If this guy actually moved assets from company 1 to company 2 at a non-arms length transaction then that is misconduct and assets can be recovered from company 2 usually. If Learning Annex was pari passu with Robert and he pulled dividends out to himself, that is misconduct that will be punished by a bankruptcy court. If he did these things they are not smart business practices, and will be punished.  Your condescension does not help your case. I most likely know far more about this topic than you, as I have seen the nuances corporate bankruptcies take on in the real world. I just don't trust grossly oversimplified reporting in a case that is ongoing.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "216274-4801-6994",
+            "score": null,
+            "score_type": "contriever",
+            "text": " If you decide to report a crime in which you took part, be prepared for the consequences, and definitely don't expect to receive a reward. As with many government processes, there's a lot of red tape to cut through. Therefore, if you're looking for fast cash, you might want to look elsewhere. It can take several years to complete an investigation of tax evasion – and if there is no conviction, there is no award. Not only does the IRS have to determine guilt, it has to actually collect the amount owed before paying you. What's more, if the IRS determines that your tip did not \"\"substantially contributed to the Service's detection and recovery of tax,\"\" you will not receive an award. It's also important to note that, under some circumstances, like attorney-client confidentiality, you may not be able to report tax cheating. **Other Considerations** If you earn a whistle blower award, it will need to be reported when you file your taxes. If you're blowing the whistle on your employer and you're not planning to change jobs, an IRS audit could make your work situation extremely unpleasant. This isn't to say that you shouldn't report someone who is cheating, but it is something to consider. **What's Next** If you decide to report the person or business you suspect of cheating, use IRS form3949-A. This form asks for basic information on the tax evader you are reporting, the types of violations you believe to be committed, the details of the violation and how you learned about it. If you do not want to fill out this form, you can also simply write the IRS a letter. If you are providing your name and want the possibility of receiving an award, also submit IRS Form 211 which is an application for the award. **The Bottom Line** Underpayment of federal income taxes (and, subsequently, state income taxes) is a serious problem. The IRS encourages people to submit tips by allowing anonymous submissions and offering generous rewards for informants who are willing to identify themselves. If you can substantiate your claims and are willing to accept the potential consequences of squealing, reporting a tax cheat can be lucrative not only for the government, but also for you.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "449082-0-888",
+            "score": null,
+            "score_type": "contriever",
+            "text": " As Pete B says, something is not adding up. If your story is correct you should still have the legitimate check from your employer. If that is the case, your solution is simple. You    If you do not have the good cheque then you are in deep trouble - because then either you didn't have it (in which case you have been lying to us) or you cashed it and spent the money (which means you knew that you had given the bad cheque to the liquor store). Either of those mean you have been deliberately perpetrating a fraud. As for the consequences - be aware that passing a bad cheque is a crime, and if the store reports it as such, it is not unlikely that the police will want to investigate. If they decide you did this deliberately you could be arrested, and you might well end up in jail.  We will do you the favour of assuming that you still have the good cheque, and option 1 is possible.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "216274-3125-5216",
+            "score": null,
+            "score_type": "contriever",
+            "text": " When you sign off on the IRS form providing your report, you are stating, \"\"I declare under penalty of perjury that I have examined this application, my accompanying statement and supporting documentation, and aver that such application is true, correct, and complete to the best of my knowledge.\"\" You don't want to be found guilty of perjury. **Keep It Legal** Breaking into the CFO's office at work to get evidence to support your claim is not a good idea. The IRS doesn't want you to break the law to help find a tax cheat. However, if you are the bookkeeper for a company that is cheating on its taxes and part of your job involves working with documents that prove the company is cheating, that paperwork would be acceptable to submit to the IRS. While the IRS wants to maintain your privacy, if the case against the person you report ends up going to trial, you could be asked to be a witness. If you're comfortable with that possibility, go ahead and put your name on the report. **Reasons Not to Report a Cheat** If your \"\"information\"\" is really just speculation, it's probably best to keep it to yourself. As explained earlier in this article, the IRS does not have the resources to pursue your hunch. If you, yourself, are a tax cheat, it might be best to stay in the clear. There's nothing that says that people who submit claims of cheating by others will have their own tax returns examined more carefully. Still, it stands to reason that you wouldn't want to do anything to call IRS attention to yourself if you're not in compliance with its rules. If you helped plan or initiate the cheating of the person you are reporting, it might be smart to think twice. If you decide to report a crime in which you took part, be prepared for the consequences, and definitely don't expect to receive a reward. As with many government processes, there's a lot of red tape to cut through. Therefore, if you're looking for fast cash, you might want to look elsewhere. It can take several years to complete an investigation of tax evasion – and if there is no conviction, there is no award.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "284644-0-271",
+            "score": null,
+            "score_type": "contriever",
+            "text": " ...or it'll get disclosed in a breach right along with the rest of your info because someone ignored security protocol.  To think otherwise is to assume that the credit reporting agencies are taking proper security precautions when it is really, really clear they aren't.",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "168444-0-1388",
+            "score": null,
+            "score_type": "contriever",
+            "text": " I understand where you're coming from but you're mostly just quoting the plaintiff's attorney. That's not going to be the source of unbiased information. Furthermore, I don't trust general news sources when it comes to complex financial reporting. I don't really even trust business journals as they are mostly filled with j degrees without real experience. Bankruptcy cases can get very complex and unpredictable because judge's have significant leeway; you really need to read the case opinion to see what really went down. I work in finance and deal with bankruptcies on a semi-regular case. I am on the buy side (the side that would be screwed in cases like this) so my inherent bias goes your way against poor management.   If this guy actually moved assets from company 1 to company 2 at a non-arms length transaction then that is misconduct and assets can be recovered from company 2 usually. If Learning Annex was pari passu with Robert and he pulled dividends out to himself, that is misconduct that will be punished by a bankruptcy court. If he did these things they are not smart business practices, and will be punished.  Your condescension does not help your case. I most likely know far more about this topic than you, as I have seen the nuances corporate bankruptcies take on in the real world. I just don't trust grossly oversimplified reporting in a case that is ongoing.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "216274-4801-6994",
+            "score": null,
+            "score_type": "contriever",
+            "text": " If you decide to report a crime in which you took part, be prepared for the consequences, and definitely don't expect to receive a reward. As with many government processes, there's a lot of red tape to cut through. Therefore, if you're looking for fast cash, you might want to look elsewhere. It can take several years to complete an investigation of tax evasion – and if there is no conviction, there is no award. Not only does the IRS have to determine guilt, it has to actually collect the amount owed before paying you. What's more, if the IRS determines that your tip did not \"\"substantially contributed to the Service's detection and recovery of tax,\"\" you will not receive an award. It's also important to note that, under some circumstances, like attorney-client confidentiality, you may not be able to report tax cheating. **Other Considerations** If you earn a whistle blower award, it will need to be reported when you file your taxes. If you're blowing the whistle on your employer and you're not planning to change jobs, an IRS audit could make your work situation extremely unpleasant. This isn't to say that you shouldn't report someone who is cheating, but it is something to consider. **What's Next** If you decide to report the person or business you suspect of cheating, use IRS form3949-A. This form asks for basic information on the tax evader you are reporting, the types of violations you believe to be committed, the details of the violation and how you learned about it. If you do not want to fill out this form, you can also simply write the IRS a letter. If you are providing your name and want the possibility of receiving an award, also submit IRS Form 211 which is an application for the award. **The Bottom Line** Underpayment of federal income taxes (and, subsequently, state income taxes) is a serious problem. The IRS encourages people to submit tips by allowing anonymous submissions and offering generous rewards for informants who are willing to identify themselves. If you can substantiate your claims and are willing to accept the potential consequences of squealing, reporting a tax cheat can be lucrative not only for the government, but also for you.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "449082-0-888",
+            "score": null,
+            "score_type": "contriever",
+            "text": " As Pete B says, something is not adding up. If your story is correct you should still have the legitimate check from your employer. If that is the case, your solution is simple. You    If you do not have the good cheque then you are in deep trouble - because then either you didn't have it (in which case you have been lying to us) or you cashed it and spent the money (which means you knew that you had given the bad cheque to the liquor store). Either of those mean you have been deliberately perpetrating a fraud. As for the consequences - be aware that passing a bad cheque is a crime, and if the store reports it as such, it is not unlikely that the police will want to investigate. If they decide you did this deliberately you could be arrested, and you might well end up in jail.  We will do you the favour of assuming that you still have the good cheque, and option 1 is possible.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "216274-3125-5216",
+            "score": null,
+            "score_type": "contriever",
+            "text": " When you sign off on the IRS form providing your report, you are stating, \"\"I declare under penalty of perjury that I have examined this application, my accompanying statement and supporting documentation, and aver that such application is true, correct, and complete to the best of my knowledge.\"\" You don't want to be found guilty of perjury. **Keep It Legal** Breaking into the CFO's office at work to get evidence to support your claim is not a good idea. The IRS doesn't want you to break the law to help find a tax cheat. However, if you are the bookkeeper for a company that is cheating on its taxes and part of your job involves working with documents that prove the company is cheating, that paperwork would be acceptable to submit to the IRS. While the IRS wants to maintain your privacy, if the case against the person you report ends up going to trial, you could be asked to be a witness. If you're comfortable with that possibility, go ahead and put your name on the report. **Reasons Not to Report a Cheat** If your \"\"information\"\" is really just speculation, it's probably best to keep it to yourself. As explained earlier in this article, the IRS does not have the resources to pursue your hunch. If you, yourself, are a tax cheat, it might be best to stay in the clear. There's nothing that says that people who submit claims of cheating by others will have their own tax returns examined more carefully. Still, it stands to reason that you wouldn't want to do anything to call IRS attention to yourself if you're not in compliance with its rules. If you helped plan or initiate the cheating of the person you are reporting, it might be smart to think twice. If you decide to report a crime in which you took part, be prepared for the consequences, and definitely don't expect to receive a reward. As with many government processes, there's a lot of red tape to cut through. Therefore, if you're looking for fast cash, you might want to look elsewhere. It can take several years to complete an investigation of tax evasion – and if there is no conviction, there is no award.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "284644-0-271",
+            "score": null,
+            "score_type": "contriever",
+            "text": " ...or it'll get disclosed in a breach right along with the rest of your info because someone ignored security protocol.  To think otherwise is to assume that the credit reporting agencies are taking proper security precautions when it is really, really clear they aren't.",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Assistant: If you are wrongfully reported, you can dispute the information with the credit bureau that reported the inaccurate information.You can also contact the company that provided the information to the credit bureau and request that they correct the mistake.It's important to note that you should only contact the credit bureau or the company that provided the information if you have evidence to support your claim that the information is inaccurate.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "168444-0-1388",
+          "score": null,
+          "score_type": "contriever",
+          "text": " I understand where you're coming from but you're mostly just quoting the plaintiff's attorney. That's not going to be the source of unbiased information. Furthermore, I don't trust general news sources when it comes to complex financial reporting. I don't really even trust business journals as they are mostly filled with j degrees without real experience. Bankruptcy cases can get very complex and unpredictable because judge's have significant leeway; you really need to read the case opinion to see what really went down. I work in finance and deal with bankruptcies on a semi-regular case. I am on the buy side (the side that would be screwed in cases like this) so my inherent bias goes your way against poor management.   If this guy actually moved assets from company 1 to company 2 at a non-arms length transaction then that is misconduct and assets can be recovered from company 2 usually. If Learning Annex was pari passu with Robert and he pulled dividends out to himself, that is misconduct that will be punished by a bankruptcy court. If he did these things they are not smart business practices, and will be punished.  Your condescension does not help your case. I most likely know far more about this topic than you, as I have seen the nuances corporate bankruptcies take on in the real world. I just don't trust grossly oversimplified reporting in a case that is ongoing.",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "216274-4801-6994",
+          "score": null,
+          "score_type": "contriever",
+          "text": " If you decide to report a crime in which you took part, be prepared for the consequences, and definitely don't expect to receive a reward. As with many government processes, there's a lot of red tape to cut through. Therefore, if you're looking for fast cash, you might want to look elsewhere. It can take several years to complete an investigation of tax evasion – and if there is no conviction, there is no award. Not only does the IRS have to determine guilt, it has to actually collect the amount owed before paying you. What's more, if the IRS determines that your tip did not \"\"substantially contributed to the Service's detection and recovery of tax,\"\" you will not receive an award. It's also important to note that, under some circumstances, like attorney-client confidentiality, you may not be able to report tax cheating. **Other Considerations** If you earn a whistle blower award, it will need to be reported when you file your taxes. If you're blowing the whistle on your employer and you're not planning to change jobs, an IRS audit could make your work situation extremely unpleasant. This isn't to say that you shouldn't report someone who is cheating, but it is something to consider. **What's Next** If you decide to report the person or business you suspect of cheating, use IRS form3949-A. This form asks for basic information on the tax evader you are reporting, the types of violations you believe to be committed, the details of the violation and how you learned about it. If you do not want to fill out this form, you can also simply write the IRS a letter. If you are providing your name and want the possibility of receiving an award, also submit IRS Form 211 which is an application for the award. **The Bottom Line** Underpayment of federal income taxes (and, subsequently, state income taxes) is a serious problem. The IRS encourages people to submit tips by allowing anonymous submissions and offering generous rewards for informants who are willing to identify themselves. If you can substantiate your claims and are willing to accept the potential consequences of squealing, reporting a tax cheat can be lucrative not only for the government, but also for you.",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "449082-0-888",
+          "score": null,
+          "score_type": "contriever",
+          "text": " As Pete B says, something is not adding up. If your story is correct you should still have the legitimate check from your employer. If that is the case, your solution is simple. You    If you do not have the good cheque then you are in deep trouble - because then either you didn't have it (in which case you have been lying to us) or you cashed it and spent the money (which means you knew that you had given the bad cheque to the liquor store). Either of those mean you have been deliberately perpetrating a fraud. As for the consequences - be aware that passing a bad cheque is a crime, and if the store reports it as such, it is not unlikely that the police will want to investigate. If they decide you did this deliberately you could be arrested, and you might well end up in jail.  We will do you the favour of assuming that you still have the good cheque, and option 1 is possible.",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "216274-3125-5216",
+          "score": null,
+          "score_type": "contriever",
+          "text": " When you sign off on the IRS form providing your report, you are stating, \"\"I declare under penalty of perjury that I have examined this application, my accompanying statement and supporting documentation, and aver that such application is true, correct, and complete to the best of my knowledge.\"\" You don't want to be found guilty of perjury. **Keep It Legal** Breaking into the CFO's office at work to get evidence to support your claim is not a good idea. The IRS doesn't want you to break the law to help find a tax cheat. However, if you are the bookkeeper for a company that is cheating on its taxes and part of your job involves working with documents that prove the company is cheating, that paperwork would be acceptable to submit to the IRS. While the IRS wants to maintain your privacy, if the case against the person you report ends up going to trial, you could be asked to be a witness. If you're comfortable with that possibility, go ahead and put your name on the report. **Reasons Not to Report a Cheat** If your \"\"information\"\" is really just speculation, it's probably best to keep it to yourself. As explained earlier in this article, the IRS does not have the resources to pursue your hunch. If you, yourself, are a tax cheat, it might be best to stay in the clear. There's nothing that says that people who submit claims of cheating by others will have their own tax returns examined more carefully. Still, it stands to reason that you wouldn't want to do anything to call IRS attention to yourself if you're not in compliance with its rules. If you helped plan or initiate the cheating of the person you are reporting, it might be smart to think twice. If you decide to report a crime in which you took part, be prepared for the consequences, and definitely don't expect to receive a reward. As with many government processes, there's a lot of red tape to cut through. Therefore, if you're looking for fast cash, you might want to look elsewhere. It can take several years to complete an investigation of tax evasion – and if there is no conviction, there is no award.",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "284644-0-271",
+          "score": null,
+          "score_type": "contriever",
+          "text": " ...or it'll get disclosed in a breach right along with the rest of your info because someone ignored security protocol.  To think otherwise is to assume that the credit reporting agencies are taking proper security precautions when it is really, really clear they aren't.",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "If you believe you have been wrongfully reported on in your credit report, you can file a dispute with the credit bureaus. All three credit bureaus allow you to file a dispute online, and some may allow you to upload documentation at the same time. If you have a letter from your bank regarding the dispute, you can send it to the credit bureaus, who will then return to the collection company.  It is important to note that disputes must be initiated by the consumer.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "How-To",
+          "Non-Question"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "7",
+      "task_id": "4da5a7f42f3b2dc4d875dcfa2fcdefef<::>7",
+      "question": "clearing period",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "‚ÄúInternational credit report‚Äù for French nationals?"
+        },
+        {
+          "role": "assistant",
+          "content": "I don't have information on obtaining an international credit report specifically for French nationals.   A company's ability to report on your credit report is dependent on their membership in Equifax, USA etc., and while most of your credit is country by country, international companies or companies with any relationship in other countries can follow you cross-border."
+        },
+        {
+          "role": "user",
+          "content": "Do you mean I can get my credit report in US?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, as a French national, you can obtain your credit report in the United States. Generally, in the U.S., you can request a free copy of your credit report from each of the three major credit bureaus - Equifax, Experian, and TransUnion - once a year through the AnnualCreditReport website. Your credit report contains information that goes into your credit score, such as the lines of credit on file and any delinquencies reported. To get your actual credit score, you would need to pay a nominal fee."
+        },
+        {
+          "role": "user",
+          "content": "what would hurt my credit?"
+        },
+        {
+          "role": "assistant",
+          "content": "Several factors could negatively impact your credit score. These include having a high credit utilization rate, which means using more than 50% or 33% of your credit card limit at any given time. This applies even if you charge a large amount and pay it off quickly. Having a large available credit balance could also potentially harm your credit score, as this could indicate to lenders that you might quickly accumulate high credit card debt. Late payments, a large total credit balance outstanding, and making many credit applications in a short period of time can also negatively affect your credit score.   However, opening and closing bank accounts, buying or selling cars without debt, or even buying or selling houses without debt won't affect your credit score."
+        },
+        {
+          "role": "user",
+          "content": "should I live in the US?"
+        },
+        {
+          "role": "assistant",
+          "content": "I have no information that you should live in the US to obtain your credit report. "
+        },
+        {
+          "role": "user",
+          "content": "But I have to have some credit activities in the US, right?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, credit history is local. To have a credit report in the U.S., you generally need to have credit activities here that are reported to the credit bureaus.  This could include having credit cards, loans, or other types of credit accounts with financial institutions in the U.S. "
+        },
+        {
+          "role": "user",
+          "content": "if I am wrongfully reported..."
+        },
+        {
+          "role": "assistant",
+          "content": "If you believe you have been wrongfully reported on in your credit report, you can file a dispute with the credit bureaus. All three credit bureaus allow you to file a dispute online, and some may allow you to upload documentation at the same time. If you have a letter from your bank regarding the dispute, you can send it to the credit bureaus, who will then return to the collection company.  It is important to note that disputes must be initiated by the consumer."
+        }
+      ],
+      "retrieval": {
+        "query": "clearing period",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "370635-0-1032",
+            "score": null,
+            "score_type": "contriever",
+            "text": " During the settlement period, the buyer transfers payment to the seller and the seller transfers ownership to the buyer. This is really a holdover from the days when so much of stock trading was done by individual human traders, and computers were still not a huge part of the operation.  Back then, paper tickets for trades exchanged hands, and the time period was actually 5 days, so 3 days is an improvement.   A settlement period was necessary for everyone to figure out their trades and do what was necessary to make the settlements happen, so it was not always a quick process, mainly because of smaller trading firms that didn't have technology to help them along. Nowadays, technology makes settlements easy, and they usually occur at the end of the trading day.  The trading firms sum up their trades, figure out who they owe, and send lump sum settlements to the counterparties to their trades.  If anything, the 3-day period may just be used now to let parties verify trades before settling. I hope this helps. Good luck!",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "98302-0-313",
+            "score": null,
+            "score_type": "contriever",
+            "text": " How come when I sell stocks, the brokerage won't let me cash out for three days, telling me the SEC requires this clearance period for the transaction to clear, but they can swap shit around in under a second?   Be interesting to see what would happen if *every* transaction wasn't cleared until the closing bell.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "79453-0-524",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Automated Clearing House transactions are used in the US for direct deposit of pay checks and direct debit of many payments for accounts such as mortgages, credit cards, car loans, insurance premiums, etc. The reason they take one or more business days to clear is that the transactions are accumulated by each processor in the network during the day and processed as a batch at the end of each business day.  The ACH network processes 20+ billion transactions per year worth $40 trillion, (estimates based on 2012 figures).",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "293389-1649-2590",
+            "score": null,
+            "score_type": "contriever",
+            "text": " All financial products could clear & settle immediately imo, and I'd rather not start a firestorm by giving my opinion why not. Don't even get me started on the bond market... As to the actual process, it's called \"\"clearing & settling\"\". The general process (which can generally be applied to all financial instruments from cash deposits to derivatives trading) is: The reason why all of the old financial companies were grouped on Wall St. is because they'd have runners physically carting all of the certificates from building to building. Then, they discovered netting so slowed down the process to balance the accounts and only cart the net amounts of certificates they owed each other. This is how we get the term \"\"bankers hours\"\" where financial firms would close to the public early to account for the days trading. While this is all really done instantly behind your back at your broker, they've conveniently kept the short hours.\"",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "417785-0-811",
+            "score": null,
+            "score_type": "contriever",
+            "text": " If the rate is the same, then clearing one card to zero does have one advantage: getting your grace period back. Generally when you owe money on your credit card, and you make a new purchase that new purchase get charged interest starting on day one. But if you are not carrying  a balance, in other words you pay off the charges every month, then new purchases aren't charged until you fail to pay the balance by the due date. That grace period can be 25 to 55 days depending where you are in the billing cycle. Having one clean card will allow you to use that card when you have no other choice. Lets say you have an emergency car repair while away from home. You don't have $500 in cash so you put it on the clean card. When you get home you know that you can pay the bill and not have been charged interest.",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "370635-0-1032",
+            "score": null,
+            "score_type": "contriever",
+            "text": " During the settlement period, the buyer transfers payment to the seller and the seller transfers ownership to the buyer. This is really a holdover from the days when so much of stock trading was done by individual human traders, and computers were still not a huge part of the operation.  Back then, paper tickets for trades exchanged hands, and the time period was actually 5 days, so 3 days is an improvement.   A settlement period was necessary for everyone to figure out their trades and do what was necessary to make the settlements happen, so it was not always a quick process, mainly because of smaller trading firms that didn't have technology to help them along. Nowadays, technology makes settlements easy, and they usually occur at the end of the trading day.  The trading firms sum up their trades, figure out who they owe, and send lump sum settlements to the counterparties to their trades.  If anything, the 3-day period may just be used now to let parties verify trades before settling. I hope this helps. Good luck!",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "98302-0-313",
+            "score": null,
+            "score_type": "contriever",
+            "text": " How come when I sell stocks, the brokerage won't let me cash out for three days, telling me the SEC requires this clearance period for the transaction to clear, but they can swap shit around in under a second?   Be interesting to see what would happen if *every* transaction wasn't cleared until the closing bell.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "79453-0-524",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Automated Clearing House transactions are used in the US for direct deposit of pay checks and direct debit of many payments for accounts such as mortgages, credit cards, car loans, insurance premiums, etc. The reason they take one or more business days to clear is that the transactions are accumulated by each processor in the network during the day and processed as a batch at the end of each business day.  The ACH network processes 20+ billion transactions per year worth $40 trillion, (estimates based on 2012 figures).",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "293389-1649-2590",
+            "score": null,
+            "score_type": "contriever",
+            "text": " All financial products could clear & settle immediately imo, and I'd rather not start a firestorm by giving my opinion why not. Don't even get me started on the bond market... As to the actual process, it's called \"\"clearing & settling\"\". The general process (which can generally be applied to all financial instruments from cash deposits to derivatives trading) is: The reason why all of the old financial companies were grouped on Wall St. is because they'd have runners physically carting all of the certificates from building to building. Then, they discovered netting so slowed down the process to balance the accounts and only cart the net amounts of certificates they owed each other. This is how we get the term \"\"bankers hours\"\" where financial firms would close to the public early to account for the days trading. While this is all really done instantly behind your back at your broker, they've conveniently kept the short hours.\"",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "417785-0-811",
+            "score": null,
+            "score_type": "contriever",
+            "text": " If the rate is the same, then clearing one card to zero does have one advantage: getting your grace period back. Generally when you owe money on your credit card, and you make a new purchase that new purchase get charged interest starting on day one. But if you are not carrying  a balance, in other words you pay off the charges every month, then new purchases aren't charged until you fail to pay the balance by the due date. That grace period can be 25 to 55 days depending where you are in the billing cycle. Having one clean card will allow you to use that card when you have no other choice. Lets say you have an emergency car repair while away from home. You don't have $500 in cash so you put it on the clean card. When you get home you know that you can pay the bill and not have been charged interest.",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Assistant: I'm sorry, but I'm not sure what you're asking about in terms of a \"clearing period.\"Could you please provide more context or clarify your question?",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "370635-0-1032",
+          "score": null,
+          "score_type": "contriever",
+          "text": " During the settlement period, the buyer transfers payment to the seller and the seller transfers ownership to the buyer. This is really a holdover from the days when so much of stock trading was done by individual human traders, and computers were still not a huge part of the operation.  Back then, paper tickets for trades exchanged hands, and the time period was actually 5 days, so 3 days is an improvement.   A settlement period was necessary for everyone to figure out their trades and do what was necessary to make the settlements happen, so it was not always a quick process, mainly because of smaller trading firms that didn't have technology to help them along. Nowadays, technology makes settlements easy, and they usually occur at the end of the trading day.  The trading firms sum up their trades, figure out who they owe, and send lump sum settlements to the counterparties to their trades.  If anything, the 3-day period may just be used now to let parties verify trades before settling. I hope this helps. Good luck!",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "98302-0-313",
+          "score": null,
+          "score_type": "contriever",
+          "text": " How come when I sell stocks, the brokerage won't let me cash out for three days, telling me the SEC requires this clearance period for the transaction to clear, but they can swap shit around in under a second?   Be interesting to see what would happen if *every* transaction wasn't cleared until the closing bell.",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "79453-0-524",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Automated Clearing House transactions are used in the US for direct deposit of pay checks and direct debit of many payments for accounts such as mortgages, credit cards, car loans, insurance premiums, etc. The reason they take one or more business days to clear is that the transactions are accumulated by each processor in the network during the day and processed as a batch at the end of each business day.  The ACH network processes 20+ billion transactions per year worth $40 trillion, (estimates based on 2012 figures).",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "293389-1649-2590",
+          "score": null,
+          "score_type": "contriever",
+          "text": " All financial products could clear & settle immediately imo, and I'd rather not start a firestorm by giving my opinion why not. Don't even get me started on the bond market... As to the actual process, it's called \"\"clearing & settling\"\". The general process (which can generally be applied to all financial instruments from cash deposits to derivatives trading) is: The reason why all of the old financial companies were grouped on Wall St. is because they'd have runners physically carting all of the certificates from building to building. Then, they discovered netting so slowed down the process to balance the accounts and only cart the net amounts of certificates they owed each other. This is how we get the term \"\"bankers hours\"\" where financial firms would close to the public early to account for the days trading. While this is all really done instantly behind your back at your broker, they've conveniently kept the short hours.\"",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "417785-0-811",
+          "score": null,
+          "score_type": "contriever",
+          "text": " If the rate is the same, then clearing one card to zero does have one advantage: getting your grace period back. Generally when you owe money on your credit card, and you make a new purchase that new purchase get charged interest starting on day one. But if you are not carrying  a balance, in other words you pay off the charges every month, then new purchases aren't charged until you fail to pay the balance by the due date. That grace period can be 25 to 55 days depending where you are in the billing cycle. Having one clean card will allow you to use that card when you have no other choice. Lets say you have an emergency car repair while away from home. You don't have $500 in cash so you put it on the clean card. When you get home you know that you can pay the bill and not have been charged interest.",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "The Fair Credit Reporting Act specifies that when a consumer initiates a dispute, the reporting agency must remove the information in dispute from reports within 30 days if the reporting party does not certify the information is complete and accurate.  Additionally, the furnisher of information is responsible for reporting information after notice and confirmation of errors, and has a duty to correct and update information.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid",
+          "Keyword"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "8",
+      "task_id": "4da5a7f42f3b2dc4d875dcfa2fcdefef<::>8",
+      "question": "confusing, layman's term pls",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "‚ÄúInternational credit report‚Äù for French nationals?"
+        },
+        {
+          "role": "assistant",
+          "content": "I don't have information on obtaining an international credit report specifically for French nationals.   A company's ability to report on your credit report is dependent on their membership in Equifax, USA etc., and while most of your credit is country by country, international companies or companies with any relationship in other countries can follow you cross-border."
+        },
+        {
+          "role": "user",
+          "content": "Do you mean I can get my credit report in US?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, as a French national, you can obtain your credit report in the United States. Generally, in the U.S., you can request a free copy of your credit report from each of the three major credit bureaus - Equifax, Experian, and TransUnion - once a year through the AnnualCreditReport website. Your credit report contains information that goes into your credit score, such as the lines of credit on file and any delinquencies reported. To get your actual credit score, you would need to pay a nominal fee."
+        },
+        {
+          "role": "user",
+          "content": "what would hurt my credit?"
+        },
+        {
+          "role": "assistant",
+          "content": "Several factors could negatively impact your credit score. These include having a high credit utilization rate, which means using more than 50% or 33% of your credit card limit at any given time. This applies even if you charge a large amount and pay it off quickly. Having a large available credit balance could also potentially harm your credit score, as this could indicate to lenders that you might quickly accumulate high credit card debt. Late payments, a large total credit balance outstanding, and making many credit applications in a short period of time can also negatively affect your credit score.   However, opening and closing bank accounts, buying or selling cars without debt, or even buying or selling houses without debt won't affect your credit score."
+        },
+        {
+          "role": "user",
+          "content": "should I live in the US?"
+        },
+        {
+          "role": "assistant",
+          "content": "I have no information that you should live in the US to obtain your credit report. "
+        },
+        {
+          "role": "user",
+          "content": "But I have to have some credit activities in the US, right?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, credit history is local. To have a credit report in the U.S., you generally need to have credit activities here that are reported to the credit bureaus.  This could include having credit cards, loans, or other types of credit accounts with financial institutions in the U.S. "
+        },
+        {
+          "role": "user",
+          "content": "if I am wrongfully reported..."
+        },
+        {
+          "role": "assistant",
+          "content": "If you believe you have been wrongfully reported on in your credit report, you can file a dispute with the credit bureaus. All three credit bureaus allow you to file a dispute online, and some may allow you to upload documentation at the same time. If you have a letter from your bank regarding the dispute, you can send it to the credit bureaus, who will then return to the collection company.  It is important to note that disputes must be initiated by the consumer."
+        },
+        {
+          "role": "user",
+          "content": "clearing period"
+        },
+        {
+          "role": "assistant",
+          "content": "The Fair Credit Reporting Act specifies that when a consumer initiates a dispute, the reporting agency must remove the information in dispute from reports within 30 days if the reporting party does not certify the information is complete and accurate.  Additionally, the furnisher of information is responsible for reporting information after notice and confirmation of errors, and has a duty to correct and update information."
+        }
+      ],
+      "retrieval": {
+        "query": "confusing, layman's term pls",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "232386-0-290",
+            "score": null,
+            "score_type": "contriever",
+            "text": " The one that I used in a technical meeting with out-of-touch career bureaucrats last year of Technical Evangelists.    The bureaucrats where thoroughly confused (thinking I was talking about people of a particular religious faith) until one of them asked for a definition.  Context, people!",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "422297-0-284",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"Everyone who was told by (and I'm being loose with terminology here) \"\"professionals\"\" whose job it is to supposedly know things about money and valuation. I think it's because accountants and scientists sound about the same in terms of professionalism and how they deal with facts.\"",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "286683-0-416",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"You're an expert?  No, I'M an expert!    You display a reasonable understanding, don't get me wrong, but your desire to label this particular behavior as \"\"within\"\" the monkeysphere paradigm belies that claim of expertise. It's related to, but not described by or explained by the monkeysphere without gross oversimplification.   That or you're living up to good old' \"\"man with hammer see every problem as nail.\"\"\"",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "479018-0-596",
+            "score": null,
+            "score_type": "contriever",
+            "text": " In my personal experience, and from potentially a lot of data... anytime people repeat something a lot commonly, especially when I hear it from primarily people that havent actually worked for the company, its probably accurate and not worth further research. Of course you sir are a truthful, honest and wise individual but nay what about that guy you dont like? Is he? Of course not! We dont even need the raw data or methodology.  Further the earth is probably flat, everything in the universe revolves around that earth, and the tide moves in tide moves out you can't explain that.  ¯\\_(ツ)_/¯",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "57557-0-22",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Confused? see your CPA",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "232386-0-290",
+            "score": null,
+            "score_type": "contriever",
+            "text": " The one that I used in a technical meeting with out-of-touch career bureaucrats last year of Technical Evangelists.    The bureaucrats where thoroughly confused (thinking I was talking about people of a particular religious faith) until one of them asked for a definition.  Context, people!",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "422297-0-284",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"Everyone who was told by (and I'm being loose with terminology here) \"\"professionals\"\" whose job it is to supposedly know things about money and valuation. I think it's because accountants and scientists sound about the same in terms of professionalism and how they deal with facts.\"",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "286683-0-416",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"You're an expert?  No, I'M an expert!    You display a reasonable understanding, don't get me wrong, but your desire to label this particular behavior as \"\"within\"\" the monkeysphere paradigm belies that claim of expertise. It's related to, but not described by or explained by the monkeysphere without gross oversimplification.   That or you're living up to good old' \"\"man with hammer see every problem as nail.\"\"\"",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "479018-0-596",
+            "score": null,
+            "score_type": "contriever",
+            "text": " In my personal experience, and from potentially a lot of data... anytime people repeat something a lot commonly, especially when I hear it from primarily people that havent actually worked for the company, its probably accurate and not worth further research. Of course you sir are a truthful, honest and wise individual but nay what about that guy you dont like? Is he? Of course not! We dont even need the raw data or methodology.  Further the earth is probably flat, everything in the universe revolves around that earth, and the tide moves in tide moves out you can't explain that.  ¯\\_(ツ)_/¯",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "57557-0-22",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Confused? see your CPA",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Sure, I'll do my best to explain it in layman's terms.Your credit report is a document that contains information about your financial history, including your credit accounts, loans, and any other debts you may have.It's important to maintain a good credit report because it can affect your ability to borrow money in the future.To obtain your credit report, you can visit the AnnualCreditReport website and request a free copy once per year.It's important to note that your credit report is specific to the country where you live, so if you're a French national living in the United States, you'll need to request your credit report from the United States.If you believe there are errors on your credit report, you can dispute them with the credit bureaus.The Fair Credit Reporting Act requires that any disputed information be removed from your report within 30 days if the reporting party cannot confirm that the information is accurate.It's also important to keep in mind that you have a responsibility to ensure that the information on your credit report is accurate and up-to-date.This means that you should review your report regularly and dispute any errors you find.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "232386-0-290",
+          "score": null,
+          "score_type": "contriever",
+          "text": " The one that I used in a technical meeting with out-of-touch career bureaucrats last year of Technical Evangelists.    The bureaucrats where thoroughly confused (thinking I was talking about people of a particular religious faith) until one of them asked for a definition.  Context, people!",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "422297-0-284",
+          "score": null,
+          "score_type": "contriever",
+          "text": " \"Everyone who was told by (and I'm being loose with terminology here) \"\"professionals\"\" whose job it is to supposedly know things about money and valuation. I think it's because accountants and scientists sound about the same in terms of professionalism and how they deal with facts.\"",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "286683-0-416",
+          "score": null,
+          "score_type": "contriever",
+          "text": " \"You're an expert?  No, I'M an expert!    You display a reasonable understanding, don't get me wrong, but your desire to label this particular behavior as \"\"within\"\" the monkeysphere paradigm belies that claim of expertise. It's related to, but not described by or explained by the monkeysphere without gross oversimplification.   That or you're living up to good old' \"\"man with hammer see every problem as nail.\"\"\"",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "479018-0-596",
+          "score": null,
+          "score_type": "contriever",
+          "text": " In my personal experience, and from potentially a lot of data... anytime people repeat something a lot commonly, especially when I hear it from primarily people that havent actually worked for the company, its probably accurate and not worth further research. Of course you sir are a truthful, honest and wise individual but nay what about that guy you dont like? Is he? Of course not! We dont even need the raw data or methodology.  Further the earth is probably flat, everything in the universe revolves around that earth, and the tide moves in tide moves out you can't explain that.  ¯\\_(ツ)_/¯",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "57557-0-22",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Confused? see your CPA",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "Sure, I'd be happy to simplify it! If you find something in your credit report that you believe is incorrect, you can file a dispute to have it investigated. The credit bureaus must remove the disputed information from your report within 30 days if the company that provided the information can't prove that it's accurate. After that, the company that gave the wrong information is responsible for fixing it and updating your report.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Explanation"
+        ],
+        "multi_turn": [
+          "Clarification"
+        ]
+      }
+    }
+  ]
+}

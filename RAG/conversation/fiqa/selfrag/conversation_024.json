@@ -1,0 +1,1298 @@
+{
+  "conversation_id": "e9dd465e8dd63a80dda8f3ce9cba6848",
+  "dataset": "fiqa",
+  "collection": "mt-rag-fiqa-beir-elser-512-100-20240501",
+  "rag": "selfrag",
+  "num_turns": 7,
+  "turns": [
+    {
+      "turn_id": "1",
+      "task_id": "e9dd465e8dd63a80dda8f3ce9cba6848<::>1",
+      "question": " What's the difference between Market Cap and NAV?",
+      "rag_history_before_turn": [],
+      "retrieval": {
+        "query": " What's the difference between Market Cap and NAV?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "471123-0-798",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"Market caps is just the share price, multiplied by the number of shares. It doesn't represent any value (if people decide to pay more or less for the shares, the market cap goes up or down). It does represent what people think the company is worth.  NAV sounds very much like book value. It basically says \"\"how much cash would we end up with if we sold everything the company owns, paid back all the debt, and closed down the business? \"\" Since closing down the business is rarely a good idea, this underestimates the value of the business enormously. Take a hairdresser who owns nothing but a pair of scissors, but has a huge number of repeat customers, charges $200 for a haircut, and makes tons of money every year. The business has a huge value, but NAV = price of one pair of used scissors.\"",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "178-0-1083",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"At any given moment, one can tally the numbers used for NAV. It's math, and little more. The Market Cap, which as you understand is a result of share value. Share value (stock price) is what the market will pay today for the shares. It's not only based on NAV today, but on future expectations. And expectations aren't the same for each of us. Which is why there are always sellers for the buyers of a stock, and vice-versa.  From your question, we agree that NAV can be measured, it's the result of adding up things that are all known. (For now, let's ignore things such as \"\"goodwill.\"\") Rarely is a stock price simply equal to the NAV divided by the number of shares. Often, it's quite higher. The simplest way to look at it is that the stock price not only reflects the NAV, but investors' expectations looking into the future.  If you look for two companies with identical NAV per share but quite different share prices, you'll see that the companies differ in that one might be a high growth company, the other, a solid one but with a market that's not in such a growth mode.\"",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "414940-0-474",
+            "score": null,
+            "score_type": "contriever",
+            "text": " NAV is  how much is the stuff of the company worth divided by the number of shares. This total is also called book value. The market cap is share price times number of shares. For Amazon  today people are willing to pay 290 a share for a company with a NAV of 22 a share. If of nav and price were equal the P/B (price to book ratio) would be 1, but for Amazon it is 13.  Why? Because investors believe Amazon is worth a lot more than a money losing company with a NAV of 22.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "416727-0-1356",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"I think the key concept here is future value.  The NAV is essentially a book-keeping exercise- you add up all the assets and remove all the liabilities.  For a public company this is spelled out in the balance sheet, and is generally listed at the bottom.  I pulled a recent one from Cisco Systems (because I used to work there and know the numbers  ;-) and you can see it here: roughly $56 billion... https://finance.yahoo.com/q/bs?s=CSCO+Balance+Sheet&annual  Another way to think about it: In theory (and we know about this, right?) the NAV is what you would get if you liquidated the company instantaneously.  A definition I like to use for market cap is \"\"the current assets, plus the perceived present value of all future earnings for the company\"\"... so let's dissect that a little.  The term \"\"present value\"\" is really important, because a million dollars today is worth more than a million dollars next year.  A company expected to make a lot of money soon will be worth more (i.e. a higher market cap) than a company expected to make the same amount of money, but later.  The \"\"all future earnings\"\" part is exactly what it sounds like.  So again, following our cisco example, the current market cap is ~142 billion, which means that \"\"the market\"\" thinks they will earn about $85 billion over the life of the company (in present day dollars).\"",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "418610-0-264",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Market cap is basically the amount of money that it would cost to buy all of the shares of public stock in a company.  Or  share cost * number of outstanding shares. It is a measure of how much a company is worth. http://en.wikipedia.org/wiki/Market_capitalization",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "471123-0-798",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"Market caps is just the share price, multiplied by the number of shares. It doesn't represent any value (if people decide to pay more or less for the shares, the market cap goes up or down). It does represent what people think the company is worth.  NAV sounds very much like book value. It basically says \"\"how much cash would we end up with if we sold everything the company owns, paid back all the debt, and closed down the business? \"\" Since closing down the business is rarely a good idea, this underestimates the value of the business enormously. Take a hairdresser who owns nothing but a pair of scissors, but has a huge number of repeat customers, charges $200 for a haircut, and makes tons of money every year. The business has a huge value, but NAV = price of one pair of used scissors.\"",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "178-0-1083",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"At any given moment, one can tally the numbers used for NAV. It's math, and little more. The Market Cap, which as you understand is a result of share value. Share value (stock price) is what the market will pay today for the shares. It's not only based on NAV today, but on future expectations. And expectations aren't the same for each of us. Which is why there are always sellers for the buyers of a stock, and vice-versa.  From your question, we agree that NAV can be measured, it's the result of adding up things that are all known. (For now, let's ignore things such as \"\"goodwill.\"\") Rarely is a stock price simply equal to the NAV divided by the number of shares. Often, it's quite higher. The simplest way to look at it is that the stock price not only reflects the NAV, but investors' expectations looking into the future.  If you look for two companies with identical NAV per share but quite different share prices, you'll see that the companies differ in that one might be a high growth company, the other, a solid one but with a market that's not in such a growth mode.\"",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "414940-0-474",
+            "score": null,
+            "score_type": "contriever",
+            "text": " NAV is  how much is the stuff of the company worth divided by the number of shares. This total is also called book value. The market cap is share price times number of shares. For Amazon  today people are willing to pay 290 a share for a company with a NAV of 22 a share. If of nav and price were equal the P/B (price to book ratio) would be 1, but for Amazon it is 13.  Why? Because investors believe Amazon is worth a lot more than a money losing company with a NAV of 22.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "416727-0-1356",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"I think the key concept here is future value.  The NAV is essentially a book-keeping exercise- you add up all the assets and remove all the liabilities.  For a public company this is spelled out in the balance sheet, and is generally listed at the bottom.  I pulled a recent one from Cisco Systems (because I used to work there and know the numbers  ;-) and you can see it here: roughly $56 billion... https://finance.yahoo.com/q/bs?s=CSCO+Balance+Sheet&annual  Another way to think about it: In theory (and we know about this, right?) the NAV is what you would get if you liquidated the company instantaneously.  A definition I like to use for market cap is \"\"the current assets, plus the perceived present value of all future earnings for the company\"\"... so let's dissect that a little.  The term \"\"present value\"\" is really important, because a million dollars today is worth more than a million dollars next year.  A company expected to make a lot of money soon will be worth more (i.e. a higher market cap) than a company expected to make the same amount of money, but later.  The \"\"all future earnings\"\" part is exactly what it sounds like.  So again, following our cisco example, the current market cap is ~142 billion, which means that \"\"the market\"\" thinks they will earn about $85 billion over the life of the company (in present day dollars).\"",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "418610-0-264",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Market cap is basically the amount of money that it would cost to buy all of the shares of public stock in a company.  Or  share cost * number of outstanding shares. It is a measure of how much a company is worth. http://en.wikipedia.org/wiki/Market_capitalization",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Market capitalization (market cap or market value) is the total value of a publicly traded company and is calculated by multiplying the total number of a company's outstanding shares by its current stock price.Net asset value (NAV) is the value of a company's assets minus its liabilities and is calculated by dividing the value of the company's assets by the number of shares outstanding.The NAV is the value of a company's assets, while the market cap is the value of the company based on the current stock price.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "471123-0-798",
+          "score": null,
+          "score_type": "contriever",
+          "text": " \"Market caps is just the share price, multiplied by the number of shares. It doesn't represent any value (if people decide to pay more or less for the shares, the market cap goes up or down). It does represent what people think the company is worth.  NAV sounds very much like book value. It basically says \"\"how much cash would we end up with if we sold everything the company owns, paid back all the debt, and closed down the business? \"\" Since closing down the business is rarely a good idea, this underestimates the value of the business enormously. Take a hairdresser who owns nothing but a pair of scissors, but has a huge number of repeat customers, charges $200 for a haircut, and makes tons of money every year. The business has a huge value, but NAV = price of one pair of used scissors.\"",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "178-0-1083",
+          "score": null,
+          "score_type": "contriever",
+          "text": " \"At any given moment, one can tally the numbers used for NAV. It's math, and little more. The Market Cap, which as you understand is a result of share value. Share value (stock price) is what the market will pay today for the shares. It's not only based on NAV today, but on future expectations. And expectations aren't the same for each of us. Which is why there are always sellers for the buyers of a stock, and vice-versa.  From your question, we agree that NAV can be measured, it's the result of adding up things that are all known. (For now, let's ignore things such as \"\"goodwill.\"\") Rarely is a stock price simply equal to the NAV divided by the number of shares. Often, it's quite higher. The simplest way to look at it is that the stock price not only reflects the NAV, but investors' expectations looking into the future.  If you look for two companies with identical NAV per share but quite different share prices, you'll see that the companies differ in that one might be a high growth company, the other, a solid one but with a market that's not in such a growth mode.\"",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "414940-0-474",
+          "score": null,
+          "score_type": "contriever",
+          "text": " NAV is  how much is the stuff of the company worth divided by the number of shares. This total is also called book value. The market cap is share price times number of shares. For Amazon  today people are willing to pay 290 a share for a company with a NAV of 22 a share. If of nav and price were equal the P/B (price to book ratio) would be 1, but for Amazon it is 13.  Why? Because investors believe Amazon is worth a lot more than a money losing company with a NAV of 22.",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "416727-0-1356",
+          "score": null,
+          "score_type": "contriever",
+          "text": " \"I think the key concept here is future value.  The NAV is essentially a book-keeping exercise- you add up all the assets and remove all the liabilities.  For a public company this is spelled out in the balance sheet, and is generally listed at the bottom.  I pulled a recent one from Cisco Systems (because I used to work there and know the numbers  ;-) and you can see it here: roughly $56 billion... https://finance.yahoo.com/q/bs?s=CSCO+Balance+Sheet&annual  Another way to think about it: In theory (and we know about this, right?) the NAV is what you would get if you liquidated the company instantaneously.  A definition I like to use for market cap is \"\"the current assets, plus the perceived present value of all future earnings for the company\"\"... so let's dissect that a little.  The term \"\"present value\"\" is really important, because a million dollars today is worth more than a million dollars next year.  A company expected to make a lot of money soon will be worth more (i.e. a higher market cap) than a company expected to make the same amount of money, but later.  The \"\"all future earnings\"\" part is exactly what it sounds like.  So again, following our cisco example, the current market cap is ~142 billion, which means that \"\"the market\"\" thinks they will earn about $85 billion over the life of the company (in present day dollars).\"",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "418610-0-264",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Market cap is basically the amount of money that it would cost to buy all of the shares of public stock in a company.  Or  share cost * number of outstanding shares. It is a measure of how much a company is worth. http://en.wikipedia.org/wiki/Market_capitalization",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "The market cap is simply the share price multiplied by the number of shares. It doesn't indicate any inherent value; rather, it reflects what people believe the company is worth. NAV, or net asset value, is the total value of the company's assets divided by the number of shares. This is also referred to as the book value. In summary, market cap is calculated by multiplying the share price by the number of shares.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Comparative"
+        ],
+        "multi_turn": [
+          "N/A"
+        ]
+      }
+    },
+    {
+      "turn_id": "2",
+      "task_id": "e9dd465e8dd63a80dda8f3ce9cba6848<::>2",
+      "question": "Which is more important?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": " What's the difference between Market Cap and NAV?"
+        },
+        {
+          "role": "assistant",
+          "content": "The market cap is simply the share price multiplied by the number of shares. It doesn't indicate any inherent value; rather, it reflects what people believe the company is worth. NAV, or net asset value, is the total value of the company's assets divided by the number of shares. This is also referred to as the book value. In summary, market cap is calculated by multiplying the share price by the number of shares."
+        }
+      ],
+      "retrieval": {
+        "query": "Which is more important?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "126096-0-49",
+            "score": null,
+            "score_type": "contriever",
+            "text": " I think there are three important considerations:",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "256152-0-260",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"EDIT: because I can't edit on my phone, I should add that \"\"more than anything\"\" is idiomatic rather than literal- involved parents, well resourced facilities, a culture that values learning and is enquiry and concept focused are all important too. Continue!\"",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "77771-0-482",
+            "score": null,
+            "score_type": "contriever",
+            "text": " There's no downplaying the importance of something as simple as that.  But I think that Future covers it:  &gt; Employees care about your business… but only when you prove you care about them first.  Managers have the most immediate influence over the comfort of their employees while on the job. Comfortable office furniture, equipment that doesn't suck, amenities to make being at work more of a pleasure - all means of showing employees they're treated as valuable professionals.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "449554-0-966",
+            "score": null,
+            "score_type": "contriever",
+            "text": " &gt; ive read that consumer spending stimulates an economy more than investment somewhere  Investment is necessary for an economy to grow, as is consumer spending. Neither is more important. If you lack one of those, stimulating it will do more than stimulating the other.  It's like a racing team saying the driver is more important than the car. In situations where everyone's cars are as good as they'll get, improving the driver is more important. In situations where the quality of cars differs, improving the car becomes more important.  &gt;Also, youhave the theory that decreasing the income gap helps society in many other ways  There is strong speculation that that is the case. However, it's _100% fact_ that increasing everyone's wealth helps society much more. It's why you'd rather live today than in any more egalitarian point in our past. If tinkering with income inequality gets in the way of overall wealth creation, it will do more harm than good.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "60255-0-233",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Its more important to me that people who make more than me are villianized than to do some simple math and see that articles decrying executive pay is a red herring designed to pit the rich, middle class, and poor against each other.",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "126096-0-49",
+            "score": null,
+            "score_type": "contriever",
+            "text": " I think there are three important considerations:",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "256152-0-260",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"EDIT: because I can't edit on my phone, I should add that \"\"more than anything\"\" is idiomatic rather than literal- involved parents, well resourced facilities, a culture that values learning and is enquiry and concept focused are all important too. Continue!\"",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "77771-0-482",
+            "score": null,
+            "score_type": "contriever",
+            "text": " There's no downplaying the importance of something as simple as that.  But I think that Future covers it:  &gt; Employees care about your business… but only when you prove you care about them first.  Managers have the most immediate influence over the comfort of their employees while on the job. Comfortable office furniture, equipment that doesn't suck, amenities to make being at work more of a pleasure - all means of showing employees they're treated as valuable professionals.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "449554-0-966",
+            "score": null,
+            "score_type": "contriever",
+            "text": " &gt; ive read that consumer spending stimulates an economy more than investment somewhere  Investment is necessary for an economy to grow, as is consumer spending. Neither is more important. If you lack one of those, stimulating it will do more than stimulating the other.  It's like a racing team saying the driver is more important than the car. In situations where everyone's cars are as good as they'll get, improving the driver is more important. In situations where the quality of cars differs, improving the car becomes more important.  &gt;Also, youhave the theory that decreasing the income gap helps society in many other ways  There is strong speculation that that is the case. However, it's _100% fact_ that increasing everyone's wealth helps society much more. It's why you'd rather live today than in any more egalitarian point in our past. If tinkering with income inequality gets in the way of overall wealth creation, it will do more harm than good.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "60255-0-233",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Its more important to me that people who make more than me are villianized than to do some simple math and see that articles decrying executive pay is a red herring designed to pit the rich, middle class, and poor against each other.",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "I would say that both are important, but the market cap is more important because it reflects what people believe the company is worth.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "126096-0-49",
+          "score": null,
+          "score_type": "contriever",
+          "text": " I think there are three important considerations:",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "256152-0-260",
+          "score": null,
+          "score_type": "contriever",
+          "text": " \"EDIT: because I can't edit on my phone, I should add that \"\"more than anything\"\" is idiomatic rather than literal- involved parents, well resourced facilities, a culture that values learning and is enquiry and concept focused are all important too. Continue!\"",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "77771-0-482",
+          "score": null,
+          "score_type": "contriever",
+          "text": " There's no downplaying the importance of something as simple as that.  But I think that Future covers it:  &gt; Employees care about your business… but only when you prove you care about them first.  Managers have the most immediate influence over the comfort of their employees while on the job. Comfortable office furniture, equipment that doesn't suck, amenities to make being at work more of a pleasure - all means of showing employees they're treated as valuable professionals.",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "449554-0-966",
+          "score": null,
+          "score_type": "contriever",
+          "text": " &gt; ive read that consumer spending stimulates an economy more than investment somewhere  Investment is necessary for an economy to grow, as is consumer spending. Neither is more important. If you lack one of those, stimulating it will do more than stimulating the other.  It's like a racing team saying the driver is more important than the car. In situations where everyone's cars are as good as they'll get, improving the driver is more important. In situations where the quality of cars differs, improving the car becomes more important.  &gt;Also, youhave the theory that decreasing the income gap helps society in many other ways  There is strong speculation that that is the case. However, it's _100% fact_ that increasing everyone's wealth helps society much more. It's why you'd rather live today than in any more egalitarian point in our past. If tinkering with income inequality gets in the way of overall wealth creation, it will do more harm than good.",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "60255-0-233",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Its more important to me that people who make more than me are villianized than to do some simple math and see that articles decrying executive pay is a red herring designed to pit the rich, middle class, and poor against each other.",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "Both market capitalization and net asset value (NAV) provide different perspectives on a company's value. Market cap is basically the amount of money that it would cost to buy all of the company's shares of public stock. On the other hand, NAV adds up all the assets and subtracts all the liabilities, essentially representing a bookkeeping exercise.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Comparative"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "3",
+      "task_id": "e9dd465e8dd63a80dda8f3ce9cba6848<::>3",
+      "question": "enterprise value",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": " What's the difference between Market Cap and NAV?"
+        },
+        {
+          "role": "assistant",
+          "content": "The market cap is simply the share price multiplied by the number of shares. It doesn't indicate any inherent value; rather, it reflects what people believe the company is worth. NAV, or net asset value, is the total value of the company's assets divided by the number of shares. This is also referred to as the book value. In summary, market cap is calculated by multiplying the share price by the number of shares."
+        },
+        {
+          "role": "user",
+          "content": "Which is more important?"
+        },
+        {
+          "role": "assistant",
+          "content": "Both market capitalization and net asset value (NAV) provide different perspectives on a company's value. Market cap is basically the amount of money that it would cost to buy all of the company's shares of public stock. On the other hand, NAV adds up all the assets and subtracts all the liabilities, essentially representing a bookkeeping exercise."
+        }
+      ],
+      "retrieval": {
+        "query": "enterprise value",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "192515-0-701",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Enterprise Value is supposed to be the price you would be willing to pay to acquire the company. Typically, companies are delivered debt-free and cash-free, so the cash on the balance sheet at the time of the transaction is distributed to the original owners. So, for instance, a company like Apple would have a lower EV than Market Value because the cash on the balance sheet is not going to be included in an acquisition.  And you are right, there are plenty of instances where you see Enterprise Value lower than Market Value (Cap).   If you are solely looking at equity valuation (equity investing), then use market cap. If you are looking at firm valuation for M&amp;A, then EV is more important.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "346760-0-445",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"Read again what I said in my original post.  \"\"Enterprise Value is the sort of \"\"bare bones\"\" total firm value. It doesn't include any cash because you'd basically be paying cash for cash. Also, this makes analysis of transaction multiples more streamlined, as some firms may have a ton of excess cash on their balance sheet, skewing multiples.\"\"  I said that that is WHY we use enterprise value. Because if you didn't it would skew multiples.\"",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "366249-0-656",
+            "score": null,
+            "score_type": "contriever",
+            "text": " You wouldn't know it's value (Enterprise Value) without knowing its cash balance.  The equation:   EV = Market Cap + Minority Interest + Preferred Stock + Debt - Cash  Enterprise Value is the value of the company to ALL shareholders (creditors, preferred stock holders, common stock holders).  So, taking on debt could either increase or decrease the EV depending on the cash balance of the company.  This will have no effect, directly, on the market cap. It will, however effect the present value of its future cash flows as the WACC will increase due to the new cost of debt (interest payments, higher risk of bankruptcy, less flexibility by management).",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "98947-0-486",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"Market cap is synonymous with equity value, which is one way of thinking of a company's \"\"worth.\"\"  The alternative would be enterprise value, which is calculated as follows:  Enterprise Value = Market Value of Equity + Market Value of Debt - Cash and Equivalents - Non-Operating Assets  Enterprise value is essentially \"\"how much is the firm worth to ALL providers of capital.\"\" It can be viewed as \"\"if I wanted to buy the *entire* company, debt and all, what would I have to pay?\"\"\"",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "447509-0-1641",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"You are comparing \"\"market caps\"\" and \"\"enterprise value\"\".  If the company has four billion dollars cash in the bank, then the value would be four billion plus whatever the business itself is worth as a business. If the business itself is only worth 400 million, then you would have 4.4bn market caps and 400 million enterprise value. The \"\"enterprise value\"\" is basically how much the business would be worth if it had no cash or no debt.  These numbers would be a very unusual situation. It could happen for example if a big company has sold 90% of its business for cash. When you buy a share of the company, you get a tiny share of the business and you own a tiny share of the cash. This stock will very likely keep its value, but won't make much money.  On the other hand, more common would be a company where the business is worth 4bn, but the company has also 4bn debt. So it is worth exactly zero. Market caps close to zero, but enterprise value $4bn, because you ignore the debt in the enterprise value.  Edit: Sorry, got the \"\"enterprise value\"\" totally wrong, read millions instead of billions: Your numbers would mean that you have a huge, huge company with close to 440bn debt. Most likely someone made a mistake here. A \"\"normal\"\" situation would be say a company with a business that is worth $500 million, but they have $100 million debt, so market caps = $400 million but enterprise value = $500 million.  PS. Yahoo has the same nonsense numbers on their UK site, and for other companies (I just checked Marks and Spencer's which apparently has an enterprise value of 800 billion pound with a totally ridiculous P/E ratio.\"",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "192515-0-701",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Enterprise Value is supposed to be the price you would be willing to pay to acquire the company. Typically, companies are delivered debt-free and cash-free, so the cash on the balance sheet at the time of the transaction is distributed to the original owners. So, for instance, a company like Apple would have a lower EV than Market Value because the cash on the balance sheet is not going to be included in an acquisition.  And you are right, there are plenty of instances where you see Enterprise Value lower than Market Value (Cap).   If you are solely looking at equity valuation (equity investing), then use market cap. If you are looking at firm valuation for M&amp;A, then EV is more important.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "346760-0-445",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"Read again what I said in my original post.  \"\"Enterprise Value is the sort of \"\"bare bones\"\" total firm value. It doesn't include any cash because you'd basically be paying cash for cash. Also, this makes analysis of transaction multiples more streamlined, as some firms may have a ton of excess cash on their balance sheet, skewing multiples.\"\"  I said that that is WHY we use enterprise value. Because if you didn't it would skew multiples.\"",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "366249-0-656",
+            "score": null,
+            "score_type": "contriever",
+            "text": " You wouldn't know it's value (Enterprise Value) without knowing its cash balance.  The equation:   EV = Market Cap + Minority Interest + Preferred Stock + Debt - Cash  Enterprise Value is the value of the company to ALL shareholders (creditors, preferred stock holders, common stock holders).  So, taking on debt could either increase or decrease the EV depending on the cash balance of the company.  This will have no effect, directly, on the market cap. It will, however effect the present value of its future cash flows as the WACC will increase due to the new cost of debt (interest payments, higher risk of bankruptcy, less flexibility by management).",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "98947-0-486",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"Market cap is synonymous with equity value, which is one way of thinking of a company's \"\"worth.\"\"  The alternative would be enterprise value, which is calculated as follows:  Enterprise Value = Market Value of Equity + Market Value of Debt - Cash and Equivalents - Non-Operating Assets  Enterprise value is essentially \"\"how much is the firm worth to ALL providers of capital.\"\" It can be viewed as \"\"if I wanted to buy the *entire* company, debt and all, what would I have to pay?\"\"\"",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "447509-0-1641",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"You are comparing \"\"market caps\"\" and \"\"enterprise value\"\".  If the company has four billion dollars cash in the bank, then the value would be four billion plus whatever the business itself is worth as a business. If the business itself is only worth 400 million, then you would have 4.4bn market caps and 400 million enterprise value. The \"\"enterprise value\"\" is basically how much the business would be worth if it had no cash or no debt.  These numbers would be a very unusual situation. It could happen for example if a big company has sold 90% of its business for cash. When you buy a share of the company, you get a tiny share of the business and you own a tiny share of the cash. This stock will very likely keep its value, but won't make much money.  On the other hand, more common would be a company where the business is worth 4bn, but the company has also 4bn debt. So it is worth exactly zero. Market caps close to zero, but enterprise value $4bn, because you ignore the debt in the enterprise value.  Edit: Sorry, got the \"\"enterprise value\"\" totally wrong, read millions instead of billions: Your numbers would mean that you have a huge, huge company with close to 440bn debt. Most likely someone made a mistake here. A \"\"normal\"\" situation would be say a company with a business that is worth $500 million, but they have $100 million debt, so market caps = $400 million but enterprise value = $500 million.  PS. Yahoo has the same nonsense numbers on their UK site, and for other companies (I just checked Marks and Spencer's which apparently has an enterprise value of 800 billion pound with a totally ridiculous P/E ratio.\"",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Enterprise value is calculated by adding the value of preferred stock, minority interest, and debt to the market cap.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "192515-0-701",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Enterprise Value is supposed to be the price you would be willing to pay to acquire the company. Typically, companies are delivered debt-free and cash-free, so the cash on the balance sheet at the time of the transaction is distributed to the original owners. So, for instance, a company like Apple would have a lower EV than Market Value because the cash on the balance sheet is not going to be included in an acquisition.  And you are right, there are plenty of instances where you see Enterprise Value lower than Market Value (Cap).   If you are solely looking at equity valuation (equity investing), then use market cap. If you are looking at firm valuation for M&amp;A, then EV is more important.",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "346760-0-445",
+          "score": null,
+          "score_type": "contriever",
+          "text": " \"Read again what I said in my original post.  \"\"Enterprise Value is the sort of \"\"bare bones\"\" total firm value. It doesn't include any cash because you'd basically be paying cash for cash. Also, this makes analysis of transaction multiples more streamlined, as some firms may have a ton of excess cash on their balance sheet, skewing multiples.\"\"  I said that that is WHY we use enterprise value. Because if you didn't it would skew multiples.\"",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "366249-0-656",
+          "score": null,
+          "score_type": "contriever",
+          "text": " You wouldn't know it's value (Enterprise Value) without knowing its cash balance.  The equation:   EV = Market Cap + Minority Interest + Preferred Stock + Debt - Cash  Enterprise Value is the value of the company to ALL shareholders (creditors, preferred stock holders, common stock holders).  So, taking on debt could either increase or decrease the EV depending on the cash balance of the company.  This will have no effect, directly, on the market cap. It will, however effect the present value of its future cash flows as the WACC will increase due to the new cost of debt (interest payments, higher risk of bankruptcy, less flexibility by management).",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "98947-0-486",
+          "score": null,
+          "score_type": "contriever",
+          "text": " \"Market cap is synonymous with equity value, which is one way of thinking of a company's \"\"worth.\"\"  The alternative would be enterprise value, which is calculated as follows:  Enterprise Value = Market Value of Equity + Market Value of Debt - Cash and Equivalents - Non-Operating Assets  Enterprise value is essentially \"\"how much is the firm worth to ALL providers of capital.\"\" It can be viewed as \"\"if I wanted to buy the *entire* company, debt and all, what would I have to pay?\"\"\"",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "447509-0-1641",
+          "score": null,
+          "score_type": "contriever",
+          "text": " \"You are comparing \"\"market caps\"\" and \"\"enterprise value\"\".  If the company has four billion dollars cash in the bank, then the value would be four billion plus whatever the business itself is worth as a business. If the business itself is only worth 400 million, then you would have 4.4bn market caps and 400 million enterprise value. The \"\"enterprise value\"\" is basically how much the business would be worth if it had no cash or no debt.  These numbers would be a very unusual situation. It could happen for example if a big company has sold 90% of its business for cash. When you buy a share of the company, you get a tiny share of the business and you own a tiny share of the cash. This stock will very likely keep its value, but won't make much money.  On the other hand, more common would be a company where the business is worth 4bn, but the company has also 4bn debt. So it is worth exactly zero. Market caps close to zero, but enterprise value $4bn, because you ignore the debt in the enterprise value.  Edit: Sorry, got the \"\"enterprise value\"\" totally wrong, read millions instead of billions: Your numbers would mean that you have a huge, huge company with close to 440bn debt. Most likely someone made a mistake here. A \"\"normal\"\" situation would be say a company with a business that is worth $500 million, but they have $100 million debt, so market caps = $400 million but enterprise value = $500 million.  PS. Yahoo has the same nonsense numbers on their UK site, and for other companies (I just checked Marks and Spencer's which apparently has an enterprise value of 800 billion pound with a totally ridiculous P/E ratio.\"",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "Enterprise value is the estimated cost of acquiring a company. Typically, companies are acquired without any debt or cash, so any cash on the balance sheet at the time of the transaction is given to the original owners. The Enterprise Value represents the fundamental total value of the firm. It excludes cash because paying for cash with cash doesn't make sense. This also simplifies the analysis of transaction multiples, as some companies might have a significant amount of extra cash on their balance sheet, which could distort the multiples.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Non-Question"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "4",
+      "task_id": "e9dd465e8dd63a80dda8f3ce9cba6848<::>4",
+      "question": "How is it calculated?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": " What's the difference between Market Cap and NAV?"
+        },
+        {
+          "role": "assistant",
+          "content": "The market cap is simply the share price multiplied by the number of shares. It doesn't indicate any inherent value; rather, it reflects what people believe the company is worth. NAV, or net asset value, is the total value of the company's assets divided by the number of shares. This is also referred to as the book value. In summary, market cap is calculated by multiplying the share price by the number of shares."
+        },
+        {
+          "role": "user",
+          "content": "Which is more important?"
+        },
+        {
+          "role": "assistant",
+          "content": "Both market capitalization and net asset value (NAV) provide different perspectives on a company's value. Market cap is basically the amount of money that it would cost to buy all of the company's shares of public stock. On the other hand, NAV adds up all the assets and subtracts all the liabilities, essentially representing a bookkeeping exercise."
+        },
+        {
+          "role": "user",
+          "content": "enterprise value"
+        },
+        {
+          "role": "assistant",
+          "content": "Enterprise value is the estimated cost of acquiring a company. Typically, companies are acquired without any debt or cash, so any cash on the balance sheet at the time of the transaction is given to the original owners. The Enterprise Value represents the fundamental total value of the firm. It excludes cash because paying for cash with cash doesn't make sense. This also simplifies the analysis of transaction multiples, as some companies might have a significant amount of extra cash on their balance sheet, which could distort the multiples."
+        }
+      ],
+      "retrieval": {
+        "query": "How is it calculated?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "31019-0-378",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Fairly straightforward to match the result from the calculator soup link.  There is a formula to calculate n from the future value s (using natural logs) In Excel This was derived as shown  To calculate n from the inflation-adjusted future value si requires using a solver since an algebraic formula cannot be formulated.  As demonstrated  Calculations done using Mathematica 7.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "215659-0-293",
+            "score": null,
+            "score_type": "contriever",
+            "text": " To calculate you take the Price and divide it by the Earnings, or by the Sales, or by the Free Cash Flow. Most of these calculations are done for you on a lot of finance sites if the data is available. Such sites as Yahoo Finance and Google Finance as well as my personal favorite: Morningstar",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "408465-0-369",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"There is no such thing as a correct value. There are different ways to calculate (read: guess) an anticipated value, but neither of them is the \"\"correct\"\" one. Last not least this depends on your interpretation of the term \"\"correct\"\" in that context.  Why do you think paid Facebook such a huge amount for WhatsApp? Surely not, because it was the \"\"correct\"\" value.\"",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "299563-0-145",
+            "score": null,
+            "score_type": "contriever",
+            "text": " If it's number of years and the interest is per-annum the formula is the same as the normal one.  this should work on most hand-held calculators.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "191564-0-944",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"It means that at the end of each month, the APY, divided by 365 (366 for leap years) is multiplied by your account's ending balance on each day of that month, then those interest amounts are summed up and paid out. It's exactly equivalent to the \"\"Average Daily Balance\"\" method; at the end of each month, the balance of your account on each day is summed, divided by the number of days in the month, then that number is multiplied by the APY / 365 * (number of days in the month). If you write out all these terms and simplify, you'll find the two boil down to exactly the same calculation being performed in different order (possibly with differing potential for rounding error). The only difference between them is whether the daily interest percentage is distributed to each daily balance or applied to the sum, and whether there's an additional redundant pair of steps of dividing and then multiplying by the number of days in the month.\"",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "31019-0-378",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Fairly straightforward to match the result from the calculator soup link.  There is a formula to calculate n from the future value s (using natural logs) In Excel This was derived as shown  To calculate n from the inflation-adjusted future value si requires using a solver since an algebraic formula cannot be formulated.  As demonstrated  Calculations done using Mathematica 7.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "215659-0-293",
+            "score": null,
+            "score_type": "contriever",
+            "text": " To calculate you take the Price and divide it by the Earnings, or by the Sales, or by the Free Cash Flow. Most of these calculations are done for you on a lot of finance sites if the data is available. Such sites as Yahoo Finance and Google Finance as well as my personal favorite: Morningstar",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "408465-0-369",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"There is no such thing as a correct value. There are different ways to calculate (read: guess) an anticipated value, but neither of them is the \"\"correct\"\" one. Last not least this depends on your interpretation of the term \"\"correct\"\" in that context.  Why do you think paid Facebook such a huge amount for WhatsApp? Surely not, because it was the \"\"correct\"\" value.\"",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "299563-0-145",
+            "score": null,
+            "score_type": "contriever",
+            "text": " If it's number of years and the interest is per-annum the formula is the same as the normal one.  this should work on most hand-held calculators.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "191564-0-944",
+            "score": null,
+            "score_type": "contriever",
+            "text": " \"It means that at the end of each month, the APY, divided by 365 (366 for leap years) is multiplied by your account's ending balance on each day of that month, then those interest amounts are summed up and paid out. It's exactly equivalent to the \"\"Average Daily Balance\"\" method; at the end of each month, the balance of your account on each day is summed, divided by the number of days in the month, then that number is multiplied by the APY / 365 * (number of days in the month). If you write out all these terms and simplify, you'll find the two boil down to exactly the same calculation being performed in different order (possibly with differing potential for rounding error). The only difference between them is whether the daily interest percentage is distributed to each daily balance or applied to the sum, and whether there's an additional redundant pair of steps of dividing and then multiplying by the number of days in the month.\"",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "It is calculated by taking the market value of the company's outstanding shares and adding the value of any debt less cash.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "31019-0-378",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Fairly straightforward to match the result from the calculator soup link.  There is a formula to calculate n from the future value s (using natural logs) In Excel This was derived as shown  To calculate n from the inflation-adjusted future value si requires using a solver since an algebraic formula cannot be formulated.  As demonstrated  Calculations done using Mathematica 7.",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "215659-0-293",
+          "score": null,
+          "score_type": "contriever",
+          "text": " To calculate you take the Price and divide it by the Earnings, or by the Sales, or by the Free Cash Flow. Most of these calculations are done for you on a lot of finance sites if the data is available. Such sites as Yahoo Finance and Google Finance as well as my personal favorite: Morningstar",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "408465-0-369",
+          "score": null,
+          "score_type": "contriever",
+          "text": " \"There is no such thing as a correct value. There are different ways to calculate (read: guess) an anticipated value, but neither of them is the \"\"correct\"\" one. Last not least this depends on your interpretation of the term \"\"correct\"\" in that context.  Why do you think paid Facebook such a huge amount for WhatsApp? Surely not, because it was the \"\"correct\"\" value.\"",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "299563-0-145",
+          "score": null,
+          "score_type": "contriever",
+          "text": " If it's number of years and the interest is per-annum the formula is the same as the normal one.  this should work on most hand-held calculators.",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "191564-0-944",
+          "score": null,
+          "score_type": "contriever",
+          "text": " \"It means that at the end of each month, the APY, divided by 365 (366 for leap years) is multiplied by your account's ending balance on each day of that month, then those interest amounts are summed up and paid out. It's exactly equivalent to the \"\"Average Daily Balance\"\" method; at the end of each month, the balance of your account on each day is summed, divided by the number of days in the month, then that number is multiplied by the APY / 365 * (number of days in the month). If you write out all these terms and simplify, you'll find the two boil down to exactly the same calculation being performed in different order (possibly with differing potential for rounding error). The only difference between them is whether the daily interest percentage is distributed to each daily balance or applied to the sum, and whether there's an additional redundant pair of steps of dividing and then multiplying by the number of days in the month.\"",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "Calculating a company's enterprise value requires considering several factors. The equation for enterprise value is as follows: EV = Market Cap + Minority Interest + Preferred Stock + Debt—Cash. Enterprise value represents the total value of a company to all its shareholders, including creditors, preferred stockholders, and common stockholders. It's important to note that taking on debt can either increase or decrease the enterprise value, depending on the company's cash balance.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "How-To"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "5",
+      "task_id": "e9dd465e8dd63a80dda8f3ce9cba6848<::>5",
+      "question": "What is WACC?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": " What's the difference between Market Cap and NAV?"
+        },
+        {
+          "role": "assistant",
+          "content": "The market cap is simply the share price multiplied by the number of shares. It doesn't indicate any inherent value; rather, it reflects what people believe the company is worth. NAV, or net asset value, is the total value of the company's assets divided by the number of shares. This is also referred to as the book value. In summary, market cap is calculated by multiplying the share price by the number of shares."
+        },
+        {
+          "role": "user",
+          "content": "Which is more important?"
+        },
+        {
+          "role": "assistant",
+          "content": "Both market capitalization and net asset value (NAV) provide different perspectives on a company's value. Market cap is basically the amount of money that it would cost to buy all of the company's shares of public stock. On the other hand, NAV adds up all the assets and subtracts all the liabilities, essentially representing a bookkeeping exercise."
+        },
+        {
+          "role": "user",
+          "content": "enterprise value"
+        },
+        {
+          "role": "assistant",
+          "content": "Enterprise value is the estimated cost of acquiring a company. Typically, companies are acquired without any debt or cash, so any cash on the balance sheet at the time of the transaction is given to the original owners. The Enterprise Value represents the fundamental total value of the firm. It excludes cash because paying for cash with cash doesn't make sense. This also simplifies the analysis of transaction multiples, as some companies might have a significant amount of extra cash on their balance sheet, which could distort the multiples."
+        },
+        {
+          "role": "user",
+          "content": "How is it calculated?"
+        },
+        {
+          "role": "assistant",
+          "content": "Calculating a company's enterprise value requires considering several factors. The equation for enterprise value is as follows: EV = Market Cap + Minority Interest + Preferred Stock + Debt—Cash. Enterprise value represents the total value of a company to all its shareholders, including creditors, preferred stockholders, and common stockholders. It's important to note that taking on debt can either increase or decrease the enterprise value, depending on the company's cash balance."
+        }
+      ],
+      "retrieval": {
+        "query": "What is WACC?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "597850-0-335",
+            "score": null,
+            "score_type": "contriever",
+            "text": " CAPM is a pricing model.  Not a risk model.  &gt; If you're talking about corporate finance where a firm is considering an investment such as a new project, then a determining a WACC and using it as a discount rate for your cash flow is a basic strategy.  Once again... WACC is a pricing model and has nothing to do with risk modeling.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "467535-0-727",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Each situation is different, but it has to do with assessing what the Company is trying to do. People always talk about WACC, but in reality, WACC is less important than figuring how how much debt a Company can support (determined by leverage and solvency statistics).  Here are a few things to think about:  -How stable are the Company's cash flows? (big difference between a Company that has multi-year contracts locked in place vs. variable/cyclical revenue streams; what type of Capex requirement is there?)  -What is the purpose of raising the capital? (growth vs. recapitalization; where are the proceeds going?)  -What collateral is available for creditors?  -What does working capital look like? (is there seasonality?)",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "73201-0-223",
+            "score": null,
+            "score_type": "contriever",
+            "text": " You don't even need to look at WACC (which is fairly complicated as a concept) you can simply look up gearing. Both high and low gearing is bad, so even if you've got loads of cash you shouldn't just be using that to invest",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "282674-0-487",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Hey all,  I have no idea what to do in order to calculate the wacc. It just doesn't make sense to me! And more so, understanding the circumstances in which it would be appropriate to use the company's wacc as the discount rate in the project.   The Australian company tax rate: 27.5%  Applicable date for risk free rates: 28/8/17  10 year rate for risk free: 2.615%  8 year risk free rate- 2.505%  Credit spread for corporate bond: 95bp  I just don;t understand what I am supposed to do!",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "406542-0-549",
+            "score": null,
+            "score_type": "contriever",
+            "text": " On a company level ROCE over WACC would be more meaningful in my view but the end result should be be pretty much the same. This concept is closely related to value creation. Value can only be created when a company's ROCE is exceeding its cost of funding - WACC. This is also tightly related with the NPV concept. Value is only created when the NPV on a project is &gt;0.  And to directly answer OP. Study in detail WACC. (weighted average cost of capital). Focus on the Modigliani–Miller theorem with taxes and financial distress costs. Good luck.",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "597850-0-335",
+            "score": null,
+            "score_type": "contriever",
+            "text": " CAPM is a pricing model.  Not a risk model.  &gt; If you're talking about corporate finance where a firm is considering an investment such as a new project, then a determining a WACC and using it as a discount rate for your cash flow is a basic strategy.  Once again... WACC is a pricing model and has nothing to do with risk modeling.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "467535-0-727",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Each situation is different, but it has to do with assessing what the Company is trying to do. People always talk about WACC, but in reality, WACC is less important than figuring how how much debt a Company can support (determined by leverage and solvency statistics).  Here are a few things to think about:  -How stable are the Company's cash flows? (big difference between a Company that has multi-year contracts locked in place vs. variable/cyclical revenue streams; what type of Capex requirement is there?)  -What is the purpose of raising the capital? (growth vs. recapitalization; where are the proceeds going?)  -What collateral is available for creditors?  -What does working capital look like? (is there seasonality?)",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "73201-0-223",
+            "score": null,
+            "score_type": "contriever",
+            "text": " You don't even need to look at WACC (which is fairly complicated as a concept) you can simply look up gearing. Both high and low gearing is bad, so even if you've got loads of cash you shouldn't just be using that to invest",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "282674-0-487",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Hey all,  I have no idea what to do in order to calculate the wacc. It just doesn't make sense to me! And more so, understanding the circumstances in which it would be appropriate to use the company's wacc as the discount rate in the project.   The Australian company tax rate: 27.5%  Applicable date for risk free rates: 28/8/17  10 year rate for risk free: 2.615%  8 year risk free rate- 2.505%  Credit spread for corporate bond: 95bp  I just don;t understand what I am supposed to do!",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "406542-0-549",
+            "score": null,
+            "score_type": "contriever",
+            "text": " On a company level ROCE over WACC would be more meaningful in my view but the end result should be be pretty much the same. This concept is closely related to value creation. Value can only be created when a company's ROCE is exceeding its cost of funding - WACC. This is also tightly related with the NPV concept. Value is only created when the NPV on a project is &gt;0.  And to directly answer OP. Study in detail WACC. (weighted average cost of capital). Focus on the Modigliani–Miller theorem with taxes and financial distress costs. Good luck.",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "WACC stands for Weighted Average Cost of Capital.It is used to calculate the cost of a company's capital, including both debt and equity.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "597850-0-335",
+          "score": null,
+          "score_type": "contriever",
+          "text": " CAPM is a pricing model.  Not a risk model.  &gt; If you're talking about corporate finance where a firm is considering an investment such as a new project, then a determining a WACC and using it as a discount rate for your cash flow is a basic strategy.  Once again... WACC is a pricing model and has nothing to do with risk modeling.",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "467535-0-727",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Each situation is different, but it has to do with assessing what the Company is trying to do. People always talk about WACC, but in reality, WACC is less important than figuring how how much debt a Company can support (determined by leverage and solvency statistics).  Here are a few things to think about:  -How stable are the Company's cash flows? (big difference between a Company that has multi-year contracts locked in place vs. variable/cyclical revenue streams; what type of Capex requirement is there?)  -What is the purpose of raising the capital? (growth vs. recapitalization; where are the proceeds going?)  -What collateral is available for creditors?  -What does working capital look like? (is there seasonality?)",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "73201-0-223",
+          "score": null,
+          "score_type": "contriever",
+          "text": " You don't even need to look at WACC (which is fairly complicated as a concept) you can simply look up gearing. Both high and low gearing is bad, so even if you've got loads of cash you shouldn't just be using that to invest",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "282674-0-487",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Hey all,  I have no idea what to do in order to calculate the wacc. It just doesn't make sense to me! And more so, understanding the circumstances in which it would be appropriate to use the company's wacc as the discount rate in the project.   The Australian company tax rate: 27.5%  Applicable date for risk free rates: 28/8/17  10 year rate for risk free: 2.615%  8 year risk free rate- 2.505%  Credit spread for corporate bond: 95bp  I just don;t understand what I am supposed to do!",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "406542-0-549",
+          "score": null,
+          "score_type": "contriever",
+          "text": " On a company level ROCE over WACC would be more meaningful in my view but the end result should be be pretty much the same. This concept is closely related to value creation. Value can only be created when a company's ROCE is exceeding its cost of funding - WACC. This is also tightly related with the NPV concept. Value is only created when the NPV on a project is &gt;0.  And to directly answer OP. Study in detail WACC. (weighted average cost of capital). Focus on the Modigliani–Miller theorem with taxes and financial distress costs. Good luck.",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "The Weighted Average Cost of Capital (WACC) is a formula that helps determine the cost for a company to raise $1 of capital, whether through issuing bonds or stocks. It is a standard tool used by finance professionals. Ideally, you would want a WACC similar to other successful companies of your size and industry. Adjusting your WACC involves issuing or repurchasing equity or debt.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Explanation",
+          "Summarization"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "6",
+      "task_id": "e9dd465e8dd63a80dda8f3ce9cba6848<::>6",
+      "question": "Is the WACC formula highly reliable?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": " What's the difference between Market Cap and NAV?"
+        },
+        {
+          "role": "assistant",
+          "content": "The market cap is simply the share price multiplied by the number of shares. It doesn't indicate any inherent value; rather, it reflects what people believe the company is worth. NAV, or net asset value, is the total value of the company's assets divided by the number of shares. This is also referred to as the book value. In summary, market cap is calculated by multiplying the share price by the number of shares."
+        },
+        {
+          "role": "user",
+          "content": "Which is more important?"
+        },
+        {
+          "role": "assistant",
+          "content": "Both market capitalization and net asset value (NAV) provide different perspectives on a company's value. Market cap is basically the amount of money that it would cost to buy all of the company's shares of public stock. On the other hand, NAV adds up all the assets and subtracts all the liabilities, essentially representing a bookkeeping exercise."
+        },
+        {
+          "role": "user",
+          "content": "enterprise value"
+        },
+        {
+          "role": "assistant",
+          "content": "Enterprise value is the estimated cost of acquiring a company. Typically, companies are acquired without any debt or cash, so any cash on the balance sheet at the time of the transaction is given to the original owners. The Enterprise Value represents the fundamental total value of the firm. It excludes cash because paying for cash with cash doesn't make sense. This also simplifies the analysis of transaction multiples, as some companies might have a significant amount of extra cash on their balance sheet, which could distort the multiples."
+        },
+        {
+          "role": "user",
+          "content": "How is it calculated?"
+        },
+        {
+          "role": "assistant",
+          "content": "Calculating a company's enterprise value requires considering several factors. The equation for enterprise value is as follows: EV = Market Cap + Minority Interest + Preferred Stock + Debt—Cash. Enterprise value represents the total value of a company to all its shareholders, including creditors, preferred stockholders, and common stockholders. It's important to note that taking on debt can either increase or decrease the enterprise value, depending on the company's cash balance."
+        },
+        {
+          "role": "user",
+          "content": "What is WACC?"
+        },
+        {
+          "role": "assistant",
+          "content": "The Weighted Average Cost of Capital (WACC) is a formula that helps determine the cost for a company to raise $1 of capital, whether through issuing bonds or stocks. It is a standard tool used by finance professionals. Ideally, you would want a WACC similar to other successful companies of your size and industry. Adjusting your WACC involves issuing or repurchasing equity or debt."
+        }
+      ],
+      "retrieval": {
+        "query": "Is the WACC formula highly reliable?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "73201-0-223",
+            "score": null,
+            "score_type": "contriever",
+            "text": " You don't even need to look at WACC (which is fairly complicated as a concept) you can simply look up gearing. Both high and low gearing is bad, so even if you've got loads of cash you shouldn't just be using that to invest",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "467535-0-727",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Each situation is different, but it has to do with assessing what the Company is trying to do. People always talk about WACC, but in reality, WACC is less important than figuring how how much debt a Company can support (determined by leverage and solvency statistics).  Here are a few things to think about:  -How stable are the Company's cash flows? (big difference between a Company that has multi-year contracts locked in place vs. variable/cyclical revenue streams; what type of Capex requirement is there?)  -What is the purpose of raising the capital? (growth vs. recapitalization; where are the proceeds going?)  -What collateral is available for creditors?  -What does working capital look like? (is there seasonality?)",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "7176-0-577",
+            "score": null,
+            "score_type": "contriever",
+            "text": " I skimmed the paper rather quickly.  It's interesting I guess, but if you haven't taken a junior level college course in finance you'll be lost.    I fail to see any actionable advice from the article however.    It simply goes over how pretty much how most of how we perceive WACC, Betas, and Equity Premiums are wrong.  We are wrong in their actual definitions and we are wrong in how they are calculated.    I'm disappointed the author did not propose a solution though.  Even if he is right, you can't rewrite 'wrong' textbooks if you have no idea what the right answer is.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "492022-0-374",
+            "score": null,
+            "score_type": "contriever",
+            "text": " If you're taking a Terminal DCF, you shouldn't be using 1-year risk free rates, so the 2.77% is probably much more accurate. That being said, we're in a historically low-rate environment, so even the 2.77% is probably a bit low.   Here's another data point that puts the WACC at 8%:  [http://www.wikiwealth.com/wacc-analysis:mcd](http://www.wikiwealth.com/wacc-analysis:mcd)",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "473599-0-269",
+            "score": null,
+            "score_type": "contriever",
+            "text": " What's a good proxy for the return of the market when utilizing CAPM for a WACC build up? I know I could rip data from Domadaran, but I'd like to calculate it for myself. Maybe S&amp;P 500 earnings yield plus the 10yr? Also don't like taking the round assumption of 7%.",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "73201-0-223",
+            "score": null,
+            "score_type": "contriever",
+            "text": " You don't even need to look at WACC (which is fairly complicated as a concept) you can simply look up gearing. Both high and low gearing is bad, so even if you've got loads of cash you shouldn't just be using that to invest",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "467535-0-727",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Each situation is different, but it has to do with assessing what the Company is trying to do. People always talk about WACC, but in reality, WACC is less important than figuring how how much debt a Company can support (determined by leverage and solvency statistics).  Here are a few things to think about:  -How stable are the Company's cash flows? (big difference between a Company that has multi-year contracts locked in place vs. variable/cyclical revenue streams; what type of Capex requirement is there?)  -What is the purpose of raising the capital? (growth vs. recapitalization; where are the proceeds going?)  -What collateral is available for creditors?  -What does working capital look like? (is there seasonality?)",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "7176-0-577",
+            "score": null,
+            "score_type": "contriever",
+            "text": " I skimmed the paper rather quickly.  It's interesting I guess, but if you haven't taken a junior level college course in finance you'll be lost.    I fail to see any actionable advice from the article however.    It simply goes over how pretty much how most of how we perceive WACC, Betas, and Equity Premiums are wrong.  We are wrong in their actual definitions and we are wrong in how they are calculated.    I'm disappointed the author did not propose a solution though.  Even if he is right, you can't rewrite 'wrong' textbooks if you have no idea what the right answer is.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "492022-0-374",
+            "score": null,
+            "score_type": "contriever",
+            "text": " If you're taking a Terminal DCF, you shouldn't be using 1-year risk free rates, so the 2.77% is probably much more accurate. That being said, we're in a historically low-rate environment, so even the 2.77% is probably a bit low.   Here's another data point that puts the WACC at 8%:  [http://www.wikiwealth.com/wacc-analysis:mcd](http://www.wikiwealth.com/wacc-analysis:mcd)",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "473599-0-269",
+            "score": null,
+            "score_type": "contriever",
+            "text": " What's a good proxy for the return of the market when utilizing CAPM for a WACC build up? I know I could rip data from Domadaran, but I'd like to calculate it for myself. Maybe S&amp;P 500 earnings yield plus the 10yr? Also don't like taking the round assumption of 7%.",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Assistant: The WACC formula is highly reliable, but it is important to note that it is an estimate and can vary depending on the assumptions used.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "73201-0-223",
+          "score": null,
+          "score_type": "contriever",
+          "text": " You don't even need to look at WACC (which is fairly complicated as a concept) you can simply look up gearing. Both high and low gearing is bad, so even if you've got loads of cash you shouldn't just be using that to invest",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "467535-0-727",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Each situation is different, but it has to do with assessing what the Company is trying to do. People always talk about WACC, but in reality, WACC is less important than figuring how how much debt a Company can support (determined by leverage and solvency statistics).  Here are a few things to think about:  -How stable are the Company's cash flows? (big difference between a Company that has multi-year contracts locked in place vs. variable/cyclical revenue streams; what type of Capex requirement is there?)  -What is the purpose of raising the capital? (growth vs. recapitalization; where are the proceeds going?)  -What collateral is available for creditors?  -What does working capital look like? (is there seasonality?)",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "7176-0-577",
+          "score": null,
+          "score_type": "contriever",
+          "text": " I skimmed the paper rather quickly.  It's interesting I guess, but if you haven't taken a junior level college course in finance you'll be lost.    I fail to see any actionable advice from the article however.    It simply goes over how pretty much how most of how we perceive WACC, Betas, and Equity Premiums are wrong.  We are wrong in their actual definitions and we are wrong in how they are calculated.    I'm disappointed the author did not propose a solution though.  Even if he is right, you can't rewrite 'wrong' textbooks if you have no idea what the right answer is.",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "492022-0-374",
+          "score": null,
+          "score_type": "contriever",
+          "text": " If you're taking a Terminal DCF, you shouldn't be using 1-year risk free rates, so the 2.77% is probably much more accurate. That being said, we're in a historically low-rate environment, so even the 2.77% is probably a bit low.   Here's another data point that puts the WACC at 8%:  [http://www.wikiwealth.com/wacc-analysis:mcd](http://www.wikiwealth.com/wacc-analysis:mcd)",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "473599-0-269",
+          "score": null,
+          "score_type": "contriever",
+          "text": " What's a good proxy for the return of the market when utilizing CAPM for a WACC build up? I know I could rip data from Domadaran, but I'd like to calculate it for myself. Maybe S&amp;P 500 earnings yield plus the 10yr? Also don't like taking the round assumption of 7%.",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "Every situation is unique, but it's about evaluating the company's objectives. People often mention WACC, but in truth, it's less crucial than determining the amount of debt a company can handle, which is determined by leverage and solvency statistics. WACC is a pricing model and isn't related to risk modeling.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Explanation",
+          "Opinion"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "7",
+      "task_id": "e9dd465e8dd63a80dda8f3ce9cba6848<::>7",
+      "question": "What is the ideal formula to evaluate a company?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": " What's the difference between Market Cap and NAV?"
+        },
+        {
+          "role": "assistant",
+          "content": "The market cap is simply the share price multiplied by the number of shares. It doesn't indicate any inherent value; rather, it reflects what people believe the company is worth. NAV, or net asset value, is the total value of the company's assets divided by the number of shares. This is also referred to as the book value. In summary, market cap is calculated by multiplying the share price by the number of shares."
+        },
+        {
+          "role": "user",
+          "content": "Which is more important?"
+        },
+        {
+          "role": "assistant",
+          "content": "Both market capitalization and net asset value (NAV) provide different perspectives on a company's value. Market cap is basically the amount of money that it would cost to buy all of the company's shares of public stock. On the other hand, NAV adds up all the assets and subtracts all the liabilities, essentially representing a bookkeeping exercise."
+        },
+        {
+          "role": "user",
+          "content": "enterprise value"
+        },
+        {
+          "role": "assistant",
+          "content": "Enterprise value is the estimated cost of acquiring a company. Typically, companies are acquired without any debt or cash, so any cash on the balance sheet at the time of the transaction is given to the original owners. The Enterprise Value represents the fundamental total value of the firm. It excludes cash because paying for cash with cash doesn't make sense. This also simplifies the analysis of transaction multiples, as some companies might have a significant amount of extra cash on their balance sheet, which could distort the multiples."
+        },
+        {
+          "role": "user",
+          "content": "How is it calculated?"
+        },
+        {
+          "role": "assistant",
+          "content": "Calculating a company's enterprise value requires considering several factors. The equation for enterprise value is as follows: EV = Market Cap + Minority Interest + Preferred Stock + Debt—Cash. Enterprise value represents the total value of a company to all its shareholders, including creditors, preferred stockholders, and common stockholders. It's important to note that taking on debt can either increase or decrease the enterprise value, depending on the company's cash balance."
+        },
+        {
+          "role": "user",
+          "content": "What is WACC?"
+        },
+        {
+          "role": "assistant",
+          "content": "The Weighted Average Cost of Capital (WACC) is a formula that helps determine the cost for a company to raise $1 of capital, whether through issuing bonds or stocks. It is a standard tool used by finance professionals. Ideally, you would want a WACC similar to other successful companies of your size and industry. Adjusting your WACC involves issuing or repurchasing equity or debt."
+        },
+        {
+          "role": "user",
+          "content": "Is the WACC formula highly reliable?"
+        },
+        {
+          "role": "assistant",
+          "content": "Every situation is unique, but it's about evaluating the company's objectives. People often mention WACC, but in truth, it's less crucial than determining the amount of debt a company can handle, which is determined by leverage and solvency statistics. WACC is a pricing model and isn't related to risk modeling."
+        }
+      ],
+      "retrieval": {
+        "query": "What is the ideal formula to evaluate a company?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "263464-0-522",
+            "score": null,
+            "score_type": "contriever",
+            "text": " I'd recommend looking at fundamental analysis as well -- technical analysis seems to be good for buy and sell points, but not for picking what to buy.  You can get better outperformance by buying the right stuff, and it can be surprisingly easy to create a formula that works.  I'd check out Morningstar, AAII, or Equities Lab (fairly complicated but it lets you do technical and fundamental analysis together).  Also read Benjamin Graham, and/or Ken Fisher (they are wildly different, which is why I recommend them both).",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "382394-0-314",
+            "score": null,
+            "score_type": "contriever",
+            "text": " How can you correlate a company stock's performance with overall market performance. No you can't. There is no simple magic formulae that will result in profits. There are quite a few statistical algorithms that specialists have built, that work most of the times. But they are incorrect most of the times as well.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "541280-0-283",
+            "score": null,
+            "score_type": "contriever",
+            "text": " You can call it a stock rating of say between 0 to 5 or 0 to 10 or whatever scale you want to use.  It should not be called a recommendation but rather a rating based on the criterial you have analysed. Also a scale from say 0 to 5 is better than using terms like buy, hold and sell.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "599414-0-300",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Shareholders are the equity holders. They mean the same thing.  A simplified formula for the total value of a company is the value of its equity, plus the value of its debt, less its cash (for reasons I won't get into). There are usually other things to add or subtract, but that's the basic formula.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "258306-0-1135",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Reading and analyzing financial statements is one of the most important tasks of Equity Analysts which look at a company from a fundamental perspective.  However, analyzing a company and its financial statements is much more than just reading the absolute dollar figures provided in financial statements: You need to calculate financial ratios which can be compared over multiple periods and companies to be able to gauge the development of a company over time and compare it to its competitors. For instance, for an Equity Analyst, the absolute dollar figures of a company's operating profit is less important than the ratio of the operating profit to revenue, which is called the operating margin.  Another very important figure is Free Cash Flow which can be set in relation to sales (= Free Cash Flow / Sales).  The following working capital related metrics can be used as a health check for a company and give you early warning signs when they deviate too much: You can either calculate those metrics yourself using a spreadsheet (e.g. Excel) or use a professional solution, e.g. Bloomberg Professional, Reuters Eikon or WorldCap.",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "263464-0-522",
+            "score": null,
+            "score_type": "contriever",
+            "text": " I'd recommend looking at fundamental analysis as well -- technical analysis seems to be good for buy and sell points, but not for picking what to buy.  You can get better outperformance by buying the right stuff, and it can be surprisingly easy to create a formula that works.  I'd check out Morningstar, AAII, or Equities Lab (fairly complicated but it lets you do technical and fundamental analysis together).  Also read Benjamin Graham, and/or Ken Fisher (they are wildly different, which is why I recommend them both).",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "382394-0-314",
+            "score": null,
+            "score_type": "contriever",
+            "text": " How can you correlate a company stock's performance with overall market performance. No you can't. There is no simple magic formulae that will result in profits. There are quite a few statistical algorithms that specialists have built, that work most of the times. But they are incorrect most of the times as well.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "541280-0-283",
+            "score": null,
+            "score_type": "contriever",
+            "text": " You can call it a stock rating of say between 0 to 5 or 0 to 10 or whatever scale you want to use.  It should not be called a recommendation but rather a rating based on the criterial you have analysed. Also a scale from say 0 to 5 is better than using terms like buy, hold and sell.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "599414-0-300",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Shareholders are the equity holders. They mean the same thing.  A simplified formula for the total value of a company is the value of its equity, plus the value of its debt, less its cash (for reasons I won't get into). There are usually other things to add or subtract, but that's the basic formula.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "258306-0-1135",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Reading and analyzing financial statements is one of the most important tasks of Equity Analysts which look at a company from a fundamental perspective.  However, analyzing a company and its financial statements is much more than just reading the absolute dollar figures provided in financial statements: You need to calculate financial ratios which can be compared over multiple periods and companies to be able to gauge the development of a company over time and compare it to its competitors. For instance, for an Equity Analyst, the absolute dollar figures of a company's operating profit is less important than the ratio of the operating profit to revenue, which is called the operating margin.  Another very important figure is Free Cash Flow which can be set in relation to sales (= Free Cash Flow / Sales).  The following working capital related metrics can be used as a health check for a company and give you early warning signs when they deviate too much: You can either calculate those metrics yourself using a spreadsheet (e.g. Excel) or use a professional solution, e.g. Bloomberg Professional, Reuters Eikon or WorldCap.",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Assistant: The ideal formula to evaluate a company is subjective and depends on the investor's goals and risk tolerance.Some investors may focus on a company's growth potential, while others may prioritize its financial stability or dividend yield.Ultimately, the most important factor is to conduct thorough research and make informed decisions based on the company's fundamentals, industry trends, and economic climate.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "263464-0-522",
+          "score": null,
+          "score_type": "contriever",
+          "text": " I'd recommend looking at fundamental analysis as well -- technical analysis seems to be good for buy and sell points, but not for picking what to buy.  You can get better outperformance by buying the right stuff, and it can be surprisingly easy to create a formula that works.  I'd check out Morningstar, AAII, or Equities Lab (fairly complicated but it lets you do technical and fundamental analysis together).  Also read Benjamin Graham, and/or Ken Fisher (they are wildly different, which is why I recommend them both).",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "382394-0-314",
+          "score": null,
+          "score_type": "contriever",
+          "text": " How can you correlate a company stock's performance with overall market performance. No you can't. There is no simple magic formulae that will result in profits. There are quite a few statistical algorithms that specialists have built, that work most of the times. But they are incorrect most of the times as well.",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "541280-0-283",
+          "score": null,
+          "score_type": "contriever",
+          "text": " You can call it a stock rating of say between 0 to 5 or 0 to 10 or whatever scale you want to use.  It should not be called a recommendation but rather a rating based on the criterial you have analysed. Also a scale from say 0 to 5 is better than using terms like buy, hold and sell.",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "599414-0-300",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Shareholders are the equity holders. They mean the same thing.  A simplified formula for the total value of a company is the value of its equity, plus the value of its debt, less its cash (for reasons I won't get into). There are usually other things to add or subtract, but that's the basic formula.",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "258306-0-1135",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Reading and analyzing financial statements is one of the most important tasks of Equity Analysts which look at a company from a fundamental perspective.  However, analyzing a company and its financial statements is much more than just reading the absolute dollar figures provided in financial statements: You need to calculate financial ratios which can be compared over multiple periods and companies to be able to gauge the development of a company over time and compare it to its competitors. For instance, for an Equity Analyst, the absolute dollar figures of a company's operating profit is less important than the ratio of the operating profit to revenue, which is called the operating margin.  Another very important figure is Free Cash Flow which can be set in relation to sales (= Free Cash Flow / Sales).  The following working capital related metrics can be used as a health check for a company and give you early warning signs when they deviate too much: You can either calculate those metrics yourself using a spreadsheet (e.g. Excel) or use a professional solution, e.g. Bloomberg Professional, Reuters Eikon or WorldCap.",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "There isn't a single \"ideal\" formula to evaluate a company, as the appropriate metrics can vary depending on the company's specific circumstances, industry, and objectives. However, three main areas to focus on are the income statement, the balance sheet, and the cash flow statement. The standard measure for evaluating income is the P/E (price-earnings) ratio. The debt-to-equity or debt-to-capital ratio (debt + equity) is important for the balance sheet. When assessing cash generation, the price-to-cash flow or price-to-free cash flow ratios are helpful (the lower the ratio, the better, all other things being equal, for all three ratios). Common financial ratios and metrics to consider include the Price-to-Earnings (P/E) ratio, Price-to-Book (P/B) ratio, Debt-to-Equity (D/E) ratio, and Return on Investment (ROI), among others.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Summarization"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    }
+  ]
+}

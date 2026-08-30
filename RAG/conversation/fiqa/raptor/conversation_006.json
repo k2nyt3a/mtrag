@@ -1,0 +1,2181 @@
+{
+  "conversation_id": "4a8369b7403e54df94d7fa495a4eff27",
+  "dataset": "fiqa",
+  "collection": "mt-rag-fiqa-beir-elser-512-100-20240501",
+  "rag": "raptor",
+  "num_turns": 5,
+  "turns": [
+    {
+      "turn_id": "1",
+      "task_id": "4a8369b7403e54df94d7fa495a4eff27<::>1",
+      "question": "how does pre-market trading work?",
+      "rag_history_before_turn": [],
+      "retrieval": {
+        "query": "how does pre-market trading work?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": "how does pre-market trading work?",
+        "k": 10,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "515579-0-370",
+            "score": 0.668455,
+            "score_type": "cosine",
+            "text": "\nIf I understand you correctly, you are noticing that a stock's price can change drastically when the time changes from pre-market trading hours to open market hours. This could occur because a much smaller pool of investors make trades during pre-market and after-market hours. When the regular market opens there is a large influx of trades, causing the prices to jump.",
+            "raptor_node_id": 46018,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "515579-0-370"
+            ]
+          },
+          {
+            "rank": 2,
+            "doc_id": "37040-0-1356",
+            "score": 0.659613,
+            "score_type": "cosine",
+            "text": "\n\"First of all, not all brokers allow trading during pre-market and post-market.  Some brokers only allow trading during the regular hours (9:30am - 4pm ET). Second of all, while you can place orders using limit orders and market orders during regular trading hours, you can only use limit orders during pre-market and post-market.  This is because the liquidity is much lower during pre-market and post-market, and using market orders could result in some trades filling at horrible prices.  So brokers don't allow using market orders outside of regular trading hours. Third, some brokers require you to specify that you want your order to be executed during pre-market or post-market.  For example, my broker allows me to specify either \"\"Day\"\" or \"\"Ext\"\" for my orders.  \"\"Day\"\" means I want my order to execute only during regular trading hours, and \"\"Ext\"\" means I want my order to execute at any time - pre-market, regular trading hours, or post-market. Finally, if your broker allows pre/post market trading, and you place a limit order while specifying \"\"Ext\"\", then your trade can happen in real-time during pre-market or post-market.  Per your example, if a stock is trading at $5 at 8am, and you put in a limit order (while specifying \"\"Ext\"\") to buy it at $5 at 8am, then your order will execute at that time and you will buy that stock at 8am.\"",
+            "raptor_node_id": 7488,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "37040-0-1356"
+            ]
+          },
+          {
+            "rank": 3,
+            "doc_id": "241059-0-1154",
+            "score": 0.637342,
+            "score_type": "cosine",
+            "text": "\n\"NASDAQ has Pre and After market : NASDAQ Trading Schedule Regular Trading Session Schedule The NASDAQ   Stock Market Trading Sessions (Eastern Time) Pre-Market Trading Hours from 4:00 a.m. to 9:30 a.m.   Market Hours from 9:30 a.m. to 4:00 p.m.   After-Market Hours from 4:00 p.m. to 8:00 p.m.   Quote and order-entry from 4:00 a.m. to 8:00 p.m.   Quotes are open and firm from 4:00 a.m. to 8:00 p.m. You can trade in Pre/After Market but liquidity is very low. If an \"\"unexpected world events\"\" occurs, the volume/liquidity will most certainly increase. Another example is the Forex Market that's open 24/7 around the world. As one major forex market closes, another one opens. According to GMT,   for instance, forex trading hours move around the world like this:   available in New York between 01:00 pm – 10:00 pm GMT; at 10:00 pm GMT   Sydney comes online; Tokyo opens at 00:00 am and closes at 9:00 am   GMT; and to complete the loop, London opens at 8:00 am and closes at   05:00 pm GMT. This enables traders and brokers worldwide, together   with the participation of the central banks from all continents, to   trade online 24 hours a day. src\"",
+            "raptor_node_id": 39094,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "241059-0-1154"
+            ]
+          },
+          {
+            "rank": 4,
+            "doc_id": "57520-0-457",
+            "score": 0.633916,
+            "score_type": "cosine",
+            "text": "\nPre-Market trading activity is shown on the site from 4:15 - 9:30 AM (actual trading starts at 4:00 AM EST) The NASDAQ Stock Market Trading Sessions (Eastern Time) Pre-Market Trading Hours from 4:00 a.m. to 9:30 a.m. Market Hours from 9:30 a.m. to 4:00 p.m. After-Market Hours from 4:00 p.m. to 8:00 p.m. Read more: http://www.nasdaq.com/about/trading-schedule.aspx#ixzz38OtcISrq In this case GOOG did not trade in the Pre-market until that time and FB was.",
+            "raptor_node_id": 5193,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "57520-0-457"
+            ]
+          },
+          {
+            "rank": 5,
+            "doc_id": "227304-0-912",
+            "score": 0.619095,
+            "score_type": "cosine",
+            "text": "\nQuoted from money.howstuffworks.com: NASDAQ has come up with an auction approach called the opening cross. Here's how it works. In the morning, a computer program looks at all the orders that have come in overnight in each different stock. Based on those orders, the program picks a price level that would be the best opening price. However, it also looks to see if there's a trade imbalance. For example, if a company announced bad news after the market closed, there might be 10 times more sell orders than buy orders. NASDAQ then broadcasts the price and imbalance information to its network of dealers with the goal of offsetting the imbalance. It then lets dealers place orders. This all happens very quickly, in a time window of two minutes or so, right before the market opens. Dealers can place orders, and those orders are factored into the opening price. Further reading here: Opening Price calculation",
+            "raptor_node_id": 16775,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "227304-0-912"
+            ]
+          },
+          {
+            "rank": 6,
+            "doc_id": "raptor_summary_73759",
+            "score": 0.611011,
+            "score_type": "cosine",
+            "text": "Stocks experience significant price changes at market open, often 'gapping up' or 'gapping down' due to overnight news, such as crashes in Asian markets. Trading volume peaks at the opening as investors react to these developments. Traders, especially day and high-frequency traders, often close short positions before market close to mitigate overnight risks, a trend that emerged during the 2008 financial crisis. This practice continues due to the rise of index funds and increased trading volume leading to liquidity shortages during regular hours",
+            "raptor_node_id": 73759,
+            "raptor_node_level": 2,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "383162-0-1137",
+              "53749-0-775",
+              "300709-0-1194",
+              "236543-0-331",
+              "273937-0-1722",
+              "53263-0-448",
+              "76330-0-599",
+              "45830-0-246",
+              "57520-0-457",
+              "416569-0-1108",
+              "336011-1625-2782",
+              "354811-0-902",
+              "484190-0-2045",
+              "339963-0-253",
+              "340607-0-966",
+              "37959-0-284",
+              "37040-0-1356",
+              "16806-0-611",
+              "362212-0-651",
+              "69696-0-503",
+              "265365-0-1563",
+              "516113-0-309",
+              "361163-0-1379",
+              "481298-0-903",
+              "326115-0-68",
+              "410887-0-746",
+              "227192-0-1407",
+              "149420-0-1741",
+              "471704-0-925",
+              "9143-0-507",
+              "355319-0-244",
+              "348886-0-270",
+              "295344-0-442",
+              "424706-0-375",
+              "17231-0-268",
+              "532178-0-1668",
+              "127015-0-1880",
+              "378994-0-797",
+              "327974-0-363",
+              "384850-0-439",
+              "115079-0-198",
+              "85484-0-1647",
+              "202913-0-1427",
+              "349518-0-287",
+              "186495-0-195",
+              "515579-0-370",
+              "495007-0-1665",
+              "484190-1570-3184",
+              "114439-0-481",
+              "241059-0-1154",
+              "230456-0-873",
+              "590693-0-567",
+              "21167-0-243",
+              "562964-0-321",
+              "334577-0-109",
+              "232736-0-518",
+              "96467-0-436",
+              "24459-0-344",
+              "379032-0-512",
+              "538396-0-351",
+              "272008-0-1608",
+              "474279-0-1088",
+              "87535-0-478",
+              "46117-0-192",
+              "5875-0-1092",
+              "396633-0-448",
+              "462384-0-271",
+              "507710-0-136",
+              "213507-0-781",
+              "569530-0-150",
+              "490911-0-86",
+              "420551-0-641",
+              "191448-0-931",
+              "483488-0-287",
+              "426248-0-237",
+              "128888-0-225",
+              "373726-0-544",
+              "47738-0-563",
+              "61179-0-493",
+              "285590-0-237",
+              "165973-0-496",
+              "339268-0-1465",
+              "448938-0-465",
+              "302967-0-154",
+              "318774-0-601",
+              "246062-0-503",
+              "265404-0-259",
+              "241963-0-650",
+              "350191-0-1104",
+              "512062-0-889"
+            ]
+          },
+          {
+            "rank": 7,
+            "doc_id": "raptor_summary_66030",
+            "score": 0.609444,
+            "score_type": "cosine",
+            "text": "Stocks 'gap up' or 'gap down' at market open due to price adjustments based on news that occurred while exchanges were closed. Factors such as crashes in Asian markets or significant news releases can shift investor sentiment overnight, leading to substantial price changes when trading resumes. The first trades of the day often differ significantly from the previous day's close due to accumulated news during the market's closure.\n\nTrading volume is highest at the market's opening, as investors react to overnight developments. The NASDAQ has pre-market",
+            "raptor_node_id": 66030,
+            "raptor_node_level": 1,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "186495-0-195",
+              "515579-0-370",
+              "495007-0-1665",
+              "484190-1570-3184",
+              "114439-0-481",
+              "241059-0-1154",
+              "230456-0-873",
+              "590693-0-567"
+            ]
+          },
+          {
+            "rank": 8,
+            "doc_id": "258563-0-319",
+            "score": 0.587311,
+            "score_type": "cosine",
+            "text": "\nShould do it through a limit auction book.   Management and shareholders pre ipo submit sealed limit sell orders. Buyers submit sealed limit buy orders, nobody can see where the price is going.  At 9AM, the price is calculated and whomever fills get filled and ta da everyone is trading at 9:30 when the market is open.",
+            "raptor_node_id": 36489,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "258563-0-319"
+            ]
+          },
+          {
+            "rank": 9,
+            "doc_id": "118712-0-828",
+            "score": 0.58522,
+            "score_type": "cosine",
+            "text": "\nIn general a stock can open at absolutely any price with no regard for the closing price or after hours price the previous day. The opening price will be determined by the best bid and offer made by people who decide to trade the next day.  Some of the those people may have put orders in on a prior day that are still on the books and matter, but there's a lot of time overnight for people to cancel orders and enter new ones, which is especially likely to happen if there was substantive news overnight. As for what you can do in your case, you have the same options that you always had:  Sell or hold.  If you're selling, you can sell after hours, in the pre-open hours, or during the trading day.  There's nothing we can say about this case that's really any different than we can say about any other stock on any other day.",
+            "raptor_node_id": 11134,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "118712-0-828"
+            ]
+          },
+          {
+            "rank": 10,
+            "doc_id": "448952-0-882",
+            "score": 0.583472,
+            "score_type": "cosine",
+            "text": "\nI don't think that the trading volume would impact a broker's ability to find shares to short.  You might think that a lot more people are trying to short a stock during regular trading hours than in the pre-market, and that's probably true.  But what's also true is that a lot more people are covering their shorts during regular trading hours than in the pre-market.  For stocks that have difficulty in finding shares to short, any time someone covers a short is an opportunity for you to enter a short. If you want to short a stock and your broker is rejecting your order because they can't find shares to short, then I would recommend that you continue placing that order throughout the day.  You might get lucky and submit one of those orders right after someone else has covered their short and before anyone else can enter a short.  I have had success doing this in the past.",
+            "raptor_node_id": 48426,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "448952-0-882"
+            ]
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "515579-0-370",
+            "score": 0.668455,
+            "score_type": "cosine",
+            "text": "\nIf I understand you correctly, you are noticing that a stock's price can change drastically when the time changes from pre-market trading hours to open market hours. This could occur because a much smaller pool of investors make trades during pre-market and after-market hours. When the regular market opens there is a large influx of trades, causing the prices to jump.",
+            "raptor_node_id": 46018,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "515579-0-370"
+            ]
+          },
+          {
+            "rank": 2,
+            "doc_id": "37040-0-1356",
+            "score": 0.659613,
+            "score_type": "cosine",
+            "text": "\n\"First of all, not all brokers allow trading during pre-market and post-market.  Some brokers only allow trading during the regular hours (9:30am - 4pm ET). Second of all, while you can place orders using limit orders and market orders during regular trading hours, you can only use limit orders during pre-market and post-market.  This is because the liquidity is much lower during pre-market and post-market, and using market orders could result in some trades filling at horrible prices.  So brokers don't allow using market orders outside of regular trading hours. Third, some brokers require you to specify that you want your order to be executed during pre-market or post-market.  For example, my broker allows me to specify either \"\"Day\"\" or \"\"Ext\"\" for my orders.  \"\"Day\"\" means I want my order to execute only during regular trading hours, and \"\"Ext\"\" means I want my order to execute at any time - pre-market, regular trading hours, or post-market. Finally, if your broker allows pre/post market trading, and you place a limit order while specifying \"\"Ext\"\", then your trade can happen in real-time during pre-market or post-market.  Per your example, if a stock is trading at $5 at 8am, and you put in a limit order (while specifying \"\"Ext\"\") to buy it at $5 at 8am, then your order will execute at that time and you will buy that stock at 8am.\"",
+            "raptor_node_id": 7488,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "37040-0-1356"
+            ]
+          },
+          {
+            "rank": 3,
+            "doc_id": "241059-0-1154",
+            "score": 0.637342,
+            "score_type": "cosine",
+            "text": "\n\"NASDAQ has Pre and After market : NASDAQ Trading Schedule Regular Trading Session Schedule The NASDAQ   Stock Market Trading Sessions (Eastern Time) Pre-Market Trading Hours from 4:00 a.m. to 9:30 a.m.   Market Hours from 9:30 a.m. to 4:00 p.m.   After-Market Hours from 4:00 p.m. to 8:00 p.m.   Quote and order-entry from 4:00 a.m. to 8:00 p.m.   Quotes are open and firm from 4:00 a.m. to 8:00 p.m. You can trade in Pre/After Market but liquidity is very low. If an \"\"unexpected world events\"\" occurs, the volume/liquidity will most certainly increase. Another example is the Forex Market that's open 24/7 around the world. As one major forex market closes, another one opens. According to GMT,   for instance, forex trading hours move around the world like this:   available in New York between 01:00 pm – 10:00 pm GMT; at 10:00 pm GMT   Sydney comes online; Tokyo opens at 00:00 am and closes at 9:00 am   GMT; and to complete the loop, London opens at 8:00 am and closes at   05:00 pm GMT. This enables traders and brokers worldwide, together   with the participation of the central banks from all continents, to   trade online 24 hours a day. src\"",
+            "raptor_node_id": 39094,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "241059-0-1154"
+            ]
+          },
+          {
+            "rank": 4,
+            "doc_id": "57520-0-457",
+            "score": 0.633916,
+            "score_type": "cosine",
+            "text": "\nPre-Market trading activity is shown on the site from 4:15 - 9:30 AM (actual trading starts at 4:00 AM EST) The NASDAQ Stock Market Trading Sessions (Eastern Time) Pre-Market Trading Hours from 4:00 a.m. to 9:30 a.m. Market Hours from 9:30 a.m. to 4:00 p.m. After-Market Hours from 4:00 p.m. to 8:00 p.m. Read more: http://www.nasdaq.com/about/trading-schedule.aspx#ixzz38OtcISrq In this case GOOG did not trade in the Pre-market until that time and FB was.",
+            "raptor_node_id": 5193,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "57520-0-457"
+            ]
+          },
+          {
+            "rank": 5,
+            "doc_id": "227304-0-912",
+            "score": 0.619095,
+            "score_type": "cosine",
+            "text": "\nQuoted from money.howstuffworks.com: NASDAQ has come up with an auction approach called the opening cross. Here's how it works. In the morning, a computer program looks at all the orders that have come in overnight in each different stock. Based on those orders, the program picks a price level that would be the best opening price. However, it also looks to see if there's a trade imbalance. For example, if a company announced bad news after the market closed, there might be 10 times more sell orders than buy orders. NASDAQ then broadcasts the price and imbalance information to its network of dealers with the goal of offsetting the imbalance. It then lets dealers place orders. This all happens very quickly, in a time window of two minutes or so, right before the market opens. Dealers can place orders, and those orders are factored into the opening price. Further reading here: Opening Price calculation",
+            "raptor_node_id": 16775,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "227304-0-912"
+            ]
+          }
+        ]
+      },
+      "generation": {
+        "model": "gpt-4o-mini",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Pre-market trading allows investors to buy and sell stocks before the regular market opens. Here are the key points about how it works:\n\n1. **Trading Hours**: Pre-market trading typically occurs from 4:00 a.m. to 9:30 a.m. Eastern Time. During this time, investors can place trades, but the liquidity is generally much lower compared to regular market hours.\n\n2. **Order Types**: Unlike regular trading hours where both limit and market orders can be used, only limit orders are allowed during pre-market trading. This is to protect investors from the potential of poor execution prices due to lower liquidity.\n\n3. **Brokerage Restrictions**: Not all brokers allow pre-market trading. Some may only permit trading during regular hours (9:30 a.m. to 4:00 p.m. ET). Additionally, brokers may require traders to specify if they want their orders to be executed during pre-market or post-market sessions.\n\n4. **Impact of News**: Pre-market trading can be influenced by news events that occur outside of regular trading hours. For example, if a company releases earnings or other significant news, it can lead to increased trading volume and price volatility during pre-market hours.\n\n5. **Execution of Orders**: If a trader places a limit order during pre-market hours, it can be executed in real-time if the specified price is met. For instance, if a stock is trading at $5 at 8 a.m. and a trader places a limit order to buy at that price, the order can be filled at that time.\n\nOverall, pre-market trading provides an opportunity for investors to react to news and events before the regular market opens, but it comes with risks due to lower liquidity and the restrictions on order types.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "515579-0-370",
+          "score": 0.668455,
+          "score_type": "cosine",
+          "text": "\nIf I understand you correctly, you are noticing that a stock's price can change drastically when the time changes from pre-market trading hours to open market hours. This could occur because a much smaller pool of investors make trades during pre-market and after-market hours. When the regular market opens there is a large influx of trades, causing the prices to jump.",
+          "raptor_node_id": 46018,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "515579-0-370"
+          ]
+        },
+        {
+          "rank": 2,
+          "doc_id": "37040-0-1356",
+          "score": 0.659613,
+          "score_type": "cosine",
+          "text": "\n\"First of all, not all brokers allow trading during pre-market and post-market.  Some brokers only allow trading during the regular hours (9:30am - 4pm ET). Second of all, while you can place orders using limit orders and market orders during regular trading hours, you can only use limit orders during pre-market and post-market.  This is because the liquidity is much lower during pre-market and post-market, and using market orders could result in some trades filling at horrible prices.  So brokers don't allow using market orders outside of regular trading hours. Third, some brokers require you to specify that you want your order to be executed during pre-market or post-market.  For example, my broker allows me to specify either \"\"Day\"\" or \"\"Ext\"\" for my orders.  \"\"Day\"\" means I want my order to execute only during regular trading hours, and \"\"Ext\"\" means I want my order to execute at any time - pre-market, regular trading hours, or post-market. Finally, if your broker allows pre/post market trading, and you place a limit order while specifying \"\"Ext\"\", then your trade can happen in real-time during pre-market or post-market.  Per your example, if a stock is trading at $5 at 8am, and you put in a limit order (while specifying \"\"Ext\"\") to buy it at $5 at 8am, then your order will execute at that time and you will buy that stock at 8am.\"",
+          "raptor_node_id": 7488,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "37040-0-1356"
+          ]
+        },
+        {
+          "rank": 3,
+          "doc_id": "241059-0-1154",
+          "score": 0.637342,
+          "score_type": "cosine",
+          "text": "\n\"NASDAQ has Pre and After market : NASDAQ Trading Schedule Regular Trading Session Schedule The NASDAQ   Stock Market Trading Sessions (Eastern Time) Pre-Market Trading Hours from 4:00 a.m. to 9:30 a.m.   Market Hours from 9:30 a.m. to 4:00 p.m.   After-Market Hours from 4:00 p.m. to 8:00 p.m.   Quote and order-entry from 4:00 a.m. to 8:00 p.m.   Quotes are open and firm from 4:00 a.m. to 8:00 p.m. You can trade in Pre/After Market but liquidity is very low. If an \"\"unexpected world events\"\" occurs, the volume/liquidity will most certainly increase. Another example is the Forex Market that's open 24/7 around the world. As one major forex market closes, another one opens. According to GMT,   for instance, forex trading hours move around the world like this:   available in New York between 01:00 pm – 10:00 pm GMT; at 10:00 pm GMT   Sydney comes online; Tokyo opens at 00:00 am and closes at 9:00 am   GMT; and to complete the loop, London opens at 8:00 am and closes at   05:00 pm GMT. This enables traders and brokers worldwide, together   with the participation of the central banks from all continents, to   trade online 24 hours a day. src\"",
+          "raptor_node_id": 39094,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "241059-0-1154"
+          ]
+        },
+        {
+          "rank": 4,
+          "doc_id": "57520-0-457",
+          "score": 0.633916,
+          "score_type": "cosine",
+          "text": "\nPre-Market trading activity is shown on the site from 4:15 - 9:30 AM (actual trading starts at 4:00 AM EST) The NASDAQ Stock Market Trading Sessions (Eastern Time) Pre-Market Trading Hours from 4:00 a.m. to 9:30 a.m. Market Hours from 9:30 a.m. to 4:00 p.m. After-Market Hours from 4:00 p.m. to 8:00 p.m. Read more: http://www.nasdaq.com/about/trading-schedule.aspx#ixzz38OtcISrq In this case GOOG did not trade in the Pre-market until that time and FB was.",
+          "raptor_node_id": 5193,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "57520-0-457"
+          ]
+        },
+        {
+          "rank": 5,
+          "doc_id": "227304-0-912",
+          "score": 0.619095,
+          "score_type": "cosine",
+          "text": "\nQuoted from money.howstuffworks.com: NASDAQ has come up with an auction approach called the opening cross. Here's how it works. In the morning, a computer program looks at all the orders that have come in overnight in each different stock. Based on those orders, the program picks a price level that would be the best opening price. However, it also looks to see if there's a trade imbalance. For example, if a company announced bad news after the market closed, there might be 10 times more sell orders than buy orders. NASDAQ then broadcasts the price and imbalance information to its network of dealers with the goal of offsetting the imbalance. It then lets dealers place orders. This all happens very quickly, in a time window of two minutes or so, right before the market opens. Dealers can place orders, and those orders are factored into the opening price. Further reading here: Opening Price calculation",
+          "raptor_node_id": 16775,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "227304-0-912"
+          ]
+        }
+      ],
+      "reference": {
+        "answer": "Pre-market trading takes place before the regular trading hours (RTH) of the stock market. For example, pre-market hours are from 4:00 a.m. to 9:30 a.m. Eastern Time (ET) on the NASDAQ stock market. During pre-market hours, you can place limit orders, but you cannot place market orders due to lower liquidity. This is because the volume and liquidity are generally much lower during pre-market hours compared to RTH. If an unexpected world event occurs, the volume and liquidity might increase. It is important to note that not all brokers allow pre-market trading, and if they do, you might need to specify that you want your order to be executed during pre-market hours.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "How-To"
+        ],
+        "multi_turn": [
+          "N/A"
+        ]
+      }
+    },
+    {
+      "turn_id": "2",
+      "task_id": "4a8369b7403e54df94d7fa495a4eff27<::>2",
+      "question": "what are limit orders vs market orders?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "how does pre-market trading work?"
+        },
+        {
+          "role": "assistant",
+          "content": "Pre-market trading takes place before the regular trading hours (RTH) of the stock market. For example, pre-market hours are from 4:00 a.m. to 9:30 a.m. Eastern Time (ET) on the NASDAQ stock market. During pre-market hours, you can place limit orders, but you cannot place market orders due to lower liquidity. This is because the volume and liquidity are generally much lower during pre-market hours compared to RTH. If an unexpected world event occurs, the volume and liquidity might increase. It is important to note that not all brokers allow pre-market trading, and if they do, you might need to specify that you want your order to be executed during pre-market hours."
+        }
+      ],
+      "retrieval": {
+        "query": "what are limit orders vs market orders?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": "what are limit orders vs market orders?",
+        "k": 10,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "184756-0-771",
+            "score": 0.781498,
+            "score_type": "cosine",
+            "text": "\nDifference between a limit and market order is largely a trade-off between price certainty and timing certainty. If you think the security is already well priced, the downside of a limit order is the price may never hit your limit and keep trading away from you. You'll either spend a lot of time amending your order or sitting around wishing you'd amended your order.  The downside of a market order is you don't know the execution price ahead of time. This is typically more of a issue with illiquid instruments where even smaller orders may have price impact. For small trades in more liquid securities your realized price will often resemble the last traded price. Hope that helps. Both have a purpose, and the best tool for the job will depend on your circumstances.",
+            "raptor_node_id": 21882,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "184756-0-771"
+            ]
+          },
+          {
+            "rank": 2,
+            "doc_id": "raptor_summary_65993",
+            "score": 0.731806,
+            "score_type": "cosine",
+            "text": "Modern trading systems often prompt users to consider limit orders over market orders, as the former can provide better price control. Market orders are faster to execute, which can be crucial in rapidly moving markets, but they carry risks, particularly in illiquid securities where execution prices can vary significantly. The choice between limit and market orders hinges on a trade-off between price certainty (limit orders) and timing certainty (market orders). For instance, in day trading scenarios with fast price spikes, market orders may be necessary to",
+            "raptor_node_id": 65993,
+            "raptor_node_level": 1,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "172452-0-120",
+              "119637-0-394",
+              "249279-0-548",
+              "94653-0-665",
+              "184756-0-771",
+              "437436-0-473"
+            ]
+          },
+          {
+            "rank": 3,
+            "doc_id": "raptor_summary_73728",
+            "score": 0.725722,
+            "score_type": "cosine",
+            "text": "The text outlines various stock order types and their functionalities, emphasizing the differences between market and limit orders. \n\n1. **Market Orders**: Used for immediate execution, prioritizing speed over price, ideal for urgent sales (e.g., selling before market close). They guarantee execution but may not secure the best price, especially in illiquid markets.\n\n2. **Limit Orders**: Specify a price for buying or selling, providing better price control but risking missed opportunities if the market moves unfavorably.",
+            "raptor_node_id": 73728,
+            "raptor_node_level": 2,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "37040-0-1356",
+              "16806-0-611",
+              "362212-0-651",
+              "69696-0-503",
+              "265365-0-1563",
+              "516113-0-309",
+              "361163-0-1379",
+              "481298-0-903",
+              "471131-0-756",
+              "24537-0-1563",
+              "560245-0-366",
+              "354811-0-902",
+              "173986-0-603",
+              "351011-0-388",
+              "460014-0-186",
+              "448713-0-506",
+              "167151-0-1341",
+              "251596-0-498",
+              "574375-0-470",
+              "429147-0-778",
+              "322891-0-476",
+              "58987-0-481",
+              "215878-0-195",
+              "22304-0-1517",
+              "278984-0-583",
+              "302084-0-698",
+              "125230-0-2363",
+              "151987-0-1897",
+              "151987-1401-2532",
+              "514841-0-1337",
+              "416007-0-1475",
+              "70540-0-924",
+              "549344-0-640",
+              "269769-0-581",
+              "266785-0-1810",
+              "506897-0-585",
+              "50196-0-668",
+              "554674-0-920",
+              "278630-0-1942",
+              "278630-1413-3165",
+              "278630-2724-4141",
+              "172452-0-120",
+              "119637-0-394",
+              "249279-0-548",
+              "94653-0-665",
+              "184756-0-771",
+              "437436-0-473",
+              "128021-0-444",
+              "447886-0-929",
+              "199084-0-677",
+              "289045-0-536",
+              "155151-0-587",
+              "165917-0-83",
+              "59638-1572-2643",
+              "429378-0-517",
+              "126885-0-2031",
+              "103828-0-458",
+              "59638-0-1932",
+              "507108-0-210",
+              "502607-0-316",
+              "515645-0-835",
+              "20378-0-750",
+              "503912-0-309",
+              "200666-0-874",
+              "127160-0-537",
+              "152719-0-89",
+              "494295-0-2193",
+              "318183-0-658",
+              "184390-0-584",
+              "303448-0-560",
+              "331521-0-750",
+              "62069-0-609",
+              "347143-0-397",
+              "591534-0-484",
+              "554997-0-1151",
+              "247802-0-342",
+              "288448-0-1036",
+              "365331-0-717",
+              "382339-0-737",
+              "139438-0-557",
+              "473287-0-254",
+              "89460-0-550",
+              "292642-0-385",
+              "189005-0-1121",
+              "450515-0-1292",
+              "31933-0-1889",
+              "31933-1355-2772",
+              "343558-0-749",
+              "373862-0-1091",
+              "414172-0-84",
+              "136822-0-979",
+              "551463-0-516",
+              "118389-0-440",
+              "116121-0-894",
+              "123649-0-1372",
+              "421724-0-693",
+              "315871-0-872",
+              "317434-0-874",
+              "470635-0-2274",
+              "123958-0-1150",
+              "569536-0-481",
+              "163333-0-290",
+              "545933-0-263",
+              "396844-0-181",
+              "352965-0-748",
+              "595941-0-274",
+              "63909-0-873",
+              "438317-0-447",
+              "223206-0-422",
+              "519204-0-792",
+              "203573-0-1274",
+              "444505-0-235",
+              "482537-0-1254",
+              "21376-0-1274",
+              "459650-0-1940",
+              "392876-0-1105",
+              "413132-0-777",
+              "148053-0-373",
+              "365463-0-1728",
+              "163905-0-774",
+              "153185-0-1555",
+              "9683-0-664",
+              "530697-0-331",
+              "254542-0-700",
+              "525603-0-772",
+              "260153-0-1363",
+              "22477-0-519",
+              "286698-0-579",
+              "335241-0-502",
+              "65120-0-801",
+              "178446-0-1712",
+              "41468-0-610",
+              "109345-0-1291",
+              "58290-0-640",
+              "216781-0-156",
+              "355315-0-1631",
+              "28685-0-340",
+              "191240-0-691",
+              "99757-0-1051",
+              "486692-0-439",
+              "286328-0-1147",
+              "599109-0-1125",
+              "175504-0-937",
+              "56315-0-340",
+              "165548-0-388",
+              "15917-0-546",
+              "418937-0-1083",
+              "329182-0-315",
+              "499848-0-463",
+              "587587-0-283",
+              "78342-2254-4054",
+              "518214-0-360",
+              "78342-3560-5132"
+            ]
+          },
+          {
+            "rank": 4,
+            "doc_id": "200666-0-874",
+            "score": 0.709931,
+            "score_type": "cosine",
+            "text": "\nThe purpose of a market order is to guarantee that your order gets filled. If you try to place a limit order at the bid or ask, by the time you enter your order the price might have moved and you might need to keep amending your limit order in order to buy or sell, and as such you start chasing the market. A market order will guarantee your order gets executed. Also, an important point to consider, is that market orders are often used in combination with other orders such as conditional orders. For example if you have a stop loss (conditional order) set at say 10% below your buy price, you might want to use a market order to make sure your order gets executed if the price drops 10% and your stop loss gets triggered, making sure that you get out of the stock instead of being stuck with a limit order 10% below your buy price whilst the stock keeps falling further.",
+            "raptor_node_id": 20062,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "200666-0-874"
+            ]
+          },
+          {
+            "rank": 5,
+            "doc_id": "249279-0-548",
+            "score": 0.696947,
+            "score_type": "cosine",
+            "text": "\nA few of the answers are spot on but here's another thing to consider: the type of trade. For example, I sometimes day trade stocks with momentum where the stock price is spiking relatively fast. A limit order in this situation may never get filled and you will miss out on the trade. A market order will get you filled but you mostly likely pay more than your limit order. However you are now catching the wave up.  Overall, using a limit or market is relative to your trading style and the type of trade. I always prefer to use a limit buy order.",
+            "raptor_node_id": 25010,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "249279-0-548"
+            ]
+          },
+          {
+            "rank": 6,
+            "doc_id": "437436-0-473",
+            "score": 0.693044,
+            "score_type": "cosine",
+            "text": "\nLimit orders are generally safer than market orders. Market orders take whatever most-favorable price is being offered. This can be especially dangerous in highly volatile stocks which have a significant spread between the bid and ask. That being said, you want to be very careful that you enter the price you intend into a limit order. It is better to be a bit slower at entering your orders than it is to make a terrible mistake like the one you mention in your question.",
+            "raptor_node_id": 42749,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "437436-0-473"
+            ]
+          },
+          {
+            "rank": 7,
+            "doc_id": "94653-0-665",
+            "score": 0.669356,
+            "score_type": "cosine",
+            "text": "\nI don't think you're missing anything. Many modern trading systems actually warn you when trying to enter a market order, asking if you are sure that you wouldn't prefer to set a limit. I fully agree with you that it is usually just better to define a limit even 20% higher than just doing a market trade. Let me give you some examples when you still might prefer to use a market order instead of a limit: But even in those two examples a (wide) limit order might just be the safer thing to do.  So, what it really comes down to is speed: A market order has no other criterias to be defined, is thus entered faster and saves you a few seconds that might be crucial.",
+            "raptor_node_id": 10005,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "94653-0-665"
+            ]
+          },
+          {
+            "rank": 8,
+            "doc_id": "raptor_summary_66097",
+            "score": 0.66175,
+            "score_type": "cosine",
+            "text": "Market orders allow buying or selling at the best available price but can lead to execution at unfavorable prices, especially in low-activity stocks. For instance, shareholders of bankrupt companies may use market orders to realize tax losses, regardless of the price received. Limit orders, such as a sell order at $22, will only execute at that price or higher, but brokers typically limit their validity to a day or up to 60 days. Traders analyze the order book depth to gauge market sentiment, but unrealistic limit",
+            "raptor_node_id": 66097,
+            "raptor_node_level": 1,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "178446-0-1712",
+              "41468-0-610",
+              "109345-0-1291",
+              "58290-0-640",
+              "216781-0-156",
+              "355315-0-1631",
+              "28685-0-340"
+            ]
+          },
+          {
+            "rank": 9,
+            "doc_id": "raptor_summary_65995",
+            "score": 0.661501,
+            "score_type": "cosine",
+            "text": "When placing stock or ETF orders, consider the type of order: market or limit. A market order buys or sells at the current market price, filling with the next available sellers, while a limit order specifies a price at which you want to buy or sell. Limit orders can help cap costs but may not get filled if the stock moves away from the specified price. For index funds, which trade at the end of the day, market orders are generally recommended due to high volume. \n\nFor example,",
+            "raptor_node_id": 65995,
+            "raptor_node_level": 1,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "266785-0-1810",
+              "506897-0-585",
+              "50196-0-668",
+              "554674-0-920"
+            ]
+          },
+          {
+            "rank": 10,
+            "doc_id": "raptor_summary_65990",
+            "score": 0.657337,
+            "score_type": "cosine",
+            "text": "In fast-moving markets, placing a market order is recommended to ensure your order is filled, as limit orders may result in missed opportunities due to price changes. A market order guarantees execution but may incur a slightly higher price than the last traded price. It is particularly useful when combined with conditional orders, such as stop-loss orders, to ensure exit from a position if prices drop significantly. Market orders are effective even in illiquid markets, as market makers will facilitate transactions, though they do not guarantee the selling",
+            "raptor_node_id": 65990,
+            "raptor_node_level": 1,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "507108-0-210",
+              "502607-0-316",
+              "515645-0-835",
+              "20378-0-750",
+              "503912-0-309",
+              "200666-0-874"
+            ]
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "184756-0-771",
+            "score": 0.781498,
+            "score_type": "cosine",
+            "text": "\nDifference between a limit and market order is largely a trade-off between price certainty and timing certainty. If you think the security is already well priced, the downside of a limit order is the price may never hit your limit and keep trading away from you. You'll either spend a lot of time amending your order or sitting around wishing you'd amended your order.  The downside of a market order is you don't know the execution price ahead of time. This is typically more of a issue with illiquid instruments where even smaller orders may have price impact. For small trades in more liquid securities your realized price will often resemble the last traded price. Hope that helps. Both have a purpose, and the best tool for the job will depend on your circumstances.",
+            "raptor_node_id": 21882,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "184756-0-771"
+            ]
+          },
+          {
+            "rank": 2,
+            "doc_id": "raptor_summary_65993",
+            "score": 0.731806,
+            "score_type": "cosine",
+            "text": "Modern trading systems often prompt users to consider limit orders over market orders, as the former can provide better price control. Market orders are faster to execute, which can be crucial in rapidly moving markets, but they carry risks, particularly in illiquid securities where execution prices can vary significantly. The choice between limit and market orders hinges on a trade-off between price certainty (limit orders) and timing certainty (market orders). For instance, in day trading scenarios with fast price spikes, market orders may be necessary to",
+            "raptor_node_id": 65993,
+            "raptor_node_level": 1,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "172452-0-120",
+              "119637-0-394",
+              "249279-0-548",
+              "94653-0-665",
+              "184756-0-771",
+              "437436-0-473"
+            ]
+          },
+          {
+            "rank": 3,
+            "doc_id": "raptor_summary_73728",
+            "score": 0.725722,
+            "score_type": "cosine",
+            "text": "The text outlines various stock order types and their functionalities, emphasizing the differences between market and limit orders. \n\n1. **Market Orders**: Used for immediate execution, prioritizing speed over price, ideal for urgent sales (e.g., selling before market close). They guarantee execution but may not secure the best price, especially in illiquid markets.\n\n2. **Limit Orders**: Specify a price for buying or selling, providing better price control but risking missed opportunities if the market moves unfavorably.",
+            "raptor_node_id": 73728,
+            "raptor_node_level": 2,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "37040-0-1356",
+              "16806-0-611",
+              "362212-0-651",
+              "69696-0-503",
+              "265365-0-1563",
+              "516113-0-309",
+              "361163-0-1379",
+              "481298-0-903",
+              "471131-0-756",
+              "24537-0-1563",
+              "560245-0-366",
+              "354811-0-902",
+              "173986-0-603",
+              "351011-0-388",
+              "460014-0-186",
+              "448713-0-506",
+              "167151-0-1341",
+              "251596-0-498",
+              "574375-0-470",
+              "429147-0-778",
+              "322891-0-476",
+              "58987-0-481",
+              "215878-0-195",
+              "22304-0-1517",
+              "278984-0-583",
+              "302084-0-698",
+              "125230-0-2363",
+              "151987-0-1897",
+              "151987-1401-2532",
+              "514841-0-1337",
+              "416007-0-1475",
+              "70540-0-924",
+              "549344-0-640",
+              "269769-0-581",
+              "266785-0-1810",
+              "506897-0-585",
+              "50196-0-668",
+              "554674-0-920",
+              "278630-0-1942",
+              "278630-1413-3165",
+              "278630-2724-4141",
+              "172452-0-120",
+              "119637-0-394",
+              "249279-0-548",
+              "94653-0-665",
+              "184756-0-771",
+              "437436-0-473",
+              "128021-0-444",
+              "447886-0-929",
+              "199084-0-677",
+              "289045-0-536",
+              "155151-0-587",
+              "165917-0-83",
+              "59638-1572-2643",
+              "429378-0-517",
+              "126885-0-2031",
+              "103828-0-458",
+              "59638-0-1932",
+              "507108-0-210",
+              "502607-0-316",
+              "515645-0-835",
+              "20378-0-750",
+              "503912-0-309",
+              "200666-0-874",
+              "127160-0-537",
+              "152719-0-89",
+              "494295-0-2193",
+              "318183-0-658",
+              "184390-0-584",
+              "303448-0-560",
+              "331521-0-750",
+              "62069-0-609",
+              "347143-0-397",
+              "591534-0-484",
+              "554997-0-1151",
+              "247802-0-342",
+              "288448-0-1036",
+              "365331-0-717",
+              "382339-0-737",
+              "139438-0-557",
+              "473287-0-254",
+              "89460-0-550",
+              "292642-0-385",
+              "189005-0-1121",
+              "450515-0-1292",
+              "31933-0-1889",
+              "31933-1355-2772",
+              "343558-0-749",
+              "373862-0-1091",
+              "414172-0-84",
+              "136822-0-979",
+              "551463-0-516",
+              "118389-0-440",
+              "116121-0-894",
+              "123649-0-1372",
+              "421724-0-693",
+              "315871-0-872",
+              "317434-0-874",
+              "470635-0-2274",
+              "123958-0-1150",
+              "569536-0-481",
+              "163333-0-290",
+              "545933-0-263",
+              "396844-0-181",
+              "352965-0-748",
+              "595941-0-274",
+              "63909-0-873",
+              "438317-0-447",
+              "223206-0-422",
+              "519204-0-792",
+              "203573-0-1274",
+              "444505-0-235",
+              "482537-0-1254",
+              "21376-0-1274",
+              "459650-0-1940",
+              "392876-0-1105",
+              "413132-0-777",
+              "148053-0-373",
+              "365463-0-1728",
+              "163905-0-774",
+              "153185-0-1555",
+              "9683-0-664",
+              "530697-0-331",
+              "254542-0-700",
+              "525603-0-772",
+              "260153-0-1363",
+              "22477-0-519",
+              "286698-0-579",
+              "335241-0-502",
+              "65120-0-801",
+              "178446-0-1712",
+              "41468-0-610",
+              "109345-0-1291",
+              "58290-0-640",
+              "216781-0-156",
+              "355315-0-1631",
+              "28685-0-340",
+              "191240-0-691",
+              "99757-0-1051",
+              "486692-0-439",
+              "286328-0-1147",
+              "599109-0-1125",
+              "175504-0-937",
+              "56315-0-340",
+              "165548-0-388",
+              "15917-0-546",
+              "418937-0-1083",
+              "329182-0-315",
+              "499848-0-463",
+              "587587-0-283",
+              "78342-2254-4054",
+              "518214-0-360",
+              "78342-3560-5132"
+            ]
+          },
+          {
+            "rank": 4,
+            "doc_id": "200666-0-874",
+            "score": 0.709931,
+            "score_type": "cosine",
+            "text": "\nThe purpose of a market order is to guarantee that your order gets filled. If you try to place a limit order at the bid or ask, by the time you enter your order the price might have moved and you might need to keep amending your limit order in order to buy or sell, and as such you start chasing the market. A market order will guarantee your order gets executed. Also, an important point to consider, is that market orders are often used in combination with other orders such as conditional orders. For example if you have a stop loss (conditional order) set at say 10% below your buy price, you might want to use a market order to make sure your order gets executed if the price drops 10% and your stop loss gets triggered, making sure that you get out of the stock instead of being stuck with a limit order 10% below your buy price whilst the stock keeps falling further.",
+            "raptor_node_id": 20062,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "200666-0-874"
+            ]
+          },
+          {
+            "rank": 5,
+            "doc_id": "249279-0-548",
+            "score": 0.696947,
+            "score_type": "cosine",
+            "text": "\nA few of the answers are spot on but here's another thing to consider: the type of trade. For example, I sometimes day trade stocks with momentum where the stock price is spiking relatively fast. A limit order in this situation may never get filled and you will miss out on the trade. A market order will get you filled but you mostly likely pay more than your limit order. However you are now catching the wave up.  Overall, using a limit or market is relative to your trading style and the type of trade. I always prefer to use a limit buy order.",
+            "raptor_node_id": 25010,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "249279-0-548"
+            ]
+          }
+        ]
+      },
+      "generation": {
+        "model": "gpt-4o-mini",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Limit orders and market orders are two types of orders used in trading, each with distinct characteristics:\n\n1. **Market Orders**: \n   - These orders are executed immediately at the current market price. \n   - They prioritize speed over price, making them ideal for urgent trades, such as selling before market close.\n   - While market orders guarantee execution, they do not guarantee the price, especially in illiquid markets where prices can fluctuate significantly.\n\n2. **Limit Orders**: \n   - These orders specify a price at which you are willing to buy or sell a security.\n   - They provide better price control, allowing you to set the maximum price you are willing to pay or the minimum price you are willing to accept.\n   - However, there is a risk that the order may not be executed if the market price does not reach your specified limit, potentially leading to missed opportunities.\n\nIn summary, the choice between limit and market orders involves a trade-off between price certainty (with limit orders) and timing certainty (with market orders).",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "184756-0-771",
+          "score": 0.781498,
+          "score_type": "cosine",
+          "text": "\nDifference between a limit and market order is largely a trade-off between price certainty and timing certainty. If you think the security is already well priced, the downside of a limit order is the price may never hit your limit and keep trading away from you. You'll either spend a lot of time amending your order or sitting around wishing you'd amended your order.  The downside of a market order is you don't know the execution price ahead of time. This is typically more of a issue with illiquid instruments where even smaller orders may have price impact. For small trades in more liquid securities your realized price will often resemble the last traded price. Hope that helps. Both have a purpose, and the best tool for the job will depend on your circumstances.",
+          "raptor_node_id": 21882,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "184756-0-771"
+          ]
+        },
+        {
+          "rank": 2,
+          "doc_id": "raptor_summary_65993",
+          "score": 0.731806,
+          "score_type": "cosine",
+          "text": "Modern trading systems often prompt users to consider limit orders over market orders, as the former can provide better price control. Market orders are faster to execute, which can be crucial in rapidly moving markets, but they carry risks, particularly in illiquid securities where execution prices can vary significantly. The choice between limit and market orders hinges on a trade-off between price certainty (limit orders) and timing certainty (market orders). For instance, in day trading scenarios with fast price spikes, market orders may be necessary to",
+          "raptor_node_id": 65993,
+          "raptor_node_level": 1,
+          "raptor_node_type": "summary",
+          "source_document_ids": [
+            "172452-0-120",
+            "119637-0-394",
+            "249279-0-548",
+            "94653-0-665",
+            "184756-0-771",
+            "437436-0-473"
+          ]
+        },
+        {
+          "rank": 3,
+          "doc_id": "raptor_summary_73728",
+          "score": 0.725722,
+          "score_type": "cosine",
+          "text": "The text outlines various stock order types and their functionalities, emphasizing the differences between market and limit orders. \n\n1. **Market Orders**: Used for immediate execution, prioritizing speed over price, ideal for urgent sales (e.g., selling before market close). They guarantee execution but may not secure the best price, especially in illiquid markets.\n\n2. **Limit Orders**: Specify a price for buying or selling, providing better price control but risking missed opportunities if the market moves unfavorably.",
+          "raptor_node_id": 73728,
+          "raptor_node_level": 2,
+          "raptor_node_type": "summary",
+          "source_document_ids": [
+            "37040-0-1356",
+            "16806-0-611",
+            "362212-0-651",
+            "69696-0-503",
+            "265365-0-1563",
+            "516113-0-309",
+            "361163-0-1379",
+            "481298-0-903",
+            "471131-0-756",
+            "24537-0-1563",
+            "560245-0-366",
+            "354811-0-902",
+            "173986-0-603",
+            "351011-0-388",
+            "460014-0-186",
+            "448713-0-506",
+            "167151-0-1341",
+            "251596-0-498",
+            "574375-0-470",
+            "429147-0-778",
+            "322891-0-476",
+            "58987-0-481",
+            "215878-0-195",
+            "22304-0-1517",
+            "278984-0-583",
+            "302084-0-698",
+            "125230-0-2363",
+            "151987-0-1897",
+            "151987-1401-2532",
+            "514841-0-1337",
+            "416007-0-1475",
+            "70540-0-924",
+            "549344-0-640",
+            "269769-0-581",
+            "266785-0-1810",
+            "506897-0-585",
+            "50196-0-668",
+            "554674-0-920",
+            "278630-0-1942",
+            "278630-1413-3165",
+            "278630-2724-4141",
+            "172452-0-120",
+            "119637-0-394",
+            "249279-0-548",
+            "94653-0-665",
+            "184756-0-771",
+            "437436-0-473",
+            "128021-0-444",
+            "447886-0-929",
+            "199084-0-677",
+            "289045-0-536",
+            "155151-0-587",
+            "165917-0-83",
+            "59638-1572-2643",
+            "429378-0-517",
+            "126885-0-2031",
+            "103828-0-458",
+            "59638-0-1932",
+            "507108-0-210",
+            "502607-0-316",
+            "515645-0-835",
+            "20378-0-750",
+            "503912-0-309",
+            "200666-0-874",
+            "127160-0-537",
+            "152719-0-89",
+            "494295-0-2193",
+            "318183-0-658",
+            "184390-0-584",
+            "303448-0-560",
+            "331521-0-750",
+            "62069-0-609",
+            "347143-0-397",
+            "591534-0-484",
+            "554997-0-1151",
+            "247802-0-342",
+            "288448-0-1036",
+            "365331-0-717",
+            "382339-0-737",
+            "139438-0-557",
+            "473287-0-254",
+            "89460-0-550",
+            "292642-0-385",
+            "189005-0-1121",
+            "450515-0-1292",
+            "31933-0-1889",
+            "31933-1355-2772",
+            "343558-0-749",
+            "373862-0-1091",
+            "414172-0-84",
+            "136822-0-979",
+            "551463-0-516",
+            "118389-0-440",
+            "116121-0-894",
+            "123649-0-1372",
+            "421724-0-693",
+            "315871-0-872",
+            "317434-0-874",
+            "470635-0-2274",
+            "123958-0-1150",
+            "569536-0-481",
+            "163333-0-290",
+            "545933-0-263",
+            "396844-0-181",
+            "352965-0-748",
+            "595941-0-274",
+            "63909-0-873",
+            "438317-0-447",
+            "223206-0-422",
+            "519204-0-792",
+            "203573-0-1274",
+            "444505-0-235",
+            "482537-0-1254",
+            "21376-0-1274",
+            "459650-0-1940",
+            "392876-0-1105",
+            "413132-0-777",
+            "148053-0-373",
+            "365463-0-1728",
+            "163905-0-774",
+            "153185-0-1555",
+            "9683-0-664",
+            "530697-0-331",
+            "254542-0-700",
+            "525603-0-772",
+            "260153-0-1363",
+            "22477-0-519",
+            "286698-0-579",
+            "335241-0-502",
+            "65120-0-801",
+            "178446-0-1712",
+            "41468-0-610",
+            "109345-0-1291",
+            "58290-0-640",
+            "216781-0-156",
+            "355315-0-1631",
+            "28685-0-340",
+            "191240-0-691",
+            "99757-0-1051",
+            "486692-0-439",
+            "286328-0-1147",
+            "599109-0-1125",
+            "175504-0-937",
+            "56315-0-340",
+            "165548-0-388",
+            "15917-0-546",
+            "418937-0-1083",
+            "329182-0-315",
+            "499848-0-463",
+            "587587-0-283",
+            "78342-2254-4054",
+            "518214-0-360",
+            "78342-3560-5132"
+          ]
+        },
+        {
+          "rank": 4,
+          "doc_id": "200666-0-874",
+          "score": 0.709931,
+          "score_type": "cosine",
+          "text": "\nThe purpose of a market order is to guarantee that your order gets filled. If you try to place a limit order at the bid or ask, by the time you enter your order the price might have moved and you might need to keep amending your limit order in order to buy or sell, and as such you start chasing the market. A market order will guarantee your order gets executed. Also, an important point to consider, is that market orders are often used in combination with other orders such as conditional orders. For example if you have a stop loss (conditional order) set at say 10% below your buy price, you might want to use a market order to make sure your order gets executed if the price drops 10% and your stop loss gets triggered, making sure that you get out of the stock instead of being stuck with a limit order 10% below your buy price whilst the stock keeps falling further.",
+          "raptor_node_id": 20062,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "200666-0-874"
+          ]
+        },
+        {
+          "rank": 5,
+          "doc_id": "249279-0-548",
+          "score": 0.696947,
+          "score_type": "cosine",
+          "text": "\nA few of the answers are spot on but here's another thing to consider: the type of trade. For example, I sometimes day trade stocks with momentum where the stock price is spiking relatively fast. A limit order in this situation may never get filled and you will miss out on the trade. A market order will get you filled but you mostly likely pay more than your limit order. However you are now catching the wave up.  Overall, using a limit or market is relative to your trading style and the type of trade. I always prefer to use a limit buy order.",
+          "raptor_node_id": 25010,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "249279-0-548"
+          ]
+        }
+      ],
+      "reference": {
+        "answer": "A limit order is a type of order where you set a specific price at which you want to buy or sell a security. The order will only be executed if the market price reaches the price you set. On the other hand, a market order is an order to buy or sell a security immediately at the best available current market price. Market orders do not guarantee a specific price, and the final execution price may be different from the price quoted at the time of order entry.\nThe choice between limit orders and market orders depends on your trading goals and risk tolerance. ",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Comparative"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "3",
+      "task_id": "4a8369b7403e54df94d7fa495a4eff27<::>3",
+      "question": "if I'm in the US how can I buy / sell on other countries markets?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "how does pre-market trading work?"
+        },
+        {
+          "role": "assistant",
+          "content": "Pre-market trading takes place before the regular trading hours (RTH) of the stock market. For example, pre-market hours are from 4:00 a.m. to 9:30 a.m. Eastern Time (ET) on the NASDAQ stock market. During pre-market hours, you can place limit orders, but you cannot place market orders due to lower liquidity. This is because the volume and liquidity are generally much lower during pre-market hours compared to RTH. If an unexpected world event occurs, the volume and liquidity might increase. It is important to note that not all brokers allow pre-market trading, and if they do, you might need to specify that you want your order to be executed during pre-market hours."
+        },
+        {
+          "role": "user",
+          "content": "what are limit orders vs market orders?"
+        },
+        {
+          "role": "assistant",
+          "content": "A limit order is a type of order where you set a specific price at which you want to buy or sell a security. The order will only be executed if the market price reaches the price you set. On the other hand, a market order is an order to buy or sell a security immediately at the best available current market price. Market orders do not guarantee a specific price, and the final execution price may be different from the price quoted at the time of order entry.\nThe choice between limit orders and market orders depends on your trading goals and risk tolerance. "
+        }
+      ],
+      "retrieval": {
+        "query": "if I'm in the US how can I buy / sell on other countries markets?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": "if I'm in the US how can I buy / sell on other countries markets?",
+        "k": 10,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "343638-0-1115",
+            "score": 0.605914,
+            "score_type": "cosine",
+            "text": "\n\"In the US there is only one stock market (ignoring penny stocks) and handfuls of different exchanges behind it.  NYSE and NASDAQ are two different exchanges, but all the products you can buy on one can also be bought on the other; i.e. they are all the same market.  So a US equities broker cannot possibly restrict access to any \"\"markets\"\" in the US because there is only one. (Interestingly, it is commonplace for US equity brokers to cheat their customers by using only exchanges where they -- the brokers -- get the best deals, even if it means your order is not executed as quickly or cheaply as possible.  This is called payment for order flow and unfortunately will probably take an Act of Congress to stop.) Some very large brokers will have trading access to popular equity markets in other countries (Toronto Stock Exchange, Mexico Stock Exchange, London Stock Exchange) and can support your trades there.  However, at many brokers or in less popular foreign markets this is usually not the case; to trade in the average foreign country you typically must open an account with a broker in that country.\"",
+            "raptor_node_id": 34734,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "343638-0-1115"
+            ]
+          },
+          {
+            "rank": 2,
+            "doc_id": "540986-0-860",
+            "score": 0.594141,
+            "score_type": "cosine",
+            "text": "\nAbsolutely.  It does highly depend on your country, as US brokerages are stricter with or even closed to residents of countries that produce drugs, launder money, finance terror, have traditional difficulty with the US, etc. It also depends on your country's laws.  Some countries have currency controls, restrictions on buying foreign/US securities, etc. That said, some brokerages have offices world-wide, so there might be one near you.  If your legal situation as described above is fortunate, some brokers will simply allow you to setup online using a procedure not too different from US residents: provide identification, sign tons of documents.  You'll have to have a method to deliver your documentation in the ways you'd expect: mail, fax, email. E*Trade is the best starter broker, right now, imo.  Just see how far you can go in the sign-up process.",
+            "raptor_node_id": 54562,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "540986-0-860"
+            ]
+          },
+          {
+            "rank": 3,
+            "doc_id": "35191-0-563",
+            "score": 0.591057,
+            "score_type": "cosine",
+            "text": "\nFirst thing to consider is that getting your hands on an IPO is very difficult unless you have some serious clout. This might help a bit in that department (http://www.sec.gov/answers/ipoelig.htm) However, assuming you accept all that risk and requirements, YES - you can buy stocks of any kind in the US even if you are a foreigner. There are no laws prohibiting investment/buying in the US stock market. What you need is to get an online trading account from a registered brokerage house in the US. Once you are registered, you can buy whatever that is offered.",
+            "raptor_node_id": 7211,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "35191-0-563"
+            ]
+          },
+          {
+            "rank": 4,
+            "doc_id": "551809-0-1228",
+            "score": 0.575698,
+            "score_type": "cosine",
+            "text": "\nAny large stockbroker will offer trading in US securities. As a foreign national you will be required to register with the US tax authorities (IRS) by completing and filing a W-8BEN form and pay US withholding taxes on any dividend income you receive.  US dividends are paid net of withholding taxes, so you do not need to file a US tax return.  Capital gains are not subject to US taxes.  Also, each year you are holding US securities, you will receive a form from the IRS which you are required to complete and return. You will also be required to complete and file forms for each of the exchanges you wish to received market price data from. Trading will be restricted to US trading hours, which I believe is 6 hours ahead of Denmark for the New York markets.  You will simply submit an order to the desired market using your broker's online trading software or your broker's telephone dealing service. You can expect to pay significantly higher commissions for trading US securities when compared to domestic securities. You will also face potentially large foreign exchange fees when exchaning your funds from EUR to USD. All in all, you will probably be better off using your local market to trade US index or sector ETFs.",
+            "raptor_node_id": 57656,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "551809-0-1228"
+            ]
+          },
+          {
+            "rank": 5,
+            "doc_id": "57841-0-575",
+            "score": 0.568508,
+            "score_type": "cosine",
+            "text": "\nI'm in the US as well, but some basic things are still the same. You need to trade through a broker, but the need for a full service broker is no longer necessary. You may be able to get by with a web based brokerage that charges less fees. If you are nervous, look for a big name, and avoid a fly by night company. Stick with non-exotic investments. don't do options, or futures or Forex. You may even want to skip shares all together and see if UK offers something akin to an index fund which tracks broad markets (like the whole of the FTSE 100 or the S&P 500) as a whole.",
+            "raptor_node_id": 5219,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "57841-0-575"
+            ]
+          },
+          {
+            "rank": 6,
+            "doc_id": "raptor_summary_67289",
+            "score": 0.568253,
+            "score_type": "cosine",
+            "text": "Acquiring shares in an IPO is challenging without significant influence. Foreigners can invest in the US stock market without legal restrictions, but they must open an online trading account with a registered US brokerage. Some brokers may require account setup via mail for foreign nationals. Investors should be aware of tax obligations on capital gains. Major banks may offer over-the-counter trading options, but procedures vary by country. For Canadians, local banks can facilitate stock trading, and inquiries can be made via email if proximity to a bank",
+            "raptor_node_id": 67289,
+            "raptor_node_level": 1,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "460951-0-259",
+              "411799-0-120",
+              "35191-0-563",
+              "297421-0-183",
+              "231814-0-430"
+            ]
+          },
+          {
+            "rank": 7,
+            "doc_id": "253847-0-871",
+            "score": 0.565262,
+            "score_type": "cosine",
+            "text": "\nWhile most all Canadian brokers allow us access to all the US stocks, the reverse is not true.  But some US brokers DO allow trading on foreign exchanges. (e.g. Interactive Brokers at which I have an account).  You have to look and be prepared to switch brokers.  Americans cannot use Canadian brokers (and vice versa). Trading of shares happens where-ever two people get together - hence the pink sheets.  These work well for Americans who want to buy-sell foreign stocks using USD without the hassle of FX conversions.  You get the same economic exposure as if the actual stock were bought.   But the exchanges are barely policed, and liquidity can dry up, and FX moves are not necessarily arbitraged away by 'the market'.  You don't have the same safety as ADRs because there is no bank holding any stash of 'actual' stocks to backstop those traded on the pink sheets.",
+            "raptor_node_id": 24873,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "253847-0-871"
+            ]
+          },
+          {
+            "rank": 8,
+            "doc_id": "566028-0-447",
+            "score": 0.558497,
+            "score_type": "cosine",
+            "text": "\nAs other people have said they should register with a broker in the country they reside in that can deal in US stocks, then fill out a W8-BEN form. I have personally done this as I am from the Uk, it's not a very complicated process. I would assume that most US brokers don't allow foreign customers due to the person having to pay tax where they reside and the US brokers don't want to have to keep approximately 200 different tax codes in track.",
+            "raptor_node_id": 59665,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "566028-0-447"
+            ]
+          },
+          {
+            "rank": 9,
+            "doc_id": "231814-0-430",
+            "score": 0.555834,
+            "score_type": "cosine",
+            "text": "\nIt looks like your best option is to go with an online broker. There are many available. Some of them won't let you open an account online as a foreign national but will allow you to open one through the mail. See more about that http://finance.zacks.com/can-nonus-citizen-trade-us-stocks-9654.html Also keep in mind that you will need to pay taxes on any capital gains made through selling http://www.irs.gov/pub/irs-pdf/p519.pdf",
+            "raptor_node_id": 23640,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "231814-0-430"
+            ]
+          },
+          {
+            "rank": 10,
+            "doc_id": "460951-0-259",
+            "score": 0.553327,
+            "score_type": "cosine",
+            "text": "\nI personally am from Canada and use my local bank to trade stocks. Contact your local bank and they will tell you how to do it, since rules depend on country of residency. If you are not close to a bank, e-mail the major bank in the country of your residence.",
+            "raptor_node_id": 49376,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "460951-0-259"
+            ]
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "343638-0-1115",
+            "score": 0.605914,
+            "score_type": "cosine",
+            "text": "\n\"In the US there is only one stock market (ignoring penny stocks) and handfuls of different exchanges behind it.  NYSE and NASDAQ are two different exchanges, but all the products you can buy on one can also be bought on the other; i.e. they are all the same market.  So a US equities broker cannot possibly restrict access to any \"\"markets\"\" in the US because there is only one. (Interestingly, it is commonplace for US equity brokers to cheat their customers by using only exchanges where they -- the brokers -- get the best deals, even if it means your order is not executed as quickly or cheaply as possible.  This is called payment for order flow and unfortunately will probably take an Act of Congress to stop.) Some very large brokers will have trading access to popular equity markets in other countries (Toronto Stock Exchange, Mexico Stock Exchange, London Stock Exchange) and can support your trades there.  However, at many brokers or in less popular foreign markets this is usually not the case; to trade in the average foreign country you typically must open an account with a broker in that country.\"",
+            "raptor_node_id": 34734,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "343638-0-1115"
+            ]
+          },
+          {
+            "rank": 2,
+            "doc_id": "540986-0-860",
+            "score": 0.594141,
+            "score_type": "cosine",
+            "text": "\nAbsolutely.  It does highly depend on your country, as US brokerages are stricter with or even closed to residents of countries that produce drugs, launder money, finance terror, have traditional difficulty with the US, etc. It also depends on your country's laws.  Some countries have currency controls, restrictions on buying foreign/US securities, etc. That said, some brokerages have offices world-wide, so there might be one near you.  If your legal situation as described above is fortunate, some brokers will simply allow you to setup online using a procedure not too different from US residents: provide identification, sign tons of documents.  You'll have to have a method to deliver your documentation in the ways you'd expect: mail, fax, email. E*Trade is the best starter broker, right now, imo.  Just see how far you can go in the sign-up process.",
+            "raptor_node_id": 54562,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "540986-0-860"
+            ]
+          },
+          {
+            "rank": 3,
+            "doc_id": "35191-0-563",
+            "score": 0.591057,
+            "score_type": "cosine",
+            "text": "\nFirst thing to consider is that getting your hands on an IPO is very difficult unless you have some serious clout. This might help a bit in that department (http://www.sec.gov/answers/ipoelig.htm) However, assuming you accept all that risk and requirements, YES - you can buy stocks of any kind in the US even if you are a foreigner. There are no laws prohibiting investment/buying in the US stock market. What you need is to get an online trading account from a registered brokerage house in the US. Once you are registered, you can buy whatever that is offered.",
+            "raptor_node_id": 7211,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "35191-0-563"
+            ]
+          },
+          {
+            "rank": 4,
+            "doc_id": "551809-0-1228",
+            "score": 0.575698,
+            "score_type": "cosine",
+            "text": "\nAny large stockbroker will offer trading in US securities. As a foreign national you will be required to register with the US tax authorities (IRS) by completing and filing a W-8BEN form and pay US withholding taxes on any dividend income you receive.  US dividends are paid net of withholding taxes, so you do not need to file a US tax return.  Capital gains are not subject to US taxes.  Also, each year you are holding US securities, you will receive a form from the IRS which you are required to complete and return. You will also be required to complete and file forms for each of the exchanges you wish to received market price data from. Trading will be restricted to US trading hours, which I believe is 6 hours ahead of Denmark for the New York markets.  You will simply submit an order to the desired market using your broker's online trading software or your broker's telephone dealing service. You can expect to pay significantly higher commissions for trading US securities when compared to domestic securities. You will also face potentially large foreign exchange fees when exchaning your funds from EUR to USD. All in all, you will probably be better off using your local market to trade US index or sector ETFs.",
+            "raptor_node_id": 57656,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "551809-0-1228"
+            ]
+          },
+          {
+            "rank": 5,
+            "doc_id": "57841-0-575",
+            "score": 0.568508,
+            "score_type": "cosine",
+            "text": "\nI'm in the US as well, but some basic things are still the same. You need to trade through a broker, but the need for a full service broker is no longer necessary. You may be able to get by with a web based brokerage that charges less fees. If you are nervous, look for a big name, and avoid a fly by night company. Stick with non-exotic investments. don't do options, or futures or Forex. You may even want to skip shares all together and see if UK offers something akin to an index fund which tracks broad markets (like the whole of the FTSE 100 or the S&P 500) as a whole.",
+            "raptor_node_id": 5219,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "57841-0-575"
+            ]
+          }
+        ]
+      },
+      "generation": {
+        "model": "gpt-4o-mini",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "To buy or sell on other countries' markets while in the US, you typically need to follow these steps:\n\n1. **Choose a Broker**: Select a brokerage that offers access to international markets. Some large brokers have trading access to popular equity markets in other countries, such as the Toronto Stock Exchange, London Stock Exchange, and others.\n\n2. **Open an Account**: You may need to open a trading account with the broker. This process usually involves providing identification and completing various forms.\n\n3. **Understand Regulations**: Be aware of any regulations or restrictions that may apply to trading in foreign markets. Some countries have specific laws regarding foreign investments.\n\n4. **Currency Exchange**: Be prepared for currency exchange, as you will likely need to convert your US dollars to the local currency of the market you are trading in. This may involve additional fees.\n\n5. **Trading Hours**: Keep in mind that trading hours will differ from US markets, so you will need to be aware of the time zone differences.\n\n6. **Fees and Commissions**: Expect to pay higher commissions for trading foreign securities compared to domestic ones, and be aware of any foreign exchange fees.\n\nIf your broker does not support trading in a specific foreign market, you may need to open an account with a broker in that country.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "343638-0-1115",
+          "score": 0.605914,
+          "score_type": "cosine",
+          "text": "\n\"In the US there is only one stock market (ignoring penny stocks) and handfuls of different exchanges behind it.  NYSE and NASDAQ are two different exchanges, but all the products you can buy on one can also be bought on the other; i.e. they are all the same market.  So a US equities broker cannot possibly restrict access to any \"\"markets\"\" in the US because there is only one. (Interestingly, it is commonplace for US equity brokers to cheat their customers by using only exchanges where they -- the brokers -- get the best deals, even if it means your order is not executed as quickly or cheaply as possible.  This is called payment for order flow and unfortunately will probably take an Act of Congress to stop.) Some very large brokers will have trading access to popular equity markets in other countries (Toronto Stock Exchange, Mexico Stock Exchange, London Stock Exchange) and can support your trades there.  However, at many brokers or in less popular foreign markets this is usually not the case; to trade in the average foreign country you typically must open an account with a broker in that country.\"",
+          "raptor_node_id": 34734,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "343638-0-1115"
+          ]
+        },
+        {
+          "rank": 2,
+          "doc_id": "540986-0-860",
+          "score": 0.594141,
+          "score_type": "cosine",
+          "text": "\nAbsolutely.  It does highly depend on your country, as US brokerages are stricter with or even closed to residents of countries that produce drugs, launder money, finance terror, have traditional difficulty with the US, etc. It also depends on your country's laws.  Some countries have currency controls, restrictions on buying foreign/US securities, etc. That said, some brokerages have offices world-wide, so there might be one near you.  If your legal situation as described above is fortunate, some brokers will simply allow you to setup online using a procedure not too different from US residents: provide identification, sign tons of documents.  You'll have to have a method to deliver your documentation in the ways you'd expect: mail, fax, email. E*Trade is the best starter broker, right now, imo.  Just see how far you can go in the sign-up process.",
+          "raptor_node_id": 54562,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "540986-0-860"
+          ]
+        },
+        {
+          "rank": 3,
+          "doc_id": "35191-0-563",
+          "score": 0.591057,
+          "score_type": "cosine",
+          "text": "\nFirst thing to consider is that getting your hands on an IPO is very difficult unless you have some serious clout. This might help a bit in that department (http://www.sec.gov/answers/ipoelig.htm) However, assuming you accept all that risk and requirements, YES - you can buy stocks of any kind in the US even if you are a foreigner. There are no laws prohibiting investment/buying in the US stock market. What you need is to get an online trading account from a registered brokerage house in the US. Once you are registered, you can buy whatever that is offered.",
+          "raptor_node_id": 7211,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "35191-0-563"
+          ]
+        },
+        {
+          "rank": 4,
+          "doc_id": "551809-0-1228",
+          "score": 0.575698,
+          "score_type": "cosine",
+          "text": "\nAny large stockbroker will offer trading in US securities. As a foreign national you will be required to register with the US tax authorities (IRS) by completing and filing a W-8BEN form and pay US withholding taxes on any dividend income you receive.  US dividends are paid net of withholding taxes, so you do not need to file a US tax return.  Capital gains are not subject to US taxes.  Also, each year you are holding US securities, you will receive a form from the IRS which you are required to complete and return. You will also be required to complete and file forms for each of the exchanges you wish to received market price data from. Trading will be restricted to US trading hours, which I believe is 6 hours ahead of Denmark for the New York markets.  You will simply submit an order to the desired market using your broker's online trading software or your broker's telephone dealing service. You can expect to pay significantly higher commissions for trading US securities when compared to domestic securities. You will also face potentially large foreign exchange fees when exchaning your funds from EUR to USD. All in all, you will probably be better off using your local market to trade US index or sector ETFs.",
+          "raptor_node_id": 57656,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "551809-0-1228"
+          ]
+        },
+        {
+          "rank": 5,
+          "doc_id": "57841-0-575",
+          "score": 0.568508,
+          "score_type": "cosine",
+          "text": "\nI'm in the US as well, but some basic things are still the same. You need to trade through a broker, but the need for a full service broker is no longer necessary. You may be able to get by with a web based brokerage that charges less fees. If you are nervous, look for a big name, and avoid a fly by night company. Stick with non-exotic investments. don't do options, or futures or Forex. You may even want to skip shares all together and see if UK offers something akin to an index fund which tracks broad markets (like the whole of the FTSE 100 or the S&P 500) as a whole.",
+          "raptor_node_id": 5219,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "57841-0-575"
+          ]
+        }
+      ],
+      "reference": {
+        "answer": "If you're in the US and want to buy or sell securities on other countries' markets, you generally have two options. Some large brokers offer trading access to popular equity markets in other countries, such as the Toronto Stock Exchange, Mexico Stock Exchange, or London Stock Exchange. One such broker is Interactive Brokers, offering many foreign markets (19 countries) for US-based investors, allowing you to trade all these local markets within one universal account, which can be very convenient. However, at many brokers or in less popular foreign markets, you typically must open an account with a broker in that country. ",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "How-To"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "4",
+      "task_id": "4a8369b7403e54df94d7fa495a4eff27<::>4",
+      "question": "why isn't there just one global market? wouldn't that be easier?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "how does pre-market trading work?"
+        },
+        {
+          "role": "assistant",
+          "content": "Pre-market trading takes place before the regular trading hours (RTH) of the stock market. For example, pre-market hours are from 4:00 a.m. to 9:30 a.m. Eastern Time (ET) on the NASDAQ stock market. During pre-market hours, you can place limit orders, but you cannot place market orders due to lower liquidity. This is because the volume and liquidity are generally much lower during pre-market hours compared to RTH. If an unexpected world event occurs, the volume and liquidity might increase. It is important to note that not all brokers allow pre-market trading, and if they do, you might need to specify that you want your order to be executed during pre-market hours."
+        },
+        {
+          "role": "user",
+          "content": "what are limit orders vs market orders?"
+        },
+        {
+          "role": "assistant",
+          "content": "A limit order is a type of order where you set a specific price at which you want to buy or sell a security. The order will only be executed if the market price reaches the price you set. On the other hand, a market order is an order to buy or sell a security immediately at the best available current market price. Market orders do not guarantee a specific price, and the final execution price may be different from the price quoted at the time of order entry.\nThe choice between limit orders and market orders depends on your trading goals and risk tolerance. "
+        },
+        {
+          "role": "user",
+          "content": "if I'm in the US how can I buy / sell on other countries markets?"
+        },
+        {
+          "role": "assistant",
+          "content": "If you're in the US and want to buy or sell securities on other countries' markets, you generally have two options. Some large brokers offer trading access to popular equity markets in other countries, such as the Toronto Stock Exchange, Mexico Stock Exchange, or London Stock Exchange. One such broker is Interactive Brokers, offering many foreign markets (19 countries) for US-based investors, allowing you to trade all these local markets within one universal account, which can be very convenient. However, at many brokers or in less popular foreign markets, you typically must open an account with a broker in that country. "
+        }
+      ],
+      "retrieval": {
+        "query": "why isn't there just one global market? wouldn't that be easier?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": "why isn't there just one global market? wouldn't that be easier?",
+        "k": 10,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "480871-0-210",
+            "score": 0.552634,
+            "score_type": "cosine",
+            "text": "\nSetting up new markets in Europe is really easy. In fact there are way too many of them now. That's not to say anybody would use your market though, if you were to have odd rules they didn't like or understand.",
+            "raptor_node_id": 43564,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "480871-0-210"
+            ]
+          },
+          {
+            "rank": 2,
+            "doc_id": "466545-0-243",
+            "score": 0.518478,
+            "score_type": "cosine",
+            "text": "\nConfused on why everyone seems to think there is going to be like one or two companies controlling it all. There is an insane amount of people in the US and on this planet there is room for many many companies doing essentially the same thing.",
+            "raptor_node_id": 47603,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "466545-0-243"
+            ]
+          },
+          {
+            "rank": 3,
+            "doc_id": "322168-0-2164",
+            "score": 0.513897,
+            "score_type": "cosine",
+            "text": "\n\"Nearly every country has its own exchange because so many countries have their own currency, and currency permeates every part of an exchange's business.   Generally, an exchange will support transaction and settlement only in local currency.  Securities (except those that explicitly enable FX trading) are denominated and will trade in a single currency-- you can only buy a share of IBM in U.S. dollars.  Securities trading always seeks to be a clean, frictionless, scalable process, and adding cross-currency translation to the mix would just complicate things.  So it's one exchange, one currency. In most countries, citizens and even businesses are largely restricted to having bank accounts in local currency.  There are various political reasons for this, but there it is:  it is difficult or impossible to open a domestic bank account in a foreign-denominated currency.  A public company headquartered in a given country will be required to publish financial statements in local currency, will be more likely to do business with the local citizenry and businesses in that currency, and so will likely look for investors from that same pool-- which generally means listing in local currency, which means on an exchange in that country. There are exceptions, of course.  Big multinationals do business all over the world, and many seek investors all over the world as well.  Mechanisms have been created to permit this (American Depositary Receipts or ADRs, for example).  But once again, cross-currency translation makes things more complicated, so ADRs and their like are only practical for very big international players. As to why there may be many exchanges in a single country, IMO Nick R has it right.  Read \"\"Flash Boys\"\"; many market makers profit from trading between exchanges, and so have an interest in there being many of them.  And in the U.S., regulators have expressed an interest in \"\"innovation\"\" in the exchange space, and so permit them.  There is also an argument to be made against having a single \"\"Too Big To Fail\"\" exchange just like the argument for banks, but I wouldn't call that a \"\"reason\"\" for the current state of affairs.\"",
+            "raptor_node_id": 25716,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "322168-0-2164"
+            ]
+          },
+          {
+            "rank": 4,
+            "doc_id": "231098-1786-2707",
+            "score": 0.502534,
+            "score_type": "cosine",
+            "text": "\n** Option 1) Transaction tax would just make the markets less efficient by increasing the cost of buying and selling. A generally bad thing because it discourages traders (to put money into stocks), which is of course how the capital markets are supported. ** Option 2) Create rules to ensure everyone sees the same information at the same time and then permit anyone to use whatever technology they want to act on that information, so that the most efficient trading operations win. ** Option 3) Create some artificial environment where no-one is allowed to have an advantage: ensure everyone sees the same information at the same time, ensure everyone has the same technology, and ensure that the people who manage the systems have the exact same experience and intelligence etc... Of course #2 is how it works, and it is the meritocratic basis which underpins Capitalism. I don't see why people have a problem with it.",
+            "raptor_node_id": 25239,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "231098-1786-2707"
+            ]
+          },
+          {
+            "rank": 5,
+            "doc_id": "300213-0-515",
+            "score": 0.489179,
+            "score_type": "cosine",
+            "text": "\nIf I understand correctly, you're actually asking why there isn't a society whose members generally accept/use any currency for transactions, and just like, Google the exchange rate or something.  The answer is because it's exceptionally inconvenient.  Can you imagine having a wallet with 200 pouches for all the different currencies?  Why would you want to deal with exchange rates all the time?  What if the value of a currency changes?  (A single currency at least has the illusion of being stable).  Et cetera.",
+            "raptor_node_id": 29413,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "300213-0-515"
+            ]
+          },
+          {
+            "rank": 6,
+            "doc_id": "440180-0-228",
+            "score": 0.488109,
+            "score_type": "cosine",
+            "text": "\nThat's only one of an array of factors. If, for example, there was political will to tackle it and a global market capable of supporting it, sure, I could see that getting done... but in our current situation? I'm not convinced.",
+            "raptor_node_id": 49919,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "440180-0-228"
+            ]
+          },
+          {
+            "rank": 7,
+            "doc_id": "446633-0-1561",
+            "score": 0.474153,
+            "score_type": "cosine",
+            "text": "\n\"It sounds good, but perhaps they've overlooked several things that would need to be addressed before anything like this could work well.  1) If there is a leak in the overall flow, such as a HFT hedge fund sucking money out of the markets at an enormous rate into a tax haven, such a system would just perpetuate the existing rise of the superwealthy entities. They still get richer without spending much in return.  2) As described they have only talked about one government, one nation, one monetary recycling system, as if nations are closed boxes. They are not. Money flows across borders with ease. Nations **compete** to maximise the amount of assets they hold within their borders at any given time. These can be fixed capital assets too. So nothing prevents the \"\"global equity investment\"\" they mention from starting to resemble all the powerful corporations concentrated in a single favoured nation over time. That would represent a lot of political power concentrated in ways that are not necessarily favourable to individual sovereign national legal systems elsewhere.  It is possible that this could mean that nations would compete to lower taxes to zero to attract corporations, thereby risking bankrupting governments unless the income from the global equity index compensated enough. At 6% it won't match current tax rates.  The second point also means that nations cannot unilaterally decide to implement this unless they have a guaranteed additional inflowing income from transnational activities that could compensate for excessive outflow.\"",
+            "raptor_node_id": 50607,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "446633-0-1561"
+            ]
+          },
+          {
+            "rank": 8,
+            "doc_id": "528234-0-463",
+            "score": 0.471059,
+            "score_type": "cosine",
+            "text": "\n\"Yeah ok buddy, call me when every single country passes a law at the same time outlawing the same thing. Even if it was declared illegal in the US, its not going anywhere - it's far too useful.  https://www.forbes.com/sites/benzingainsights/2011/11/07/rise-of-the-shadow-economy-second-largest-economy-in-the-world/#1655a5354a0e  &gt; Robert Neuwirth argues that \"\"the $10 trillion global black market is the world's fastest growing economy -- and its future\"\".\"",
+            "raptor_node_id": 53339,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "528234-0-463"
+            ]
+          },
+          {
+            "rank": 9,
+            "doc_id": "231098-0-2269",
+            "score": 0.468935,
+            "score_type": "cosine",
+            "text": "\n* In the 70's, 80's and early 90's there were pinstriped brokers who took orders over the phone from people who wanted to buy and sell. They had a huge competitive advantage over the rest of the market due to the lack of transparency in the market's order book. Therefore you got screwed every time you wanted to trade, ie the markets were less efficient because transaction cost was high. Transaction cost is = bid-ask spread + how much you get screwed by the market insiders. * In the 90's and early 00's there were automated trading systems that allowed people to conduct trades directly with computers, aka Algorithmic Trading. The markets were more efficient, because spreads became tighter as more people were able to enter the market on this platform (e.g. [Lightspeed](http://lightspeed.com)). The ability for market insiders to screw the general market was lessened because the exclusive access to the market's order book was eroded. Of course some Algorithmic Trading operations had a huge competitive advantage because they had great systems and great people. However it wasn't talked about because those who new about it were making a killing and keeping their mouths shut. * Then in the mid to late 00's there was co-located algorithmic trading on very fast systems, aka HFT, a natural evolution of Algorithmic Trading. Now market insiders (= people with enough resources to field co-located machines and the the engineer/traders to manage them) expanded their competitive advantage by discovering the market's order book (as they are able to see orders in a fraction of a second and then act on those orders). However to retract this natural efficiency in the markets you would need to create some kind of set of rules to even out the playing field. How can that be done? ** Option 1) Transaction tax would just make the markets less efficient by increasing the cost of buying and selling. A generally bad thing because it discourages traders (to put money into stocks), which is of course how the capital markets are supported. ** Option 2) Create rules to ensure everyone sees the same information at the same time and then permit anyone to use whatever technology they want to act on that information, so that the most efficient trading operations win.",
+            "raptor_node_id": 25238,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "231098-0-2269"
+            ]
+          },
+          {
+            "rank": 10,
+            "doc_id": "343638-0-1115",
+            "score": 0.464805,
+            "score_type": "cosine",
+            "text": "\n\"In the US there is only one stock market (ignoring penny stocks) and handfuls of different exchanges behind it.  NYSE and NASDAQ are two different exchanges, but all the products you can buy on one can also be bought on the other; i.e. they are all the same market.  So a US equities broker cannot possibly restrict access to any \"\"markets\"\" in the US because there is only one. (Interestingly, it is commonplace for US equity brokers to cheat their customers by using only exchanges where they -- the brokers -- get the best deals, even if it means your order is not executed as quickly or cheaply as possible.  This is called payment for order flow and unfortunately will probably take an Act of Congress to stop.) Some very large brokers will have trading access to popular equity markets in other countries (Toronto Stock Exchange, Mexico Stock Exchange, London Stock Exchange) and can support your trades there.  However, at many brokers or in less popular foreign markets this is usually not the case; to trade in the average foreign country you typically must open an account with a broker in that country.\"",
+            "raptor_node_id": 34734,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "343638-0-1115"
+            ]
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "480871-0-210",
+            "score": 0.552634,
+            "score_type": "cosine",
+            "text": "\nSetting up new markets in Europe is really easy. In fact there are way too many of them now. That's not to say anybody would use your market though, if you were to have odd rules they didn't like or understand.",
+            "raptor_node_id": 43564,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "480871-0-210"
+            ]
+          },
+          {
+            "rank": 2,
+            "doc_id": "466545-0-243",
+            "score": 0.518478,
+            "score_type": "cosine",
+            "text": "\nConfused on why everyone seems to think there is going to be like one or two companies controlling it all. There is an insane amount of people in the US and on this planet there is room for many many companies doing essentially the same thing.",
+            "raptor_node_id": 47603,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "466545-0-243"
+            ]
+          },
+          {
+            "rank": 3,
+            "doc_id": "322168-0-2164",
+            "score": 0.513897,
+            "score_type": "cosine",
+            "text": "\n\"Nearly every country has its own exchange because so many countries have their own currency, and currency permeates every part of an exchange's business.   Generally, an exchange will support transaction and settlement only in local currency.  Securities (except those that explicitly enable FX trading) are denominated and will trade in a single currency-- you can only buy a share of IBM in U.S. dollars.  Securities trading always seeks to be a clean, frictionless, scalable process, and adding cross-currency translation to the mix would just complicate things.  So it's one exchange, one currency. In most countries, citizens and even businesses are largely restricted to having bank accounts in local currency.  There are various political reasons for this, but there it is:  it is difficult or impossible to open a domestic bank account in a foreign-denominated currency.  A public company headquartered in a given country will be required to publish financial statements in local currency, will be more likely to do business with the local citizenry and businesses in that currency, and so will likely look for investors from that same pool-- which generally means listing in local currency, which means on an exchange in that country. There are exceptions, of course.  Big multinationals do business all over the world, and many seek investors all over the world as well.  Mechanisms have been created to permit this (American Depositary Receipts or ADRs, for example).  But once again, cross-currency translation makes things more complicated, so ADRs and their like are only practical for very big international players. As to why there may be many exchanges in a single country, IMO Nick R has it right.  Read \"\"Flash Boys\"\"; many market makers profit from trading between exchanges, and so have an interest in there being many of them.  And in the U.S., regulators have expressed an interest in \"\"innovation\"\" in the exchange space, and so permit them.  There is also an argument to be made against having a single \"\"Too Big To Fail\"\" exchange just like the argument for banks, but I wouldn't call that a \"\"reason\"\" for the current state of affairs.\"",
+            "raptor_node_id": 25716,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "322168-0-2164"
+            ]
+          },
+          {
+            "rank": 4,
+            "doc_id": "231098-1786-2707",
+            "score": 0.502534,
+            "score_type": "cosine",
+            "text": "\n** Option 1) Transaction tax would just make the markets less efficient by increasing the cost of buying and selling. A generally bad thing because it discourages traders (to put money into stocks), which is of course how the capital markets are supported. ** Option 2) Create rules to ensure everyone sees the same information at the same time and then permit anyone to use whatever technology they want to act on that information, so that the most efficient trading operations win. ** Option 3) Create some artificial environment where no-one is allowed to have an advantage: ensure everyone sees the same information at the same time, ensure everyone has the same technology, and ensure that the people who manage the systems have the exact same experience and intelligence etc... Of course #2 is how it works, and it is the meritocratic basis which underpins Capitalism. I don't see why people have a problem with it.",
+            "raptor_node_id": 25239,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "231098-1786-2707"
+            ]
+          },
+          {
+            "rank": 5,
+            "doc_id": "300213-0-515",
+            "score": 0.489179,
+            "score_type": "cosine",
+            "text": "\nIf I understand correctly, you're actually asking why there isn't a society whose members generally accept/use any currency for transactions, and just like, Google the exchange rate or something.  The answer is because it's exceptionally inconvenient.  Can you imagine having a wallet with 200 pouches for all the different currencies?  Why would you want to deal with exchange rates all the time?  What if the value of a currency changes?  (A single currency at least has the illusion of being stable).  Et cetera.",
+            "raptor_node_id": 29413,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "300213-0-515"
+            ]
+          }
+        ]
+      },
+      "generation": {
+        "model": "gpt-4o-mini",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "There are several reasons why there isn't just one global market. One primary reason is that nearly every country has its own currency, and currency plays a crucial role in the functioning of exchanges. Each exchange generally supports transactions and settlements only in local currency, which complicates cross-currency trading. Additionally, citizens and businesses in most countries are largely restricted to having bank accounts in their local currency, making it difficult to operate in a single global market.\n\nMoreover, having multiple exchanges allows for competition and innovation within the market, which can lead to better services and efficiencies. There are also regulatory considerations, as different countries have different laws and regulations governing financial markets. This diversity can help prevent the risks associated with having a single \"Too Big To Fail\" exchange, similar to concerns in the banking sector. Overall, while a single global market might seem easier, the complexities of currency, regulation, and local market dynamics make it challenging to implement.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "480871-0-210",
+          "score": 0.552634,
+          "score_type": "cosine",
+          "text": "\nSetting up new markets in Europe is really easy. In fact there are way too many of them now. That's not to say anybody would use your market though, if you were to have odd rules they didn't like or understand.",
+          "raptor_node_id": 43564,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "480871-0-210"
+          ]
+        },
+        {
+          "rank": 2,
+          "doc_id": "466545-0-243",
+          "score": 0.518478,
+          "score_type": "cosine",
+          "text": "\nConfused on why everyone seems to think there is going to be like one or two companies controlling it all. There is an insane amount of people in the US and on this planet there is room for many many companies doing essentially the same thing.",
+          "raptor_node_id": 47603,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "466545-0-243"
+          ]
+        },
+        {
+          "rank": 3,
+          "doc_id": "322168-0-2164",
+          "score": 0.513897,
+          "score_type": "cosine",
+          "text": "\n\"Nearly every country has its own exchange because so many countries have their own currency, and currency permeates every part of an exchange's business.   Generally, an exchange will support transaction and settlement only in local currency.  Securities (except those that explicitly enable FX trading) are denominated and will trade in a single currency-- you can only buy a share of IBM in U.S. dollars.  Securities trading always seeks to be a clean, frictionless, scalable process, and adding cross-currency translation to the mix would just complicate things.  So it's one exchange, one currency. In most countries, citizens and even businesses are largely restricted to having bank accounts in local currency.  There are various political reasons for this, but there it is:  it is difficult or impossible to open a domestic bank account in a foreign-denominated currency.  A public company headquartered in a given country will be required to publish financial statements in local currency, will be more likely to do business with the local citizenry and businesses in that currency, and so will likely look for investors from that same pool-- which generally means listing in local currency, which means on an exchange in that country. There are exceptions, of course.  Big multinationals do business all over the world, and many seek investors all over the world as well.  Mechanisms have been created to permit this (American Depositary Receipts or ADRs, for example).  But once again, cross-currency translation makes things more complicated, so ADRs and their like are only practical for very big international players. As to why there may be many exchanges in a single country, IMO Nick R has it right.  Read \"\"Flash Boys\"\"; many market makers profit from trading between exchanges, and so have an interest in there being many of them.  And in the U.S., regulators have expressed an interest in \"\"innovation\"\" in the exchange space, and so permit them.  There is also an argument to be made against having a single \"\"Too Big To Fail\"\" exchange just like the argument for banks, but I wouldn't call that a \"\"reason\"\" for the current state of affairs.\"",
+          "raptor_node_id": 25716,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "322168-0-2164"
+          ]
+        },
+        {
+          "rank": 4,
+          "doc_id": "231098-1786-2707",
+          "score": 0.502534,
+          "score_type": "cosine",
+          "text": "\n** Option 1) Transaction tax would just make the markets less efficient by increasing the cost of buying and selling. A generally bad thing because it discourages traders (to put money into stocks), which is of course how the capital markets are supported. ** Option 2) Create rules to ensure everyone sees the same information at the same time and then permit anyone to use whatever technology they want to act on that information, so that the most efficient trading operations win. ** Option 3) Create some artificial environment where no-one is allowed to have an advantage: ensure everyone sees the same information at the same time, ensure everyone has the same technology, and ensure that the people who manage the systems have the exact same experience and intelligence etc... Of course #2 is how it works, and it is the meritocratic basis which underpins Capitalism. I don't see why people have a problem with it.",
+          "raptor_node_id": 25239,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "231098-1786-2707"
+          ]
+        },
+        {
+          "rank": 5,
+          "doc_id": "300213-0-515",
+          "score": 0.489179,
+          "score_type": "cosine",
+          "text": "\nIf I understand correctly, you're actually asking why there isn't a society whose members generally accept/use any currency for transactions, and just like, Google the exchange rate or something.  The answer is because it's exceptionally inconvenient.  Can you imagine having a wallet with 200 pouches for all the different currencies?  Why would you want to deal with exchange rates all the time?  What if the value of a currency changes?  (A single currency at least has the illusion of being stable).  Et cetera.",
+          "raptor_node_id": 29413,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "300213-0-515"
+          ]
+        }
+      ],
+      "reference": {
+        "answer": "Creating a single global market would be quite complex and challenging for several reasons. First, each country has its own exchange, which is closely tied to its local currency. Exchanges primarily support transactions and settlements in their local currency, and securities are denominated in a single currency. Cross-currency translation would complicate the trading process, as it would require additional steps and considerations.\nFurthermore, citizens and businesses in most countries are restricted to having bank accounts in local currency, making it difficult or impossible to open a domestic bank account in a foreign-denominated currency. A public company headquartered in a given country is more likely to do business with local citizenry and businesses in that currency, and thus look for investors from the same pool, which generally means listing in local currency on an exchange in that country.\n",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Composite",
+          "Explanation"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "5",
+      "task_id": "4a8369b7403e54df94d7fa495a4eff27<::>5",
+      "question": "this sounds complicated, no wonder retail investors usually don't do well",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "how does pre-market trading work?"
+        },
+        {
+          "role": "assistant",
+          "content": "Pre-market trading takes place before the regular trading hours (RTH) of the stock market. For example, pre-market hours are from 4:00 a.m. to 9:30 a.m. Eastern Time (ET) on the NASDAQ stock market. During pre-market hours, you can place limit orders, but you cannot place market orders due to lower liquidity. This is because the volume and liquidity are generally much lower during pre-market hours compared to RTH. If an unexpected world event occurs, the volume and liquidity might increase. It is important to note that not all brokers allow pre-market trading, and if they do, you might need to specify that you want your order to be executed during pre-market hours."
+        },
+        {
+          "role": "user",
+          "content": "what are limit orders vs market orders?"
+        },
+        {
+          "role": "assistant",
+          "content": "A limit order is a type of order where you set a specific price at which you want to buy or sell a security. The order will only be executed if the market price reaches the price you set. On the other hand, a market order is an order to buy or sell a security immediately at the best available current market price. Market orders do not guarantee a specific price, and the final execution price may be different from the price quoted at the time of order entry.\nThe choice between limit orders and market orders depends on your trading goals and risk tolerance. "
+        },
+        {
+          "role": "user",
+          "content": "if I'm in the US how can I buy / sell on other countries markets?"
+        },
+        {
+          "role": "assistant",
+          "content": "If you're in the US and want to buy or sell securities on other countries' markets, you generally have two options. Some large brokers offer trading access to popular equity markets in other countries, such as the Toronto Stock Exchange, Mexico Stock Exchange, or London Stock Exchange. One such broker is Interactive Brokers, offering many foreign markets (19 countries) for US-based investors, allowing you to trade all these local markets within one universal account, which can be very convenient. However, at many brokers or in less popular foreign markets, you typically must open an account with a broker in that country. "
+        },
+        {
+          "role": "user",
+          "content": "why isn't there just one global market? wouldn't that be easier?"
+        },
+        {
+          "role": "assistant",
+          "content": "Creating a single global market would be quite complex and challenging for several reasons. First, each country has its own exchange, which is closely tied to its local currency. Exchanges primarily support transactions and settlements in their local currency, and securities are denominated in a single currency. Cross-currency translation would complicate the trading process, as it would require additional steps and considerations.\nFurthermore, citizens and businesses in most countries are restricted to having bank accounts in local currency, making it difficult or impossible to open a domestic bank account in a foreign-denominated currency. A public company headquartered in a given country is more likely to do business with local citizenry and businesses in that currency, and thus look for investors from the same pool, which generally means listing in local currency on an exchange in that country.\n"
+        }
+      ],
+      "retrieval": {
+        "query": "this sounds complicated, no wonder retail investors usually don't do well",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": "this sounds complicated, no wonder retail investors usually don't do well",
+        "k": 10,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "137984-0-2341",
+            "score": 0.57065,
+            "score_type": "cosine",
+            "text": "\n\"We're in agreement, I just want retail investors to understand that in most of these types of discussions, the unspoken reality is the retail sector trading the market is *over*. This includes the mutual funds you mentioned, and even most index funds (most are so narrowly focused they lose their relevance for the retail investor).  In the retail investment markets I'm familiar with, there are market makers of some sort or another for specified ranges. I'm perfectly fine with no market makers; but retail investors should be told the naked truth as well, and not sold a bunch of come-ons. What upsets me is seeing that just as computers really start to make an orderly market possible (you are right, the classic NYSE specialist structure was outrageously corrupt), regulators turned a blind eye to implementing better controls for retail investors.  The financial services industry has to come to terms whether they want AUM from retail or not, and having heard messaging much like yours from other professionals, I've concluded that the industry does *not* want the constraints with accepting those funds, but neither do they want to disabuse retail investors of how tilted the game is against them. Luring them in with deceptively suggestive marketing and then taking money from those naturally ill-prepared for the rigors of the setting is like beating up the Downs' Syndrome kid on the short bus and boasting about it back on the campus about how clever and strong one is. If there was as stringent truth in marketing in financial services as cigarettes, like \"\"this service makes their profit by encouraging the churning of trades\"\", there would be a lot of kvetching from so-called \"\"pros\"\" as well. If all retail financial services were described like \"\"dead cold cow meat\"\" describes \"\"steak\"\", a lot of retail investors would be better off. As it stands today, you'd have to squint mighty hard to see the faintly-inscribed \"\"caveat emptor\"\" on financial services offerings to the retail sector.  Note that depending upon the market setting, the definition of retail differs. I'm surprised the herd hasn't been spooked more by the MF Global disaster, for example, and yet there are some surprisingly large accounts detrimentally affected by that incident, which in a conventional equities setting would be considered \"\"pros\"\".\"",
+            "raptor_node_id": 13330,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "137984-0-2341"
+            ]
+          },
+          {
+            "rank": 2,
+            "doc_id": "536099-0-2132",
+            "score": 0.550785,
+            "score_type": "cosine",
+            "text": "\n\"I agree that retail looks for orderly markets, but orderly markets have really never existed. Really study market history, and you'll see that markets are more orderly today than they ever have been. The stuff that used to take place was just insane and happened before computers--let alone HFT.  Let me state that, while it may seem like I'm defending HFT, my algos are actually much longer-term and wouldn't be hurt by any of your proposals. I think many of the HFT guys are no better than those three-card monte sharks who used to fill Times Square. But they're just playing the game. They're not good, but they're also not bad; they're just another segment of players. In orderly markets (up and down), they really do add liquidity. When things go awry as they tend to do in the markets, the HFTs step aside. But don't fool yourself--market makers have always done the exact same thing. And also remember that many markets don't even have market makers; traders provide all liquidity.  Here's the thing. Retail investors swarm to the markets when everything is going up and up. They believe they can do no wrong and that prices will go up forever. Then the market gets a bit tougher, retail investors (and most \"\"pros,\"\" by the way) start to lose, and then retail investors cry foul. Markets were never intended to be a nice, safe playground for the masses. They were designed for those who dedicate their lives to understanding them. I don't pretend that I can litigate a legal case, operate on someone's brain, or build a bridge. Experts have studied those areas for decades and are quite good at those things. But retail investors have always thought of Wall Street as some sort of \"\"safe Las Vegas.\"\" In reality, it's survival of the fiercest.  I'll say to you what I say to every one of my friend's who wants me to \"\"show them a few things about trading\"\": If you aren't going to really commit thousands of hours to understanding the markets, then stay out. Invest money that you don't need for some time in a few good mutual funds. Keep your debt to a minimum. Don't chase quick profits if you don't understand the game.\"",
+            "raptor_node_id": 55557,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "536099-0-2132"
+            ]
+          },
+          {
+            "rank": 3,
+            "doc_id": "541152-0-422",
+            "score": 0.549441,
+            "score_type": "cosine",
+            "text": "\nI would also consider unnecessarily complex investment strategies a big warning sign as they can easily hide poor investment advice or a bad strategy. This is especially the case when it comes to retail investment as complex strategies can have so many moving parts that you, as someone with a day job, can't spend enough time on it to keep an eye on everything and you only spot issues when it's too late. Other bugbears:",
+            "raptor_node_id": 54573,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "541152-0-422"
+            ]
+          },
+          {
+            "rank": 4,
+            "doc_id": "raptor_summary_67618",
+            "score": 0.544544,
+            "score_type": "cosine",
+            "text": "Investing in the stock market requires significant knowledge and experience, often taking years of classical finance training to grasp fully. Many intelligent professionals underestimate the complexity, leading to poor decisions. In every trade, there is a \"fool,\" and often that fool is the investor themselves. If an investment isn't appreciating, it incurs losses due to inflation and opportunity costs. \n\nDay trading, characterized by frequent buying and selling for small gains, is likened to gambling, with amateur traders competing against institutional investors. While",
+            "raptor_node_id": 67618,
+            "raptor_node_level": 1,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "355390-0-348",
+              "532485-1456-3497",
+              "22578-0-568"
+            ]
+          },
+          {
+            "rank": 5,
+            "doc_id": "473978-0-667",
+            "score": 0.542591,
+            "score_type": "cosine",
+            "text": "\n\"The technical term for it is \"\"timing the market\"\" and if you can pull it off correctly, you will do quite well. The problem is that it is almost impossible to consistently do well. If it were that easy there would be a lot of billionaires walking around. Even Wall street experts haven't been able to predict the market that well. This idea is almost universally considered a bad idea. Consider this: When has the stock dropped low enough that you are \"\"buying low\"\" and let's say you do buy low and it doubles in a month. When do you get out? What if you are wrong and it doubles again? Or if it drops 10% do you keep waiting? This strategy is rife with problems.\"",
+            "raptor_node_id": 43736,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "473978-0-667"
+            ]
+          },
+          {
+            "rank": 6,
+            "doc_id": "362753-0-789",
+            "score": 0.537252,
+            "score_type": "cosine",
+            "text": "\n&gt;you're fooling yourself if you think they don't have advantages over retail investors.  Well clearly they have resources connections, more clout when speaking to their investees, etc. but what I meant is it's not as big of an advantage as most people believe it is. Also with derivatives you're right its a whole different ball game. I'm a finance student and I invest my own money to learn, and to grow my wealth slowly and intelligently. The thing is I never touch derivatives(probably because I haven't studied them much yet). Also I come from a very Benjamin Graham value investing background so that is why I think that an average investor with a retail brokerage account can beat the institutions. This energy thing is not something that I think can be capitalized upon, however.",
+            "raptor_node_id": 26782,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "362753-0-789"
+            ]
+          },
+          {
+            "rank": 7,
+            "doc_id": "122485-1361-3172",
+            "score": 0.529906,
+            "score_type": "cosine",
+            "text": "\nIt seems to me you're looking for a way to generate small, consistent returns and you're not seeking to strike it rich in one trade. Therefore, buying something that pays a dividend would be a good idea if you plan to hold forever while waiting for your 1 or 2 points. In your system you're also going to have to define when to get back in the trade. If you buy IXC now at $40 and it goes to $41 and you sell, do you wait for it to come back to $40? What if it never does? Are you happy with having only made one trade for $40 profit in your lifetime? What if it goes up to $45 and then dips to $42, do you buy at $42? If so, what stops you from eventually buying at the tippy top? Or even worse, what stops you from feeling even more confident at the top and buying bigger lots? If it gets to $49, surely it will cover that last buck to $50, right? /sarc What if you bought IXC at $40 and it went down. Now what? Do you take up gardening as a hobby while waiting for IXC to come back? Do you buy more at lower prices and average down? Do you find other stocks to trade? If so, how long until you run out of money and you start getting margin calls? Then you'll be forced to sell at the bottom when you should be buying more. All these systems seem easy, but when you actually get in there and try to use them, you'll find they're not so easy. Anything that is obvious, won't work anymore. And even when you find something that is obvious and bet that it stops working, you'll be wrong then too. The thing is, if you think of it, many others just like you also think of it... therefore it can't work because everyone can't make money in stocks just like everyone at the poker table can't make money. If you can make 1% or 2% per day on your money, that's actually quite good and not too many people can do that.",
+            "raptor_node_id": 10419,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "122485-1361-3172"
+            ]
+          },
+          {
+            "rank": 8,
+            "doc_id": "112187-0-345",
+            "score": 0.52964,
+            "score_type": "cosine",
+            "text": "\nTo add to Dheer's point, the vast majority of retail investors will have to pay fees and use up a large amount of valuable time on the entrance and exit of each stock, and each and every time you rebalance as the index weightings change. These also add up extremely fast vs the few basis points the large and liquid ETFs charge for this service.",
+            "raptor_node_id": 15574,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "112187-0-345"
+            ]
+          },
+          {
+            "rank": 9,
+            "doc_id": "275171-0-1299",
+            "score": 0.526031,
+            "score_type": "cosine",
+            "text": "\n\"I (and probably most considering trading) had a similar thought as you.  I thought if I just skimmed the peaks and sold before the troughs, perhaps aided by computer, I'd be able to make a 2% here, 2% there, and that would add up quickly to a nice amount of money.  It almost did seem \"\"foolproof\"\". Then I realized that sometimes a stock just slides...down...and there is no peak higher than what I bought it for.  \"\"That's OK,\"\" I'd think, \"\"I'm sure it will recover and surpass the price I bought it for...so now I play the waiting game.\"\"  But then it continues sliding, and my $10k is now worth $7k.  Do I sell?  Did I build a stop loss point into my computer program?  If so, what is the right place to put that stop?  What if there is a freak dip down and it triggers the stop loss but THEN my stock recovers?  I just lost $14,000 like this last week--luckily, only virtually! The point is, your idea only has half a chance to work when there is a mildly volatile stock that stays around some stable baseline, and even then it is not easy.  And then you factor in fees as others mentioned... People do make money doing this (day traders), and some claim you can use technical analysis to time orders well, so if you want to try that, read about technical analysis on this site or elsewhere.\"",
+            "raptor_node_id": 40187,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "275171-0-1299"
+            ]
+          },
+          {
+            "rank": 10,
+            "doc_id": "532485-1456-3497",
+            "score": 0.523654,
+            "score_type": "cosine",
+            "text": "\nGet rid of it before I lose any more!\"\"), but they work out over time to lots of buying high and selling low, the very opposite of what you want to do. Then there's the day-trader. These are people who sit in their home office, buying and selling all day to try and make lots of little gains that add up to a lot. The reason these people don't do well in the long run is slightly different to the other examples. First, fees. Yes, most platforms offer a discount for \"\"frequent traders\"\", but it still ain't free. Second, they're peewees playing in the big leagues. Of course there are exceptions who make out like bandits, but day traders are playing a different game than the people I'd call investors. That game, unlike buy-and-hold investing, is much more like gambling, and day-traders are the enthusiastic amateurs sitting down at a table with professional poker players – institutional investors and the computers and research departments that work for them. Even buy-and-hold investors, even the more sophisticated ones, can easily realise losses on a given stock. You say you should just hold on to a stock until it goes back up, but if it goes low enough, it could take a decade or more to even just break even again. More savvy stock-pickers will have a system worked out, something like \"\"ok, if it gets down to 90% of what I bought it for, I cut my losses and sell.\"\" This is actually a sensible precaution, because defining hard rules like that helps​ you eliminate emotion from your investing, which is incredibly important if you want to avoid becoming the trend-follower above. It's still a loss, but it's a calculated one, and hopefully over time the exception rather than the rule. There are probably as many other ways to lose money as there are people investing, but I think I've given you a taste. The key to avoiding such things is understanding the psychology of investing, and defining the rules that you'll follow no matter what (as in that last example). Or just go learn about index investing. That's what I did.\"",
+            "raptor_node_id": 55904,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "532485-1456-3497"
+            ]
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "137984-0-2341",
+            "score": 0.57065,
+            "score_type": "cosine",
+            "text": "\n\"We're in agreement, I just want retail investors to understand that in most of these types of discussions, the unspoken reality is the retail sector trading the market is *over*. This includes the mutual funds you mentioned, and even most index funds (most are so narrowly focused they lose their relevance for the retail investor).  In the retail investment markets I'm familiar with, there are market makers of some sort or another for specified ranges. I'm perfectly fine with no market makers; but retail investors should be told the naked truth as well, and not sold a bunch of come-ons. What upsets me is seeing that just as computers really start to make an orderly market possible (you are right, the classic NYSE specialist structure was outrageously corrupt), regulators turned a blind eye to implementing better controls for retail investors.  The financial services industry has to come to terms whether they want AUM from retail or not, and having heard messaging much like yours from other professionals, I've concluded that the industry does *not* want the constraints with accepting those funds, but neither do they want to disabuse retail investors of how tilted the game is against them. Luring them in with deceptively suggestive marketing and then taking money from those naturally ill-prepared for the rigors of the setting is like beating up the Downs' Syndrome kid on the short bus and boasting about it back on the campus about how clever and strong one is. If there was as stringent truth in marketing in financial services as cigarettes, like \"\"this service makes their profit by encouraging the churning of trades\"\", there would be a lot of kvetching from so-called \"\"pros\"\" as well. If all retail financial services were described like \"\"dead cold cow meat\"\" describes \"\"steak\"\", a lot of retail investors would be better off. As it stands today, you'd have to squint mighty hard to see the faintly-inscribed \"\"caveat emptor\"\" on financial services offerings to the retail sector.  Note that depending upon the market setting, the definition of retail differs. I'm surprised the herd hasn't been spooked more by the MF Global disaster, for example, and yet there are some surprisingly large accounts detrimentally affected by that incident, which in a conventional equities setting would be considered \"\"pros\"\".\"",
+            "raptor_node_id": 13330,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "137984-0-2341"
+            ]
+          },
+          {
+            "rank": 2,
+            "doc_id": "536099-0-2132",
+            "score": 0.550785,
+            "score_type": "cosine",
+            "text": "\n\"I agree that retail looks for orderly markets, but orderly markets have really never existed. Really study market history, and you'll see that markets are more orderly today than they ever have been. The stuff that used to take place was just insane and happened before computers--let alone HFT.  Let me state that, while it may seem like I'm defending HFT, my algos are actually much longer-term and wouldn't be hurt by any of your proposals. I think many of the HFT guys are no better than those three-card monte sharks who used to fill Times Square. But they're just playing the game. They're not good, but they're also not bad; they're just another segment of players. In orderly markets (up and down), they really do add liquidity. When things go awry as they tend to do in the markets, the HFTs step aside. But don't fool yourself--market makers have always done the exact same thing. And also remember that many markets don't even have market makers; traders provide all liquidity.  Here's the thing. Retail investors swarm to the markets when everything is going up and up. They believe they can do no wrong and that prices will go up forever. Then the market gets a bit tougher, retail investors (and most \"\"pros,\"\" by the way) start to lose, and then retail investors cry foul. Markets were never intended to be a nice, safe playground for the masses. They were designed for those who dedicate their lives to understanding them. I don't pretend that I can litigate a legal case, operate on someone's brain, or build a bridge. Experts have studied those areas for decades and are quite good at those things. But retail investors have always thought of Wall Street as some sort of \"\"safe Las Vegas.\"\" In reality, it's survival of the fiercest.  I'll say to you what I say to every one of my friend's who wants me to \"\"show them a few things about trading\"\": If you aren't going to really commit thousands of hours to understanding the markets, then stay out. Invest money that you don't need for some time in a few good mutual funds. Keep your debt to a minimum. Don't chase quick profits if you don't understand the game.\"",
+            "raptor_node_id": 55557,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "536099-0-2132"
+            ]
+          },
+          {
+            "rank": 3,
+            "doc_id": "541152-0-422",
+            "score": 0.549441,
+            "score_type": "cosine",
+            "text": "\nI would also consider unnecessarily complex investment strategies a big warning sign as they can easily hide poor investment advice or a bad strategy. This is especially the case when it comes to retail investment as complex strategies can have so many moving parts that you, as someone with a day job, can't spend enough time on it to keep an eye on everything and you only spot issues when it's too late. Other bugbears:",
+            "raptor_node_id": 54573,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "541152-0-422"
+            ]
+          },
+          {
+            "rank": 4,
+            "doc_id": "raptor_summary_67618",
+            "score": 0.544544,
+            "score_type": "cosine",
+            "text": "Investing in the stock market requires significant knowledge and experience, often taking years of classical finance training to grasp fully. Many intelligent professionals underestimate the complexity, leading to poor decisions. In every trade, there is a \"fool,\" and often that fool is the investor themselves. If an investment isn't appreciating, it incurs losses due to inflation and opportunity costs. \n\nDay trading, characterized by frequent buying and selling for small gains, is likened to gambling, with amateur traders competing against institutional investors. While",
+            "raptor_node_id": 67618,
+            "raptor_node_level": 1,
+            "raptor_node_type": "summary",
+            "source_document_ids": [
+              "355390-0-348",
+              "532485-1456-3497",
+              "22578-0-568"
+            ]
+          },
+          {
+            "rank": 5,
+            "doc_id": "473978-0-667",
+            "score": 0.542591,
+            "score_type": "cosine",
+            "text": "\n\"The technical term for it is \"\"timing the market\"\" and if you can pull it off correctly, you will do quite well. The problem is that it is almost impossible to consistently do well. If it were that easy there would be a lot of billionaires walking around. Even Wall street experts haven't been able to predict the market that well. This idea is almost universally considered a bad idea. Consider this: When has the stock dropped low enough that you are \"\"buying low\"\" and let's say you do buy low and it doubles in a month. When do you get out? What if you are wrong and it doubles again? Or if it drops 10% do you keep waiting? This strategy is rife with problems.\"",
+            "raptor_node_id": 43736,
+            "raptor_node_level": 0,
+            "raptor_node_type": "leaf",
+            "source_document_ids": [
+              "473978-0-667"
+            ]
+          }
+        ]
+      },
+      "generation": {
+        "model": "gpt-4o-mini",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Indeed, investing in the stock market can be quite complex, and many retail investors may struggle due to a lack of knowledge and experience. The market is not designed to be a \"safe playground\" for the masses; it requires significant understanding and dedication to navigate successfully. Retail investors often face challenges such as market volatility, the intricacies of different investment strategies, and the competition against institutional investors who have more resources and expertise. \n\nAdditionally, the complexity of investment products and the potential for poor investment advice can further complicate the situation for retail investors. As noted, many intelligent professionals underestimate the complexity of investing, which can lead to poor decisions. Therefore, it's crucial for retail investors to educate themselves, invest wisely, and consider simpler investment options, such as mutual funds, if they are not prepared to commit significant time to understanding the markets.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "137984-0-2341",
+          "score": 0.57065,
+          "score_type": "cosine",
+          "text": "\n\"We're in agreement, I just want retail investors to understand that in most of these types of discussions, the unspoken reality is the retail sector trading the market is *over*. This includes the mutual funds you mentioned, and even most index funds (most are so narrowly focused they lose their relevance for the retail investor).  In the retail investment markets I'm familiar with, there are market makers of some sort or another for specified ranges. I'm perfectly fine with no market makers; but retail investors should be told the naked truth as well, and not sold a bunch of come-ons. What upsets me is seeing that just as computers really start to make an orderly market possible (you are right, the classic NYSE specialist structure was outrageously corrupt), regulators turned a blind eye to implementing better controls for retail investors.  The financial services industry has to come to terms whether they want AUM from retail or not, and having heard messaging much like yours from other professionals, I've concluded that the industry does *not* want the constraints with accepting those funds, but neither do they want to disabuse retail investors of how tilted the game is against them. Luring them in with deceptively suggestive marketing and then taking money from those naturally ill-prepared for the rigors of the setting is like beating up the Downs' Syndrome kid on the short bus and boasting about it back on the campus about how clever and strong one is. If there was as stringent truth in marketing in financial services as cigarettes, like \"\"this service makes their profit by encouraging the churning of trades\"\", there would be a lot of kvetching from so-called \"\"pros\"\" as well. If all retail financial services were described like \"\"dead cold cow meat\"\" describes \"\"steak\"\", a lot of retail investors would be better off. As it stands today, you'd have to squint mighty hard to see the faintly-inscribed \"\"caveat emptor\"\" on financial services offerings to the retail sector.  Note that depending upon the market setting, the definition of retail differs. I'm surprised the herd hasn't been spooked more by the MF Global disaster, for example, and yet there are some surprisingly large accounts detrimentally affected by that incident, which in a conventional equities setting would be considered \"\"pros\"\".\"",
+          "raptor_node_id": 13330,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "137984-0-2341"
+          ]
+        },
+        {
+          "rank": 2,
+          "doc_id": "536099-0-2132",
+          "score": 0.550785,
+          "score_type": "cosine",
+          "text": "\n\"I agree that retail looks for orderly markets, but orderly markets have really never existed. Really study market history, and you'll see that markets are more orderly today than they ever have been. The stuff that used to take place was just insane and happened before computers--let alone HFT.  Let me state that, while it may seem like I'm defending HFT, my algos are actually much longer-term and wouldn't be hurt by any of your proposals. I think many of the HFT guys are no better than those three-card monte sharks who used to fill Times Square. But they're just playing the game. They're not good, but they're also not bad; they're just another segment of players. In orderly markets (up and down), they really do add liquidity. When things go awry as they tend to do in the markets, the HFTs step aside. But don't fool yourself--market makers have always done the exact same thing. And also remember that many markets don't even have market makers; traders provide all liquidity.  Here's the thing. Retail investors swarm to the markets when everything is going up and up. They believe they can do no wrong and that prices will go up forever. Then the market gets a bit tougher, retail investors (and most \"\"pros,\"\" by the way) start to lose, and then retail investors cry foul. Markets were never intended to be a nice, safe playground for the masses. They were designed for those who dedicate their lives to understanding them. I don't pretend that I can litigate a legal case, operate on someone's brain, or build a bridge. Experts have studied those areas for decades and are quite good at those things. But retail investors have always thought of Wall Street as some sort of \"\"safe Las Vegas.\"\" In reality, it's survival of the fiercest.  I'll say to you what I say to every one of my friend's who wants me to \"\"show them a few things about trading\"\": If you aren't going to really commit thousands of hours to understanding the markets, then stay out. Invest money that you don't need for some time in a few good mutual funds. Keep your debt to a minimum. Don't chase quick profits if you don't understand the game.\"",
+          "raptor_node_id": 55557,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "536099-0-2132"
+          ]
+        },
+        {
+          "rank": 3,
+          "doc_id": "541152-0-422",
+          "score": 0.549441,
+          "score_type": "cosine",
+          "text": "\nI would also consider unnecessarily complex investment strategies a big warning sign as they can easily hide poor investment advice or a bad strategy. This is especially the case when it comes to retail investment as complex strategies can have so many moving parts that you, as someone with a day job, can't spend enough time on it to keep an eye on everything and you only spot issues when it's too late. Other bugbears:",
+          "raptor_node_id": 54573,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "541152-0-422"
+          ]
+        },
+        {
+          "rank": 4,
+          "doc_id": "raptor_summary_67618",
+          "score": 0.544544,
+          "score_type": "cosine",
+          "text": "Investing in the stock market requires significant knowledge and experience, often taking years of classical finance training to grasp fully. Many intelligent professionals underestimate the complexity, leading to poor decisions. In every trade, there is a \"fool,\" and often that fool is the investor themselves. If an investment isn't appreciating, it incurs losses due to inflation and opportunity costs. \n\nDay trading, characterized by frequent buying and selling for small gains, is likened to gambling, with amateur traders competing against institutional investors. While",
+          "raptor_node_id": 67618,
+          "raptor_node_level": 1,
+          "raptor_node_type": "summary",
+          "source_document_ids": [
+            "355390-0-348",
+            "532485-1456-3497",
+            "22578-0-568"
+          ]
+        },
+        {
+          "rank": 5,
+          "doc_id": "473978-0-667",
+          "score": 0.542591,
+          "score_type": "cosine",
+          "text": "\n\"The technical term for it is \"\"timing the market\"\" and if you can pull it off correctly, you will do quite well. The problem is that it is almost impossible to consistently do well. If it were that easy there would be a lot of billionaires walking around. Even Wall street experts haven't been able to predict the market that well. This idea is almost universally considered a bad idea. Consider this: When has the stock dropped low enough that you are \"\"buying low\"\" and let's say you do buy low and it doubles in a month. When do you get out? What if you are wrong and it doubles again? Or if it drops 10% do you keep waiting? This strategy is rife with problems.\"",
+          "raptor_node_id": 43736,
+          "raptor_node_level": 0,
+          "raptor_node_type": "leaf",
+          "source_document_ids": [
+            "473978-0-667"
+          ]
+        }
+      ],
+      "reference": {
+        "answer": "Yes, understanding the intricacies of the stock market and investing can be complex, especially for retail investors who may not have extensive knowledge or resources. Many retail traders lose money due to relying on unproven technical strategies, not being sufficiently well-informed or well-equipped, following scammers and rumors, not learning how to read company financial reports or compare multiple stocks, struggling with the psychology of trading, and not being able to trade quickly enough or at a high enough volume. However it is possible for some retail traders to over time improve their understanding and learn to navigate the market more effectively.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Non-Question",
+          "Opinion"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    }
+  ]
+}

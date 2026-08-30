@@ -1,0 +1,1417 @@
+{
+  "conversation_id": "5c13daa9432149f6243aa1115629cd1a",
+  "dataset": "clapnq",
+  "collection": "mt-rag-clapnq-elser-512-100-20240503",
+  "rag": "selfrag",
+  "num_turns": 7,
+  "turns": [
+    {
+      "turn_id": "1",
+      "task_id": "5c13daa9432149f6243aa1115629cd1a<::>1",
+      "question": "where is bone marrow found what does it do for the body",
+      "rag_history_before_turn": [],
+      "retrieval": {
+        "query": "where is bone marrow found what does it do for the body",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "837756901_3845-4469-0-624",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Human musculoskeletal system Located in long bones are two distinctions of bone marrow ( yellow and red ) . The yellow marrow has fatty connective tissue and is found in the marrow cavity . During starvation , the body uses the fat in yellow marrow for energy . The red marrow of some bones is an important site for blood cell production , approximately 2.6 million red blood cells per second in order to replace existing cells that have been destroyed by the liver . Here all erythrocytes , platelets , and most leukocytes form in adults . From the red marrow , erythrocytes , platelets , and leukocytes migrate to the blood to do their special tasks .",
+            "title": "Human musculoskeletal system"
+          },
+          {
+            "rank": 2,
+            "doc_id": "825171915_343-1247-0-904",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Bone marrow Bone marrow is a semi-solid tissue which may be found within the spongy or cancellous portions of bones . In birds and mammals , bone marrow is the primary site of new blood cell production or hematopoiesis . It is composed of hematopoietic cells , marrow adipose tissue , and supportive stromal cells . On average , bone marrow constitutes 4 % of the total body mass of humans ; in an adult having 65 kilograms of mass ( 143 lb ) , bone marrow typically accounts for approximately 2.6 kilograms ( 5.7 lb ) . Human marrow produces approximately 500 billion blood cells per day , which join the systemic circulation via permeable vasculature sinusoids within the medullary cavity . All types of hematopoietic cells , including both myeloid and lymphoid lineages , are created in bone marrow ; however , lymphoid cells must migrate to other lymphoid organs ( e.g. thymus ) in order to complete maturation .",
+            "title": "Bone marrow"
+          },
+          {
+            "rank": 3,
+            "doc_id": "825171915_1986-3071-0-1085",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Bone marrow The composition of marrow is dynamic , as the mixture of cellular and non-cellular components ( connective tissue ) shifts with age and in response to systemic factors . In humans , marrow is colloquially characterized as `` red '' or `` yellow '' marrow ( Latin : medulla ossium rubra , Latin : medulla ossium flava , respectively ) depending on the prevalence of hematopoetic cells vs fat cells . While the precise mechanisms underlying marrow regulation are not understood , compositional changes occur according to stereotypical patterns . For example , a newborn baby 's bones exclusively contain hematopoietically active `` red '' marrow , and there is a progressive conversion towards `` yellow '' marrow with age . In adults , red marrow is found mainly in the central skeleton , such as the pelvis , sternum , cranium , ribs , vertebrae and scapulae , and variably found in the proximal epiphyseal ends of long bones such as the femur and humerus . In circumstances of chronic hypoxia , the body can convert yellow marrow back to red marrow to increase blood cell production .",
+            "title": "Bone marrow"
+          },
+          {
+            "rank": 4,
+            "doc_id": "825171915_10705-11391-0-686",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Bone marrow Bone marrow examination is the pathologic analysis of samples of bone marrow obtained via biopsy and bone marrow aspiration . Bone marrow examination is used in the diagnosis of a number of conditions , including leukemia , multiple myeloma , anemia , and pancytopenia . The bone marrow produces the cellular elements of the blood , including platelets , red blood cells and white blood cells . While much information can be gleaned by testing the blood itself ( drawn from a vein by phlebotomy ) , it is sometimes necessary to examine the source of the blood cells in the bone marrow to obtain more information on hematopoiesis ; this is the role of bone marrow aspiration and biopsy .",
+            "title": "Bone marrow"
+          },
+          {
+            "rank": 5,
+            "doc_id": "825171915_6292-6727-0-435",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Bone marrow The red bone marrow is a key element of the lymphatic system , being one of the primary lymphoid organs that generate lymphocytes from immature hematopoietic progenitor cells . The bone marrow and thymus constitute the primary lymphoid tissues involved in the production and early selection of lymphocytes . Furthermore , bone marrow performs a valve - like function to prevent the backflow of lymphatic fluid in the lymphatic system .",
+            "title": "Bone marrow"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "837756901_3845-4469-0-624",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Human musculoskeletal system Located in long bones are two distinctions of bone marrow ( yellow and red ) . The yellow marrow has fatty connective tissue and is found in the marrow cavity . During starvation , the body uses the fat in yellow marrow for energy . The red marrow of some bones is an important site for blood cell production , approximately 2.6 million red blood cells per second in order to replace existing cells that have been destroyed by the liver . Here all erythrocytes , platelets , and most leukocytes form in adults . From the red marrow , erythrocytes , platelets , and leukocytes migrate to the blood to do their special tasks .",
+            "title": "Human musculoskeletal system"
+          },
+          {
+            "rank": 2,
+            "doc_id": "825171915_343-1247-0-904",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Bone marrow Bone marrow is a semi-solid tissue which may be found within the spongy or cancellous portions of bones . In birds and mammals , bone marrow is the primary site of new blood cell production or hematopoiesis . It is composed of hematopoietic cells , marrow adipose tissue , and supportive stromal cells . On average , bone marrow constitutes 4 % of the total body mass of humans ; in an adult having 65 kilograms of mass ( 143 lb ) , bone marrow typically accounts for approximately 2.6 kilograms ( 5.7 lb ) . Human marrow produces approximately 500 billion blood cells per day , which join the systemic circulation via permeable vasculature sinusoids within the medullary cavity . All types of hematopoietic cells , including both myeloid and lymphoid lineages , are created in bone marrow ; however , lymphoid cells must migrate to other lymphoid organs ( e.g. thymus ) in order to complete maturation .",
+            "title": "Bone marrow"
+          },
+          {
+            "rank": 3,
+            "doc_id": "825171915_1986-3071-0-1085",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Bone marrow The composition of marrow is dynamic , as the mixture of cellular and non-cellular components ( connective tissue ) shifts with age and in response to systemic factors . In humans , marrow is colloquially characterized as `` red '' or `` yellow '' marrow ( Latin : medulla ossium rubra , Latin : medulla ossium flava , respectively ) depending on the prevalence of hematopoetic cells vs fat cells . While the precise mechanisms underlying marrow regulation are not understood , compositional changes occur according to stereotypical patterns . For example , a newborn baby 's bones exclusively contain hematopoietically active `` red '' marrow , and there is a progressive conversion towards `` yellow '' marrow with age . In adults , red marrow is found mainly in the central skeleton , such as the pelvis , sternum , cranium , ribs , vertebrae and scapulae , and variably found in the proximal epiphyseal ends of long bones such as the femur and humerus . In circumstances of chronic hypoxia , the body can convert yellow marrow back to red marrow to increase blood cell production .",
+            "title": "Bone marrow"
+          },
+          {
+            "rank": 4,
+            "doc_id": "825171915_10705-11391-0-686",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Bone marrow Bone marrow examination is the pathologic analysis of samples of bone marrow obtained via biopsy and bone marrow aspiration . Bone marrow examination is used in the diagnosis of a number of conditions , including leukemia , multiple myeloma , anemia , and pancytopenia . The bone marrow produces the cellular elements of the blood , including platelets , red blood cells and white blood cells . While much information can be gleaned by testing the blood itself ( drawn from a vein by phlebotomy ) , it is sometimes necessary to examine the source of the blood cells in the bone marrow to obtain more information on hematopoiesis ; this is the role of bone marrow aspiration and biopsy .",
+            "title": "Bone marrow"
+          },
+          {
+            "rank": 5,
+            "doc_id": "825171915_6292-6727-0-435",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Bone marrow The red bone marrow is a key element of the lymphatic system , being one of the primary lymphoid organs that generate lymphocytes from immature hematopoietic progenitor cells . The bone marrow and thymus constitute the primary lymphoid tissues involved in the production and early selection of lymphocytes . Furthermore , bone marrow performs a valve - like function to prevent the backflow of lymphatic fluid in the lymphatic system .",
+            "title": "Bone marrow"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "in long bones",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "837756901_3845-4469-0-624",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Human musculoskeletal system Located in long bones are two distinctions of bone marrow ( yellow and red ) . The yellow marrow has fatty connective tissue and is found in the marrow cavity . During starvation , the body uses the fat in yellow marrow for energy . The red marrow of some bones is an important site for blood cell production , approximately 2.6 million red blood cells per second in order to replace existing cells that have been destroyed by the liver . Here all erythrocytes , platelets , and most leukocytes form in adults . From the red marrow , erythrocytes , platelets , and leukocytes migrate to the blood to do their special tasks .",
+          "title": "Human musculoskeletal system"
+        },
+        {
+          "rank": 2,
+          "doc_id": "825171915_343-1247-0-904",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Bone marrow Bone marrow is a semi-solid tissue which may be found within the spongy or cancellous portions of bones . In birds and mammals , bone marrow is the primary site of new blood cell production or hematopoiesis . It is composed of hematopoietic cells , marrow adipose tissue , and supportive stromal cells . On average , bone marrow constitutes 4 % of the total body mass of humans ; in an adult having 65 kilograms of mass ( 143 lb ) , bone marrow typically accounts for approximately 2.6 kilograms ( 5.7 lb ) . Human marrow produces approximately 500 billion blood cells per day , which join the systemic circulation via permeable vasculature sinusoids within the medullary cavity . All types of hematopoietic cells , including both myeloid and lymphoid lineages , are created in bone marrow ; however , lymphoid cells must migrate to other lymphoid organs ( e.g. thymus ) in order to complete maturation .",
+          "title": "Bone marrow"
+        },
+        {
+          "rank": 3,
+          "doc_id": "825171915_1986-3071-0-1085",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Bone marrow The composition of marrow is dynamic , as the mixture of cellular and non-cellular components ( connective tissue ) shifts with age and in response to systemic factors . In humans , marrow is colloquially characterized as `` red '' or `` yellow '' marrow ( Latin : medulla ossium rubra , Latin : medulla ossium flava , respectively ) depending on the prevalence of hematopoetic cells vs fat cells . While the precise mechanisms underlying marrow regulation are not understood , compositional changes occur according to stereotypical patterns . For example , a newborn baby 's bones exclusively contain hematopoietically active `` red '' marrow , and there is a progressive conversion towards `` yellow '' marrow with age . In adults , red marrow is found mainly in the central skeleton , such as the pelvis , sternum , cranium , ribs , vertebrae and scapulae , and variably found in the proximal epiphyseal ends of long bones such as the femur and humerus . In circumstances of chronic hypoxia , the body can convert yellow marrow back to red marrow to increase blood cell production .",
+          "title": "Bone marrow"
+        },
+        {
+          "rank": 4,
+          "doc_id": "825171915_10705-11391-0-686",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Bone marrow Bone marrow examination is the pathologic analysis of samples of bone marrow obtained via biopsy and bone marrow aspiration . Bone marrow examination is used in the diagnosis of a number of conditions , including leukemia , multiple myeloma , anemia , and pancytopenia . The bone marrow produces the cellular elements of the blood , including platelets , red blood cells and white blood cells . While much information can be gleaned by testing the blood itself ( drawn from a vein by phlebotomy ) , it is sometimes necessary to examine the source of the blood cells in the bone marrow to obtain more information on hematopoiesis ; this is the role of bone marrow aspiration and biopsy .",
+          "title": "Bone marrow"
+        },
+        {
+          "rank": 5,
+          "doc_id": "825171915_6292-6727-0-435",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Bone marrow The red bone marrow is a key element of the lymphatic system , being one of the primary lymphoid organs that generate lymphocytes from immature hematopoietic progenitor cells . The bone marrow and thymus constitute the primary lymphoid tissues involved in the production and early selection of lymphocytes . Furthermore , bone marrow performs a valve - like function to prevent the backflow of lymphatic fluid in the lymphatic system .",
+          "title": "Bone marrow"
+        }
+      ],
+      "reference": {
+        "answer": "Bone marrow is found within the spongy or cancellous portions of bones. Human marrow produces approximately 500 billion blood cells per day. The main functional component of bone marrow includes the progenitor cells which are destined to mature into blood and lymphoid cells. These include white blood cells, red blood cells, and platelets. In humans, the red marrow of some bones is an important site for blood cell production, in order to replace existing cells that have been destroyed by the liver. ",
+        "evidence_ids": [
+          "825171915_343-1247-0-904",
+          "825171915_3242-3629-0-387",
+          "837756901_3845-4469-0-624"
+        ],
+        "evidence": [
+          {
+            "doc_id": "825171915_343-1247-0-904",
+            "text": "Bone marrow\nBone marrow\nBone marrow is a semi-solid tissue which may be found within the spongy or cancellous portions of bones . In birds and mammals , bone marrow is the primary site of new blood cell production or hematopoiesis . It is composed of hematopoietic cells , marrow adipose tissue , and supportive stromal cells . On average , bone marrow constitutes 4 % of the total body mass of humans ; in an adult having 65 kilograms of mass ( 143 lb ) , bone marrow typically accounts for approximately 2.6 kilograms ( 5.7 lb ) . Human marrow produces approximately 500 billion blood cells per day , which join the systemic circulation via permeable vasculature sinusoids within the medullary cavity . All types of hematopoietic cells , including both myeloid and lymphoid lineages , are created in bone marrow ; however , lymphoid cells must migrate to other lymphoid organs ( e.g. thymus ) in order to complete maturation ."
+          },
+          {
+            "doc_id": "825171915_3242-3629-0-387",
+            "text": "Bone marrow\nBone marrow\nAt the cellular level , the main functional component of bone marrow includes the progenitor cells which are destined to mature into blood and lymphoid cells . Marrow contains hematopoietic stem cells which give rise to the three classes of blood cells that are found in circulation : white blood cells ( leukocytes ) , red blood cells ( erythrocytes ) , and platelets ( thrombocytes ) ."
+          },
+          {
+            "doc_id": "837756901_3845-4469-0-624",
+            "text": "Human musculoskeletal system\nHuman musculoskeletal system\nLocated in long bones are two distinctions of bone marrow ( yellow and red ) . The yellow marrow has fatty connective tissue and is found in the marrow cavity . During starvation , the body uses the fat in yellow marrow for energy . The red marrow of some bones is an important site for blood cell production , approximately 2.6 million red blood cells per second in order to replace existing cells that have been destroyed by the liver . Here all erythrocytes , platelets , and most leukocytes form in adults . From the red marrow , erythrocytes , platelets , and leukocytes migrate to the blood to do their special tasks ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Composite",
+          "Explanation"
+        ],
+        "multi_turn": [
+          "N/A"
+        ]
+      }
+    },
+    {
+      "turn_id": "2",
+      "task_id": "5c13daa9432149f6243aa1115629cd1a<::>2",
+      "question": "What happens if it does not work well?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "where is bone marrow found what does it do for the body"
+        },
+        {
+          "role": "assistant",
+          "content": "Bone marrow is found within the spongy or cancellous portions of bones. Human marrow produces approximately 500 billion blood cells per day. The main functional component of bone marrow includes the progenitor cells which are destined to mature into blood and lymphoid cells. These include white blood cells, red blood cells, and platelets. In humans, the red marrow of some bones is an important site for blood cell production, in order to replace existing cells that have been destroyed by the liver. "
+        }
+      ],
+      "retrieval": {
+        "query": "What happens if it does not work well?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "809403658_38677-39307-0-630",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Telephone exchange Composite switches are inherently fault - tolerant . If a subswitch fails , the controlling computer can sense it during a periodic test . The computer marks all the connections to the subswitch as `` in use '' . This prevents new calls , and does not interrupt old calls that remain working . As calls in progress end , the subswitch becomes unused , and new calls avoid the subswitch because it 's already `` in use . '' Some time later , a technician can replace the circuit board . When the next test succeeds , the connections to the repaired subsystem are marked `` not in use '' , and the switch returns to full operation .",
+            "title": "Telephone exchange"
+          },
+          {
+            "rank": 2,
+            "doc_id": "854575564_25608-26417-0-809",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Software bug Incorrect API usage . Incorrect protocol implementation . Incorrect hardware handling . Incorrect assumptions of a particular platform . Incompatible systems . A new API or communications protocol may seem to work when two systems use different versions , but errors may occur when a function or feature implemented in one version is changed or missing in another . In production systems which must run continually , shutting down the entire system for a major update may not be possible , such as in the telecommunication industry or the internet . In this case , smaller segments of a large system are upgraded individually , to minimize disruption to a large network . However , some sections could be overlooked and not upgraded , and cause compatibility errors which may be difficult to find and repair .",
+            "title": "Software bug"
+          },
+          {
+            "rank": 3,
+            "doc_id": "846452375_72061-73015-0-954",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Child labour While full - time work hinders schooling , empirical evidence is varied on the relationship between part - time work and school . Sometimes even part - time work may hinder school attendance or performance . On the other hand , many poor children work for resources to attend school . Children who are not doing well at school sometimes seek more satisfactory experience in work . Good relations with a supervisor at work can provide relief from tensions that children feel at school and home . In the modern world , school education has become so central to society that schoolwork has become the dominant work for most children , often replacing participation in productive work . If school curricula or quality do not provide children with appropriate skills for available jobs or if children do nor have the aptitude for schoolwork , school may impede the learning of skills , such as agriculture , which will become necessary for future livelihood .",
+            "title": "Child labour"
+          },
+          {
+            "rank": 4,
+            "doc_id": "856806131_29706-29975-0-269",
+            "score": null,
+            "score_type": "contriever",
+            "text": "PID controller Some processes have a degree of nonlinearity and so parameters that work well at full - load conditions do n't work when the process is starting up from no - load ; this can be corrected by gain scheduling ( using different parameters in different operating regions ) .",
+            "title": "PID controller"
+          },
+          {
+            "rank": 5,
+            "doc_id": "800137089_6105-6564-0-459",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Allostasis In the long run , allostatic changes may fail to be adaptive as the maintenance of allostatic changes over a long period may result in wear and tear , the so - called allostatic load . If a dehydrated individual is helped but continues to be stressed and hence does not reinstate normal body function , the individual 's body systems will wear out . The human body is adaptable , but it can not maintain allostatic overload for very long without consequence .",
+            "title": "Allostasis"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "809403658_38677-39307-0-630",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Telephone exchange Composite switches are inherently fault - tolerant . If a subswitch fails , the controlling computer can sense it during a periodic test . The computer marks all the connections to the subswitch as `` in use '' . This prevents new calls , and does not interrupt old calls that remain working . As calls in progress end , the subswitch becomes unused , and new calls avoid the subswitch because it 's already `` in use . '' Some time later , a technician can replace the circuit board . When the next test succeeds , the connections to the repaired subsystem are marked `` not in use '' , and the switch returns to full operation .",
+            "title": "Telephone exchange"
+          },
+          {
+            "rank": 2,
+            "doc_id": "854575564_25608-26417-0-809",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Software bug Incorrect API usage . Incorrect protocol implementation . Incorrect hardware handling . Incorrect assumptions of a particular platform . Incompatible systems . A new API or communications protocol may seem to work when two systems use different versions , but errors may occur when a function or feature implemented in one version is changed or missing in another . In production systems which must run continually , shutting down the entire system for a major update may not be possible , such as in the telecommunication industry or the internet . In this case , smaller segments of a large system are upgraded individually , to minimize disruption to a large network . However , some sections could be overlooked and not upgraded , and cause compatibility errors which may be difficult to find and repair .",
+            "title": "Software bug"
+          },
+          {
+            "rank": 3,
+            "doc_id": "846452375_72061-73015-0-954",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Child labour While full - time work hinders schooling , empirical evidence is varied on the relationship between part - time work and school . Sometimes even part - time work may hinder school attendance or performance . On the other hand , many poor children work for resources to attend school . Children who are not doing well at school sometimes seek more satisfactory experience in work . Good relations with a supervisor at work can provide relief from tensions that children feel at school and home . In the modern world , school education has become so central to society that schoolwork has become the dominant work for most children , often replacing participation in productive work . If school curricula or quality do not provide children with appropriate skills for available jobs or if children do nor have the aptitude for schoolwork , school may impede the learning of skills , such as agriculture , which will become necessary for future livelihood .",
+            "title": "Child labour"
+          },
+          {
+            "rank": 4,
+            "doc_id": "856806131_29706-29975-0-269",
+            "score": null,
+            "score_type": "contriever",
+            "text": "PID controller Some processes have a degree of nonlinearity and so parameters that work well at full - load conditions do n't work when the process is starting up from no - load ; this can be corrected by gain scheduling ( using different parameters in different operating regions ) .",
+            "title": "PID controller"
+          },
+          {
+            "rank": 5,
+            "doc_id": "800137089_6105-6564-0-459",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Allostasis In the long run , allostatic changes may fail to be adaptive as the maintenance of allostatic changes over a long period may result in wear and tear , the so - called allostatic load . If a dehydrated individual is helped but continues to be stressed and hence does not reinstate normal body function , the individual 's body systems will wear out . The human body is adaptable , but it can not maintain allostatic overload for very long without consequence .",
+            "title": "Allostasis"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "It can lead to a decrease in the production of red blood cells, white blood cells, and platelets.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "809403658_38677-39307-0-630",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Telephone exchange Composite switches are inherently fault - tolerant . If a subswitch fails , the controlling computer can sense it during a periodic test . The computer marks all the connections to the subswitch as `` in use '' . This prevents new calls , and does not interrupt old calls that remain working . As calls in progress end , the subswitch becomes unused , and new calls avoid the subswitch because it 's already `` in use . '' Some time later , a technician can replace the circuit board . When the next test succeeds , the connections to the repaired subsystem are marked `` not in use '' , and the switch returns to full operation .",
+          "title": "Telephone exchange"
+        },
+        {
+          "rank": 2,
+          "doc_id": "854575564_25608-26417-0-809",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Software bug Incorrect API usage . Incorrect protocol implementation . Incorrect hardware handling . Incorrect assumptions of a particular platform . Incompatible systems . A new API or communications protocol may seem to work when two systems use different versions , but errors may occur when a function or feature implemented in one version is changed or missing in another . In production systems which must run continually , shutting down the entire system for a major update may not be possible , such as in the telecommunication industry or the internet . In this case , smaller segments of a large system are upgraded individually , to minimize disruption to a large network . However , some sections could be overlooked and not upgraded , and cause compatibility errors which may be difficult to find and repair .",
+          "title": "Software bug"
+        },
+        {
+          "rank": 3,
+          "doc_id": "846452375_72061-73015-0-954",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Child labour While full - time work hinders schooling , empirical evidence is varied on the relationship between part - time work and school . Sometimes even part - time work may hinder school attendance or performance . On the other hand , many poor children work for resources to attend school . Children who are not doing well at school sometimes seek more satisfactory experience in work . Good relations with a supervisor at work can provide relief from tensions that children feel at school and home . In the modern world , school education has become so central to society that schoolwork has become the dominant work for most children , often replacing participation in productive work . If school curricula or quality do not provide children with appropriate skills for available jobs or if children do nor have the aptitude for schoolwork , school may impede the learning of skills , such as agriculture , which will become necessary for future livelihood .",
+          "title": "Child labour"
+        },
+        {
+          "rank": 4,
+          "doc_id": "856806131_29706-29975-0-269",
+          "score": null,
+          "score_type": "contriever",
+          "text": "PID controller Some processes have a degree of nonlinearity and so parameters that work well at full - load conditions do n't work when the process is starting up from no - load ; this can be corrected by gain scheduling ( using different parameters in different operating regions ) .",
+          "title": "PID controller"
+        },
+        {
+          "rank": 5,
+          "doc_id": "800137089_6105-6564-0-459",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Allostasis In the long run , allostatic changes may fail to be adaptive as the maintenance of allostatic changes over a long period may result in wear and tear , the so - called allostatic load . If a dehydrated individual is helped but continues to be stressed and hence does not reinstate normal body function , the individual 's body systems will wear out . The human body is adaptable , but it can not maintain allostatic overload for very long without consequence .",
+          "title": "Allostasis"
+        }
+      ],
+      "reference": {
+        "answer": "If bone marrow does not function properly, it can lead to a decrease in the production of blood cells and blood platelets. This can be caused by various factors such as aplastic anemia, malignancies like multiple myeloma, congenital defects , autoimmune diseases, infections like tuberculosis, leukemia, or exposure to radiation or chemotherapy. Symptoms of a malfunctioning bone marrow can include fatigue, increased risk of infection, and easy bruising or bleeding. In the case of sickle cell disease, the bone marrow's attempt to compensate for the destruction of red cells is not sufficient, leading to anemia.",
+        "evidence_ids": [
+          "825171915_11920-12748-0-828",
+          "853377429_16511-16858-0-347",
+          "825171915_7241-7870-0-629"
+        ],
+        "evidence": [
+          {
+            "doc_id": "825171915_11920-12748-0-828",
+            "text": "Bone marrow\nBone marrow\nIn a bone marrow transplant , hematopoietic stem cells are removed from a person and infused into another person ( allogenic ) or into the same person at a later time ( autologous ) . If the donor and recipient are compatible , these infused cells will then travel to the bone marrow and initiate blood cell production . Transplantation from one person to another is conducted for the treatment of severe bone marrow diseases , such as congenital defects , autoimmune diseases or malignancies . The patient 's own marrow is first killed off with drugs or radiation , and then the new stem cells are introduced . Before radiation therapy or chemotherapy in cases of cancer , some of the patient 's hematopoietic stem cells are sometimes harvested and later infused back when the therapy is finished to restore the immune system ."
+          },
+          {
+            "doc_id": "853377429_16511-16858-0-347",
+            "text": "Sickle cell disease\nSickle cell disease\nThe actual anaemia of the illness is caused by haemolysis , the destruction of the red cells , because of their shape . Although the bone marrow attempts to compensate by creating new red cells , it does not match the rate of destruction . Healthy red blood cells typically function for 90 -- 120 days , but sickled cells only last 10 -- 20 days ."
+          },
+          {
+            "doc_id": "825171915_7241-7870-0-629",
+            "text": "Bone marrow\nBone marrow\nThe normal bone marrow architecture can be damaged or displaced by aplastic anemia , malignancies such as multiple myeloma , or infections such as tuberculosis , leading to a decrease in the production of blood cells and blood platelets . The bone marrow can also be affected by various forms of leukemia , which attacks its hematologic progenitor cells . Furthermore , exposure to radiation or chemotherapy will kill many of the rapidly dividing cells of the bone marrow , and will therefore result in a depressed immune system . Many of the symptoms of radiation poisoning are due to damage sustained by the bone marrow cells ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Explanation"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "3",
+      "task_id": "5c13daa9432149f6243aa1115629cd1a<::>3",
+      "question": "How is Sickle cell treated?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "where is bone marrow found what does it do for the body"
+        },
+        {
+          "role": "assistant",
+          "content": "Bone marrow is found within the spongy or cancellous portions of bones. Human marrow produces approximately 500 billion blood cells per day. The main functional component of bone marrow includes the progenitor cells which are destined to mature into blood and lymphoid cells. These include white blood cells, red blood cells, and platelets. In humans, the red marrow of some bones is an important site for blood cell production, in order to replace existing cells that have been destroyed by the liver. "
+        },
+        {
+          "role": "user",
+          "content": "What happens if it does not work well?"
+        },
+        {
+          "role": "assistant",
+          "content": "If bone marrow does not function properly, it can lead to a decrease in the production of blood cells and blood platelets. This can be caused by various factors such as aplastic anemia, malignancies like multiple myeloma, congenital defects , autoimmune diseases, infections like tuberculosis, leukemia, or exposure to radiation or chemotherapy. Symptoms of a malfunctioning bone marrow can include fatigue, increased risk of infection, and easy bruising or bleeding. In the case of sickle cell disease, the bone marrow's attempt to compensate for the destruction of red cells is not sufficient, leading to anemia."
+        }
+      ],
+      "retrieval": {
+        "query": "How is Sickle cell treated?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "853377429_23150-23662-0-512",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Sickle cell disease When treating avascular necrosis of the bone in people with sickle cell disease , the aim of treatment is to reduce or stop the pain and maintain joint mobility . Current treatment options are to rest the joint , physical therapy , pain relief medicine , joint replacement surgery , or bone grafting . High quality randomized controlled trials are needed to assess the most effective treatment option and determine if a combination of physical therapy and surgery are more effective than physical therapy alone .",
+            "title": "Sickle cell disease"
+          },
+          {
+            "rank": 2,
+            "doc_id": "853377429_18938-19079-0-141",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Sickle cell disease Treatment involves a number of measures . L - glutamine use was supported by the FDA starting at the age of 5 as it decreases complications .",
+            "title": "Sickle cell disease"
+          },
+          {
+            "rank": 3,
+            "doc_id": "853377429_23696-23933-0-237",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Sickle cell disease Psychological therapies such as patient education , cognitive therapy , behavioural therapy and psychodynamic psychotherapy , that aim to complement current medical treatments , require further research to determine their effectiveness .",
+            "title": "Sickle cell disease"
+          },
+          {
+            "rank": 4,
+            "doc_id": "853377429_37155-37779-0-624",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Sickle cell disease In 2001 , it was reported that sickle cell disease had been successfully treated in mice using gene therapy . The researchers used a viral vector to make the mice -- which have essentially the same defect that causes human sickle cell disease -- express production of fetal haemoglobin ( HbF ) , which an individual normally ceases to produce shortly after birth . In humans , using hydroxyurea to stimulate the production of HbF has been known to temporarily alleviate sickle cell disease symptoms . The researchers demonstrated that this gene therapy method is a more permanent way to increase therapeutic HbF production .",
+            "title": "Sickle cell disease"
+          },
+          {
+            "rank": 5,
+            "doc_id": "853377429_21550-22166-0-616",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Sickle cell disease The first approved drug for the causative treatment of sickle cell anaemia , hydroxyurea , was shown to decrease the number and severity of attacks in a study in 1995 and shown to possibly increase survival time in a study in 2003 . This is achieved , in part , by reactivating fetal haemoglobin production in place of the haemoglobin S that causes sickle cell anaemia . Hydroxyurea had previously been used as a chemotherapy agent , and there is some concern that long - term use may be harmful , but this risk has been shown to be either absent or very small and it is likely that the benefits outweigh the risks .",
+            "title": "Sickle cell disease"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "853377429_23150-23662-0-512",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Sickle cell disease When treating avascular necrosis of the bone in people with sickle cell disease , the aim of treatment is to reduce or stop the pain and maintain joint mobility . Current treatment options are to rest the joint , physical therapy , pain relief medicine , joint replacement surgery , or bone grafting . High quality randomized controlled trials are needed to assess the most effective treatment option and determine if a combination of physical therapy and surgery are more effective than physical therapy alone .",
+            "title": "Sickle cell disease"
+          },
+          {
+            "rank": 2,
+            "doc_id": "853377429_18938-19079-0-141",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Sickle cell disease Treatment involves a number of measures . L - glutamine use was supported by the FDA starting at the age of 5 as it decreases complications .",
+            "title": "Sickle cell disease"
+          },
+          {
+            "rank": 3,
+            "doc_id": "853377429_23696-23933-0-237",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Sickle cell disease Psychological therapies such as patient education , cognitive therapy , behavioural therapy and psychodynamic psychotherapy , that aim to complement current medical treatments , require further research to determine their effectiveness .",
+            "title": "Sickle cell disease"
+          },
+          {
+            "rank": 4,
+            "doc_id": "853377429_37155-37779-0-624",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Sickle cell disease In 2001 , it was reported that sickle cell disease had been successfully treated in mice using gene therapy . The researchers used a viral vector to make the mice -- which have essentially the same defect that causes human sickle cell disease -- express production of fetal haemoglobin ( HbF ) , which an individual normally ceases to produce shortly after birth . In humans , using hydroxyurea to stimulate the production of HbF has been known to temporarily alleviate sickle cell disease symptoms . The researchers demonstrated that this gene therapy method is a more permanent way to increase therapeutic HbF production .",
+            "title": "Sickle cell disease"
+          },
+          {
+            "rank": 5,
+            "doc_id": "853377429_21550-22166-0-616",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Sickle cell disease The first approved drug for the causative treatment of sickle cell anaemia , hydroxyurea , was shown to decrease the number and severity of attacks in a study in 1995 and shown to possibly increase survival time in a study in 2003 . This is achieved , in part , by reactivating fetal haemoglobin production in place of the haemoglobin S that causes sickle cell anaemia . Hydroxyurea had previously been used as a chemotherapy agent , and there is some concern that long - term use may be harmful , but this risk has been shown to be either absent or very small and it is likely that the benefits outweigh the risks .",
+            "title": "Sickle cell disease"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Hydroxyurea has been shown to decrease the number and severity of sickle cell attacks and possibly increase survival time.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "853377429_23150-23662-0-512",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Sickle cell disease When treating avascular necrosis of the bone in people with sickle cell disease , the aim of treatment is to reduce or stop the pain and maintain joint mobility . Current treatment options are to rest the joint , physical therapy , pain relief medicine , joint replacement surgery , or bone grafting . High quality randomized controlled trials are needed to assess the most effective treatment option and determine if a combination of physical therapy and surgery are more effective than physical therapy alone .",
+          "title": "Sickle cell disease"
+        },
+        {
+          "rank": 2,
+          "doc_id": "853377429_18938-19079-0-141",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Sickle cell disease Treatment involves a number of measures . L - glutamine use was supported by the FDA starting at the age of 5 as it decreases complications .",
+          "title": "Sickle cell disease"
+        },
+        {
+          "rank": 3,
+          "doc_id": "853377429_23696-23933-0-237",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Sickle cell disease Psychological therapies such as patient education , cognitive therapy , behavioural therapy and psychodynamic psychotherapy , that aim to complement current medical treatments , require further research to determine their effectiveness .",
+          "title": "Sickle cell disease"
+        },
+        {
+          "rank": 4,
+          "doc_id": "853377429_37155-37779-0-624",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Sickle cell disease In 2001 , it was reported that sickle cell disease had been successfully treated in mice using gene therapy . The researchers used a viral vector to make the mice -- which have essentially the same defect that causes human sickle cell disease -- express production of fetal haemoglobin ( HbF ) , which an individual normally ceases to produce shortly after birth . In humans , using hydroxyurea to stimulate the production of HbF has been known to temporarily alleviate sickle cell disease symptoms . The researchers demonstrated that this gene therapy method is a more permanent way to increase therapeutic HbF production .",
+          "title": "Sickle cell disease"
+        },
+        {
+          "rank": 5,
+          "doc_id": "853377429_21550-22166-0-616",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Sickle cell disease The first approved drug for the causative treatment of sickle cell anaemia , hydroxyurea , was shown to decrease the number and severity of attacks in a study in 1995 and shown to possibly increase survival time in a study in 2003 . This is achieved , in part , by reactivating fetal haemoglobin production in place of the haemoglobin S that causes sickle cell anaemia . Hydroxyurea had previously been used as a chemotherapy agent , and there is some concern that long - term use may be harmful , but this risk has been shown to be either absent or very small and it is likely that the benefits outweigh the risks .",
+          "title": "Sickle cell disease"
+        }
+      ],
+      "reference": {
+        "answer": "The treatment for sickle cell disease may include infection prevention with vaccination and antibiotics, high fluid intake, folic acid supplementation, pain medication, blood transfusion, and the medication hydroxycarbamide (hydroxyurea). A small percentage of people can be cured by a transplant of bone marrow cells. When treating avascular necrosis of the bone in people with sickle cell disease, the aim of treatment is to reduce or stop the pain and maintain joint mobility. Current treatment options are to rest the joint, physical therapy, pain relief medicine, joint replacement surgery, or bone grafting. High quality randomized controlled trials are needed to assess the most effective treatment option and determine if a combination of physical therapy and surgery are more effective than physical therapy alone.",
+        "evidence_ids": [
+          "853377429_2317-2677-0-360",
+          "853377429_23150-23662-0-512"
+        ],
+        "evidence": [
+          {
+            "doc_id": "853377429_2317-2677-0-360",
+            "text": "Sickle cell disease\nSickle cell disease\nThe care of people with sickle cell disease may include infection prevention with vaccination and antibiotics , high fluid intake , folic acid supplementation and pain medication . Other measures may include blood transfusion and the medication hydroxycarbamide ( hydroxyurea ) . A small percentage of people can be cured by a transplant of bone marrow cells ."
+          },
+          {
+            "doc_id": "853377429_23150-23662-0-512",
+            "text": "Sickle cell disease\nSickle cell disease\nWhen treating avascular necrosis of the bone in people with sickle cell disease , the aim of treatment is to reduce or stop the pain and maintain joint mobility . Current treatment options are to rest the joint , physical therapy , pain relief medicine , joint replacement surgery , or bone grafting . High quality randomized controlled trials are needed to assess the most effective treatment option and determine if a combination of physical therapy and surgery are more effective than physical therapy alone ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "How-To",
+          "Summarization"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "4",
+      "task_id": "5c13daa9432149f6243aa1115629cd1a<::>4",
+      "question": "Will it kill me?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "where is bone marrow found what does it do for the body"
+        },
+        {
+          "role": "assistant",
+          "content": "Bone marrow is found within the spongy or cancellous portions of bones. Human marrow produces approximately 500 billion blood cells per day. The main functional component of bone marrow includes the progenitor cells which are destined to mature into blood and lymphoid cells. These include white blood cells, red blood cells, and platelets. In humans, the red marrow of some bones is an important site for blood cell production, in order to replace existing cells that have been destroyed by the liver. "
+        },
+        {
+          "role": "user",
+          "content": "What happens if it does not work well?"
+        },
+        {
+          "role": "assistant",
+          "content": "If bone marrow does not function properly, it can lead to a decrease in the production of blood cells and blood platelets. This can be caused by various factors such as aplastic anemia, malignancies like multiple myeloma, congenital defects , autoimmune diseases, infections like tuberculosis, leukemia, or exposure to radiation or chemotherapy. Symptoms of a malfunctioning bone marrow can include fatigue, increased risk of infection, and easy bruising or bleeding. In the case of sickle cell disease, the bone marrow's attempt to compensate for the destruction of red cells is not sufficient, leading to anemia."
+        },
+        {
+          "role": "user",
+          "content": "How is Sickle cell treated?"
+        },
+        {
+          "role": "assistant",
+          "content": "The treatment for sickle cell disease may include infection prevention with vaccination and antibiotics, high fluid intake, folic acid supplementation, pain medication, blood transfusion, and the medication hydroxycarbamide (hydroxyurea). A small percentage of people can be cured by a transplant of bone marrow cells. When treating avascular necrosis of the bone in people with sickle cell disease, the aim of treatment is to reduce or stop the pain and maintain joint mobility. Current treatment options are to rest the joint, physical therapy, pain relief medicine, joint replacement surgery, or bone grafting. High quality randomized controlled trials are needed to assess the most effective treatment option and determine if a combination of physical therapy and surgery are more effective than physical therapy alone."
+        }
+      ],
+      "retrieval": {
+        "query": "Will it kill me?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "826038618_9391-11863-1560-2472",
+            "score": null,
+            "score_type": "contriever",
+            "text": "1000 Ways to Die (season 1) The hornets attack him and he dies from anaphylactic shock due to an unknown allergy to hornet venom . 952 Dumbrella January 13 , 2007 Wood 's Carnival Barnegat , NJ A sword swallower trying to perform despite dwindling audiences and an unstable economy takes a bet to swallow an umbrella . However , the release button is accidentally hit in the process and the umbrella is lodged in his esophagus . This closes off his trachea and causes internal bleeding and choking , killing him . 674 Killdo January 31 , 2004 Jennifer 's Pad Roanoke , VA While eyeing a handsome grocery store clerk , a woman gets the idea to use a peeled carrot as a dildo during her nightly masturbation session . While using the carrot during her session , a rough cut slices her vaginal wall , letting air into her circulatory system . An air bubble travels to her heart , blocking blood flow , and the woman dies from an air embolism .",
+            "title": "1000 Ways to Die (season 1)"
+          },
+          {
+            "rank": 2,
+            "doc_id": "826038618_23901-26223-1500-2321",
+            "score": null,
+            "score_type": "contriever",
+            "text": "1000 Ways to Die (season 1) 499 Pained Gun September 20 , 2006 Simi Valley , CA A pair of high - school boys film themselves doing drive - bys on people with a paintball gun as part of a hare - brained plot to become viral video stars on YouTube . When the gun malfunctions , it shoots the CO canister at 200 mph into the larynx of his friend , which breaks his neck and kills him . ( This features the youngest person to have been killed in the whole series. ) 283 Deathliest Catch July 17 , 2000 Laguna del Perro Willard , NM An easily agitated electrician tries his hand at fishing to calm his nerves , but is frustrated by not being able to make a catch . He strings a 12,000 volt electrical wire into the lake to kill the fish , but accidentally steps barefoot off the wooden boat seat onto the metal of the boat floor , electrocuting himself .",
+            "title": "1000 Ways to Die (season 1)"
+          },
+          {
+            "rank": 3,
+            "doc_id": "838544298_9988-10493-0-505",
+            "score": null,
+            "score_type": "contriever",
+            "text": "It (novel) Three other people are also converging on the town : Audra , who is worried about Bill ; Tom , who plans to kill Beverly ; and Henry Bowers , who has escaped from Juniper Hill Mental Asylum with help from It . Mike and Henry have a violent confrontation at the library . Mike is nearly killed but Henry escapes , severely injured . Henry is driven to the hotel where It instructs him to kill the rest of the Losers . Henry attacks Eddie , breaking his arm once again , but in the fight , Henry is killed .",
+            "title": "It (novel)"
+          },
+          {
+            "rank": 4,
+            "doc_id": "826038618_23901-26223-0-2131",
+            "score": null,
+            "score_type": "contriever",
+            "text": "1000 Ways to Die (season 1) Death # `` Event '' Name Date of Death Location Circumstances of Death 502 Gas - hole May 19 , 2002 Glacier National Park West Glacier , MT A wanted drug dealer hides out in the wilderness . Wanting to get drunk but having no booze ( and not willing to get caught by authorities by setting foot in a bar or liquor store ) , he siphons the gasoline from his motorcycle , thinking he can drink it because it contains ethanol . However , he is unable to keep it down , and when he vomits it back up onto his campfire , he is engulfed in flames . Ichiboned November 21 , 1987 Tanaka Residence Tokyo , Japan A young , shy Japanese couple that has been married for seven years are too repressed to even consummate their marriage by making love . One day , after a bottle of plum wine , they try again , and this time succeed . Their hearts are not physically ready for such a shock , however , and they both die from cardiac arrest after achieving simultaneous orgasms . 518 Jake N ' Baked December 15 , 1990 H.A. Metal Works Long Beach , CA A narcoleptic metal worker falls asleep in a curing oven . When a friend / co-worker locks him in and turns the oven on to 600 ° F for 12 hours , not knowing the man is in the oven , he is burned alive . 734 Die It June 12 , 2003 Darlene 's House Evanston , IL A woman who is desperate to lose weight swallows tapeworm larvae . They eat everything she does , and eventually breed , spread throughout her body , and start eating her internal organs , killing her . 499 Pained Gun September 20 , 2006 Simi Valley , CA A pair of high - school boys film themselves doing drive - bys on people with a paintball gun as part of a hare - brained plot to become viral video stars on YouTube . When the gun malfunctions , it shoots the CO canister at 200 mph into the larynx of his friend , which breaks his neck and kills him . ( This features the youngest person to have been killed in the whole series. ) 283 Deathliest Catch July 17 , 2000 Laguna del Perro Willard , NM An easily agitated electrician tries his hand at fishing to calm his nerves , but is frustrated by not being able to make a catch .",
+            "title": "1000 Ways to Die (season 1)"
+          },
+          {
+            "rank": 5,
+            "doc_id": "826038618_8008-8347-0-339",
+            "score": null,
+            "score_type": "contriever",
+            "text": "1000 Ways to Die (season 1) `` Death ... is everywhere . Most of us try to avoid it , others ca n't get out of its way . Every day we fight a new war against GERMS , TOXINS , INJURY , ILLNESS , and CATASTROPHE . '' `` There 's a lot of ways to wind up dead . The fact that we survive at all is a miracle , because every day we live , we face ... 1000 WAYS TO DIE . ''",
+            "title": "1000 Ways to Die (season 1)"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "826038618_9391-11863-1560-2472",
+            "score": null,
+            "score_type": "contriever",
+            "text": "1000 Ways to Die (season 1) The hornets attack him and he dies from anaphylactic shock due to an unknown allergy to hornet venom . 952 Dumbrella January 13 , 2007 Wood 's Carnival Barnegat , NJ A sword swallower trying to perform despite dwindling audiences and an unstable economy takes a bet to swallow an umbrella . However , the release button is accidentally hit in the process and the umbrella is lodged in his esophagus . This closes off his trachea and causes internal bleeding and choking , killing him . 674 Killdo January 31 , 2004 Jennifer 's Pad Roanoke , VA While eyeing a handsome grocery store clerk , a woman gets the idea to use a peeled carrot as a dildo during her nightly masturbation session . While using the carrot during her session , a rough cut slices her vaginal wall , letting air into her circulatory system . An air bubble travels to her heart , blocking blood flow , and the woman dies from an air embolism .",
+            "title": "1000 Ways to Die (season 1)"
+          },
+          {
+            "rank": 2,
+            "doc_id": "826038618_23901-26223-1500-2321",
+            "score": null,
+            "score_type": "contriever",
+            "text": "1000 Ways to Die (season 1) 499 Pained Gun September 20 , 2006 Simi Valley , CA A pair of high - school boys film themselves doing drive - bys on people with a paintball gun as part of a hare - brained plot to become viral video stars on YouTube . When the gun malfunctions , it shoots the CO canister at 200 mph into the larynx of his friend , which breaks his neck and kills him . ( This features the youngest person to have been killed in the whole series. ) 283 Deathliest Catch July 17 , 2000 Laguna del Perro Willard , NM An easily agitated electrician tries his hand at fishing to calm his nerves , but is frustrated by not being able to make a catch . He strings a 12,000 volt electrical wire into the lake to kill the fish , but accidentally steps barefoot off the wooden boat seat onto the metal of the boat floor , electrocuting himself .",
+            "title": "1000 Ways to Die (season 1)"
+          },
+          {
+            "rank": 3,
+            "doc_id": "838544298_9988-10493-0-505",
+            "score": null,
+            "score_type": "contriever",
+            "text": "It (novel) Three other people are also converging on the town : Audra , who is worried about Bill ; Tom , who plans to kill Beverly ; and Henry Bowers , who has escaped from Juniper Hill Mental Asylum with help from It . Mike and Henry have a violent confrontation at the library . Mike is nearly killed but Henry escapes , severely injured . Henry is driven to the hotel where It instructs him to kill the rest of the Losers . Henry attacks Eddie , breaking his arm once again , but in the fight , Henry is killed .",
+            "title": "It (novel)"
+          },
+          {
+            "rank": 4,
+            "doc_id": "826038618_23901-26223-0-2131",
+            "score": null,
+            "score_type": "contriever",
+            "text": "1000 Ways to Die (season 1) Death # `` Event '' Name Date of Death Location Circumstances of Death 502 Gas - hole May 19 , 2002 Glacier National Park West Glacier , MT A wanted drug dealer hides out in the wilderness . Wanting to get drunk but having no booze ( and not willing to get caught by authorities by setting foot in a bar or liquor store ) , he siphons the gasoline from his motorcycle , thinking he can drink it because it contains ethanol . However , he is unable to keep it down , and when he vomits it back up onto his campfire , he is engulfed in flames . Ichiboned November 21 , 1987 Tanaka Residence Tokyo , Japan A young , shy Japanese couple that has been married for seven years are too repressed to even consummate their marriage by making love . One day , after a bottle of plum wine , they try again , and this time succeed . Their hearts are not physically ready for such a shock , however , and they both die from cardiac arrest after achieving simultaneous orgasms . 518 Jake N ' Baked December 15 , 1990 H.A. Metal Works Long Beach , CA A narcoleptic metal worker falls asleep in a curing oven . When a friend / co-worker locks him in and turns the oven on to 600 ° F for 12 hours , not knowing the man is in the oven , he is burned alive . 734 Die It June 12 , 2003 Darlene 's House Evanston , IL A woman who is desperate to lose weight swallows tapeworm larvae . They eat everything she does , and eventually breed , spread throughout her body , and start eating her internal organs , killing her . 499 Pained Gun September 20 , 2006 Simi Valley , CA A pair of high - school boys film themselves doing drive - bys on people with a paintball gun as part of a hare - brained plot to become viral video stars on YouTube . When the gun malfunctions , it shoots the CO canister at 200 mph into the larynx of his friend , which breaks his neck and kills him . ( This features the youngest person to have been killed in the whole series. ) 283 Deathliest Catch July 17 , 2000 Laguna del Perro Willard , NM An easily agitated electrician tries his hand at fishing to calm his nerves , but is frustrated by not being able to make a catch .",
+            "title": "1000 Ways to Die (season 1)"
+          },
+          {
+            "rank": 5,
+            "doc_id": "826038618_8008-8347-0-339",
+            "score": null,
+            "score_type": "contriever",
+            "text": "1000 Ways to Die (season 1) `` Death ... is everywhere . Most of us try to avoid it , others ca n't get out of its way . Every day we fight a new war against GERMS , TOXINS , INJURY , ILLNESS , and CATASTROPHE . '' `` There 's a lot of ways to wind up dead . The fact that we survive at all is a miracle , because every day we live , we face ... 1000 WAYS TO DIE . ''",
+            "title": "1000 Ways to Die (season 1)"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "It is important to note that the prognosis and treatment for sickle cell disease can vary greatly depending on the individual and their specific symptoms and medical history.It is always best to consult with a healthcare professional for personalized advice and treatment options.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "826038618_9391-11863-1560-2472",
+          "score": null,
+          "score_type": "contriever",
+          "text": "1000 Ways to Die (season 1) The hornets attack him and he dies from anaphylactic shock due to an unknown allergy to hornet venom . 952 Dumbrella January 13 , 2007 Wood 's Carnival Barnegat , NJ A sword swallower trying to perform despite dwindling audiences and an unstable economy takes a bet to swallow an umbrella . However , the release button is accidentally hit in the process and the umbrella is lodged in his esophagus . This closes off his trachea and causes internal bleeding and choking , killing him . 674 Killdo January 31 , 2004 Jennifer 's Pad Roanoke , VA While eyeing a handsome grocery store clerk , a woman gets the idea to use a peeled carrot as a dildo during her nightly masturbation session . While using the carrot during her session , a rough cut slices her vaginal wall , letting air into her circulatory system . An air bubble travels to her heart , blocking blood flow , and the woman dies from an air embolism .",
+          "title": "1000 Ways to Die (season 1)"
+        },
+        {
+          "rank": 2,
+          "doc_id": "826038618_23901-26223-1500-2321",
+          "score": null,
+          "score_type": "contriever",
+          "text": "1000 Ways to Die (season 1) 499 Pained Gun September 20 , 2006 Simi Valley , CA A pair of high - school boys film themselves doing drive - bys on people with a paintball gun as part of a hare - brained plot to become viral video stars on YouTube . When the gun malfunctions , it shoots the CO canister at 200 mph into the larynx of his friend , which breaks his neck and kills him . ( This features the youngest person to have been killed in the whole series. ) 283 Deathliest Catch July 17 , 2000 Laguna del Perro Willard , NM An easily agitated electrician tries his hand at fishing to calm his nerves , but is frustrated by not being able to make a catch . He strings a 12,000 volt electrical wire into the lake to kill the fish , but accidentally steps barefoot off the wooden boat seat onto the metal of the boat floor , electrocuting himself .",
+          "title": "1000 Ways to Die (season 1)"
+        },
+        {
+          "rank": 3,
+          "doc_id": "838544298_9988-10493-0-505",
+          "score": null,
+          "score_type": "contriever",
+          "text": "It (novel) Three other people are also converging on the town : Audra , who is worried about Bill ; Tom , who plans to kill Beverly ; and Henry Bowers , who has escaped from Juniper Hill Mental Asylum with help from It . Mike and Henry have a violent confrontation at the library . Mike is nearly killed but Henry escapes , severely injured . Henry is driven to the hotel where It instructs him to kill the rest of the Losers . Henry attacks Eddie , breaking his arm once again , but in the fight , Henry is killed .",
+          "title": "It (novel)"
+        },
+        {
+          "rank": 4,
+          "doc_id": "826038618_23901-26223-0-2131",
+          "score": null,
+          "score_type": "contriever",
+          "text": "1000 Ways to Die (season 1) Death # `` Event '' Name Date of Death Location Circumstances of Death 502 Gas - hole May 19 , 2002 Glacier National Park West Glacier , MT A wanted drug dealer hides out in the wilderness . Wanting to get drunk but having no booze ( and not willing to get caught by authorities by setting foot in a bar or liquor store ) , he siphons the gasoline from his motorcycle , thinking he can drink it because it contains ethanol . However , he is unable to keep it down , and when he vomits it back up onto his campfire , he is engulfed in flames . Ichiboned November 21 , 1987 Tanaka Residence Tokyo , Japan A young , shy Japanese couple that has been married for seven years are too repressed to even consummate their marriage by making love . One day , after a bottle of plum wine , they try again , and this time succeed . Their hearts are not physically ready for such a shock , however , and they both die from cardiac arrest after achieving simultaneous orgasms . 518 Jake N ' Baked December 15 , 1990 H.A. Metal Works Long Beach , CA A narcoleptic metal worker falls asleep in a curing oven . When a friend / co-worker locks him in and turns the oven on to 600 ° F for 12 hours , not knowing the man is in the oven , he is burned alive . 734 Die It June 12 , 2003 Darlene 's House Evanston , IL A woman who is desperate to lose weight swallows tapeworm larvae . They eat everything she does , and eventually breed , spread throughout her body , and start eating her internal organs , killing her . 499 Pained Gun September 20 , 2006 Simi Valley , CA A pair of high - school boys film themselves doing drive - bys on people with a paintball gun as part of a hare - brained plot to become viral video stars on YouTube . When the gun malfunctions , it shoots the CO canister at 200 mph into the larynx of his friend , which breaks his neck and kills him . ( This features the youngest person to have been killed in the whole series. ) 283 Deathliest Catch July 17 , 2000 Laguna del Perro Willard , NM An easily agitated electrician tries his hand at fishing to calm his nerves , but is frustrated by not being able to make a catch .",
+          "title": "1000 Ways to Die (season 1)"
+        },
+        {
+          "rank": 5,
+          "doc_id": "826038618_8008-8347-0-339",
+          "score": null,
+          "score_type": "contriever",
+          "text": "1000 Ways to Die (season 1) `` Death ... is everywhere . Most of us try to avoid it , others ca n't get out of its way . Every day we fight a new war against GERMS , TOXINS , INJURY , ILLNESS , and CATASTROPHE . '' `` There 's a lot of ways to wind up dead . The fact that we survive at all is a miracle , because every day we live , we face ... 1000 WAYS TO DIE . ''",
+          "title": "1000 Ways to Die (season 1)"
+        }
+      ],
+      "reference": {
+        "answer": "A small percentage of people can be cured by a transplant of bone marrow cells. Life expectancy for people with sickle cell disease in the developed world is 40 to 60 years. About 90 % of people survive to age 20, and close to 50 % survive beyond age 50, and many people with the condition live well into adulthood with proper medical care. The disease can be life-threatening, but with appropriate treatment and management, the prognosis can be improved. ",
+        "evidence_ids": [
+          "853377429_2317-2677-0-360",
+          "853377429_23953-24295-0-342",
+          "853377429_977-1692-0-715",
+          "853377429_52-976-0-924"
+        ],
+        "evidence": [
+          {
+            "doc_id": "853377429_2317-2677-0-360",
+            "text": "Sickle cell disease\nSickle cell disease\nThe care of people with sickle cell disease may include infection prevention with vaccination and antibiotics , high fluid intake , folic acid supplementation and pain medication . Other measures may include blood transfusion and the medication hydroxycarbamide ( hydroxyurea ) . A small percentage of people can be cured by a transplant of bone marrow cells ."
+          },
+          {
+            "doc_id": "853377429_23953-24295-0-342",
+            "text": "Sickle cell disease\nSickle cell disease\nAbout 90 % of people survive to age 20 , and close to 50 % survive beyond age 50 . In 2001 , according to one study performed in Jamaica , the estimated mean survival for people with sickle cell was 53 years old for men and 58 years old for women with homozygous SCD . The specific life expectancy in much of the developing world is unknown ."
+          },
+          {
+            "doc_id": "853377429_977-1692-0-715",
+            "text": "Sickle cell disease\nSickle cell disease\nSickle cell disease ( SCD ) is a group of blood disorders typically inherited from a person 's parents . The most common type is known as sickle cell anaemia ( SCA ) . It results in an abnormality in the oxygen - carrying protein haemoglobin found in red blood cells . This leads to a rigid , sickle - like shape under certain circumstances . Problems in sickle cell disease typically begin around 5 to 6 months of age . A number of health problems may develop , such as attacks of pain ( `` sickle cell crisis '' ) , anemia , swelling in the hands and feet , bacterial infections and stroke . Long - term pain may develop as people get older . The average life expectancy in the developed world is 40 to 60 years ."
+          },
+          {
+            "doc_id": "853377429_52-976-0-924",
+            "text": "Sickle cell disease\nSickle cell disease\nSickle cell disease Synonyms Sickle cell disorder Figure ( A ) shows normal red blood cells flowing freely through veins . The inset shows a cross section of a normal red blood cell with normal haemoglobin . Figure ( B ) shows abnormal , sickled red blood cells sticking at the branching point in a vein . The inset image shows a cross-section of a sickle cell with long polymerized sickle haemoglobin ( HbS ) strands stretching and distorting the cell shape . Specialty Hematology Symptoms Attacks of pain , anemia , swelling in the hands and feet , bacterial infections , stroke Complications Chronic pain Usual onset 5 -- 6 months of age Causes Genetic Diagnostic method Blood test Treatment Vaccination , antibiotics , high fluid intake , folic acid supplementation . pain medication , blood transfusions Prognosis Life expectancy 40 -- 60 years ( developed world ) Frequency 4.4 million ( 2015 ) Deaths 114,800 ( 2015 )"
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "5",
+      "task_id": "5c13daa9432149f6243aa1115629cd1a<::>5",
+      "question": "How about transplant?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "where is bone marrow found what does it do for the body"
+        },
+        {
+          "role": "assistant",
+          "content": "Bone marrow is found within the spongy or cancellous portions of bones. Human marrow produces approximately 500 billion blood cells per day. The main functional component of bone marrow includes the progenitor cells which are destined to mature into blood and lymphoid cells. These include white blood cells, red blood cells, and platelets. In humans, the red marrow of some bones is an important site for blood cell production, in order to replace existing cells that have been destroyed by the liver. "
+        },
+        {
+          "role": "user",
+          "content": "What happens if it does not work well?"
+        },
+        {
+          "role": "assistant",
+          "content": "If bone marrow does not function properly, it can lead to a decrease in the production of blood cells and blood platelets. This can be caused by various factors such as aplastic anemia, malignancies like multiple myeloma, congenital defects , autoimmune diseases, infections like tuberculosis, leukemia, or exposure to radiation or chemotherapy. Symptoms of a malfunctioning bone marrow can include fatigue, increased risk of infection, and easy bruising or bleeding. In the case of sickle cell disease, the bone marrow's attempt to compensate for the destruction of red cells is not sufficient, leading to anemia."
+        },
+        {
+          "role": "user",
+          "content": "How is Sickle cell treated?"
+        },
+        {
+          "role": "assistant",
+          "content": "The treatment for sickle cell disease may include infection prevention with vaccination and antibiotics, high fluid intake, folic acid supplementation, pain medication, blood transfusion, and the medication hydroxycarbamide (hydroxyurea). A small percentage of people can be cured by a transplant of bone marrow cells. When treating avascular necrosis of the bone in people with sickle cell disease, the aim of treatment is to reduce or stop the pain and maintain joint mobility. Current treatment options are to rest the joint, physical therapy, pain relief medicine, joint replacement surgery, or bone grafting. High quality randomized controlled trials are needed to assess the most effective treatment option and determine if a combination of physical therapy and surgery are more effective than physical therapy alone."
+        },
+        {
+          "role": "user",
+          "content": "Will it kill me?"
+        },
+        {
+          "role": "assistant",
+          "content": "A small percentage of people can be cured by a transplant of bone marrow cells. Life expectancy for people with sickle cell disease in the developed world is 40 to 60 years. About 90 % of people survive to age 20, and close to 50 % survive beyond age 50, and many people with the condition live well into adulthood with proper medical care. The disease can be life-threatening, but with appropriate treatment and management, the prognosis can be improved. "
+        }
+      ],
+      "retrieval": {
+        "query": "How about transplant?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "825171915_11920-12748-0-828",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Bone marrow In a bone marrow transplant , hematopoietic stem cells are removed from a person and infused into another person ( allogenic ) or into the same person at a later time ( autologous ) . If the donor and recipient are compatible , these infused cells will then travel to the bone marrow and initiate blood cell production . Transplantation from one person to another is conducted for the treatment of severe bone marrow diseases , such as congenital defects , autoimmune diseases or malignancies . The patient 's own marrow is first killed off with drugs or radiation , and then the new stem cells are introduced . Before radiation therapy or chemotherapy in cases of cancer , some of the patient 's hematopoietic stem cells are sometimes harvested and later infused back when the therapy is finished to restore the immune system .",
+            "title": "Bone marrow"
+          },
+          {
+            "rank": 2,
+            "doc_id": "825171915_12749-13209-0-460",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Bone marrow Bone marrow stem cells can be induced to become neural cells to treat neurological illnesses , and can also potentially be used for the treatment of other illnesses , such as inflammatory bowel disease . In 2013 , following a clinical trial , scientists proposed that bone marrow transplantation could be used to treat HIV in conjunction with antiretroviral drugs ; however , it was later found that HIV remained in the bodies of the test subjects . Harvesting",
+            "title": "Bone marrow"
+          },
+          {
+            "rank": 3,
+            "doc_id": "853377429_36903-37132-0-229",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Sickle cell disease While umbilical cord blood transplant can potentially cure the condition , a suitable donor is available in only 10 % of people . About 7 % of people also die as a result of the procedure and graft versus host disease may occur .",
+            "title": "Sickle cell disease"
+          },
+          {
+            "rank": 4,
+            "doc_id": "825171915_1248-1580-0-332",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Bone marrow Bone marrow transplants can be conducted to treat severe diseases of the bone marrow , including certain forms of cancer such as leukemia . Additionally , bone marrow stem cells have been successfully transformed into functional neural cells , and can also potentially be used to treat illnesses such as inflammatory bowel disease .",
+            "title": "Bone marrow"
+          },
+          {
+            "rank": 5,
+            "doc_id": "857095139_64072-64873-0-801",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Heart The first successful heart transplantation was performed in 1967 by the South African surgeon Christiaan Barnard at Groote Schuur Hospital in Cape Town . This marked an important milestone in cardiac surgery , capturing the attention of both the medical profession and the world at large . However , long - term survival rates of patients were initially very low . Louis Washkansky , the first recipient of a donated heart , died 18 days after the operation while other patients did not survive for more than a few weeks . The American surgeon Norman Shumway has been credited for his efforts to improve transplantation techniques , along with pioneers Richard Lower , Vladimir Demikhov and Adrian Kantrowitz . As of March 2000 , more than 55,000 heart transplantations have been performed worldwide .",
+            "title": "Heart"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "825171915_11920-12748-0-828",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Bone marrow In a bone marrow transplant , hematopoietic stem cells are removed from a person and infused into another person ( allogenic ) or into the same person at a later time ( autologous ) . If the donor and recipient are compatible , these infused cells will then travel to the bone marrow and initiate blood cell production . Transplantation from one person to another is conducted for the treatment of severe bone marrow diseases , such as congenital defects , autoimmune diseases or malignancies . The patient 's own marrow is first killed off with drugs or radiation , and then the new stem cells are introduced . Before radiation therapy or chemotherapy in cases of cancer , some of the patient 's hematopoietic stem cells are sometimes harvested and later infused back when the therapy is finished to restore the immune system .",
+            "title": "Bone marrow"
+          },
+          {
+            "rank": 2,
+            "doc_id": "825171915_12749-13209-0-460",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Bone marrow Bone marrow stem cells can be induced to become neural cells to treat neurological illnesses , and can also potentially be used for the treatment of other illnesses , such as inflammatory bowel disease . In 2013 , following a clinical trial , scientists proposed that bone marrow transplantation could be used to treat HIV in conjunction with antiretroviral drugs ; however , it was later found that HIV remained in the bodies of the test subjects . Harvesting",
+            "title": "Bone marrow"
+          },
+          {
+            "rank": 3,
+            "doc_id": "853377429_36903-37132-0-229",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Sickle cell disease While umbilical cord blood transplant can potentially cure the condition , a suitable donor is available in only 10 % of people . About 7 % of people also die as a result of the procedure and graft versus host disease may occur .",
+            "title": "Sickle cell disease"
+          },
+          {
+            "rank": 4,
+            "doc_id": "825171915_1248-1580-0-332",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Bone marrow Bone marrow transplants can be conducted to treat severe diseases of the bone marrow , including certain forms of cancer such as leukemia . Additionally , bone marrow stem cells have been successfully transformed into functional neural cells , and can also potentially be used to treat illnesses such as inflammatory bowel disease .",
+            "title": "Bone marrow"
+          },
+          {
+            "rank": 5,
+            "doc_id": "857095139_64072-64873-0-801",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Heart The first successful heart transplantation was performed in 1967 by the South African surgeon Christiaan Barnard at Groote Schuur Hospital in Cape Town . This marked an important milestone in cardiac surgery , capturing the attention of both the medical profession and the world at large . However , long - term survival rates of patients were initially very low . Louis Washkansky , the first recipient of a donated heart , died 18 days after the operation while other patients did not survive for more than a few weeks . The American surgeon Norman Shumway has been credited for his efforts to improve transplantation techniques , along with pioneers Richard Lower , Vladimir Demikhov and Adrian Kantrowitz . As of March 2000 , more than 55,000 heart transplantations have been performed worldwide .",
+            "title": "Heart"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Assistant: Bone marrow transplant is a procedure in which healthy bone marrow is infused into a patient to replace diseased bone marrow.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "825171915_11920-12748-0-828",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Bone marrow In a bone marrow transplant , hematopoietic stem cells are removed from a person and infused into another person ( allogenic ) or into the same person at a later time ( autologous ) . If the donor and recipient are compatible , these infused cells will then travel to the bone marrow and initiate blood cell production . Transplantation from one person to another is conducted for the treatment of severe bone marrow diseases , such as congenital defects , autoimmune diseases or malignancies . The patient 's own marrow is first killed off with drugs or radiation , and then the new stem cells are introduced . Before radiation therapy or chemotherapy in cases of cancer , some of the patient 's hematopoietic stem cells are sometimes harvested and later infused back when the therapy is finished to restore the immune system .",
+          "title": "Bone marrow"
+        },
+        {
+          "rank": 2,
+          "doc_id": "825171915_12749-13209-0-460",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Bone marrow Bone marrow stem cells can be induced to become neural cells to treat neurological illnesses , and can also potentially be used for the treatment of other illnesses , such as inflammatory bowel disease . In 2013 , following a clinical trial , scientists proposed that bone marrow transplantation could be used to treat HIV in conjunction with antiretroviral drugs ; however , it was later found that HIV remained in the bodies of the test subjects . Harvesting",
+          "title": "Bone marrow"
+        },
+        {
+          "rank": 3,
+          "doc_id": "853377429_36903-37132-0-229",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Sickle cell disease While umbilical cord blood transplant can potentially cure the condition , a suitable donor is available in only 10 % of people . About 7 % of people also die as a result of the procedure and graft versus host disease may occur .",
+          "title": "Sickle cell disease"
+        },
+        {
+          "rank": 4,
+          "doc_id": "825171915_1248-1580-0-332",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Bone marrow Bone marrow transplants can be conducted to treat severe diseases of the bone marrow , including certain forms of cancer such as leukemia . Additionally , bone marrow stem cells have been successfully transformed into functional neural cells , and can also potentially be used to treat illnesses such as inflammatory bowel disease .",
+          "title": "Bone marrow"
+        },
+        {
+          "rank": 5,
+          "doc_id": "857095139_64072-64873-0-801",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Heart The first successful heart transplantation was performed in 1967 by the South African surgeon Christiaan Barnard at Groote Schuur Hospital in Cape Town . This marked an important milestone in cardiac surgery , capturing the attention of both the medical profession and the world at large . However , long - term survival rates of patients were initially very low . Louis Washkansky , the first recipient of a donated heart , died 18 days after the operation while other patients did not survive for more than a few weeks . The American surgeon Norman Shumway has been credited for his efforts to improve transplantation techniques , along with pioneers Richard Lower , Vladimir Demikhov and Adrian Kantrowitz . As of March 2000 , more than 55,000 heart transplantations have been performed worldwide .",
+          "title": "Heart"
+        }
+      ],
+      "reference": {
+        "answer": "A bone marrow transplant is a potential cure for sickle cell disease, although it is difficult to obtain a suitable donor due to the specific HLA typing necessary. Ideally, a close relative would donate the bone marrow. Risks associated with the procedure are a 7% mortality rate and the possibility of graft versus host disease. In phase 1 clinical trials for adults with severe sickle cell disease, the safety and initial evidence for efficacy have been assessed, no randomized controlled trials have been reported as of 2016. It is important to note that while a bone marrow transplant can potentially cure sickle cell disease, it is not a guaranteed solution and carries significant risks. ",
+        "evidence_ids": [
+          "853377429_22796-23121-0-325",
+          "853377429_37780-38219-0-439",
+          "853377429_36903-37132-0-229"
+        ],
+        "evidence": [
+          {
+            "doc_id": "853377429_22796-23121-0-325",
+            "text": "Sickle cell disease\nSickle cell disease\nBone marrow transplants have proven effective in children . Bone marrow transplants are the only known cure for SCD . However , bone marrow transplants are difficult to obtain because of the specific HLA typing necessary . Ideally , a close relative ( allogeneic ) would donate the bone marrow necessary for transplantation ."
+          },
+          {
+            "doc_id": "853377429_37780-38219-0-439",
+            "text": "Sickle cell disease\nSickle cell disease\nPhase 1 clinical trials of gene therapy for sickle cell disease in humans were started in 2014 . The clinical trials will assess the safety and initial evidence for efficacy of an autologous transplant of lentiviral vector - modified bone marrow for adults with severe sickle cell disease . As of 2016 , however , no randomized controlled trials have been reported . A case report for the first person treated was published in March 2017 ."
+          },
+          {
+            "doc_id": "853377429_36903-37132-0-229",
+            "text": "Sickle cell disease\nSickle cell disease\nWhile umbilical cord blood transplant can potentially cure the condition , a suitable donor is available in only 10 % of people . About 7 % of people also die as a result of the procedure and graft versus host disease may occur ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Explanation"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "6",
+      "task_id": "5c13daa9432149f6243aa1115629cd1a<::>6",
+      "question": "Is Huntington's disease also inherited?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "where is bone marrow found what does it do for the body"
+        },
+        {
+          "role": "assistant",
+          "content": "Bone marrow is found within the spongy or cancellous portions of bones. Human marrow produces approximately 500 billion blood cells per day. The main functional component of bone marrow includes the progenitor cells which are destined to mature into blood and lymphoid cells. These include white blood cells, red blood cells, and platelets. In humans, the red marrow of some bones is an important site for blood cell production, in order to replace existing cells that have been destroyed by the liver. "
+        },
+        {
+          "role": "user",
+          "content": "What happens if it does not work well?"
+        },
+        {
+          "role": "assistant",
+          "content": "If bone marrow does not function properly, it can lead to a decrease in the production of blood cells and blood platelets. This can be caused by various factors such as aplastic anemia, malignancies like multiple myeloma, congenital defects , autoimmune diseases, infections like tuberculosis, leukemia, or exposure to radiation or chemotherapy. Symptoms of a malfunctioning bone marrow can include fatigue, increased risk of infection, and easy bruising or bleeding. In the case of sickle cell disease, the bone marrow's attempt to compensate for the destruction of red cells is not sufficient, leading to anemia."
+        },
+        {
+          "role": "user",
+          "content": "How is Sickle cell treated?"
+        },
+        {
+          "role": "assistant",
+          "content": "The treatment for sickle cell disease may include infection prevention with vaccination and antibiotics, high fluid intake, folic acid supplementation, pain medication, blood transfusion, and the medication hydroxycarbamide (hydroxyurea). A small percentage of people can be cured by a transplant of bone marrow cells. When treating avascular necrosis of the bone in people with sickle cell disease, the aim of treatment is to reduce or stop the pain and maintain joint mobility. Current treatment options are to rest the joint, physical therapy, pain relief medicine, joint replacement surgery, or bone grafting. High quality randomized controlled trials are needed to assess the most effective treatment option and determine if a combination of physical therapy and surgery are more effective than physical therapy alone."
+        },
+        {
+          "role": "user",
+          "content": "Will it kill me?"
+        },
+        {
+          "role": "assistant",
+          "content": "A small percentage of people can be cured by a transplant of bone marrow cells. Life expectancy for people with sickle cell disease in the developed world is 40 to 60 years. About 90 % of people survive to age 20, and close to 50 % survive beyond age 50, and many people with the condition live well into adulthood with proper medical care. The disease can be life-threatening, but with appropriate treatment and management, the prognosis can be improved. "
+        },
+        {
+          "role": "user",
+          "content": "How about transplant?"
+        },
+        {
+          "role": "assistant",
+          "content": "A bone marrow transplant is a potential cure for sickle cell disease, although it is difficult to obtain a suitable donor due to the specific HLA typing necessary. Ideally, a close relative would donate the bone marrow. Risks associated with the procedure are a 7% mortality rate and the possibility of graft versus host disease. In phase 1 clinical trials for adults with severe sickle cell disease, the safety and initial evidence for efficacy have been assessed, no randomized controlled trials have been reported as of 2016. It is important to note that while a bone marrow transplant can potentially cure sickle cell disease, it is not a guaranteed solution and carries significant risks. "
+        }
+      ],
+      "retrieval": {
+        "query": "Is Huntington's disease also inherited?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "834242094_12806-13371-0-565",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Huntington's disease Huntington 's disease has autosomal dominant inheritance , meaning that an affected individual typically inherits one copy of the gene with an expanded trinucleotide repeat ( the mutant allele ) from an affected parent . Since penetrance of the mutation is very high , those who have a mutated copy of the gene will have the disease . In this type of inheritance pattern , each offspring of an affected individual has a 50 % risk of inheriting the mutant allele and therefore being affected with the disorder ( see figure ) . This probability is sex - independent .",
+            "title": "Huntington's disease"
+          },
+          {
+            "rank": 2,
+            "doc_id": "834242094_1823-2875-0-1052",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Huntington's disease HD is typically inherited from a person 's parents , although up to 10 % of cases are due to a new mutation . The disease is caused by an autosomal dominant mutation in either of an individual 's two copies of a gene called Huntingtin . This means a child of an affected person typically has a 50 % chance of inheriting the disease . The Huntingtin gene provides the genetic information for a protein that is also called `` huntingtin '' . Expansion of CAG ( cytosine - adenine - guanine ) triplet repeats in the gene coding for the Huntingtin protein results in an abnormal protein , which gradually damages cells in the brain , through mechanisms that are not fully understood . Diagnosis is by genetic testing , which can be carried out at any time , regardless of whether or not symptoms are present . This fact raises several ethical debates : the age at which an individual is considered mature enough to choose testing ; whether parents have the right to have their children tested ; and managing confidentiality and disclosure of test results .",
+            "title": "Huntington's disease"
+          },
+          {
+            "rank": 3,
+            "doc_id": "834242094_42685-43086-0-401",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Huntington's disease `` Of its hereditary nature . When either or both the parents have shown manifestations of the disease ... , one or more of the offspring almost invariably suffer from the disease ... But if by any chance these children go through life without it , the thread is broken and the grandchildren and great - grandchildren of the original shakers may rest assured that they are free from the disease . '' .",
+            "title": "Huntington's disease"
+          },
+          {
+            "rank": 4,
+            "doc_id": "834242094_45800-46368-0-568",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Huntington's disease The search for the cause of this condition was enhanced considerably in 1968 , when the Hereditary Disease Foundation ( HDF ) was created by Milton Wexler , a psychoanalyst based in Los Angeles , California , whose wife Leonore Sabin had been diagnosed earlier that year with Huntington 's disease . The three brothers of Wexler 's wife also suffered from this disease . The foundation was involved in the recruitment of over 100 scientists in the Huntington 's Disease Collaborative Research Project who over a 10 - year period worked to locate the responsible gene .",
+            "title": "Huntington's disease"
+          },
+          {
+            "rank": 5,
+            "doc_id": "834242094_51105-51462-0-357",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Huntington's disease In 1968 , after experiencing HD in his wife 's family , Dr. Milton Wexler was inspired to start the Hereditary Disease Foundation ( HDF ) , with the aim of curing genetic illnesses by coordinating and supporting research . The foundation and Wexler 's daughter , Nancy Wexler , were key parts of the research team in Venezuela which discovered the HD gene .",
+            "title": "Huntington's disease"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "834242094_12806-13371-0-565",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Huntington's disease Huntington 's disease has autosomal dominant inheritance , meaning that an affected individual typically inherits one copy of the gene with an expanded trinucleotide repeat ( the mutant allele ) from an affected parent . Since penetrance of the mutation is very high , those who have a mutated copy of the gene will have the disease . In this type of inheritance pattern , each offspring of an affected individual has a 50 % risk of inheriting the mutant allele and therefore being affected with the disorder ( see figure ) . This probability is sex - independent .",
+            "title": "Huntington's disease"
+          },
+          {
+            "rank": 2,
+            "doc_id": "834242094_1823-2875-0-1052",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Huntington's disease HD is typically inherited from a person 's parents , although up to 10 % of cases are due to a new mutation . The disease is caused by an autosomal dominant mutation in either of an individual 's two copies of a gene called Huntingtin . This means a child of an affected person typically has a 50 % chance of inheriting the disease . The Huntingtin gene provides the genetic information for a protein that is also called `` huntingtin '' . Expansion of CAG ( cytosine - adenine - guanine ) triplet repeats in the gene coding for the Huntingtin protein results in an abnormal protein , which gradually damages cells in the brain , through mechanisms that are not fully understood . Diagnosis is by genetic testing , which can be carried out at any time , regardless of whether or not symptoms are present . This fact raises several ethical debates : the age at which an individual is considered mature enough to choose testing ; whether parents have the right to have their children tested ; and managing confidentiality and disclosure of test results .",
+            "title": "Huntington's disease"
+          },
+          {
+            "rank": 3,
+            "doc_id": "834242094_42685-43086-0-401",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Huntington's disease `` Of its hereditary nature . When either or both the parents have shown manifestations of the disease ... , one or more of the offspring almost invariably suffer from the disease ... But if by any chance these children go through life without it , the thread is broken and the grandchildren and great - grandchildren of the original shakers may rest assured that they are free from the disease . '' .",
+            "title": "Huntington's disease"
+          },
+          {
+            "rank": 4,
+            "doc_id": "834242094_45800-46368-0-568",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Huntington's disease The search for the cause of this condition was enhanced considerably in 1968 , when the Hereditary Disease Foundation ( HDF ) was created by Milton Wexler , a psychoanalyst based in Los Angeles , California , whose wife Leonore Sabin had been diagnosed earlier that year with Huntington 's disease . The three brothers of Wexler 's wife also suffered from this disease . The foundation was involved in the recruitment of over 100 scientists in the Huntington 's Disease Collaborative Research Project who over a 10 - year period worked to locate the responsible gene .",
+            "title": "Huntington's disease"
+          },
+          {
+            "rank": 5,
+            "doc_id": "834242094_51105-51462-0-357",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Huntington's disease In 1968 , after experiencing HD in his wife 's family , Dr. Milton Wexler was inspired to start the Hereditary Disease Foundation ( HDF ) , with the aim of curing genetic illnesses by coordinating and supporting research . The foundation and Wexler 's daughter , Nancy Wexler , were key parts of the research team in Venezuela which discovered the HD gene .",
+            "title": "Huntington's disease"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Yes, Huntington's disease is also inherited.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "834242094_12806-13371-0-565",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Huntington's disease Huntington 's disease has autosomal dominant inheritance , meaning that an affected individual typically inherits one copy of the gene with an expanded trinucleotide repeat ( the mutant allele ) from an affected parent . Since penetrance of the mutation is very high , those who have a mutated copy of the gene will have the disease . In this type of inheritance pattern , each offspring of an affected individual has a 50 % risk of inheriting the mutant allele and therefore being affected with the disorder ( see figure ) . This probability is sex - independent .",
+          "title": "Huntington's disease"
+        },
+        {
+          "rank": 2,
+          "doc_id": "834242094_1823-2875-0-1052",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Huntington's disease HD is typically inherited from a person 's parents , although up to 10 % of cases are due to a new mutation . The disease is caused by an autosomal dominant mutation in either of an individual 's two copies of a gene called Huntingtin . This means a child of an affected person typically has a 50 % chance of inheriting the disease . The Huntingtin gene provides the genetic information for a protein that is also called `` huntingtin '' . Expansion of CAG ( cytosine - adenine - guanine ) triplet repeats in the gene coding for the Huntingtin protein results in an abnormal protein , which gradually damages cells in the brain , through mechanisms that are not fully understood . Diagnosis is by genetic testing , which can be carried out at any time , regardless of whether or not symptoms are present . This fact raises several ethical debates : the age at which an individual is considered mature enough to choose testing ; whether parents have the right to have their children tested ; and managing confidentiality and disclosure of test results .",
+          "title": "Huntington's disease"
+        },
+        {
+          "rank": 3,
+          "doc_id": "834242094_42685-43086-0-401",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Huntington's disease `` Of its hereditary nature . When either or both the parents have shown manifestations of the disease ... , one or more of the offspring almost invariably suffer from the disease ... But if by any chance these children go through life without it , the thread is broken and the grandchildren and great - grandchildren of the original shakers may rest assured that they are free from the disease . '' .",
+          "title": "Huntington's disease"
+        },
+        {
+          "rank": 4,
+          "doc_id": "834242094_45800-46368-0-568",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Huntington's disease The search for the cause of this condition was enhanced considerably in 1968 , when the Hereditary Disease Foundation ( HDF ) was created by Milton Wexler , a psychoanalyst based in Los Angeles , California , whose wife Leonore Sabin had been diagnosed earlier that year with Huntington 's disease . The three brothers of Wexler 's wife also suffered from this disease . The foundation was involved in the recruitment of over 100 scientists in the Huntington 's Disease Collaborative Research Project who over a 10 - year period worked to locate the responsible gene .",
+          "title": "Huntington's disease"
+        },
+        {
+          "rank": 5,
+          "doc_id": "834242094_51105-51462-0-357",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Huntington's disease In 1968 , after experiencing HD in his wife 's family , Dr. Milton Wexler was inspired to start the Hereditary Disease Foundation ( HDF ) , with the aim of curing genetic illnesses by coordinating and supporting research . The foundation and Wexler 's daughter , Nancy Wexler , were key parts of the research team in Venezuela which discovered the HD gene .",
+          "title": "Huntington's disease"
+        }
+      ],
+      "reference": {
+        "answer": "Yes, Huntington's disease is an inherited disorder from one's parents. It is caused by an autosomal dominant mutation in the Huntingtin gene, which results in an abnormal protein that gradually damages cells in the brain. If a person inherits the mutated gene from an affected parent, they will typically develop the disease. The probability of inheriting the mutant allele and being affected with the disorder is 50% for each offspring of an affected individual, regardless of sex.",
+        "evidence_ids": [
+          "834242094_1823-2875-0-1052",
+          "834242094_12806-13371-0-565",
+          "834242094_880-1822-0-942"
+        ],
+        "evidence": [
+          {
+            "doc_id": "834242094_1823-2875-0-1052",
+            "text": "Huntington's disease\nHuntington's disease\nHD is typically inherited from a person 's parents , although up to 10 % of cases are due to a new mutation . The disease is caused by an autosomal dominant mutation in either of an individual 's two copies of a gene called Huntingtin . This means a child of an affected person typically has a 50 % chance of inheriting the disease . The Huntingtin gene provides the genetic information for a protein that is also called `` huntingtin '' . Expansion of CAG ( cytosine - adenine - guanine ) triplet repeats in the gene coding for the Huntingtin protein results in an abnormal protein , which gradually damages cells in the brain , through mechanisms that are not fully understood . Diagnosis is by genetic testing , which can be carried out at any time , regardless of whether or not symptoms are present . This fact raises several ethical debates : the age at which an individual is considered mature enough to choose testing ; whether parents have the right to have their children tested ; and managing confidentiality and disclosure of test results ."
+          },
+          {
+            "doc_id": "834242094_12806-13371-0-565",
+            "text": "Huntington's disease\nHuntington's disease\nHuntington 's disease has autosomal dominant inheritance , meaning that an affected individual typically inherits one copy of the gene with an expanded trinucleotide repeat ( the mutant allele ) from an affected parent . Since penetrance of the mutation is very high , those who have a mutated copy of the gene will have the disease . In this type of inheritance pattern , each offspring of an affected individual has a 50 % risk of inheriting the mutant allele and therefore being affected with the disorder ( see figure ) . This probability is sex - independent ."
+          },
+          {
+            "doc_id": "834242094_880-1822-0-942",
+            "text": "Huntington's disease\nHuntington's disease\nHuntington 's disease ( HD ) , also known as Huntington 's chorea , is an inherited disorder that results in death of brain cells . The earliest symptoms are often subtle problems with mood or mental abilities . A general lack of coordination and an unsteady gait often follow . As the disease advances , uncoordinated , jerky body movements become more apparent . Physical abilities gradually worsen until coordinated movement becomes difficult and the person is unable to talk . Mental abilities generally decline into dementia . The specific symptoms vary somewhat between people . Symptoms usually begin between 30 and 50 years of age , but can start at any age . The disease may develop earlier in life in each successive generation . About eight percent of cases start before the age of 20 years and typically present with symptoms more similar to Parkinson 's disease . People with HD often underestimate the degree of their problems ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Clarification"
+        ]
+      }
+    },
+    {
+      "turn_id": "7",
+      "task_id": "5c13daa9432149f6243aa1115629cd1a<::>7",
+      "question": "Any cures for it?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "where is bone marrow found what does it do for the body"
+        },
+        {
+          "role": "assistant",
+          "content": "Bone marrow is found within the spongy or cancellous portions of bones. Human marrow produces approximately 500 billion blood cells per day. The main functional component of bone marrow includes the progenitor cells which are destined to mature into blood and lymphoid cells. These include white blood cells, red blood cells, and platelets. In humans, the red marrow of some bones is an important site for blood cell production, in order to replace existing cells that have been destroyed by the liver. "
+        },
+        {
+          "role": "user",
+          "content": "What happens if it does not work well?"
+        },
+        {
+          "role": "assistant",
+          "content": "If bone marrow does not function properly, it can lead to a decrease in the production of blood cells and blood platelets. This can be caused by various factors such as aplastic anemia, malignancies like multiple myeloma, congenital defects , autoimmune diseases, infections like tuberculosis, leukemia, or exposure to radiation or chemotherapy. Symptoms of a malfunctioning bone marrow can include fatigue, increased risk of infection, and easy bruising or bleeding. In the case of sickle cell disease, the bone marrow's attempt to compensate for the destruction of red cells is not sufficient, leading to anemia."
+        },
+        {
+          "role": "user",
+          "content": "How is Sickle cell treated?"
+        },
+        {
+          "role": "assistant",
+          "content": "The treatment for sickle cell disease may include infection prevention with vaccination and antibiotics, high fluid intake, folic acid supplementation, pain medication, blood transfusion, and the medication hydroxycarbamide (hydroxyurea). A small percentage of people can be cured by a transplant of bone marrow cells. When treating avascular necrosis of the bone in people with sickle cell disease, the aim of treatment is to reduce or stop the pain and maintain joint mobility. Current treatment options are to rest the joint, physical therapy, pain relief medicine, joint replacement surgery, or bone grafting. High quality randomized controlled trials are needed to assess the most effective treatment option and determine if a combination of physical therapy and surgery are more effective than physical therapy alone."
+        },
+        {
+          "role": "user",
+          "content": "Will it kill me?"
+        },
+        {
+          "role": "assistant",
+          "content": "A small percentage of people can be cured by a transplant of bone marrow cells. Life expectancy for people with sickle cell disease in the developed world is 40 to 60 years. About 90 % of people survive to age 20, and close to 50 % survive beyond age 50, and many people with the condition live well into adulthood with proper medical care. The disease can be life-threatening, but with appropriate treatment and management, the prognosis can be improved. "
+        },
+        {
+          "role": "user",
+          "content": "How about transplant?"
+        },
+        {
+          "role": "assistant",
+          "content": "A bone marrow transplant is a potential cure for sickle cell disease, although it is difficult to obtain a suitable donor due to the specific HLA typing necessary. Ideally, a close relative would donate the bone marrow. Risks associated with the procedure are a 7% mortality rate and the possibility of graft versus host disease. In phase 1 clinical trials for adults with severe sickle cell disease, the safety and initial evidence for efficacy have been assessed, no randomized controlled trials have been reported as of 2016. It is important to note that while a bone marrow transplant can potentially cure sickle cell disease, it is not a guaranteed solution and carries significant risks. "
+        },
+        {
+          "role": "user",
+          "content": "Is Huntington's disease also inherited?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, Huntington's disease is an inherited disorder from one's parents. It is caused by an autosomal dominant mutation in the Huntingtin gene, which results in an abnormal protein that gradually damages cells in the brain. If a person inherits the mutated gene from an affected parent, they will typically develop the disease. The probability of inheriting the mutant allele and being affected with the disorder is 50% for each offspring of an affected individual, regardless of sex."
+        }
+      ],
+      "retrieval": {
+        "query": "Any cures for it?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "806860259_1814-2348-0-534",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Vitiligo There is no known cure for vitiligo . For those with light skin , sunscreen and makeup are all that is typically recommended . Other treatment options may include steroid creams or phototherapy to darken the light patches . Alternatively , efforts to lighten the unaffected skin , such as with hydroquinone , may be tried . A number of surgical options are available for those who do not improve with other measures . A combination of treatments generally has better outcomes . Counselling to provide emotional support may be useful .",
+            "title": "Vitiligo"
+          },
+          {
+            "rank": 2,
+            "doc_id": "806860259_8415-8952-0-537",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Vitiligo There is no cure for vitiligo but several treatment options are available . The best evidence is for applied steroids and the combination of ultraviolet light in combination with creams . Due to the higher risks of skin cancer , the United Kingdom 's National Health Service suggests phototherapy only be used if primary treatments are ineffective . Lesions located on the hands , feet , and joints are the most difficult to repigment ; those on the face are easiest to return to the natural skin color as the skin is thinner in nature .",
+            "title": "Vitiligo"
+          },
+          {
+            "rank": 3,
+            "doc_id": "834242094_32538-33463-0-925",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Huntington's disease There is no cure for HD , but there are treatments available to reduce the severity of some of its symptoms . For many of these treatments , evidence to confirm their effectiveness in treating symptoms of HD specifically are incomplete . As the disease progresses the ability to care for oneself declines , and carefully managed multidisciplinary caregiving becomes increasingly necessary . Although there have been relatively few studies of exercises and therapies that help rehabilitate cognitive symptoms of HD , there is some evidence for the usefulness of physical therapy , occupational therapy , and speech therapy . An association between caffeine intake and earlier age of onset in Huntington 's disease has been found but , since this finding was based on retrospective questionnaire data rather than a blinded , randomized trial or case - control study , this work is a poor basis for guiding lifestyle decisions .",
+            "title": "Huntington's disease"
+          },
+          {
+            "rank": 4,
+            "doc_id": "802420623_14712-15005-0-293",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Scabies Oral ivermectin is effective in eradicating scabies , often in a single dose . It is the treatment of choice for crusted scabies , and is sometimes prescribed in combination with a topical agent . It has not been tested on infants , and is not recommended for children under six years of age .",
+            "title": "Scabies"
+          },
+          {
+            "rank": 5,
+            "doc_id": "824547656_20166-20524-0-358",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Herpes simplex No method eradicates herpes virus from the body , but antiviral medications can reduce the frequency , duration , and severity of outbreaks . Analgesics such as ibuprofen and paracetamol ( acetaminophen ) can reduce pain and fever . Topical anesthetic treatments such as prilocaine , lidocaine , benzocaine , or tetracaine can also relieve itching and pain .",
+            "title": "Herpes simplex"
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "806860259_1814-2348-0-534",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Vitiligo There is no known cure for vitiligo . For those with light skin , sunscreen and makeup are all that is typically recommended . Other treatment options may include steroid creams or phototherapy to darken the light patches . Alternatively , efforts to lighten the unaffected skin , such as with hydroquinone , may be tried . A number of surgical options are available for those who do not improve with other measures . A combination of treatments generally has better outcomes . Counselling to provide emotional support may be useful .",
+            "title": "Vitiligo"
+          },
+          {
+            "rank": 2,
+            "doc_id": "806860259_8415-8952-0-537",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Vitiligo There is no cure for vitiligo but several treatment options are available . The best evidence is for applied steroids and the combination of ultraviolet light in combination with creams . Due to the higher risks of skin cancer , the United Kingdom 's National Health Service suggests phototherapy only be used if primary treatments are ineffective . Lesions located on the hands , feet , and joints are the most difficult to repigment ; those on the face are easiest to return to the natural skin color as the skin is thinner in nature .",
+            "title": "Vitiligo"
+          },
+          {
+            "rank": 3,
+            "doc_id": "834242094_32538-33463-0-925",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Huntington's disease There is no cure for HD , but there are treatments available to reduce the severity of some of its symptoms . For many of these treatments , evidence to confirm their effectiveness in treating symptoms of HD specifically are incomplete . As the disease progresses the ability to care for oneself declines , and carefully managed multidisciplinary caregiving becomes increasingly necessary . Although there have been relatively few studies of exercises and therapies that help rehabilitate cognitive symptoms of HD , there is some evidence for the usefulness of physical therapy , occupational therapy , and speech therapy . An association between caffeine intake and earlier age of onset in Huntington 's disease has been found but , since this finding was based on retrospective questionnaire data rather than a blinded , randomized trial or case - control study , this work is a poor basis for guiding lifestyle decisions .",
+            "title": "Huntington's disease"
+          },
+          {
+            "rank": 4,
+            "doc_id": "802420623_14712-15005-0-293",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Scabies Oral ivermectin is effective in eradicating scabies , often in a single dose . It is the treatment of choice for crusted scabies , and is sometimes prescribed in combination with a topical agent . It has not been tested on infants , and is not recommended for children under six years of age .",
+            "title": "Scabies"
+          },
+          {
+            "rank": 5,
+            "doc_id": "824547656_20166-20524-0-358",
+            "score": null,
+            "score_type": "contriever",
+            "text": "Herpes simplex No method eradicates herpes virus from the body , but antiviral medications can reduce the frequency , duration , and severity of outbreaks . Analgesics such as ibuprofen and paracetamol ( acetaminophen ) can reduce pain and fever . Topical anesthetic treatments such as prilocaine , lidocaine , benzocaine , or tetracaine can also relieve itching and pain .",
+            "title": "Herpes simplex"
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "There is no cure for HD, but there are treatments available to reduce the severity of some of its symptoms.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "806860259_1814-2348-0-534",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Vitiligo There is no known cure for vitiligo . For those with light skin , sunscreen and makeup are all that is typically recommended . Other treatment options may include steroid creams or phototherapy to darken the light patches . Alternatively , efforts to lighten the unaffected skin , such as with hydroquinone , may be tried . A number of surgical options are available for those who do not improve with other measures . A combination of treatments generally has better outcomes . Counselling to provide emotional support may be useful .",
+          "title": "Vitiligo"
+        },
+        {
+          "rank": 2,
+          "doc_id": "806860259_8415-8952-0-537",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Vitiligo There is no cure for vitiligo but several treatment options are available . The best evidence is for applied steroids and the combination of ultraviolet light in combination with creams . Due to the higher risks of skin cancer , the United Kingdom 's National Health Service suggests phototherapy only be used if primary treatments are ineffective . Lesions located on the hands , feet , and joints are the most difficult to repigment ; those on the face are easiest to return to the natural skin color as the skin is thinner in nature .",
+          "title": "Vitiligo"
+        },
+        {
+          "rank": 3,
+          "doc_id": "834242094_32538-33463-0-925",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Huntington's disease There is no cure for HD , but there are treatments available to reduce the severity of some of its symptoms . For many of these treatments , evidence to confirm their effectiveness in treating symptoms of HD specifically are incomplete . As the disease progresses the ability to care for oneself declines , and carefully managed multidisciplinary caregiving becomes increasingly necessary . Although there have been relatively few studies of exercises and therapies that help rehabilitate cognitive symptoms of HD , there is some evidence for the usefulness of physical therapy , occupational therapy , and speech therapy . An association between caffeine intake and earlier age of onset in Huntington 's disease has been found but , since this finding was based on retrospective questionnaire data rather than a blinded , randomized trial or case - control study , this work is a poor basis for guiding lifestyle decisions .",
+          "title": "Huntington's disease"
+        },
+        {
+          "rank": 4,
+          "doc_id": "802420623_14712-15005-0-293",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Scabies Oral ivermectin is effective in eradicating scabies , often in a single dose . It is the treatment of choice for crusted scabies , and is sometimes prescribed in combination with a topical agent . It has not been tested on infants , and is not recommended for children under six years of age .",
+          "title": "Scabies"
+        },
+        {
+          "rank": 5,
+          "doc_id": "824547656_20166-20524-0-358",
+          "score": null,
+          "score_type": "contriever",
+          "text": "Herpes simplex No method eradicates herpes virus from the body , but antiviral medications can reduce the frequency , duration , and severity of outbreaks . Analgesics such as ibuprofen and paracetamol ( acetaminophen ) can reduce pain and fever . Topical anesthetic treatments such as prilocaine , lidocaine , benzocaine , or tetracaine can also relieve itching and pain .",
+          "title": "Herpes simplex"
+        }
+      ],
+      "reference": {
+        "answer": "There is no cure for Huntington's disease. The best evidence for treatment of the movement problems is with tetrabenazine, and treatments can relieve some symptoms and in some improve quality of life. Several clinical trials of new experimental treatments are underway and planned in Huntington's disease. Carefully managed multidisciplinary caregiving becomes increasingly necessary as the disease progresses.",
+        "evidence_ids": [
+          "834242094_2876-3559-0-683",
+          "834242094_32538-33463-0-925",
+          "834242094_56618-56724-0-106"
+        ],
+        "evidence": [
+          {
+            "doc_id": "834242094_2876-3559-0-683",
+            "text": "Huntington's disease\nHuntington's disease\nThere is no cure for HD . Full - time care is required in the later stages of the disease . Treatments can relieve some symptoms and in some improve quality of life . The best evidence for treatment of the movement problems is with tetrabenazine . HD affects about 4 to 15 in 100,000 people of European descent . It is rare among Japanese , while the occurrence rate in Africa is unknown . The disease affects men and women equally . Complications such as pneumonia , heart disease , and physical injury from falls reduce life expectancy . Suicide is the cause of death in about 9 % of cases . Death typically occurs fifteen to twenty years from when the disease was first detected ."
+          },
+          {
+            "doc_id": "834242094_32538-33463-0-925",
+            "text": "Huntington's disease\nHuntington's disease\nThere is no cure for HD , but there are treatments available to reduce the severity of some of its symptoms . For many of these treatments , evidence to confirm their effectiveness in treating symptoms of HD specifically are incomplete . As the disease progresses the ability to care for oneself declines , and carefully managed multidisciplinary caregiving becomes increasingly necessary . Although there have been relatively few studies of exercises and therapies that help rehabilitate cognitive symptoms of HD , there is some evidence for the usefulness of physical therapy , occupational therapy , and speech therapy . An association between caffeine intake and earlier age of onset in Huntington 's disease has been found but , since this finding was based on retrospective questionnaire data rather than a blinded , randomized trial or case - control study , this work is a poor basis for guiding lifestyle decisions ."
+          },
+          {
+            "doc_id": "834242094_56618-56724-0-106",
+            "text": "Huntington's disease\nHuntington's disease\nSeveral clinical trials of new experimental treatments are underway and planned in Huntington 's disease ."
+          }
+        ]
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Explanation"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    }
+  ]
+}

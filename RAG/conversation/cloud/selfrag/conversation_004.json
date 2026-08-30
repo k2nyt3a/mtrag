@@ -1,0 +1,1088 @@
+{
+  "conversation_id": "1dcbbeb35d4d25ba1ffb787a9f2080e2",
+  "dataset": "cloud",
+  "collection": "mt-rag-ibmcloud-elser-512-100-20240502",
+  "rag": "selfrag",
+  "num_turns": 6,
+  "turns": [
+    {
+      "turn_id": "1",
+      "task_id": "1dcbbeb35d4d25ba1ffb787a9f2080e2<::>1",
+      "question": "How do I find specific conversations?",
+      "rag_history_before_turn": [],
+      "retrieval": {
+        "query": "How do I find specific conversations?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_16258-1324-3123",
+            "score": null,
+            "score_type": "contriever",
+            "text": " [Time period](https://cloud.ibm.com/docs-content/v1/content/ca9232b3702768f24bb897f48f10778fcda28718/watson-assistant/images/analytics-conversations-time-period.png)       Filtering conversations   You can locate specific conversations by filtering the list of conversations. This lets you explore specific areas where your assistant might need improvement or updates to properly handle what your customers are asking about.  You can filter by:    * Actions: Select specific actions. You can choose one or more actions to review. * Keyword: Search by session ID or for specific key terms, phrases, or words in the conversations. For more information about session IDs, see [session_id](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-admin-managing-planadmin-managing-plan-no-userid). * Recognition: Choose between recognized or unrecognized user questions or requests. * Search: Choose between requests that initiated a search or requests that produced no search results.    The Actions and Keyword filters always appear at the top of the page. To show the Recognition and Search filters, click the Additional filters icon.  If you have activated dialog in your assistant, the Actions filter is replaced by a Topics filter.  ![Conversation filters](https://cloud.ibm.com/docs-content/v1/content/ca9232b3702768f24bb897f48f10778fcda28718/watson-assistant/images/analytics-conversations-filters.png)  If you search for a specific session ID, enclose your search in quotation marks to ensure you receive an exact match on the full ID with its numbers and hyphen characters, for example: \"9015ab9a-2e13-4627-ae33-4179b1125cb5\".       Exploring conversations in detail   To explore individual conversations in detail, you can click on any of the utterances or conversation time stamps.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_16258-2570-3569",
+            "score": null,
+            "score_type": "contriever",
+            "text": " [Conversation filters](https://cloud.ibm.com/docs-content/v1/content/ca9232b3702768f24bb897f48f10778fcda28718/watson-assistant/images/analytics-conversations-filters.png)  If you search for a specific session ID, enclose your search in quotation marks to ensure you receive an exact match on the full ID with its numbers and hyphen characters, for example: \"9015ab9a-2e13-4627-ae33-4179b1125cb5\".       Exploring conversations in detail   To explore individual conversations in detail, you can click on any of the utterances or conversation time stamps. A panel opens showing the full back and forth between your customer and the assistant, including step interactions. The panel also provides a summary of how many requests there were, how many were recognized, whether search was initiated, and the duration of the conversation.  ![Conversation detail](https://cloud.ibm.com/docs-content/v1/content/ca9232b3702768f24bb897f48f10778fcda28718/watson-assistant/images/analytics-conversations-side.png)",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_16258-7-1952",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Review customer conversations   The Conversations page of Watson Assistant provides a history of conversations between users and a deployed assistant. You can use this history to improve how your assistants understand and respond to user requests.  Each timestamp represents a single conversation. The Actions column shows you how many actions, search queries, or unrecognized requests are included in that conversation. The Requests column includes the questions or requests the user entered that initiated an action, started a search query, or weren't recognized.  If you have activated dialog in your assistant, the Actions column is replaced by a Topics column.  ![Conversations page](https://cloud.ibm.com/docs-content/v1/content/ca9232b3702768f24bb897f48f10778fcda28718/watson-assistant/images/analytics-conversations.png)     Choosing the environment and time period   To get started, choose the [environment](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-publish-overviewenvironments) and date range you want to analyze. All conversations reflect data based on the environment and the date range you select. When you change the environnment or the date range, the conversations on the page update to reflect the new date range. You can also use Refresh ensure the latest data is shown.  ![Time period](https://cloud.ibm.com/docs-content/v1/content/ca9232b3702768f24bb897f48f10778fcda28718/watson-assistant/images/analytics-conversations-time-period.png)       Filtering conversations   You can locate specific conversations by filtering the list of conversations. This lets you explore specific areas where your assistant might need improvement or updates to properly handle what your customers are asking about.  You can filter by:    * Actions: Select specific actions. You can choose one or more actions to review. * Keyword: Search by session ID or for specific key terms, phrases, or words in the conversations.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_03028-1501-3230",
+            "score": null,
+            "score_type": "contriever",
+            "text": " You can filter messages by Search user statements, Intents, Entities, and Last n days.  Search user statements - Type a word in the search bar. This searches the users' inputs, but not your assistant's replies.  Intents - Select the drop-down menu and type an intent in the input field, or choose from the populated list. You can select more than one intent, which filters the results using any of the selected intents, including Irrelevant.  ![Intents drop-down menu](https://cloud.ibm.com/docs-content/v1/content/a2b18c153837bce00a5b4de496e4b4ca64bbf56e/assistant-data/images/intents_filter.png)  Entities - Select the drop-down menu and type an entity name in the input field, or choose from the populated list. You can select more than one entity, which filters the results by any of the selected entities. If you filter by intent and entity, your results will include the messages that have both values. You can also filter for results with No entities found.  ![Entities drop-down menu](https://cloud.ibm.com/docs-content/v1/content/a2b18c153837bce00a5b4de496e4b4ca64bbf56e/assistant-data/images/entities_filter.png)  Messages might take some time to update. Allow at least 30 minutes after a user's interaction with your assistant before attempting to filter for that content.       Viewing individual messages   For any user input entry, click Open conversation to see the user input and the response made to it by the assistant within the context of the full conversation.  The time that is shown for each conversation is localized to reflect the time zone of your browser. This time might differ from the timestamp shown if you review the same conversation log via an API call; API log calls are always shown in UTC.  !",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_03036-7103-8947",
+            "score": null,
+            "score_type": "contriever",
+            "text": " * Average messages per conversation - The total messages received during the selected time period divided by the total conversations during the selected time period. * Total messages - The total number of messages received from active users over the selected time period. * Active users - The number of unique users who have engaged with your assistant within the selected time period. * Average conversations per user - The total conversations divided by the total number of unique users during the selected time period.  Statistics for Active users and Average conversations per user require a unique user_id parameter. See [Enabling user metrics](https://cloud.ibm.com/docs/assistant-data?topic=assistant-data-logs-resourceslogs-resources-user-id) for more information.         Top Intents and Top Entities   You can also view the intents and entities that were recognized most often during the specified time period.    * Top intents - Intents are shown in a simple list. In addition to seeing the number of times an intent was recognized, you can select an intent to open the User conversations page with the date range filtered to match the data you are viewing, and the intent filtered to match the selected intent. * Top entities are also shown in a list. For each entity you can select from the Values column to see a list of the most common values that were identified for this entity during the time period. You can also select an entity to open the User conversations page with the date range filtered to match the data you are viewing, and the entity filtered to match the selected entity.    See [Improve your skill](https://cloud.ibm.com/docs/assistant-data?topic=assistant-data-logs) for tips on how to edit intents and entities based on discoveries you make by reviewing the intents and entities that your assistant recognizes.",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_16258-1324-3123",
+            "score": null,
+            "score_type": "contriever",
+            "text": " [Time period](https://cloud.ibm.com/docs-content/v1/content/ca9232b3702768f24bb897f48f10778fcda28718/watson-assistant/images/analytics-conversations-time-period.png)       Filtering conversations   You can locate specific conversations by filtering the list of conversations. This lets you explore specific areas where your assistant might need improvement or updates to properly handle what your customers are asking about.  You can filter by:    * Actions: Select specific actions. You can choose one or more actions to review. * Keyword: Search by session ID or for specific key terms, phrases, or words in the conversations. For more information about session IDs, see [session_id](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-admin-managing-planadmin-managing-plan-no-userid). * Recognition: Choose between recognized or unrecognized user questions or requests. * Search: Choose between requests that initiated a search or requests that produced no search results.    The Actions and Keyword filters always appear at the top of the page. To show the Recognition and Search filters, click the Additional filters icon.  If you have activated dialog in your assistant, the Actions filter is replaced by a Topics filter.  ![Conversation filters](https://cloud.ibm.com/docs-content/v1/content/ca9232b3702768f24bb897f48f10778fcda28718/watson-assistant/images/analytics-conversations-filters.png)  If you search for a specific session ID, enclose your search in quotation marks to ensure you receive an exact match on the full ID with its numbers and hyphen characters, for example: \"9015ab9a-2e13-4627-ae33-4179b1125cb5\".       Exploring conversations in detail   To explore individual conversations in detail, you can click on any of the utterances or conversation time stamps.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_16258-2570-3569",
+            "score": null,
+            "score_type": "contriever",
+            "text": " [Conversation filters](https://cloud.ibm.com/docs-content/v1/content/ca9232b3702768f24bb897f48f10778fcda28718/watson-assistant/images/analytics-conversations-filters.png)  If you search for a specific session ID, enclose your search in quotation marks to ensure you receive an exact match on the full ID with its numbers and hyphen characters, for example: \"9015ab9a-2e13-4627-ae33-4179b1125cb5\".       Exploring conversations in detail   To explore individual conversations in detail, you can click on any of the utterances or conversation time stamps. A panel opens showing the full back and forth between your customer and the assistant, including step interactions. The panel also provides a summary of how many requests there were, how many were recognized, whether search was initiated, and the duration of the conversation.  ![Conversation detail](https://cloud.ibm.com/docs-content/v1/content/ca9232b3702768f24bb897f48f10778fcda28718/watson-assistant/images/analytics-conversations-side.png)",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_16258-7-1952",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Review customer conversations   The Conversations page of Watson Assistant provides a history of conversations between users and a deployed assistant. You can use this history to improve how your assistants understand and respond to user requests.  Each timestamp represents a single conversation. The Actions column shows you how many actions, search queries, or unrecognized requests are included in that conversation. The Requests column includes the questions or requests the user entered that initiated an action, started a search query, or weren't recognized.  If you have activated dialog in your assistant, the Actions column is replaced by a Topics column.  ![Conversations page](https://cloud.ibm.com/docs-content/v1/content/ca9232b3702768f24bb897f48f10778fcda28718/watson-assistant/images/analytics-conversations.png)     Choosing the environment and time period   To get started, choose the [environment](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-publish-overviewenvironments) and date range you want to analyze. All conversations reflect data based on the environment and the date range you select. When you change the environnment or the date range, the conversations on the page update to reflect the new date range. You can also use Refresh ensure the latest data is shown.  ![Time period](https://cloud.ibm.com/docs-content/v1/content/ca9232b3702768f24bb897f48f10778fcda28718/watson-assistant/images/analytics-conversations-time-period.png)       Filtering conversations   You can locate specific conversations by filtering the list of conversations. This lets you explore specific areas where your assistant might need improvement or updates to properly handle what your customers are asking about.  You can filter by:    * Actions: Select specific actions. You can choose one or more actions to review. * Keyword: Search by session ID or for specific key terms, phrases, or words in the conversations.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_03028-1501-3230",
+            "score": null,
+            "score_type": "contriever",
+            "text": " You can filter messages by Search user statements, Intents, Entities, and Last n days.  Search user statements - Type a word in the search bar. This searches the users' inputs, but not your assistant's replies.  Intents - Select the drop-down menu and type an intent in the input field, or choose from the populated list. You can select more than one intent, which filters the results using any of the selected intents, including Irrelevant.  ![Intents drop-down menu](https://cloud.ibm.com/docs-content/v1/content/a2b18c153837bce00a5b4de496e4b4ca64bbf56e/assistant-data/images/intents_filter.png)  Entities - Select the drop-down menu and type an entity name in the input field, or choose from the populated list. You can select more than one entity, which filters the results by any of the selected entities. If you filter by intent and entity, your results will include the messages that have both values. You can also filter for results with No entities found.  ![Entities drop-down menu](https://cloud.ibm.com/docs-content/v1/content/a2b18c153837bce00a5b4de496e4b4ca64bbf56e/assistant-data/images/entities_filter.png)  Messages might take some time to update. Allow at least 30 minutes after a user's interaction with your assistant before attempting to filter for that content.       Viewing individual messages   For any user input entry, click Open conversation to see the user input and the response made to it by the assistant within the context of the full conversation.  The time that is shown for each conversation is localized to reflect the time zone of your browser. This time might differ from the timestamp shown if you review the same conversation log via an API call; API log calls are always shown in UTC.  !",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_03036-7103-8947",
+            "score": null,
+            "score_type": "contriever",
+            "text": " * Average messages per conversation - The total messages received during the selected time period divided by the total conversations during the selected time period. * Total messages - The total number of messages received from active users over the selected time period. * Active users - The number of unique users who have engaged with your assistant within the selected time period. * Average conversations per user - The total conversations divided by the total number of unique users during the selected time period.  Statistics for Active users and Average conversations per user require a unique user_id parameter. See [Enabling user metrics](https://cloud.ibm.com/docs/assistant-data?topic=assistant-data-logs-resourceslogs-resources-user-id) for more information.         Top Intents and Top Entities   You can also view the intents and entities that were recognized most often during the specified time period.    * Top intents - Intents are shown in a simple list. In addition to seeing the number of times an intent was recognized, you can select an intent to open the User conversations page with the date range filtered to match the data you are viewing, and the intent filtered to match the selected intent. * Top entities are also shown in a list. For each entity you can select from the Values column to see a list of the most common values that were identified for this entity during the time period. You can also select an entity to open the User conversations page with the date range filtered to match the data you are viewing, and the entity filtered to match the selected entity.    See [Improve your skill](https://cloud.ibm.com/docs/assistant-data?topic=assistant-data-logs) for tips on how to edit intents and entities based on discoveries you make by reviewing the intents and entities that your assistant recognizes.",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "You can also use the search feature to find specific conversations by entering keywords or phrases that are relevant to the conversation.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "ibmcld_16258-1324-3123",
+          "score": null,
+          "score_type": "contriever",
+          "text": " [Time period](https://cloud.ibm.com/docs-content/v1/content/ca9232b3702768f24bb897f48f10778fcda28718/watson-assistant/images/analytics-conversations-time-period.png)       Filtering conversations   You can locate specific conversations by filtering the list of conversations. This lets you explore specific areas where your assistant might need improvement or updates to properly handle what your customers are asking about.  You can filter by:    * Actions: Select specific actions. You can choose one or more actions to review. * Keyword: Search by session ID or for specific key terms, phrases, or words in the conversations. For more information about session IDs, see [session_id](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-admin-managing-planadmin-managing-plan-no-userid). * Recognition: Choose between recognized or unrecognized user questions or requests. * Search: Choose between requests that initiated a search or requests that produced no search results.    The Actions and Keyword filters always appear at the top of the page. To show the Recognition and Search filters, click the Additional filters icon.  If you have activated dialog in your assistant, the Actions filter is replaced by a Topics filter.  ![Conversation filters](https://cloud.ibm.com/docs-content/v1/content/ca9232b3702768f24bb897f48f10778fcda28718/watson-assistant/images/analytics-conversations-filters.png)  If you search for a specific session ID, enclose your search in quotation marks to ensure you receive an exact match on the full ID with its numbers and hyphen characters, for example: \"9015ab9a-2e13-4627-ae33-4179b1125cb5\".       Exploring conversations in detail   To explore individual conversations in detail, you can click on any of the utterances or conversation time stamps.",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "ibmcld_16258-2570-3569",
+          "score": null,
+          "score_type": "contriever",
+          "text": " [Conversation filters](https://cloud.ibm.com/docs-content/v1/content/ca9232b3702768f24bb897f48f10778fcda28718/watson-assistant/images/analytics-conversations-filters.png)  If you search for a specific session ID, enclose your search in quotation marks to ensure you receive an exact match on the full ID with its numbers and hyphen characters, for example: \"9015ab9a-2e13-4627-ae33-4179b1125cb5\".       Exploring conversations in detail   To explore individual conversations in detail, you can click on any of the utterances or conversation time stamps. A panel opens showing the full back and forth between your customer and the assistant, including step interactions. The panel also provides a summary of how many requests there were, how many were recognized, whether search was initiated, and the duration of the conversation.  ![Conversation detail](https://cloud.ibm.com/docs-content/v1/content/ca9232b3702768f24bb897f48f10778fcda28718/watson-assistant/images/analytics-conversations-side.png)",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "ibmcld_16258-7-1952",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Review customer conversations   The Conversations page of Watson Assistant provides a history of conversations between users and a deployed assistant. You can use this history to improve how your assistants understand and respond to user requests.  Each timestamp represents a single conversation. The Actions column shows you how many actions, search queries, or unrecognized requests are included in that conversation. The Requests column includes the questions or requests the user entered that initiated an action, started a search query, or weren't recognized.  If you have activated dialog in your assistant, the Actions column is replaced by a Topics column.  ![Conversations page](https://cloud.ibm.com/docs-content/v1/content/ca9232b3702768f24bb897f48f10778fcda28718/watson-assistant/images/analytics-conversations.png)     Choosing the environment and time period   To get started, choose the [environment](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-publish-overviewenvironments) and date range you want to analyze. All conversations reflect data based on the environment and the date range you select. When you change the environnment or the date range, the conversations on the page update to reflect the new date range. You can also use Refresh ensure the latest data is shown.  ![Time period](https://cloud.ibm.com/docs-content/v1/content/ca9232b3702768f24bb897f48f10778fcda28718/watson-assistant/images/analytics-conversations-time-period.png)       Filtering conversations   You can locate specific conversations by filtering the list of conversations. This lets you explore specific areas where your assistant might need improvement or updates to properly handle what your customers are asking about.  You can filter by:    * Actions: Select specific actions. You can choose one or more actions to review. * Keyword: Search by session ID or for specific key terms, phrases, or words in the conversations.",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "ibmcld_03028-1501-3230",
+          "score": null,
+          "score_type": "contriever",
+          "text": " You can filter messages by Search user statements, Intents, Entities, and Last n days.  Search user statements - Type a word in the search bar. This searches the users' inputs, but not your assistant's replies.  Intents - Select the drop-down menu and type an intent in the input field, or choose from the populated list. You can select more than one intent, which filters the results using any of the selected intents, including Irrelevant.  ![Intents drop-down menu](https://cloud.ibm.com/docs-content/v1/content/a2b18c153837bce00a5b4de496e4b4ca64bbf56e/assistant-data/images/intents_filter.png)  Entities - Select the drop-down menu and type an entity name in the input field, or choose from the populated list. You can select more than one entity, which filters the results by any of the selected entities. If you filter by intent and entity, your results will include the messages that have both values. You can also filter for results with No entities found.  ![Entities drop-down menu](https://cloud.ibm.com/docs-content/v1/content/a2b18c153837bce00a5b4de496e4b4ca64bbf56e/assistant-data/images/entities_filter.png)  Messages might take some time to update. Allow at least 30 minutes after a user's interaction with your assistant before attempting to filter for that content.       Viewing individual messages   For any user input entry, click Open conversation to see the user input and the response made to it by the assistant within the context of the full conversation.  The time that is shown for each conversation is localized to reflect the time zone of your browser. This time might differ from the timestamp shown if you review the same conversation log via an API call; API log calls are always shown in UTC.  !",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "ibmcld_03036-7103-8947",
+          "score": null,
+          "score_type": "contriever",
+          "text": " * Average messages per conversation - The total messages received during the selected time period divided by the total conversations during the selected time period. * Total messages - The total number of messages received from active users over the selected time period. * Active users - The number of unique users who have engaged with your assistant within the selected time period. * Average conversations per user - The total conversations divided by the total number of unique users during the selected time period.  Statistics for Active users and Average conversations per user require a unique user_id parameter. See [Enabling user metrics](https://cloud.ibm.com/docs/assistant-data?topic=assistant-data-logs-resourceslogs-resources-user-id) for more information.         Top Intents and Top Entities   You can also view the intents and entities that were recognized most often during the specified time period.    * Top intents - Intents are shown in a simple list. In addition to seeing the number of times an intent was recognized, you can select an intent to open the User conversations page with the date range filtered to match the data you are viewing, and the intent filtered to match the selected intent. * Top entities are also shown in a list. For each entity you can select from the Values column to see a list of the most common values that were identified for this entity during the time period. You can also select an entity to open the User conversations page with the date range filtered to match the data you are viewing, and the entity filtered to match the selected entity.    See [Improve your skill](https://cloud.ibm.com/docs/assistant-data?topic=assistant-data-logs) for tips on how to edit intents and entities based on discoveries you make by reviewing the intents and entities that your assistant recognizes.",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "To find specific conversations, you can use the time period control to choose the period for which data is displayed. This control affects all data shown on the page, including the list of conversations. You can choose to view data for a single day, a week, a month, or a quarter. However, please note that the statistics can cover a longer time period than the period for which logs of conversations are retained. For each entity you can select from the Values column to see a list of the most common values that were identified for this entity during the time period. ",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "How-To"
+        ],
+        "multi_turn": [
+          "N/A"
+        ]
+      }
+    },
+    {
+      "turn_id": "2",
+      "task_id": "1dcbbeb35d4d25ba1ffb787a9f2080e2<::>2",
+      "question": "Is a user ID necessary to find a specific conversation?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "How do I find specific conversations?"
+        },
+        {
+          "role": "assistant",
+          "content": "To find specific conversations, you can use the time period control to choose the period for which data is displayed. This control affects all data shown on the page, including the list of conversations. You can choose to view data for a single day, a week, a month, or a quarter. However, please note that the statistics can cover a longer time period than the period for which logs of conversations are retained. For each entity you can select from the Values column to see a list of the most common values that were identified for this entity during the time period. "
+        }
+      ],
+      "retrieval": {
+        "query": "Is a user ID necessary to find a specific conversation?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_03107-5127-7134",
+            "score": null,
+            "score_type": "contriever",
+            "text": " * conversation_id (v1 API only): A property defined in the v1 API that is stored in the context object of a /message API call. This property can be used to identify multiple /message API calls that are associated with a single conversational exchange with one user. However, the same ID is only used if you explicitly retain the ID and pass it back with each request that is made as part of the same conversation. Otherwise, a new ID is generated for each new /message API call.    For example, if the same person chats with your assistant on three separate occasions over the same billing period, how you represent that user in the API call impacts how the interactions are billed. If you identify the user interaction with a user_id, it counts as one use. If you identify the user interaction with a session_id, then it counts as three uses (because there is a separate session that is created for each interaction).  Design any custom applications to capture a unique user_id or session_id and pass the information to Watson Assistant. Choose a non-human-identifiable ID that doesn't change throughout the customer lifecycle. For example, don't use a person's email address as the user ID. In fact, the user_id syntax must meet the requirements for header fields as defined in [RFC 7230](https://tools.ietf.org/html/rfc7230section-3.2).  The built-in integrations derive the user ID in the following ways:    * For Facebook integrations, the user_id property is set to the sender ID that Facebook provides in its payload. * For Slack integrations, the user_id property is a concatenation of the team ID, such as T09LVDR7Y, and the member ID of the user, such has W4F8K9JNF. For example: T09LVDR7YW4F8K9JNF. * For web chat, you can set the value of the user_id property.    Billing is managed per monthly active user per service instance. If a single user interacts with assistants that are hosted by different service instances that belong to the same plan, each interaction is treated as a separate use.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_03042-2711-4616",
+            "score": null,
+            "score_type": "contriever",
+            "text": " {: note}  1. conversation_id (v1 only): A property defined in the v1 API that is stored in the context object of a /message API call. This property can be used to identify multiple /message API calls that are associated with a single conversational exchange with one user. However, the same ID is only used if you explicitly retain the ID and pass it back with each request that is made as part of the same conversation. Otherwise, a new ID is generated for each new /message API call. Show more  Design any custom applications to capture a unique user_id or session_id and pass the information to Watson Assistant. Choose a non-human-identifiable ID that doesn't change throughout the customer lifecycle. For example, don't use a person's email address as the user ID. In fact, the user_id syntax must meet the requirements for header fields as defined in [RFC 7230](https://tools.ietf.org/html/rfc7230section-3.2).  The built-in integrations derive the user ID in the following ways:    * For web chat, you can set the value of the user_id property. For more information, see [Adding user identity information](https://cloud.ibm.com/docs/assistant-data?topic=assistant-data-deploy-web-chatdeploy-web-chat-userid).       Handling anonymous users   If your custom application or assistant interacts with users who are anonymous, you can generate a randomized universally unique ID to represent each anonymous user. For more information about UUIDs, see [RFC 4122](https://tools.ietf.org/html/rfc4122.html).    * For web chat, if you do not pass an identifier for the user when the session begins, the web chat creates one for you. It creates a first-party cookie with a generated anonymous ID. The cookie remains active for 45 days. If the same user returns to your site later in the month and chats with your assistant again, the web chat integration recognizes the user.           Service API versioning",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_03107-3801-5605",
+            "score": null,
+            "score_type": "contriever",
+            "text": " The user_id property is specified at the root of the request body, as in this example:  { \"input\": { \"message_type\": \"text\", \"text\": \"I want to cancel my order\" }, \"user_id\": \"my_user_id\" }  In some older SDK versions, the user_id property is not supported as a top-level method parameter. As an alternative, you can specify user_id within the nested context.global.system object.  For more information about the user_id property, see the API reference documentation:    * [v2 stateless /message](https://cloud.ibm.com/apidocs/assistant-v2/assistant-v2messagestateless) * [v2 stateful /message](https://cloud.ibm.com/apidocs/assistant-v2/assistant-v2message)         If the user ID is not specified   If you are using a custom client application and do not set a user_id value, the service automatically sets it to one of the following values:    * session_id (v2 API only): A property defined in the v2 API that identifies a single conversation between a user and the assistant. A session ID is provided in /message API calls that are generated by the built-in integrations. The session ends when a user closes the chat window or after the inactivity time limit is reached.  If you use the stateless v2 message API, you must specify the session_id with each message in an ongoing conversation (in context.global.session_id). * conversation_id (v1 API only): A property defined in the v1 API that is stored in the context object of a /message API call. This property can be used to identify multiple /message API calls that are associated with a single conversational exchange with one user. However, the same ID is only used if you explicitly retain the ID and pass it back with each request that is made as part of the same conversation. Otherwise, a new ID is generated for each new /message API call.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_16252-5526-7479",
+            "score": null,
+            "score_type": "contriever",
+            "text": " If you identify the user interaction with a user_id, it counts as one use. If you identify the user interaction with a session_id, then it counts as three uses (because there is a separate session that is created for each interaction).  Design any custom applications to capture a unique user_id or session_id and pass the information to Watson Assistant. Choose a non-human-identifiable ID that doesn't change throughout the customer lifecycle. For example, don't use a person's email address as the user ID. In fact, the user_id syntax must meet the requirements for header fields as defined in [RFC 7230](https://tools.ietf.org/html/rfc7230section-3.2).  The built-in integrations derive the user ID in the following ways:    * For Facebook integrations, the user_id property is set to the sender ID that Facebook provides in its payload. * For Slack integrations, the user_id property is a concatenation of the team ID, such as T09LVDR7Y, and the member ID of the user, such has W4F8K9JNF. For example: T09LVDR7YW4F8K9JNF. * For web chat, you can set the value of the user_id property.    Billing is managed per monthly active user per service instance. If a single user interacts with assistants that are hosted by different service instances that belong to the same plan, each interaction is treated as a separate use. You are billed for the user's interaction with each service instance separately.       Test activity charges   Test messages that you send from the Preview button are charged. For the preview, a random user_id is generated and stored in a cookie. The multiple interactions that a single tester has with the assistant embedded in the preview are recognized as coming from a single user and are charged accordingly. If you are doing your own test, running a scripted regression test for example, use a single user_id for all of the calls within your regression test. Other uses are flagged as abuse.       Handling anonymous users",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_03037-1358-3485",
+            "score": null,
+            "score_type": "contriever",
+            "text": " * Conversation: A set of messages consisting of the messages that an individual user sends to your assistant, and the messages your assistant sends back. * Conversation ID: Unique identifier that is added to individual message calls to link related message exchanges together. App developers using the V1 version of the Watson Assistant API add this value to the message calls in a conversation by including the ID in the metadata of the context object. * Customer ID: A unique ID that can be used to label customer data such that it can be subsequently deleted if the customer requests the removal of their data. * Deployment ID: A unique label that app developers using the V1 version of the Watson Assistant API pass with each user message to help identify the deployment environment that produced the message. * Instance: Your deployment of Watson Assistant, accessible with unique credentials. A Watson Assistant instance might contain multiple assistants. * Message: A message is a single utterance a user sends to the assistant. * Skill ID: The unique identifier of a skill. * User: A user is anyone who interacts with your assistant; often these are your customers. * User ID: A unique label that is used to track the level of service usage of a specific user. * Workspace ID: The unique identifier of a workspace. Although any workspaces that you created before November 9 are shown as skills in the product user interface, a skill and a workspace are not the same thing. A skill is effectively a wrapper for a V1 workspace.    Important: The User ID property is not equivalent to the Customer ID property, though both can be passed with the message. The User ID field is used to track levels of usage for billing purposes, whereas the Customer ID field is used to support the labeling and subsequent deletion of messages that are associated with end users. Customer ID is used consistently across all Watson services and is specified in the X-Watson-Metadata header. User ID is used exclusively by the Watson Assistant service and is passed in the context object of each /message API call.       Enabling user metrics",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_03107-5127-7134",
+            "score": null,
+            "score_type": "contriever",
+            "text": " * conversation_id (v1 API only): A property defined in the v1 API that is stored in the context object of a /message API call. This property can be used to identify multiple /message API calls that are associated with a single conversational exchange with one user. However, the same ID is only used if you explicitly retain the ID and pass it back with each request that is made as part of the same conversation. Otherwise, a new ID is generated for each new /message API call.    For example, if the same person chats with your assistant on three separate occasions over the same billing period, how you represent that user in the API call impacts how the interactions are billed. If you identify the user interaction with a user_id, it counts as one use. If you identify the user interaction with a session_id, then it counts as three uses (because there is a separate session that is created for each interaction).  Design any custom applications to capture a unique user_id or session_id and pass the information to Watson Assistant. Choose a non-human-identifiable ID that doesn't change throughout the customer lifecycle. For example, don't use a person's email address as the user ID. In fact, the user_id syntax must meet the requirements for header fields as defined in [RFC 7230](https://tools.ietf.org/html/rfc7230section-3.2).  The built-in integrations derive the user ID in the following ways:    * For Facebook integrations, the user_id property is set to the sender ID that Facebook provides in its payload. * For Slack integrations, the user_id property is a concatenation of the team ID, such as T09LVDR7Y, and the member ID of the user, such has W4F8K9JNF. For example: T09LVDR7YW4F8K9JNF. * For web chat, you can set the value of the user_id property.    Billing is managed per monthly active user per service instance. If a single user interacts with assistants that are hosted by different service instances that belong to the same plan, each interaction is treated as a separate use.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_03042-2711-4616",
+            "score": null,
+            "score_type": "contriever",
+            "text": " {: note}  1. conversation_id (v1 only): A property defined in the v1 API that is stored in the context object of a /message API call. This property can be used to identify multiple /message API calls that are associated with a single conversational exchange with one user. However, the same ID is only used if you explicitly retain the ID and pass it back with each request that is made as part of the same conversation. Otherwise, a new ID is generated for each new /message API call. Show more  Design any custom applications to capture a unique user_id or session_id and pass the information to Watson Assistant. Choose a non-human-identifiable ID that doesn't change throughout the customer lifecycle. For example, don't use a person's email address as the user ID. In fact, the user_id syntax must meet the requirements for header fields as defined in [RFC 7230](https://tools.ietf.org/html/rfc7230section-3.2).  The built-in integrations derive the user ID in the following ways:    * For web chat, you can set the value of the user_id property. For more information, see [Adding user identity information](https://cloud.ibm.com/docs/assistant-data?topic=assistant-data-deploy-web-chatdeploy-web-chat-userid).       Handling anonymous users   If your custom application or assistant interacts with users who are anonymous, you can generate a randomized universally unique ID to represent each anonymous user. For more information about UUIDs, see [RFC 4122](https://tools.ietf.org/html/rfc4122.html).    * For web chat, if you do not pass an identifier for the user when the session begins, the web chat creates one for you. It creates a first-party cookie with a generated anonymous ID. The cookie remains active for 45 days. If the same user returns to your site later in the month and chats with your assistant again, the web chat integration recognizes the user.           Service API versioning",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_03107-3801-5605",
+            "score": null,
+            "score_type": "contriever",
+            "text": " The user_id property is specified at the root of the request body, as in this example:  { \"input\": { \"message_type\": \"text\", \"text\": \"I want to cancel my order\" }, \"user_id\": \"my_user_id\" }  In some older SDK versions, the user_id property is not supported as a top-level method parameter. As an alternative, you can specify user_id within the nested context.global.system object.  For more information about the user_id property, see the API reference documentation:    * [v2 stateless /message](https://cloud.ibm.com/apidocs/assistant-v2/assistant-v2messagestateless) * [v2 stateful /message](https://cloud.ibm.com/apidocs/assistant-v2/assistant-v2message)         If the user ID is not specified   If you are using a custom client application and do not set a user_id value, the service automatically sets it to one of the following values:    * session_id (v2 API only): A property defined in the v2 API that identifies a single conversation between a user and the assistant. A session ID is provided in /message API calls that are generated by the built-in integrations. The session ends when a user closes the chat window or after the inactivity time limit is reached.  If you use the stateless v2 message API, you must specify the session_id with each message in an ongoing conversation (in context.global.session_id). * conversation_id (v1 API only): A property defined in the v1 API that is stored in the context object of a /message API call. This property can be used to identify multiple /message API calls that are associated with a single conversational exchange with one user. However, the same ID is only used if you explicitly retain the ID and pass it back with each request that is made as part of the same conversation. Otherwise, a new ID is generated for each new /message API call.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_16252-5526-7479",
+            "score": null,
+            "score_type": "contriever",
+            "text": " If you identify the user interaction with a user_id, it counts as one use. If you identify the user interaction with a session_id, then it counts as three uses (because there is a separate session that is created for each interaction).  Design any custom applications to capture a unique user_id or session_id and pass the information to Watson Assistant. Choose a non-human-identifiable ID that doesn't change throughout the customer lifecycle. For example, don't use a person's email address as the user ID. In fact, the user_id syntax must meet the requirements for header fields as defined in [RFC 7230](https://tools.ietf.org/html/rfc7230section-3.2).  The built-in integrations derive the user ID in the following ways:    * For Facebook integrations, the user_id property is set to the sender ID that Facebook provides in its payload. * For Slack integrations, the user_id property is a concatenation of the team ID, such as T09LVDR7Y, and the member ID of the user, such has W4F8K9JNF. For example: T09LVDR7YW4F8K9JNF. * For web chat, you can set the value of the user_id property.    Billing is managed per monthly active user per service instance. If a single user interacts with assistants that are hosted by different service instances that belong to the same plan, each interaction is treated as a separate use. You are billed for the user's interaction with each service instance separately.       Test activity charges   Test messages that you send from the Preview button are charged. For the preview, a random user_id is generated and stored in a cookie. The multiple interactions that a single tester has with the assistant embedded in the preview are recognized as coming from a single user and are charged accordingly. If you are doing your own test, running a scripted regression test for example, use a single user_id for all of the calls within your regression test. Other uses are flagged as abuse.       Handling anonymous users",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_03037-1358-3485",
+            "score": null,
+            "score_type": "contriever",
+            "text": " * Conversation: A set of messages consisting of the messages that an individual user sends to your assistant, and the messages your assistant sends back. * Conversation ID: Unique identifier that is added to individual message calls to link related message exchanges together. App developers using the V1 version of the Watson Assistant API add this value to the message calls in a conversation by including the ID in the metadata of the context object. * Customer ID: A unique ID that can be used to label customer data such that it can be subsequently deleted if the customer requests the removal of their data. * Deployment ID: A unique label that app developers using the V1 version of the Watson Assistant API pass with each user message to help identify the deployment environment that produced the message. * Instance: Your deployment of Watson Assistant, accessible with unique credentials. A Watson Assistant instance might contain multiple assistants. * Message: A message is a single utterance a user sends to the assistant. * Skill ID: The unique identifier of a skill. * User: A user is anyone who interacts with your assistant; often these are your customers. * User ID: A unique label that is used to track the level of service usage of a specific user. * Workspace ID: The unique identifier of a workspace. Although any workspaces that you created before November 9 are shown as skills in the product user interface, a skill and a workspace are not the same thing. A skill is effectively a wrapper for a V1 workspace.    Important: The User ID property is not equivalent to the Customer ID property, though both can be passed with the message. The User ID field is used to track levels of usage for billing purposes, whereas the Customer ID field is used to support the labeling and subsequent deletion of messages that are associated with end users. Customer ID is used consistently across all Watson services and is specified in the X-Watson-Metadata header. User ID is used exclusively by the Watson Assistant service and is passed in the context object of each /message API call.       Enabling user metrics",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Assistant: No, a user ID is not necessary to find a specific conversation.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "ibmcld_03107-5127-7134",
+          "score": null,
+          "score_type": "contriever",
+          "text": " * conversation_id (v1 API only): A property defined in the v1 API that is stored in the context object of a /message API call. This property can be used to identify multiple /message API calls that are associated with a single conversational exchange with one user. However, the same ID is only used if you explicitly retain the ID and pass it back with each request that is made as part of the same conversation. Otherwise, a new ID is generated for each new /message API call.    For example, if the same person chats with your assistant on three separate occasions over the same billing period, how you represent that user in the API call impacts how the interactions are billed. If you identify the user interaction with a user_id, it counts as one use. If you identify the user interaction with a session_id, then it counts as three uses (because there is a separate session that is created for each interaction).  Design any custom applications to capture a unique user_id or session_id and pass the information to Watson Assistant. Choose a non-human-identifiable ID that doesn't change throughout the customer lifecycle. For example, don't use a person's email address as the user ID. In fact, the user_id syntax must meet the requirements for header fields as defined in [RFC 7230](https://tools.ietf.org/html/rfc7230section-3.2).  The built-in integrations derive the user ID in the following ways:    * For Facebook integrations, the user_id property is set to the sender ID that Facebook provides in its payload. * For Slack integrations, the user_id property is a concatenation of the team ID, such as T09LVDR7Y, and the member ID of the user, such has W4F8K9JNF. For example: T09LVDR7YW4F8K9JNF. * For web chat, you can set the value of the user_id property.    Billing is managed per monthly active user per service instance. If a single user interacts with assistants that are hosted by different service instances that belong to the same plan, each interaction is treated as a separate use.",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "ibmcld_03042-2711-4616",
+          "score": null,
+          "score_type": "contriever",
+          "text": " {: note}  1. conversation_id (v1 only): A property defined in the v1 API that is stored in the context object of a /message API call. This property can be used to identify multiple /message API calls that are associated with a single conversational exchange with one user. However, the same ID is only used if you explicitly retain the ID and pass it back with each request that is made as part of the same conversation. Otherwise, a new ID is generated for each new /message API call. Show more  Design any custom applications to capture a unique user_id or session_id and pass the information to Watson Assistant. Choose a non-human-identifiable ID that doesn't change throughout the customer lifecycle. For example, don't use a person's email address as the user ID. In fact, the user_id syntax must meet the requirements for header fields as defined in [RFC 7230](https://tools.ietf.org/html/rfc7230section-3.2).  The built-in integrations derive the user ID in the following ways:    * For web chat, you can set the value of the user_id property. For more information, see [Adding user identity information](https://cloud.ibm.com/docs/assistant-data?topic=assistant-data-deploy-web-chatdeploy-web-chat-userid).       Handling anonymous users   If your custom application or assistant interacts with users who are anonymous, you can generate a randomized universally unique ID to represent each anonymous user. For more information about UUIDs, see [RFC 4122](https://tools.ietf.org/html/rfc4122.html).    * For web chat, if you do not pass an identifier for the user when the session begins, the web chat creates one for you. It creates a first-party cookie with a generated anonymous ID. The cookie remains active for 45 days. If the same user returns to your site later in the month and chats with your assistant again, the web chat integration recognizes the user.           Service API versioning",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "ibmcld_03107-3801-5605",
+          "score": null,
+          "score_type": "contriever",
+          "text": " The user_id property is specified at the root of the request body, as in this example:  { \"input\": { \"message_type\": \"text\", \"text\": \"I want to cancel my order\" }, \"user_id\": \"my_user_id\" }  In some older SDK versions, the user_id property is not supported as a top-level method parameter. As an alternative, you can specify user_id within the nested context.global.system object.  For more information about the user_id property, see the API reference documentation:    * [v2 stateless /message](https://cloud.ibm.com/apidocs/assistant-v2/assistant-v2messagestateless) * [v2 stateful /message](https://cloud.ibm.com/apidocs/assistant-v2/assistant-v2message)         If the user ID is not specified   If you are using a custom client application and do not set a user_id value, the service automatically sets it to one of the following values:    * session_id (v2 API only): A property defined in the v2 API that identifies a single conversation between a user and the assistant. A session ID is provided in /message API calls that are generated by the built-in integrations. The session ends when a user closes the chat window or after the inactivity time limit is reached.  If you use the stateless v2 message API, you must specify the session_id with each message in an ongoing conversation (in context.global.session_id). * conversation_id (v1 API only): A property defined in the v1 API that is stored in the context object of a /message API call. This property can be used to identify multiple /message API calls that are associated with a single conversational exchange with one user. However, the same ID is only used if you explicitly retain the ID and pass it back with each request that is made as part of the same conversation. Otherwise, a new ID is generated for each new /message API call.",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "ibmcld_16252-5526-7479",
+          "score": null,
+          "score_type": "contriever",
+          "text": " If you identify the user interaction with a user_id, it counts as one use. If you identify the user interaction with a session_id, then it counts as three uses (because there is a separate session that is created for each interaction).  Design any custom applications to capture a unique user_id or session_id and pass the information to Watson Assistant. Choose a non-human-identifiable ID that doesn't change throughout the customer lifecycle. For example, don't use a person's email address as the user ID. In fact, the user_id syntax must meet the requirements for header fields as defined in [RFC 7230](https://tools.ietf.org/html/rfc7230section-3.2).  The built-in integrations derive the user ID in the following ways:    * For Facebook integrations, the user_id property is set to the sender ID that Facebook provides in its payload. * For Slack integrations, the user_id property is a concatenation of the team ID, such as T09LVDR7Y, and the member ID of the user, such has W4F8K9JNF. For example: T09LVDR7YW4F8K9JNF. * For web chat, you can set the value of the user_id property.    Billing is managed per monthly active user per service instance. If a single user interacts with assistants that are hosted by different service instances that belong to the same plan, each interaction is treated as a separate use. You are billed for the user's interaction with each service instance separately.       Test activity charges   Test messages that you send from the Preview button are charged. For the preview, a random user_id is generated and stored in a cookie. The multiple interactions that a single tester has with the assistant embedded in the preview are recognized as coming from a single user and are charged accordingly. If you are doing your own test, running a scripted regression test for example, use a single user_id for all of the calls within your regression test. Other uses are flagged as abuse.       Handling anonymous users",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "ibmcld_03037-1358-3485",
+          "score": null,
+          "score_type": "contriever",
+          "text": " * Conversation: A set of messages consisting of the messages that an individual user sends to your assistant, and the messages your assistant sends back. * Conversation ID: Unique identifier that is added to individual message calls to link related message exchanges together. App developers using the V1 version of the Watson Assistant API add this value to the message calls in a conversation by including the ID in the metadata of the context object. * Customer ID: A unique ID that can be used to label customer data such that it can be subsequently deleted if the customer requests the removal of their data. * Deployment ID: A unique label that app developers using the V1 version of the Watson Assistant API pass with each user message to help identify the deployment environment that produced the message. * Instance: Your deployment of Watson Assistant, accessible with unique credentials. A Watson Assistant instance might contain multiple assistants. * Message: A message is a single utterance a user sends to the assistant. * Skill ID: The unique identifier of a skill. * User: A user is anyone who interacts with your assistant; often these are your customers. * User ID: A unique label that is used to track the level of service usage of a specific user. * Workspace ID: The unique identifier of a workspace. Although any workspaces that you created before November 9 are shown as skills in the product user interface, a skill and a workspace are not the same thing. A skill is effectively a wrapper for a V1 workspace.    Important: The User ID property is not equivalent to the Customer ID property, though both can be passed with the message. The User ID field is used to track levels of usage for billing purposes, whereas the Customer ID field is used to support the labeling and subsequent deletion of messages that are associated with end users. Customer ID is used consistently across all Watson services and is specified in the X-Watson-Metadata header. User ID is used exclusively by the Watson Assistant service and is passed in the context object of each /message API call.       Enabling user metrics",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "Yes, statistics for Active users and Average conversations per user require a unique user\\_id parameter to be specified with the messages. This value is typically specified by all integrations because it is used for billing purposes. Therefore, having a user ID can help you find a specific conversation more effectively. A property defined in the v2 API that identifies a single conversation between a user and the assistant. ",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Explanation"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "3",
+      "task_id": "1dcbbeb35d4d25ba1ffb787a9f2080e2<::>3",
+      "question": "How to create a user ID?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "How do I find specific conversations?"
+        },
+        {
+          "role": "assistant",
+          "content": "To find specific conversations, you can use the time period control to choose the period for which data is displayed. This control affects all data shown on the page, including the list of conversations. You can choose to view data for a single day, a week, a month, or a quarter. However, please note that the statistics can cover a longer time period than the period for which logs of conversations are retained. For each entity you can select from the Values column to see a list of the most common values that were identified for this entity during the time period. "
+        },
+        {
+          "role": "user",
+          "content": "Is a user ID necessary to find a specific conversation?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, statistics for Active users and Average conversations per user require a unique user\\_id parameter to be specified with the messages. This value is typically specified by all integrations because it is used for billing purposes. Therefore, having a user ID can help you find a specific conversation more effectively. A property defined in the v2 API that identifies a single conversation between a user and the assistant. "
+        }
+      ],
+      "retrieval": {
+        "query": "How to create a user ID?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_08423-6549-8265",
+            "score": null,
+            "score_type": "contriever",
+            "text": " 3. To create an API key for the service ID, follow these steps:    1. Click the API keys tab on the SO user service ID page. 2. Click Create. 3. Add a name and description to easily identify the API key, for example, SO user API key. 4. Click Create. 5. Save your API key by copying or downloading it to secure location.    The API key is to be used as the PIN for the SO user logins, and cannot be retrieved. Make sure to make a copy of it in this step.         2. Create service IDs and API keys for the normal user   To create a service ID for the normal user and the corresponding API key, complete the following steps:    1. In the IBM Cloud console, go to Manage > Access (IAM), and select Service IDs. 2. To create the service ID for the normal user, follow these steps:    1. Click Create. 2. Create a name Normal user and description for the normal user service ID. 3. Click Create.    3. To create an API key for the service ID, follow these steps:    1. Click the API keys tab on the Normal user service ID page. 2. Click Create. 3. Add a name and description to easily identify the API key, for example, Normal user API key. 4. Click Create. 5. Save your API key by copying or downloading it to secure location.    The API key is to be used as the PIN for the normal user logins, and cannot be retrieved. Make sure to make a copy of it in this step.         3. Create service IDs and API keys for the anonymous user   To create a service ID for the anonymous user and the corresponding API key, complete the following steps:    1. In the IBM Cloud console, go to Manage > Access (IAM), and select Service IDs. 2. To create the service ID for the anonymous user, follow these steps:    1. Click Create. 2.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_09382-5993-6824",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Add a user or service ID to the access group   Continue to set up your group by adding users or service IDs.     Add a user to the access group   Complete the following steps to add a user:    1. From the menu bar, click Manage > Access (IAM), and select Access Groups. 2. Select the name of the group that you want to assign access to. 3. Click Add users on the Users tab. 4. Select the users that you want to add from the list, and click Add to group.         Add a service ID to the access group   Complete the following steps to add a service ID:    1. From the menu bar, click Manage > Access (IAM), and select Access Groups. 2. Select the name of the group that you want to assign access to. 3. Click the Service IDs tab, and click Add service ID. 4. Select the IDs that you want to add from the list, and click Add to group.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_02104-7488-9365",
+            "score": null,
+            "score_type": "contriever",
+            "text": " For more information about trusted profiles, see [Creating trusted profiles](https://cloud.ibm.com/docs/account?topic=account-create-trusted-profile).    If you have onboarding set to Static and the user selects a trusted profile when they log in the first time, the user is still added to the account. 5. Then, select the following settings (Optional):    * Enable for account login?: Enable your IdP references to be used for users to log in to your account. This option is set by default when you first create an IdP reference. * Set as the default?: Users can use the default IdP reference URL that you created when you enabled this feature to log in to your account. You can have only one default IdP reference. For all other IdP references that you create, users must use the realm IDs to log in.    6. Click Create.    Your IdP reference is now available on the Identity providers list and the realm ID is generated automatically as the value that represents your IAM IdP in IBM Cloud.       Logging in with external identity provider credentials   After your App ID instance is connected to your IdP, and your App ID instance is integrated with IAM, your users can start logging in to your account. If the IdP reference is set as the default, then you can share the Default IdP URL for your account.  However, since you can have only one set as the default, but you can have up to five set up in your account, you might need to get the URL for another IdP reference:    1. From the Identity provider pages, click the Actions icon ![List of actions icon](https://cloud.ibm.com/docs-content/v1/content/4d8c6eec891cff72b666dc24bd3211810c77fb42/icons/action-menu-icon.svg) for the row of the IdP reference you need a URL for. 2. Select View IdP URL. 3. Copy the IdP URL link to give to users to log in.         Using App ID instances to build dynamic rules in access groups",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_02488-6078-6980",
+            "score": null,
+            "score_type": "contriever",
+            "text": " 5. Select the service role Manager. 6. Click Assign.           Step 3. Add a user or service ID to the access group   Continue to set up your group by adding users or service IDs.     Add a user to the access group   Complete the following steps to add a user:    1. From the menu bar, click Manage > Access (IAM), and select Access Groups. 2. Select the name of the group that you want to assign access to. 3. Click Add users on the Users tab. 4. Select the users that you want to add from the list, and click Add to group.         Add a service ID to the access group   Complete the following steps to add a service ID:    1. From the menu bar, click Manage > Access (IAM), and select Access Groups. 2. Select the name of the group that you want to assign access to. 3. Click the Service IDs tab, and click Add service ID. 4. Select the IDs that you want to add from the list, and click Add to group.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_02774-5358-7120",
+            "score": null,
+            "score_type": "contriever",
+            "text": " A user's predefined attributes are empty until their first authentication. Although they're empty, the user is still fully authenticated. You can use their profile ID just as you would someone who has already signed in. For instance, you can modify, search, or delete the profile.     Before you begin   Before you get started, you must have the following information:    * Which identity provider that the user will sign in with. * The email of the user that you want to add or their [unique identifier](https://cloud.ibm.com/docs/appid?topic=appid-preregisterpreregister-idp-provide). * The [custom attribute](https://cloud.ibm.com/docs/appid?topic=appid-profiles) information that you want to assign.         With the GUI   You can add a future user and their custom attributes by using the GUI.  The ability to add future users is disabled for the user name and password configuration of Cloud Directory.    1. Go to the User Profiles tab of the App ID dashboard. 2. Click Future users. If you already have future users, you see a table with a list of the user's that you already added. To add another user, click Build a profile. If you don't have any users yet, click Get Started. A screen opens. 3. Enter your user's email. 4. Select the identity provider that they sign in with from the Identity Provider drop down. 5. Add custom attributes by entering the information in a JSON object as shown in the following example.  { \"food\": \"Pizza\", \"preference\": \"Vegetarian\", \"points\": \"37\" } 6. Click Save. The table displays and the user is assigned an identifier.         With the API   You can add a future user and their custom attributes by using the API.    1. Log in to IBM Cloud.  ibmcloud login 2. Find your IAM token by running the following command.",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_08423-6549-8265",
+            "score": null,
+            "score_type": "contriever",
+            "text": " 3. To create an API key for the service ID, follow these steps:    1. Click the API keys tab on the SO user service ID page. 2. Click Create. 3. Add a name and description to easily identify the API key, for example, SO user API key. 4. Click Create. 5. Save your API key by copying or downloading it to secure location.    The API key is to be used as the PIN for the SO user logins, and cannot be retrieved. Make sure to make a copy of it in this step.         2. Create service IDs and API keys for the normal user   To create a service ID for the normal user and the corresponding API key, complete the following steps:    1. In the IBM Cloud console, go to Manage > Access (IAM), and select Service IDs. 2. To create the service ID for the normal user, follow these steps:    1. Click Create. 2. Create a name Normal user and description for the normal user service ID. 3. Click Create.    3. To create an API key for the service ID, follow these steps:    1. Click the API keys tab on the Normal user service ID page. 2. Click Create. 3. Add a name and description to easily identify the API key, for example, Normal user API key. 4. Click Create. 5. Save your API key by copying or downloading it to secure location.    The API key is to be used as the PIN for the normal user logins, and cannot be retrieved. Make sure to make a copy of it in this step.         3. Create service IDs and API keys for the anonymous user   To create a service ID for the anonymous user and the corresponding API key, complete the following steps:    1. In the IBM Cloud console, go to Manage > Access (IAM), and select Service IDs. 2. To create the service ID for the anonymous user, follow these steps:    1. Click Create. 2.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_09382-5993-6824",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Add a user or service ID to the access group   Continue to set up your group by adding users or service IDs.     Add a user to the access group   Complete the following steps to add a user:    1. From the menu bar, click Manage > Access (IAM), and select Access Groups. 2. Select the name of the group that you want to assign access to. 3. Click Add users on the Users tab. 4. Select the users that you want to add from the list, and click Add to group.         Add a service ID to the access group   Complete the following steps to add a service ID:    1. From the menu bar, click Manage > Access (IAM), and select Access Groups. 2. Select the name of the group that you want to assign access to. 3. Click the Service IDs tab, and click Add service ID. 4. Select the IDs that you want to add from the list, and click Add to group.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_02104-7488-9365",
+            "score": null,
+            "score_type": "contriever",
+            "text": " For more information about trusted profiles, see [Creating trusted profiles](https://cloud.ibm.com/docs/account?topic=account-create-trusted-profile).    If you have onboarding set to Static and the user selects a trusted profile when they log in the first time, the user is still added to the account. 5. Then, select the following settings (Optional):    * Enable for account login?: Enable your IdP references to be used for users to log in to your account. This option is set by default when you first create an IdP reference. * Set as the default?: Users can use the default IdP reference URL that you created when you enabled this feature to log in to your account. You can have only one default IdP reference. For all other IdP references that you create, users must use the realm IDs to log in.    6. Click Create.    Your IdP reference is now available on the Identity providers list and the realm ID is generated automatically as the value that represents your IAM IdP in IBM Cloud.       Logging in with external identity provider credentials   After your App ID instance is connected to your IdP, and your App ID instance is integrated with IAM, your users can start logging in to your account. If the IdP reference is set as the default, then you can share the Default IdP URL for your account.  However, since you can have only one set as the default, but you can have up to five set up in your account, you might need to get the URL for another IdP reference:    1. From the Identity provider pages, click the Actions icon ![List of actions icon](https://cloud.ibm.com/docs-content/v1/content/4d8c6eec891cff72b666dc24bd3211810c77fb42/icons/action-menu-icon.svg) for the row of the IdP reference you need a URL for. 2. Select View IdP URL. 3. Copy the IdP URL link to give to users to log in.         Using App ID instances to build dynamic rules in access groups",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_02488-6078-6980",
+            "score": null,
+            "score_type": "contriever",
+            "text": " 5. Select the service role Manager. 6. Click Assign.           Step 3. Add a user or service ID to the access group   Continue to set up your group by adding users or service IDs.     Add a user to the access group   Complete the following steps to add a user:    1. From the menu bar, click Manage > Access (IAM), and select Access Groups. 2. Select the name of the group that you want to assign access to. 3. Click Add users on the Users tab. 4. Select the users that you want to add from the list, and click Add to group.         Add a service ID to the access group   Complete the following steps to add a service ID:    1. From the menu bar, click Manage > Access (IAM), and select Access Groups. 2. Select the name of the group that you want to assign access to. 3. Click the Service IDs tab, and click Add service ID. 4. Select the IDs that you want to add from the list, and click Add to group.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_02774-5358-7120",
+            "score": null,
+            "score_type": "contriever",
+            "text": " A user's predefined attributes are empty until their first authentication. Although they're empty, the user is still fully authenticated. You can use their profile ID just as you would someone who has already signed in. For instance, you can modify, search, or delete the profile.     Before you begin   Before you get started, you must have the following information:    * Which identity provider that the user will sign in with. * The email of the user that you want to add or their [unique identifier](https://cloud.ibm.com/docs/appid?topic=appid-preregisterpreregister-idp-provide). * The [custom attribute](https://cloud.ibm.com/docs/appid?topic=appid-profiles) information that you want to assign.         With the GUI   You can add a future user and their custom attributes by using the GUI.  The ability to add future users is disabled for the user name and password configuration of Cloud Directory.    1. Go to the User Profiles tab of the App ID dashboard. 2. Click Future users. If you already have future users, you see a table with a list of the user's that you already added. To add another user, click Build a profile. If you don't have any users yet, click Get Started. A screen opens. 3. Enter your user's email. 4. Select the identity provider that they sign in with from the Identity Provider drop down. 5. Add custom attributes by entering the information in a JSON object as shown in the following example.  { \"food\": \"Pizza\", \"preference\": \"Vegetarian\", \"points\": \"37\" } 6. Click Save. The table displays and the user is assigned an identifier.         With the API   You can add a future user and their custom attributes by using the API.    1. Log in to IBM Cloud.  ibmcloud login 2. Find your IAM token by running the following command.",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Click Create.3.4.5.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "ibmcld_08423-6549-8265",
+          "score": null,
+          "score_type": "contriever",
+          "text": " 3. To create an API key for the service ID, follow these steps:    1. Click the API keys tab on the SO user service ID page. 2. Click Create. 3. Add a name and description to easily identify the API key, for example, SO user API key. 4. Click Create. 5. Save your API key by copying or downloading it to secure location.    The API key is to be used as the PIN for the SO user logins, and cannot be retrieved. Make sure to make a copy of it in this step.         2. Create service IDs and API keys for the normal user   To create a service ID for the normal user and the corresponding API key, complete the following steps:    1. In the IBM Cloud console, go to Manage > Access (IAM), and select Service IDs. 2. To create the service ID for the normal user, follow these steps:    1. Click Create. 2. Create a name Normal user and description for the normal user service ID. 3. Click Create.    3. To create an API key for the service ID, follow these steps:    1. Click the API keys tab on the Normal user service ID page. 2. Click Create. 3. Add a name and description to easily identify the API key, for example, Normal user API key. 4. Click Create. 5. Save your API key by copying or downloading it to secure location.    The API key is to be used as the PIN for the normal user logins, and cannot be retrieved. Make sure to make a copy of it in this step.         3. Create service IDs and API keys for the anonymous user   To create a service ID for the anonymous user and the corresponding API key, complete the following steps:    1. In the IBM Cloud console, go to Manage > Access (IAM), and select Service IDs. 2. To create the service ID for the anonymous user, follow these steps:    1. Click Create. 2.",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "ibmcld_09382-5993-6824",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Add a user or service ID to the access group   Continue to set up your group by adding users or service IDs.     Add a user to the access group   Complete the following steps to add a user:    1. From the menu bar, click Manage > Access (IAM), and select Access Groups. 2. Select the name of the group that you want to assign access to. 3. Click Add users on the Users tab. 4. Select the users that you want to add from the list, and click Add to group.         Add a service ID to the access group   Complete the following steps to add a service ID:    1. From the menu bar, click Manage > Access (IAM), and select Access Groups. 2. Select the name of the group that you want to assign access to. 3. Click the Service IDs tab, and click Add service ID. 4. Select the IDs that you want to add from the list, and click Add to group.",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "ibmcld_02104-7488-9365",
+          "score": null,
+          "score_type": "contriever",
+          "text": " For more information about trusted profiles, see [Creating trusted profiles](https://cloud.ibm.com/docs/account?topic=account-create-trusted-profile).    If you have onboarding set to Static and the user selects a trusted profile when they log in the first time, the user is still added to the account. 5. Then, select the following settings (Optional):    * Enable for account login?: Enable your IdP references to be used for users to log in to your account. This option is set by default when you first create an IdP reference. * Set as the default?: Users can use the default IdP reference URL that you created when you enabled this feature to log in to your account. You can have only one default IdP reference. For all other IdP references that you create, users must use the realm IDs to log in.    6. Click Create.    Your IdP reference is now available on the Identity providers list and the realm ID is generated automatically as the value that represents your IAM IdP in IBM Cloud.       Logging in with external identity provider credentials   After your App ID instance is connected to your IdP, and your App ID instance is integrated with IAM, your users can start logging in to your account. If the IdP reference is set as the default, then you can share the Default IdP URL for your account.  However, since you can have only one set as the default, but you can have up to five set up in your account, you might need to get the URL for another IdP reference:    1. From the Identity provider pages, click the Actions icon ![List of actions icon](https://cloud.ibm.com/docs-content/v1/content/4d8c6eec891cff72b666dc24bd3211810c77fb42/icons/action-menu-icon.svg) for the row of the IdP reference you need a URL for. 2. Select View IdP URL. 3. Copy the IdP URL link to give to users to log in.         Using App ID instances to build dynamic rules in access groups",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "ibmcld_02488-6078-6980",
+          "score": null,
+          "score_type": "contriever",
+          "text": " 5. Select the service role Manager. 6. Click Assign.           Step 3. Add a user or service ID to the access group   Continue to set up your group by adding users or service IDs.     Add a user to the access group   Complete the following steps to add a user:    1. From the menu bar, click Manage > Access (IAM), and select Access Groups. 2. Select the name of the group that you want to assign access to. 3. Click Add users on the Users tab. 4. Select the users that you want to add from the list, and click Add to group.         Add a service ID to the access group   Complete the following steps to add a service ID:    1. From the menu bar, click Manage > Access (IAM), and select Access Groups. 2. Select the name of the group that you want to assign access to. 3. Click the Service IDs tab, and click Add service ID. 4. Select the IDs that you want to add from the list, and click Add to group.",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "ibmcld_02774-5358-7120",
+          "score": null,
+          "score_type": "contriever",
+          "text": " A user's predefined attributes are empty until their first authentication. Although they're empty, the user is still fully authenticated. You can use their profile ID just as you would someone who has already signed in. For instance, you can modify, search, or delete the profile.     Before you begin   Before you get started, you must have the following information:    * Which identity provider that the user will sign in with. * The email of the user that you want to add or their [unique identifier](https://cloud.ibm.com/docs/appid?topic=appid-preregisterpreregister-idp-provide). * The [custom attribute](https://cloud.ibm.com/docs/appid?topic=appid-profiles) information that you want to assign.         With the GUI   You can add a future user and their custom attributes by using the GUI.  The ability to add future users is disabled for the user name and password configuration of Cloud Directory.    1. Go to the User Profiles tab of the App ID dashboard. 2. Click Future users. If you already have future users, you see a table with a list of the user's that you already added. To add another user, click Build a profile. If you don't have any users yet, click Get Started. A screen opens. 3. Enter your user's email. 4. Select the identity provider that they sign in with from the Identity Provider drop down. 5. Add custom attributes by entering the information in a JSON object as shown in the following example.  { \"food\": \"Pizza\", \"preference\": \"Vegetarian\", \"points\": \"37\" } 6. Click Save. The table displays and the user is assigned an identifier.         With the API   You can add a future user and their custom attributes by using the API.    1. Log in to IBM Cloud.  ibmcloud login 2. Find your IAM token by running the following command.",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "The creation of a user ID depends on the specific system or platform you are using to integrate with the IBM Watson Assistant. Typically, the user ID is created and managed by the application that is using the assistant. It is up to the developer of that application to ensure that each user is assigned a unique user ID. You should refer to the documentation of your specific application or platform for instructions on how to create a user ID. Open the App ID instance page from the resource list Services and software section. 2. Go to Manage Authentication → Cloud Directory → Users, and click Create User. Enter the user details.\n\nStep 6: Create or modify users' project assignments\n\nIf the IDP administrator will assign users to projects, you can define project values in the user's attributes.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "How-To"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "4",
+      "task_id": "1dcbbeb35d4d25ba1ffb787a9f2080e2<::>4",
+      "question": "What is a strong password?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "How do I find specific conversations?"
+        },
+        {
+          "role": "assistant",
+          "content": "To find specific conversations, you can use the time period control to choose the period for which data is displayed. This control affects all data shown on the page, including the list of conversations. You can choose to view data for a single day, a week, a month, or a quarter. However, please note that the statistics can cover a longer time period than the period for which logs of conversations are retained. For each entity you can select from the Values column to see a list of the most common values that were identified for this entity during the time period. "
+        },
+        {
+          "role": "user",
+          "content": "Is a user ID necessary to find a specific conversation?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, statistics for Active users and Average conversations per user require a unique user\\_id parameter to be specified with the messages. This value is typically specified by all integrations because it is used for billing purposes. Therefore, having a user ID can help you find a specific conversation more effectively. A property defined in the v2 API that identifies a single conversation between a user and the assistant. "
+        },
+        {
+          "role": "user",
+          "content": "How to create a user ID?"
+        },
+        {
+          "role": "assistant",
+          "content": "The creation of a user ID depends on the specific system or platform you are using to integrate with the IBM Watson Assistant. Typically, the user ID is created and managed by the application that is using the assistant. It is up to the developer of that application to ensure that each user is assigned a unique user ID. You should refer to the documentation of your specific application or platform for instructions on how to create a user ID. Open the App ID instance page from the resource list Services and software section. 2. Go to Manage Authentication → Cloud Directory → Users, and click Create User. Enter the user details.\n\nStep 6: Create or modify users' project assignments\n\nIf the IDP administrator will assign users to projects, you can define project values in the user's attributes."
+        }
+      ],
+      "retrieval": {
+        "query": "What is a strong password?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_02746-7-1681",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Defining password policies   Password policies, such as strength requirements, help you to enforce more secure applications. By defining advanced policies, you can define the rules that a user must conform to when they set their password or attempt to sign in to your app. For example, you can set the number of times that a user can try to sign in before they are locked out of their account.     Policy: password strength   A strong password makes it difficult, or even improbable for someone to guess the password in either a manual or automated way. To set requirements for the strength of a user's password, you can use the following steps.  To set this configuration by using the GUI:    1. Go to the Cloud Directory > Password policies tab of the App ID dashboard. 2. In the Define password strength box, click Edit. A screen opens. 3. Enter a valid regex string in the Password strength box.  Examples:    * Must be at least 8 characters. (^.{8,}$) * Must have one number, one lowercase letter, and one capital letter. (^(?:(?=.d)(?=.[a-z])(?=.[A-Z]).)$) * Must have only English letters and numbers. (^[A-Za-z0-9]$) * Must have at least one unique character. (^(w)w?(?!1)w+$)    4. Click Save.    Password strength can be set in the Cloud Directory settings page in the App ID dashboard, or by using [the management APIs](https://us-south.appid.cloud.ibm.com/swagger-ui//Management%20API%20-%20Config/mgmt.set_cloud_directory_password_regex).     Setting a custom error message   If you set your own password regex policy and a user chooses a password that does not meet your requirements, the default message is The password doesn't meet the strength requirements.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_07765-0-1628",
+            "score": null,
+            "score_type": "contriever",
+            "text": "         IA-5 (4) - Automated Support for Password Strength Determination       Control requirements   IA-5 (4) - 0 :   The organization employs automated tools to determine if password authenticators are sufficiently strong to satisfy [Assignment: organization-defined requirements].        IBM Cloud for Financial Services profile   The rules related to this control that follow are part of the IBM Cloud for Financial Services v1.2.0 profile in [IBM Cloud® Security and Compliance Center](https://cloud.ibm.com/docs/security-compliance?topic=security-compliance-getting-started).    *  Check whether App ID advanced password policies are enabled *  IBMid employs automated tools to determine if password authenticators satisfy IBMid password requirements *  Check whether IBMid password may contain only printable ASCII characters (in the range 33 - 126) *  Check whether App ID password strength regex is configured *  Check whether IBMid password policy policy contains spaces or any of the following characters: ;:(\"?)<> *  Check whether VPN for VPC authentication is configured with a strong pre-shared key with at least # characters *  Check whether IBMid password policy requires at least one uppercase letter *  Check whether IBMid uses a password meter that coaches users to create strong passwords that exceed the minimum requirements          NIST supplemental guidance   This control enhancement focuses on the creation of strong passwords and the characteristics of such passwords (e.g., complexity) prior to use, the enforcement of which is carried out by organizational information systems in IA-5 (1).          ",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_15436-1628-3497",
+            "score": null,
+            "score_type": "contriever",
+            "text": " For more information about how strongSwan works, see [Introduction to strongSwan](https://docs.strongswan.org/docs/5.9/howtos/introduction.html) and [IPsec Protocol](https://docs.strongswan.org/docs/5.9/howtos/ipsecProtocol.html), too.  Encrypting data in transit can have some performance impact due to the processing that is needed to encrypt and decrypt the data at the endpoints.  The IPsec connection requires that you have an X.509 certificate for authentication. X.509 is an international standard format for public key certificates, digital documents that securely associate cryptographic key pairs with identities such as websites, individuals, or organizations. The Instance Metadata service is used to create the certificates.  A Certificate Signing Request (CSR) is a block of encoded texts that are forwarded to a certificate authority (CA) when users apply for a certificate. CSR is created on the server where the certificate is to be installed. CSR includes information such as domain name, organization name, locality, and country. The request also contains the public key, which is associated with the certificate that is generated, and the private key. The CA uses only the public key when the certificate is created. The private key must be saved and kept secret. As the private key is part of the key pair with the public key, and the certificate does not work if the private key is lost.  Encryption in transit is not supported on Bare Metal Servers for VPC.       Configuring encryption in transit   To use the feature, the following requirements need to be met:    * The file share must be based on the [dp2 profile](https://cloud.ibm.com/docs/vpc?topic=vpc-file-storage-profiles&interface=apidp2-profile) and be configured with [Security Group access mode](https://cloud.ibm.com/docs/vpc?topic=vpc-file-storage-vpc-aboutfs-share-mount-targets).",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_15431-1628-3497",
+            "score": null,
+            "score_type": "contriever",
+            "text": " For more information about how strongSwan works, see [Introduction to strongSwan](https://docs.strongswan.org/docs/5.9/howtos/introduction.html) and [IPsec Protocol](https://docs.strongswan.org/docs/5.9/howtos/ipsecProtocol.html), too.  Encrypting data in transit can have some performance impact due to the processing that is needed to encrypt and decrypt the data at the endpoints.  The IPsec connection requires that you have an X.509 certificate for authentication. X.509 is an international standard format for public key certificates, digital documents that securely associate cryptographic key pairs with identities such as websites, individuals, or organizations. The Instance Metadata service is used to create the certificates.  A Certificate Signing Request (CSR) is a block of encoded texts that are forwarded to a certificate authority (CA) when users apply for a certificate. CSR is created on the server where the certificate is to be installed. CSR includes information such as domain name, organization name, locality, and country. The request also contains the public key, which is associated with the certificate that is generated, and the private key. The CA uses only the public key when the certificate is created. The private key must be saved and kept secret. As the private key is part of the key pair with the public key, and the certificate does not work if the private key is lost.  Encryption in transit is not supported on Bare Metal Servers for VPC.       Configuring encryption in transit   To use the feature, the following requirements need to be met:    * The file share must be based on the [dp2 profile](https://cloud.ibm.com/docs/vpc?topic=vpc-file-storage-profiles&interface=apidp2-profile) and be configured with [Security Group access mode](https://cloud.ibm.com/docs/vpc?topic=vpc-file-storage-vpc-aboutfs-share-mount-targets).",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_15436-7-2097",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Encryption in transit - Securing mount connections between file share and virtual server instance   New  You can establish an encrypted mount connection between the virtual server instance and storage system by using the Internet Security Protocol (IPsec) security profile and X.509 certificates. By enabling encryption in transit, you create secure end-to-end encryption for your data.  IBM Cloud® File Storage for VPC is available for customers with special approval to preview this service in the Frankfurt, London, Madrid, Dallas, Toronto, Washington, Sao Paulo, Sydney, Osaka, and Tokyo regions. Contact your IBM Sales representative if you are interested in getting access.     Overview   With this feature, you can enable secure end-to-end encryption of your data when you use file shares with security-group-based access control mode and mount targets with virtual network interfaces. When such a mount target is attached and the share is mounted on a virtual server instance, the virtual network interface checks the security group policy to ensure only authorized instances can communicate with the share. The traffic between the authorized virtual server instance and the file share can be IPsec encapsulated by the client.  IPsec is a group of protocols that together set up encrypted connections between devices. It helps keep data sent over public networks secure. IPsec Encrypts IP packets, and authenticates the source where the packets come from. To configure IPsec on your virtual server instance, you can use [strongSwan](https://www.strongswan.org/), which is an open source IPsec-based VPN solution. For more information about how strongSwan works, see [Introduction to strongSwan](https://docs.strongswan.org/docs/5.9/howtos/introduction.html) and [IPsec Protocol](https://docs.strongswan.org/docs/5.9/howtos/ipsecProtocol.html), too.  Encrypting data in transit can have some performance impact due to the processing that is needed to encrypt and decrypt the data at the endpoints.  The IPsec connection requires that you have an X.509 certificate for authentication.",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_02746-7-1681",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Defining password policies   Password policies, such as strength requirements, help you to enforce more secure applications. By defining advanced policies, you can define the rules that a user must conform to when they set their password or attempt to sign in to your app. For example, you can set the number of times that a user can try to sign in before they are locked out of their account.     Policy: password strength   A strong password makes it difficult, or even improbable for someone to guess the password in either a manual or automated way. To set requirements for the strength of a user's password, you can use the following steps.  To set this configuration by using the GUI:    1. Go to the Cloud Directory > Password policies tab of the App ID dashboard. 2. In the Define password strength box, click Edit. A screen opens. 3. Enter a valid regex string in the Password strength box.  Examples:    * Must be at least 8 characters. (^.{8,}$) * Must have one number, one lowercase letter, and one capital letter. (^(?:(?=.d)(?=.[a-z])(?=.[A-Z]).)$) * Must have only English letters and numbers. (^[A-Za-z0-9]$) * Must have at least one unique character. (^(w)w?(?!1)w+$)    4. Click Save.    Password strength can be set in the Cloud Directory settings page in the App ID dashboard, or by using [the management APIs](https://us-south.appid.cloud.ibm.com/swagger-ui//Management%20API%20-%20Config/mgmt.set_cloud_directory_password_regex).     Setting a custom error message   If you set your own password regex policy and a user chooses a password that does not meet your requirements, the default message is The password doesn't meet the strength requirements.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_07765-0-1628",
+            "score": null,
+            "score_type": "contriever",
+            "text": "         IA-5 (4) - Automated Support for Password Strength Determination       Control requirements   IA-5 (4) - 0 :   The organization employs automated tools to determine if password authenticators are sufficiently strong to satisfy [Assignment: organization-defined requirements].        IBM Cloud for Financial Services profile   The rules related to this control that follow are part of the IBM Cloud for Financial Services v1.2.0 profile in [IBM Cloud® Security and Compliance Center](https://cloud.ibm.com/docs/security-compliance?topic=security-compliance-getting-started).    *  Check whether App ID advanced password policies are enabled *  IBMid employs automated tools to determine if password authenticators satisfy IBMid password requirements *  Check whether IBMid password may contain only printable ASCII characters (in the range 33 - 126) *  Check whether App ID password strength regex is configured *  Check whether IBMid password policy policy contains spaces or any of the following characters: ;:(\"?)<> *  Check whether VPN for VPC authentication is configured with a strong pre-shared key with at least # characters *  Check whether IBMid password policy requires at least one uppercase letter *  Check whether IBMid uses a password meter that coaches users to create strong passwords that exceed the minimum requirements          NIST supplemental guidance   This control enhancement focuses on the creation of strong passwords and the characteristics of such passwords (e.g., complexity) prior to use, the enforcement of which is carried out by organizational information systems in IA-5 (1).          ",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_15436-1628-3497",
+            "score": null,
+            "score_type": "contriever",
+            "text": " For more information about how strongSwan works, see [Introduction to strongSwan](https://docs.strongswan.org/docs/5.9/howtos/introduction.html) and [IPsec Protocol](https://docs.strongswan.org/docs/5.9/howtos/ipsecProtocol.html), too.  Encrypting data in transit can have some performance impact due to the processing that is needed to encrypt and decrypt the data at the endpoints.  The IPsec connection requires that you have an X.509 certificate for authentication. X.509 is an international standard format for public key certificates, digital documents that securely associate cryptographic key pairs with identities such as websites, individuals, or organizations. The Instance Metadata service is used to create the certificates.  A Certificate Signing Request (CSR) is a block of encoded texts that are forwarded to a certificate authority (CA) when users apply for a certificate. CSR is created on the server where the certificate is to be installed. CSR includes information such as domain name, organization name, locality, and country. The request also contains the public key, which is associated with the certificate that is generated, and the private key. The CA uses only the public key when the certificate is created. The private key must be saved and kept secret. As the private key is part of the key pair with the public key, and the certificate does not work if the private key is lost.  Encryption in transit is not supported on Bare Metal Servers for VPC.       Configuring encryption in transit   To use the feature, the following requirements need to be met:    * The file share must be based on the [dp2 profile](https://cloud.ibm.com/docs/vpc?topic=vpc-file-storage-profiles&interface=apidp2-profile) and be configured with [Security Group access mode](https://cloud.ibm.com/docs/vpc?topic=vpc-file-storage-vpc-aboutfs-share-mount-targets).",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_15431-1628-3497",
+            "score": null,
+            "score_type": "contriever",
+            "text": " For more information about how strongSwan works, see [Introduction to strongSwan](https://docs.strongswan.org/docs/5.9/howtos/introduction.html) and [IPsec Protocol](https://docs.strongswan.org/docs/5.9/howtos/ipsecProtocol.html), too.  Encrypting data in transit can have some performance impact due to the processing that is needed to encrypt and decrypt the data at the endpoints.  The IPsec connection requires that you have an X.509 certificate for authentication. X.509 is an international standard format for public key certificates, digital documents that securely associate cryptographic key pairs with identities such as websites, individuals, or organizations. The Instance Metadata service is used to create the certificates.  A Certificate Signing Request (CSR) is a block of encoded texts that are forwarded to a certificate authority (CA) when users apply for a certificate. CSR is created on the server where the certificate is to be installed. CSR includes information such as domain name, organization name, locality, and country. The request also contains the public key, which is associated with the certificate that is generated, and the private key. The CA uses only the public key when the certificate is created. The private key must be saved and kept secret. As the private key is part of the key pair with the public key, and the certificate does not work if the private key is lost.  Encryption in transit is not supported on Bare Metal Servers for VPC.       Configuring encryption in transit   To use the feature, the following requirements need to be met:    * The file share must be based on the [dp2 profile](https://cloud.ibm.com/docs/vpc?topic=vpc-file-storage-profiles&interface=apidp2-profile) and be configured with [Security Group access mode](https://cloud.ibm.com/docs/vpc?topic=vpc-file-storage-vpc-aboutfs-share-mount-targets).",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_15436-7-2097",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Encryption in transit - Securing mount connections between file share and virtual server instance   New  You can establish an encrypted mount connection between the virtual server instance and storage system by using the Internet Security Protocol (IPsec) security profile and X.509 certificates. By enabling encryption in transit, you create secure end-to-end encryption for your data.  IBM Cloud® File Storage for VPC is available for customers with special approval to preview this service in the Frankfurt, London, Madrid, Dallas, Toronto, Washington, Sao Paulo, Sydney, Osaka, and Tokyo regions. Contact your IBM Sales representative if you are interested in getting access.     Overview   With this feature, you can enable secure end-to-end encryption of your data when you use file shares with security-group-based access control mode and mount targets with virtual network interfaces. When such a mount target is attached and the share is mounted on a virtual server instance, the virtual network interface checks the security group policy to ensure only authorized instances can communicate with the share. The traffic between the authorized virtual server instance and the file share can be IPsec encapsulated by the client.  IPsec is a group of protocols that together set up encrypted connections between devices. It helps keep data sent over public networks secure. IPsec Encrypts IP packets, and authenticates the source where the packets come from. To configure IPsec on your virtual server instance, you can use [strongSwan](https://www.strongswan.org/), which is an open source IPsec-based VPN solution. For more information about how strongSwan works, see [Introduction to strongSwan](https://docs.strongswan.org/docs/5.9/howtos/introduction.html) and [IPsec Protocol](https://docs.strongswan.org/docs/5.9/howtos/ipsecProtocol.html), too.  Encrypting data in transit can have some performance impact due to the processing that is needed to encrypt and decrypt the data at the endpoints.  The IPsec connection requires that you have an X.509 certificate for authentication.",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "A strong password is one that is difficult for others to guess but easy for you to remember.Here are some tips for creating a strong password:\n\n- Use a combination of uppercase and lowercase letters, numbers, and symbols.\n- Avoid using common words or phrases.\n- Don't use personal information like your name, birthdate, or address.\n- Don't share your password with anyone.\n- Change your password regularly.- Avoid using the same password for multiple accounts.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "ibmcld_02746-7-1681",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Defining password policies   Password policies, such as strength requirements, help you to enforce more secure applications. By defining advanced policies, you can define the rules that a user must conform to when they set their password or attempt to sign in to your app. For example, you can set the number of times that a user can try to sign in before they are locked out of their account.     Policy: password strength   A strong password makes it difficult, or even improbable for someone to guess the password in either a manual or automated way. To set requirements for the strength of a user's password, you can use the following steps.  To set this configuration by using the GUI:    1. Go to the Cloud Directory > Password policies tab of the App ID dashboard. 2. In the Define password strength box, click Edit. A screen opens. 3. Enter a valid regex string in the Password strength box.  Examples:    * Must be at least 8 characters. (^.{8,}$) * Must have one number, one lowercase letter, and one capital letter. (^(?:(?=.d)(?=.[a-z])(?=.[A-Z]).)$) * Must have only English letters and numbers. (^[A-Za-z0-9]$) * Must have at least one unique character. (^(w)w?(?!1)w+$)    4. Click Save.    Password strength can be set in the Cloud Directory settings page in the App ID dashboard, or by using [the management APIs](https://us-south.appid.cloud.ibm.com/swagger-ui//Management%20API%20-%20Config/mgmt.set_cloud_directory_password_regex).     Setting a custom error message   If you set your own password regex policy and a user chooses a password that does not meet your requirements, the default message is The password doesn't meet the strength requirements.",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "ibmcld_07765-0-1628",
+          "score": null,
+          "score_type": "contriever",
+          "text": "         IA-5 (4) - Automated Support for Password Strength Determination       Control requirements   IA-5 (4) - 0 :   The organization employs automated tools to determine if password authenticators are sufficiently strong to satisfy [Assignment: organization-defined requirements].        IBM Cloud for Financial Services profile   The rules related to this control that follow are part of the IBM Cloud for Financial Services v1.2.0 profile in [IBM Cloud® Security and Compliance Center](https://cloud.ibm.com/docs/security-compliance?topic=security-compliance-getting-started).    *  Check whether App ID advanced password policies are enabled *  IBMid employs automated tools to determine if password authenticators satisfy IBMid password requirements *  Check whether IBMid password may contain only printable ASCII characters (in the range 33 - 126) *  Check whether App ID password strength regex is configured *  Check whether IBMid password policy policy contains spaces or any of the following characters: ;:(\"?)<> *  Check whether VPN for VPC authentication is configured with a strong pre-shared key with at least # characters *  Check whether IBMid password policy requires at least one uppercase letter *  Check whether IBMid uses a password meter that coaches users to create strong passwords that exceed the minimum requirements          NIST supplemental guidance   This control enhancement focuses on the creation of strong passwords and the characteristics of such passwords (e.g., complexity) prior to use, the enforcement of which is carried out by organizational information systems in IA-5 (1).          ",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "ibmcld_15436-1628-3497",
+          "score": null,
+          "score_type": "contriever",
+          "text": " For more information about how strongSwan works, see [Introduction to strongSwan](https://docs.strongswan.org/docs/5.9/howtos/introduction.html) and [IPsec Protocol](https://docs.strongswan.org/docs/5.9/howtos/ipsecProtocol.html), too.  Encrypting data in transit can have some performance impact due to the processing that is needed to encrypt and decrypt the data at the endpoints.  The IPsec connection requires that you have an X.509 certificate for authentication. X.509 is an international standard format for public key certificates, digital documents that securely associate cryptographic key pairs with identities such as websites, individuals, or organizations. The Instance Metadata service is used to create the certificates.  A Certificate Signing Request (CSR) is a block of encoded texts that are forwarded to a certificate authority (CA) when users apply for a certificate. CSR is created on the server where the certificate is to be installed. CSR includes information such as domain name, organization name, locality, and country. The request also contains the public key, which is associated with the certificate that is generated, and the private key. The CA uses only the public key when the certificate is created. The private key must be saved and kept secret. As the private key is part of the key pair with the public key, and the certificate does not work if the private key is lost.  Encryption in transit is not supported on Bare Metal Servers for VPC.       Configuring encryption in transit   To use the feature, the following requirements need to be met:    * The file share must be based on the [dp2 profile](https://cloud.ibm.com/docs/vpc?topic=vpc-file-storage-profiles&interface=apidp2-profile) and be configured with [Security Group access mode](https://cloud.ibm.com/docs/vpc?topic=vpc-file-storage-vpc-aboutfs-share-mount-targets).",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "ibmcld_15431-1628-3497",
+          "score": null,
+          "score_type": "contriever",
+          "text": " For more information about how strongSwan works, see [Introduction to strongSwan](https://docs.strongswan.org/docs/5.9/howtos/introduction.html) and [IPsec Protocol](https://docs.strongswan.org/docs/5.9/howtos/ipsecProtocol.html), too.  Encrypting data in transit can have some performance impact due to the processing that is needed to encrypt and decrypt the data at the endpoints.  The IPsec connection requires that you have an X.509 certificate for authentication. X.509 is an international standard format for public key certificates, digital documents that securely associate cryptographic key pairs with identities such as websites, individuals, or organizations. The Instance Metadata service is used to create the certificates.  A Certificate Signing Request (CSR) is a block of encoded texts that are forwarded to a certificate authority (CA) when users apply for a certificate. CSR is created on the server where the certificate is to be installed. CSR includes information such as domain name, organization name, locality, and country. The request also contains the public key, which is associated with the certificate that is generated, and the private key. The CA uses only the public key when the certificate is created. The private key must be saved and kept secret. As the private key is part of the key pair with the public key, and the certificate does not work if the private key is lost.  Encryption in transit is not supported on Bare Metal Servers for VPC.       Configuring encryption in transit   To use the feature, the following requirements need to be met:    * The file share must be based on the [dp2 profile](https://cloud.ibm.com/docs/vpc?topic=vpc-file-storage-profiles&interface=apidp2-profile) and be configured with [Security Group access mode](https://cloud.ibm.com/docs/vpc?topic=vpc-file-storage-vpc-aboutfs-share-mount-targets).",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "ibmcld_15436-7-2097",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Encryption in transit - Securing mount connections between file share and virtual server instance   New  You can establish an encrypted mount connection between the virtual server instance and storage system by using the Internet Security Protocol (IPsec) security profile and X.509 certificates. By enabling encryption in transit, you create secure end-to-end encryption for your data.  IBM Cloud® File Storage for VPC is available for customers with special approval to preview this service in the Frankfurt, London, Madrid, Dallas, Toronto, Washington, Sao Paulo, Sydney, Osaka, and Tokyo regions. Contact your IBM Sales representative if you are interested in getting access.     Overview   With this feature, you can enable secure end-to-end encryption of your data when you use file shares with security-group-based access control mode and mount targets with virtual network interfaces. When such a mount target is attached and the share is mounted on a virtual server instance, the virtual network interface checks the security group policy to ensure only authorized instances can communicate with the share. The traffic between the authorized virtual server instance and the file share can be IPsec encapsulated by the client.  IPsec is a group of protocols that together set up encrypted connections between devices. It helps keep data sent over public networks secure. IPsec Encrypts IP packets, and authenticates the source where the packets come from. To configure IPsec on your virtual server instance, you can use [strongSwan](https://www.strongswan.org/), which is an open source IPsec-based VPN solution. For more information about how strongSwan works, see [Introduction to strongSwan](https://docs.strongswan.org/docs/5.9/howtos/introduction.html) and [IPsec Protocol](https://docs.strongswan.org/docs/5.9/howtos/ipsecProtocol.html), too.  Encrypting data in transit can have some performance impact due to the processing that is needed to encrypt and decrypt the data at the endpoints.  The IPsec connection requires that you have an X.509 certificate for authentication.",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "A strong password typically includes a combination of uppercase and lowercase letters, numbers, and special characters. It should be at least 12 characters long and not contain common phrases or easily guessable information like your name or birthdate. It's also recommended to avoid using the same password for multiple accounts. Must be at least 8 characters. (^.{8,}$)\nMust have one number, one lowercase letter, and one capital letter. (^(?:(?=.d)(?=.[a-z])(?=.[A-Z]).)$)\nMust have only English letters and numbers. (^[A-Za-z0-9]$)\nMust have at least one unique character. (^(w)w?(?!1)w+$)",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Explanation"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "5",
+      "task_id": "1dcbbeb35d4d25ba1ffb787a9f2080e2<::>5",
+      "question": "Retention time for conversations?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "How do I find specific conversations?"
+        },
+        {
+          "role": "assistant",
+          "content": "To find specific conversations, you can use the time period control to choose the period for which data is displayed. This control affects all data shown on the page, including the list of conversations. You can choose to view data for a single day, a week, a month, or a quarter. However, please note that the statistics can cover a longer time period than the period for which logs of conversations are retained. For each entity you can select from the Values column to see a list of the most common values that were identified for this entity during the time period. "
+        },
+        {
+          "role": "user",
+          "content": "Is a user ID necessary to find a specific conversation?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, statistics for Active users and Average conversations per user require a unique user\\_id parameter to be specified with the messages. This value is typically specified by all integrations because it is used for billing purposes. Therefore, having a user ID can help you find a specific conversation more effectively. A property defined in the v2 API that identifies a single conversation between a user and the assistant. "
+        },
+        {
+          "role": "user",
+          "content": "How to create a user ID?"
+        },
+        {
+          "role": "assistant",
+          "content": "The creation of a user ID depends on the specific system or platform you are using to integrate with the IBM Watson Assistant. Typically, the user ID is created and managed by the application that is using the assistant. It is up to the developer of that application to ensure that each user is assigned a unique user ID. You should refer to the documentation of your specific application or platform for instructions on how to create a user ID. Open the App ID instance page from the resource list Services and software section. 2. Go to Manage Authentication → Cloud Directory → Users, and click Create User. Enter the user details.\n\nStep 6: Create or modify users' project assignments\n\nIf the IDP administrator will assign users to projects, you can define project values in the user's attributes."
+        },
+        {
+          "role": "user",
+          "content": "What is a strong password?"
+        },
+        {
+          "role": "assistant",
+          "content": "A strong password typically includes a combination of uppercase and lowercase letters, numbers, and special characters. It should be at least 12 characters long and not contain common phrases or easily guessable information like your name or birthdate. It's also recommended to avoid using the same password for multiple accounts. Must be at least 8 characters. (^.{8,}$)\nMust have one number, one lowercase letter, and one capital letter. (^(?:(?=.d)(?=.[a-z])(?=.[A-Z]).)$)\nMust have only English letters and numbers. (^[A-Za-z0-9]$)\nMust have at least one unique character. (^(w)w?(?!1)w+$)"
+        }
+      ],
+      "retrieval": {
+        "query": "Retention time for conversations?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_03121-4080-5334",
+            "score": null,
+            "score_type": "contriever",
+            "text": " When a chat session is reset, the dialog loses any contextual information that it saved during the previous exchange with the user. For example, if the dialog asks for the user's name and then calls the user by that name throughout the rest of the conversation, then after the chat session ends and a new one begins, the dialog will start by asking for the user's name again.  To change the timeout, complete the following steps:    1. Click the menu for your assistant ![open and close list of options](https://cloud.ibm.com/docs-content/v1/content/417db917d18067d9dcc4cf2612564a9a87c3ddc8/assistant/images/kebab.png), and then choose Settings. 2. Change the time specified in the Timeout limit field. The choices and maximum timeout vary depending on your plan. 3. Close the settings page. Your change is saved automatically.         Session limits   The length allowed for an inactivity timeout differs by service instance plan type. The following table lists the limits.    Service plan details   Service plan Chat session default inactivity period Chat session maximum inactivity period    Enterprise 1 hour 168 hours (7 days)   Premium (legacy) 1 hour 168 hours (7 days)   Plus 1 hour 24 hours   Trial 5 minutes 5 minutes   Lite 5 minutes 5 minutes",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_09950-6051-7138",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Updating retention time interval (time travel) for tables     1. Go to Databases. 2. Select the database and schema in which the table that you want to update is. 3. Select the table. 4. From the overflow menu, click Update interval. 5. Type a retention time interval. You can select between 1 day and up to 99 days, or zero to alter a temporal database to nontemporal. For more information on retention time interval and time travel, see [Netezza Performance Server time travel](https://cloud.ibm.com/docs/netezza?topic=netezza-enablingdisabling_tt). 6. Click Save.         Dropping tables     1. Go to Databases. 2. Select the database and schema in which the table that you want to update is. 3. Select the table. 4. From the overflow menu, click Drop. 5. Confirm your choice by clicking Drop.         Viewing space usage (time travel)     1. Go to Databases. 2. Select the database and schema in which the temporal table that you want to analyze is located. 3. Select the table. 4. Go to the Time travel tab. 5. Analyze the data. You can view the information in a list or as a chart.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_09956-7-2100",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Managing the default retention time interval for the system and viewing retention time intervals   Before you set retention time interval for all tables in a schema or database, consider the cost of storage for temporal tables, which could be significant. See [Managing time travel space usage](https://cloud.ibm.com/docs/docs/netezza?topic=netezza-managing_tt).     Setting the retention time interval for the system   To set the default DATA_VERSION_RETENTION_TIME to a specific value for the system, run the SET SYSTEM DEFAULT command.  Before you set DATA_VERSION_RETENTION_TIME for all tables in a schema or database, consider the cost of storage for temporal tables, which could be significant. See [Managing time travel space usage](https://cloud.ibm.com/docs/netezza?topic=netezza-managing_tt).  SET SYSTEM DEFAULT DATA_VERSION_RETENTION_TIME TO <NUMBER OF DAYS>  Example:  SET SYSTEM DEFAULT DATA_VERSION_RETENTION_TIME TO 30  The value of the property at the system level determines the default value inherited by a subsequent CREATE DATABASE statement that does not explicitly specify this property.  To set DATA_VERSION_RETENTION_TIME for a specific object, you can run the ALTER or CREATE command.       Viewing the retention time interval with the command-line      Viewing the default retention time interval for the system with the command-line   To view DATA_VERSION_RETENTION_TIME for the system, run the SHOW SYSTEM DEFAULT command.  SHOW SYSTEM DEFAULT DATA_VERSION_RETENTION_TIME  If you did not set the retention time previously, the default is 0.       Viewing the retention time interval for tables, schemas, and databases with the command-line   To view DATA_VERSION_RETENTION_TIME for a specific object, run one of these commands. The commands display DATA_VERSION_RETENTION_TIME only if it is a nonzero value.  d <table_name>  SHOW SCHEMA <schema_name>  l+ <all databases, with detail>  Retention time interval and retention lower bound for an object are available in the dataverretntime and dataverretnlowerbound columns of the following system views:    * _v_table",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_16328-6203-7945",
+            "score": null,
+            "score_type": "contriever",
+            "text": " For more information about publishing, see [Publishing your content](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-publish).       Environment settings   The draft and live environments each have settings. On either tab, click the Settings gear icon to open the settings.  API details provide these values for each environment:    * Environment name * Environment ID * Session URL    Webhooks  Settings for pre-message, post-message, and log webhooks. For more information, see [Extending your assistant with webhooks](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-webhook-overview).  Inactivity timeout  Specify the amount of time to wait after the customer stops interacting with the assistant before ending the session.  When a customer connects to your assistant through one of the built-in integrations, or through a custom client that uses the stateful message API, the session ends after the specified timeout interval.  When the session ends, the assistant loses any contextual information that it saved during the conversation with the customer. For example, if the assistant asks for the customer's name and then calls the customer by that name throughout the rest of the conversation, then after the session ends and a new one begins, the assistant will start by asking for the customer's name again.  The maximum inactivity timeout differs by service instance plan type. The following table lists the limits.    Service plan details   Service plan Chat session default inactivity period Chat session maximum inactivity period    Enterprise 1 hour 168 hours (7 days)   Premium (legacy) 1 hour 168 hours (7 days)   Plus 1 hour 24 hours   Trial 5 minutes 5 minutes   Lite 5 minutes 5 minutes",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_02840-0-1320",
+            "score": null,
+            "score_type": "contriever",
+            "text": "         Changing the inactivity timeout setting   When a user interacts with your assistant, the chat session ends after a specific period of time passes in which the user does not interact with the assistant. You can specify the amount of time to wait before a chat session is reset by changing the inactivity timeout setting.  When a chat session is reset, the dialog loses any contextual information that it saved during the previous exchange with the user. For example, if the dialog asks for the user's name and then calls the user by that name throughout the rest of the conversation, then after the chat session ends and a new one begins, the dialog will start by asking for the user's name again.      Session limits     Session inactivity timeout details   Chat session default inactivity period  Chat session maximum inactivity period    1 hour                                  168 hours (7 days)                               Changing the setting     1.  Click the menu for your assistant ![open and close list of options](https://cloud.ibm.com/docs-content/v1/content/a2b18c153837bce00a5b4de496e4b4ca64bbf56e/assistant-data/images/kabob-beta.png), and then choose Settings. 2.  Change the time specified in the Timeout limit field. 3.  Close the settings page. Your change is saved automatically.            ",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_03121-4080-5334",
+            "score": null,
+            "score_type": "contriever",
+            "text": " When a chat session is reset, the dialog loses any contextual information that it saved during the previous exchange with the user. For example, if the dialog asks for the user's name and then calls the user by that name throughout the rest of the conversation, then after the chat session ends and a new one begins, the dialog will start by asking for the user's name again.  To change the timeout, complete the following steps:    1. Click the menu for your assistant ![open and close list of options](https://cloud.ibm.com/docs-content/v1/content/417db917d18067d9dcc4cf2612564a9a87c3ddc8/assistant/images/kebab.png), and then choose Settings. 2. Change the time specified in the Timeout limit field. The choices and maximum timeout vary depending on your plan. 3. Close the settings page. Your change is saved automatically.         Session limits   The length allowed for an inactivity timeout differs by service instance plan type. The following table lists the limits.    Service plan details   Service plan Chat session default inactivity period Chat session maximum inactivity period    Enterprise 1 hour 168 hours (7 days)   Premium (legacy) 1 hour 168 hours (7 days)   Plus 1 hour 24 hours   Trial 5 minutes 5 minutes   Lite 5 minutes 5 minutes",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_09950-6051-7138",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Updating retention time interval (time travel) for tables     1. Go to Databases. 2. Select the database and schema in which the table that you want to update is. 3. Select the table. 4. From the overflow menu, click Update interval. 5. Type a retention time interval. You can select between 1 day and up to 99 days, or zero to alter a temporal database to nontemporal. For more information on retention time interval and time travel, see [Netezza Performance Server time travel](https://cloud.ibm.com/docs/netezza?topic=netezza-enablingdisabling_tt). 6. Click Save.         Dropping tables     1. Go to Databases. 2. Select the database and schema in which the table that you want to update is. 3. Select the table. 4. From the overflow menu, click Drop. 5. Confirm your choice by clicking Drop.         Viewing space usage (time travel)     1. Go to Databases. 2. Select the database and schema in which the temporal table that you want to analyze is located. 3. Select the table. 4. Go to the Time travel tab. 5. Analyze the data. You can view the information in a list or as a chart.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_09956-7-2100",
+            "score": null,
+            "score_type": "contriever",
+            "text": " Managing the default retention time interval for the system and viewing retention time intervals   Before you set retention time interval for all tables in a schema or database, consider the cost of storage for temporal tables, which could be significant. See [Managing time travel space usage](https://cloud.ibm.com/docs/docs/netezza?topic=netezza-managing_tt).     Setting the retention time interval for the system   To set the default DATA_VERSION_RETENTION_TIME to a specific value for the system, run the SET SYSTEM DEFAULT command.  Before you set DATA_VERSION_RETENTION_TIME for all tables in a schema or database, consider the cost of storage for temporal tables, which could be significant. See [Managing time travel space usage](https://cloud.ibm.com/docs/netezza?topic=netezza-managing_tt).  SET SYSTEM DEFAULT DATA_VERSION_RETENTION_TIME TO <NUMBER OF DAYS>  Example:  SET SYSTEM DEFAULT DATA_VERSION_RETENTION_TIME TO 30  The value of the property at the system level determines the default value inherited by a subsequent CREATE DATABASE statement that does not explicitly specify this property.  To set DATA_VERSION_RETENTION_TIME for a specific object, you can run the ALTER or CREATE command.       Viewing the retention time interval with the command-line      Viewing the default retention time interval for the system with the command-line   To view DATA_VERSION_RETENTION_TIME for the system, run the SHOW SYSTEM DEFAULT command.  SHOW SYSTEM DEFAULT DATA_VERSION_RETENTION_TIME  If you did not set the retention time previously, the default is 0.       Viewing the retention time interval for tables, schemas, and databases with the command-line   To view DATA_VERSION_RETENTION_TIME for a specific object, run one of these commands. The commands display DATA_VERSION_RETENTION_TIME only if it is a nonzero value.  d <table_name>  SHOW SCHEMA <schema_name>  l+ <all databases, with detail>  Retention time interval and retention lower bound for an object are available in the dataverretntime and dataverretnlowerbound columns of the following system views:    * _v_table",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_16328-6203-7945",
+            "score": null,
+            "score_type": "contriever",
+            "text": " For more information about publishing, see [Publishing your content](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-publish).       Environment settings   The draft and live environments each have settings. On either tab, click the Settings gear icon to open the settings.  API details provide these values for each environment:    * Environment name * Environment ID * Session URL    Webhooks  Settings for pre-message, post-message, and log webhooks. For more information, see [Extending your assistant with webhooks](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-webhook-overview).  Inactivity timeout  Specify the amount of time to wait after the customer stops interacting with the assistant before ending the session.  When a customer connects to your assistant through one of the built-in integrations, or through a custom client that uses the stateful message API, the session ends after the specified timeout interval.  When the session ends, the assistant loses any contextual information that it saved during the conversation with the customer. For example, if the assistant asks for the customer's name and then calls the customer by that name throughout the rest of the conversation, then after the session ends and a new one begins, the assistant will start by asking for the customer's name again.  The maximum inactivity timeout differs by service instance plan type. The following table lists the limits.    Service plan details   Service plan Chat session default inactivity period Chat session maximum inactivity period    Enterprise 1 hour 168 hours (7 days)   Premium (legacy) 1 hour 168 hours (7 days)   Plus 1 hour 24 hours   Trial 5 minutes 5 minutes   Lite 5 minutes 5 minutes",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_02840-0-1320",
+            "score": null,
+            "score_type": "contriever",
+            "text": "         Changing the inactivity timeout setting   When a user interacts with your assistant, the chat session ends after a specific period of time passes in which the user does not interact with the assistant. You can specify the amount of time to wait before a chat session is reset by changing the inactivity timeout setting.  When a chat session is reset, the dialog loses any contextual information that it saved during the previous exchange with the user. For example, if the dialog asks for the user's name and then calls the user by that name throughout the rest of the conversation, then after the chat session ends and a new one begins, the dialog will start by asking for the user's name again.      Session limits     Session inactivity timeout details   Chat session default inactivity period  Chat session maximum inactivity period    1 hour                                  168 hours (7 days)                               Changing the setting     1.  Click the menu for your assistant ![open and close list of options](https://cloud.ibm.com/docs-content/v1/content/a2b18c153837bce00a5b4de496e4b4ca64bbf56e/assistant-data/images/kabob-beta.png), and then choose Settings. 2.  Change the time specified in the Timeout limit field. 3.  Close the settings page. Your change is saved automatically.            ",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Assistant: The retention time for conversations is determined by the IBM Watson Assistant team and is subject to change.However, as of my knowledge cutoff date of September 2021, the default retention time for conversations is 30 days.This means that after 30 days, the conversation data will be automatically deleted from the system.It's important to note that this is just a general guideline, and the actual retention time for conversations may vary depending on the specific needs and requirements of the IBM Watson Assistant customer.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "ibmcld_03121-4080-5334",
+          "score": null,
+          "score_type": "contriever",
+          "text": " When a chat session is reset, the dialog loses any contextual information that it saved during the previous exchange with the user. For example, if the dialog asks for the user's name and then calls the user by that name throughout the rest of the conversation, then after the chat session ends and a new one begins, the dialog will start by asking for the user's name again.  To change the timeout, complete the following steps:    1. Click the menu for your assistant ![open and close list of options](https://cloud.ibm.com/docs-content/v1/content/417db917d18067d9dcc4cf2612564a9a87c3ddc8/assistant/images/kebab.png), and then choose Settings. 2. Change the time specified in the Timeout limit field. The choices and maximum timeout vary depending on your plan. 3. Close the settings page. Your change is saved automatically.         Session limits   The length allowed for an inactivity timeout differs by service instance plan type. The following table lists the limits.    Service plan details   Service plan Chat session default inactivity period Chat session maximum inactivity period    Enterprise 1 hour 168 hours (7 days)   Premium (legacy) 1 hour 168 hours (7 days)   Plus 1 hour 24 hours   Trial 5 minutes 5 minutes   Lite 5 minutes 5 minutes",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "ibmcld_09950-6051-7138",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Updating retention time interval (time travel) for tables     1. Go to Databases. 2. Select the database and schema in which the table that you want to update is. 3. Select the table. 4. From the overflow menu, click Update interval. 5. Type a retention time interval. You can select between 1 day and up to 99 days, or zero to alter a temporal database to nontemporal. For more information on retention time interval and time travel, see [Netezza Performance Server time travel](https://cloud.ibm.com/docs/netezza?topic=netezza-enablingdisabling_tt). 6. Click Save.         Dropping tables     1. Go to Databases. 2. Select the database and schema in which the table that you want to update is. 3. Select the table. 4. From the overflow menu, click Drop. 5. Confirm your choice by clicking Drop.         Viewing space usage (time travel)     1. Go to Databases. 2. Select the database and schema in which the temporal table that you want to analyze is located. 3. Select the table. 4. Go to the Time travel tab. 5. Analyze the data. You can view the information in a list or as a chart.",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "ibmcld_09956-7-2100",
+          "score": null,
+          "score_type": "contriever",
+          "text": " Managing the default retention time interval for the system and viewing retention time intervals   Before you set retention time interval for all tables in a schema or database, consider the cost of storage for temporal tables, which could be significant. See [Managing time travel space usage](https://cloud.ibm.com/docs/docs/netezza?topic=netezza-managing_tt).     Setting the retention time interval for the system   To set the default DATA_VERSION_RETENTION_TIME to a specific value for the system, run the SET SYSTEM DEFAULT command.  Before you set DATA_VERSION_RETENTION_TIME for all tables in a schema or database, consider the cost of storage for temporal tables, which could be significant. See [Managing time travel space usage](https://cloud.ibm.com/docs/netezza?topic=netezza-managing_tt).  SET SYSTEM DEFAULT DATA_VERSION_RETENTION_TIME TO <NUMBER OF DAYS>  Example:  SET SYSTEM DEFAULT DATA_VERSION_RETENTION_TIME TO 30  The value of the property at the system level determines the default value inherited by a subsequent CREATE DATABASE statement that does not explicitly specify this property.  To set DATA_VERSION_RETENTION_TIME for a specific object, you can run the ALTER or CREATE command.       Viewing the retention time interval with the command-line      Viewing the default retention time interval for the system with the command-line   To view DATA_VERSION_RETENTION_TIME for the system, run the SHOW SYSTEM DEFAULT command.  SHOW SYSTEM DEFAULT DATA_VERSION_RETENTION_TIME  If you did not set the retention time previously, the default is 0.       Viewing the retention time interval for tables, schemas, and databases with the command-line   To view DATA_VERSION_RETENTION_TIME for a specific object, run one of these commands. The commands display DATA_VERSION_RETENTION_TIME only if it is a nonzero value.  d <table_name>  SHOW SCHEMA <schema_name>  l+ <all databases, with detail>  Retention time interval and retention lower bound for an object are available in the dataverretntime and dataverretnlowerbound columns of the following system views:    * _v_table",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "ibmcld_16328-6203-7945",
+          "score": null,
+          "score_type": "contriever",
+          "text": " For more information about publishing, see [Publishing your content](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-publish).       Environment settings   The draft and live environments each have settings. On either tab, click the Settings gear icon to open the settings.  API details provide these values for each environment:    * Environment name * Environment ID * Session URL    Webhooks  Settings for pre-message, post-message, and log webhooks. For more information, see [Extending your assistant with webhooks](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-webhook-overview).  Inactivity timeout  Specify the amount of time to wait after the customer stops interacting with the assistant before ending the session.  When a customer connects to your assistant through one of the built-in integrations, or through a custom client that uses the stateful message API, the session ends after the specified timeout interval.  When the session ends, the assistant loses any contextual information that it saved during the conversation with the customer. For example, if the assistant asks for the customer's name and then calls the customer by that name throughout the rest of the conversation, then after the session ends and a new one begins, the assistant will start by asking for the customer's name again.  The maximum inactivity timeout differs by service instance plan type. The following table lists the limits.    Service plan details   Service plan Chat session default inactivity period Chat session maximum inactivity period    Enterprise 1 hour 168 hours (7 days)   Premium (legacy) 1 hour 168 hours (7 days)   Plus 1 hour 24 hours   Trial 5 minutes 5 minutes   Lite 5 minutes 5 minutes",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "ibmcld_02840-0-1320",
+          "score": null,
+          "score_type": "contriever",
+          "text": "         Changing the inactivity timeout setting   When a user interacts with your assistant, the chat session ends after a specific period of time passes in which the user does not interact with the assistant. You can specify the amount of time to wait before a chat session is reset by changing the inactivity timeout setting.  When a chat session is reset, the dialog loses any contextual information that it saved during the previous exchange with the user. For example, if the dialog asks for the user's name and then calls the user by that name throughout the rest of the conversation, then after the chat session ends and a new one begins, the dialog will start by asking for the user's name again.      Session limits     Session inactivity timeout details   Chat session default inactivity period  Chat session maximum inactivity period    1 hour                                  168 hours (7 days)                               Changing the setting     1.  Click the menu for your assistant ![open and close list of options](https://cloud.ibm.com/docs-content/v1/content/a2b18c153837bce00a5b4de496e4b4ca64bbf56e/assistant-data/images/kabob-beta.png), and then choose Settings. 2.  Change the time specified in the Timeout limit field. 3.  Close the settings page. Your change is saved automatically.            ",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "The minimum and maximum supported values for the retention period settings MinimumRetention, DefaultRetention, and MaximumRetention are a minimum of 0 days and a maximum of 365243 days (1000 years).   You can also updating the retention time interval  by going to Databases and schema in which the table that you want to update is. Select between 1 day and up to 99 days, or zero to alter a temporal database to nontemporal.   It is important to note that   The statistics can cover a longer time period than the period for which logs of conversations are retained.         ",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "ANSWERABLE",
+        "question_type": [
+          "Factoid"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    },
+    {
+      "turn_id": "6",
+      "task_id": "1dcbbeb35d4d25ba1ffb787a9f2080e2<::>6",
+      "question": "Can you delete conversations?",
+      "rag_history_before_turn": [
+        {
+          "role": "user",
+          "content": "How do I find specific conversations?"
+        },
+        {
+          "role": "assistant",
+          "content": "To find specific conversations, you can use the time period control to choose the period for which data is displayed. This control affects all data shown on the page, including the list of conversations. You can choose to view data for a single day, a week, a month, or a quarter. However, please note that the statistics can cover a longer time period than the period for which logs of conversations are retained. For each entity you can select from the Values column to see a list of the most common values that were identified for this entity during the time period. "
+        },
+        {
+          "role": "user",
+          "content": "Is a user ID necessary to find a specific conversation?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, statistics for Active users and Average conversations per user require a unique user\\_id parameter to be specified with the messages. This value is typically specified by all integrations because it is used for billing purposes. Therefore, having a user ID can help you find a specific conversation more effectively. A property defined in the v2 API that identifies a single conversation between a user and the assistant. "
+        },
+        {
+          "role": "user",
+          "content": "How to create a user ID?"
+        },
+        {
+          "role": "assistant",
+          "content": "The creation of a user ID depends on the specific system or platform you are using to integrate with the IBM Watson Assistant. Typically, the user ID is created and managed by the application that is using the assistant. It is up to the developer of that application to ensure that each user is assigned a unique user ID. You should refer to the documentation of your specific application or platform for instructions on how to create a user ID. Open the App ID instance page from the resource list Services and software section. 2. Go to Manage Authentication → Cloud Directory → Users, and click Create User. Enter the user details.\n\nStep 6: Create or modify users' project assignments\n\nIf the IDP administrator will assign users to projects, you can define project values in the user's attributes."
+        },
+        {
+          "role": "user",
+          "content": "What is a strong password?"
+        },
+        {
+          "role": "assistant",
+          "content": "A strong password typically includes a combination of uppercase and lowercase letters, numbers, and special characters. It should be at least 12 characters long and not contain common phrases or easily guessable information like your name or birthdate. It's also recommended to avoid using the same password for multiple accounts. Must be at least 8 characters. (^.{8,}$)\nMust have one number, one lowercase letter, and one capital letter. (^(?:(?=.d)(?=.[a-z])(?=.[A-Z]).)$)\nMust have only English letters and numbers. (^[A-Za-z0-9]$)\nMust have at least one unique character. (^(w)w?(?!1)w+$)"
+        },
+        {
+          "role": "user",
+          "content": "Retention time for conversations?"
+        },
+        {
+          "role": "assistant",
+          "content": "The minimum and maximum supported values for the retention period settings MinimumRetention, DefaultRetention, and MaximumRetention are a minimum of 0 days and a maximum of 365243 days (1000 years).   You can also updating the retention time interval  by going to Databases and schema in which the table that you want to update is. Select between 1 day and up to 99 days, or zero to alter a temporal database to nontemporal.   It is important to note that   The statistics can cover a longer time period than the period for which logs of conversations are retained.         "
+        }
+      ],
+      "retrieval": {
+        "query": "Can you delete conversations?",
+        "rewritten_query": null,
+        "mtrag_official_lastturn_query": null,
+        "k": 5,
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_02844-3227-3811",
+            "score": null,
+            "score_type": "contriever",
+            "text": " conversation.synonym.delete deletes a synonym that is associated with an entity value.   conversation.synonym.update edits a synonym that is associated with an entity value.   conversation.userdata.delete deletes data that was created by a specified customer.   conversation.value.create creates an entity value.   conversation.value.delete deletes an entity value.   conversation.value.update edits an entity value.   conversation.workspace.create creates a workspace.   conversation.workspace.delete deletes a workspace.   conversation.workspace.update makes changes to a workspace.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_02844-1555-3643",
+            "score": null,
+            "score_type": "contriever",
+            "text": " conversation.counterexample.update edits a counterexample.   conversation.data.update does a bulk action, such as importing a CSV file of intents or entities to the skill, or deleting multiple training data items, such as multiple entities or intents.   conversation.entity.create creates an entity.   conversation.entity.delete deletes an entity.   conversation.entity.update edits an entity.   conversation.example.create adds a user input example to an intent.   conversation.example.delete deletes a user example from an intent.   conversation.example.update edits a user example that is associated with an intent.   conversation.intent.create creates an intent.   conversation.intent.delete deletes an intent.   conversation.intent.update edits an intent.   conversation.log.create corrects an intent that was inaccurately categorized by the skill from the Analytics>User conversations page.   conversation.node.create creates a dialog node.   conversation.node.delete deletes a dialog node.   conversation.node.update edits a dialog node.   conversation.skill.create creates a skill, either dialog or search.   conversation.skill.delete deletes a skill.   conversation.skill.update updates a skill.   conversation.skill_reference.create adds a specific skill to an assistant.   conversation.skill_reference.delete removes a specific skill from an assistant.   conversation.skill_reference.update updates a specific skill that is associated with an assistant.   conversation.snapshot.create creates a version of a dialog skill.   conversation.snapshot.delete deletes a version of a dialog skill.   conversation.synonym.create creates a synonym for an entity value.   conversation.synonym.delete deletes a synonym that is associated with an entity value.   conversation.synonym.update edits a synonym that is associated with an entity value.   conversation.userdata.delete deletes data that was created by a specified customer.   conversation.value.create creates an entity value.   conversation.value.delete deletes an entity value.   conversation.value.update edits an entity value.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_03112-7441-8509",
+            "score": null,
+            "score_type": "contriever",
+            "text": " } } } } } Show more       Restoring conversation state   In some situations, you might want the ability to restore a conversation to a previous state.  You can use the export option on stateful message requests to specify that you want the context object in the response to include complete session state data. If you specify true for this option, the returned skill context includes an encoded state property that represents the current conversation state.  If you are using the stateful message API, the service stores conversation state data only for the life of the session. However, if you save this context data (including state) and send it back to the service with a subsequent message request, you can restore the conversation to the same state, even if the original session has expired or has been deleted.  If you are using the stateless message API, the state property is always included in responses (along with the rest of context). Although stateless sessions do not expire, you can still use this state data to reset a conversation to a previous state.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_02844-4-2018",
+            "score": null,
+            "score_type": "contriever",
+            "text": " {{site.data.content.newlink}}     Audit events   As a security officer, auditor, or manager, you can use the [IBM Cloud Pak for Data audit service](https://www.ibm.com/docs/en/cloud-paks/cp-data/latest?topic=considerations-auditing-cloud-pak-data) to track how users and applications interact with Watson Assistant.  IBM Cloud Pak for Data audit service records user-initiated activities that change the state of a service in Watson Assistant. You can use this service to investigate abnormal activity and critical actions and to comply with regulatory audit requirements. For more information about exporting audit records to your security information and event management (SIEM) solutions, see [Auditing Cloud Pak for Data](https://www.ibm.com/docs/en/cloud-paks/cp-data/latest?topic=considerations-auditing-cloud-pak-data).     List of events   The following table lists the Watson Assistant activities that generate events.    Table 1. Activities that generate events   Action Triggered when someone...    conversation.assistant.create creates an assistant.   conversation.assistant.delete deletes an assistant.   conversation.assistant.update updates an assistant. For example, renames the skill, changes the session timeout, or changes its associated skills.   conversation.counterexample.create marks test user input in the Try it out pane as being irrelevant or corrects the categorization of a user input that was incorrectly assigned to an intent by marking it as irrelevant.   conversation.counterexample.delete deletes a counterexample.   conversation.counterexample.update edits a counterexample.   conversation.data.update does a bulk action, such as importing a CSV file of intents or entities to the skill, or deleting multiple training data items, such as multiple entities or intents.   conversation.entity.create creates an entity.   conversation.entity.delete deletes an entity.   conversation.entity.update edits an entity.   conversation.example.create adds a user input example to an intent.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_07578-74047-75977",
+            "score": null,
+            "score_type": "contriever",
+            "text": " You can typically find an option for clearing the cache or deleting cookies in the browser's privacy and security settings. * If accessing the page by using a private browsing window doesn't fix the issue, then try deleting the API key for the instance and creating a new one.    * Why am I being asked to log in repeatedly?  If you keep getting messages, such as you are getting redirected to login, it might be due to one of the following things:    * The Lite plan that you were using expired. Lite plans expire if they are not used within a 30-day span. To begin again, log in to IBM Cloud and create a new service instance of Watson Assistant. * An instance is locked when you exceed the plan limits for the month. To log in successfully, wait until the start of the next month when the plan limit totals are reset.    * Why don't I see the Analytics page?  To view the Analytics page, you must have a service role of Manager and a platform role of at least Viewer. For more information about access roles and how to request an access role change, see [Managing access to resources](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-access-control). * Why am I unable to view the API details, API key, or service credentials?  If you cannot view the API details or service credentials, it is likely that you do not have Manager access to the service instance in which the resource was created. Only people with Manager access to the instance can use the service credentials. * Can I export the user conversations from the Analytics page?  You cannot directly export conversations from the conversation page. However, you can use the /logs API to list events from the transcripts of conversations that occurred between your users and your assistant. For more information, see the [V2 API reference](https://cloud.ibm.com/apidocs/assistant/assistant-v2listlogs). Or, you can use a Python script to export logs.",
+            "title": ""
+          }
+        ],
+        "intermediate": {},
+        "final_context_documents": [
+          {
+            "rank": 1,
+            "doc_id": "ibmcld_02844-3227-3811",
+            "score": null,
+            "score_type": "contriever",
+            "text": " conversation.synonym.delete deletes a synonym that is associated with an entity value.   conversation.synonym.update edits a synonym that is associated with an entity value.   conversation.userdata.delete deletes data that was created by a specified customer.   conversation.value.create creates an entity value.   conversation.value.delete deletes an entity value.   conversation.value.update edits an entity value.   conversation.workspace.create creates a workspace.   conversation.workspace.delete deletes a workspace.   conversation.workspace.update makes changes to a workspace.",
+            "title": ""
+          },
+          {
+            "rank": 2,
+            "doc_id": "ibmcld_02844-1555-3643",
+            "score": null,
+            "score_type": "contriever",
+            "text": " conversation.counterexample.update edits a counterexample.   conversation.data.update does a bulk action, such as importing a CSV file of intents or entities to the skill, or deleting multiple training data items, such as multiple entities or intents.   conversation.entity.create creates an entity.   conversation.entity.delete deletes an entity.   conversation.entity.update edits an entity.   conversation.example.create adds a user input example to an intent.   conversation.example.delete deletes a user example from an intent.   conversation.example.update edits a user example that is associated with an intent.   conversation.intent.create creates an intent.   conversation.intent.delete deletes an intent.   conversation.intent.update edits an intent.   conversation.log.create corrects an intent that was inaccurately categorized by the skill from the Analytics>User conversations page.   conversation.node.create creates a dialog node.   conversation.node.delete deletes a dialog node.   conversation.node.update edits a dialog node.   conversation.skill.create creates a skill, either dialog or search.   conversation.skill.delete deletes a skill.   conversation.skill.update updates a skill.   conversation.skill_reference.create adds a specific skill to an assistant.   conversation.skill_reference.delete removes a specific skill from an assistant.   conversation.skill_reference.update updates a specific skill that is associated with an assistant.   conversation.snapshot.create creates a version of a dialog skill.   conversation.snapshot.delete deletes a version of a dialog skill.   conversation.synonym.create creates a synonym for an entity value.   conversation.synonym.delete deletes a synonym that is associated with an entity value.   conversation.synonym.update edits a synonym that is associated with an entity value.   conversation.userdata.delete deletes data that was created by a specified customer.   conversation.value.create creates an entity value.   conversation.value.delete deletes an entity value.   conversation.value.update edits an entity value.",
+            "title": ""
+          },
+          {
+            "rank": 3,
+            "doc_id": "ibmcld_03112-7441-8509",
+            "score": null,
+            "score_type": "contriever",
+            "text": " } } } } } Show more       Restoring conversation state   In some situations, you might want the ability to restore a conversation to a previous state.  You can use the export option on stateful message requests to specify that you want the context object in the response to include complete session state data. If you specify true for this option, the returned skill context includes an encoded state property that represents the current conversation state.  If you are using the stateful message API, the service stores conversation state data only for the life of the session. However, if you save this context data (including state) and send it back to the service with a subsequent message request, you can restore the conversation to the same state, even if the original session has expired or has been deleted.  If you are using the stateless message API, the state property is always included in responses (along with the rest of context). Although stateless sessions do not expire, you can still use this state data to reset a conversation to a previous state.",
+            "title": ""
+          },
+          {
+            "rank": 4,
+            "doc_id": "ibmcld_02844-4-2018",
+            "score": null,
+            "score_type": "contriever",
+            "text": " {{site.data.content.newlink}}     Audit events   As a security officer, auditor, or manager, you can use the [IBM Cloud Pak for Data audit service](https://www.ibm.com/docs/en/cloud-paks/cp-data/latest?topic=considerations-auditing-cloud-pak-data) to track how users and applications interact with Watson Assistant.  IBM Cloud Pak for Data audit service records user-initiated activities that change the state of a service in Watson Assistant. You can use this service to investigate abnormal activity and critical actions and to comply with regulatory audit requirements. For more information about exporting audit records to your security information and event management (SIEM) solutions, see [Auditing Cloud Pak for Data](https://www.ibm.com/docs/en/cloud-paks/cp-data/latest?topic=considerations-auditing-cloud-pak-data).     List of events   The following table lists the Watson Assistant activities that generate events.    Table 1. Activities that generate events   Action Triggered when someone...    conversation.assistant.create creates an assistant.   conversation.assistant.delete deletes an assistant.   conversation.assistant.update updates an assistant. For example, renames the skill, changes the session timeout, or changes its associated skills.   conversation.counterexample.create marks test user input in the Try it out pane as being irrelevant or corrects the categorization of a user input that was incorrectly assigned to an intent by marking it as irrelevant.   conversation.counterexample.delete deletes a counterexample.   conversation.counterexample.update edits a counterexample.   conversation.data.update does a bulk action, such as importing a CSV file of intents or entities to the skill, or deleting multiple training data items, such as multiple entities or intents.   conversation.entity.create creates an entity.   conversation.entity.delete deletes an entity.   conversation.entity.update edits an entity.   conversation.example.create adds a user input example to an intent.",
+            "title": ""
+          },
+          {
+            "rank": 5,
+            "doc_id": "ibmcld_07578-74047-75977",
+            "score": null,
+            "score_type": "contriever",
+            "text": " You can typically find an option for clearing the cache or deleting cookies in the browser's privacy and security settings. * If accessing the page by using a private browsing window doesn't fix the issue, then try deleting the API key for the instance and creating a new one.    * Why am I being asked to log in repeatedly?  If you keep getting messages, such as you are getting redirected to login, it might be due to one of the following things:    * The Lite plan that you were using expired. Lite plans expire if they are not used within a 30-day span. To begin again, log in to IBM Cloud and create a new service instance of Watson Assistant. * An instance is locked when you exceed the plan limits for the month. To log in successfully, wait until the start of the next month when the plan limit totals are reset.    * Why don't I see the Analytics page?  To view the Analytics page, you must have a service role of Manager and a platform role of at least Viewer. For more information about access roles and how to request an access role change, see [Managing access to resources](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-access-control). * Why am I unable to view the API details, API key, or service credentials?  If you cannot view the API details or service credentials, it is likely that you do not have Manager access to the service instance in which the resource was created. Only people with Manager access to the instance can use the service credentials. * Can I export the user conversations from the Analytics page?  You cannot directly export conversations from the conversation page. However, you can use the /logs API to list events from the transcripts of conversations that occurred between your users and your assistant. For more information, see the [V2 API reference](https://cloud.ibm.com/apidocs/assistant/assistant-v2listlogs). Or, you can use a Python script to export logs.",
+            "title": ""
+          }
+        ]
+      },
+      "generation": {
+        "model": "selfrag/selfrag_llama2_7b",
+        "messages": null,
+        "parameters": {}
+      },
+      "rag_answer": "Assistant: Conversations cannot be deleted directly, but you can delete the corresponding data in the database.However, please note that deleting conversations may impact the accuracy of the statistics and could affect the ability to analyze user behavior and preferences.It is recommended to keep the data for at least one year to ensure that the statistics are accurate and complete.",
+      "documents_used": [
+        {
+          "rank": 1,
+          "doc_id": "ibmcld_02844-3227-3811",
+          "score": null,
+          "score_type": "contriever",
+          "text": " conversation.synonym.delete deletes a synonym that is associated with an entity value.   conversation.synonym.update edits a synonym that is associated with an entity value.   conversation.userdata.delete deletes data that was created by a specified customer.   conversation.value.create creates an entity value.   conversation.value.delete deletes an entity value.   conversation.value.update edits an entity value.   conversation.workspace.create creates a workspace.   conversation.workspace.delete deletes a workspace.   conversation.workspace.update makes changes to a workspace.",
+          "title": ""
+        },
+        {
+          "rank": 2,
+          "doc_id": "ibmcld_02844-1555-3643",
+          "score": null,
+          "score_type": "contriever",
+          "text": " conversation.counterexample.update edits a counterexample.   conversation.data.update does a bulk action, such as importing a CSV file of intents or entities to the skill, or deleting multiple training data items, such as multiple entities or intents.   conversation.entity.create creates an entity.   conversation.entity.delete deletes an entity.   conversation.entity.update edits an entity.   conversation.example.create adds a user input example to an intent.   conversation.example.delete deletes a user example from an intent.   conversation.example.update edits a user example that is associated with an intent.   conversation.intent.create creates an intent.   conversation.intent.delete deletes an intent.   conversation.intent.update edits an intent.   conversation.log.create corrects an intent that was inaccurately categorized by the skill from the Analytics>User conversations page.   conversation.node.create creates a dialog node.   conversation.node.delete deletes a dialog node.   conversation.node.update edits a dialog node.   conversation.skill.create creates a skill, either dialog or search.   conversation.skill.delete deletes a skill.   conversation.skill.update updates a skill.   conversation.skill_reference.create adds a specific skill to an assistant.   conversation.skill_reference.delete removes a specific skill from an assistant.   conversation.skill_reference.update updates a specific skill that is associated with an assistant.   conversation.snapshot.create creates a version of a dialog skill.   conversation.snapshot.delete deletes a version of a dialog skill.   conversation.synonym.create creates a synonym for an entity value.   conversation.synonym.delete deletes a synonym that is associated with an entity value.   conversation.synonym.update edits a synonym that is associated with an entity value.   conversation.userdata.delete deletes data that was created by a specified customer.   conversation.value.create creates an entity value.   conversation.value.delete deletes an entity value.   conversation.value.update edits an entity value.",
+          "title": ""
+        },
+        {
+          "rank": 3,
+          "doc_id": "ibmcld_03112-7441-8509",
+          "score": null,
+          "score_type": "contriever",
+          "text": " } } } } } Show more       Restoring conversation state   In some situations, you might want the ability to restore a conversation to a previous state.  You can use the export option on stateful message requests to specify that you want the context object in the response to include complete session state data. If you specify true for this option, the returned skill context includes an encoded state property that represents the current conversation state.  If you are using the stateful message API, the service stores conversation state data only for the life of the session. However, if you save this context data (including state) and send it back to the service with a subsequent message request, you can restore the conversation to the same state, even if the original session has expired or has been deleted.  If you are using the stateless message API, the state property is always included in responses (along with the rest of context). Although stateless sessions do not expire, you can still use this state data to reset a conversation to a previous state.",
+          "title": ""
+        },
+        {
+          "rank": 4,
+          "doc_id": "ibmcld_02844-4-2018",
+          "score": null,
+          "score_type": "contriever",
+          "text": " {{site.data.content.newlink}}     Audit events   As a security officer, auditor, or manager, you can use the [IBM Cloud Pak for Data audit service](https://www.ibm.com/docs/en/cloud-paks/cp-data/latest?topic=considerations-auditing-cloud-pak-data) to track how users and applications interact with Watson Assistant.  IBM Cloud Pak for Data audit service records user-initiated activities that change the state of a service in Watson Assistant. You can use this service to investigate abnormal activity and critical actions and to comply with regulatory audit requirements. For more information about exporting audit records to your security information and event management (SIEM) solutions, see [Auditing Cloud Pak for Data](https://www.ibm.com/docs/en/cloud-paks/cp-data/latest?topic=considerations-auditing-cloud-pak-data).     List of events   The following table lists the Watson Assistant activities that generate events.    Table 1. Activities that generate events   Action Triggered when someone...    conversation.assistant.create creates an assistant.   conversation.assistant.delete deletes an assistant.   conversation.assistant.update updates an assistant. For example, renames the skill, changes the session timeout, or changes its associated skills.   conversation.counterexample.create marks test user input in the Try it out pane as being irrelevant or corrects the categorization of a user input that was incorrectly assigned to an intent by marking it as irrelevant.   conversation.counterexample.delete deletes a counterexample.   conversation.counterexample.update edits a counterexample.   conversation.data.update does a bulk action, such as importing a CSV file of intents or entities to the skill, or deleting multiple training data items, such as multiple entities or intents.   conversation.entity.create creates an entity.   conversation.entity.delete deletes an entity.   conversation.entity.update edits an entity.   conversation.example.create adds a user input example to an intent.",
+          "title": ""
+        },
+        {
+          "rank": 5,
+          "doc_id": "ibmcld_07578-74047-75977",
+          "score": null,
+          "score_type": "contriever",
+          "text": " You can typically find an option for clearing the cache or deleting cookies in the browser's privacy and security settings. * If accessing the page by using a private browsing window doesn't fix the issue, then try deleting the API key for the instance and creating a new one.    * Why am I being asked to log in repeatedly?  If you keep getting messages, such as you are getting redirected to login, it might be due to one of the following things:    * The Lite plan that you were using expired. Lite plans expire if they are not used within a 30-day span. To begin again, log in to IBM Cloud and create a new service instance of Watson Assistant. * An instance is locked when you exceed the plan limits for the month. To log in successfully, wait until the start of the next month when the plan limit totals are reset.    * Why don't I see the Analytics page?  To view the Analytics page, you must have a service role of Manager and a platform role of at least Viewer. For more information about access roles and how to request an access role change, see [Managing access to resources](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-access-control). * Why am I unable to view the API details, API key, or service credentials?  If you cannot view the API details or service credentials, it is likely that you do not have Manager access to the service instance in which the resource was created. Only people with Manager access to the instance can use the service credentials. * Can I export the user conversations from the Analytics page?  You cannot directly export conversations from the conversation page. However, you can use the /logs API to list events from the transcripts of conversations that occurred between your users and your assistant. For more information, see the [V2 API reference](https://cloud.ibm.com/apidocs/assistant/assistant-v2listlogs). Or, you can use a Python script to export logs.",
+          "title": ""
+        }
+      ],
+      "reference": {
+        "answer": "I do not have information on delete conversation.",
+        "evidence_ids": [],
+        "evidence": []
+      },
+      "mtrag_metadata": {
+        "answerability": "UNANSWERABLE",
+        "question_type": [
+          "How-To"
+        ],
+        "multi_turn": [
+          "Follow-up"
+        ]
+      }
+    }
+  ]
+}
